@@ -220,32 +220,3 @@ Reading: the per-`(` cost is a *constant* (one speculative type parse + a cheap 
 does not compound with nesting — depth is **flat**, and `deep_parens` (pure parens, no
 cast) is unaffected. The single shared `rightExpr` is what keeps it linear: nothing is
 re-parsed or duplicated per nesting level.
-
-## Known limitation: macro AST serialization
-
-`AmbiguousForcedCastExpr` has no entry in the macro AST serializer
-(`src/Macro/ExprSerialization.cpp`, the `serializeExprMap` `{ASTKind → serializer}`
-table) and no corresponding flatbuffer schema node. The lookup miss is handled
-gracefully — an empty `flatbuffers::Offset` is returned, so there is **no crash**.
-
-**Impact (narrow):** a forced cast written *directly inside a macro argument*, e.g.
-`@M((U)e)`, is still an un-desugared `AmbiguousForcedCastExpr` when the argument AST is
-serialized for the macro, so it serializes to an empty node and the macro receives a
-broken/empty expression. Forced casts anywhere outside macro-argument ASTs are
-unaffected (they are desugared in sema before any serialization). This is independent
-of the separate "stale `std.ast.cjo`" build-skew issue.
-
-**To support it, changes are needed in three layers:**
-
-1. **flatbuffer schema** (`.fbs` for `NodeFormat`): add an `AmbiguousForcedCastExpr`
-   table and add it to the `AnyExpr` union; regenerate both the C++ `NodeFormat` header
-   and the Cangjie `NodeFormat_generated.cj`.
-2. **Compiler serializer** (`src/Macro/ExprSerialization.cpp`): add
-   `SerializeAmbiguousForcedCastExpr` and a `serializeExprMap` entry (~20–30 lines).
-3. **std/ast (stdlib)**: a node class in `exprs.cj`, a `createAmbiguousForcedCastExpr`
-   + `case "ambiguous_forced_cast_expr"` in `parse_expr.cj`, plus `decode`/`toBytes`
-   support (~50–80 lines), then rebuild the stdlib so `std.ast.cjo` matches.
-
-**Rough size:** medium — schema + 2 regenerated files + ~25 lines C++ + ~60 lines
-Cangjie + a stdlib rebuild. A cheaper, lossy alternative is to serialize the node as a
-reconstruction of one reading, but that discards the ambiguity and is not recommended.
