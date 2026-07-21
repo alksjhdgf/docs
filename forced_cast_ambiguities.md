@@ -8,23 +8,27 @@ how each of the two readings must be resolved.
 
 A forced cast `(U)e` converts an `Extern<R>` handle to type `U`. It desugars to
 `R.fromExtern<U>(e)`, where `R` is the runtime type taken from the operand's
-`Extern<R>` type. Syntactically `(U)…` looks identical to a parenthesized value
-`(U)` followed by a call / subscript / operator, so the two readings must be
-disambiguated.
+`Extern<R>` type. Syntactically `(U)…` overlaps with a parenthesized value followed
+by a call, and sits next to ordinary subscript/operator forms whose boundaries must
+remain unchanged.
 
-**Resolution rule (semantic):** a `(U)X` form is a forced cast **iff** `U` parses
-as a *type* **and** the operand is of type `Extern<R>`. Otherwise it is the
-ordinary reading. Note that a name like `User` parses as *both* a type and an
-expression, so "the type reading succeeded" is **not** sufficient on its own — the
-operand being `Extern<R>` is the deciding condition.
+**Resolution rule (semantic):** branch selection depends only on what `U` resolves
+to. If `U` resolves to a type, `(U)X` unconditionally takes the forced-cast branch;
+`X` must then type-check as `Extern<R>`, otherwise the forced-cast diagnostic is
+reported. If `U` does not resolve to a type, only the call form `(U)(args)` has an
+ordinary reading, which is materialised as `U(args)`.
+
+This distinction is intentional. In particular, `(User)(arg)` must not silently
+fall back to the constructor call `User(arg)` when `User` is a type and `arg` is not
+`Extern<R>`. Constructors use the canonical, unambiguous `User(arg)` spelling.
 
 **AST representation:** every potentially-forced-cast site is parsed into a single
-`AmbiguousForcedCastExpr { type, leftExpr, rightExpr }` node, where `type` is `U`
-parsed as a type, `leftExpr` is `U` parsed as an expression (either may be
-`nullptr` if that parse is not valid), and `rightExpr` is the operand, **parsed
-once and shared** by both readings. Sema selects one reading and materializes it
-(moving `rightExpr` into the chosen form); there is no second parse and no
-exponential blow-up under nesting.
+`AmbiguousForcedCastExpr { type, leftExpr, rightExpr }` node, where `type` is the
+syntactic type candidate for `U`, `leftExpr` is the expression form derived from
+that type candidate when one exists, and `rightExpr` is the operand, **parsed once
+and shared** by both readings. Sema resolves `type` and materialises either the
+forced-cast call or, for a non-type call form, the ordinary call. There is no
+second operand parse and no exponential blow-up under nesting.
 
 ## Root cause: a semantic ambiguity, unlike Java's
 
@@ -38,10 +42,10 @@ from different causes and are resolved at different stages:
   reference-type cast may not take a `+`/`-` operand, `UnaryExpressionNotPlusMinus`). And
   Java has no `value(args)` call operator at all, so the cast-vs-call case never even
   arises.
-- **Cangjie — a genuine semantic ambiguity.** Whether `(U)X` is a forced cast or an
-  ordinary call depends on whether `U` resolves to a type *and* whether the operand is
-  `Extern<R>` — facts unknown until type checking. No amount of lookahead can decide it; it
-  is not resolvable in the parser at all.
+- **Cangjie — a genuine semantic ambiguity.** Whether the syntactic type candidate `U`
+  denotes a type or a callable value is unknown until name and type resolution. No amount
+  of token lookahead can decide it. The operand's `Extern<R>` type validates a selected
+  forced cast; it does not decide whether to fall back to an ordinary call.
 
 So the scenario and the triggering cause are different: Java's is a lookahead artifact the
 parser clears up locally, Cangjie's is semantic and cannot be. The chain is therefore
@@ -53,9 +57,8 @@ sema decides; see *Deferred-decision design*).
 
 | Syntactic form / example | Reading A — forced cast (`U` a type, operand `Extern<R>`) | Reading B — ordinary (`U` a value) | Selected when | In Java |
 |---|---|---|---|---|
-| `(U)(e)`  — e.g. `(User)(handle)` | `R.fromExtern<User>(handle)` (cast of the operand `handle`) | `User(handle)` — `CallExpr` (call `U` with arg `e`) | A if `U` is a type and `e` is `Extern<R>`; otherwise B | Not ambiguous: Java has no `value(args)` call operator. A bare **method name** is not an expression (you write `foo(e)`, never `(foo)(e)`), construction uses `new Foo(e)`, and a functional value is invoked through a method (`r.run()`). So `(U)(e)` can only be a cast of `(e)`; whether `U` is a type is settled by name resolution. |
-| `(U)(e1, e2)` — e.g. `(User)(a, b)` | `R.fromExtern<User>((a, b))` (cast of the **tuple** `(a, b)`) | `User(a, b)` — `CallExpr` with args `a`, `b` | A if `U` is a type and the tuple operand is `Extern<R>` (rare); otherwise B. The shared `rightExpr` is the tuple; the call reading spreads its elements into arguments | No analogue — Java has no tuple expression, so `(a, b)` is not a valid operand. |
-| `(U)[i]` — e.g. `(User)[0]` | `R.fromExtern<User>([0])` (cast of the **array literal** `[0]`) | `User[0]` — `SubscriptExpr` (index `U` by `i`) | A if `U` is a type and the array-literal operand is `Extern<R>` (rare); otherwise B | No analogue — Java has no array-literal operand; `[i]` cannot start an expression. |
+| `(U)(e)`  — e.g. `(User)(handle)` | `R.fromExtern<User>(handle)` (cast of the operand `handle`) | `User(handle)` — `CallExpr` (call value `U` with arg `e`) | A whenever `U` resolves to a type; a non-`Extern` operand is then an error. B only when `U` does not resolve to a type | Not ambiguous: Java has no `value(args)` call operator. A bare **method name** is not an expression (you write `foo(e)`, never `(foo)(e)`), construction uses `new Foo(e)`, and a functional value is invoked through a method (`r.run()`). So `(U)(e)` can only be a cast of `(e)`; whether `U` is a type is settled by name resolution. |
+| `(U)(e1, e2)` — e.g. `(f)(a, b)` | A forced-cast attempt with tuple operand `(e1, e2)` | `f(a, b)` — `CallExpr` with args `a`, `b` | A whenever `U` resolves to a type (normally rejected because the tuple is not `Extern<R>`); B when `U` is a callable value. The ordinary reading spreads the tuple elements into arguments | No analogue — Java has no tuple expression, so `(a, b)` is not a valid operand. |
 | `(U)-e` — e.g. `(x)-makeExtern(1)` | *(would be)* `R.fromExtern<x>(-makeExtern(1))` — **never selected** | `x - makeExtern(1)` — `BinaryExpr` (subtraction) | **Always B, by language definition** (see note below) | Same outcome, resolved *syntactically*: Java's grammar forbids a **reference**-type cast from taking a `+`/`-` operand (`UnaryExpressionNotPlusMinus`, JLS §15.16), so `(Foo)-e` is binary `Foo - e`; only a **primitive** cast like `(int)-e` casts `-e`. |
 
 ### Note on `(U)-e`
@@ -65,7 +68,7 @@ sema decides; see *Deferred-decision design*).
 token that is both a prefix-unary and a binary operator, so leaving `(U)-e`
 ambiguous would be the one case that forces a genuine *structural* fork in the
 AST (operand `-e` vs. binary `U - e`). By fixing it as binary, every remaining
-ambiguity differs only in the *top* node (cast vs. call/subscript) while sharing
+ambiguity differs only in the *top* node (cast vs. call) while sharing
 the same operand sub-tree, so no dual AST is ever needed.
 
 To force a cast of a negated operand, parenthesize it explicitly:
@@ -83,9 +86,10 @@ boundary explicit.
 |---|---|
 | `(U)value` — juxtaposition, e.g. `(User)value` | Forced cast only. `(U) value` is not a valid expression (two adjacent expressions), so there is no ordinary reading |
 | `(U)!e` — e.g. `(User)!flag` | Forced cast of `!e` only. `!` has no binary form, so there is no binary reading |
+| `(U)[i]` — e.g. `(holder)[0]` | Subscript on the parenthesised expression `U`. `[` is explicitly excluded from forced-cast recognition |
 | `(U)+e`, `(U)*e`, `(U)/e`, `(U)<e`, `(U)==e`, … | Binary expression only. `+ * / < ==` … (and every binary-only operator) have no prefix-unary form, so `U` is necessarily a value |
 | `(U).f` — e.g. `(holder).field` | Member access on `(U)` only. A forced-cast operand cannot begin with `.` |
-| `(U)(name: e)` — labeled argument | Call only. A labeled argument list cannot be parsed as a tuple/expression operand, so the cast reading does not exist |
+| `(U)(name: e)` — labeled argument | No forced-cast reading exists because a labeled argument list is not an expression operand. This spelling remains invalid for both type and function callees; constructors and named function calls must use the direct callee forms `Type(name: e)` and `func(name: e)` |
 
 ## Operand binding and trailing postfix
 
@@ -96,42 +100,45 @@ distinguishes them in the AST:
   `(U)e.f`, `(U)e.f()`, `(U)e[i]` parse as `(U)(e.f)`, `(U)(e.f())`, `(U)(e[i])` —
   the operand `rightExpr` is the full postfix expression `e.f`/`e.f()`/`e[i]`, so a
   forced cast applies `fromExtern` once to the fully-resolved operand.
-- **Call/subscript form `(U)(e)…` / `(U)[i]…`** captures only the *immediate*
-  `(e)` / `[i]`; any further postfix attaches to the **resolved** node. Thus
+- **Call form `(U)(e)…`** captures only the *immediate* `(e)`; any further postfix
+  attaches to the **resolved** node. Thus
   `(consume)(e).f` is `(consume(e)).f` — call first, then member access — and
   `(User)(handle).f` is `(User.fromExtern(handle)).f`. This asymmetry is required
   so that a chained call like `(f)(a)(b)` reads as `((f a) b)` rather than trying
   to treat `(b)` as part of the operand.
 
+The immediate form `(U)[i]` is not one of these operand shapes: it remains a normal
+subscript on `(U)` and never creates `AmbiguousForcedCastExpr`.
+
 ## Diagnostics
 
-Selection failures are reported according to which reading was attempted:
+Selection failures are reported according to the resolved role of `U`:
 
 - **`U` is a type, operand is not `Extern<R>`, juxtaposition `(U)e`** — there is no
   ordinary reading, so this is reported as a malformed forced cast:
   *"invalid interoperation forced cast: `(U)e` requires `U` to be a type and `e` to
   be an expression of `Extern` type; use `as` for ordinary type conversions"*.
-- **`U` is a type, operand is not `Extern<R>`, call form `(U)(args)`** — the
-  ordinary reading `U(args)` is attempted first. If it type-checks (e.g. `args`
-  matches a constructor) it is used; if it does **not** type-check, the construct is
-  reported with the same forced-cast diagnostic (the malformed forced cast is the
-  more specific explanation, since the `(U)(…)` shape signalled cast intent).
-- **`U` is not a type** — there is no forced-cast candidate; the ordinary reading's
-  own diagnostics apply (e.g. an undeclared-identifier or call-arity error).
+- **`U` is a type, operand is not `Extern<R>`, call form `(U)(args)`** — report the
+  forced-cast diagnostic immediately. Do not try `U(args)`, even if `U` has a matching
+  constructor. The constructor spelling is `U(args)`.
+- **`U` is not a type, call form `(U)(args)`** — materialise the ordinary call and
+  use its normal diagnostics (for example, undeclared callee or call-arity errors).
+- **`U` is not a type, juxtaposition `(U)e`** — there is no ordinary reading; keep
+  the node invalid and allow the operand/name-resolution diagnostics to surface.
 
 ## Deferred-decision design
 
-The cast-vs-ordinary choice cannot be made at parse time — it depends on whether `U`
-resolves to a type and whether the operand is `Extern<R>`, both known only in sema. So
-the parser does not decide: it emits one node carrying the material for both readings,
-and the type checker commits to one.
+The cast-vs-ordinary choice cannot be made at parse time because it depends on whether
+`U` resolves to a type. The parser therefore emits one node carrying the material for
+both readings, and the type checker commits to one. Whether the operand is `Extern<R>`
+is checked only after the forced-cast branch has been selected.
 
 ### The node (parser output)
 
 ```
 AmbiguousForcedCastExpr {
-    OwnedPtr<Type> type;       // `U` parsed as a type       (null if not a valid type)
-    OwnedPtr<Expr> leftExpr;   // `U` parsed as an expression (null if not a valid expr)
+    OwnedPtr<Type> type;       // syntactic type candidate for `U`
+    OwnedPtr<Expr> leftExpr;   // expression form derived from `U` (null if unavailable)
     OwnedPtr<Expr> rightExpr;  // the operand, parsed once, shared by both readings
 }
 ```
@@ -144,21 +151,43 @@ form `(U)e` never does.
 
 ### Selection (sema)
 
-`SynAmbiguousForcedCastExpr` resolves `type` (under diagnostic suppression, since it may
-legitimately not be a type) and then picks:
+`SynAmbiguousForcedCastExpr` resolves `type` under diagnostic suppression, since the
+candidate may legitimately name a value, and then picks:
 
-1. `type` is a type **and** the operand synthesises to `Extern<R>`
-   → **forced cast**: desugar to `R.fromExtern<U>(operand)`.
-2. else, call form `(U)(args)`
+1. `type` resolves to a type
+   → select **forced cast** unconditionally; if the operand synthesises to
+   `Extern<R>`, desugar to `R.fromExtern<U>(operand)`, otherwise report the
+   forced-cast diagnostic.
+2. `type` does not resolve to a type, and this is call form `(U)(args)`
    → **ordinary call**: materialise `U(args)` from `leftExpr` + `rightExpr`.
-3. else (juxtaposition, no valid cast)
-   → **error** (the forced-cast diagnostic when `U` is a type).
+3. otherwise (non-type juxtaposition, no ordinary reading)
+   → keep an invalid result and surface the relevant operand/name diagnostics.
 
-The chosen reading is stored in the inherited `desugarExpr`; every later pass (including
-CHIR) follows `desugarExpr`, and the ambiguous node itself is never lowered. The single
+On successful selection the chosen reading is stored in the inherited `desugarExpr`;
+every later pass (including CHIR) follows `desugarExpr`, and the ambiguous node itself
+is never lowered. The single
 *shared* `rightExpr` is what keeps nesting linear — no second parse, nothing duplicated
-per level. (This deferral is forced by the *semantic* nature of the ambiguity — see
-*Root cause* above.)
+per level. Call-form operands are parsed with the outer forced-cast attempt disabled, so
+trailing `(args)`, `[i]`, and `.member` bind to the resolved result and continuous call
+chains remain left-associative.
+
+## Macro / `std.ast` support
+
+`AmbiguousForcedCastExpr` is part of the macro AST round-trip rather than a
+compiler-private dead end:
+
+- the compiler serialises the target type, parentheses, and operand through the
+  FlatBuffers macro schema;
+- `std.ast` exposes `AmbiguousForcedCastExpr` with mutable `targetType`, `lParen`,
+  `rParen`, and `expr` properties, plus `toTokens`, `traverse`, and `dump`;
+- `parseExpr`, generic node parsing, macro position updates, and `Visitor` dispatch all
+  recognise the node;
+- declaration and expression macros may preserve it, construct it from tokens, remove
+  or add wrappers, retarget it, and rewrite it through a visitor.
+
+After macro expansion the same semantic rule still applies: a type-valued target selects
+forced-cast semantics, and a non-`Extern` operand produces the normal forced-cast
+diagnostic rather than falling back to construction.
 
 ## Benchmark
 

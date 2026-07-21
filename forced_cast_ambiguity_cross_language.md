@@ -1,67 +1,111 @@
-# Forced-cast `(X)(Y)(Z)`: cast-vs-call across C, Java, Cangjie
+# Forced-cast `(X)(Y)(Z)`: cast-vs-call across C, Java, and Cangjie
 
 Companion to `forced_cast_ambiguities.md`, focused on how the `(X)(Y)` cast-vs-call
-ambiguity is handled in C and Java, and where Cangjie's implementation diverges and breaks.
+ambiguity is handled in C and Java, and how Cangjie preserves ordinary call
+associativity while deferring the type/value decision to Sema.
 
 ## The ambiguity
 
-`(a)(b)` is a **cast** of `b` to `a` when `a` is a type, or a **call** `a(b)` when `a` is
-a value. The two readings have opposite associativity:
+`(a)(b)` is a forced cast of `b` to `a` when `a` resolves to a type, or an ordinary
+call `a(b)` when `a` resolves to a callable value. The two readings naturally pull in
+different directions:
 
-- a cast prefix `(U)` grabs the expression to its right → **right-associative**;
-- a postfix call chains left → **left-associative**.
+- a cast prefix `(U)` consumes an expression to its right;
+- postfix calls chain from left to right.
 
-So the grouping of `(X)(Y)(1)` depends on what `X` and `Y` are.
+Consequently, a naive speculative parse of `(X)(Y)(1)` can accidentally change an
+ordinary call chain from `((X)(Y))(1)` into `X(Y(1))`.
 
-## C — decided at parse time (the "lexer hack")
+## C — decided during parsing (the “lexer hack”)
 
-C's lexer consults the symbol table, so at each `(` the parser already knows whether the
-next token is a type-name (`typedef`) or a value. The decision is deterministic, no
-backtracking. `X`'s classification at the *first* `(` alone fixes cast-mode (right-assoc)
-vs value-mode (left-assoc):
+C commonly classifies typedef names using symbol-table information supplied to the
+lexer/parser. At each `(` the parser can therefore distinguish a type-name from a value
+name and choose cast or call syntax immediately.
 
 | `(X)(Y)(1)` | grouping | meaning |
 |---|---|---|
-| X type, Y type | `(X)((Y)(1))` | nested casts (right-assoc) |
-| X type, Y func | `(X)(Y(1))` | cast of a call |
-| X func, Y func | `((X)(Y))(1)` | chained calls (left-assoc) |
-| X func, Y type | error | `Y` used as a bare argument |
+| X type, Y type | `(X)((Y)(1))` | nested casts |
+| X type, Y function | `(X)(Y(1))` | cast of a call |
+| X function, Y function | `((X)(Y))(1)` | chained calls |
+| X function, Y type | error | `Y` used as a bare argument |
 
-C's grammar is therefore context-sensitive.
+This works because the parser already knows the relevant type/value classification.
 
 ## Java — avoided by construction
 
-Java has no "call an arbitrary expression" syntax: you cannot write `(x)(y)` to invoke
-`x`. So `(a)(b)` can only be a cast (`a` must be a type) — the cast-vs-call ambiguity does
-not exist. (Java still restricts cast operands to avoid cast-vs-arithmetic ambiguity, e.g.
-`(a)-b` is subtraction for a reference type.)
+Java does not support invoking an arbitrary expression with `(callee)(args)`. A method
+is called as `method(args)`, object construction uses `new Type(args)`, and a functional
+object is invoked through a method. Therefore `(a)(b)` has no value-call reading and the
+cast-vs-call ambiguity considered here does not arise. Java separately constrains cast
+operands to resolve forms such as `(a)-b`.
 
-## Cangjie — speculative parse, and two problems
+## Cangjie — speculative syntax, semantic selection
 
-Cangjie has both expression calls `(e)(args)` and the forced cast `(U)e`, so it inherits
-C's ambiguity. But it parses **before** symbols are collected, so the parser cannot
-classify `X`. It instead *speculatively* parses `(X)` as a type (any identifier parses as
-a `RefType`), commits to the cast / right-associative grouping (`AmbiguousForcedCastExpr`),
-and defers the real decision to Sema. Two consequences:
+Cangjie supports both parenthesised expression calls `(callee)(args)` and forced casts
+`(U)e`, while its parser runs before name/type resolution can determine whether `U` is
+a type. The parser therefore:
 
-1. **Associativity divergence from stock.** For `(foo)(foo)(1)` (both functions), stock
-   Cangjie groups left-associatively as `((foo)(foo))(1)` (a type error), while the
-   forced-cast parser groups right-associatively as `foo(foo(1))`. The same source has a
-   different meaning depending on whether the feature is present.
+1. speculatively parses `(U)` as a type candidate;
+2. derives the corresponding expression-form callee when possible;
+3. parses the operand once into an `AmbiguousForcedCastExpr`;
+4. leaves the type/value decision to Sema.
 
-2. **Nested desugar leak / ICE.** When the outer operand is itself an
-   `AmbiguousForcedCastExpr` (not a `ParenExpr`), the `isCall` heuristic in
-   `SynAmbiguousForcedCastExpr` is false; and since the speculative type is not a real
-   type, the node falls into a dead-end branch and is left un-desugared. Its speculative
-   `RefType` (invalid — the identifier is a function) survives into the checked AST and
-   trips `ASTTypeValidator`: an ICE in a debug build, a silently-invalid node in release.
-   Minimal repro: `(foo)(foo)(1)`.
+Sema resolves `U` under diagnostic suppression and applies a strict rule:
 
-## Fix directions
+- if `U` resolves to a type, select forced-cast semantics; the operand must be
+  `Extern<R>`, otherwise report the forced-cast diagnostic;
+- if `U` does not resolve to a type and the syntax is `(U)(args)`, materialise the
+  ordinary call `U(args)`;
+- a non-type juxtaposition `(U)e` has no ordinary reading.
 
-- **Stop the leak (robustness, small):** never leave an un-desugared node carrying an
-  invalid speculative type; emit a clean diagnostic instead.
-- **Match stock associativity (medium):** re-associate the call chain in Sema when it is
-  not a forced cast, or make the forced-cast syntax unambiguous (as Java does).
-- **Parse-time resolution (large):** give the parser symbol information like C, which
-  changes the phase-separated architecture.
+The operand's type validates a forced cast but does not choose between cast and call.
+This prevents `(Type)(arg)` from silently becoming the constructor call `Type(arg)`.
+
+## Preserving left-associative call chains
+
+For call form `(U)(args)`, the parser captures only the immediate `(args)` as the
+ambiguous operand and disables another forced-cast attempt at that outer operand
+boundary. Subsequent postfix operations attach to the resolved result. Thus:
+
+```cangjie
+(curry)(1)(2)       // ((curry)(1))(2)
+(Target)(handle).f  // ((Target)(handle)).f
+(Array<Int64>)(handle)[0] // ((Array<Int64>)(handle))[0]
+```
+
+Nested expressions inside the argument group are still parsed normally, so explicit
+nesting such as `(foo)((curry)(1)(2))` keeps its inner call chain intact.
+
+## Historical failure modes and their resolution
+
+The first deferred implementation exposed two real problems:
+
+1. **Associativity divergence.** It greedily parsed the operand as another ambiguous
+   forced cast, so `(foo)(foo)(1)` became `foo(foo(1))` instead of stock Cangjie's
+   left-associated `((foo)(foo))(1)`.
+2. **Nested desugar leak / ICE.** An inner unresolved `AmbiguousForcedCastExpr` could
+   retain an invalid speculative `RefType`, reach `ASTTypeValidator`, and cause an ICE
+   in debug builds or an invalid checked AST in release builds.
+
+These are no longer current limitations. Shallow call-form parsing restores left
+association, every ambiguous node receives either a materialised `desugarExpr` or a
+normal invalid/error result, and cloned nodes with a stale invalid desugar type are
+re-synthesised. Ill-formed chains now produce ordinary parse/type diagnostics rather
+than an ICE.
+
+## Behaviour matrix
+
+| Form | Result |
+|---|---|
+| `(callable)(arg)` | ordinary call, because the callee name is not a type |
+| `(callable)(externArg)` | still an ordinary call; operand type does not select forced cast |
+| `(Type)(externArg)` | forced cast |
+| `(Type)(ordinaryArg)` | forced-cast diagnostic; no constructor fallback |
+| `Type(ordinaryArg)` | canonical constructor call |
+| `(curry)(1)(2)` | left-associated ordinary call chain |
+| `(foo)(foo)(1)` | left-associated and normally rejected by type checking; never an ICE |
+| `(Type)((OtherType)(externArg))` | explicit nested casts; outer cast fails if the inner result is not `Extern` |
+
+The final design therefore keeps Cangjie's phase separation, preserves the existing
+meaning of parenthesised call chains, and gives type-shaped forced casts a deterministic
+error path.
