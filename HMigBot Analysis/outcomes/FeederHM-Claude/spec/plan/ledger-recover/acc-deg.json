@@ -1,0 +1,97 @@
+[
+ {
+  "id": "deg-acc-content-provider",
+  "kind": "no_equiv",
+  "note": "APP-A80..A83: no external read-only ContentProvider/<appId>.permission.read; RssReadOnlyApi queries stay in-process only",
+  "symbols": [
+   "RSSContentProvider",
+   "RssReadOnlyApi",
+   "DataShareExtensionAbility",
+   "createDataShareHelper"
+  ],
+  "probe": "find sdk -iname '*DataShareExtensionAbility*' → 0 hits; ets/api/@ohos.data.dataShare.d.ts exports only createDataProxyHandle (@since 20, key-value proxy, no query/cursor); createDataShareHelper absent (systemapi)",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ },
+ {
+  "id": "deg-acc-dynamic-shortcuts",
+  "kind": "approx",
+  "note": "RP-A08/UT-A34: no dynamic shortcuts; 3 static slots feed_slot_0..2 shown/hidden by MRU, label 'Recent feed N' + app icon, not feed title/letter icon",
+  "symbols": [
+   "addDynamicShortcutToFeed",
+   "shortcutManager.setShortcutVisibleForSelf",
+   "resolveShortcutWantUri",
+   "shortcuts_config"
+  ],
+  "probe": "@ohos.bundle.shortcutManager.d.ts has only setShortcutVisibleForSelf/getAllShortcutInfoForSelf (@since 20); toolchains/modulecheck/shortcuts.json: label must be $string, icon $media (static)",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ },
+ {
+  "id": "deg-acc-process-text",
+  "kind": "no_equiv",
+  "note": "UT-A40/A41: menu order Copy/Paste/Cut/Select all is kept; third-party PROCESS_TEXT apps can't be listed/launched, only system items + in-app processors",
+  "symbols": [
+   "FeederTextToolbar",
+   "PROCESS_TEXT",
+   "FeederEditMenuOptions",
+   "TextMenuItemId"
+  ],
+  "probe": "@ohos.bundle.bundleManager.d.ts: 0 hits queryAbilityInfo; component/text_common.d.ts TextMenuItemId only CUT/COPY/PASTE/SELECT_ALL/COLLABORATION_SERVICE/CAMERA_INPUT/AI_WRITER/TRANSLATE/SEARCH/SHARE",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ },
+ {
+  "id": "deg-acc-new-tab",
+  "kind": "no_equiv",
+  "note": "UT-A25: DEFAULT_BROWSER opens viewData Want without Browser.EXTRA_CREATE_NEW_TAB (browser decides tab reuse)",
+  "symbols": [
+   "EXTRA_CREATE_NEW_TAB",
+   "ActivityLauncher.openLinkInBrowser"
+  ],
+  "probe": "@ohos.app.ability.wantConstant.d.ts Params: no new-tab key (grep -i 'new_tab|newTab' over wantConstant/UIAbilityContext/OpenLinkOptions → 0)",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ },
+ {
+  "id": "deg-acc-drawer-a11y",
+  "kind": "approx",
+  "note": "UC-A14/UM-A10: 'Toggle tag expansion' custom action → separate arrow button; paneTitle → announce on open + accessibilityText; dismiss = system back",
+  "symbols": [
+   "CustomAccessibilityAction",
+   "paneTitle",
+   "AccessibilityAction",
+   "accessibilityActionOptions"
+  ],
+  "probe": "component/common.d.ts:3601 enum AccessibilityAction = UNDEFINED_ACTION|ACCESSIBILITY_CLICK; AccessibilityActionOptions (units.d.ts) only scrollStep; grep paneTitle in ets/component → 0",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ },
+ {
+  "id": "deg-acc-readability",
+  "kind": "approx",
+  "note": "HM-A44: net.dankito.readability4j 1.0.8 (JVM, Jsoup) re-implemented in ArkTS; extracted HTML not byte-identical to Android (serialization/scoring details)",
+  "symbols": [
+   "Readability",
+   "parseFullArticle",
+   "Readability4JExtended"
+  ],
+  "probe": "input/Feeder/gradle/libs.versions.toml:23,116 readability4j=1.0.8 (JVM jar, no source in repo, 'jvm' bundle :152); ArkTS cannot load JVM libs → port core/html/Readability.ets",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ },
+ {
+  "id": "deg-acc-notify-action",
+  "kind": "policy",
+  "note": "NW-A12/A13: Mark as read uses START_ABILITY→NotificationActionAbility (start window flashes); swipe while dead is reconciled at next start/notify",
+  "symbols": [
+   "RssNotificationBroadcastReceiver",
+   "NotificationActionAbility",
+   "PostedNotifications.reconcile",
+   "removalWantAgent"
+  ],
+  "probe": "@ohos.app.ability.wantAgent.d.ts OperationType = UNKNOWN_TYPE/START_ABILITY/START_ABILITIES/START_SERVICE(FA only)/SEND_COMMON_EVENT; find sdk -iname '*StaticSubscriber*' → 0; AppServiceExtensionAbility not WantAgent-startable",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ }
+]

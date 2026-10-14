@@ -1,0 +1,12 @@
+{
+  "src": "input/Feeder",
+  "out": "output/FeederHM/spec/front/layouts",
+  "totals": {
+    "files": 0,
+    "nodeCoverage": "0/0 (100%)",
+    "attrCoverage": "0/0 (100%)",
+    "unmappedTags": {},
+    "variantLayoutsSkipped": null
+  },
+  "perFile": []
+}

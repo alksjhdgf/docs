@@ -1,0 +1,38 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-opml",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "sleep",
+   "ms": 3000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Export feeds to OPML",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Export feeds to OPML"
+  },
+  {
+   "op": "sleep",
+   "ms": 2500
+  },
+  {
+   "op": "shot",
+   "name": "flow-opml-picker"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "goal": "Feeder（RSS/Atom 阅读器，Kotlin+Compose，约 6 万行）迁移 HarmonyOS：按区提取页面卡/域卡断言（机读格式）+ 探索文档",
+ "docDir": "/Users/ppp/Projects/migrate-core/output/FeederHM/spec/explore",
+ "instructionsFile": "/Users/ppp/Projects/migrate-core/output/FeederHM/spec/explore-instructions.md",
+ "context": "只读 $SRC 与写 spec/explore、spec/cards 下本区文件。",
+ "areas": [
+  {
+   "name": "app-shell",
+   "focus": "应用壳：FeederApplication 初始化、MainActivity（NavHost 宿主，冷启首目的地 Feed、深链、外部 Intent）、ManageSettings/ImportOPMLFile/AddFeedFromShare/OpenLinkInDefault 各 Activity 行为、NavigationDestinations 路由与参数、di、base、ContentProvider（RSSContentProvider 对外接口）、blob；页面 Main/ManageSettings/ImportOPMLFile/AddFeedFromShare/OpenLinkInDefault。断言 ID 前缀：APP",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/FeederApplication.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ApplicationCoroutineScope.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navigation/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/di/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/base/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/contentprovider/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/blob/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/AndroidManifest.xml"
+   ]
+  },
+  {
+   "name": "repository",
+   "focus": "仓储层：archmodel/Repository.kt（全部对 UI 暴露的数据操作）、FeedItemStore、FeedStore、SyncRemoteStore、SessionStore、AndroidSystemStore、Errors、FontStore。断言 ID 前缀：RP",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/FeedItemStore.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/FeedStore.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/SyncRemoteStore.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/SessionStore.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/AndroidSystemStore.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Errors.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/FontStore.kt"
+   ]
+  },
+  {
+   "name": "settings-store",
+   "focus": "设置存储：archmodel/SettingsStore.kt 全部设置项（key/默认值/枚举取值）、data/suggestions（订阅源推荐）、SettingsViewModel。断言 ID 前缀：SS",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/SettingsStore.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/data/suggestions/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/SettingsViewModel.kt"
+   ]
+  },
+  {
+   "name": "db",
+   "focus": "数据库：db/room 全部实体/DAO/迁移（AppDatabase 版本、表结构）、Converters、db/*.kt。断言 ID 前缀：DB",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/db/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/db/room/"
+   ]
+  },
+  {
+   "name": "feed-sync",
+   "focus": "订阅源刷新：model/RssLocalSync（并发抓取、增量、条目去重、保留策略、全文预取）、FeedParser（HTTP 获取、字符集、feed 发现 findFeedUrl、图标）、RateLimiter、ArticleFilterRules、ThumbnailImage、PreviewItem、background/（WorkManager 定期同步、开机/网络约束）。断言 ID 前缀：FS；以及 model/ 下 OkHttp 拦截器（UA、限流、缓存策略、单图并发）与 Parsed* 模型",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/RssLocalSync.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/FeedParser.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/RateLimiter.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ArticleFilterRules.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ThumbnailImage.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/PreviewItem.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/background/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/TooManyRequestsInterceptor.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/OneImageRequestPerHostInterceptor.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ThumbnailImagePolicy.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ForceCacheOnSomeFailuresInterceptor.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/UserAgentInterceptor.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/AlwaysUseCacheIfPossibleRequestsInterceptor.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/FeedUnreadCount.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/RateLimitedInterceptor.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ParsedArticle.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/SiteMetaData.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ParsedFeed.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/OPMLParserHandler.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ParsedEnclosure.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ParsedAuthor.kt"
+   ]
+  },
+  {
+   "name": "feed-parser",
+   "focus": "Feed 解析域：model/gofeed（GoFeed 结构、GoFeedAdapter、扩展函数——源由 Go gofeed 原生库解析 RSS/Atom/RDF/JSON Feed，鸿蒙需自研解析器，请把 GoFeed JSON 字段语义与 asFeed 映射规则逐字段写清）、model/opml（OPML 解析/导出）、model/export；并清点 androidTest/FeedParserTest.kt 与 resources 48 份 fixture 的断言（作为向量来源，写进探索文档：每个 fixture 期望的标题/条目数/关键字段）。断言 ID 前缀：FP",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/gofeed/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/opml/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/export/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/androidTest/java/com/nononsenseapps/feeder/model/FeedParserTest.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/test/java/com/nononsenseapps/feeder/model/gofeed/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/test/java/com/nononsenseapps/feeder/model/opml/"
+   ]
+  },
+  {
+   "name": "html-model",
+   "focus": "HTML 模型域：model/html（HtmlLinearizer 等：把文章 HTML 线性化为可渲染块）、FullTextParser（readability 全文抽取、字符集探测）、HtmlToPlainTextConverter、MarkdownToHtmlConverter；单测 HtmlLinearizerTest/FullTextParserKtTest 用例清点。断言 ID 前缀：HM",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/html/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/FullTextParser.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/text/HtmlToPlainTextConverter.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/text/MarkdownToHtmlConverter.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/test/java/com/nononsenseapps/feeder/model/html/"
+   ]
+  },
+  {
+   "name": "html-ui",
+   "focus": "HTML 渲染 UI 域：ui/compose/html（线性化块→Compose 渲染：段落/标题/列表/引用/代码/表格/图片/视频/链接点击）、ui/compose/text（AnnotatedString 组装、Bidi）。断言 ID 前缀：HU",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/html/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/text/"
+   ]
+  },
+  {
+   "name": "translation",
+   "focus": "翻译域：model/TranslationManager、TranslationLanguageUtils、localtranslation（Bergamot 本地 WASM 翻译：模型下载/管理、WebView 承载）。断言 ID 前缀：TR",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/TranslationManager.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/TranslationLanguageUtils.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/localtranslation/"
+   ]
+  },
+  {
+   "name": "openai",
+   "focus": "OpenAI 域：openai/（客户端、API：摘要/翻译）+ ui/compose/settings/OpenAISection.kt（设置项全清点）。断言 ID 前缀：AI",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/openai/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/OpenAISection.kt"
+   ]
+  },
+  {
+   "name": "readaloud-podcast",
+   "focus": "朗读与播客：model/ReadAloudStateHolder（TTS）、PodcastPlayerStateHolder、ui/compose/readaloud、feedarticle/PodcastPlayerBar、PodcastPlayerLinks。断言 ID 前缀：RA",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/ReadAloudStateHolder.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/PodcastPlayerStateHolder.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/readaloud/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/PodcastPlayerBar.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/PodcastPlayerLinks.kt"
+   ]
+  },
+  {
+   "name": "notifications-widget",
+   "focus": "通知与小组件：model/RssNotifications（新条目通知、分组、操作按钮）、RssNotificationBroadcastReceiver、notifications/、widget/（桌面小组件+页面 FeedWidgetSettings）。断言 ID 前缀：NW",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/RssNotifications.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/model/RssNotificationBroadcastReceiver.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/notifications/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/widget/"
+   ]
+  },
+  {
+   "name": "sync",
+   "focus": "设备同步：sync/（Feeder Sync 协议、REST、加密）、crypto/、ui/compose/sync（页面 SyncScreen：创建/加入同步链、二维码/同步码、设备列表、离开）。断言 ID 前缀：SY",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/sync/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/crypto/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/sync/"
+   ]
+  },
+  {
+   "name": "feed-screen",
+   "focus": "页面 Feed：ui/compose/feed/FeedScreen.kt（主列表、抽屉、顶栏菜单逐项、下拉刷新、批量标记、空态、筛选、排序）+ feedarticle/FeedViewModel.kt。断言 ID 前缀：FD",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt"
+   ]
+  },
+  {
+   "name": "feed-items",
+   "focus": "Feed 条目组件域：FeedItemCard、SwipeableFeedItemPreview（滑动标记已读）、FeedItemCompactCard、FeedItemCompact、FeedItemIndicator、FeedItemSuperCompact、EditFeedDialog、ExplainPermissionDialog。断言 ID 前缀：FI",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedItemCard.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/SwipeableFeedItemPreview.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedItemCompactCard.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedItemCompact.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedItemIndicator.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedItemSuperCompact.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/EditFeedDialog.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/ExplainPermissionDialog.kt"
+   ]
+  },
+  {
+   "name": "article",
+   "focus": "页面 Article：ArticleViewModel、ArticleScreen（阅读页：顶栏菜单逐项、全文/摘要切换、分享、浏览器打开、收藏/已读、翻译入口、朗读入口、上下篇）、ReaderView。断言 ID 前缀：AR",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ReaderView.kt"
+   ]
+  },
+  {
+   "name": "settings-ui",
+   "focus": "页面 Settings：ui/compose/settings/Settings.kt 全部设置项逐条清点（标题/选项/默认值/依赖）、SliderWithLabel、VisualTransformationApiKey。断言 ID 前缀：ST",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/SliderWithLabel.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/VisualTransformationApiKey.kt"
+   ]
+  },
+  {
+   "name": "text-settings",
+   "focus": "页面 TextSettings：TextSettings.kt、TextSettingsViewModel（字体选择、自定义字体导入、字号）、truetype/。断言 ID 前缀：TS",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/TextSettings.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/TextSettingsViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/truetype/"
+   ]
+  },
+  {
+   "name": "edit-search",
+   "focus": "页面 EditFeed/AddFeed（editfeed：表单字段逐项）、SearchFeed/Search（searchfeed：URL/关键字发现订阅源）、deletefeed（删除对话框）、Import（ompl：OPML 导入导出屏）。断言 ID 前缀：EF",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/editfeed/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/searchfeed/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/deletefeed/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/ompl/"
+   ]
+  },
+  {
+   "name": "ui-material",
+   "focus": "自定义 Material3 组件域：ui/compose/material3（NavigationDrawer、SwipeableState、ColorScheme、Shapes）。断言 ID 前缀：UM",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/material3/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/material3/tokens/"
+   ]
+  },
+  {
+   "name": "ui-components",
+   "focus": "通用 UI 组件域：components、dialog、empty（空态）、layouts、modifiers、pullrefresh、theme（主题/深色/动态色/字体）、icons、coil（图片加载）、navdrawer（抽屉：订阅源/标签树、未读数）。断言 ID 前缀：UC",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/components/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/dialog/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/empty/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/layouts/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/modifiers/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/pullrefresh/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/theme/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/icons/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/coil/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navdrawer/"
+   ]
+  },
+  {
+   "name": "util",
+   "focus": "工具域：util/（URL、日期、字符串、网络、语言…行为契约）、ui/compose/utils、ui/text（除 HtmlToPlainTextConverter/MarkdownToHtmlConverter，归 html-model）。断言 ID 前缀：UT",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/util/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/utils/",
+    "/Users/ppp/Projects/migrate-core/input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/text/"
+   ]
+  }
+ ]
+}

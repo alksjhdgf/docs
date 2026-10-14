@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1" xmlns:feeder="https://nononsenseapps.com/feeder">
+  <head>
+    <title>
+      Feeder
+    </title>
+  </head>
+  <body>
+    <outline feeder:notify="false" feeder:imageUrl="https://news.nononsenseapps.com/apple-touch-icon.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" feeder:fetchOgImages="false" title="Feeder NewsFeeder Feeder RenamedRenamed" text="Feeder NewsFeeder Feeder RenamedRenamed" type="rss" xmlUrl="https://news.nononsenseapps.com/index.atom"/>
+    <outline feeder:notify="false" feeder:imageUrl="https://news.ycombinator.com/y18.svg" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" feeder:fetchOgImages="false" title="Hacker News: Front Page" text="Hacker News: Front Page" type="rss" xmlUrl="https://hnrss.org/frontpage"/>
+    <outline title="Tech" text="Tech">
+      <outline feeder:notify="false" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" feeder:fetchOgImages="false" title="Lobsters" text="Lobsters" type="rss" xmlUrl="https://lobste.rs/rss"/>
+    </outline>
+    <feeder:settings>
+      <feeder:setting key="pref_added_feeder_news" value="true"/>
+      <feeder:setting key="pref_theme" value="day"/>
+      <feeder:setting key="pref_dark_theme" value="dark"/>
+    </feeder:settings>
+  </body>
+</opml>

@@ -1,0 +1,29 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "AddFeedFromShare",
+  "kind": "skeleton",
+  "slice": "page-shells",
+  "route": "AddFeedFromShare",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "AddFeedFromShare"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "MANAGE_NETWORK_USAGE",
+        "\\.first\\(\\)",
+        "Install something to open this link with first"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "AddFeedFromShare"
+    }
+  ]
+}

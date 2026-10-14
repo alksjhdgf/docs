@@ -1,0 +1,1300 @@
+{
+  "string": [
+    {
+      "name": "empty_feed_top",
+      "value": "Hier valt niets te lezen. Wil je …"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Navigatiemenu openen"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Navigatiemenu sluiten"
+    },
+    {
+      "name": "action_settings",
+      "value": "Instellingen"
+    },
+    {
+      "name": "add_feed",
+      "value": "Feed toevoegen"
+    },
+    {
+      "name": "tag",
+      "value": "Label"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Feed-URL"
+    },
+    {
+      "name": "title",
+      "value": "Naam"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Een feedadres invoeren"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Als gelezen markeren"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Feed bewerken"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Feed verwijderen"
+    },
+    {
+      "name": "view",
+      "value": "Bekijken"
+    },
+    {
+      "name": "no_tag",
+      "value": "Geen label"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Meldingen stoppen"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Alle als gelezen markeren"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Ongelezen items weergeven"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Alle artikelen weergeven"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Nieuwe artikelen melden"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Link in browser openen"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "In browser openen"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$s openen"
+    },
+    {
+      "name": "read_article",
+      "value": "Hardop lezen"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Met lezen stoppen"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Lezen hervatten"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Lezen onderbreken"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Feeds als OPML exporteren"
+    },
+    {
+      "name": "share",
+      "value": "Artikel delen"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Debug log bekijken"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nieuw op basis hiervan"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indicator om als gelezen te markeren"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Instellingen"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Elke 15 minuten"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Elke 30 minuten"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Elk uur"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Dagelijks"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Alle feeds"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Handmatig"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Elke 3 uur"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Elke 6 uur"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Elke 12 uur"
+    },
+    {
+      "name": "syncing",
+      "value": "Synchronisatie"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Alleen tijdens opladen"
+    },
+    {
+      "name": "image_loading",
+      "value": "Afbeelding laden"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Nieuwe artikelen zoeken…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Bij starten van de app"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Mogelijk kosten voor mobiele data."
+    },
+    {
+      "name": "show_fab",
+      "value": "Zwevende actieknop weergeven"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Inclusief mobiele hotspots"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Bijgewerkte feeds"
+    },
+    {
+      "name": "sync_status",
+      "value": "Sync-status"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Webweergave"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lezer"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Aangepast tabblad"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Standaard app-instelling gebruiken"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Links openen met"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "In webweergave openen"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lezer"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Limiet per feed"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Kan URL niet laden"
+    },
+    {
+      "name": "theme_day",
+      "value": "Licht"
+    },
+    {
+      "name": "theme",
+      "value": "Thema"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Zwart"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Voorkeur donker thema"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Nieuwste eerst"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Oudste eerst"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Bug-rapport sturen"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Tik om video af te spelen"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "sort",
+      "value": "Volgorde"
+    },
+    {
+      "name": "open_feed",
+      "value": "Feed openen"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Label openen"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Gesloten label"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Lijst van gevonden feeds"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Label uitbreiding aan/uit"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Uit"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Aan"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Niet gelukt %1$s te ontleden"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Het volledige artikel ophalen"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Niet het volledige artikel opgehaald"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Volledig artikel ophalen…"
+    },
+    {
+      "name": "go_back",
+      "value": "Terug"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Aangepast tabblad vooraf laden"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "'Tekst naar Spraak' niet geladen"
+    },
+    {
+      "name": "already_read",
+      "value": "Al gelezen"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Alleen ongelezen artikelen weergeven"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Toont alle artikelen"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s ongelezen artikel"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s ongelezen artikelen"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s ongelezen artikelen"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s ongelezen artikelen"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kaart"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Compact"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Opmaak van artikel"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Genereer extra unieke ID's"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Geen geldige URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "OPML-import mislukt"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super compact"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Alleen voor feeds met slechte ID's"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Op feed abonneren"
+    },
+    {
+      "name": "save",
+      "value": "Opslaan"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Er zijn nieuwe artikelen"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Een feed openen?"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Als ongelezen markeren"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Gelezen ja/nee"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Ingesloten media openen"
+    },
+    {
+      "name": "sync",
+      "value": "Synchroniseren"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Installeer eerst iets om deze link te openen"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Miniaturen weergeven"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Feeds uit OPML importeren"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Geen feed gevonden. HTTPS proberen?"
+    },
+    {
+      "name": "synchronization",
+      "value": "Synchroniseert"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Alleen via Wi-Fi"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Ongelezen feeds"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Standaard browser"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Items standaard openen met"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Link openen in webweergave"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Donker"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Auto"
+    },
+    {
+      "name": "theme_night",
+      "value": "Nacht"
+    },
+    {
+      "name": "theme_system",
+      "value": "Systeem"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Artikelen hierboven als gelezen markeren"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Kon geen e-mail client openen"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Artikelen hieronder als gelezen markeren"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Batterijoptimalisatie"
+    },
+    {
+      "name": "open_menu",
+      "value": "Menu openen"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Ga naar %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Niet gelezen"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Feeds synchroniseren"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s ongelezen artikelen"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPML-export mislukt"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s ongelezen artikelen"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Meldingen tonen voor ongelezen artikelen in geconfigureerde feeds"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Artikelen standaard volledig ophalen"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "of feeds toevoegen?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Niets weer te geven!"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Kon artikel niet openen"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Deze dienst wordt gefinancierd door de gemeenschap. Overweeg een donatie als u het nuttig vindt."
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Ga naar 'Toestellen-synchroniseren' en klik op 'Sync-code scannen of invoeren'."
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Toestellen in de sync-keten"
+    },
+    {
+      "name": "device_sync",
+      "value": "Toestellen synchroniseren"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder sync-code"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Scan de sync-code voor de keten van een ander toestel, of start een nieuwe sync-keten."
+    },
+    {
+      "name": "add_new_device",
+      "value": "Nieuw toestel toevoegen"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (dit toestel)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Het toestel van de Sync-keten loskoppelen"
+    },
+    {
+      "name": "remove_device",
+      "value": "Toestel verwijderen"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Toestel %1$s inderdaad verwijderen?"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Of open de link op uw toestel."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Behandel dit als een wachtwoord. Iedereen kan gesynchroniseerde gegevens lezen als ze de link hebben."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-code"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Sync-keten verlaten"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Met toestel-sync worden abonnementen en gelezen artikelen gesynchroniseerd tussen meerdere toestellen."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Sync-code scannen of invoeren"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Nieuwe sync-keten starten"
+    },
+    {
+      "name": "sync_code",
+      "value": "Sync-code"
+    },
+    {
+      "name": "secret_key",
+      "value": "Geheime sleutel"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Aan sync-keten deelnemen"
+    },
+    {
+      "name": "disabled",
+      "value": "Uitgeschakeld"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Vegen om als gelezen te markeren"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Van overal"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Alleen vanaf het einde"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Sync-keten inderdaad verlaten?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Geen barcodescanner gevonden"
+    },
+    {
+      "name": "add_item",
+      "value": "Item toevoegen"
+    },
+    {
+      "name": "remove",
+      "value": "Verwijderen"
+    },
+    {
+      "name": "block_list",
+      "value": "Lijst blokkeren"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Hiermee kan de toepassing feeds en artikelen lezen"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder alleen-lezen toegang"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Taal detecteren"
+    },
+    {
+      "name": "article_image",
+      "value": "Beeld van het artikel"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Verbergt artikels met titels die een van deze filters bevatten. Voorbeeld filters:"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynamische kleuren"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nieuw"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Toestemming moet worden verleend voordat meldingen kunnen worden ingeschakeld."
+    },
+    {
+      "name": "feed_icon",
+      "value": "Feed Icoon"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Tekst-naar-spraak"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Doorgaan naar volgende"
+    },
+    {
+      "name": "set_language",
+      "value": "Taal instellen"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Alleen beschikbaar op Android %1$s en hoger"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Detecteert automatisch de taal van het artikel"
+    },
+    {
+      "name": "text_scale",
+      "value": "Tekstschaal"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synchroniseren om een artikel op te halen"
+    },
+    {
+      "name": "save_article",
+      "value": "Artikel opslaan"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Opgeslagen artikelen"
+    },
+    {
+      "name": "saved_article",
+      "value": "Opgeslagen artikel"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Stop met opslaan artikel"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Als gelezen markeren bij scrollen"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Geen feeds"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s feed"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importeer %1$s met %2$s?"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s labels"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Niets gevonden om op te halen"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Feed mist link naar artikel"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "De link is geen HTML-document"
+    },
+    {
+      "name": "max_lines",
+      "value": "Max. aantal lijnen"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Enkel titel weergeven"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Lijst van artikels"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Recent gelezen"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Gelezen"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Bewaard"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Elektronisch papier"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Mislukte analyse JSON feed"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Mislukte analyse van volledig artikel"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Toch toevoegen"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Geen feeds op de pagina"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Geen inhoud in het antwoord"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP fout"
+    },
+    {
+      "name": "no_url",
+      "value": "Geen URL"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Pagina is niet geanalyseerd"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Mislukte analyse RSS-feed"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Geen ondersteund inhoud-type"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Browser in gedeeld venster openen"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Download mislukt"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Inhoud is geen HTML"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Geschatte leestijd weergeven"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s woorden"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minuten"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minuten"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s woorden"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minuten"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minuten"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s woorden"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s woorden"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minuut"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minuten"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s woorden"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s woord"
+    },
+    {
+      "name": "close_menu",
+      "value": "Menu sluiten"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Opgeslagen artikelen exporteer"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Opgeslagen artikelen konden niet worden geëxporteerd"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Dubbele artikelen overslaan"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Artikelen met links of titels die identiek zijn aan bestaande artikelen worden genegeerd"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Tik om audio af te spelen"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Compacte Kaart"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Toon het aantal ongelezen artikelen in de titel"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Lijst van beschikbare modellen"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Toon feeds nadat alles als gelezen gemarkeerd is"
+    },
+    {
+      "name": "on",
+      "value": "Actief"
+    },
+    {
+      "name": "off",
+      "value": "Inactief"
+    },
+    {
+      "name": "show_message",
+      "value": "Toon bericht"
+    },
+    {
+      "name": "summarize",
+      "value": "Vat samen"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI en vertaling"
+    },
+    {
+      "name": "api_key",
+      "value": "API sleutel"
+    },
+    {
+      "name": "model_id",
+      "value": "Model Id"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API versie"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Kon de modellenlijst niet laden."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Geen modellen gevonden"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure deployment id"
+    },
+    {
+      "name": "time_out",
+      "value": "Time-out (seconden)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "De time-out moet tussen 30 en 600 seconden liggen"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Time-out voor AI verzoeken"
+    },
+    {
+      "name": "search_verb",
+      "value": "Zoeken"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Annuleer zoeken"
+    },
+    {
+      "name": "text",
+      "value": "Tekst"
+    },
+    {
+      "name": "font",
+      "value": "Lettertype"
+    },
+    {
+      "name": "text_preview",
+      "value": "Tekstvoorbeeld"
+    },
+    {
+      "name": "system_default",
+      "value": "Systeem standaard"
+    },
+    {
+      "name": "weight",
+      "value": "Gewicht"
+    },
+    {
+      "name": "italic",
+      "value": "Cursief"
+    },
+    {
+      "name": "add_font",
+      "value": "Lettertype toevoegen…"
+    },
+    {
+      "name": "bold",
+      "value": "Vet"
+    },
+    {
+      "name": "text_settings",
+      "value": "Tekst instellingen"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Lettertype kon niet worden toegevoegd"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Lettertype kon niet worden verwijderd"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Er is iets misgegaan"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Samenvatting"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Suggesties"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Compatibel met veel AI-providers, maar niet met alle"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Importeer opgeslagen artikelen"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Pas toe op samenvattingen"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Openen in lezer"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Openen in standaard browser"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Openen in aangepast tabblad"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Niet in staat artikel te openen in browser"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Niet in staat artikel te openen in aangepast tab"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Importeren van opgeslagen artikelen mislukt"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Artikel is te groot. In plaatst daarvan openen in browser?"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Blader modus"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Navigeer door artikelen door middel van het \"omslaan van paginas\" in plaats van continue scrollen. Geoptimaliseerd voor e-ink apparaten."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Geanimeerd paginas omslaan"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Kort geanimeerde pagina omslag. Kan ghosting veroorzaken op sommige e-ink apparaten."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Verbeter thumbnails vanuit artikel metadata"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Probeer ontbrekende thumbnails of thumbnails van lage kwaliteit te verbeteren voor deze feed"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Samenvatting API"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Wordt gebruikt voor artikel samenvattingen."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "Vertaling API"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Wordt gebruikt voor het vertalen van feed kaarten en artikelen."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL auth sleutel"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Provider"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Niet geconfigureerd"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Provider: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Geen"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI of compatibel"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Lokaal"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Basis URL (optioneel)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Vertaling eindpunt"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "WAARSCHUWING! Dit is een bèta functie. Doe eerst een OPML-export van al je feeds en sla deze op als backup."
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Voer een API sleutel in voor opslaan."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Voer een DeepL API sleutel in voor opslaan."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Voer een model id in voor opslaan."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "API instellingen worden geverifieerd…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "De API instellingen konden niet worden geverifieerd."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Voer je Azure eindpunt in voor opslaan."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Voer je Azure deployment id in voor opslaan."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Voer je Azure API versie in voor opslaan."
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Vernieuwen"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

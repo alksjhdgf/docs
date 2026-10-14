@@ -1,0 +1,125 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-sync-on-resume",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Settings",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Theme"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Upon app start",
+   "dir": "up",
+   "max": 8
+  },
+  {
+   "op": "tap",
+   "match": "=Upon app start"
+  },
+  {
+   "op": "sleep",
+   "ms": 1000
+  },
+  {
+   "op": "shot",
+   "name": "flow-sync-on-resume-enabled"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "sleep",
+   "ms": 30000
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 3000
+  },
+  {
+   "op": "tap",
+   "match": "^AppIcon_Image_com\\.nononsenseapps\\.feeder"
+  },
+  {
+   "op": "sleep",
+   "ms": 5000
+  },
+  {
+   "op": "alive"
+  },
+  {
+   "op": "sleep",
+   "ms": 30000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Settings",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Theme"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Upon app start",
+   "dir": "up",
+   "max": 8
+  },
+  {
+   "op": "tap",
+   "match": "=Upon app start"
+  },
+  {
+   "op": "sleep",
+   "ms": 1000
+  },
+  {
+   "op": "shot",
+   "name": "flow-sync-on-resume-restored"
+  }
+ ]
+}

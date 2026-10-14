@@ -1,0 +1,128 @@
+{
+  "string": [
+    {
+      "name": "tag",
+      "value": "ଟ୍ୟାଗ୍"
+    },
+    {
+      "name": "action_settings",
+      "value": "ସେଟିଂ"
+    },
+    {
+      "name": "title",
+      "value": "ଆଖ୍ୟା"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "ପାଠ୍ୟ ରୁ କଥନ"
+    },
+    {
+      "name": "set_language",
+      "value": "ଭାଷା ଠିକ୍ କରିବା"
+    },
+    {
+      "name": "sync",
+      "value": "ସୀଙ୍କ୍"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "ସେଟିଂ"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "ପ୍ରତି ୧୫ ମିନିଟରେ"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "ପ୍ରତି ୩୦ ମିନିଟରେ"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "ପ୍ରତି ୩ ଘଣ୍ଟାରେ"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "ପ୍ରତି ୬ ଘଣ୍ଟାରେ"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "ପ୍ରତି ୧୨ ଘଣ୍ଟାରେ"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "ପ୍ରତିଦିନ"
+    },
+    {
+      "name": "sync_status",
+      "value": "ସୀଙ୍କ୍ ସ୍ଥିତି"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "ପାଠକ"
+    },
+    {
+      "name": "reader_settings",
+      "value": "ପାଠକ"
+    },
+    {
+      "name": "theme_system",
+      "value": "ସିଷ୍ଟମ୍"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "ସ୍ୱତଃ"
+    },
+    {
+      "name": "theme_day",
+      "value": "ଦିନ"
+    },
+    {
+      "name": "theme_night",
+      "value": "ରାତି"
+    },
+    {
+      "name": "theme",
+      "value": "ଥିମ୍"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "କଳା"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "ଗାଢ଼"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "ପଢ଼ି ନାହାଁନ୍ତି"
+    },
+    {
+      "name": "already_read",
+      "value": "ପଢ଼ି ସାରିଛନ୍ତି"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "ପତ୍ର"
+    },
+    {
+      "name": "new_indicator",
+      "value": "ନୂଆ"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "ବନ୍ଦ"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "ଚାଲୁ"
+    },
+    {
+      "name": "device_sync",
+      "value": "ଡିଵାଇସ୍ ସୀଙ୍କ୍"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

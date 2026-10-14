@@ -1,0 +1,149 @@
+{
+  "plural": [
+    {
+      "name": "n_unread_articles",
+      "value": [
+        {
+          "quantity": "zero",
+          "value": "@string/zero_unread_articles"
+        },
+        {
+          "quantity": "one",
+          "value": "@string/one_unread_article"
+        },
+        {
+          "quantity": "two",
+          "value": "@string/two_unread_articles"
+        },
+        {
+          "quantity": "few",
+          "value": "@string/few_unread_articles"
+        },
+        {
+          "quantity": "many",
+          "value": "@string/many_unread_articles"
+        },
+        {
+          "quantity": "other",
+          "value": "@string/other_unread_articles"
+        }
+      ]
+    },
+    {
+      "name": "n_feeds",
+      "value": [
+        {
+          "quantity": "zero",
+          "value": "@string/zero_feeds"
+        },
+        {
+          "quantity": "one",
+          "value": "@string/one_feed"
+        },
+        {
+          "quantity": "two",
+          "value": "@string/two_feeds"
+        },
+        {
+          "quantity": "few",
+          "value": "@string/few_feeds"
+        },
+        {
+          "quantity": "many",
+          "value": "@string/many_feeds"
+        },
+        {
+          "quantity": "other",
+          "value": "@string/other_feeds"
+        }
+      ]
+    },
+    {
+      "name": "n_tags",
+      "value": [
+        {
+          "quantity": "zero",
+          "value": "@string/zero_tags"
+        },
+        {
+          "quantity": "one",
+          "value": "@string/one_tags"
+        },
+        {
+          "quantity": "two",
+          "value": "@string/two_tags"
+        },
+        {
+          "quantity": "few",
+          "value": "@string/few_tags"
+        },
+        {
+          "quantity": "many",
+          "value": "@string/many_tags"
+        },
+        {
+          "quantity": "other",
+          "value": "@string/other_tags"
+        }
+      ]
+    },
+    {
+      "name": "n_words",
+      "value": [
+        {
+          "quantity": "zero",
+          "value": "@string/zero_words"
+        },
+        {
+          "quantity": "one",
+          "value": "@string/one_word"
+        },
+        {
+          "quantity": "two",
+          "value": "@string/two_words"
+        },
+        {
+          "quantity": "few",
+          "value": "@string/few_words"
+        },
+        {
+          "quantity": "many",
+          "value": "@string/many_words"
+        },
+        {
+          "quantity": "other",
+          "value": "@string/other_words"
+        }
+      ]
+    },
+    {
+      "name": "n_minutes",
+      "value": [
+        {
+          "quantity": "zero",
+          "value": "@string/zero_minutes"
+        },
+        {
+          "quantity": "one",
+          "value": "@string/one_minute"
+        },
+        {
+          "quantity": "two",
+          "value": "@string/two_minutes"
+        },
+        {
+          "quantity": "few",
+          "value": "@string/few_minutes"
+        },
+        {
+          "quantity": "many",
+          "value": "@string/many_minutes"
+        },
+        {
+          "quantity": "other",
+          "value": "@string/other_minutes"
+        }
+      ]
+    }
+  ]
+}

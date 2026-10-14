@@ -1,0 +1,45 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "TextSettings",
+  "kind": "skeleton",
+  "slice": "page-text-settings",
+  "route": "TextSettings",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "TextSettings"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "Text",
+        "Text settings",
+        "Go back",
+        "Font",
+        "Roboto",
+        "System default",
+        "Foo\\.ttf",
+        "application/x-font-ttf",
+        "font/ttf",
+        "Could not add font",
+        "Remove",
+        "Could not remove font",
+        "Something went wrong",
+        "Text scale",
+        "1\\.5x",
+        "Text preview",
+        "Bold",
+        "Italic",
+        "人人生而自由"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "TextSettings"
+    }
+  ]
+}

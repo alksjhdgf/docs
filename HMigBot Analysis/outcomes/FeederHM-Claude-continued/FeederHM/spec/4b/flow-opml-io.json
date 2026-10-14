@@ -1,0 +1,176 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-opml-io",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=All feeds",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=All feeds"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Export feeds to OPML",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Export feeds to OPML"
+  },
+  {
+   "op": "wait",
+   "match": "^feeder-export-\\d{4}-\\d{2}-\\d{2}-\\d+\\.opml$",
+   "timeout": 6000
+  },
+  {
+   "op": "shot",
+   "name": "opml-export-picker"
+  },
+  {
+   "op": "tap",
+   "match": "=dialog_confirm"
+  },
+  {
+   "op": "sleep",
+   "ms": 2000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Import feeds from OPML",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Import feeds from OPML"
+  },
+  {
+   "op": "wait",
+   "match": "=Browse",
+   "timeout": 6000
+  },
+  {
+   "op": "tap",
+   "match": "=Browse"
+  },
+  {
+   "op": "wait",
+   "match": "=My phone",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=My phone"
+  },
+  {
+   "op": "wait",
+   "match": "=Download",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Download"
+  },
+  {
+   "op": "wait",
+   "match": "=import-test.opml",
+   "timeout": 4000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^feeder-export-.*\\.opml$"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=import-test.opml"
+  },
+  {
+   "op": "sleep",
+   "ms": 5000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Hacker News: Front Page",
+    "=Tech"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "opml-import-drawer"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Export saved articles",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Export saved articles"
+  },
+  {
+   "op": "wait",
+   "match": "^feeder-saved-articles-\\d{4}-\\d{2}-\\d{2}-\\d+\\.json$",
+   "timeout": 6000
+  },
+  {
+   "op": "shot",
+   "name": "saved-export-picker"
+  },
+  {
+   "op": "tap",
+   "match": "=dialog_confirm"
+  },
+  {
+   "op": "sleep",
+   "ms": 2000
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

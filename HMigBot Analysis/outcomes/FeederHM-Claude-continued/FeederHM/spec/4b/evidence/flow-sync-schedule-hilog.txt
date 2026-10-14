@@ -1,0 +1,12 @@
+10-14 00:44:25.842 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER stopWork(2)
+10-14 00:44:25.843 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER startWork {"workId":2,"bundleName":"com.nononsenseapps.feeder","abilityName":"FeederWorkSchedulerAbility","isRepeat":true,"repeatCycleTime":10800000,"networkType":0,"isPersisted":true}
+10-14 00:44:31.101 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER stopWork(2)
+10-14 00:44:31.103 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER startWork {"workId":2,"bundleName":"com.nononsenseapps.feeder","abilityName":"FeederWorkSchedulerAbility","isRepeat":true,"repeatCycleTime":10800000,"networkType":2,"isPersisted":true}
+10-14 00:44:35.666 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER stopWork(2)
+10-14 00:44:35.667 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER startWork {"workId":2,"bundleName":"com.nononsenseapps.feeder","abilityName":"FeederWorkSchedulerAbility","isRepeat":true,"repeatCycleTime":10800000,"networkType":2,"isCharging":true,"chargerType":0,"isPersisted":true}
+10-14 00:44:44.254 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER stopWork(2)
+10-14 00:44:53.323 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER startWork {"workId":2,"bundleName":"com.nononsenseapps.feeder","abilityName":"FeederWorkSchedulerAbility","isRepeat":true,"repeatCycleTime":3600000,"networkType":2,"isCharging":true,"chargerType":0,"isPersisted":true}
+10-14 00:44:57.884 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER stopWork(2)
+10-14 00:44:57.885 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER startWork {"workId":2,"bundleName":"com.nononsenseapps.feeder","abilityName":"FeederWorkSchedulerAbility","isRepeat":true,"repeatCycleTime":3600000,"networkType":0,"isCharging":true,"chargerType":0,"isPersisted":true}
+10-14 00:45:02.446 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER stopWork(2)
+10-14 00:45:02.448 12434 12434 I A03d00/JSAPP: FEEDER_SYNC_SCHEDULER startWork {"workId":2,"bundleName":"com.nononsenseapps.feeder","abilityName":"FeederWorkSchedulerAbility","isRepeat":true,"repeatCycleTime":3600000,"networkType":0,"isPersisted":true}

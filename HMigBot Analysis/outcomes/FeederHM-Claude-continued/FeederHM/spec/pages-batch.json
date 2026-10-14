@@ -1,0 +1,98 @@
+[
+ {
+  "id": "Main",
+  "route": "Main",
+  "from": "com.nononsenseapps.feeder.ui.MainActivity",
+  "source": "manifest"
+ },
+ {
+  "id": "ManageSettings",
+  "route": "ManageSettings",
+  "from": ".ui.ManageSettingsActivity",
+  "source": "manifest"
+ },
+ {
+  "id": "ImportOPMLFile",
+  "route": "ImportOPMLFile",
+  "from": ".ui.ImportOPMLFileActivity",
+  "source": "manifest"
+ },
+ {
+  "id": "AddFeedFromShare",
+  "route": "AddFeedFromShare",
+  "from": ".ui.AddFeedFromShareActivity",
+  "source": "manifest"
+ },
+ {
+  "id": "OpenLinkInDefault",
+  "route": "OpenLinkInDefault",
+  "from": ".ui.OpenLinkInDefaultActivity",
+  "source": "manifest"
+ },
+ {
+  "id": "FeedWidgetSettings",
+  "route": "FeedWidgetSettings",
+  "from": ".widget.FeedWidgetSettingsActivity",
+  "source": "manifest"
+ },
+ {
+  "id": "Search",
+  "route": "Search",
+  "from": "compose:\"search\"",
+  "source": "compose"
+ },
+ {
+  "id": "Import",
+  "route": "Import",
+  "from": "compose:\"import\"",
+  "source": "compose"
+ },
+ {
+  "id": "Feed",
+  "route": "Feed",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:FeedDestination",
+  "source": "compose-sealed-destination"
+ },
+ {
+  "id": "Article",
+  "route": "Article",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:ArticleDestination",
+  "source": "compose-sealed-destination"
+ },
+ {
+  "id": "SearchFeed",
+  "route": "SearchFeed",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:SearchFeedDestination",
+  "source": "compose-sealed-destination"
+ },
+ {
+  "id": "AddFeed",
+  "route": "AddFeed",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:AddFeedDestination",
+  "source": "compose-sealed-destination"
+ },
+ {
+  "id": "EditFeed",
+  "route": "EditFeed",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:EditFeedDestination",
+  "source": "compose-sealed-destination"
+ },
+ {
+  "id": "Settings",
+  "route": "Settings",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:SettingsDestination",
+  "source": "compose-sealed-destination"
+ },
+ {
+  "id": "TextSettings",
+  "route": "TextSettings",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:TextSettingsDestination",
+  "source": "compose-sealed-destination"
+ },
+ {
+  "id": "SyncScreen",
+  "route": "SyncScreen",
+  "from": "ui/compose/navigation/NavigationDestinations.kt:SyncScreenDestination",
+  "source": "compose-sealed-destination"
+ }
+]

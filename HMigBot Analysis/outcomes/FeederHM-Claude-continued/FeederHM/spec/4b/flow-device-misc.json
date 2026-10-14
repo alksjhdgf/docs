@@ -1,0 +1,207 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-device-misc",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Add feed",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Add feed"
+  },
+  {
+   "op": "wait",
+   "match": "=urlField",
+   "timeout": 6000
+  },
+  {
+   "op": "type",
+   "match": "=urlField",
+   "text": "http://hnrss.org/best"
+  },
+  {
+   "op": "tap",
+   "match": "=Search"
+  },
+  {
+   "op": "wait",
+   "match": "=searchResult",
+   "timeout": 30000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Hacker News: Best",
+    "=http://hnrss.org/best"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-misc-http-search"
+  },
+  {
+   "op": "tap",
+   "match": "=searchResult"
+  },
+  {
+   "op": "wait",
+   "match": "=editFeedTitle",
+   "timeout": 6000
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=OK",
+   "dir": "up",
+   "max": 10
+  },
+  {
+   "op": "tap",
+   "match": "=OK"
+  },
+  {
+   "op": "sleep",
+   "ms": 8000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=Hacker News: Best",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Hacker News: Best",
+   "nth": 0
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Hacker News: Best"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-misc-http-feed-items"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "^Feeder News",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "^Feeder News"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "^2.24.0 released",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=0:59 minutes",
+   "timeout": 6000
+  },
+  {
+   "op": "tapAt",
+   "x": 950,
+   "y": 1890,
+   "ms": 6000
+  },
+  {
+   "op": "wait",
+   "match": "github.com",
+   "timeout": 10000
+  },
+  {
+   "op": "shot",
+   "name": "flow-misc-body-link"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Share",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Share"
+  },
+  {
+   "op": "wait",
+   "match": "=Share",
+   "timeout": 5000
+  },
+  {
+   "op": "tapAt",
+   "x": 448,
+   "y": 2134,
+   "ms": 6000
+  },
+  {
+   "op": "wait",
+   "match": "=urlField",
+   "timeout": 8000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=https://news.nononsenseapps.com/posts/2.24.0/"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-misc-share-received"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

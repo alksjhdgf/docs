@@ -1,0 +1,28 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "hap": {
+    "file": "entry-default-signed.hap",
+    "size": 845333,
+    "mtime": "2026-10-12T09:35:20.399Z"
+  },
+  "hooks": {
+    "passthrough": true,
+    "landingLog": true
+  },
+  "routes": [
+    {
+      "route": "(cold-start)",
+      "foreground": true,
+      "landed": "Main",
+      "nodes": 4,
+      "windowNodes": 45,
+      "textCount": 1,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-home.png",
+      "verdict": "scaffold",
+      "failing": false
+    }
+  ],
+  "crash": null,
+  "launcher": "Main"
+}

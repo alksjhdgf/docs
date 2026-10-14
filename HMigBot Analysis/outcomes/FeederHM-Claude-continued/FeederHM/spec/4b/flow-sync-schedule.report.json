@@ -1,0 +1,358 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-sync-schedule.json",
+  "at": "2026-10-13T18:30:34.278Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-sync-schedule",
+  "steps": [
+    {
+      "i": 0,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 782
+    },
+    {
+      "i": 1,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3717
+    },
+    {
+      "i": 2,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 707
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3096
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Settings",
+      "ms": 676
+    },
+    {
+      "i": 5,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Settings\" @388,2002",
+      "changed": true,
+      "ms": 3043
+    },
+    {
+      "i": 6,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Theme",
+      "ms": 688
+    },
+    {
+      "i": 7,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 1 次后出现 =Look for new articles…",
+      "ms": 4479
+    },
+    {
+      "i": 8,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Look for new articles…\" @574,1677",
+      "changed": true,
+      "ms": 3066
+    },
+    {
+      "i": 9,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Every 3 hours",
+      "ms": 676
+    },
+    {
+      "i": 10,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 MenuItem \"Every 3 hours\" @345,973",
+      "changed": true,
+      "ms": 3085
+    },
+    {
+      "i": 11,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1507
+    },
+    {
+      "i": 12,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 698
+    },
+    {
+      "i": 13,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Only on Wi-Fi\" @660,2163",
+      "changed": true,
+      "ms": 3094
+    },
+    {
+      "i": 14,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1503
+    },
+    {
+      "i": 15,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Only when charging\" @660,2387（点后页面无变化）",
+      "changed": false,
+      "ms": 3115
+    },
+    {
+      "i": 16,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1506
+    },
+    {
+      "i": 17,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-sync-schedule-3h-wifi-charging.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-sync-schedule-3h-wifi-charging.png",
+      "ms": 247
+    },
+    {
+      "i": 18,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Look for new articles…\" @574,1677",
+      "changed": true,
+      "ms": 3027
+    },
+    {
+      "i": 19,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Manually",
+      "ms": 703
+    },
+    {
+      "i": 20,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 MenuItem \"Manually\" @345,301",
+      "changed": true,
+      "ms": 3092
+    },
+    {
+      "i": 21,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1509
+    },
+    {
+      "i": 22,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 699
+    },
+    {
+      "i": 23,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Look for new articles…\" @574,1677",
+      "changed": true,
+      "ms": 3078
+    },
+    {
+      "i": 24,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Every hour",
+      "ms": 681
+    },
+    {
+      "i": 25,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 MenuItem \"Every hour\" @345,805",
+      "changed": true,
+      "ms": 3092
+    },
+    {
+      "i": 26,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1502
+    },
+    {
+      "i": 27,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Only on Wi-Fi\" @660,2163（点后页面无变化）",
+      "changed": false,
+      "ms": 3089
+    },
+    {
+      "i": 28,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1503
+    },
+    {
+      "i": 29,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Only when charging\" @660,2387（点后页面无变化）",
+      "changed": false,
+      "ms": 3184
+    },
+    {
+      "i": 30,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1506
+    },
+    {
+      "i": 31,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 715
+    },
+    {
+      "i": 32,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-sync-schedule-restored.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-sync-schedule-restored.png",
+      "ms": 210
+    },
+    {
+      "i": 33,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 86
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "All feeds",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Feeder News",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 29",
+      "02",
+      ":",
+      "29",
+      "100",
+      "Mark all as read",
+      "Sync feeds",
+      "Add feed",
+      "Edit feed",
+      "Delete feed",
+      "Import feeds from OPML",
+      "Export feeds to OPML",
+      "Import saved articles",
+      "Export saved articles",
+      "Settings",
+      "Theme, Day",
+      "Theme",
+      "Day",
+      "Dynamic colors, Only available on Android 12 and above",
+      "Dynamic colors",
+      "Only available on Android 12 and above",
+      "Preferred dark theme, Dark",
+      "Preferred dark theme",
+      "Dark",
+      "Notify for new items",
+      "Block list",
+      "Filters",
+      "Apply to summaries",
+      "Apply to links",
+      "Text",
+      "Text settings, Roboto",
+      "Text settings",
+      "Roboto",
+      "Syncing",
+      "Look for new articles…, Every hour",
+      "Look for new articles…",
+      "Every hour",
+      "Upon app start",
+      "Only on Wi-Fi",
+      "Only when charging",
+      "Max items per feed, 100",
+      "Max items per feed",
+      "Battery optimization, On",
+      "Battery optimization",
+      "On",
+      "Manually",
+      "Every 15 minutes",
+      "Every 30 minutes",
+      "Every 3 hours",
+      "Every 6 hours",
+      "Every 12 hours",
+      "Every day",
+      "Look for new articles…, Every 3 hours",
+      "02, :, 30",
+      "30",
+      "Look for new articles…, Manually"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm"
+    ]
+  },
+  "tapsNoChange": 3,
+  "failStreak": 0
+}

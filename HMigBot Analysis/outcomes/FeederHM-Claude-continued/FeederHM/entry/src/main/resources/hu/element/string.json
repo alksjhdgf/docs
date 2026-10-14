@@ -1,0 +1,1612 @@
+{
+  "string": [
+    {
+      "name": "tag",
+      "value": "Címke"
+    },
+    {
+      "name": "url",
+      "value": "Webcím"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Hírforrás webcíme"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Itt nincs semmi olvasnivaló. Szeretne inkább…"
+    },
+    {
+      "name": "title",
+      "value": "Cím"
+    },
+    {
+      "name": "save",
+      "value": "Mentés"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Megnyitása böngészőben"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Navigációs fiók kinyitása"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Navigációs fiók bezárása"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "action_settings",
+      "value": "Beállítások"
+    },
+    {
+      "name": "add_feed",
+      "value": "Hírforrás hozzáadása"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Feliratkozás egy hírforrásra"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Másik hírforrást megnyitni?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Több hírforrást hozzáadni?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Adjon meg egy címet a hírforráshoz"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Megjelölés olvasottként"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Megjelölés olvasatlanként"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Összes megjelölése olvasottként"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Hírforrás szerkesztése"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Hírforrás törlése"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Összes elem megjelenítése"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Olvasatlan elemek megjelenítése"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Új elemek érhetők el"
+    },
+    {
+      "name": "view",
+      "value": "Nézet"
+    },
+    {
+      "name": "no_tag",
+      "value": "Nincs címke"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Értesítés új elemeknél"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Értesítések leállítása"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Olvasónézet be/ki"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Hivatkozás megnyitása böngészőben"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Nem található ilyen hírforrás. Megpróbálja a HTTPS használatát?"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Hírforrások exportálása OPML-fájlba"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Hírforrások importálása OPML-fájlból"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Megjelölés olvasottként jelző"
+    },
+    {
+      "name": "share",
+      "value": "Megosztás"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Nincs mit megjeleníteni!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Beállítások"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Kézileg"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "15 percenként"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "30 percenként"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Óránként"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "3 óránként"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "6 óránként"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "12 óránként"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Naponta"
+    },
+    {
+      "name": "synchronization",
+      "value": "Szinkronizálás"
+    },
+    {
+      "name": "syncing",
+      "value": "Szinkronizálás"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Csak Wi-Fi-n"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Bélyegképek megjelenítése"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Adatforgalmi díjat vonhat maga után."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Csak töltés közben"
+    },
+    {
+      "name": "image_loading",
+      "value": "Képek betöltése"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Először telepítsen valamit a hivatkozás megnyitásához"
+    },
+    {
+      "name": "on_startup",
+      "value": "Alkalmazás megnyitásakor"
+    },
+    {
+      "name": "block_list",
+      "value": "Tiltólista"
+    },
+    {
+      "name": "add_item",
+      "value": "Elem hozzáadása"
+    },
+    {
+      "name": "show_fab",
+      "value": "Lebegő akciógomb megjelenítése"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Mobil hotspotokat is beleértve"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Frissített hírforrások"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Olvasatlan hírforrások"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Az értesítések csak a konfigurált hírforrások olvasatlan elemeihez jelennek meg"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Olvasó"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Webes nézet"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Alapértelmezett böngésző"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Egyéni lap"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Alkalmazás alapbeállításának használata"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Elemek megnyitása ezzel"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Hivatkozások megnyitása ezzel"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Olvasó"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Hivatkozás megnyitása webes nézetben"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Megnyitás webes nézetben"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maximális elemszám hírforrásonként"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Nem tölthető be a webcím"
+    },
+    {
+      "name": "theme_system",
+      "value": "Rendszer"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automatikus"
+    },
+    {
+      "name": "theme_day",
+      "value": "Nappali"
+    },
+    {
+      "name": "theme_night",
+      "value": "Éjszakai"
+    },
+    {
+      "name": "theme",
+      "value": "Téma"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Előnyben részesített sötét téma"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Fekete"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Sötét"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Legújabb elől"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Legrégebbi elől"
+    },
+    {
+      "name": "sort",
+      "value": "Rendezési szempont"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Hibajelentés küldése"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Nem nyitható meg az e-mail-kliens"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Fentebbiek megjelölése olvasottként"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Felfedezett hírforrások listája"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Címkekiegészítés be/ki"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Címke megnyitása"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Bezárt címke"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Egyéni lap előtöltése"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Nem dolgozható fel a következő: %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Egész cikk lekérése"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Egész cikk lekérése alapértelmezetten"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Nem kérhető le az egész cikk"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Nem nyitható meg a cikk"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Teljes cikk lekérése…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Nem tölthető be a szöveg a felolvasáshoz"
+    },
+    {
+      "name": "go_back",
+      "value": "Vissza"
+    },
+    {
+      "name": "open_menu",
+      "value": "Menü megnyitása"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Ugrás a következőre: %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Olvasatlan"
+    },
+    {
+      "name": "already_read",
+      "value": "Már elolvasott"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Csak olvasatlan cikkek megjelenítése"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Összes cikk megjelenítése"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Hírforrások szinkronizálása"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s olvasatlan cikk"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s olvasatlan cikk"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s olvasatlan cikk"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s olvasatlan cikk"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s olvasatlan cikk"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s olvasatlan cikk"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Cikkstílus"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kártya"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Extra egyéni azonosítók generálása"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Csak rossz azonosítókkal rendelkező hírforrások számára engedélyezze"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Nem sikerült az OPML-fájlt importálni"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Nem sikerült exportálni az OPML-fájlba"
+    },
+    {
+      "name": "device_sync",
+      "value": "Eszközszinkronizálás"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Új eszköz hozzáadása"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Ezt a szolgáltatást a közösség fizeti. Fontolja meg az adományozást, ha hasznosnak találja."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (ez az eszköz)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Eszköz leválasztása a szinkronizálási láncról"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Eszközök a szinkronizálási láncon"
+    },
+    {
+      "name": "remove",
+      "value": "Eltávolítás"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Kezelje ezt mint egy jelszót. Bárki elolvashatja a szinkronizált adatait, ha megszerzi a hivatkozást."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-kód"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder eszközszinkronizálási kód"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Szinkronizálási lánc elhagyása"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Biztosan el akarja távolítani ezt az eszközt: %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Az eszközén navigáljon az eszköz szinkronizációhoz, és nyomjon a szinkronizálási kód beolvasására."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Vagy nyissa meg a hivatkozást az eszközén."
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Az eszközszinkronizálás lehetővé teszi a feliratkozott hírforrások és cikkek különböző eszközök közötti szinkronizálását."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Egyszerűen olvassa be a kódot a szinkronizálási láncból, amit egy másik eszközön hozott létre, vagy hozzon létre egy újat."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Olvasson be vagy adjon meg egy szinkronizálási kódot"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Új szinkronizálási lánc indítása"
+    },
+    {
+      "name": "sync_code",
+      "value": "Szinkronizálási kód"
+    },
+    {
+      "name": "secret_key",
+      "value": "Titkos kulcs"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Csatlakozás szinkronizálási lánchoz"
+    },
+    {
+      "name": "disabled",
+      "value": "Letiltva"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Csak a végéről"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Bárhonnan"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Csúsztatás az olvasottnak jelöléshez"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Biztosan el akarja hagyni a szinkronizálási láncot?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Nem található vonalkódolvasó"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Engedélyezi az alkalmazás számára, hogy hírforrásokat és cikkeket olvasson"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder csak olvasási engedély"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Médiamelléklet megnyitása"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$s megnyitása"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Olvasás folytatása"
+    },
+    {
+      "name": "read_article",
+      "value": "Hangos felolvasás"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Olvasás szüneteltetése"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Olvasás leállítása"
+    },
+    {
+      "name": "sync",
+      "value": "Szinkronizálás"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Hibakeresési napló megtekintése"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Ehhez hasonló újak"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Összes hírforrás"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Új cikkek lekérdezése…"
+    },
+    {
+      "name": "sync_status",
+      "value": "Szinkronizálás állapota"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Érintse meg a videó indításhoz"
+    },
+    {
+      "name": "open_feed",
+      "value": "Hírforrás megnyitása"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Lentebbiek megjelölése olvasottként"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Kikapcsolva"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Energiagazdálkodás"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Bekapcsolva"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakt"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Szuper kompakt"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Érvénytelen webcím"
+    },
+    {
+      "name": "remove_device",
+      "value": "Eszköz eltávolítása"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Szinkronizálás a cikk lekéréséhez"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Új"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Az engedélyt meg kell adni, az értesítések engedélyezése előtt."
+    },
+    {
+      "name": "block_list_description",
+      "value": "Elrejti azokat a cikkeket, amelyek címe tartalmazza a fenti szűrők bármelyikét. Néhány példa a szűrőkhöz:"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Nincsenek hírforrások"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s hírforrás"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s hírforrás"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s hírforrás"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s hírforrás"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s hírforrás"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s hírforrás"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "%1$s importálása a következővel: %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s címke"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s címke"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s címke"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s címke"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s címke"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s címke"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Hiányzik a cikk hivatkozása a hírforrásból"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "A hivatkozás nem egy HTML-dokumentum"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Semmi nem található a lekéréshez"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dinamikus színek"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Hírforrás ikonja"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Megjelölés olvasottként görgetéskor"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Ugrás a következőre"
+    },
+    {
+      "name": "set_language",
+      "value": "Nyelv beállítása"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Csak Android %1$s-n és újabb rendszereken érhető el"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Cikk nyelvének automatikus felismerése"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Cikk mentésének leállítása"
+    },
+    {
+      "name": "article_image",
+      "value": "Cikk képe"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Szövegfelolvasás"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Nyelv észlelése"
+    },
+    {
+      "name": "text_scale",
+      "value": "Szövegméret"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Mentett cikkek"
+    },
+    {
+      "name": "saved_article",
+      "value": "Mentett cikk"
+    },
+    {
+      "name": "save_article",
+      "value": "Cikk mentése"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-papír"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Cikklista"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Csak a cím megjelenítése"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Szűrő"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Nemrég olvasott"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Olvasott"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Mentett"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Nem sikerült a letöltés"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Nem sikerült feldolgozni az RSS-hírforrást"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP-hiba"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Nem sikerült feldolgozni a JSON-hírforrást"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Nem támogatott tartalomtípus"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Nem sikerült feldolgozni a teljes cikket"
+    },
+    {
+      "name": "no_url",
+      "value": "Nincs webcím"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "A tartalom nem HTML"
+    },
+    {
+      "name": "max_lines",
+      "value": "Sorok száma legfeljebb"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Nem sikerült feldolgozni az oldalt"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Nincs tartalma a válasznak"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Nincsenek hírforrások az oldalon"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Várható olvasási idő megjelenítése"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s szó"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s perc"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Hozzáadás mindenképp"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s perc"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s szó"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s perc"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s perc"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s szó"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s szó"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s perc"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Böngésző megnyitása osztott képernyőn"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s perc"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s szó"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s szó"
+    },
+    {
+      "name": "close_menu",
+      "value": "Menü bezárása"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Mentett cikkek exportálása"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Nem sikerült a mentett cikkek exportálása"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Duplikált cikkek kihagyása"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Azok a cikkek, amelyeknek a hivatkozásai vagy címei megegyeznek a már meglévő cikkekkel legyenek figyelmen kívül hagyva"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompakt kártya"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Érintse meg a hang lejátszásához"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Olvasatlan cikkek számának megjelenítése a címben"
+    },
+    {
+      "name": "api_key",
+      "value": "API-kulcs"
+    },
+    {
+      "name": "model_id",
+      "value": "Modellazonosító"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API-verzió"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Nem találhatók modellek"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure üzembe helyezési azonosító"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Elérhető modellek listája"
+    },
+    {
+      "name": "summarize",
+      "value": "Összefoglalás"
+    },
+    {
+      "name": "openai_settings",
+      "value": "MI és fordítás"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Nem lehet betölteni a modelleket."
+    },
+    {
+      "name": "show_message",
+      "value": "Üzenet megjelenítése"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Hírforrások megjelenítése miután az összes cikk meg lett jelölve olvasottként"
+    },
+    {
+      "name": "off",
+      "value": "Kikapcsolva"
+    },
+    {
+      "name": "on",
+      "value": "Bekapcsolva"
+    },
+    {
+      "name": "search_verb",
+      "value": "Keresés"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Keresés visszavonása"
+    },
+    {
+      "name": "italic",
+      "value": "Dőlt"
+    },
+    {
+      "name": "bold",
+      "value": "Félkövér"
+    },
+    {
+      "name": "text",
+      "value": "Szöveg"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Nem sikerült eltávolítani a betűtípust"
+    },
+    {
+      "name": "text_settings",
+      "value": "Szövegbeállítások"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Nem sikerült hozzáadni a betűtípust"
+    },
+    {
+      "name": "weight",
+      "value": "Betűméret"
+    },
+    {
+      "name": "add_font",
+      "value": "Betűtípus hozzáadása…"
+    },
+    {
+      "name": "font",
+      "value": "Betűtípus"
+    },
+    {
+      "name": "text_preview",
+      "value": "Szöveg előnézete"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Valamilyen hiba történt"
+    },
+    {
+      "name": "system_default",
+      "value": "Rendszer alapértelmezése"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Időtúllépés az MI-kérésekhez"
+    },
+    {
+      "name": "time_out",
+      "value": "Időtúllépés (másodpercben)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Az időtúllépésnek 30 és 600 másodperc között kell lennie"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Összegzés megnyitáskor"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Javaslatok"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Sok MI-szolgáltatóval kompatibilis, de nem mindegyikkel"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Használat az összefoglalókhoz"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Megnyitás az olvasóban"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Megnyitás az alapértelmezett böngészőben"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Megnyitás egyéni lapon"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "A cikk nem nyitható meg a böngészőben"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "A cikk nem nyitható meg egyéni lapon"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Frissítés"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Lapozási mód"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "A cikkek böngészése „oldalanként” a folyamatos görgetés helyett. E-ink-eszközökhöz optimalizálva."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animált lapozás"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Rövid animáció a lapozásnál. Néhány e-ink-eszközön előfordulhat szellemkép."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Cikkek metaadataiból származó bélyegképek javítása"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "API az összegzéshez"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Cikkek összefoglalására szolgál."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "API a fordításhoz"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Hírfolyamkártyák és cikkek fordítására szolgál."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL hitelesítési kulcs"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Szolgáltató"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Nincs beállítva"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Szolgáltató: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Nincs"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI vagy azzal kompatibilis"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Alap webcím (nem kötelező)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Fordítási végpont"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Mentés előtt adja meg az API-kulcsot."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Mentés előtt adja meg a DeepL API-kulcsot."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Mentés előtt adja meg a modell azonosítóját."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "API-beállítások ellenőrzése…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "Nem sikerült ellenőrizni az API-beállításokat."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Mentés előtt adja meg az Azure végpontot."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Mentés előtt adja meg az Azure telepítés azonosítóját."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Mentés előtt adja meg az Azure API-verzióját."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Azure OpenAI beállításainak ellenőrzése…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Nem sikerült ellenőrizni az Azure OpenAI beállításokat."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "DeepL-kulcs ellenőrzése…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "Nem sikerült ellenőrizni a DeepL-kulcsot."
+    },
+    {
+      "name": "translate_article",
+      "value": "Cikk fordítása"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Eredeti megjelenítése (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "eredeti"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Előnyben részesített fordítási nyelv"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Válassza ki azt a nyelvet, amelyre a Feedernek le kell fordítania a cikkeket."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Válasszon nyelvet"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Állítsa be a kívánt fordítási nyelvet az MI-beállításokban"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Cikkek előnézetének fordítása"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Cikkek fordítása alapértelmezetten"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Nem sikerült importálni a mentett cikkeket"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Hírforrások hiányzó vagy rossz minőségű bélyegképeinek javítása, ha lehetséges"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Mentett cikkek importálása"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Helyi offline"
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "az előnyben részesített nyelv"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "A cikk túl nagy. Szeretné inkább böngészőben megnyitni?"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "FIGYELEM! Ez egy béta funkció. Előbb exportálja OPML-fájlként az összes hírforrását, és mentse el biztonsági mentésként."
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "A helyi fordításhoz Android 12 vagy újabb verzió szükséges."
+    },
+    {
+      "name": "rename_tag",
+      "value": "Címke átnevezése"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Nem sikerült lejátszani ezt a hangfájlt"
+    },
+    {
+      "name": "play_audio",
+      "value": "Hanglejátszás"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Hanglejátszás szüneteltetése"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Hanglejátszás megállítása"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Visszatekerés 10 másodpercet"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Előretekerés 10 másodpercet"
+    },
+    {
+      "name": "open_settings",
+      "value": "Beállítások megnyitása"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Offline fordítási modell előkészítése %1$s-%2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Offline fordítási modell letöltése %1$s-%2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "Az első letöltés 20–50 MB méretű is lehet, és eltarthat néhány percig. Utána offline is működni fog a fordítás."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Ezen az eszközön nem érhető el a helyi fordítás."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Nem sikerült létrehozni a helyi fordítót."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Időtúllépés történt a helyi fordításkor."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Nem sikerült a helyi fordítás."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Nem adott vissza szöveget a helyi fordítás."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Nem állt készen a helyi fordító. Ellenőrizze az eszköz fordítási beállításait, és próbálja újra."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Nincs bergamott modell a következőhöz: %1$s -> %2$s. Ellenőrizze a rendszer fordítási nyelveit"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Időtúllépés történt a bergamott fordításkor."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Nem sikerült a bergamott fordítás."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Kapcsolódás a modelllista letöltéséhez."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Nem sikerült letölteni a(z) %1$s -> %2$s modellt."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Időtúllépés történt a Bergamot WebView fordításkor."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Nincs előkészítve a Bergamot WebView."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Nem sikerült elemezni a Bergamot választ."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Az alkalmazás először az eszköz fordítási szolgáltatását használja."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Ha nem érhető el az eszköz fordítási szolgáltatása, akkor a Feeder használhatja a Mozilla Bergamot nevű letölthető offline fordítómotorját."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Csak a letölthető nyelvek megjelenítése"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Letöltött fordítási modellek"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "A Mozilla Bergamot nevű modelljei az eszközön tárolódnak az offline fordításhoz. A helymegtakarítás érdekében törölje a nem használt nyelvpárokat."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Modell törlése"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Biztosan törli a(z) %1$s-%2$s fordítási modellt (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Az összes letöltött modell törlése"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Biztosan törli az összes %1$d letöltött fordítási modellt (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Törölt %1$s-%2$s modell"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Összes törölt letöltött modell"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Még nincsenek fordítási modellek letöltve. A fordítás automatikusan letölti a szükséges modellt."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Törlés"
+    },
+    {
+      "name": "cancel",
+      "value": "Mégse"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Hanghivatkozások lejátszása a beépített lejátszóval"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Ha ez a beállítás ki van kapcsolva, akkor a hanghivatkozások az alapértelmezett alkalmazásban nyílnak meg"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Egy oszlopos elrendezés kikényszerítése"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Használat a hivatkozásokhoz"
+    },
+    {
+      "name": "filters",
+      "value": "Szűrők"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "A folytatáshoz t töltse le az offline fordítómotort."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Letölti az offline fordítómotort?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "A Feeder le fog tölteni egy 4,9 MB-os futtatható WebAssembly futásidejű fájlt a Mozilla/Bergamot projektből. Ezt a kódot nem az F-Droid fordította vagy ellenőrizte. A letöltés után a fordítás offline is működik."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Nem sikerült letölteni az offline fordítómotort."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Offline fordítómotor letöltése: %1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "Letöltés"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "Cikkszűrési szabályok"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "Soronként egy szabály, MezőNév=minta formátumban. Az elérhető mezőnevek: Title (cím), URL (webcím), Author (szerző), Tag (címke) és Content (tartalom). A minta egy reguláris kifejezés, amely a mező bármely részére illeszkedhet; a kis- és nagybetűk megkülönböztetésének mellőzéséhez kezdje a mintát a (?i) karakterekkel. A szabályok a következő lekérdezéskor lépnek életbe, és nem érintik a már elmentett cikkeket."
+    },
+    {
+      "name": "block_rules",
+      "value": "Tiltási szabályok"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "Az ezen szabályokra illeszkedő cikkek sosem töltődnek le. A tiltólistával ellentétben ez a művelet nem vonható vissza: egy szabály eltávolítása nem hozza vissza azokat a cikkeket, amelyek korábban kimaradtak."
+    },
+    {
+      "name": "allow_rules",
+      "value": "Engedélyezési szabályok"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "Ha be van állítva egy engedélyezési szabály, akkor csak az ahhoz illeszkedő cikkek lesznek letöltve. A címkézési szabály ki lesz hagyva azoknál a cikkeknél, amelyek nem tartalmaznak címkéket, így egy címke nélküli hírforrást nem ürít ki pusztán a címkézési szabály."
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)szponzorált"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "%1$d. sor: Hiányzik az „=”. Az érvénytelen sorokat a rendszer figyelmen kívül hagyja."
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "%1$d. sor: A(z) „%2$s” egy ismeretlen mezőnév. Az érvénytelen sorokat a rendszer figyelmen kívül hagyja."
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "%1$d. sor: Nem lett megadva minta, ami mindenre illeszkedne. A hibás sorokat a rendszer figyelmen kívül hagyja."
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "%1$d. sor: Érvénytelen reguláris kifejezést tartalmaz. A hibás sorokat a rendszer figyelmen kívül hagyja."
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "%1$d. sor: Csak az első %2$d szabály van használatban. A további sorokat a rendszer figyelmen kívül hagyja."
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

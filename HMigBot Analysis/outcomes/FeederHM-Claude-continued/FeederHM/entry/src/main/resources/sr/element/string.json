@@ -1,0 +1,1612 @@
+{
+  "string": [
+    {
+      "name": "fetching_full_article",
+      "value": "Преузима се цео чланак…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Није успело преузимање целог чланка"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Подразумевано преузимање целих чланака"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Преузми цео чланак"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Грешка при анализи %1$s"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Предучитавање прилагођене картице"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Укључена"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Искључена"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Оптимизација батерије"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Преклопник развијања ознаке"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Списак пронађених извора"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Означи ставке испод као прочитане"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Означи ставке изнад као прочитане"
+    },
+    {
+      "name": "open_feed",
+      "value": "Отвори извор"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Додирни за покретање видео записа"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Не може да се отвори клијент е-поште"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Пошаљи извештај о грешкама"
+    },
+    {
+      "name": "sort",
+      "value": "Поредак"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Прво најстарије"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Прво најновије"
+    },
+    {
+      "name": "theme",
+      "value": "Изглед"
+    },
+    {
+      "name": "theme_night",
+      "value": "Ноћ"
+    },
+    {
+      "name": "theme_day",
+      "value": "Дан"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Аутоматски"
+    },
+    {
+      "name": "theme_system",
+      "value": "Систем"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Мрежна адреса није могла да се учита"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Ограничење броја ставки по извору"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Отвори у веб приказу"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Отвори линк у веб приказу"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Читач"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Отвори линкове помоћу"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Подразумевано отварање ставки помоћу"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Прилагођена картица"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Веб приказ"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Подразумевани прегледач"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Читач"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Обавештења се приказују само за непрочитане ставке у подешеним изворима"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Непрочитани извори"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Обновљени извори"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Уврстити преносна приступна места"
+    },
+    {
+      "name": "show_fab",
+      "value": "Приказ плутајућег акцијског дугмета"
+    },
+    {
+      "name": "on_startup",
+      "value": "При покретању апликације"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Проверавање нових чланака…"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Најпре инсталирајте нешто чиме можете да отворите овај линк"
+    },
+    {
+      "name": "image_loading",
+      "value": "Учитавање слика"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Само током пуњења"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Може довести до потрошње мобилних података."
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Приказ сличица"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Само на бежичној мрежи"
+    },
+    {
+      "name": "synchronization",
+      "value": "Синхронизација"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Свакога часа"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Свакога дана"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Сваких 12 часова"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Сваких 6 часова"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Свака 3 часа"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Сваких 30 минута"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Сваких 15 минута"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Ручно"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Сви извори"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Поставке"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Нема шта да се прикаже!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Такав извор не може да се пронађе. Можда да покушам преко HTTPS?"
+    },
+    {
+      "name": "share",
+      "value": "Подели"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Индикатор за ознаку прочитаности"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Ново засновано на овоме"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Прикажи дневник отклањања грешака"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Увези изворе из OPML датотеке"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Извези изворе у OPML датотеку"
+    },
+    {
+      "name": "sync",
+      "value": "Синхронизуј"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Отвори приложене медије"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Отвори у веб прегледачу"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Отвори линк у прегледачу"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Промени стање прочитаности"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Искључи обавештења"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Обавести за нове ставке"
+    },
+    {
+      "name": "no_tag",
+      "value": "Без ознаке"
+    },
+    {
+      "name": "view",
+      "value": "Преглед"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Доступне су нове ставке"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Прикажи непрочитане ставке"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Прикажи све ставке"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Избриши извор"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Уреди извор"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Означи све као прочитано"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Означи као непрочитано"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Означи као прочитано"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Унеси мрежну адресу извора"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Додати још извора?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Отворити други извор?"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Нема ничега за читање овде. Желиш ли…"
+    },
+    {
+      "name": "save",
+      "value": "Сачувај"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "title",
+      "value": "Назив"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Мрежна адреса извора"
+    },
+    {
+      "name": "tag",
+      "value": "Ознака"
+    },
+    {
+      "name": "url",
+      "value": "Мрежна адреса"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Затвори управљачку полицу"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Отвори управљачку полицу"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Пријава на извор"
+    },
+    {
+      "name": "add_feed",
+      "value": "Додај извор"
+    },
+    {
+      "name": "action_settings",
+      "value": "Поставке"
+    },
+    {
+      "name": "read_article",
+      "value": "Читај наглас"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Паузирај читање"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Настави читање"
+    },
+    {
+      "name": "syncing",
+      "value": "Синхронизујем"
+    },
+    {
+      "name": "sync_status",
+      "value": "Статус синхронизације"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Пожељна тамна тема"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Црна"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Тамна"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Није успело учитавање претварања текста у говор"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Непрочитано"
+    },
+    {
+      "name": "already_read",
+      "value": "Већ прочитано"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Приказују се само непрочитани чланци"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Приказују се сви чланци"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Синхронизација извора"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s непрочитаних чланака"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s непрочитаних чланака"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s непрочитаних чланака"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Стил чланка"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Картица"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Збијено"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Омогући само за изворе са лошим ИД вредностима"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s непрочитани чланак"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s непрочитана чланка"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s непрочитаних чланака"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Супер збијено"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Прекини читање"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Отвори %1$s"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Користи подразумевано за апликацију"
+    },
+    {
+      "name": "open_menu",
+      "value": "Отвори мени"
+    },
+    {
+      "name": "disabled",
+      "value": "Искључено"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Само са краја"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Из било ког смера"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Превуците да означите као прочитано"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Пређи на %1$s"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Неважећа мрежна адреса"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Није успео извоз OPML фајла"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Да ли сте сигурни да желите напустити ланац синхронизације?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Не може да се пронађе скенер бар кодова"
+    },
+    {
+      "name": "go_back",
+      "value": "Повратак назад"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Отворена ознака"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Затворена ознака"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Додај нови уређај"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (овај уређај)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Искључи уређај из ланца синхронизације"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Уређаји у ланцу синхронизације"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Да ли сте сигурни да желите обрисати уређај %1$s?"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Напусти ланац синхронизације"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Покрените нови ланац синхронизације"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Приступи ланцу сихронизације"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR кôд"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder кôд за синхронизацију уређаја"
+    },
+    {
+      "name": "sync_code",
+      "value": "Кôд синхронизације"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Није успело отварање чланка"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Генериши додатне јединствене ИД вредности"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Није успео увоз OPML фајла"
+    },
+    {
+      "name": "device_sync",
+      "value": "Синхронизација уређаја"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Овај сервис плаћа заједница. Размотрите могућност да приложите донацију ако сматрате да је користан."
+    },
+    {
+      "name": "remove_device",
+      "value": "Уклони уређај"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Друга могућност је да отворите линк на свом уређају."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Чувајте ово као лозинку. Свако може ко поседује овај линк може да чита ваше синхронизоване податке."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Скенирајте или унесите кôд"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "На вашем уређају, поставите се на синхронизацију уређаја и притисните скенирај кôд за синхронизацију."
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Синхронизација уређаја вам омогућава да на различитим уређајима које поседујете синхронизујете претплате на изворе и прочитане чланке."
+    },
+    {
+      "name": "secret_key",
+      "value": "Тајни кључ"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Једноставно скенирајте кôд из вашег ланца синхронизације који сте креирали на другом уређају, или започните нови ланац синхронизације."
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Сингронизуј да добавиш чланак"
+    },
+    {
+      "name": "text_scale",
+      "value": "Размера текста"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Аутоматски открива језик чланка"
+    },
+    {
+      "name": "remove",
+      "value": "Уклони"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder приступ само за читање"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Сакрива чланке са насловима који садржи неки од ових филтера. Пример филтера:"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Динамичке боје"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Ново"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Омогућава да апликација чита изворе и чланке"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Пре укључивања обавештења, потребно је да се одобри дозвола."
+    },
+    {
+      "name": "article_image",
+      "value": "Слика чланка"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Икона објаве"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Доступно само на Android %1$s и новијим"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Прекини чување чланка"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Приликом скроловања, означи као прочитано"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Текст у говор"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Прескочи на наредно"
+    },
+    {
+      "name": "set_language",
+      "value": "Постави језик"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Откриј језик"
+    },
+    {
+      "name": "block_list",
+      "value": "Листа блокираних"
+    },
+    {
+      "name": "add_item",
+      "value": "Додај ставку"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Сачувани чланци"
+    },
+    {
+      "name": "saved_article",
+      "value": "Сачувани чланак"
+    },
+    {
+      "name": "save_article",
+      "value": "Сачувај чланак"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Преузимање није успело"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "RSS извор није могао да се парсира"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP грешка"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "JSON извор није могао да се парсира"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Страница није могла да се парсира"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s извора"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Нема извора"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s извор"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s извора"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s извора"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s извора"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s извора"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Да увезем %1$s са %2$s?"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s ознаком"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s ознака"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s ознаке"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s ознаке"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s ознака"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s ознака"
+    },
+    {
+      "name": "max_lines",
+      "value": "Макс линија"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Филтер"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Скоро прочитано"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Прочитано"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Сачувано"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Прикажи само наслов"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Листа чланака"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Нема шта да се добави"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "У извору недостаје линк на чланак"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Линк није HTML документ"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "На страници нема извора"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Садржај није HTML"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "У одговору нема тела"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Тип садржаја који се не подржава"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Комплетан чланак није могао да се парсира"
+    },
+    {
+      "name": "no_url",
+      "value": "Нема URL адресе"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Ипак додај"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E Ink"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Није успео извоз сачуваних чланака"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s речи"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Чланци са линковима или насловом који су идентични са већ постојећим чланцима се игноришу"
+    },
+    {
+      "name": "close_menu",
+      "value": "Затвори мени"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Извези сачуване чланке"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Отвори прегледач у подељеном прозору"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s речи"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s реч"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s речи"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s минута"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s минута"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s минута"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s речи"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s минута"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s минут"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s минута"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Компактна картица"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s речи"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Прескочи дуплиране чланке"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Прикажи процењено време читања"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Додирните да се пусти звук"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Прикажи број непрочитаних чланака у наслову"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI и превод"
+    },
+    {
+      "name": "api_key",
+      "value": "API кључ"
+    },
+    {
+      "name": "model_id",
+      "value": "ИД модела"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API верзија"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Нису могли да се учитају модели."
+    },
+    {
+      "name": "summarize",
+      "value": "Резимирај"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Није пронађен ниједан модел"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "ИД Azure постављања"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Листа доступних модела"
+    },
+    {
+      "name": "show_message",
+      "value": "Прикажи поруку"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Када се све обележи као прочитано, прикажи изворе"
+    },
+    {
+      "name": "on",
+      "value": "Укључено"
+    },
+    {
+      "name": "off",
+      "value": "Искључено"
+    },
+    {
+      "name": "search_verb",
+      "value": "Претражи"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Откажи претрагу"
+    },
+    {
+      "name": "text_preview",
+      "value": "Преглед текста"
+    },
+    {
+      "name": "system_default",
+      "value": "Подразумевано у систему"
+    },
+    {
+      "name": "weight",
+      "value": "Тежина"
+    },
+    {
+      "name": "add_font",
+      "value": "Додај фонт…"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Фонт није могао да се дода"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Фонт није могао да се уклони"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Нешто је пошло наопако"
+    },
+    {
+      "name": "font",
+      "value": "Фонт"
+    },
+    {
+      "name": "bold",
+      "value": "Подебљано"
+    },
+    {
+      "name": "text_settings",
+      "value": "Подешавања текста"
+    },
+    {
+      "name": "text",
+      "value": "Текст"
+    },
+    {
+      "name": "italic",
+      "value": "Курзив"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Тајмаут за AI захтеве"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Тајмаут мора да буде између 30 и 600 секунди"
+    },
+    {
+      "name": "time_out",
+      "value": "Тајмаут (секунди)"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Резимирај приликом отварања"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Предлози"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Компатибилно са многим пружаоцима AI услуге, али не са свима"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Примени на резимее"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Отвори у читачу"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Отвори у подразумеваном прегледачу"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Отвори у произвољној картици"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Чланак није могао да се отвори у прегледачу"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Чланак није могао да се отвори у произвољној картици"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Освежава се"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Режим страница"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Кретање по чланцима „окретањем страница” уместо континуалним скроловањем. Оптимизовано за e-ink уређаје."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Анимирано страничење"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Накратко се анимирају окретања страница. На неким e-ink уређајима може да изазове духове."
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Увези сачуване чланке"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Није успело увожење сачуваних чланака"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Чланак је сувише велики. Желите ли да га отворите у прегледачу?"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Побољшај сличице из метаподатака чланка"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Покушава да за овај довод унапреди недостајуће сличице или оне лошег квалитета"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "API резимирања"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Користи се за резимирање чланака."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "API превођења"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Користи се за превођење картица довода и чланака."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL auth кључ"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Пружалац услуге"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Није подешено"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Пружалац услуге: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Ништа"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI или компатибилан"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Локални ван мреже"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Базни URL (није обавезно)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Крајња тачка за превођење"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "УПОЗОРЕЊЕ! Ово је Бета функционалност. Пре него што наставите, урадите OPML извоз свих ваших довода пре наставка и сачувајте га као резервну копију."
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Унесите API кључ пре чувања."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Унесите DeepL API кључ пре чувања."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Унесите ид модела пре чувања."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Потврђују се API подшавања…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "API подешавања нису могла да се провере."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Унесите своју Azure крајњу тачку пре чувања."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Унесите ваш ид Azure постављања пре чувања."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Унесите верзију вашег Azure API пре чувања."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Потврђују се Azure OpenAI подешавања…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Нису могла да се потврде Azure OpenAI подешавања."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Потврђује се DeepL кључ…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "Није могао да се потврди DeepL кључ."
+    },
+    {
+      "name": "translate_article",
+      "value": "Преведи чланак"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Прикажи оригинал (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "оригинал"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Жељени језик за превод"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Изаберите језик на који Feeder треба да преводи."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "жељени језик"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "За локално превођење је потребна Android 12 или новији."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Изаберите језик"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Поставља жељени језик за превођење у AI подешавањима"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Преводи прегледе чланака"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Подразумеано преводи чланке"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Промени назив ознаке"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Овај аудио фајл не може да се пусти"
+    },
+    {
+      "name": "play_audio",
+      "value": "Репродукуј аудио"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Паузирај аудио"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Заустави аудио"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Премотај 10 секунди уназад"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Премотај 10 секунди унапред"
+    },
+    {
+      "name": "open_settings",
+      "value": "Отвори подешавања"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Припрема се модел превођења ван мреже са %1$s на %2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Преузима се модел превођења ван мреже са %1$s на %2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "Прво преузимање може бити 20–50 MB и може да потраје неколико минута. Након тога, превођење функционише ван мреже."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "На овом уређају није доступно локално превођење."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Није могао да се креира локални преводилац."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Истекло је максимално време за локално превођење."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Није успело локално превођење."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Локално превођење није вратило никакав текст."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Локални преводилац није био спреман. Проверите подешавања превођења на уређају, па покушајте поново."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Нема Bergamot модела за %1$s -> %2$s. Проверите системске језике за превођење"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Истекло је максимално време за Bergamot превођење."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Није успело Bergamot превођење."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Повежите се да преузмете листу модела."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Није могао да се преузме модел %1$s -> %2$s."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Истекло је максимално време за Bergamot WebView превођење."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView није иницијализован."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Није могао да се парсира Bergamot одговор."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Најпре користи сервис превођења на уређају."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Ако он није доступан, Feeder може да преузме и користи свој механизам за превођење ван мреже."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Прикажи само језике који могу да се преузму"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Преузети модели превођења"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Језици за превођење ван мреже које је преузео Feeder. Обришите језике који вам не требају да ослободите простор."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Обриши модел"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Желите ли да обришете модел за превод са %1$s на %2$s (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Обриши све преузете моделе"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Желите ли да обришете свих %1$d преузетих модела за превоеђење (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Обрисан је модел са %1$s на %2$s"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Обрисани су сви модели за превођење"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Још увек није преузет ниједан модел за превођење. Превод ће аутоматски да преузме потребан модел."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Обрши"
+    },
+    {
+      "name": "cancel",
+      "value": "Откажи"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Пуштај аудио линкове уграђеним плејером"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Када је искључено, аудио линкови се отварају вашом подразумеваном апликацијом"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Форсирај једну колону"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Примени на линкове"
+    },
+    {
+      "name": "filters",
+      "value": "Филтери"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "Да бисте наставили, преузмите механизам за превођење ван мреже."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Желите ли да преузмете механизам за превођење ван мреже?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder ће преузети извршни WebAssembly runtime величине 4.9 MB са Mozilla/Bergamot пројекта. F-Droid није изградио или проверио овај кôд. Након преузимања, превођење функционише без потребе за везом са мрежом."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Није могао да се преузме механизам за превођење ван мреже."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Преузима се механизам за превођење ван мреже: %1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "Преузми"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "Правила за филтрирање чланака"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "Једно правило по линији, у облику ИмеПоља=шаблон. Доступна поља су Title, URL, Author, Tag и Content. Шаблон је регуларни израз који се подудара било где у пољу; почните га са (?i) ако желите да се не прави разлика у величини слова. Правила ступају на снагу приликом наредног дохватања и неће се примењивати на раније сачуване чланке."
+    },
+    {
+      "name": "block_rules",
+      "value": "Правила за блокирање"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "Никада се не преузимају чланци који се подударају. За разлику од листи блокираних, ово не може да се поништи: уклањањем правила, чланци који су већ прескочени се не враћају."
+    },
+    {
+      "name": "allow_rules",
+      "value": "Правила за дозвољавање"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "Ако је постављено макар једно правило за дозвољавање, преузимају се само чланци који га задовољавају. Tag правило се прескаче за чланке који немају ознаке, тако да се довод без ознака не празни само са Tag правилом."
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)sponsored"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "Линија %1$d: недостаје ’=' Неисправне линије се игноришу."
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "Линија %1$d: ’%2$s’ није познато поље. Неисправне линије се игноришу."
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "Линија %1$d: шаблон је празан, па ће се подударати све. Неисправне линије се игноришу."
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "Линија %1$d: није исправан регуларни израз. Неисправне линије се игноришу."
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "Линија %1$d: користи се само првох %2$d правила. Касније линије се игноришу."
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

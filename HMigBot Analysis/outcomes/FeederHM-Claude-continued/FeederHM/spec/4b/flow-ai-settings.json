@@ -1,0 +1,434 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-ai-settings",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Settings",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Theme"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Summary API",
+   "dir": "up",
+   "max": 12
+  },
+  {
+   "op": "tap",
+   "match": "=Summary API"
+  },
+  {
+   "op": "wait",
+   "match": "=Provider",
+   "timeout": 4000
+  },
+  {
+   "op": "tapAt",
+   "x": 1054,
+   "y": 646,
+   "ms": 1500
+  },
+  {
+   "op": "wait",
+   "match": "=Azure OpenAI",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=None"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "tap",
+   "match": "=Save"
+  },
+  {
+   "op": "sleep",
+   "ms": 1200
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Not configured"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=Summary API"
+  },
+  {
+   "op": "wait",
+   "match": "=Provider",
+   "timeout": 4000
+  },
+  {
+   "op": "tapAt",
+   "x": 1054,
+   "y": 646,
+   "ms": 1500
+  },
+  {
+   "op": "wait",
+   "match": "=OpenAI or compatible",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=OpenAI or compatible",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=API key",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "type:^TextInput$",
+   "nth": 2
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "key",
+   "name": "2055",
+   "ms": 60
+  },
+  {
+   "op": "type",
+   "match": "type:^TextInput$",
+   "nth": 2,
+   "text": "http://127.0.0.1:8765/v1"
+  },
+  {
+   "op": "type",
+   "match": "type:^TextInput$",
+   "nth": 1,
+   "text": "hmig-test-model"
+  },
+  {
+   "op": "type",
+   "match": "type:^TextInput$",
+   "nth": 0,
+   "text": "hmig-test-key-0001"
+  },
+  {
+   "op": "key",
+   "name": "Back",
+   "_hideIme": true
+  },
+  {
+   "op": "sleep",
+   "ms": 3000
+  },
+  {
+   "op": "shot",
+   "name": "flow-ai-settings-filled"
+  },
+  {
+   "op": "tap",
+   "match": "=Save"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Provider: OpenAI or compatible"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-ai-settings-saved"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Settings",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Theme"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Summary API",
+   "dir": "up",
+   "max": 12
+  },
+  {
+   "op": "tap",
+   "match": "=Summary API"
+  },
+  {
+   "op": "wait",
+   "match": "=API key",
+   "timeout": 4000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=OpenAI or compatible",
+    "=hmig-test-model",
+    "=http://127.0.0.1:8765/v1"
+   ]
+  },
+  {
+   "op": "probe",
+   "match": [
+    "=hmig-test-key-0001"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-ai-settings-after-restart"
+  },
+  {
+   "op": "tap",
+   "match": "=Cancel"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

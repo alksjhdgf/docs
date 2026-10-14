@@ -1,0 +1,59 @@
+{
+ "waivers": [
+  {
+   "type": "unreachable_route",
+   "name": "FeedWidgetSettings",
+   "reason": "运行期由小组件设置动作经 NotificationActions.onWant→openWidgetSettings 推入（entry/src/main/ets/features/notify/NotificationActions.ets:206,216,228；EntryAbility.ets:44,58 转交），静态入口连通图跟踪不到 Want 分派；模拟器冷启直达已实测着陆（spec/smoke/adjudication.md）"
+  },
+  {
+   "type": "read_path_unused",
+   "name": "dynamic_shortcuts",
+   "reason": "读取方法 ensureLoaded() 为模块内函数，在 core/platform/Shortcuts.ets:297 与 :363 被同文件调用（静态门只统计跨文件调用点）；键 dynamic_shortcuts 照源 ShortcutManager 状态持久化"
+  },
+  {
+   "type": "read_path_unused",
+   "name": "Accept",
+   "reason": "htmlTest() 是主机侧 hypium 测试套件导出函数（entry/src/test/Html.test.ets:36），由 entry/src/test/List.test.ets:16 调用；非产品代码的存储读取"
+  },
+  {
+   "type": "read_path_unused",
+   "name": "k",
+   "reason": "opmlTest() 是主机侧 hypium 测试套件导出函数（entry/src/test/Opml.test.ets），由 entry/src/test/List.test.ets 调用；非产品代码的存储读取"
+  },
+  {
+   "type": "read_unresolvable",
+   "name": "exact_device_ids",
+   "reason": "常量 DEVICE_ID_KEY=exact_device_ids（features/sync/SyncChain.ets:30）经变量键读写 preferences，DeviceIdRegistry 用于 X-FEEDER-DEVICE-ID 头与 DELETE devices/{id} 路径（精确十进制设备 id，deg-page-sync-o8tcaf 缓解措施）"
+  },
+  {
+   "type": "read_unresolvable",
+   "name": "feederPendingDeepLink",
+   "reason": "常量 PENDING_DEEP_LINK_KEY（core/app/DeepLinkRouter.ets:41）：冷启 Want 暂存于 AppStorage，由 MainPage 经常量变量键读取消费（DeepLinkRouter.ets:10 设计说明）"
+  },
+  {
+   "type": "read_unresolvable",
+   "name": "scrollPosition",
+   "reason": "常量 KEY_SCROLL_POSITION（features/article/ArticleViewModel.ets:39）经 SavedStateRegistry 作用域句柄读写，ReaderView.ets:80 恢复阅读位置（AR-A48）"
+  },
+  {
+   "type": "read_unresolvable",
+   "name": "height",
+   "reason": "主机侧测试 entry/src/test/Opml.test.ets 内 OPML 属性断言的变量键读取（测试数据，非产品存储）"
+  },
+  {
+   "type": "read_unresolvable",
+   "name": "link",
+   "reason": "主机侧测试 entry/src/test/Opml.test.ets 内 OPML 属性断言的变量键读取（测试数据，非产品存储）"
+  },
+  {
+   "type": "read_unresolvable",
+   "name": "width",
+   "reason": "主机侧测试 entry/src/test/Opml.test.ets 内 OPML 属性断言的变量键读取（测试数据，非产品存储）"
+  },
+  {
+   "type": "page_top_unavoided",
+   "name": "entry/src/main/ets/features/widget/FeedWidgetForm.ets",
+   "reason": "桌面小组件卡片（form_config.json src，FormExtension 渲染在桌面宿主内），不在应用窗口中，无状态栏重叠问题；非导航页"
+  }
+ ]
+}

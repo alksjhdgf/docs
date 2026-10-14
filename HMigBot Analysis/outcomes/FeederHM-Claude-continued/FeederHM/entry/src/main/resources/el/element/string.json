@@ -1,0 +1,1128 @@
+{
+  "string": [
+    {
+      "name": "delete_feed",
+      "value": "Διαγραφή ροής"
+    },
+    {
+      "name": "sync",
+      "value": "Συγχρονισμός"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Κάθε 15 λεπτά"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Όλες οι ροές"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Ρυθμίσεις"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Κάθε 12 ώρες"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Κάθε 6 ώρες"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Κάθε 30 λεπτά"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Αναγνώστης"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Ενημερωμένες ροές"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Αναζήτηση για νέα άρθρα…"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Εγγραφή στην ροή"
+    },
+    {
+      "name": "tag",
+      "value": "Ετικέτα"
+    },
+    {
+      "name": "title",
+      "value": "Τίτλος"
+    },
+    {
+      "name": "save",
+      "value": "Αποθήκευση"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Εισαγωγή ροών από OPML"
+    },
+    {
+      "name": "action_settings",
+      "value": "Ρυθμίσεις"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Εξαγωγή ροών σε OPML"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Κάθε ώρα"
+    },
+    {
+      "name": "add_feed",
+      "value": "Προσθήκη ροής"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Χειροκίνητα"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Κάθε 3 ώρες"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Άνοιγμα σε περιηγητή ιστού"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Άνοιγμα συρταριού πλοήγησης"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Κλείσιμο συρταριού πλοήγησης"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Άνοιγμα %1$s"
+    },
+    {
+      "name": "share",
+      "value": "Κοινή χρήση"
+    },
+    {
+      "name": "sort",
+      "value": "Ταξινόμηση κατά"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "go_back",
+      "value": "Επιστροφή"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Στυλ άρθρου"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Σήμανση ως μη αναγνωσμένο"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Σήμανση όλων ως αναγνωσμένα"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Επεξεργασία ροής"
+    },
+    {
+      "name": "view",
+      "value": "Προβολή"
+    },
+    {
+      "name": "no_tag",
+      "value": "Καμία ετικέτα"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Άνοιγμα συνδέσμου σε περιηγητή"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Καθημερινά"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Μόνο μέσω Wi-Fi"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Αναγνώστης"
+    },
+    {
+      "name": "theme_day",
+      "value": "Ημέρα"
+    },
+    {
+      "name": "theme_night",
+      "value": "Νύχτα"
+    },
+    {
+      "name": "theme",
+      "value": "Θέμα"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Μαύρο"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Σκούρο"
+    },
+    {
+      "name": "open_feed",
+      "value": "Άνοιγμα ροής"
+    },
+    {
+      "name": "open_menu",
+      "value": "Άνοιγμα μενού"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Μη αναγνωσμένα"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Κάρτα"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Εμφάνιση μικρογραφιών"
+    },
+    {
+      "name": "theme_system",
+      "value": "Σύστημα"
+    },
+    {
+      "name": "remove_device",
+      "value": "Αφαίρεση συσκευής"
+    },
+    {
+      "name": "qr_code",
+      "value": "Κωδικός QR"
+    },
+    {
+      "name": "secret_key",
+      "value": "Μυστικό κλειδί"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Νέα στοιχεία διαθέσιμα"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Απέτυχε η εξαγωγή OPML"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Προσθήκη νέας συσκευής"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (αυτή η συσκευή)"
+    },
+    {
+      "name": "syncing",
+      "value": "Συγχρονίζεται"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Άνοιγμα σε προβολή ιστού"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Άνοιγμα συνδέσμων με"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Ανοιχτή ετικέτα"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Βελτιστοποίηση μπαταρίας"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Εμφάνιση όλων των άρθρων"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Αυτόματα"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Ανενεργή"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Σημείωση των παραπάνω ως αναγνωσμένα"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Σημείωση των παρακάτω ως αναγνωσμένα"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Ενεργή"
+    },
+    {
+      "name": "disabled",
+      "value": "Απενεργοποιημένο"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Από οπουδήποτε"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Μόνο από το τέλος"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Συμπαγής"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Εισαγάγετε μια έγκυρη διεύθυνση URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Απέτυχε η εισαγωγή OPML"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Σήμανση ως αναγνωσμένο"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Εμφάνιση όλων των αντικειμένων"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Ειδοποίηση για νέα αντικείμενα"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL Ροής"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Μόνο κατά τη φόρτιση"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Παύση ανάγνωσης"
+    },
+    {
+      "name": "on_startup",
+      "value": "Κατά την εκκίνηση της εφαρμογής"
+    },
+    {
+      "name": "synchronization",
+      "value": "Συγχρονισμός"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Προεπιλεγμένος περιηγητής"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Νεότερα πρώτα"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Παλαιότερα πρώτα"
+    },
+    {
+      "name": "device_sync",
+      "value": "Συγχρονισμός συσκευής"
+    },
+    {
+      "name": "sync_code",
+      "value": "Κωδικός συγχρονισμού"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Να συμπεριλαμβάνονται κινητά hotspot"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Προβολή ιστού"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Προσαρμοσμένη καρτέλα"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Χρήση προεπιλογή εφαρμογής"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Αποστολή αναφοράς σφάλματος"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Αποτυχία έναρξης εφαρμογής e-mail"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Αποτυχία ανοίγματος άρθρου"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s μη αναγνωσμένα άρθρα"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Συμμετοχή σε αλυσίδα συγχρονισμού"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Σύρετε για να επισημάνετε ως αναγνωσμένο"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Σίγουρα θέλετε να βγείτε από την αλυσίδα συγχρονισμού;"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Δεν ήταν δυνατή η φόρτωση της διεύθυνσης URL"
+    },
+    {
+      "name": "sync_status",
+      "value": "Κατάσταση συγχρονισμού"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Ανοίξτε τα στοιχεία με προεπιλογή το"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Ανοίξτε σύνδεσμο στην προβολή ιστού"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Μέγιστα αντικείμενα ανά ροή"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Κλειστή ετικέτα"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Προφόρτωση προσαρμοσμένης καρτέλας"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Αγγίξτε για αναπαραγωγή βίντεο"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Αποτυχία ανάλυσης του %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Ανάκτηση πλήρους άρθρου"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Αποτυχία ανάκτησης πλήρους άρθρου"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Πήγαινε στο %1$s"
+    },
+    {
+      "name": "already_read",
+      "value": "Ήδη αναγνωσμένο"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s μη αναγνωσμένα άρθρα"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s μη αναγνωσμένα άρθρα"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Ενεργοποίηση μόνο για τις ροές με κακά αναγνωριστικά"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Δεν μπόρεσε να φορτωθεί η λειτουργία κείμενο σε ομιλία"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s μη αναγνωσμένο άρθρο"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Δημιουργία επιπλέον μοναδικών αναγνωριστικών"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Στη συσκευή σας, μεταβείτε στον συγχρονισμό συσκευών και πατήστε στον κωδικό συγχρονισμού σάρωσης."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Εναλλακτικά, ανοίξτε τον σύνδεσμο στη συσκευή σας."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Αντιμετωπίστε το σαν έναν κωδικό πρόσβασης. Ο καθένας μπορεί να διαβάσει τα συγχρονισμένα δεδομένα σας εάν έχει τον σύνδεσμο."
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Ξεκινήστε νέα αλυσίδα συγχρονισμού"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Δεν ήταν δυνατή η εύρεση ενός σαρωτή γραμμωτού κώδικα"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s μη αναγνωσμένα άρθρα"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s μη αναγνωσμένα άρθρα"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Σούπερ συμπαγής"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Προσθήκη περισσότερων ροών;"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Άνοιγμα μέσων που εσωκλείονται"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Νέα με βάση αυτό"
+    },
+    {
+      "name": "image_loading",
+      "value": "Φόρτωση εικόνων"
+    },
+    {
+      "name": "show_fab",
+      "value": "Εμφάνιση αιωρούμενου κουμπιού ενέργειας"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Διακοπή ανάγνωσης"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Δεν βρέθηκε καμία τέτοια ροή. Μήπως να δοκιμάστε να χρησιμοποιήσετε HTTPS;"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Δεν υπάρχει τίποτα για εμφάνιση!"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Μπορεί να οδηγήσει σε χρεώσεις δεδομένων κινητής τηλεφωνίας."
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Προτίμηση σκοτεινού θέματος"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Άνοιγμα άλλης ροής;"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Δεν υπάρχει τίποτα για ανάγνωση εδώ. Θα θέλατε να γίνει…"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Εισαγάγετε μια διεύθυνση ροής"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Εμφάνιση μη αναγνωσμένων αντικειμένων"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Διακοπή ειδοποιήσεων"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Εναλλαγή κατάστασης αναγνωσμένου"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Συνέχεια ανάγνωσης"
+    },
+    {
+      "name": "read_article",
+      "value": "Εκφώνηση"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Προβολή καταγραφής εντοπισμού σφαλμάτων"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Ένδειξη για σήμανση ως αναγνωσμένο"
+    },
+    {
+      "name": "block_list",
+      "value": "Λίστα μπλοκαρισμένων"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Εγκαταστήστε πρώτα κάτι με το οποίο θα ανοίξετε αυτόν τον σύνδεσμο"
+    },
+    {
+      "name": "add_item",
+      "value": "Προσθήκη αντικειμένου"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Οι ειδοποιήσεις εμφανίζονται μόνο για μη αναγνωσμένα στοιχεία σε διαμορφωμένες ροές"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Μη αναγνωσμένες ροές"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Εναλλαγή επέκτασης ετικέτας"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Ανακαλυφθείσα λίστα ροών"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Ανάκτηση ολόκληρων άρθρων από προεπιλογή"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Ανακτάται το πλήρες άρθρο…"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Εμφανίζονται μόνο μη αναγνωσμένα άρθρα"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Συγχρονισμός ροών"
+    },
+    {
+      "name": "remove",
+      "value": "Αφαίρεση"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Αυτή η υπηρεσία πληρώνεται από την κοινότητα. Εξετάστε το ενδεχόμενο να κάνετε δωρεά αν το βρίσκετε χρήσιμο."
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Συσκευές στην αλυσίδα συγχρονισμού"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Σίγουρα θέλετε να διαγράψετε τη συσκευή %1$s;"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Αποσύνδεση της συσκευής από την αλυσίδα συγχρονισμού"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Έξοδος από την αλυσίδα συγχρονισμού"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Κωδικός συγχρονισμού συσκευής Feeder"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Ο συγχρονισμός της συσκευής σάς επιτρέπει να συγχρονίζετε συνδρομές τροφοδοσίας και να διαβάζετε άρθρα μεταξύ των διαφόρων συσκευών σας."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Απλά σαρώστε τον κώδικα από την αλυσίδα συγχρονισμού που δημιουργήσατε σε άλλη συσκευή ή ξεκινήστε μια νέα αλυσίδα συγχρονισμού."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Σαρώστε ή εισαγάγετε τον κωδικό συγχρονισμού"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Διαθέσιμο μόνο σε Android %1$s και άνω"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Ανιχνεύει αυτόματα τη γλώσσα του άρθρου"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Επιτρέπει στην εφαρμογή να διαβάζει ροές και άρθρα"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Δυναμικά χρώματα"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Ανίχνευση γλώσσας"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Νέο"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder πρόσβαση μόνο για ανάγνωση"
+    },
+    {
+      "name": "article_image",
+      "value": "Εικόνα άρθρου"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Αποκρύπτει άρθρα με τίτλους που περιέχουν οποιοδήποτε από αυτά τα φίλτρα. Παραδείγματα φίλτρων:"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Πρέπει να δοθεί άδεια προτού ενεργοποιηθούν οι ειδοποιήσεις."
+    },
+    {
+      "name": "feed_icon",
+      "value": "Εικονίδιο ροής"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Κείμενο σε ομιλία"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Μετάβαση στο επόμενο"
+    },
+    {
+      "name": "set_language",
+      "value": "Ορισμός γλώσσας"
+    },
+    {
+      "name": "text_scale",
+      "value": "Κλίμακα κειμένου"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Συγχρονισμός για ανάκτηση άρθρου"
+    },
+    {
+      "name": "save_article",
+      "value": "Αποθήκευση άρθρου"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Σταματήστε την αποθήκευση του άρθρου"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Αποθηκευμένα άρθρα"
+    },
+    {
+      "name": "saved_article",
+      "value": "Αποθηκευμένο άρθρο"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Χωρίς ροές"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s ροές"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s ροή"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s ροές"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Εισαγωγή %1$s με %2$s;"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s ετικέτα"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s ετικέτες"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s ροές"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s ροές"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s ροές"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s ετικέτες"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s ετικέτες"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s ετικέτες"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s ετικέτες"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Επισήμανση ως αναγνωσμένου κατά την κύλιση"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Δεν βρέθηκε τίποτα προς ανάκτηση"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Από τη ροή λείπει ο σύνδεσμος προς το άρθρο"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Ο σύνδεσμος δεν είναι έγγραφο HTML"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Λίστα άρθρων"
+    },
+    {
+      "name": "max_lines",
+      "value": "Μέγιστες γραμμές"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Φίλτρο"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Αναγνώστηκε"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Εμφάνιση μόνο του τίτλου"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Αποτυχία λήψης"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Η ανάλυση της σελίδας απέτυχε"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Δεν υπάρχουν ροές στη σελίδα"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Αναγνώστηκε πρόσφατα"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Αποθηκευμένα"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Το περιεχόμενο δεν είναι HTML"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Απέτυχε η ανάλυση της ροής RSS"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Απέτυχε η ανάλυση της ροής JSON"
+    },
+    {
+      "name": "http_error",
+      "value": "Σφάλμα HTTP"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Κανένα σώμα στην απάντηση"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Μη υποστηριζόμενος τύπος περιεχομένου"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Απέτυχε η ανάλυση του πλήρους άρθρου"
+    },
+    {
+      "name": "no_url",
+      "value": "Χωρίς URL"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E Ink"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Προσθήκη όπως και να 'χει"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Ανοίξτε το πρόγραμμα περιήγησης σε διαιρεμένη οθόνη"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Εμφάνιση εκτιμώμενου χρόνου ανάγνωσης"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s λέξεις"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s λεπτά"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s λεπτά"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s λέξεις"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s λεπτά"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s λεπτά"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s λέξεις"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s λέξεις"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s λεπτό"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s λεπτά"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s λέξεις"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s λέξη"
+    },
+    {
+      "name": "close_menu",
+      "value": "Κλείσιμο μενού"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Αποτυχία εξαγωγής αποθηκευμένων άρθρων"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Παράλειψη διπλότυπων άρθρων"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Άρθρα με συνδέσμους ή τίτλους πανομοιότυπους με τα υπάρχοντα άρθρα αγνοούνται"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Συμπαγής Κάρτα"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Εξαγωγή αποθηκευμένων άρθρων"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Άγγιγμα για αναπαραγωγή ήχου"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Εμφάνιση αριθμού μη αναγνωσμενων άρθρων στον τίτλο"
+    },
+    {
+      "name": "api_key",
+      "value": "Κλειδί API"
+    },
+    {
+      "name": "model_id",
+      "value": "Id μοντέλου"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Έκδοση Azure API"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Id ανάπτυξης Azure"
+    },
+    {
+      "name": "summarize",
+      "value": "Σύνοψη"
+    },
+    {
+      "name": "openai_settings",
+      "value": "Ενσωμάτωση OpenAI"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Αδυναμία φόρτωσης μοντέλων."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Δε βρέθηκαν μοντέλα"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Λίστα διαθέσιμων μοντέλων"
+    },
+    {
+      "name": "show_message",
+      "value": "Εμφάνιση μηνύματος"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Εμφάνιση ροών μετά την επισήμανση όλων ως αναγνωσμένα"
+    },
+    {
+      "name": "on",
+      "value": "Ενεργό"
+    },
+    {
+      "name": "off",
+      "value": "Ανενεργό"
+    },
+    {
+      "name": "search_verb",
+      "value": "Αναζήτηση"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Ακύρωση αναζήτησης"
+    },
+    {
+      "name": "text",
+      "value": "Κείμενο"
+    },
+    {
+      "name": "font",
+      "value": "Γραμματοσειρά"
+    },
+    {
+      "name": "text_preview",
+      "value": "Προεπισκόπηση κειμένου"
+    },
+    {
+      "name": "system_default",
+      "value": "Προεπιλογή συστήματος"
+    },
+    {
+      "name": "weight",
+      "value": "Ένταση"
+    },
+    {
+      "name": "italic",
+      "value": "Πλάγια"
+    },
+    {
+      "name": "add_font",
+      "value": "Προσθήκη γραμματοσειράς…"
+    },
+    {
+      "name": "bold",
+      "value": "Έντονο"
+    },
+    {
+      "name": "text_settings",
+      "value": "Ρυθμίσεις κειμένου"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Δεν ήταν δυνατή η προσθήκη γραμματοσειράς"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Δεν ήταν δυνατή η αφαίρεση γραμματοσειράς"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Κάτι πήγε στραβά"
+    },
+    {
+      "name": "time_out",
+      "value": "Χρονικό όριο (δευτερόλεπτα)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Το χρονικό όριο πρέπει να είναι μεταξύ 30 και 600 δευτερολέπτων"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Χρονικό όριο για αιτήσεις OpenAI"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "network-security-config": {
+    "base-config": { "cleartextTrafficPermitted": false },
+    "domain-config": [
+      { "domains": [ { "include-subdomains": false, "name": "api.geonames.org" } ], "cleartextTrafficPermitted": true }
+    ]
+  }
+}

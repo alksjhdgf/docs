@@ -1,0 +1,137 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-podcast-controls",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "scrollUntil",
+   "match": "^The Changelog",
+   "dir": "up",
+   "max": 6
+  },
+  {
+   "op": "tap",
+   "match": "^The Changelog",
+   "nth": 0
+  },
+  {
+   "op": "sleep",
+   "ms": 2000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Stack$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "^Open .*\\.mp3$",
+   "timeout": 8000
+  },
+  {
+   "op": "tap",
+   "match": "^Open .*\\.mp3$"
+  },
+  {
+   "op": "wait",
+   "match": "^0:0[5-9]$",
+   "timeout": 30000
+  },
+  {
+   "op": "shot",
+   "name": "flow-podcast-c1-playing"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 5
+  },
+  {
+   "op": "sleep",
+   "ms": 4000
+  },
+  {
+   "op": "shot",
+   "name": "flow-podcast-c2-paused"
+  },
+  {
+   "op": "sleep",
+   "ms": 4000
+  },
+  {
+   "op": "shot",
+   "name": "flow-podcast-c3-paused-later"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 7
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 7
+  },
+  {
+   "op": "sleep",
+   "ms": 1000
+  },
+  {
+   "op": "shot",
+   "name": "flow-podcast-c4-forward20"
+  },
+  {
+   "op": "tapAt",
+   "x": 660,
+   "y": 2338,
+   "ms": 2000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^1:2\\d:\\d\\d$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-podcast-c5-seek-middle"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 5
+  },
+  {
+   "op": "sleep",
+   "ms": 5000
+  },
+  {
+   "op": "shot",
+   "name": "flow-podcast-c6-resumed"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 4
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

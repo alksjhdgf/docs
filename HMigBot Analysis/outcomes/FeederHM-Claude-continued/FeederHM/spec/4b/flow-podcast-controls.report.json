@@ -1,0 +1,349 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-podcast-controls.json",
+  "at": "2026-10-13T18:39:19.627Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-podcast-controls",
+  "steps": [
+    {
+      "i": 0,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 792
+    },
+    {
+      "i": 1,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3744
+    },
+    {
+      "i": 2,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 744
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3096
+    },
+    {
+      "i": 4,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 0 次后出现 ^The Changelog",
+      "ms": 696
+    },
+    {
+      "i": 5,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"The Changelog: Software Development, Open Source, 1015\" @630,1505",
+      "changed": true,
+      "ms": 3068
+    },
+    {
+      "i": 6,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 2009
+    },
+    {
+      "i": 7,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Stack \"From zero to NanoClaw (Interview)\nGavriel Cohen, creator of NanoClaw and co-founder of NanoCo, joins Adam to explain how a 40-hour weekend project became a viral open source hit and the foundation of an enterprise AI company. Gavriel , The Changelog: Software Development, Open Source, Oct 10, 2026\" @660,847",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": true,
+      "ms": 3039
+    },
+    {
+      "i": 8,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^Open .*\\.mp3$",
+      "ms": 661
+    },
+    {
+      "i": 9,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Open the-changelog-686.mp3\" @660,1242",
+      "changed": true,
+      "ms": 3141
+    },
+    {
+      "i": 10,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^0:0[5-9]$",
+      "ms": 5632
+    },
+    {
+      "i": 11,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-podcast-c1-playing.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-podcast-c1-playing.png",
+      "ms": 225
+    },
+    {
+      "i": 12,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @266,2625（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 3044
+    },
+    {
+      "i": 13,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 4009
+    },
+    {
+      "i": 14,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-podcast-c2-paused.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-podcast-c2-paused.png",
+      "ms": 225
+    },
+    {
+      "i": 15,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 4002
+    },
+    {
+      "i": 16,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-podcast-c3-paused-later.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-podcast-c3-paused-later.png",
+      "ms": 286
+    },
+    {
+      "i": 17,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @602,2625",
+      "changed": true,
+      "ms": 3100
+    },
+    {
+      "i": 18,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @602,2625",
+      "changed": true,
+      "ms": 3108
+    },
+    {
+      "i": 19,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1004
+    },
+    {
+      "i": 20,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-podcast-c4-forward20.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-podcast-c4-forward20.png",
+      "ms": 232
+    },
+    {
+      "i": 21,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @660,2338",
+      "ms": 2177
+    },
+    {
+      "i": 22,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 715
+    },
+    {
+      "i": 23,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-podcast-c5-seek-middle.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-podcast-c5-seek-middle.png",
+      "ms": 198
+    },
+    {
+      "i": 24,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @266,2625",
+      "changed": true,
+      "ms": 3063
+    },
+    {
+      "i": 25,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 5006
+    },
+    {
+      "i": 26,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-podcast-c6-resumed.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-podcast-c6-resumed.png",
+      "ms": 230
+    },
+    {
+      "i": 27,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,2625（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 3110
+    },
+    {
+      "i": 28,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 85
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "All feeds",
+      "SI.gov\nArticle URL: https://www.si.gov/ Comments URL: https://news.ycombinator.com/item?id=50076394 Points: 1 # Comments: 0, Hacker News: Newest, 2:31 AM",
+      "SI.gov\nArticle URL: https://www.si.gov/ Comments URL: https://news.ycombinator.com/item?id=50076394 Points: 1 # Comments: 0",
+      "Hacker News: Newest",
+      "2:31 AM",
+      "Show HN: Popcorn Tracker\nArticle URL: https://popcorn-tracker.wasmer.app/ Comments URL: https://news.ycombinator.com/item?id=50076373 Points: 1 # Comments: 0, Hacker News: Newest, 2:30 AM",
+      "Show HN: Popcorn Tracker\nArticle URL: https://popcorn-tracker.wasmer.app/ Comments URL: https://news.ycombinator.com/item?id=50076373 Points: 1 # Comments: 0",
+      "2:30 AM",
+      "Choose Boring Technology\nArticle URL: https://boringtechnology.club/ Comments URL: https://news.ycombinator.com/item?id=50076370 Points: 1 # Comments: 0, Hacker News: Newest, 2:30 AM",
+      "Choose Boring Technology\nArticle URL: https://boringtechnology.club/ Comments URL: https://news.ycombinator.com/item?id=50076370 Points: 1 # Comments: 0",
+      "Show HN: Can a solo founder compete in the crowded Chrome extension market?\nArticle URL: https://chromewebstore.google.com/detail/thrivez-go-â-earn-rewards/fodndcoojiniehbochnniejfdfnclgfg Comments URL: https://news.ycombinator.com/item?id=50076361 Points: 1 # Comments: 0, Hacker News: Newest, 2:30 AM",
+      "Show HN: Can a solo founder compete in the crowded Chrome extension market?\nArticle URL: https://chromewebstore.google.com/detail/thrivez-go-â-earn-rewards/fodndcoojiniehbochnniejfdfnclgfg Comments URL: https://news.ycombinator.com/item?id=50076361 Points: 1 # Comments: 0",
+      "Software Folklore\nArticle URL: https://beza1e1.tuxen.de/lore/index.html Comments URL: https://news.ycombinator.com/item?id=50076357 Points: 2 # Comments: 0, Hacker News: Newest, 2:29 AM",
+      "Software Folklore\nArticle URL: https://beza1e1.tuxen.de/lore/index.html Comments URL: https://news.ycombinator.com/item?id=50076357 Points: 2 # Comments: 0",
+      "2:29 AM",
+      "Ironies of Automation\nArticle URL: https://en.wikipedia.org/wiki/Ironies_of_Automation Comments URL: https://news.ycombinator.com/item?id=50076354 Points: 1 # Comments: 0, Hacker News: Newest, 2:29 AM",
+      "Ironies of Automation\nArticle URL: https://en.wikipedia.org/wiki/Ironies_of_Automation Comments URL: https://news.ycombinator.com/item?id=50076354 Points: 1 # Comments: 0",
+      "Developing Gemini 4 Argon responsibly and safely\nArticle URL: https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/ Comments URL: https://news.ycombinator.com/item?id=50076347 Points: 2 # Comments: 0, Hacker News: Newest, 2:29 AM",
+      "Developing Gemini 4 Argon responsibly and safely\nArticle URL: https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/ Comments URL: https://news.ycombinator.com/item?id=50076347 Points: 2 # Comments: 0",
+      "Show HN: Give Your Agents GPUs\nArticle URL: https://supercomputer.sh Comments URL: https://news.ycombinator.com/item?id=50076343 Points: 1 # Comments: 0, Hacker News: Newest, 2:29 AM",
+      "Show HN: Give Your Agents GPUs\nArticle URL: https://supercomputer.sh Comments URL: https://news.ycombinator.com/item?id=50076343 Points: 1 # Comments: 0",
+      "02, :, 38",
+      "02",
+      ":",
+      "38",
+      "100",
+      "All feeds, 1410",
+      "1410",
+      "Saved articles, 1",
+      "Saved articles",
+      "1",
+      "Tech",
+      "Feeder News",
+      "Hacker News: Front Page, 20",
+      "Hacker News: Front Page",
+      "20",
+      "Hacker News: Newest, 20",
+      "Planet Money, 355",
+      "Planet Money",
+      "355",
+      "The Changelog: Software Development, Open Source, 1015",
+      "The Changelog: Software Development, Open Source",
+      "1015",
+      "From zero to NanoClaw (Interview)\nGavriel Cohen, creator of NanoClaw and co-founder of NanoCo, joins Adam to explain how a 40-hour weekend project became a viral open source hit and the foundation of an enterprise AI company. Gavriel , The Changelog: Software Development, Open Source, Oct 10, 2026",
+      "From zero to NanoClaw (Interview)\nGavriel Cohen, creator of NanoClaw and co-founder of NanoCo, joins Adam to explain how a 40-hour weekend project became a viral open source hit and the foundation of an enterprise AI company. Gavriel ",
+      "Oct 10, 2026",
+      "Forking Cal.com to closed source (Interview)\nThis week I’m joined by Peer Richelsen, co-founder of Cal.com. What if the majority of open source repositories are already compromised and we just don’t know it yet? That’s the theory Peer brings to , The Changelog: Software Development, Open Source, Sep 4, 2026",
+      "Forking Cal.com to closed source (Interview)\nThis week I’m joined by Peer Richelsen, co-founder of Cal.com. What if the majority of open source repositories are already compromised and we just don’t know it yet? That’s the theory Peer brings to ",
+      "Sep 4, 2026",
+      "Postgres at PlanetScale (Interview)\nSam Lambert is back after 4 years and he does not hold back! We cover $5 PlanetScale Postgres, the Neki “do-over” of Vitess, agents shipping schema changes through deploy requests, rolling back a 500T, The Changelog: Software Development, Open Source, Aug 26, 2026",
+      "From zero to NanoClaw (Interview)",
+      "by ⁨Changelog Media⁩, Saturday, October 10, 2026 at 3:00 AM",
+      "1:43 minute",
+      "Open the-changelog-686.mp3",
+      "Gavriel Cohen, creator of NanoClaw and co-founder of NanoCo, joins Adam to explain how a 40-hour weekend project became a viral open source hit and the foundation of an enterprise AI company. Gavriel describes the security concerns that led him to build a small, container-isolated alternative to OpenClaw, why he released it under the MIT license, and why the project’s community and credibility are more valuable than keeping its code private.",
+      "0.000000",
+      "0:00",
+      "2:42:49",
+      "328.000000",
+      "1658.000000",
+      "0:01",
+      "2701.000000",
+      "0:02",
+      "4190.000000",
+      "0:04",
+      "5226.000000",
+      "0:05",
+      "6233.000000",
+      "0:06",
+      "6746.000000",
+      "7080.000000",
+      "0:07",
+      "17231.000000",
+      "0:17",
+      "02, :, 39",
+      "39",
+      "27231.000000",
+      "0:27",
+      "4884528.000000",
+      "1:21:24",
+      "4885202.000000",
+      "1:21:25",
+      "4891287.000000",
+      "1:21:31",
+      "4892247.000000",
+      "1:21:32"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "feederDrawerTag:Tech",
+      "readerColumn"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

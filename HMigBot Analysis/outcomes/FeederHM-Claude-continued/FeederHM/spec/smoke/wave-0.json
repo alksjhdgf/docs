@@ -1,0 +1,100 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "hap": {
+    "file": "entry-default-signed.hap",
+    "size": 13516054,
+    "mtime": "2026-10-12T14:36:14.924Z"
+  },
+  "hooks": {
+    "passthrough": true,
+    "landingLog": true
+  },
+  "routes": [
+    {
+      "route": "(cold-start)",
+      "foreground": true,
+      "landed": "Feed",
+      "nodes": 79,
+      "windowNodes": 120,
+      "textCount": 10,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-home.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "EditFeed",
+      "foreground": true,
+      "landed": "EditFeed",
+      "nodes": 11,
+      "windowNodes": 52,
+      "textCount": 3,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-EditFeed.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "SearchFeed",
+      "foreground": true,
+      "landed": "SearchFeed",
+      "nodes": 17,
+      "windowNodes": 58,
+      "textCount": 2,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-SearchFeed.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "Import",
+      "foreground": true,
+      "landed": "Import",
+      "nodes": 2,
+      "windowNodes": 100,
+      "textCount": 0,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-Import.png",
+      "verdict": "hollow",
+      "failing": true
+    },
+    {
+      "route": "TextSettings",
+      "foreground": true,
+      "landed": "TextSettings",
+      "nodes": 35,
+      "windowNodes": 76,
+      "textCount": 20,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-TextSettings.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "SyncScreen",
+      "foreground": true,
+      "landed": "SyncScreen",
+      "nodes": 22,
+      "windowNodes": 63,
+      "textCount": 8,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-SyncScreen.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "FeedWidgetSettings",
+      "foreground": true,
+      "landed": "FeedWidgetSettings",
+      "nodes": 3,
+      "windowNodes": 44,
+      "textCount": 0,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-FeedWidgetSettings.png",
+      "verdict": "hollow",
+      "failing": true
+    }
+  ],
+  "crash": null,
+  "launcher": "Main"
+}

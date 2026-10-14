@@ -1,0 +1,437 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-opml-io.json",
+  "at": "2026-10-13T18:34:51.652Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-opml-io",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3678
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 703
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3071
+    },
+    {
+      "i": 3,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =All feeds",
+      "ms": 656
+    },
+    {
+      "i": 4,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"All feeds\" @630,228",
+      "changed": true,
+      "ms": 3037
+    },
+    {
+      "i": 5,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1503
+    },
+    {
+      "i": 6,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3086
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Export feeds to OPML",
+      "ms": 687
+    },
+    {
+      "i": 8,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Export feeds to OPML\" @538,1497",
+      "changed": true,
+      "ms": 3096
+    },
+    {
+      "i": 9,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^feeder-export-\\d{4}-\\d{2}-\\d{2}-\\d+\\.opml$",
+      "ms": 683
+    },
+    {
+      "i": 10,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/opml-export-picker.png",
+      "shot": "output/FeederHM/spec/screenshots/opml-export-picker.png",
+      "ms": 249
+    },
+    {
+      "i": 11,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 SymbolGlyph \"dialog_confirm\" @1199,262",
+      "changed": true,
+      "ms": 3112
+    },
+    {
+      "i": 12,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 2010
+    },
+    {
+      "i": 13,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3114
+    },
+    {
+      "i": 14,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Import feeds from OPML",
+      "ms": 681
+    },
+    {
+      "i": 15,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Import feeds from OPML\" @570,1329",
+      "changed": true,
+      "ms": 3064
+    },
+    {
+      "i": 16,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Browse",
+      "ms": 676
+    },
+    {
+      "i": 17,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Browse\" @813,291",
+      "changed": true,
+      "ms": 3080
+    },
+    {
+      "i": 18,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =My phone",
+      "ms": 691
+    },
+    {
+      "i": 19,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"My phone\" @368,861",
+      "changed": true,
+      "ms": 3109
+    },
+    {
+      "i": 20,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Download",
+      "ms": 716
+    },
+    {
+      "i": 21,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Download\" @252,1053",
+      "changed": true,
+      "ms": 3106
+    },
+    {
+      "i": 22,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =import-test.opml",
+      "ms": 694
+    },
+    {
+      "i": 23,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 716
+    },
+    {
+      "i": 24,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"import-test.opml\" @252,1757",
+      "changed": true,
+      "ms": 3105
+    },
+    {
+      "i": 25,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 5007
+    },
+    {
+      "i": 26,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3117
+    },
+    {
+      "i": 27,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 2/2",
+      "ms": 686
+    },
+    {
+      "i": 28,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/opml-import-drawer.png",
+      "shot": "output/FeederHM/spec/screenshots/opml-import-drawer.png",
+      "ms": 209
+    },
+    {
+      "i": 29,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 781
+    },
+    {
+      "i": 30,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3120
+    },
+    {
+      "i": 31,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Export saved articles",
+      "ms": 717
+    },
+    {
+      "i": 32,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Export saved articles\" @529,1833",
+      "changed": true,
+      "ms": 3130
+    },
+    {
+      "i": 33,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^feeder-saved-articles-\\d{4}-\\d{2}-\\d{2}-\\d+\\.json$",
+      "ms": 690
+    },
+    {
+      "i": 34,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/saved-export-picker.png",
+      "shot": "output/FeederHM/spec/screenshots/saved-export-picker.png",
+      "ms": 200
+    },
+    {
+      "i": 35,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 SymbolGlyph \"dialog_confirm\" @1199,262",
+      "changed": true,
+      "ms": 3167
+    },
+    {
+      "i": 36,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 2006
+    },
+    {
+      "i": 37,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 109
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "All feeds",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Feeder News",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 33",
+      "02",
+      ":",
+      "33",
+      "100",
+      "Saved articles, 1",
+      "Saved articles",
+      "1",
+      "Mark all as read",
+      "Sync feeds",
+      "Add feed",
+      "Edit feed",
+      "Delete feed",
+      "Import feeds from OPML",
+      "Export feeds to OPML",
+      "Import saved articles",
+      "Export saved articles",
+      "Settings",
+      "Save file to Download",
+      "feeder-export-2026-10-14-9238.opml",
+      "My phone",
+      "Download",
+      "Browser",
+      "Documents",
+      "Select a location.",
+      "02, :, 34",
+      "34",
+      "Recent",
+      "Browse",
+      "No content",
+      "0 selected",
+      "Done",
+      "This app can only access items you select",
+      "Location",
+      "My phone, 3.42 GB of 16 GB available",
+      "3.42 GB of 16 GB available",
+      "My Drive",
+      "Media",
+      "Gallery",
+      "Source",
+      "Downloads/Received",
+      "2 items",
+      "02:34",
+      "Yesterday",
+      "4 items",
+      "1.05 KB",
+      "seed-feeds.opml",
+      "02:05",
+      "749 B",
+      "import-test.opml",
+      "365 B",
+      "Show HN: XY Music Notation\nI've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it. The idea is to represent each note in 12, Hacker News: Front Page, 1:43 AM",
+      "Show HN: XY Music Notation\nI've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it. The idea is to represent each note in 12",
+      "Hacker News: Front Page",
+      "1:43 AM",
+      "Coris (YC S22) Is Hiring Back End Engineer\nArticle URL: https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations Comments URL: https://news.ycombinator.com/item?id=50074969 Points: 0 , Hacker News: Front Page, 1:00 AM",
+      "Coris (YC S22) Is Hiring Back End Engineer\nArticle URL: https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations Comments URL: https://news.ycombinator.com/item?id=50074969 Points: 0 ",
+      "1:00 AM",
+      "Show HN: How Random Are You?\nArticle URL: https://lab.specr.net/rigged-draw/ Comments URL: https://news.ycombinator.com/item?id=50074909 Points: 19 # Comments: 8, Hacker News: Front Page, 12:57 AM",
+      "Show HN: How Random Are You?\nArticle URL: https://lab.specr.net/rigged-draw/ Comments URL: https://news.ycombinator.com/item?id=50074909 Points: 19 # Comments: 8",
+      "12:57 AM",
+      "Gemini 4 Argon for Robotics\nArticle URL: https://developers.googleblog.com/gemini-4-argon-for-robotics/ Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 57 # Comments: 10, Hacker News: Front Page, 12:55 AM",
+      "Gemini 4 Argon for Robotics\nArticle URL: https://developers.googleblog.com/gemini-4-argon-for-robotics/ Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 57 # Comments: 10",
+      "12:55 AM",
+      "Cyberattack halts construction of tunnel between Denmark and Germany\nArticle URL: https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24 Comments URL: https://news.ycombinator.com/item?id=50074289 Points: 81 # Comments: 3, Hacker News: Front Page, 12:24 AM",
+      "Cyberattack halts construction of tunnel between Denmark and Germany\nArticle URL: https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24 Comments URL: https://news.ycombinator.com/item?id=50074289 Points: 81 # Comments: 3",
+      "12:24 AM",
+      "Gemini 4 Argon\nArticle URL: https://deepmind.google/models/gemini/ Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 499 # Comments: 383, Hacker News: Front Page, 12:03 AM",
+      "Gemini 4 Argon\nArticle URL: https://deepmind.google/models/gemini/ Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 499 # Comments: 383",
+      "12:03 AM",
+      "Redesigning source control at Anthropic\nArticle URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 126 # Comments: 96, Hacker News: Front Page, Oct 13, 2026",
+      "Redesigning source control at Anthropic\nArticle URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 126 # Comments: 96",
+      "All feeds, 20",
+      "20",
+      "Tech",
+      "Hacker News: Front Page, 20",
+      "Oct 13, 2026",
+      "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data\nHey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restr, Hacker News: Front Page, Oct 13, 2026",
+      "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data\nHey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restr",
+      "feeder-saved-articles-2026-10-14-9283.json"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "left_icon",
+      "new_document_icon",
+      "dialog_confirm",
+      "My phone",
+      "Download",
+      "Browser",
+      "Documents",
+      "SegmentButton",
+      "top_search",
+      "__SearchField__top_search",
+      "__SearchField__Image__top_search",
+      "top_title",
+      "top_menu",
+      "0",
+      "0Icon",
+      "1",
+      "1Icon",
+      "2",
+      "2Icon",
+      "3",
+      "3Icon",
+      "feederDrawerTag:Tech"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

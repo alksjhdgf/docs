@@ -1,0 +1,6 @@
+{"bundle":"com.nononsenseapps.feeder","name":"flow-device","steps":[
+{"op":"start","route":"Settings"},
+{"op":"wait","match":"=Theme"},
+{"op":"tap","match":"=Theme"},
+{"op":"wait","match":"=Night","timeout":4000}
+]}

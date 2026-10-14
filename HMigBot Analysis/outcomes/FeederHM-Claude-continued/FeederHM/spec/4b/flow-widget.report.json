@@ -1,0 +1,529 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-widget.json",
+  "at": "2026-10-13T18:41:44.002Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-widget",
+  "steps": [
+    {
+      "i": 0,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 776
+    },
+    {
+      "i": 1,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 800
+    },
+    {
+      "i": 2,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 817
+    },
+    {
+      "i": 3,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1203
+    },
+    {
+      "i": 4,
+      "op": "swipeRaw",
+      "ok": true,
+      "detail": "滑 1100,1500→200,1500",
+      "ms": 2339
+    },
+    {
+      "i": 5,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 735
+    },
+    {
+      "i": 6,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @1166,684",
+      "ms": 4181
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =All feeds",
+      "ms": 742
+    },
+    {
+      "i": 8,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 0 次后出现 =Planet Money",
+      "ms": 699
+    },
+    {
+      "i": 9,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 2/2",
+      "ms": 666
+    },
+    {
+      "i": 10,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-widget-settings-page.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-widget-settings-page.png",
+      "ms": 207
+    },
+    {
+      "i": 11,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Planet Money\" @666,1323",
+      "changed": true,
+      "ms": 3055
+    },
+    {
+      "i": 12,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1508
+    },
+    {
+      "i": 13,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 783
+    },
+    {
+      "i": 14,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 810
+    },
+    {
+      "i": 15,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 798
+    },
+    {
+      "i": 16,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1202
+    },
+    {
+      "i": 17,
+      "op": "swipeRaw",
+      "ok": true,
+      "detail": "滑 1100,1500→200,1500",
+      "ms": 2304
+    },
+    {
+      "i": 18,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-widget-planetmoney.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-widget-planetmoney.png",
+      "ms": 281
+    },
+    {
+      "i": 19,
+      "op": "stop",
+      "ok": true,
+      "detail": "",
+      "ms": 153
+    },
+    {
+      "i": 20,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1509
+    },
+    {
+      "i": 21,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @1026,684",
+      "ms": 1009
+    },
+    {
+      "i": 22,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-widget-sync-tapped.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-widget-sync-tapped.png",
+      "ms": 318
+    },
+    {
+      "i": 23,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 10008
+    },
+    {
+      "i": 24,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-widget-after-sync-killed.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-widget-after-sync-killed.png",
+      "ms": 296
+    },
+    {
+      "i": 25,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @1166,684",
+      "ms": 4187
+    },
+    {
+      "i": 26,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =All feeds",
+      "ms": 738
+    },
+    {
+      "i": 27,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Feeder News\" @723,777（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 3074
+    },
+    {
+      "i": 28,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1502
+    },
+    {
+      "i": 29,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 794
+    },
+    {
+      "i": 30,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 803
+    },
+    {
+      "i": 31,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 819
+    },
+    {
+      "i": 32,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1207
+    },
+    {
+      "i": 33,
+      "op": "swipeRaw",
+      "ok": true,
+      "detail": "滑 1100,1500→200,1500",
+      "ms": 2346
+    },
+    {
+      "i": 34,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-widget-feedernews-before.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-widget-feedernews-before.png",
+      "ms": 260
+    },
+    {
+      "i": 35,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @660,900",
+      "ms": 4183
+    },
+    {
+      "i": 36,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =0:59 minutes",
+      "ms": 742
+    },
+    {
+      "i": 37,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 688
+    },
+    {
+      "i": 38,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 777
+    },
+    {
+      "i": 39,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 801
+    },
+    {
+      "i": 40,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 804
+    },
+    {
+      "i": 41,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1208
+    },
+    {
+      "i": 42,
+      "op": "swipeRaw",
+      "ok": true,
+      "detail": "滑 1100,1500→200,1500",
+      "ms": 3814
+    },
+    {
+      "i": 43,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-widget-after-read.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-widget-after-read.png",
+      "ms": 285
+    },
+    {
+      "i": 44,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @660,900",
+      "ms": 4181
+    },
+    {
+      "i": 45,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =0:59 minutes",
+      "ms": 718
+    },
+    {
+      "i": 46,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3084
+    },
+    {
+      "i": 47,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Mark as unread",
+      "ms": 688
+    },
+    {
+      "i": 48,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Mark as unread\" @386,654",
+      "changed": true,
+      "ms": 3070
+    },
+    {
+      "i": 49,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1001
+    },
+    {
+      "i": 50,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 813
+    },
+    {
+      "i": 51,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 810
+    },
+    {
+      "i": 52,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 809
+    },
+    {
+      "i": 53,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1210
+    },
+    {
+      "i": 54,
+      "op": "swipeRaw",
+      "ok": true,
+      "detail": "滑 1100,1500→200,1500",
+      "ms": 3807
+    },
+    {
+      "i": 55,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-widget-after-unread.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-widget-after-unread.png",
+      "ms": 321
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Weather App",
+      "Feeder",
+      "3",
+      "SI.gov",
+      "Article URL: https://www.si.gov/ Comments URL: https://news.ycombinator.com/item?id=50076394 Points: 1 # Comments: 0",
+      "Show HN: Popcorn Tracker",
+      "Article URL: https://popcorn-tracker.wasmer.app/ Comments URL: https://news.ycombinator.com/item?id=50076373 Points: 1 # Comments: 0",
+      "02, :, 40",
+      "02",
+      ":",
+      "40",
+      "100",
+      "All feeds",
+      "1409",
+      "Saved articles",
+      "1",
+      "Tech",
+      "Feeder News",
+      "Hacker News: Front Page",
+      "20",
+      "Hacker News: Newest",
+      "Planet Money",
+      "355",
+      "The Changelog: Software Development, Open Source",
+      "1014",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 41",
+      "41",
+      "2.24.0 released",
+      "by ⁨Jonas⁩, Saturday, October 10, 2026 at 8:26 PM",
+      "0:59 minutes",
+      "🚀 Features",
+      "•",
+      "Added per-feed article filtering rules (#1217) by @antoncarrot in #1217",
+      "🐛 Bug Fixes & Minor Changes",
+      "Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spacecowboy in #1226",
+      "Do not update feed url if selfLink would change between http and https (#1228) by @spacecowboy in #1228",
+      "Stopped changing feed urls to match selfLinks (#1257) by @spacecowboy in #1257",
+      "Share",
+      "Mark as unread",
+      "Stop saving article",
+      "Read aloud"
+    ],
+    "ids": [
+      "session10",
+      "SCBDesktop_Image_container",
+      "SCBDesktop_Flex_Desktop",
+      "SCBDesktop_Column_PageDesktopLayout",
+      "GridSwiper_stack_snap",
+      "GridSwiper_Stack_Swiper",
+      "SwiperPage_Grid_WorkSpace_1",
+      "SwiperPage_GridItem_[com.wemaka.weatherapp___16777219___0,1]",
+      "AppIconCommonView_com.wemaka.weatherapp.EntryAbility",
+      "AppIcon_Image_com.wemaka.weatherappEntryAbilityentry0_undefined_0",
+      "AppNameLite_text_com.wemaka.weatherapp_mv1803yr7p719uieqbl",
+      "SwiperPage_GridItem_[com.nononsenseapps.feeder___16777220___0,1]",
+      "AppIconCommonView_com.nononsenseapps.feeder.EntryAbility",
+      "AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0",
+      "AppNameLite_text_com.nononsenseapps.feeder_mv5dtx42ran8kkd6b3n",
+      "CustomBadge_AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0",
+      "SwiperPage_GridItem_[com.nononsenseapps.feeder__346906563_undefined___0,1]",
+      "SwiperPage_FormItem_com.nononsenseapps.feeder_346906563",
+      "FormItem_com.nononsenseapps.feeder_346906563column",
+      "FormItem_com.nononsenseapps.feeder_346906563",
+      "CommonForm_FormComponent_0",
+      "AppName_text_com.nononsenseapps.feeder_Feeder_mv6xflsche72e0n08s6",
+      "SwiperIndicator_indicator",
+      "SwiperIndicator_ic_negative_screen_indicator",
+      "SCBDesktop_Column_smartDock",
+      "ResidentLayout",
+      "SmartDock_V_ResidentLayout_Rect_placeholder",
+      "ResidentLayout_AppItem_com.ohos.contacts_Wrap",
+      "ResidentLayout_AppItem_com.ohos.contacts",
+      "AppIconCommonView_com.ohos.contacts.com.ohos.contacts.MainAbility",
+      "AppIcon_Image_com.ohos.contactscom.ohos.contacts.MainAbilityentry0_undefined_1",
+      "ResidentLayout_AppItem_com.huawei.hmos.browser_Wrap",
+      "ResidentLayout_AppItem_com.huawei.hmos.browser",
+      "AppIconCommonView_com.huawei.hmos.browser.MainAbility",
+      "AppIcon_Image_com.huawei.hmos.browserMainAbilityentry0_undefined_1",
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feedsAndTags",
+      "readerColumn"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

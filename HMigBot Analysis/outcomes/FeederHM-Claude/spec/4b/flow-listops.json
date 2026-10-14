@@ -1,0 +1,90 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-listops",
+ "steps": [
+  {
+   "op": "start",
+   "fresh": true
+  },
+  {
+   "op": "wait",
+   "match": "=Sep 20, 2026",
+   "timeout": 20000
+  },
+  {
+   "op": "sleep",
+   "ms": 2500
+  },
+  {
+   "op": "swipe",
+   "dir": "left",
+   "within": "News, Sep 20, 2026"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^All feeds, 15$",
+    "^Feeder News, 15$"
+   ]
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 4
+  },
+  {
+   "op": "sleep",
+   "ms": 1000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^All feeds$",
+    "^Feeder News$"
+   ]
+  },
+  {
+   "op": "probe",
+   "match": [
+    "^All feeds, \\d+$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-listops-allread"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Mark all as read",
+   "timeout": 4000
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

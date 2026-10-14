@@ -1,0 +1,82 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-addfeed",
+ "steps": [
+  {
+   "op": "start",
+   "route": "SearchFeed"
+  },
+  {
+   "op": "wait",
+   "match": "=urlField"
+  },
+  {
+   "op": "type",
+   "match": "=urlField",
+   "text": "https://hnrss.org/frontpage"
+  },
+  {
+   "op": "tap",
+   "match": "=Search"
+  },
+  {
+   "op": "wait",
+   "match": "=searchResult",
+   "timeout": 20000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Hacker News: Front Page",
+    "=https://hnrss.org/frontpage"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=searchResult"
+  },
+  {
+   "op": "wait",
+   "match": "=editFeedTitle"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Hacker News: Front Page"
+   ]
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=OK",
+   "dir": "up",
+   "max": 8
+  },
+  {
+   "op": "tap",
+   "match": "=OK"
+  },
+  {
+   "op": "wait",
+   "match": "=Hacker News: Front Page",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^Hacker News: Front Page, \\d+$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-addfeed-drawer"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

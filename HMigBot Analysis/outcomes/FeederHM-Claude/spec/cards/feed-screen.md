@@ -1,0 +1,54 @@
+# feed-screen Feed 页断言卡
+
+## 页面: Feed
+- FD-A01 [ui] 顶部内容避让状态栏，不与状态栏重叠。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1289
+- FD-A02 [ui] 顶栏标题：具体订阅源显示其显示名；标签视图显示标签名；全部（id 为 `ID_UNSET`(0)/`ID_ALL_FEEDS`(-10) 且 tag 空）显示 `All feeds`；收藏视图（`ID_SAVED_ARTICLES`(-20)）显示 `Saved articles`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:567
+- FD-A03 [ui] 设置 `pref_show_title_unread_count` 开、非收藏视图且当前范围未读数>0 时，标题后追加 ` (N)`；否则不追加。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1214
+- FD-A04 [ui] 顶栏导航按钮（`Open navigation drawer`）点击切换抽屉开/关。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1229
+- FD-A05 [ui] 抽屉打开时按系统返回仅关闭抽屉，停留 Feed 页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:254
+- FD-A06 [ui] 抽屉中点击 `All feeds`/`Saved articles`/标签/订阅源后，Feed 页切换到该 feed/tag 且抽屉关闭；导航清空返回栈并单顶（Feed 为唯一栈底）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navdrawer/NavDrawer.kt:111
+- FD-A07 [backend] 抽屉中切换标签展开/折叠仅改会话级展开集合，抽屉随之显示/隐藏该标签下的子订阅源。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt:369
+- FD-A08 [ui] 切换到另一 feed/tag 后列表（及网格）滚动位置从顶部开始，每个 feed/tag 有独立滚动状态。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:237
+- FD-A09 [ui] 搜索栏未展开时顶栏右侧动作依次为 `Search`、`Filter`（仅非收藏视图显示）、`Open menu`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:656
+- FD-A10 [ui] 点 `Search` 展开搜索输入框并自动获得焦点，占位文本 `Search`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:579
+- FD-A11 [backend] 搜索词变化实时刷新列表：按 plain_title 或 plain_snippet 子串匹配（`\`、`%`、`_` 作字面量）；搜索词非空时不再限定当前 feed/tag/收藏范围而在全部条目中搜索，仍受已读筛选与屏蔽约束。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/FeedItemStore.kt:159
+- FD-A12 [ui] 点搜索框 `Cancel search` 或按 Esc：收起搜索栏并清空搜索词，列表恢复。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:632
+- FD-A13 [ui] 搜索词非空时搜索栏始终显示。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt:531
+- FD-A14 [backend] 搜索词只存内存，不持久化，冷启动后为空。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:201
+- FD-A15 [ui] 筛选菜单 4 项依次为 `Unread`（恒勾选且不可点）、`Saved`、`Recently read`、`Read`，勾选框显示当前状态；点可用项翻转该项并关闭菜单。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:696
+- FD-A16 [backend] 筛选持久化：`prefs_filter_saved` 默认 false、`prefs_filter_recently_read` 默认 true、`prefs_filter_read` 默认 true；unread 恒为 true。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/SettingsStore.kt:163
+- FD-A17 [backend] 关闭 `Recently read` 同时关闭 `Read`；开启 `Read` 同时开启 `Recently read`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:185
+- FD-A18 [backend] 列表筛选：始终排除被屏蔽条目(block_time 非空)；仅未读→read_time 为空；含 Recently read 无 Read→未读或 read_time≥minReadTime；含 Read→全部；Saved 开→另并入 bookmarked=1。收藏视图不应用该筛选，只列 bookmarked=1 且不受 minReadTime 限制。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/FeedItemStore.kt:139
+- FD-A19 [backend] 排序取设置 `pref_sort`（默认 NEWEST_FIRST）：最新优先为 primary_sort_time DESC, pub_date DESC, id DESC，否则三者全 ASC；Feed 页无排序控件。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:412
+- FD-A20 [ui] 更多菜单逐项：`Mark all as read`｜分隔｜`Sync feeds`｜分隔｜`Add feed`、`Edit feed`、`Delete feed`｜（仅标签视图）分隔+`Rename tag`｜分隔｜`Import feeds from OPML`、`Export feeds to OPML`、`Import saved articles`、`Export saved articles`｜分隔｜`Settings`；点任一项后菜单关闭。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:844
+- FD-A21 [backend] Mark all as read（菜单或 FAB）：具体订阅源→该源全部条目标已读；标签→该标签全部；否则→全部条目；随后触发同步链发送已读并把 minReadTime 设为当前时刻。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:597
+- FD-A22 [ui] `Sync feeds` 触发全部订阅源立即同步（强制网络、用户触发），并把列表/网格滚回顶部。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:297
+- FD-A23 [ui] `Add feed` 进入 SearchFeed 页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:325
+- FD-A24 [ui] `Edit feed`：当前范围可见订阅源恰 1 个时直接进入其 EditFeed 页；否则弹出 `Edit feed` 选择对话框，点某源进入其 EditFeed 并关闭对话框，`Cancel` 关闭。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:893
+- FD-A25 [ui] `Delete feed` 弹出删除对话框，列出当前范围可见订阅源供勾选，OK 删除勾选项并关闭，Cancel 仅关闭。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1319
+- FD-A26 [backend] 删除订阅源后移除其动态快捷方式；若当前 feed 被删则切换到 `All feeds`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:589
+- FD-A27 [ui] `Rename tag` 仅在标签视图显示；对话框预填当前标签名，OK 仅在新名非空且不同于原名时可用；确认后标签改名，若当前正看该标签则标题切到新名。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:925
+- FD-A28 [ui] `Import feeds from OPML` 打开系统文件选择（text/xml、text/x-opml、application/xml、application/json、application/octet-stream、*/*）；选中后后台导入并触发一次同步；选择器无法打开或导入失败均 toast `Failed to import OPML`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:356
+- FD-A29 [ui] `Export feeds to OPML` 打开系统新建文档，默认文件名 `feeder-export-<yyyy-MM-dd>-<当日秒数>.opml`（text/x-opml），确认后后台写出；失败 toast `Failed to export OPML`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:378
+- FD-A30 [ui] `Import saved articles` 打开系统文件选择（text/plain、application/octet-stream、*/*），选中后后台导入；失败 toast `Failed to import saved articles`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:388
+- FD-A31 [ui] `Export saved articles` 默认文件名 `feeder-saved-articles-<yyyy-MM-dd>-<当日秒数>.json`（application/json），确认后后台写出；失败 toast `Failed to export saved articles`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:406
+- FD-A32 [ui] `Settings` 进入 Settings 页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:353
+- FD-A33 [ui] 下拉刷新触发当前 feed/tag 立即同步（强制网络、用户触发）并显示刷新指示器；同步进行中保持显示，若 5 秒内同步未开始则指示器自动消失，不无限转圈。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1139
+- FD-A34 [backend] “正在同步”= 同步 worker 运行中 且 最近一次同步时间戳在 10 秒内；为真时刷新指示器显示且条目增删动画关闭。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt:507
+- FD-A35 [ui] 当前范围可见条目数为 0 时显示空态 `Nothing to read here. Would you like to…`、`Open another feed?`（点击开/关抽屉）、`Add more feeds?`（点击进入 SearchFeed）；数据加载前不闪空态。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1383
+- FD-A36 [ui] FAB（`Mark all as read`）在设置 `pref_show_fab`（默认开）且有可见条目时显示，底部播放条可见时改为嵌在播放条内；点击执行全部标记已读，`pref_open_drawer_on_fab` 开时同时打开抽屉。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1164
+- FD-A37 [ui] 底部栏：播客播放器可见时显示播客条，否则在朗读非停止状态时显示朗读条。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1242
+- FD-A38 [ui] 宽或高为紧凑尺寸时为单列列表；否则为交错网格，列数随窗口宽为 2（≤1028dp）/3（>1028dp）/4（>1360dp），`pref_force_single_column` 开时固定 1 列。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1040
+- FD-A39 [ui] 条目样式随 `pref_feed_item_style`（CARD/COMPACT_CARD/COMPACT/SUPER_COMPACT，默认 CARD）切换；列表模式下 COMPACT/SUPER_COMPACT 条目间有分割线。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1589
+- FD-A40 [ui] 点击条目：该源打开方式（未设则全局）为 custom tab 且有链接→自定义标签页打开；为默认浏览器且有链接→外部浏览器；否则进入 Article 页；之后该条目标为已读。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt:394
+- FD-A41 [ui] 条目长按菜单 `Open in reader` 进入 Article 页；`Open in custom tab`/`Open in default browser` 有链接则打开，无链接分别 toast `Unable to open article in custom tab`/`Unable to open article in browser`；三者都把条目标为已读。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt:419
+- FD-A42 [backend] 滑动标记：筛选为仅未读，或为仅未读+Saved 且该条未收藏时，条目标已读且 read_time 写为 minReadTime−1s（立即从列表消失）；其他情况按滑动结果切换已读/未读。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:428
+- FD-A43 [backend] `Mark the above as read`/`Mark the below as read`：在当前 feed/tag+筛选+搜索范围内，按当前排序方向以该条游标(primary_sort_time, pub_date, id)为界，把其上/其下的条目（不含自身）read_time 置为当前（已有则保留）并标为已通知，随后触发同步链发送已读。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:610
+- FD-A44 [ui] `Mark the above as read` 后若筛选为仅未读，列表跳回顶部。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1499
+- FD-A45 [backend] 设置 `pref_is_mark_as_read_on_scroll`（默认关）开时：未读条目可见≥90% 持续 500ms 后，在其滚出屏幕时标为已读；快速划过（未满 500ms）不标。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1563
+- FD-A46 [ui] 条目菜单 `Save article`/`Stop saving article` 切换收藏；非收藏视图条目显示收藏标记。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1510
+- FD-A47 [on_device] 条目 `Share` 弹出系统分享面板，内容为去跟踪参数后的链接（有链接时）与标题，类型 text/plain。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1513
+- FD-A48 [backend] 条目标为未读时同时把其同步状态置为未同步；标为已读时同时标已通知并触发同步链发送已读。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:509
+- FD-A49 [backend] 开启“默认翻译预览”且翻译 API 可用、目标语言非空时，对出现的条目翻译标题/摘要（先用缓存），译文覆盖显示（空译文回退原文）；本地翻译需先下载模型时不翻；翻译配置变化时清空已译并重新翻译。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt:227
+- FD-A50 [ui] 本地翻译模型下载进行中时内容区顶部显示下载进度条。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feed/FeedScreen.kt:1308
+- FD-A51 [ui] 顶栏菜单、筛选菜单、搜索栏的打开状态在配置变更/进程重建后恢复。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/FeedViewModel.kt:198

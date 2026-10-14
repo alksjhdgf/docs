@@ -1,0 +1,427 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-editdelete.json",
+  "at": "2026-10-12T17:11:44.438Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-editdelete",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3674
+    },
+    {
+      "i": 1,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 3008
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3122
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Feeder News, 16\" @630,595",
+      "changed": true,
+      "ms": 3026
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 661
+    },
+    {
+      "i": 5,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248（点后页面无变化）",
+      "changed": false,
+      "ms": 3082
+    },
+    {
+      "i": 6,
+      "op": "wait",
+      "ok": false,
+      "detail": "等待 =Edit feed 超时（最后 120 节点）",
+      "kind": "expect_missing",
+      "page": {
+        "texts": [
+          "Feeder News",
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+          "Oct 10, 2026",
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+          "Sep 20, 2026",
+          "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+          "01, :, 11",
+          "01",
+          ":",
+          "11",
+          "100"
+        ],
+        "ids": [
+          "session21",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ethernet",
+          "StatusBarIconItemEthernetComponent_Image_icon",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellular",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView",
+          "LiveMetaBallBaseVm"
+        ],
+        "clickable": [
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+          "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+          "#StatusBarBridgeView",
+          "#LiveMetaBallBaseVm"
+        ],
+        "geometry": {
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026": {
+            "center": [
+              0.5,
+              0.3
+            ],
+            "bounds": "[56,360][1264,1334]"
+          },
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026": {
+            "center": [
+              0.5,
+              0.66
+            ],
+            "bounds": "[56,1390][1264,2364]"
+          },
+          "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026": {
+            "center": [
+              0.5,
+              0.92
+            ],
+            "bounds": "[56,2419][1264,2856]"
+          },
+          "#session21": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[49,55][1271,136]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[49,55][1320,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[49,66][111,128]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,55][1271,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_ethernet": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[995,55][1079,136]"
+          },
+          "#StatusBarIconItemEthernetComponent_Image_icon": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[1002,69][1079,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1079,55][1166,136]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellular": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1166,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,69][1271,125]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1182,75][1252,120]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#LiveMetaBallBaseVm": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[380,19][940,136]"
+          }
+        }
+      },
+      "ms": 4812,
+      "shot": "output/FeederHM/spec/screenshots/fail-flow-editdelete-step-6.png"
+    },
+    {
+      "i": 7,
+      "op": "tap",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 8,
+      "op": "wait",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 9,
+      "op": "type",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 10,
+      "op": "scrollUntil",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 11,
+      "op": "tap",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 12,
+      "op": "tap",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 13,
+      "op": "expect",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 14,
+      "op": "alive",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    }
+  ],
+  "ok": false,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Hacker News: Front Page",
+      "Muse Wonder\nArticle URL: https://research.meta.ai/blog/muse-wonder Comments URL: https://news.ycombinator.com/item?id=50059115 Points: 13 # Comments: 0, Hacker News: Front Page, 12:48 AM",
+      "Muse Wonder\nArticle URL: https://research.meta.ai/blog/muse-wonder Comments URL: https://news.ycombinator.com/item?id=50059115 Points: 13 # Comments: 0",
+      "12:48 AM",
+      "A Modern Web App in C\nArticle URL: https://prophitt.me/writing/a-modern-web-app-in-c Comments URL: https://news.ycombinator.com/item?id=50058528 Points: 39 # Comments: 13, Hacker News: Front Page, 12:13 AM",
+      "A Modern Web App in C\nArticle URL: https://prophitt.me/writing/a-modern-web-app-in-c Comments URL: https://news.ycombinator.com/item?id=50058528 Points: 39 # Comments: 13",
+      "12:13 AM",
+      "GLM-Legal: Advancing Agentic Legal Intelligence\nArticle URL: https://z.ai/blog/glm-legal Comments URL: https://news.ycombinator.com/item?id=50058507 Points: 100 # Comments: 56, Hacker News: Front Page, 12:11 AM",
+      "GLM-Legal: Advancing Agentic Legal Intelligence\nArticle URL: https://z.ai/blog/glm-legal Comments URL: https://news.ycombinator.com/item?id=50058507 Points: 100 # Comments: 56",
+      "12:11 AM",
+      "French supermarkets suffer fridge shutdown after 'unprecedented' cyberattack\nArticle URL: https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html Comments URL: https://news.ycombinator.com/item?id=50057956 Points: 98 # Comments: 65, Hacker News: Front Page, Oct 12, 2026",
+      "French supermarkets suffer fridge shutdown after 'unprecedented' cyberattack\nArticle URL: https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html Comments URL: https://news.ycombinator.com/item?id=50057956 Points: 98 # Comments: 65",
+      "Oct 12, 2026",
+      "Fridges in French supermarkets hit by cyber attack\nArticle URL: https://www.bbc.com/news/articles/crq5nzxv9q4yo Comments URL: https://news.ycombinator.com/item?id=50057551 Points: 35 # Comments: 13, Hacker News: Front Page, Oct 12, 2026",
+      "Fridges in French supermarkets hit by cyber attack\nArticle URL: https://www.bbc.com/news/articles/crq5nzxv9q4yo Comments URL: https://news.ycombinator.com/item?id=50057551 Points: 35 # Comments: 13",
+      "Hackers heat French supermarket fridges, sparking fires and food losses\nArticle URL: https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/ Comments URL: https://news.ycombinator.com/item?i, Hacker News: Front Page, Oct 12, 2026",
+      "Hackers heat French supermarket fridges, sparking fires and food losses\nArticle URL: https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/ Comments URL: https://news.ycombinator.com/item?i",
+      "Deep dive into Azure Maia 300 architecture\nArticle URL: https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/ Comments URL: https://news.ycombinator.com/item?id=50057185 Points: 16 # Comments: 2, Hacker News: Front Page, Oct 12, 2026",
+      "Deep dive into Azure Maia 300 architecture\nArticle URL: https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/ Comments URL: https://news.ycombinator.com/item?id=50057185 Points: 16 # Comments: 2",
+      "An Unmade Film Shaped Hayao Miyazaki\nArticle URL: https://animationobsessive.substack.com/p/an-unmade-film-shaped-hayao-miyazaki Comments URL: https://news.ycombinator.com/item?id=50057030 Points: 38 # Comments: 5, Hacker News: Front Page, Oct 12, 2026",
+      "An Unmade Film Shaped Hayao Miyazaki\nArticle URL: https://animationobsessive.substack.com/p/an-unmade-film-shaped-hayao-miyazaki Comments URL: https://news.ycombinator.com/item?id=50057030 Points: 38 # Comments: 5",
+      "01, :, 11",
+      "01",
+      ":",
+      "11",
+      "100",
+      "All feeds, 36",
+      "All feeds",
+      "36",
+      "Saved articles",
+      "Feeder News, 16",
+      "Feeder News",
+      "16",
+      "Hacker News: Front Page, 20",
+      "20",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList"
+    ]
+  },
+  "tapsNoChange": 1,
+  "failStreak": 3
+}

@@ -1,0 +1,1540 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Buka laci navigasi"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Tutup laci navigasi"
+    },
+    {
+      "name": "action_settings",
+      "value": "Pengaturan"
+    },
+    {
+      "name": "add_feed",
+      "value": "Tambah umpan"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Berlangganan ke umpan"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Tag"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL umpan"
+    },
+    {
+      "name": "title",
+      "value": "Judul"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Simpan"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Tidak ada yang bisa dibaca di sini. Apakah Anda ingin…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Buka umpan lain?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Tambah lebih banyak umpan?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Masukkan alamat umpan"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Tandai sudah dibaca"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Tandai belum dibaca"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Tandai semua sudah dibaca"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Sunting umpan"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Hapus umpan"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Tampilkan semua item"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Tampilkan yang belum dibaca"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Item baru tersedia"
+    },
+    {
+      "name": "view",
+      "value": "Tampilkan"
+    },
+    {
+      "name": "no_tag",
+      "value": "Tanpa tag"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Beri notifikasi untuk item baru"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Hentikan notifikasi"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Aktif/nonaktifkan status baca"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Buka tautan di peramban web"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Buka di peramban web"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Buka media yang terlampir"
+    },
+    {
+      "name": "sync",
+      "value": "Sinkron"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Ekspor umpan ke OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Impor umpan dari OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Tampilkan catatan awakutu"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Baru berdasarkan ini"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikator untuk tandai sudah dibaca"
+    },
+    {
+      "name": "share",
+      "value": "Bagikan"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Umpan tidak ditemukan. Coba gunakan HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Tidak ada yang ditampilkan!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Pengaturan"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Semua umpan"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manual"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Setiap 15 menit"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Setiap 30 menit"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Setiap 1 jam"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Setiap 3 jam"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Setiap 6 jam"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Setiap 12 jam"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Sehari sekali"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sinkronisasi"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Hanya pada Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Tampilkan thumbnail"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Mungkin menambah penggunaan data seluler."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Hanya saat mengisi daya"
+    },
+    {
+      "name": "image_loading",
+      "value": "Pemuatan gambar"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Pasang aplikasi untuk membuka tautan ini terlebih dahulu"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Memuat artikel baru…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Saat aplikasi mulai"
+    },
+    {
+      "name": "show_fab",
+      "value": "Tampilkan tombol mengambang"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Sertakan juga hotspot ponsel"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Umpan yang diperbarui"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Umpan yang belum dibaca"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Notifikasi hanya ditampilkan untuk item yang belum dibaca di umpan yang dikonfigurasi"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Pembaca"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Web view"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Peramban bawaan"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Tab kustom"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Buka item dengan"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Buka tautan dengan"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Pembaca"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Buka tautan di web view"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Buka di Web view"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maksimum item per umpan"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Tidak bisa memuat URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistem"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Otomatis"
+    },
+    {
+      "name": "theme_day",
+      "value": "Siang"
+    },
+    {
+      "name": "theme_night",
+      "value": "Malam"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Terbaru"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Terlama"
+    },
+    {
+      "name": "sort",
+      "value": "Urutkan"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Kirim laporan bug"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Tidak bisa membuka aplikasi surel"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Sentuh untuk memutar video"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Buka umpan"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Tandai item di atas sudah dibaca"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Tandai item di bawah sudah dibaca"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Daftar umpan yang ditemukan"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Aktif/nonaktifkan ekspansi tag"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Pengoptimalan baterai"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Nonaktif"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Aktif"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Pramuat tab kustom"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Tidak bisa mengurai %1$s"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Mengambil artikel lengkap…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Tidak bisa mengambil artikel lengkap"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Ambil artikel lengkap secara default"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Ambil artikel lengkap"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Tidak bisa memuat teks ke suara"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Teruskan membaca"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Jeda membaca"
+    },
+    {
+      "name": "read_article",
+      "value": "Baca lantang"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Bawaan aplikasi"
+    },
+    {
+      "name": "go_back",
+      "value": "Kembali"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Gaya artikel"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Ringkas"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Tag buka"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Tag tutup"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Kunjungi %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Belum dibaca"
+    },
+    {
+      "name": "already_read",
+      "value": "Sudah dibaca"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Hanya menampilkan artikel belum dibaca"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Menampilkan semua artikel"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s artikel belum dibaca"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s artikel belum dibaca"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s artikel belum dibaca"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s artikel belum dibaca"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kartu"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Sangat ringkas"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Buka %1$s"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Berhenti membaca"
+    },
+    {
+      "name": "open_menu",
+      "value": "Buka menu"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sinkronkan umpan"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s artikel belum dibaca"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s artikel belum dibaca"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Hitam"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Gelap"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Preferensi mode malam"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Buat ID unik ekstra"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Hanya aktifkan untuk umpan dengan ID yang buruk"
+    },
+    {
+      "name": "syncing",
+      "value": "Menyinkronkan"
+    },
+    {
+      "name": "sync_status",
+      "value": "Status sinkron"
+    },
+    {
+      "name": "invalid_url",
+      "value": "URL tidak valid"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Gagal mengimpor OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Gagal mengekspor OPML"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Tidak bisa membuka artikel"
+    },
+    {
+      "name": "device_sync",
+      "value": "Sinkronisasi perangkat"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Tambah perangkat baru"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Layanan ini dibiayai oleh komunitas. Harap pertimbangkan untuk donasi jika Anda merasa ini bermanfaat."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Jaga ini seperti sandi. Siapapun bisa membaca data sinkronisasi Anda jika mereka memiliki tautan ini."
+    },
+    {
+      "name": "disabled",
+      "value": "Nonaktif"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Hanya dari akhir"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Dari manapun"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Geser untuk menandai sudah dibaca"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Pemindai barcode tidak ditemukan"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (perangkat ini)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Putuskan sambungan perangkat dari tautan sinkronisasi"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Perangkat dalam tautan sinkronisasi"
+    },
+    {
+      "name": "remove_device",
+      "value": "Hapus perangkat"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Apakah Anda yakin ingin menghapus perangkat %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Pada perangkat Anda, kunjungi sinkronisasi perangkat, dan tekan pindai kode sinkronisasi."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Atau, buka tautan pada perangkat Anda."
+    },
+    {
+      "name": "qr_code",
+      "value": "Kode QR"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Kode sinkronisasi perangkat Feeder"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Tinggalkan tautan sinkronisasi"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Mulai tautan sinkronisasi baru"
+    },
+    {
+      "name": "sync_code",
+      "value": "Kode sinkronisasi"
+    },
+    {
+      "name": "secret_key",
+      "value": "Kunci rahasia"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Gabung tautan sinkronisasi"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Apakah Anda yakin ingin meninggalkan tautan sinkronisasi?"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Sinkronisasi perangkat memungkinkan Anda menyinkronkan langganan dan membaca artikel pada perangkat Anda yang lain."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Pindai atau masukkan kode sinkronisasi"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Cukup pindai kode dari tautan sinkronisasi yang Anda buat pada perangkat yang lain, atau mulai tautan sinkronisasi baru."
+    },
+    {
+      "name": "block_list",
+      "value": "Daftar blokir"
+    },
+    {
+      "name": "add_item",
+      "value": "Tambah item"
+    },
+    {
+      "name": "remove",
+      "value": "Hapus"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Memungkinkan aplikasi untuk membaca umpan dan artikel"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Akses Feeder hanya-baca"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Secara otomatis mendeteksi bahasa artikel"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Deteksi bahasa"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Hanya tersedia pada Android %1$s dan terbaru"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Perizinan harus diberikan sebelum notifikasi diaktifkan."
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Warna dinamis"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Baru"
+    },
+    {
+      "name": "article_image",
+      "value": "Gambar artikel"
+    },
+    {
+      "name": "set_language",
+      "value": "Atur bahasa"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Teks ke suara"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Lewati ke item berikutnya"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Ikon umpan"
+    },
+    {
+      "name": "text_scale",
+      "value": "Ukuran teks"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Sembunyikan artikel dengan judul yang mengandung salah satu dari filter ini. Contoh filter:"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sinkronasikan untuk mengambil artikel"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Berhenti menyimpan artikel"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Tandai dibaca saat menggulir"
+    },
+    {
+      "name": "save_article",
+      "value": "Simpan artikel"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Impor %1$s dengan %2$s?"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Tautan bukan dokumen HTML"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Tidak ada umpan"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s umpan"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s umpan"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s umpan"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s umpan"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s umpan"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s umpan"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Tidak ada apa pun untuk diambil"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Tautan ke artikel hilang"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Artikel yang disimpan"
+    },
+    {
+      "name": "saved_article",
+      "value": "Artikel yang disimpan"
+    },
+    {
+      "name": "max_lines",
+      "value": "Baris maks"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Baca"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Disimpan"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Hanya tampilkan judul"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Daftar artikel"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Kertas elektronik"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Gagal membuka umpan JSON"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Gagal membuka keseluruhan artikel"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Baru saja dibaca"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Tidak ada umpan dalam halaman"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Tidak ada isi dalam respons"
+    },
+    {
+      "name": "http_error",
+      "value": "Galat HTTP"
+    },
+    {
+      "name": "no_url",
+      "value": "Tidak ada URL"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Gagal membuka halaman"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Gagal membuka umpan RSS"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Tipe konten tidak didukung"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Gagal mengunduh"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Konten bukan HTML"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Tetap tambahkan"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Buka peramban dalam layar terbagi"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Tampilkan perkiraan waktu baca"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s kata"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s menit"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s kata"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s menit"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s menit"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s kata"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s kata"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s menit"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s menit"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s kata"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s kata"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s menit"
+    },
+    {
+      "name": "close_menu",
+      "value": "Tutup menu"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Lewati artikel duplikat"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Artikel dengan tautan atau judul identik dengan yang ada akan diabaikan"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kartu Ringkas"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Ekspor artikel yang disimpan"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Gagal mengekspor artikel yang disimpan"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Sentuh untuk memainkan audio"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Tampilkan artikel belum dibaca pada judul"
+    },
+    {
+      "name": "show_message",
+      "value": "Tampilkan pesan"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Tampilkan umpan setelah menandai semua telah dibaca"
+    },
+    {
+      "name": "summarize",
+      "value": "Ringkasan"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI dan terjemahan"
+    },
+    {
+      "name": "api_key",
+      "value": "Kunci API"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Versi API Azure"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Tidak bisa memuat model."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Model tidak ditemukan"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Daftar model yang tersedia"
+    },
+    {
+      "name": "model_id",
+      "value": "ID Model"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "ID deployment azure"
+    },
+    {
+      "name": "on",
+      "value": "Aktif"
+    },
+    {
+      "name": "off",
+      "value": "Nonaktif"
+    },
+    {
+      "name": "time_out",
+      "value": "Waktu habis (detik)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Waktu habis harus antara 30 dan 600 detik"
+    },
+    {
+      "name": "search_verb",
+      "value": "Cari"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Batal cari"
+    },
+    {
+      "name": "text",
+      "value": "Teks"
+    },
+    {
+      "name": "font",
+      "value": "Fonta"
+    },
+    {
+      "name": "text_preview",
+      "value": "Pratinjau teks"
+    },
+    {
+      "name": "system_default",
+      "value": "Bawaan sistem"
+    },
+    {
+      "name": "weight",
+      "value": "Berat"
+    },
+    {
+      "name": "italic",
+      "value": "Miring"
+    },
+    {
+      "name": "add_font",
+      "value": "Tambah fonta…"
+    },
+    {
+      "name": "bold",
+      "value": "Tebal"
+    },
+    {
+      "name": "text_settings",
+      "value": "Pengaturan teks"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Tidak bisa menambahkan fonta"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Tidak bisa menghapus fonta"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Telah terjadi kesalahan"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Batas waktu untuk permintaan AI"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Saran"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Impor artikel tersimpan"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Terapkan ke ringkasan"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Buka di mode pembaca"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Buka di browser bawaan"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Buka di tab kustom"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Tidak dapat membuka artikel di browser"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Tidak dapat membuka artikel di tab kustom"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Gagal mengimpor artikel tersimpan"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Mode Halaman"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Navigasikan artikel dengan \"membalik halaman\" alih-alih menggulir terus-menerus. Dioptimalkan untuk perangkat e-ink."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Halaman Animasi"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Animasikan pembalikan halaman secara singkat. Dapat menyebabkan ghosting pada beberapa perangkat e-ink."
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Ringkas saat dibuka"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Tingkatkan thumbnail dari metadata artikel"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Coba perbaiki thumbnail yang hilang atau berkualitas rendah untuk feed ini"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Kompatibel dengan banyak penyedia AI, tetapi tidak semuanya"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "API Ringkasan"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Digunakan untuk ringkasan artikel."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "API Terjemahan"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Digunakan untuk menerjemahkan kartu feed dan artikel."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "Kunci autentikasi DeepL"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Penyedia"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Belum dikonfigurasi"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Penyedia: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Tidak ada"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI atau yang kompatibel"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Lokal offline"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "URL dasar (opsional)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Endpoint terjemahan"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Masukkan kunci API sebelum menyimpan."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Masukkan kunci API DeepL sebelum menyimpan."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Masukkan ID model sebelum menyimpan."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Memverifikasi pengaturan API…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "Pengaturan API tidak dapat diverifikasi."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Masukkan endpoint Azure Anda sebelum menyimpan."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Masukkan ID deployment Azure Anda sebelum menyimpan."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Masukkan versi API Azure Anda sebelum menyimpan."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Memverifikasi pengaturan Azure OpenAI…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Pengaturan Azure OpenAI tidak dapat diverifikasi."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Memverifikasi kunci DeepL…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "Kunci DeepL tidak dapat diverifikasi."
+    },
+    {
+      "name": "translate_article",
+      "value": "Terjemahkan artikel"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Tampilkan asli (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "asli"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Bahasa terjemahan pilihan"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Pilih bahasa yang akan digunakan Feeder untuk menerjemahkan."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "bahasa pilihan"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Pilih bahasa"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Tetapkan bahasa terjemahan pilihan di pengaturan AI"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Terjemahkan pratinjau artikel"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Terjemahkan artikel secara bawaan"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Menyegarkan"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Artikel terlalu besar. Buka di peramban?"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "PERINGATAN! Ini adalah fitur Beta. Ekspor dan cadangkan seluruh feed Anda terlebih dulu."
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Penerjemahan lokal membutuhkan Android 12 atau yang lebih baru."
+    },
+    {
+      "name": "open_settings",
+      "value": "Buka pengaturan"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Ubah nama tag"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Tidak dapat memutar file audio ini"
+    },
+    {
+      "name": "play_audio",
+      "value": "Putar audio"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Jeda audio"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Hentikan audio"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Mundur 10 detik"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Maju 10 detik"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Terapkan ke tautan"
+    },
+    {
+      "name": "filters",
+      "value": "Filter"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Putar tautan audio dengan pemutar bawaan"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Saat dinonaktifkan, tautan audio dibuka dengan aplikasi default Anda"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Menyiapkan model terjemahan offline %1$s ke %2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Mengunduh model terjemahan offline %1$s ke %2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "Unduhan pertama dapat berukuran 20–50 MB dan mungkin memerlukan waktu beberapa menit. Terjemahan berfungsi offline setelahnya."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Terjemahan lokal tidak tersedia pada perangkat ini."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Penerjemah lokal tidak dapat dibuat."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Terjemahan lokal mengalami waktu tunggu habis."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Terjemahan lokal gagal."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Terjemahan lokal tidak mengembalikan teks."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Penerjemah lokal tidak siap. Periksa pengaturan terjemahan perangkat dan coba lagi."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Tidak ada model Bergamot untuk %1$s -> %2$s. Periksa bahasa terjemahan sistem"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Terjemahan Bergamot mengalami waktu tunggu habis."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Terjemahan Bergamot gagal."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Hubungkan untuk mengunduh daftar model."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Tidak dapat mengunduh model %1$s -> %2$s."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Terjemahan WebView Bergamot mengalami waktu tunggu habis."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "WebView Bergamot tidak diinisialisasi."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Tidak dapat mengurai respons Bergamot."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Menggunakan terjemahan pada perangkat sistem Android terlebih dahulu yang harus diunduh dalam pengaturan sistem."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Jika OS tidak memiliki penerjemah pada perangkat, Feeder mengunduh model Mozilla/Bergamot untuk pasangan bahasa %1$s yang didukung."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Tampilkan hanya bahasa target dengan model Mozilla/Bergamot apa pun"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Model terjemahan yang diunduh"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Model Mozilla/Bergamot disimpan pada perangkat untuk terjemahan offline. Hapus pasangan bahasa yang tidak digunakan untuk mengosongkan ruang."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Hapus model"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Hapus model terjemahan %1$s ke %2$s (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Hapus semua model yang diunduh"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Hapus semua %1$d model terjemahan yang diunduh (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Model %1$s ke %2$s dihapus"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Semua model yang diunduh dihapus"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Belum ada model terjemahan yang diunduh. Terjemahan akan mengunduh model yang diperlukan secara otomatis."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Hapus"
+    },
+    {
+      "name": "cancel",
+      "value": "Batal"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Paksa satu kolom"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

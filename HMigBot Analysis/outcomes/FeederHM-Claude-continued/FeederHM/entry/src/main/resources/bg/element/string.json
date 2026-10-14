@@ -1,0 +1,1188 @@
+{
+  "string": [
+    {
+      "name": "theme_e_ink",
+      "value": "Електронно мастило"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Неуспешно анализиране на JSON емисия"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Активирай само за емисии с лоши идентификатори"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Невалиден URL адрес"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Маркирай по-долу като прочетено"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "На всеки 15 минути"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Сигурни ли сте, че искате да изтриете устройство %1$s?"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Отвори връзки с"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Не намерих нищо за извличане"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Няма нищо за показване!"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Покажи миниатюри"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Непрочетено"
+    },
+    {
+      "name": "save",
+      "value": "Запази"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Неуспешно анализиране на цялата статия"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Генерирай допълнителни уникални идентификатори"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder код за синхронизиране на устройство"
+    },
+    {
+      "name": "title",
+      "value": "Заглавие"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Първо най-старите"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Не може да се отвори статия"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Само от края"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Отвори връзка в уеб изглед"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Напусни верига за синхронизиране"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Не може да зареди текст към реч"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Само при Wi-Fi"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Стил на статия"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Открит списък с емисии"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Устройства във верига за синхронизиране"
+    },
+    {
+      "name": "open_menu",
+      "value": "Отвори менюто"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Добави все пак"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Автоматично"
+    },
+    {
+      "name": "remove",
+      "value": "Премахни"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Компактна"
+    },
+    {
+      "name": "show_fab",
+      "value": "Покажи плаващ бутон за действие"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "На всеки 6 часа"
+    },
+    {
+      "name": "open_feed",
+      "value": "Отвори емисия"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Стартирай нова верига за синхронизиране"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Автоматично разпознава езика на статията"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Отвори връзката в уеб браузъра"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Отвори приложена медия"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "В емисията липсва връзка към статия"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Разпознаване на езика"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s емисия"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Списък със статии"
+    },
+    {
+      "name": "saved_article",
+      "value": "Запазена статия"
+    },
+    {
+      "name": "on_startup",
+      "value": "При стартиране на приложението"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Докосни за изпълнение на видео"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s категория"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "На вашето устройство, отворете синхронизиране на устройството, и натиснете сканиране на кода за синхронизиране."
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Изключи устройството от веригата за синхронизиране"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Отвори в уеб изглед"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Филтър"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Наскоро прочетено"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Запазени статии"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "theme_system",
+      "value": "Система"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Просто сканирайте кода от вашата верига за синхронизиране, която сте създали на друго устройство, или започнете нова верига за синхронизиране."
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s емисии"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Синхронизирай за извличане на статия"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Не можах да намеря скенер за баркод"
+    },
+    {
+      "name": "image_loading",
+      "value": "Зареди изображение"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Затвори чекмеджето за навигация"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Редактирай емисия"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Максимум елементи на емисия"
+    },
+    {
+      "name": "set_language",
+      "value": "Задай език"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Отиди на %1$s"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Изпрати доклад за грешка"
+    },
+    {
+      "name": "sync_status",
+      "value": "Състояние на синхронизиране"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Връзката не е HTML документ"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Премини към следващ"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Няма емисии в страницата"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Превключи състояние на четене"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (това устройство)"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Маркирай по-горе като прочетено"
+    },
+    {
+      "name": "theme",
+      "value": "Тема"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Отвори чекмеджето за навигация"
+    },
+    {
+      "name": "add_item",
+      "value": "Добави артикул"
+    },
+    {
+      "name": "save_article",
+      "value": "Запази статия"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Нов"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Тук няма нищо за четене. Искате ли да…"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Само при зареждане"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR Код"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Няма отговор"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Предпочитана тъмна тема"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Ръчно"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Извлечи цялата статия"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Спри известията"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Налични нови елементи"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Включи мобилна гореща точка"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP грешка"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Синхронизирането на устройството ви позволява да синхронизирате абонаменти за емисии и да четете статии между различните си устройства."
+    },
+    {
+      "name": "read_article",
+      "value": "Чети на глас"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Икона на емисия"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Ново въз основа на това"
+    },
+    {
+      "name": "tag",
+      "value": "Категория"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Тази услуга се заплаща от общността. Моля, помислете за дарение, ако го намерите за полезно."
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Не можа да анализира %1$s"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Уеб изглед"
+    },
+    {
+      "name": "synchronization",
+      "value": "Синхронизация"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Четец"
+    },
+    {
+      "name": "remove_device",
+      "value": "Премахни устройство"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Използвай приложение по подразбиране"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Скрива статии със заглавия, съдържащи някой от тези филтри. Примерни филтри:"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Въведи адрес на емисия"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder достъп само за четене"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Предварително зареждане на персонализиран раздел"
+    },
+    {
+      "name": "no_url",
+      "value": "Няма URL"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Затвори категория"
+    },
+    {
+      "name": "max_lines",
+      "value": "Максимум редове"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Отвори в уеб браузър"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Може да доведе до такси за мобилни данни."
+    },
+    {
+      "name": "delete_feed",
+      "value": "Изтрий емисия"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s емисии"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Неуспешно анализиране на страницата"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Запазено"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Индикатор за маркирай като прочетено"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "На всеки час"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s непрочетена статии"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Динамични цветове"
+    },
+    {
+      "name": "theme_night",
+      "value": "Нощ"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Първо инсталирайте нещо, с което да отворите тази връзка"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Включи"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Разрешението трябва да бъде предоставено, преди да бъдат активирани известията."
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Извлечи цели статии по подразбиране"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s категории"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Всеки ден"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s непрочетени статии"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Извлича се цялата статия…"
+    },
+    {
+      "name": "view",
+      "value": "Преглед"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Внасяне на емисии от OPML"
+    },
+    {
+      "name": "text_scale",
+      "value": "Размер на текста"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Неуспешно анализиране на RSS емисия"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Не може да се отвори имейл клиент"
+    },
+    {
+      "name": "sync",
+      "value": "Синхронизирай"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Браузър по подразбиране"
+    },
+    {
+      "name": "block_list",
+      "value": "Списък с блокирани"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Изнасяне на емисии в OPML"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Неподдържан тип съдържание"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Преглед на журнал за отстраняване на грешки"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Отвори %1$s"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Пауза на четенето"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Отвори елементи по подразбиране с"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Непрочетени емисии"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Неуспешно изтегляне"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s емисии"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "На всеки 3 часа"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Търсене за нови статии…"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Покажи всички елементи"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Оптимизация на батерията"
+    },
+    {
+      "name": "theme_day",
+      "value": "Ден"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Карта"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Превключи разширяване на категория"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Маркирай всичко като прочетено"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Отнасяйте се към това като към парола. Всеки може да прочете вашите синхронизирани данни, ако има връзката."
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Настройки"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Черна"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Супер компактна"
+    },
+    {
+      "name": "syncing",
+      "value": "Синхронизиране"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Маркирай като прочетено при плъзгане"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Позволява на приложението да чете емисии и статии"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Не може да бъде намерена такава емисия. Опитайте да използвате HTTPS може би?"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Няма емисии"
+    },
+    {
+      "name": "disabled",
+      "value": "Деактивирано"
+    },
+    {
+      "name": "go_back",
+      "value": "Върни се"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Първо най-новите"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Показване на всички статии"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Сканирай или въведи код за синхронизиране"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Четец"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s непрочетена статия"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Показване само на непрочетени статии"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Синхронизиране на емисии"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s категории"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Прочетено"
+    },
+    {
+      "name": "sort",
+      "value": "Сортирай по"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Неуспешно внасяне на OPML"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Абонирай се за емисия"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Тъмна"
+    },
+    {
+      "name": "article_image",
+      "value": "Изображение на статия"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s категории"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Покажи само заглавие"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "На всеки 30 минути"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Сигурни ли сте, че искате да напуснете верига за синхронизиране?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Добави повече емисии?"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Внасяне %1$s с %2$s?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Отвори друга емисия?"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s непрочетена статии"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s емисии"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Отвори категория"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Всички емисии"
+    },
+    {
+      "name": "action_settings",
+      "value": "Настройки"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Текст към реч"
+    },
+    {
+      "name": "already_read",
+      "value": "Вече прочетено"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Неуспешно изнасяне на OPML"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Маркирай като прочетено при превъртане"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Персонализиран раздел"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Изключи"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Предлага се само за Android %1$s и нагоре"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Спри да запазваш статия"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "На всеки 12 часа"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Друга възможност е да отворите връзката на вашето устройство."
+    },
+    {
+      "name": "resume_reading",
+      "value": "Възобнови четенето"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Присъедини се към верига за синхронизиране"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Не можа да се извлече цялата статия"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Известията се показват само за непрочетени елементи в конфигурирани канали"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Известие за нови елементи"
+    },
+    {
+      "name": "secret_key",
+      "value": "Таен ключ"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Добави ново устройство"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s непрочетена статии"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s емисии"
+    },
+    {
+      "name": "share",
+      "value": "Сподели"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Спри четенето"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s категории"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s непрочетена статии"
+    },
+    {
+      "name": "sync_code",
+      "value": "Код за синхронизиране"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Актуализирани емисии"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Съдържанието не е HTML"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Маркирай като прочетено"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Покажи непрочетени елементи"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s категории"
+    },
+    {
+      "name": "no_tag",
+      "value": "Без категория"
+    },
+    {
+      "name": "device_sync",
+      "value": "Синхронизиране на устройството"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Отвсякъде"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Маркирай като непрочетено"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Не може да зареди URL адреса"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL адрес на емисия"
+    },
+    {
+      "name": "add_feed",
+      "value": "Добави емисия"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Покажи очаквано време за четене"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s думи"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s минути"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s минути"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s думи"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s минути"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s минути"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s думи"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s думи"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s минута"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Отвари браузъра в разделен екран"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s минути"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s думи"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s дума"
+    },
+    {
+      "name": "close_menu",
+      "value": "Затвори менюто"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Изнасяне на запазени статии"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Неуспешно изнасяне на запазени статии"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Пропусни дублиращи се статии"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Статии с връзки или заглавия идентични на съществуващите се игнорират"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Компактна карта"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Покажи броя на непрочетените статии в заглавието"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Докосни за изпълнение на аудио"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API версия"
+    },
+    {
+      "name": "model_id",
+      "value": "ID модел"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure ID внедряване"
+    },
+    {
+      "name": "summarize",
+      "value": "Обобщение"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI интеграция"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Не могат да се заредят модели."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Няма намерени модели"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Списък на налични модели"
+    },
+    {
+      "name": "api_key",
+      "value": "API ключ"
+    },
+    {
+      "name": "show_message",
+      "value": "Покажи съобщение"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Покажи емисии след маркиране на всичко като прочетено"
+    },
+    {
+      "name": "on",
+      "value": "Включено"
+    },
+    {
+      "name": "off",
+      "value": "Изключено"
+    },
+    {
+      "name": "search_verb",
+      "value": "Търсене"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Отмени търсенето"
+    },
+    {
+      "name": "text_preview",
+      "value": "Преглед на текст"
+    },
+    {
+      "name": "system_default",
+      "value": "Система по подразбиране"
+    },
+    {
+      "name": "weight",
+      "value": "Дебелина"
+    },
+    {
+      "name": "text_settings",
+      "value": "Настройки на текста"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Шрифтът не можа да бъде добавен"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Нещо се обърка"
+    },
+    {
+      "name": "italic",
+      "value": "Курсив"
+    },
+    {
+      "name": "bold",
+      "value": "Удебелен"
+    },
+    {
+      "name": "text",
+      "value": "Текст"
+    },
+    {
+      "name": "font",
+      "value": "Шрифт"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Шрифтът не можа да бъде премахнат"
+    },
+    {
+      "name": "add_font",
+      "value": "Добавяне на шрифт…"
+    },
+    {
+      "name": "time_out",
+      "value": "Време за изчакване (секунди)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Времето за изчакване трябва да бъде между 30 и 600 секунди"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Време на изчакване за AI заявки"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Обобщение при отваряне"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Предложения"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Съвместим с много доставчици на AI, но не с всички"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Приложи към резюмета"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Отваряне в четец"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Отваряне в браузъра по подразбиране"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Отваряне в персонализиран раздел"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Не мога да отворя статията в браузъра"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Не може да се отвори статията в персонализиран раздел"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Обновяване"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Режим на прелистване"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Навигирайте в статиите, като „прелиствате страници“, вместо да превъртате непрекъснато. Оптимизирано за устройства с електронно мастило."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Анимирано прелистване"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Краткотрайно анимиране на прелистването на страниците. Може да доведе до появата на „дублирани образи“ на някои устройства с E-ink дисплей."
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

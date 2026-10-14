@@ -1,0 +1,4728 @@
+{
+  "project": "output/FeederHM",
+  "findings": [
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A02:ID_UNSET",
+      "file": "",
+      "evidence": "断言 APP-A02（app-shell 应用壳断言卡）引用「ID_UNSET」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A03:pref_last_feed_id",
+      "file": "",
+      "evidence": "断言 APP-A03（app-shell 应用壳断言卡）引用「pref_last_feed_id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A03:pref_last_feed_tag",
+      "file": "",
+      "evidence": "断言 APP-A03（app-shell 应用壳断言卡）引用「pref_last_feed_tag」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A11:恢复时同步",
+      "file": "",
+      "evidence": "断言 APP-A11（app-shell 应用壳断言卡）引用「恢复时同步」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A11:pref_sync_on_resume",
+      "file": "",
+      "evidence": "断言 APP-A11（app-shell 应用壳断言卡）引用「pref_sync_on_resume」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A21:MANAGE_NETWORK_USAGE",
+      "file": "",
+      "evidence": "断言 APP-A21（app-shell 应用壳断言卡）引用「MANAGE_NETWORK_USAGE」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A24:.first()",
+      "file": "",
+      "evidence": "断言 APP-A24（app-shell 应用壳断言卡）引用「.first()」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A31:text/xml",
+      "file": "",
+      "evidence": "断言 APP-A31（app-shell 应用壳断言卡）引用「text/xml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A31:application/xml",
+      "file": "",
+      "evidence": "断言 APP-A31（app-shell 应用壳断言卡）引用「application/xml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A31:text/x-opml",
+      "file": "",
+      "evidence": "断言 APP-A31（app-shell 应用壳断言卡）引用「text/x-opml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A31:application/octet-stream",
+      "file": "",
+      "evidence": "断言 APP-A31（app-shell 应用壳断言卡）引用「application/octet-stream」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A33:全部订阅",
+      "file": "",
+      "evidence": "断言 APP-A33（app-shell 应用壳断言卡）引用「全部订阅」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A33:id=-10",
+      "file": "",
+      "evidence": "断言 APP-A33（app-shell 应用壳断言卡）引用「id=-10」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A41:application/rss+xml",
+      "file": "",
+      "evidence": "断言 APP-A41（app-shell 应用壳断言卡）引用「application/rss+xml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A41:application/atom+xml",
+      "file": "",
+      "evidence": "断言 APP-A41（app-shell 应用壳断言卡）引用「application/atom+xml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A41:text/xml",
+      "file": "",
+      "evidence": "断言 APP-A41（app-shell 应用壳断言卡）引用「text/xml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A41:application/xml",
+      "file": "",
+      "evidence": "断言 APP-A41（app-shell 应用壳断言卡）引用「application/xml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A41:application/json",
+      "file": "",
+      "evidence": "断言 APP-A41（app-shell 应用壳断言卡）引用「application/json」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A53:标记已读/已通知",
+      "file": "",
+      "evidence": "断言 APP-A53（app-shell 应用壳断言卡）引用「标记已读/已通知」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A60:sync?syncCode=&secretKey=",
+      "file": "",
+      "evidence": "断言 APP-A60（app-shell 应用壳断言卡）引用「sync?syncCode=&secretKey=」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A60:font/add",
+      "file": "",
+      "evidence": "断言 APP-A60（app-shell 应用壳断言卡）引用「font/add」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A61:/feed?id=&tag=",
+      "file": "",
+      "evidence": "断言 APP-A61（app-shell 应用壳断言卡）引用「/feed?id=&tag=」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A61:/sync/join?sync_code=&key=",
+      "file": "",
+      "evidence": "断言 APP-A61（app-shell 应用壳断言卡）引用「/sync/join?sync_code=&key=」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A61:https://feederapp.nononsenseapps.com",
+      "file": "",
+      "evidence": "断言 APP-A61（app-shell 应用壳断言卡）引用「https://feederapp.nononsenseapps.com」在工程源码/资源中未出现（探针 「https://feederapp.nononsenseapps.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A72:仅 Wi-Fi 加载图片",
+      "file": "",
+      "evidence": "断言 APP-A72（app-shell 应用壳断言卡）引用「仅 Wi-Fi 加载图片」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A75:files/articles",
+      "file": "",
+      "evidence": "断言 APP-A75（app-shell 应用壳断言卡）引用「files/articles」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A75:cache/full_articles",
+      "file": "",
+      "evidence": "断言 APP-A75（app-shell 应用壳断言卡）引用「cache/full_articles」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A75:files/fonts",
+      "file": "",
+      "evidence": "断言 APP-A75（app-shell 应用壳断言卡）引用「files/fonts」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A75:cache/http",
+      "file": "",
+      "evidence": "断言 APP-A75（app-shell 应用壳断言卡）引用「cache/http」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A75:cache/image_cache",
+      "file": "",
+      "evidence": "断言 APP-A75（app-shell 应用壳断言卡）引用「cache/image_cache」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "APP-A75:cache/http_image_cache",
+      "file": "",
+      "evidence": "断言 APP-A75（app-shell 应用壳断言卡）引用「cache/http_image_cache」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A04:pref_last_article_id",
+      "file": "",
+      "evidence": "断言 AR-A04（article）引用「pref_last_article_id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A04:pref_is_article_open",
+      "file": "",
+      "evidence": "断言 AR-A04（article）引用「pref_is_article_open」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A12:feed_items.bookmarked",
+      "file": "",
+      "evidence": "断言 AR-A12（article）引用「feed_items.bookmarked」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A15:utm_",
+      "file": "",
+      "evidence": "断言 AR-A15（article）引用「utm_」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A15:traffic_source",
+      "file": "",
+      "evidence": "断言 AR-A15（article）引用「traffic_source」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A30:image/*",
+      "file": "",
+      "evidence": "断言 AR-A30（article）引用「image/*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A32:audio/*",
+      "file": "",
+      "evidence": "断言 AR-A32（article）引用「audio/*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A34:pref_open_links_with",
+      "file": "",
+      "evidence": "断言 AR-A34（article）引用「pref_open_links_with」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AR-A35:mailto:",
+      "file": "",
+      "evidence": "断言 AR-A35（article）引用「mailto:」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A01:rssDatabase",
+      "file": "",
+      "evidence": "断言 DB-A01（数据库域卡（db））引用「rssDatabase」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A02:sync_remote",
+      "file": "",
+      "evidence": "断言 DB-A02（数据库域卡（db））引用「sync_remote」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A02:read_status_synced",
+      "file": "",
+      "evidence": "断言 DB-A02（数据库域卡（db））引用「read_status_synced」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A02:remote_read_mark",
+      "file": "",
+      "evidence": "断言 DB-A02（数据库域卡（db））引用「remote_read_mark」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A02:remote_feed",
+      "file": "",
+      "evidence": "断言 DB-A02（数据库域卡（db））引用「remote_feed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A02:sync_device",
+      "file": "",
+      "evidence": "断言 DB-A02（数据库域卡（db））引用「sync_device」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A02:feeds_with_items_for_nav_drawer",
+      "file": "",
+      "evidence": "断言 DB-A02（数据库域卡（db））引用「feeds_with_items_for_nav_drawer」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A03:feeds.url",
+      "file": "",
+      "evidence": "断言 DB-A03（数据库域卡（db））引用「feeds.url」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A04:guid",
+      "file": "",
+      "evidence": "断言 DB-A04（数据库域卡（db））引用「guid」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A04:feed_id",
+      "file": "",
+      "evidence": "断言 DB-A04（数据库域卡（db））引用「feed_id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A05:feed_items.feed_id",
+      "file": "",
+      "evidence": "断言 DB-A05（数据库域卡（db））引用「feed_items.feed_id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A05:read_status_synced",
+      "file": "",
+      "evidence": "断言 DB-A05（数据库域卡（db））引用「read_status_synced」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A06:sync_remote",
+      "file": "",
+      "evidence": "断言 DB-A06（数据库域卡（db））引用「sync_remote」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A06:read_status_synced",
+      "file": "",
+      "evidence": "断言 DB-A06（数据库域卡（db））引用「read_status_synced」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A06:remote_read_mark",
+      "file": "",
+      "evidence": "断言 DB-A06（数据库域卡（db））引用「remote_read_mark」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A06:remote_feed",
+      "file": "",
+      "evidence": "断言 DB-A06（数据库域卡（db））引用「remote_feed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A06:sync_device",
+      "file": "",
+      "evidence": "断言 DB-A06（数据库域卡（db））引用「sync_device」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A07:custom_title",
+      "file": "",
+      "evidence": "断言 DB-A07（数据库域卡（db））引用「custom_title」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A07:open_articles_with",
+      "file": "",
+      "evidence": "断言 DB-A07（数据库域卡（db））引用「open_articles_with」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A07:fulltext_by_default",
+      "file": "",
+      "evidence": "断言 DB-A07（数据库域卡（db））引用「fulltext_by_default」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A07:skip_duplicates",
+      "file": "",
+      "evidence": "断言 DB-A07（数据库域卡（db））引用「skip_duplicates」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A07:last_sync",
+      "file": "",
+      "evidence": "断言 DB-A07（数据库域卡（db））引用「last_sync」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A07:retry_after",
+      "file": "",
+      "evidence": "断言 DB-A07（数据库域卡（db））引用「retry_after」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A08:custom_title",
+      "file": "",
+      "evidence": "断言 DB-A08（数据库域卡（db））引用「custom_title」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A09:read_time IS NULL",
+      "file": "",
+      "evidence": "断言 DB-A09（数据库域卡（db））引用「read_time IS NULL」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A09:pinned",
+      "file": "",
+      "evidence": "断言 DB-A09（数据库域卡（db））引用「pinned」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A09:image_from_body",
+      "file": "",
+      "evidence": "断言 DB-A09（数据库域卡（db））引用「image_from_body」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A12:pub_date",
+      "file": "",
+      "evidence": "断言 DB-A12（数据库域卡（db））引用「pub_date」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A13:feed_items.image_url",
+      "file": "",
+      "evidence": "断言 DB-A13（数据库域卡（db））引用「feed_items.image_url」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A13:ImageFromHTML",
+      "file": "",
+      "evidence": "断言 DB-A13（数据库域卡（db））引用「ImageFromHTML」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A13:EnclosureImage",
+      "file": "",
+      "evidence": "断言 DB-A13（数据库域卡（db））引用「EnclosureImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A13:MediaImage",
+      "file": "",
+      "evidence": "断言 DB-A13（数据库域卡（db））引用「MediaImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A17:primary_sort_time",
+      "file": "",
+      "evidence": "断言 DB-A17（数据库域卡（db））引用「primary_sort_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A17:first_synced_time",
+      "file": "",
+      "evidence": "断言 DB-A17（数据库域卡（db））引用「first_synced_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A22:primary_sort_time",
+      "file": "",
+      "evidence": "断言 DB-A22（数据库域卡（db））引用「primary_sort_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A22:pub_date",
+      "file": "",
+      "evidence": "断言 DB-A22（数据库域卡（db））引用「pub_date」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A23:block_time",
+      "file": "",
+      "evidence": "断言 DB-A23（数据库域卡（db））引用「block_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A24:read_time is null",
+      "file": "",
+      "evidence": "断言 DB-A24（数据库域卡（db））引用「read_time is null」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A24:最近已读",
+      "file": "",
+      "evidence": "断言 DB-A24（数据库域卡（db））引用「最近已读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A25:plain_title",
+      "file": "",
+      "evidence": "断言 DB-A25（数据库域卡（db））引用「plain_title」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A25:plain_snippet",
+      "file": "",
+      "evidence": "断言 DB-A25（数据库域卡（db））引用「plain_snippet」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A26:notified=1",
+      "file": "",
+      "evidence": "断言 DB-A26（数据库域卡（db））引用「notified=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A26:read_time",
+      "file": "",
+      "evidence": "断言 DB-A26（数据库域卡（db））引用「read_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A27:标记上方/下方为已读",
+      "file": "",
+      "evidence": "断言 DB-A27（数据库域卡（db））引用「标记上方/下方为已读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A29:notify=1",
+      "file": "",
+      "evidence": "断言 DB-A29（数据库域卡（db））引用「notify=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A29:notified=0",
+      "file": "",
+      "evidence": "断言 DB-A29（数据库域卡（db））引用「notified=0」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A31:fulltext_by_default=1",
+      "file": "",
+      "evidence": "断言 DB-A31（数据库域卡（db））引用「fulltext_by_default=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A35:retry_after",
+      "file": "",
+      "evidence": "断言 DB-A35（数据库域卡（db））引用「retry_after」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A35:last_sync",
+      "file": "",
+      "evidence": "断言 DB-A35（数据库域卡（db））引用「last_sync」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A36:retry_after",
+      "file": "",
+      "evidence": "断言 DB-A36（数据库域卡（db））引用「retry_after」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A37:最近同步时间",
+      "file": "",
+      "evidence": "断言 DB-A37（数据库域卡（db））引用「最近同步时间」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A37:last_sync",
+      "file": "",
+      "evidence": "断言 DB-A37（数据库域卡（db））引用「last_sync」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A39:*词*",
+      "file": "",
+      "evidence": "断言 DB-A39（数据库域卡（db））引用「*词*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A40:block_time",
+      "file": "",
+      "evidence": "断言 DB-A40（数据库域卡（db））引用「block_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A41:https://feeder-sync.nononsenseapps.com:443",
+      "file": "",
+      "evidence": "断言 DB-A41（数据库域卡（db））引用「https://feeder-sync.nononsenseapps.com:443」在工程源码/资源中未出现（探针 「https://feeder-sync.nononsenseapps.com:443」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A42:sync_chain_id",
+      "file": "",
+      "evidence": "断言 DB-A42（数据库域卡（db））引用「sync_chain_id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A42:latest_message_timestamp",
+      "file": "",
+      "evidence": "断言 DB-A42（数据库域卡（db））引用「latest_message_timestamp」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DB-A43:read_status_synced",
+      "file": "",
+      "evidence": "断言 DB-A43（数据库域卡（db））引用「read_status_synced」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A03:urlField",
+      "file": "",
+      "evidence": "断言 EF-A03（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「urlField」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A04:http://",
+      "file": "",
+      "evidence": "断言 EF-A04（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「http://」在工程源码/资源中未出现（探针 「http://」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A04:cowboyprogrammer.org",
+      "file": "",
+      "evidence": "断言 EF-A04（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「cowboyprogrammer.org」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A05:http://",
+      "file": "",
+      "evidence": "断言 EF-A05（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「http://」在工程源码/资源中未出现（探针 「http://」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A06:searchingIndicator",
+      "file": "",
+      "evidence": "断言 EF-A06（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「searchingIndicator」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A08:searchResult",
+      "file": "",
+      "evidence": "断言 EF-A08（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「searchResult」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A09:errorResult",
+      "file": "",
+      "evidence": "断言 EF-A09（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「errorResult」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A13:feedUrl",
+      "file": "",
+      "evidence": "断言 EF-A13（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「feedUrl」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A25:）、",
+      "file": "",
+      "evidence": "断言 EF-A25（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「）、」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A25:（说明",
+      "file": "",
+      "evidence": "断言 EF-A25（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「（说明」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A25:）；分隔线；分组",
+      "file": "",
+      "evidence": "断言 EF-A25（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「）；分隔线；分组」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A25:；分隔线；分组",
+      "file": "",
+      "evidence": "断言 EF-A25（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「；分隔线；分组」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A25:；底部",
+      "file": "",
+      "evidence": "断言 EF-A25（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「；底部」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A26:example.com",
+      "file": "",
+      "evidence": "断言 EF-A26（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「example.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A29:）、",
+      "file": "",
+      "evidence": "断言 EF-A29（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「）、」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A29:（存",
+      "file": "",
+      "evidence": "断言 EF-A29（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「（存」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A29:）；存量值为",
+      "file": "",
+      "evidence": "断言 EF-A29（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「）；存量值为」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A31:Line N: missing '='. Invalid lines are ignored.",
+      "file": "",
+      "evidence": "断言 EF-A31（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「Line N: missing '='. Invalid lines are ignored.」在工程源码/资源中未出现（探针 「Line N: missing '='. Invalid lines are ignored.」 「Line N:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A31:Line N: 'X' is not a known field. Invalid lines are ignored.",
+      "file": "",
+      "evidence": "断言 EF-A31（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「Line N: 'X' is not a known field. Invalid lines are ignored.」在工程源码/资源中未出现（探针 「Line N: 'X' is not a known field. Invalid lines are ignored.」 「Line N:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A31:；规则错误不禁用",
+      "file": "",
+      "evidence": "断言 EF-A31（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「；规则错误不禁用」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A33:，点",
+      "file": "",
+      "evidence": "断言 EF-A33（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「，点」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A48:1 feed",
+      "file": "",
+      "evidence": "断言 EF-A48（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「1 feed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A48:1 tag",
+      "file": "",
+      "evidence": "断言 EF-A48（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「1 tag」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A53:Select all",
+      "file": "",
+      "evidence": "断言 EF-A53（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「Select all」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A55:Selected",
+      "file": "",
+      "evidence": "断言 EF-A55（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「Selected」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A55:Not selected",
+      "file": "",
+      "evidence": "断言 EF-A55（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「Not selected」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A56:Select all",
+      "file": "",
+      "evidence": "断言 EF-A56（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「Select all」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "EF-A58:全部订阅",
+      "file": "",
+      "evidence": "断言 EF-A58（edit-search 订阅源添加/编辑/搜索/删除/OPML 导入屏 断言卡）引用「全部订阅」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A08:2:40 minutes",
+      "file": "",
+      "evidence": "断言 FI-A08（feed-items）引用「2:40 minutes」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A16:utm_*",
+      "file": "",
+      "evidence": "断言 FI-A16（feed-items）引用「utm_*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A16:traffic_source*",
+      "file": "",
+      "evidence": "断言 FI-A16（feed-items）引用「traffic_source*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A33:VisibilityOff",
+      "file": "",
+      "evidence": "断言 FI-A33（feed-items）引用「VisibilityOff」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A33:Visibility",
+      "file": "",
+      "evidence": "断言 FI-A33（feed-items）引用「Visibility」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A35:仅未读",
+      "file": "",
+      "evidence": "断言 FI-A35（feed-items）引用「仅未读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A41:，唯一按钮",
+      "file": "",
+      "evidence": "断言 FI-A41（feed-items）引用「，唯一按钮」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FI-A43:未授权即先说明",
+      "file": "",
+      "evidence": "断言 FI-A43（feed-items）引用「未授权即先说明」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A01:parseFeedResponse",
+      "file": "",
+      "evidence": "断言 FP-A01（Feed 解析域卡（feed-parser））引用「parseFeedResponse」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A01:UnsupportedContentType",
+      "file": "",
+      "evidence": "断言 FP-A01（Feed 解析域卡（feed-parser））引用「UnsupportedContentType」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A01:video/mp4",
+      "file": "",
+      "evidence": "断言 FP-A01（Feed 解析域卡（feed-parser））引用「video/mp4」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A02:text/html",
+      "file": "",
+      "evidence": "断言 FP-A02（Feed 解析域卡（feed-parser））引用「text/html」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A03:RSSParseError(url, throwable)",
+      "file": "",
+      "evidence": "断言 FP-A03（Feed 解析域卡（feed-parser））引用「RSSParseError(url, throwable)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A03:NoBody",
+      "file": "",
+      "evidence": "断言 FP-A03（Feed 解析域卡（feed-parser））引用「NoBody」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A04:größte",
+      "file": "",
+      "evidence": "断言 FP-A04（Feed 解析域卡（feed-parser））引用「größte」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A06:gemini://",
+      "file": "",
+      "evidence": "断言 FP-A06（Feed 解析域卡（feed-parser））引用「gemini://」在工程源码/资源中未出现（探针 「gemini://」 「gemini:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A08:feed_url",
+      "file": "",
+      "evidence": "断言 FP-A08（Feed 解析域卡（feed-parser））引用「feed_url」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A08:https://example.com/notvalid",
+      "file": "",
+      "evidence": "断言 FP-A08（Feed 解析域卡（feed-parser））引用「https://example.com/notvalid」在工程源码/资源中未出现（探针 「https://example.com/notvalid」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A08:http://cowboyprogrammer.org",
+      "file": "",
+      "evidence": "断言 FP-A08（Feed 解析域卡（feed-parser））引用「http://cowboyprogrammer.org」在工程源码/资源中未出现（探针 「http://cowboyprogrammer.org」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A08:parseFeedUrl",
+      "file": "",
+      "evidence": "断言 FP-A08（Feed 解析域卡（feed-parser））引用「parseFeedUrl」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A09:home_page_url",
+      "file": "",
+      "evidence": "断言 FP-A09（Feed 解析域卡（feed-parser））引用「home_page_url」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A09:https://lineageos.org/",
+      "file": "",
+      "evidence": "断言 FP-A09（Feed 解析域卡（feed-parser））引用「https://lineageos.org/」在工程源码/资源中未出现（探针 「https://lineageos.org/」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A10:https://a.fsdn.com/sd/topics/topicslashdot.gif",
+      "file": "",
+      "evidence": "断言 FP-A10（Feed 解析域卡（feed-parser））引用「https://a.fsdn.com/sd/topics/topicslashdot.gif」在工程源码/资源中未出现（探针 「https://a.fsdn.com/sd/topics/topicslashdot.gif」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A10:http://localhost:1313/css/images/logo.png",
+      "file": "",
+      "evidence": "断言 FP-A10（Feed 解析域卡（feed-parser））引用「http://localhost:1313/css/images/logo.png」在工程源码/资源中未出现（探针 「http://localhost:1313/css/images/logo.png」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A11:ANON",
+      "file": "",
+      "evidence": "断言 FP-A11（Feed 解析域卡（feed-parser））引用「ANON」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A11:极客公园（！）",
+      "file": "",
+      "evidence": "断言 FP-A11（Feed 解析域卡（feed-parser））引用「极客公园（！）」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A12:Russ Cox",
+      "file": "",
+      "evidence": "断言 FP-A12（Feed 解析域卡（feed-parser））引用「Russ Cox」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A12:favicon",
+      "file": "",
+      "evidence": "断言 FP-A12（Feed 解析域卡（feed-parser））引用「favicon」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A12:expired",
+      "file": "",
+      "evidence": "断言 FP-A12（Feed 解析域卡（feed-parser））引用「expired」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A12:user_comment",
+      "file": "",
+      "evidence": "断言 FP-A12（Feed 解析域卡（feed-parser））引用「user_comment」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A12:next_url",
+      "file": "",
+      "evidence": "断言 FP-A12（Feed 解析域卡（feed-parser））引用「next_url」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A13:http://ANON.com/rss",
+      "file": "",
+      "evidence": "断言 FP-A13（Feed 解析域卡（feed-parser））引用「http://ANON.com/rss」在工程源码/资源中未出现（探针 「http://ANON.com/rss」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A13:http://anon.com/rss",
+      "file": "",
+      "evidence": "断言 FP-A13（Feed 解析域卡（feed-parser））引用「http://anon.com/rss」在工程源码/资源中未出现（探针 「http://anon.com/rss」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A15:content_html",
+      "file": "",
+      "evidence": "断言 FP-A15（Feed 解析域卡（feed-parser））引用「content_html」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A16:Sign Up on Patreon to get access to the Space Time Discord!",
+      "file": "",
+      "evidence": "断言 FP-A16（Feed 解析域卡（feed-parser））引用「Sign Up on Patreon to get access to the Space Time Discord!」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A17:content_text",
+      "file": "",
+      "evidence": "断言 FP-A17（Feed 解析域卡（feed-parser））引用「content_text」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A17:[alt]",
+      "file": "",
+      "evidence": "断言 FP-A17（Feed 解析域卡（feed-parser））引用「[alt]」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A17:[IMG]",
+      "file": "",
+      "evidence": "断言 FP-A17（Feed 解析域卡（feed-parser））引用「[IMG]」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A19:För mer än tre år sedan",
+      "file": "",
+      "evidence": "断言 FP-A19（Feed 解析域卡（feed-parser））引用「För mer än tre år sedan」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A20:http://example.com/sub/##",
+      "file": "",
+      "evidence": "断言 FP-A20（Feed 解析域卡（feed-parser））引用「http://example.com/sub/##」在工程源码/资源中未出现（探针 「http://example.com/sub/##」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A22:；lineageos",
+      "file": "",
+      "evidence": "断言 FP-A22（Feed 解析域卡（feed-parser））引用「；lineageos」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A23:ParsedAuthor(name=\"0235\")",
+      "file": "",
+      "evidence": "断言 FP-A23（Feed 解析域卡（feed-parser））引用「ParsedAuthor(name=\"0235\")」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A24:date_published",
+      "file": "",
+      "evidence": "断言 FP-A24（Feed 解析域卡（feed-parser））引用「date_published」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A24:Thu, 14 Mar 2024 14:08:43 -0400",
+      "file": "",
+      "evidence": "断言 FP-A24（Feed 解析域卡（feed-parser））引用「Thu, 14 Mar 2024 14:08:43 -0400」在工程源码/资源中未出现（探针 「Thu, 14 Mar 2024 14:08:43 -0400」 「Thu, 14 Mar 2024 14:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A24:2024-03-14T18:08:43Z",
+      "file": "",
+      "evidence": "断言 FP-A24（Feed 解析域卡（feed-parser））引用「2024-03-14T18:08:43Z」在工程源码/资源中未出现（探针 「2024-03-14T18:08:43Z」 「2024-03-14T18:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A24:date_modified",
+      "file": "",
+      "evidence": "断言 FP-A24（Feed 解析域卡（feed-parser））引用「date_modified」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A25:attachments",
+      "file": "",
+      "evidence": "断言 FP-A25（Feed 解析域卡（feed-parser））引用「attachments」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A26:hasFeedImage",
+      "file": "",
+      "evidence": "断言 FP-A26（Feed 解析域卡（feed-parser））引用「hasFeedImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A27:type=\"html\"",
+      "file": "",
+      "evidence": "断言 FP-A27（Feed 解析域卡（feed-parser））引用「type=\"html\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A27:&amp;lt;",
+      "file": "",
+      "evidence": "断言 FP-A27（Feed 解析域卡（feed-parser））引用「&amp;lt;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A27:&lt;",
+      "file": "",
+      "evidence": "断言 FP-A27（Feed 解析域卡（feed-parser））引用「&lt;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A27:obs.lon &lt;- ncvar_get(nc.obs, 'lon')",
+      "file": "",
+      "evidence": "断言 FP-A27（Feed 解析域卡（feed-parser））引用「obs.lon &lt;- ncvar_get(nc.obs, 'lon')」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A27:obs.lon <-",
+      "file": "",
+      "evidence": "断言 FP-A27（Feed 解析域卡（feed-parser））引用「obs.lon <-」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A28:&lt;img src=&quot;hello.jpg&amp;amp;cached=true&quot;&gt;",
+      "file": "",
+      "evidence": "断言 FP-A28（Feed 解析域卡（feed-parser））引用「&lt;img src=&quot;hello.jpg&amp;amp;cached=true&quot;&gt;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A28:xhtml",
+      "file": "",
+      "evidence": "断言 FP-A28（Feed 解析域卡（feed-parser））引用「xhtml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A29:37 – Spectre Mitigations in Microsoft's C/C++ Compiler",
+      "file": "",
+      "evidence": "断言 FP-A29（Feed 解析域卡（feed-parser））引用「37 – Spectre Mitigations in Microsoft's C/C++ Compiler」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A29:37 points, 1 comment",
+      "file": "",
+      "evidence": "断言 FP-A29（Feed 解析域卡（feed-parser））引用「37 points, 1 comment」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A31:image/",
+      "file": "",
+      "evidence": "断言 FP-A31（Feed 解析域卡（feed-parser））引用「image/」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A33:twitter_icon",
+      "file": "",
+      "evidence": "断言 FP-A33（Feed 解析域卡（feed-parser））引用「twitter_icon」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A33:facebook_icon",
+      "file": "",
+      "evidence": "断言 FP-A33（Feed 解析域卡（feed-parser））引用「facebook_icon」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A34:hello.jpg&amp;cached=true",
+      "file": "",
+      "evidence": "断言 FP-A34（Feed 解析域卡（feed-parser））引用「hello.jpg&amp;cached=true」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A34:http://cowboyprogrammer.org/4",
+      "file": "",
+      "evidence": "断言 FP-A34（Feed 解析域卡（feed-parser））引用「http://cowboyprogrammer.org/4」在工程源码/资源中未出现（探针 「http://cowboyprogrammer.org/4」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A34:http://cowboyprogrammer.org/hello.jpg&cached=true",
+      "file": "",
+      "evidence": "断言 FP-A34（Feed 解析域卡（feed-parser））引用「http://cowboyprogrammer.org/hello.jpg&cached=true」在工程源码/资源中未出现（探针 「http://cowboyprogrammer.org/hello.jpg&cached=true」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A38:https://i2.ytimg.com/vi/q-6oU3jXAho/hqdefault.jpg",
+      "file": "",
+      "evidence": "断言 FP-A38（Feed 解析域卡（feed-parser））引用「https://i2.ytimg.com/vi/q-6oU3jXAho/hqdefault.jpg」在工程源码/资源中未出现（探针 「https://i2.ytimg.com/vi/q-6oU3jXAho/hqdefault.jpg」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A38:，rutube →",
+      "file": "",
+      "evidence": "断言 FP-A38（Feed 解析域卡（feed-parser））引用「，rutube →」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A38:，myanimelist →",
+      "file": "",
+      "evidence": "断言 FP-A38（Feed 解析域卡（feed-parser））引用「，myanimelist →」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A39:MediaImage(url)",
+      "file": "",
+      "evidence": "断言 FP-A39（Feed 解析域卡（feed-parser））引用「MediaImage(url)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A39:ImageFromHTML(url)",
+      "file": "",
+      "evidence": "断言 FP-A39（Feed 解析域卡（feed-parser））引用「ImageFromHTML(url)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A41:http://cornucopia.cornubot.se/",
+      "file": "",
+      "evidence": "断言 FP-A41（Feed 解析域卡（feed-parser））引用「http://cornucopia.cornubot.se/」在工程源码/资源中未出现（探针 「http://cornucopia.cornubot.se/」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A41:，content_html 以",
+      "file": "",
+      "evidence": "断言 FP-A41（Feed 解析域卡（feed-parser））引用「，content_html 以」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A41:开头，image",
+      "file": "",
+      "evidence": "断言 FP-A41（Feed 解析域卡（feed-parser））引用「开头，image」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A41:，attachments 为空；Atom 版 feed_url 保持",
+      "file": "",
+      "evidence": "断言 FP-A41（Feed 解析域卡（feed-parser））引用「，attachments 为空；Atom 版 feed_url 保持」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A42:Compress all the images!",
+      "file": "",
+      "evidence": "断言 FP-A42（Feed 解析域卡（feed-parser））引用「Compress all the images!」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A42:https://cowboyprogrammer.org/images/zopfli_boxplot.png",
+      "file": "",
+      "evidence": "断言 FP-A42（Feed 解析域卡（feed-parser））引用「https://cowboyprogrammer.org/images/zopfli_boxplot.png」在工程源码/资源中未出现（探针 「https://cowboyprogrammer.org/images/zopfli_boxplot.png」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A42:开头且不含图片/链接标记；第 5 条 title",
+      "file": "",
+      "evidence": "断言 FP-A42（Feed 解析域卡（feed-parser））引用「开头且不含图片/链接标记；第 5 条 title」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A43:https://lineageos.org/",
+      "file": "",
+      "evidence": "断言 FP-A43（Feed 解析域卡（feed-parser））引用「https://lineageos.org/」在工程源码/资源中未出现（探针 「https://lineageos.org/」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A43:https://lineageos.org/Changelog-16/",
+      "file": "",
+      "evidence": "断言 FP-A43（Feed 解析域卡（feed-parser））引用「https://lineageos.org/Changelog-16/」在工程源码/资源中未出现（探针 「https://lineageos.org/Changelog-16/」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A44:，title",
+      "file": "",
+      "evidence": "断言 FP-A44（Feed 解析域卡（feed-parser））引用「，title」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A44:，home",
+      "file": "",
+      "evidence": "断言 FP-A44（Feed 解析域卡（feed-parser））引用「，home」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:NixOS 18.09 released",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「NixOS 18.09 released」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:https://nixos.org/logo/nixos-logo-18.09-jellyfish-lores.png",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「https://nixos.org/logo/nixos-logo-18.09-jellyfish-lores.png」在工程源码/资源中未出现（探针 「https://nixos.org/logo/nixos-logo-18.09-jellyfish-lores.png」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:https://blog.acolyer.org",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「https://blog.acolyer.org」在工程源码/资源中未出现（探针 「https://blog.acolyer.org」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:；londoner home",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「；londoner home」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:/ image",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「/ image」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:；cyklist image",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「；cyklist image」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:；nixers 首条 date_published 以",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「；nixers 首条 date_published 以」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A45:开头；golem_2 title",
+      "file": "",
+      "evidence": "断言 FP-A45（Feed 解析域卡（feed-parser））引用「开头；golem_2 title」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A46:，head 内 title 文本",
+      "file": "",
+      "evidence": "断言 FP-A46（Feed 解析域卡（feed-parser））引用「，head 内 title 文本」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A49:&amp;",
+      "file": "",
+      "evidence": "断言 FP-A49（Feed 解析域卡（feed-parser））引用「&amp;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A49:&quot;",
+      "file": "",
+      "evidence": "断言 FP-A49（Feed 解析域卡（feed-parser））引用「&quot;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A49:&apos;",
+      "file": "",
+      "evidence": "断言 FP-A49（Feed 解析域卡（feed-parser））引用「&apos;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A49:&lt;",
+      "file": "",
+      "evidence": "断言 FP-A49（Feed 解析域卡（feed-parser））引用「&lt;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A49:&gt;",
+      "file": "",
+      "evidence": "断言 FP-A49（Feed 解析域卡（feed-parser））引用「&gt;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A49:&#10;",
+      "file": "",
+      "evidence": "断言 FP-A49（Feed 解析域卡（feed-parser））引用「&#10;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A49:&#9;",
+      "file": "",
+      "evidence": "断言 FP-A49（Feed 解析域卡（feed-parser））引用「&#9;」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A50:pref_openai_key",
+      "file": "",
+      "evidence": "断言 FP-A50（Feed 解析域卡（feed-parser））引用「pref_openai_key」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A50:pref_translation_api_key",
+      "file": "",
+      "evidence": "断言 FP-A50（Feed 解析域卡（feed-parser））引用「pref_translation_api_key」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A53:xmlUrl",
+      "file": "",
+      "evidence": "断言 FP-A53（Feed 解析域卡（feed-parser））引用「xmlUrl」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A54:feeder:imageUrl",
+      "file": "",
+      "evidence": "断言 FP-A54（Feed 解析域卡（feed-parser））引用「feeder:imageUrl」在工程源码/资源中未出现（探针 「feeder:imageUrl」 「feeder:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A55:retrieveFullText",
+      "file": "",
+      "evidence": "断言 FP-A55（Feed 解析域卡（feed-parser））引用「retrieveFullText」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A57:pref_dark_theme=DaRk",
+      "file": "",
+      "evidence": "断言 FP-A57（Feed 解析域卡（feed-parser））引用「pref_dark_theme=DaRk」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A57:pref_sync_freq=720",
+      "file": "",
+      "evidence": "断言 FP-A57（Feed 解析域卡（feed-parser））引用「pref_sync_freq=720」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A57:pref_body_text_scale",
+      "file": "",
+      "evidence": "断言 FP-A57（Feed 解析域卡（feed-parser））引用「pref_body_text_scale」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A57:pref_max_lines",
+      "file": "",
+      "evidence": "断言 FP-A57（Feed 解析域卡（feed-parser））引用「pref_max_lines」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A57:pref_max_item_count_per_feed",
+      "file": "",
+      "evidence": "断言 FP-A57（Feed 解析域卡（feed-parser））引用「pref_max_item_count_per_feed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A58:foo, existing, foo, injection break';, \"\", \" \"",
+      "file": "",
+      "evidence": "断言 FP-A58（Feed 解析域卡（feed-parser））引用「foo, existing, foo, injection break';, \"\", \" \"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A58:foo",
+      "file": "",
+      "evidence": "断言 FP-A58（Feed 解析域卡（feed-parser））引用「foo」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A58:injection break';",
+      "file": "",
+      "evidence": "断言 FP-A58（Feed 解析域卡（feed-parser））引用「injection break';」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FP-A64:feeder-saved-articles",
+      "file": "",
+      "evidence": "断言 FP-A64（Feed 解析域卡（feed-parser））引用「feeder-saved-articles」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "case",
+      "type": "literal_missing",
+      "name": "FD-A02:ID_UNSET",
+      "file": "",
+      "evidence": "断言 FD-A02（feed-screen Feed 页断言卡）引用「ID_UNSET」在工程源码/资源中未出现"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A02:ID_ALL_FEEDS",
+      "file": "",
+      "evidence": "断言 FD-A02（feed-screen Feed 页断言卡）引用「ID_ALL_FEEDS」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A02:ID_SAVED_ARTICLES",
+      "file": "",
+      "evidence": "断言 FD-A02（feed-screen Feed 页断言卡）引用「ID_SAVED_ARTICLES」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A03:pref_show_title_unread_count",
+      "file": "",
+      "evidence": "断言 FD-A03（feed-screen Feed 页断言卡）引用「pref_show_title_unread_count」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A03:(N)",
+      "file": "",
+      "evidence": "断言 FD-A03（feed-screen Feed 页断言卡）引用「(N)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A16:prefs_filter_saved",
+      "file": "",
+      "evidence": "断言 FD-A16（feed-screen Feed 页断言卡）引用「prefs_filter_saved」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A16:prefs_filter_recently_read",
+      "file": "",
+      "evidence": "断言 FD-A16（feed-screen Feed 页断言卡）引用「prefs_filter_recently_read」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A16:prefs_filter_read",
+      "file": "",
+      "evidence": "断言 FD-A16（feed-screen Feed 页断言卡）引用「prefs_filter_read」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A34:正在同步",
+      "file": "",
+      "evidence": "断言 FD-A34（feed-screen Feed 页断言卡）引用「正在同步」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A36:pref_show_fab",
+      "file": "",
+      "evidence": "断言 FD-A36（feed-screen Feed 页断言卡）引用「pref_show_fab」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A36:pref_open_drawer_on_fab",
+      "file": "",
+      "evidence": "断言 FD-A36（feed-screen Feed 页断言卡）引用「pref_open_drawer_on_fab」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A38:pref_force_single_column",
+      "file": "",
+      "evidence": "断言 FD-A38（feed-screen Feed 页断言卡）引用「pref_force_single_column」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A39:pref_feed_item_style",
+      "file": "",
+      "evidence": "断言 FD-A39（feed-screen Feed 页断言卡）引用「pref_feed_item_style」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A45:pref_is_mark_as_read_on_scroll",
+      "file": "",
+      "evidence": "断言 FD-A45（feed-screen Feed 页断言卡）引用「pref_is_mark_as_read_on_scroll」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FD-A49:默认翻译预览",
+      "file": "",
+      "evidence": "断言 FD-A49（feed-screen Feed 页断言卡）引用「默认翻译预览」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A01:RssLocalSync.syncFeeds",
+      "file": "",
+      "evidence": "断言 FS-A01（订阅源刷新域卡（feed-sync））引用「RssLocalSync.syncFeeds」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A01:syncMutex",
+      "file": "",
+      "evidence": "断言 FS-A01（订阅源刷新域卡（feed-sync））引用「syncMutex」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A01:syncWorkerRunning",
+      "file": "",
+      "evidence": "断言 FS-A01（订阅源刷新域卡（feed-sync））引用「syncWorkerRunning」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A02:maxFeedItemCount",
+      "file": "",
+      "evidence": "断言 FS-A02（订阅源刷新域卡（feed-sync））引用「maxFeedItemCount」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A02:maximumCountPerFeed",
+      "file": "",
+      "evidence": "断言 FS-A02（订阅源刷新域卡（feed-sync））引用「maximumCountPerFeed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A03:getFeeds",
+      "file": "",
+      "evidence": "断言 FS-A03（订阅源刷新域卡（feed-sync））引用「getFeeds」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A03:getRead",
+      "file": "",
+      "evidence": "断言 FS-A03（订阅源刷新域卡（feed-sync））引用「getRead」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A03:getDevices",
+      "file": "",
+      "evidence": "断言 FS-A03（订阅源刷新域卡（feed-sync））引用「getDevices」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A03:sendUpdatedFeeds",
+      "file": "",
+      "evidence": "断言 FS-A03（订阅源刷新域卡（feed-sync））引用「sendUpdatedFeeds」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A03:markAsRead",
+      "file": "",
+      "evidence": "断言 FS-A03（订阅源刷新域卡（feed-sync））引用「markAsRead」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A04:retry_after >= now",
+      "file": "",
+      "evidence": "断言 FS-A04（订阅源刷新域卡（feed-sync））引用「retry_after >= now」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A04:last_sync",
+      "file": "",
+      "evidence": "断言 FS-A04（订阅源刷新域卡（feed-sync））引用「last_sync」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A05:last_sync < now - max(minFeedAgeMinutes,1) 分钟",
+      "file": "",
+      "evidence": "断言 FS-A05（订阅源刷新域卡（feed-sync））引用「last_sync < now - max(minFeedAgeMinutes,1) 分钟」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A07:applyRemoteReadMarks",
+      "file": "",
+      "evidence": "断言 FS-A07（订阅源刷新域卡（feed-sync））引用「applyRemoteReadMarks」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A08:fullTextByDefault",
+      "file": "",
+      "evidence": "断言 FS-A08（订阅源刷新域卡（feed-sync））引用「fullTextByDefault」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A09:currently_syncing",
+      "file": "",
+      "evidence": "断言 FS-A09（订阅源刷新域卡（feed-sync））引用「currently_syncing」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A09:last_sync",
+      "file": "",
+      "evidence": "断言 FS-A09（订阅源刷新域卡（feed-sync））引用「last_sync」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A10:currentlySyncing",
+      "file": "",
+      "evidence": "断言 FS-A10（订阅源刷新域卡（feed-sync））引用「currentlySyncing」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A10:MAX(feeds.last_sync)",
+      "file": "",
+      "evidence": "断言 FS-A10（订阅源刷新域卡（feed-sync））引用「MAX(feeds.last_sync)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A10:syncWorkerRunning",
+      "file": "",
+      "evidence": "断言 FS-A10（订阅源刷新域卡（feed-sync））引用「syncWorkerRunning」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A11:Cache-Control: max-age=60",
+      "file": "",
+      "evidence": "断言 FS-A11（订阅源刷新域卡（feed-sync））引用「Cache-Control: max-age=60」在工程源码/资源中未出现（探针 「Cache-Control: max-age=60」 「Cache-Control:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A12:user:pass@host",
+      "file": "",
+      "evidence": "断言 FS-A12（订阅源刷新域卡（feed-sync））引用「user:pass@host」在工程源码/资源中未出现（探针 「user:pass@host」 「user:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A13:User-Agent",
+      "file": "",
+      "evidence": "断言 FS-A13（订阅源刷新域卡（feed-sync））引用「User-Agent」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A16:cache-control",
+      "file": "",
+      "evidence": "断言 FS-A16（订阅源刷新域卡（feed-sync））引用「cache-control」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A17:Retry-After",
+      "file": "",
+      "evidence": "断言 FS-A17（订阅源刷新域卡（feed-sync））引用「Retry-After」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A18:retry-after",
+      "file": "",
+      "evidence": "断言 FS-A18（订阅源刷新域卡（feed-sync））引用「retry-after」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A18:retry_after",
+      "file": "",
+      "evidence": "断言 FS-A18（订阅源刷新域卡（feed-sync））引用「retry_after」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A19:UnsupportedContentType",
+      "file": "",
+      "evidence": "断言 FS-A19（订阅源刷新域卡（feed-sync））引用「UnsupportedContentType」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A19:HttpError(code,message,retryAfter)",
+      "file": "",
+      "evidence": "断言 FS-A19（订阅源刷新域卡（feed-sync））引用「HttpError(code,message,retryAfter)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A19:NoBody",
+      "file": "",
+      "evidence": "断言 FS-A19（订阅源刷新域卡（feed-sync））引用「NoBody」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A23:alternateId",
+      "file": "",
+      "evidence": "断言 FS-A23（订阅源刷新域卡（feed-sync））引用「alternateId」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A24:id ?: 替代id",
+      "file": "",
+      "evidence": "断言 FS-A24（订阅源刷新域卡（feed-sync））引用「id ?: 替代id」在工程源码/资源中未出现（探针 「id ?: 替代id」 「id ?:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A24:firstSyncedTime",
+      "file": "",
+      "evidence": "断言 FS-A24（订阅源刷新域卡（feed-sync））引用「firstSyncedTime」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A25:skipDuplicates",
+      "file": "",
+      "evidence": "断言 FS-A25（订阅源刷新域卡（feed-sync））引用「skipDuplicates」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A27:primarySortTime",
+      "file": "",
+      "evidence": "断言 FS-A27（订阅源刷新域卡（feed-sync））引用「primarySortTime」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A29:readTime",
+      "file": "",
+      "evidence": "断言 FS-A29（订阅源刷新域卡（feed-sync））引用「readTime」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A29:notified",
+      "file": "",
+      "evidence": "断言 FS-A29（订阅源刷新域卡（feed-sync））引用「notified」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A31:imageUrl",
+      "file": "",
+      "evidence": "断言 FS-A31（订阅源刷新域卡（feed-sync））引用「imageUrl」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A32:siteFetched",
+      "file": "",
+      "evidence": "断言 FS-A32（订阅源刷新域卡（feed-sync））引用「siteFetched」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A32:rel=apple-touch-icon",
+      "file": "",
+      "evidence": "断言 FS-A32（订阅源刷新域卡（feed-sync））引用「rel=apple-touch-icon」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A32:shortcut icon",
+      "file": "",
+      "evidence": "断言 FS-A32（订阅源刷新域卡（feed-sync））引用「shortcut icon」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A33:primary_sort_time DESC, pub_date DESC",
+      "file": "",
+      "evidence": "断言 FS-A33（订阅源刷新域卡（feed-sync））引用「primary_sort_time DESC, pub_date DESC」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A36:Field=regex",
+      "file": "",
+      "evidence": "断言 FS-A36（订阅源刷新域卡（feed-sync））引用「Field=regex」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A42:fetchOgImages",
+      "file": "",
+      "evidence": "断言 FS-A42（订阅源刷新域卡（feed-sync））引用「fetchOgImages」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A43:ImageFromHTML",
+      "file": "",
+      "evidence": "断言 FS-A43（订阅源刷新域卡（feed-sync））引用「ImageFromHTML」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A43:EnclosureImage",
+      "file": "",
+      "evidence": "断言 FS-A43（订阅源刷新域卡（feed-sync））引用「EnclosureImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A43:MediaImage",
+      "file": "",
+      "evidence": "断言 FS-A43（订阅源刷新域卡（feed-sync））引用「MediaImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A44:rel=alternate",
+      "file": "",
+      "evidence": "断言 FS-A44（订阅源刷新域卡（feed-sync））引用「rel=alternate」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A45:data-channel-external-id",
+      "file": "",
+      "evidence": "断言 FS-A45（订阅源刷新域卡（feed-sync））引用「data-channel-external-id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A46:parseFeedUrl",
+      "file": "",
+      "evidence": "断言 FS-A46（订阅源刷新域卡（feed-sync））引用「parseFeedUrl」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "FS-A49:runOnceRssSync",
+      "file": "",
+      "evidence": "断言 FS-A49（订阅源刷新域卡（feed-sync））引用「runOnceRssSync」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A01:HtmlLinearizer.linearize(html, baseUrl)",
+      "file": "",
+      "evidence": "断言 HM-A01（HTML 模型域卡（html-model））引用「HtmlLinearizer.linearize(html, baseUrl)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A01:LinearArticle.elements",
+      "file": "",
+      "evidence": "断言 HM-A01（HTML 模型域卡（html-model））引用「LinearArticle.elements」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A01:ul/ol",
+      "file": "",
+      "evidence": "断言 HM-A01（HTML 模型域卡（html-model））引用「ul/ol」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A03:MAX_ELEMENTS",
+      "file": "",
+      "evidence": "断言 HM-A03（HTML 模型域卡（html-model））引用「MAX_ELEMENTS」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A03:MAX_CHARS",
+      "file": "",
+      "evidence": "断言 HM-A03（HTML 模型域卡（html-model））引用「MAX_CHARS」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A04:tooLargeText",
+      "file": "",
+      "evidence": "断言 HM-A04（HTML 模型域卡（html-model））引用「tooLargeText」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A04:openInBrowserText",
+      "file": "",
+      "evidence": "断言 HM-A04（HTML 模型域卡（html-model））引用「openInBrowserText」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A04:articleLink",
+      "file": "",
+      "evidence": "断言 HM-A04（HTML 模型域卡（html-model））引用「articleLink」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A05:LinearText(text=\"Hello, world!\", blockStyle=TEXT, 无注解)",
+      "file": "",
+      "evidence": "断言 HM-A05（HTML 模型域卡（html-model））引用「LinearText(text=\"Hello, world!\", blockStyle=TEXT, 无注解)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A06:display:",
+      "file": "",
+      "evidence": "断言 HM-A06（HTML 模型域卡（html-model））引用「display:」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A09:\\n",
+      "file": "",
+      "evidence": "断言 HM-A09（HTML 模型域卡（html-model））引用「\\n」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A10:readability-styled",
+      "file": "",
+      "evidence": "断言 HM-A10（HTML 模型域卡（html-model））引用「readability-styled」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A10:was orphaned",
+      "file": "",
+      "evidence": "断言 HM-A10（HTML 模型域卡（html-model））引用「was orphaned」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A11:h1",
+      "file": "",
+      "evidence": "断言 HM-A11（HTML 模型域卡（html-model））引用「h1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A11:h6",
+      "file": "",
+      "evidence": "断言 HM-A11（HTML 模型域卡（html-model））引用「h6」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A11:H1",
+      "file": "",
+      "evidence": "断言 HM-A11（HTML 模型域卡（html-model））引用「H1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A11:H6",
+      "file": "",
+      "evidence": "断言 HM-A11（HTML 模型域卡（html-model））引用「H6」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A11:Link small",
+      "file": "",
+      "evidence": "断言 HM-A11（HTML 模型域卡（html-model））引用「Link small」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A12:endExclusive=end+1",
+      "file": "",
+      "evidence": "断言 HM-A12（HTML 模型域卡（html-model））引用「endExclusive=end+1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A13:strong/b",
+      "file": "",
+      "evidence": "断言 HM-A13（HTML 模型域卡（html-model））引用「strong/b」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A13:i/em/cite/dfn",
+      "file": "",
+      "evidence": "断言 HM-A13（HTML 模型域卡（html-model））引用「i/em/cite/dfn」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A13:font[face]",
+      "file": "",
+      "evidence": "断言 HM-A13（HTML 模型域卡（html-model））引用「font[face]」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A14:font-weight: bold",
+      "file": "",
+      "evidence": "断言 HM-A14（HTML 模型域卡（html-model））引用「font-weight: bold」在工程源码/资源中未出现（探针 「font-weight: bold」 「font-weight:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A14:font-style",
+      "file": "",
+      "evidence": "断言 HM-A14（HTML 模型域卡（html-model））引用「font-style」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A14:oblique",
+      "file": "",
+      "evidence": "断言 HM-A14（HTML 模型域卡（html-model））引用「oblique」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A16:abs:href",
+      "file": "",
+      "evidence": "断言 HM-A16（HTML 模型域卡（html-model））引用「abs:href」在工程源码/资源中未出现（探针 「abs:href」 「abs:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A16:mailto:",
+      "file": "",
+      "evidence": "断言 HM-A16（HTML 模型域卡（html-model））引用「mailto:」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A16:href",
+      "file": "",
+      "evidence": "断言 HM-A16（HTML 模型域卡（html-model））引用「href」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A18:shouldSoftWrap",
+      "file": "",
+      "evidence": "断言 HM-A18（HTML 模型域卡（html-model））引用「shouldSoftWrap」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A19:figcaption",
+      "file": "",
+      "evidence": "断言 HM-A19（HTML 模型域卡（html-model））引用「figcaption」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A20:ol/ul",
+      "file": "",
+      "evidence": "断言 HM-A20（HTML 模型域卡（html-model））引用「ol/ul」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A20:LinearListItem",
+      "file": "",
+      "evidence": "断言 HM-A20（HTML 模型域卡（html-model））引用「LinearListItem」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A20:orderedIndex",
+      "file": "",
+      "evidence": "断言 HM-A20（HTML 模型域卡（html-model））引用「orderedIndex」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A21:blockquote",
+      "file": "",
+      "evidence": "断言 HM-A21（HTML 模型域卡（html-model））引用「blockquote」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A21:LinearBlockQuote(cite=属性cite或null)",
+      "file": "",
+      "evidence": "断言 HM-A21（HTML 模型域卡（html-model））引用「LinearBlockQuote(cite=属性cite或null)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A22:thead",
+      "file": "",
+      "evidence": "断言 HM-A22（HTML 模型域卡（html-model））引用「thead」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A22:tbody",
+      "file": "",
+      "evidence": "断言 HM-A22（HTML 模型域卡（html-model））引用「tbody」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A22:tfoot",
+      "file": "",
+      "evidence": "断言 HM-A22（HTML 模型域卡（html-model））引用「tfoot」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A23:colspan/rowspan",
+      "file": "",
+      "evidence": "断言 HM-A23（HTML 模型域卡（html-model））引用「colspan/rowspan」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A23:colCount",
+      "file": "",
+      "evidence": "断言 HM-A23（HTML 模型域卡（html-model））引用「colCount」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A24:colspan=\"0\"",
+      "file": "",
+      "evidence": "断言 HM-A24（HTML 模型域卡（html-model））引用「colspan=\"0\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A26:LinearImage",
+      "file": "",
+      "evidence": "断言 HM-A26（HTML 模型域卡（html-model））引用「LinearImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A26:srcset",
+      "file": "",
+      "evidence": "断言 HM-A26（HTML 模型域卡（html-model））引用「srcset」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A26:data-responsive",
+      "file": "",
+      "evidence": "断言 HM-A26（HTML 模型域卡（html-model））引用「data-responsive」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A26:data-img-url",
+      "file": "",
+      "evidence": "断言 HM-A26（HTML 模型域卡（html-model））引用「data-img-url」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A26:data-src",
+      "file": "",
+      "evidence": "断言 HM-A26（HTML 模型域卡（html-model））引用「data-src」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A26:abs:src",
+      "file": "",
+      "evidence": "断言 HM-A26（HTML 模型域卡（html-model））引用「abs:src」在工程源码/资源中未出现（探针 「abs:src」 「abs:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A26:background-image",
+      "file": "",
+      "evidence": "断言 HM-A26（HTML 模型域卡（html-model））引用「background-image」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A27:/image.jpg",
+      "file": "",
+      "evidence": "断言 HM-A27（HTML 模型域卡（html-model））引用「/image.jpg」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A27:https://example.com",
+      "file": "",
+      "evidence": "断言 HM-A27（HTML 模型域卡（html-model））引用「https://example.com」在工程源码/资源中未出现（探针 「https://example.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A27:https://example.com/image.jpg",
+      "file": "",
+      "evidence": "断言 HM-A27（HTML 模型域卡（html-model））引用「https://example.com/image.jpg」在工程源码/资源中未出现（探针 「https://example.com/image.jpg」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A27:data:",
+      "file": "",
+      "evidence": "断言 HM-A27（HTML 模型域卡（html-model））引用「data:」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A29:Bold text",
+      "file": "",
+      "evidence": "断言 HM-A29（HTML 模型域卡（html-model））引用「Bold text」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A30:data-src",
+      "file": "",
+      "evidence": "断言 HM-A30（HTML 模型域卡（html-model））引用「data-src」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A30:data-responsive",
+      "file": "",
+      "evidence": "断言 HM-A30（HTML 模型域卡（html-model））引用「data-responsive」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A31:iframe",
+      "file": "",
+      "evidence": "断言 HM-A31（HTML 模型域卡（html-model））引用「iframe」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A32:iframe",
+      "file": "",
+      "evidence": "断言 HM-A32（HTML 模型域卡（html-model））引用「iframe」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A34:LinearArticle.idToIndex",
+      "file": "",
+      "evidence": "断言 HM-A34（HTML 模型域卡（html-model））引用「LinearArticle.idToIndex」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A34:#fragment",
+      "file": "",
+      "evidence": "断言 HM-A34（HTML 模型域卡（html-model））引用「#fragment」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A35:div#div1>div#div2>p",
+      "file": "",
+      "evidence": "断言 HM-A35（HTML 模型域卡（html-model））引用「div#div1>div#div2>p」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A36:LinearArticle.imageUrls",
+      "file": "",
+      "evidence": "断言 HM-A36（HTML 模型域卡（html-model））引用「LinearArticle.imageUrls」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A36:containsImageUrl(url)",
+      "file": "",
+      "evidence": "断言 HM-A36（HTML 模型域卡（html-model））引用「containsImageUrl(url)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A37:LinearImageSource",
+      "file": "",
+      "evidence": "断言 HM-A37（HTML 模型域卡（html-model））引用「LinearImageSource」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A37:LinearVideo",
+      "file": "",
+      "evidence": "断言 HM-A37（HTML 模型域卡（html-model））引用「LinearVideo」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A37:LinearAudio",
+      "file": "",
+      "evidence": "断言 HM-A37（HTML 模型域卡（html-model））引用「LinearAudio」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A38:fulltext_downloaded=1",
+      "file": "",
+      "evidence": "断言 HM-A38（HTML 模型域卡（html-model））引用「fulltext_downloaded=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A39:NoUrl",
+      "file": "",
+      "evidence": "断言 HM-A39（HTML 模型域卡（html-model））引用「NoUrl」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A39:HttpError(code)",
+      "file": "",
+      "evidence": "断言 HM-A39（HTML 模型域卡（html-model））引用「HttpError(code)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A39:FetchError",
+      "file": "",
+      "evidence": "断言 HM-A39（HTML 模型域卡（html-model））引用「FetchError」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A40:MAX_FULL_TEXT_BYTES",
+      "file": "",
+      "evidence": "断言 HM-A40（HTML 模型域卡（html-model））引用「MAX_FULL_TEXT_BYTES」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A40:FullTextTooLarge",
+      "file": "",
+      "evidence": "断言 HM-A40（HTML 模型域卡（html-model））引用「FullTextTooLarge」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A41:text/html",
+      "file": "",
+      "evidence": "断言 HM-A41（HTML 模型域卡（html-model））引用「text/html」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A41:UnsupportedContentType(mimeType)",
+      "file": "",
+      "evidence": "断言 HM-A41（HTML 模型域卡（html-model））引用「UnsupportedContentType(mimeType)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A43:gbk",
+      "file": "",
+      "evidence": "断言 HM-A43（HTML 模型域卡（html-model））引用「gbk」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A43:content=\"charset=gbk; text/html\"",
+      "file": "",
+      "evidence": "断言 HM-A43（HTML 模型域卡（html-model））引用「content=\"charset=gbk; text/html\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A43:gb2312",
+      "file": "",
+      "evidence": "断言 HM-A43（HTML 模型域卡（html-model））引用「gb2312」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A43:windows-1254",
+      "file": "",
+      "evidence": "断言 HM-A43（HTML 模型域卡（html-model））引用「windows-1254」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A43:GB2312",
+      "file": "",
+      "evidence": "断言 HM-A43（HTML 模型域卡（html-model））引用「GB2312」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A44:<html",
+      "file": "",
+      "evidence": "断言 HM-A44（HTML 模型域卡（html-model））引用「<html」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A45:wordCountFull",
+      "file": "",
+      "evidence": "断言 HM-A45（HTML 模型域卡（html-model））引用「wordCountFull」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A46:fulltext_by_default=1",
+      "file": "",
+      "evidence": "断言 HM-A46（HTML 模型域卡（html-model））引用「fulltext_by_default=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A46:block_time is null",
+      "file": "",
+      "evidence": "断言 HM-A46（HTML 模型域卡（html-model））引用「block_time is null」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A49:p/div/br/blockquote/h1-6",
+      "file": "",
+      "evidence": "断言 HM-A49（HTML 模型域卡（html-model））引用「p/div/br/blockquote/h1-6」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A49:one two three",
+      "file": "",
+      "evidence": "断言 HM-A49（HTML 模型域卡（html-model））引用「one two three」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A50:1. sublist:\\n  * A\\n  * B\\n2. two",
+      "file": "",
+      "evidence": "断言 HM-A50（HTML 模型域卡（html-model））引用「1. sublist:\\n  * A\\n  * B\\n2. two」在工程源码/资源中未出现（探针 「1. sublist:\\n  * A\\n  * B\\n2. two」 「1. sublist:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A51:go to Google and see.",
+      "file": "",
+      "evidence": "断言 HM-A51（HTML 模型域卡（html-model））引用「go to Google and see.」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A52:foo bar",
+      "file": "",
+      "evidence": "断言 HM-A52（HTML 模型域卡（html-model））引用「foo bar」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A54:##",
+      "file": "",
+      "evidence": "断言 HM-A54（HTML 模型域卡（html-model））引用「##」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HM-A55:convertToPlainText",
+      "file": "",
+      "evidence": "断言 HM-A55（HTML 模型域卡（html-model））引用「convertToPlainText」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HU-A12:•",
+      "file": "",
+      "evidence": "断言 HU-A12（html-ui）引用「•」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "HU-A35:•",
+      "file": "",
+      "evidence": "断言 HU-A35（html-ui）引用「•」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A02:isNotificationEnabled()",
+      "file": "",
+      "evidence": "断言 NW-A02（通知与桌面小组件卡（notifications-widget））引用「isNotificationEnabled()」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A03:notify=1",
+      "file": "",
+      "evidence": "断言 NW-A03（通知与桌面小组件卡（notifications-widget））引用「notify=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A03:notified=0",
+      "file": "",
+      "evidence": "断言 NW-A03（通知与桌面小组件卡（notifications-widget））引用「notified=0」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A03:read_time",
+      "file": "",
+      "evidence": "断言 NW-A03（通知与桌面小组件卡（notifications-widget））引用「read_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A03:block_time",
+      "file": "",
+      "evidence": "断言 NW-A03（通知与桌面小组件卡（notifications-widget））引用「block_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A04:2147483646",
+      "file": "",
+      "evidence": "断言 NW-A04（通知与桌面小组件卡（notifications-widget））引用「2147483646」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A05:notified=1",
+      "file": "",
+      "evidence": "断言 NW-A05（通知与桌面小组件卡（notifications-widget））引用「notified=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A06:feederNotifications",
+      "file": "",
+      "evidence": "断言 NW-A06（通知与桌面小组件卡（notifications-widget））引用「feederNotifications」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A10:open_articles_with",
+      "file": "",
+      "evidence": "断言 NW-A10（通知与桌面小组件卡（notifications-widget））引用「open_articles_with」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A12:read_time",
+      "file": "",
+      "evidence": "断言 NW-A12（通知与桌面小组件卡（notifications-widget））引用「read_time」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A12:notified=1",
+      "file": "",
+      "evidence": "断言 NW-A12（通知与桌面小组件卡（notifications-widget））引用「notified=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A13:notified=1",
+      "file": "",
+      "evidence": "断言 NW-A13（通知与桌面小组件卡（notifications-widget））引用「notified=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A14:notified=1",
+      "file": "",
+      "evidence": "断言 NW-A14（通知与桌面小组件卡（notifications-widget））引用「notified=1」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A14:ID_ALL_FEEDS(-10)",
+      "file": "",
+      "evidence": "断言 NW-A14（通知与桌面小组件卡（notifications-widget））引用「ID_ALL_FEEDS(-10)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A14:ID_UNSET(0)",
+      "file": "",
+      "evidence": "断言 NW-A14（通知与桌面小组件卡（notifications-widget））引用「ID_UNSET(0)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A16:pref_widget_last_feed_id",
+      "file": "",
+      "evidence": "断言 NW-A16（通知与桌面小组件卡（notifications-widget））引用「pref_widget_last_feed_id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A16:pref_widget_last_feed_tag",
+      "file": "",
+      "evidence": "断言 NW-A16（通知与桌面小组件卡（notifications-widget））引用「pref_widget_last_feed_tag」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A21:syncWorkerRunning",
+      "file": "",
+      "evidence": "断言 NW-A21（通知与桌面小组件卡（notifications-widget））引用「syncWorkerRunning」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "NW-A24:formProvider.updateForm",
+      "file": "",
+      "evidence": "断言 NW-A24（通知与桌面小组件卡（notifications-widget））引用「formProvider.updateForm」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A07:openai.azure.com",
+      "file": "",
+      "evidence": "断言 AI-A07（OpenAI / AI 与翻译 API 卡）引用「openai.azure.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A07:local://translation",
+      "file": "",
+      "evidence": "断言 AI-A07（OpenAI / AI 与翻译 API 卡）引用「local://translation」在工程源码/资源中未出现（探针 「local://translation」 「local:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A07:deepl.com",
+      "file": "",
+      "evidence": "断言 AI-A07（OpenAI / AI 与翻译 API 卡）引用「deepl.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A09::fx",
+      "file": "",
+      "evidence": "断言 AI-A09（OpenAI / AI 与翻译 API 卡）引用「:fx」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A09:https://api-free.deepl.com",
+      "file": "",
+      "evidence": "断言 AI-A09（OpenAI / AI 与翻译 API 卡）引用「https://api-free.deepl.com」在工程源码/资源中未出现（探针 「https://api-free.deepl.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A09:https://api.deepl.com",
+      "file": "",
+      "evidence": "断言 AI-A09（OpenAI / AI 与翻译 API 卡）引用「https://api.deepl.com」在工程源码/资源中未出现（探针 「https://api.deepl.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A09:local://translation",
+      "file": "",
+      "evidence": "断言 AI-A09（OpenAI / AI 与翻译 API 卡）引用「local://translation」在工程源码/资源中未出现（探针 「local://translation」 「local:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A10:https://api.deepl.com/v2/translate",
+      "file": "",
+      "evidence": "断言 AI-A10（OpenAI / AI 与翻译 API 卡）引用「https://api.deepl.com/v2/translate」在工程源码/资源中未出现（探针 「https://api.deepl.com/v2/translate」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A13:2024-02-15-preview",
+      "file": "",
+      "evidence": "断言 AI-A13（OpenAI / AI 与翻译 API 卡）引用「2024-02-15-preview」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A22:pref_openai_*",
+      "file": "",
+      "evidence": "断言 AI-A22（OpenAI / AI 与翻译 API 卡）引用「pref_openai_*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A22:pref_translation_api_*",
+      "file": "",
+      "evidence": "断言 AI-A22（OpenAI / AI 与翻译 API 卡）引用「pref_translation_api_*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A24:名称 (代码)",
+      "file": "",
+      "evidence": "断言 AI-A24（OpenAI / AI 与翻译 API 卡）引用「名称 (代码)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A30:与对应",
+      "file": "",
+      "evidence": "断言 AI-A30（OpenAI / AI 与翻译 API 卡）引用「与对应」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A30:），首选翻译语言键",
+      "file": "",
+      "evidence": "断言 AI-A30（OpenAI / AI 与翻译 API 卡）引用「），首选翻译语言键」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A31:openai.azure.com",
+      "file": "",
+      "evidence": "断言 AI-A31（OpenAI / AI 与翻译 API 卡）引用「openai.azure.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A31:api.perplexity.ai",
+      "file": "",
+      "evidence": "断言 AI-A31（OpenAI / AI 与翻译 API 卡）引用「api.perplexity.ai」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A31:deepl.com",
+      "file": "",
+      "evidence": "断言 AI-A31（OpenAI / AI 与翻译 API 卡）引用「deepl.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A31:local://translation",
+      "file": "",
+      "evidence": "断言 AI-A31（OpenAI / AI 与翻译 API 卡）引用「local://translation」在工程源码/资源中未出现（探针 「local://translation」 「local:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A36:Authorization",
+      "file": "",
+      "evidence": "断言 AI-A36（OpenAI / AI 与翻译 API 卡）引用「Authorization」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A41:Lang: \"ISO code\"",
+      "file": "",
+      "evidence": "断言 AI-A41（OpenAI / AI 与翻译 API 卡）引用「Lang: \"ISO code\"」在工程源码/资源中未出现（探针 「Lang: \"ISO code\"」 「Lang:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A42:^Lang: \"?([a-zA-Z_-]+)\"?$",
+      "file": "",
+      "evidence": "断言 AI-A42（OpenAI / AI 与翻译 API 卡）引用「^Lang: \"?([a-zA-Z_-]+)\"?$」在工程源码/资源中未出现（探针 「^Lang: \"?([a-zA-Z_-]+)\"?$」 「^Lang:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A50:Local translation is not available through this API",
+      "file": "",
+      "evidence": "断言 AI-A50（OpenAI / AI 与翻译 API 卡）引用「Local translation is not available through this API」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A50:Translation is not supported for this provider",
+      "file": "",
+      "evidence": "断言 AI-A50（OpenAI / AI 与翻译 API 卡）引用「Translation is not supported for this provider」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A52:/v2/translate",
+      "file": "",
+      "evidence": "断言 AI-A52（OpenAI / AI 与翻译 API 卡）引用「/v2/translate」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A52::fx",
+      "file": "",
+      "evidence": "断言 AI-A52（OpenAI / AI 与翻译 API 卡）引用「:fx」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A52:https://api-free.deepl.com",
+      "file": "",
+      "evidence": "断言 AI-A52（OpenAI / AI 与翻译 API 卡）引用「https://api-free.deepl.com」在工程源码/资源中未出现（探针 「https://api-free.deepl.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A52:https://api.deepl.com",
+      "file": "",
+      "evidence": "断言 AI-A52（OpenAI / AI 与翻译 API 卡）引用「https://api.deepl.com」在工程源码/资源中未出现（探针 「https://api.deepl.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A54:DeepL returned no translations",
+      "file": "",
+      "evidence": "断言 AI-A54（OpenAI / AI 与翻译 API 卡）引用「DeepL returned no translations」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A55:DeepL verification failed: no translation was returned",
+      "file": "",
+      "evidence": "断言 AI-A55（OpenAI / AI 与翻译 API 卡）引用「DeepL verification failed: no translation was returned」在工程源码/资源中未出现（探针 「DeepL verification failed: no translation was returned」 「DeepL verification failed:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A55:DeepL verification failed",
+      "file": "",
+      "evidence": "断言 AI-A55（OpenAI / AI 与翻译 API 卡）引用「DeepL verification failed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A60:pref_openai_*",
+      "file": "",
+      "evidence": "断言 AI-A60（OpenAI / AI 与翻译 API 卡）引用「pref_openai_*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AI-A60:pref_translation_api_*",
+      "file": "",
+      "evidence": "断言 AI-A60（OpenAI / AI 与翻译 API 卡）引用「pref_translation_api_*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A08:STOPPED",
+      "file": "",
+      "evidence": "断言 RA-A08（朗读与播客域卡（readaloud-podcast））引用「STOPPED」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A08:PAUSED",
+      "file": "",
+      "evidence": "断言 RA-A08（朗读与播客域卡（readaloud-podcast））引用「PAUSED」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A08:PLAYING",
+      "file": "",
+      "evidence": "断言 RA-A08（朗读与播客域卡（readaloud-podcast））引用「PLAYING」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A09:PAUSED",
+      "file": "",
+      "evidence": "断言 RA-A09（朗读与播客域卡（readaloud-podcast））引用「PAUSED」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A11:STOPPED",
+      "file": "",
+      "evidence": "断言 RA-A11（朗读与播客域卡（readaloud-podcast））引用「STOPPED」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A15:AppSetting",
+      "file": "",
+      "evidence": "断言 RA-A15（朗读与播客域卡（readaloud-podcast））引用「AppSetting」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A15:ForcedAuto",
+      "file": "",
+      "evidence": "断言 RA-A15（朗读与播客域卡（readaloud-podcast））引用「ForcedAuto」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A15:ForcedLocale(locale)",
+      "file": "",
+      "evidence": "断言 RA-A15（朗读与播客域卡（readaloud-podcast））引用「ForcedLocale(locale)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A16:AppSetting",
+      "file": "",
+      "evidence": "断言 RA-A16（朗读与播客域卡（readaloud-podcast））引用「AppSetting」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A16:pref_readaloud_detect_lang",
+      "file": "",
+      "evidence": "断言 RA-A16（朗读与播客域卡（readaloud-podcast））引用「pref_readaloud_detect_lang」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A17:ForcedAuto",
+      "file": "",
+      "evidence": "断言 RA-A17（朗读与播客域卡（readaloud-podcast））引用「ForcedAuto」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A17:ForcedLocale",
+      "file": "",
+      "evidence": "断言 RA-A17（朗读与播客域卡（readaloud-podcast））引用「ForcedLocale」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A18:en-GB",
+      "file": "",
+      "evidence": "断言 RA-A18（朗读与播客域卡（readaloud-podcast））引用「en-GB」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A21:STOPPED",
+      "file": "",
+      "evidence": "断言 RA-A21（朗读与播客域卡（readaloud-podcast））引用「STOPPED」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A25:audio/",
+      "file": "",
+      "evidence": "断言 RA-A25（朗读与播客域卡（readaloud-podcast））引用「audio/」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A26:pref_use_in_app_audio_player",
+      "file": "",
+      "evidence": "断言 RA-A26（朗读与播客域卡（readaloud-podcast））引用「pref_use_in_app_audio_player」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A37:m:ss",
+      "file": "",
+      "evidence": "断言 RA-A37（朗读与播客域卡（readaloud-podcast））引用「m:ss」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RA-A37:h:mm:ss",
+      "file": "",
+      "evidence": "断言 RA-A37（朗读与播客域卡（readaloud-podcast））引用「h:mm:ss」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A01:addedFeederNews",
+      "file": "",
+      "evidence": "断言 RP-A01（仓储层（Repository / Stores）域卡）引用「addedFeederNews」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A01:Feeder News",
+      "file": "",
+      "evidence": "断言 RP-A01（仓储层（Repository / Stores）域卡）引用「Feeder News」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A01:https://news.nononsenseapps.com/index.atom",
+      "file": "",
+      "evidence": "断言 RP-A01（仓储层（Repository / Stores）域卡）引用「https://news.nononsenseapps.com/index.atom」在工程源码/资源中未出现（探针 「https://news.nononsenseapps.com/index.atom」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A06:ID_ALL_FEEDS",
+      "file": "",
+      "evidence": "断言 RP-A06（仓储层（Repository / Stores）域卡）引用「ID_ALL_FEEDS」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A10:最近已读",
+      "file": "",
+      "evidence": "断言 RP-A10（仓储层（Repository / Stores）域卡）引用「最近已读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A11:已收藏",
+      "file": "",
+      "evidence": "断言 RP-A11（仓储层（Repository / Stores）域卡）引用「已收藏」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A12:ID_SAVED_ARTICLES",
+      "file": "",
+      "evidence": "断言 RP-A12（仓储层（Repository / Stores）域卡）引用「ID_SAVED_ARTICLES」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A17:最近已读",
+      "file": "",
+      "evidence": "断言 RP-A17（仓储层（Repository / Stores）域卡）引用「最近已读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A24:最近已读",
+      "file": "",
+      "evidence": "断言 RP-A24（仓储层（Repository / Stores）域卡）引用「最近已读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A28:标记上方为已读/标记下方为已读",
+      "file": "",
+      "evidence": "断言 RP-A28（仓储层（Repository / Stores）域卡）引用「标记上方为已读/标记下方为已读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A38:.ttf",
+      "file": "",
+      "evidence": "断言 RP-A38（仓储层（Repository / Stores）域卡）引用「.ttf」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "RP-A44:标为未读",
+      "file": "",
+      "evidence": "断言 RP-A44（仓储层（Repository / Stores）域卡）引用「标为未读」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A01:pref_sync_freq",
+      "file": "",
+      "evidence": "断言 SS-A01（设置存储域卡（settings-store））引用「pref_sync_freq」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A01:pref_max_item_count_per_feed",
+      "file": "",
+      "evidence": "断言 SS-A01（设置存储域卡（settings-store））引用「pref_max_item_count_per_feed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A03:bundled/roboto_flex",
+      "file": "",
+      "evidence": "断言 SS-A03（设置存储域卡（settings-store））引用「bundled/roboto_flex」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A07:\"0\"",
+      "file": "",
+      "evidence": "断言 SS-A07（设置存储域卡（settings-store））引用「\"0\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A07:\"3\"",
+      "file": "",
+      "evidence": "断言 SS-A07（设置存储域卡（settings-store））引用「\"3\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A07:\"2\"",
+      "file": "",
+      "evidence": "断言 SS-A07（设置存储域卡（settings-store））引用「\"2\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A07:\"1\"",
+      "file": "",
+      "evidence": "断言 SS-A07（设置存储域卡（settings-store））引用「\"1\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A08:\"3\"",
+      "file": "",
+      "evidence": "断言 SS-A08（设置存储域卡（settings-store））引用「\"3\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A08:\"2\"",
+      "file": "",
+      "evidence": "断言 SS-A08（设置存储域卡（settings-store））引用「\"2\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A12:\"100\"",
+      "file": "",
+      "evidence": "断言 SS-A12（设置存储域卡（settings-store））引用「\"100\"」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A14:bundled/roboto_flex",
+      "file": "",
+      "evidence": "断言 SS-A14（设置存储域卡（settings-store））引用「bundled/roboto_flex」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A14:system/default",
+      "file": "",
+      "evidence": "断言 SS-A14（设置存储域卡（settings-store））引用「system/default」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A15:pref_openai_*",
+      "file": "",
+      "evidence": "断言 SS-A15（设置存储域卡（settings-store））引用「pref_openai_*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A15:pref_translation_api_*",
+      "file": "",
+      "evidence": "断言 SS-A15（设置存储域卡（settings-store））引用「pref_translation_api_*」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A16:pref_openai_translation_language",
+      "file": "",
+      "evidence": "断言 SS-A16（设置存储域卡（settings-store））引用「pref_openai_translation_language」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A16:pref_translate_feed_cards_by_default",
+      "file": "",
+      "evidence": "断言 SS-A16（设置存储域卡（settings-store））引用「pref_translate_feed_cards_by_default」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A18:pref_last_feed_id",
+      "file": "",
+      "evidence": "断言 SS-A18（设置存储域卡（settings-store））引用「pref_last_feed_id」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A20:pref_added_feeder_news",
+      "file": "",
+      "evidence": "断言 SS-A20（设置存储域卡（settings-store））引用「pref_added_feeder_news」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A20:Feeder News",
+      "file": "",
+      "evidence": "断言 SS-A20（设置存储域卡（settings-store））引用「Feeder News」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A20:https://news.nononsenseapps.com/index.atom",
+      "file": "",
+      "evidence": "断言 SS-A20（设置存储域卡（settings-store））引用「https://news.nononsenseapps.com/index.atom」在工程源码/资源中未出现（探针 「https://news.nononsenseapps.com/index.atom」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SS-A30:feeds_mapped.json",
+      "file": "",
+      "evidence": "断言 SS-A30（设置存储域卡（settings-store））引用「feeds_mapped.json」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A07:Only available on Android 12 and above",
+      "file": "",
+      "evidence": "断言 ST-A07（设置页卡（settings-ui））引用「Only available on Android 12 and above」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A09:；否则显示已开启通知的订阅标题以",
+      "file": "",
+      "evidence": "断言 ST-A09（设置页卡（settings-ui））引用「；否则显示已开启通知的订阅标题以」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A09:连接，最多 3 个，超过 3 个时末尾追加",
+      "file": "",
+      "evidence": "断言 ST-A09（设置页卡（settings-ui））引用「连接，最多 3 个，超过 3 个时末尾追加」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A14:、示例",
+      "file": "",
+      "evidence": "断言 ST-A14（设置页卡（settings-ui））引用「、示例」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A14:；列出现有过滤词，每条带删除按钮（",
+      "file": "",
+      "evidence": "断言 ST-A14（设置页卡（settings-ui））引用「；列出现有过滤词，每条带删除按钮（」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A14:）点即删除；底部",
+      "file": "",
+      "evidence": "断言 ST-A14（设置页卡（settings-ui））引用「）点即删除；底部」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A16:Roboto",
+      "file": "",
+      "evidence": "断言 ST-A16（设置页卡（settings-ui））引用「Roboto」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A21:200",
+      "file": "",
+      "evidence": "断言 ST-A21（设置页卡（settings-ui））引用「200」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A21:500",
+      "file": "",
+      "evidence": "断言 ST-A21（设置页卡（settings-ui））引用「500」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A21:1000",
+      "file": "",
+      "evidence": "断言 ST-A21（设置页卡（settings-ui））引用「1000」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ST-A40:https://github.com/spacecowboy/feeder/issues",
+      "file": "",
+      "evidence": "断言 ST-A40（设置页卡（settings-ui））引用「https://github.com/spacecowboy/feeder/issues」在工程源码/资源中未出现（探针 「https://github.com/spacecowboy/feeder/issues」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A02:syncChainId",
+      "file": "",
+      "evidence": "断言 SY-A02（设备同步卡（sync））引用「syncChainId」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A02:https://ko-fi.com/spacecowboy",
+      "file": "",
+      "evidence": "断言 SY-A02（设备同步卡（sync））引用「https://ko-fi.com/spacecowboy」在工程源码/资源中未出现（探针 「https://ko-fi.com/spacecowboy」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A03:syncChainId",
+      "file": "",
+      "evidence": "断言 SY-A03（设备同步卡（sync））引用「syncChainId」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A05:sync_code=",
+      "file": "",
+      "evidence": "断言 SY-A05（设备同步卡（sync））引用「sync_code=」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A05:key=",
+      "file": "",
+      "evidence": "断言 SY-A05（设备同步卡（sync））引用「key=」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A05:%3A",
+      "file": "",
+      "evidence": "断言 SY-A05（设备同步卡（sync））引用「%3A」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A08:提取出的同步码",
+      "file": "",
+      "evidence": "断言 SY-A08（设备同步卡（sync））引用「提取出的同步码」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A08:sync_code=",
+      "file": "",
+      "evidence": "断言 SY-A08（设备同步卡（sync））引用「sync_code=」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A09:base64(16字节):base64(32字节)",
+      "file": "",
+      "evidence": "断言 SY-A09（设备同步卡（sync））引用「base64(16字节):base64(32字节)」在工程源码/资源中未出现（探针 「base64(16字节):base64(32字节)」 「base64(16字节):」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A10:key=",
+      "file": "",
+      "evidence": "断言 SY-A10（设备同步卡（sync））引用「key=」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A12:/sync/join?sync_code=..&key=..",
+      "file": "",
+      "evidence": "断言 SY-A12（设备同步卡（sync））引用「/sync/join?sync_code=..&key=..」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A24:Device not registered",
+      "file": "",
+      "evidence": "断言 SY-A24（设备同步卡（sync））引用「Device not registered」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A25:https://feeder-sync.nononsenseapps.com:443",
+      "file": "",
+      "evidence": "断言 SY-A25（设备同步卡（sync））引用「https://feeder-sync.nononsenseapps.com:443」在工程源码/资源中未出现（探针 「https://feeder-sync.nononsenseapps.com:443」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A25:feeder_user",
+      "file": "",
+      "evidence": "断言 SY-A25（设备同步卡（sync））引用「feeder_user」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A25:feeder_secret_1234",
+      "file": "",
+      "evidence": "断言 SY-A25（设备同步卡（sync））引用「feeder_secret_1234」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A26:feederapp.nononsenseapps.com",
+      "file": "",
+      "evidence": "断言 SY-A26（设备同步卡（sync））引用「feederapp.nononsenseapps.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A26:feeder-sync.nononsenseapps.workers.dev",
+      "file": "",
+      "evidence": "断言 SY-A26（设备同步卡（sync））引用「feeder-sync.nononsenseapps.workers.dev」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A27:POST create",
+      "file": "",
+      "evidence": "断言 SY-A27（设备同步卡（sync））引用「POST create」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A27:POST join",
+      "file": "",
+      "evidence": "断言 SY-A27（设备同步卡（sync））引用「POST join」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A27:GET devices",
+      "file": "",
+      "evidence": "断言 SY-A27（设备同步卡（sync））引用「GET devices」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A27:POST ereadmark",
+      "file": "",
+      "evidence": "断言 SY-A27（设备同步卡（sync））引用「POST ereadmark」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A27:GET feeds",
+      "file": "",
+      "evidence": "断言 SY-A27（设备同步卡（sync））引用「GET feeds」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A27:POST feeds",
+      "file": "",
+      "evidence": "断言 SY-A27（设备同步卡（sync））引用「POST feeds」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A27:If-Match",
+      "file": "",
+      "evidence": "断言 SY-A27（设备同步卡（sync））引用「If-Match」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A28:Instant",
+      "file": "",
+      "evidence": "断言 SY-A28（设备同步卡（sync））引用「Instant」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A32:sync_device",
+      "file": "",
+      "evidence": "断言 SY-A32（设备同步卡（sync））引用「sync_device」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A34:POST ereadmark",
+      "file": "",
+      "evidence": "断言 SY-A34（设备同步卡（sync））引用「POST ereadmark」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A35:GET ereadmark?since=latestMessageTimestamp+1ms",
+      "file": "",
+      "evidence": "断言 SY-A35（设备同步卡（sync））引用「GET ereadmark?since=latestMessageTimestamp+1ms」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A36:GET feeds",
+      "file": "",
+      "evidence": "断言 SY-A36（设备同步卡（sync））引用「GET feeds」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A36:lastFeedsRemoteHash",
+      "file": "",
+      "evidence": "断言 SY-A36（设备同步卡（sync））引用「lastFeedsRemoteHash」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A37:远端已见",
+      "file": "",
+      "evidence": "断言 SY-A37（设备同步卡（sync））引用「远端已见」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A39:List.hashCode",
+      "file": "",
+      "evidence": "断言 SY-A39（设备同步卡（sync））引用「List.hashCode」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A39:lastFeedsRemoteHash",
+      "file": "",
+      "evidence": "断言 SY-A39（设备同步卡（sync））引用「lastFeedsRemoteHash」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A39:POST feeds",
+      "file": "",
+      "evidence": "断言 SY-A39（设备同步卡（sync））引用「POST feeds」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A41:Device not registered",
+      "file": "",
+      "evidence": "断言 SY-A41（设备同步卡（sync））引用「Device not registered」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A42:No body but success",
+      "file": "",
+      "evidence": "断言 SY-A42（设备同步卡（sync））引用「No body but success」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A43:厂商 型号",
+      "file": "",
+      "evidence": "断言 SY-A43（设备同步卡（sync））引用「厂商 型号」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A44:base64(16字节AES密钥):base64(32字节HMAC密钥)",
+      "file": "",
+      "evidence": "断言 SY-A44（设备同步卡（sync））引用「base64(16字节AES密钥):base64(32字节HMAC密钥)」在工程源码/资源中未出现（探针 「base64(16字节AES密钥):base64(32字节HMAC密钥)」 「base64(16字节AES密钥):」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A46:base64(IV):base64(MAC):base64(密文)",
+      "file": "",
+      "evidence": "断言 SY-A46（设备同步卡（sync））引用「base64(IV):base64(MAC):base64(密文)」在工程源码/资源中未出现（探针 「base64(IV):base64(MAC):base64(密文)」 「base64(IV):」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A47:GeneralSecurityException",
+      "file": "",
+      "evidence": "断言 SY-A47（设备同步卡（sync））引用「GeneralSecurityException」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A50:仅充电/仅 Wi-Fi",
+      "file": "",
+      "evidence": "断言 SY-A50（设备同步卡（sync））引用「仅充电/仅 Wi-Fi」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "SY-A51:恢复时同步",
+      "file": "",
+      "evidence": "断言 SY-A51（设备同步卡（sync））引用「恢复时同步」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A04:Roboto",
+      "file": "",
+      "evidence": "断言 TS-A04（text-settings TextSettings 页 + 字体域断言卡）引用「Roboto」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A04:Foo.ttf",
+      "file": "",
+      "evidence": "断言 TS-A04（text-settings TextSettings 页 + 字体域断言卡）引用「Foo.ttf」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A05:Roboto",
+      "file": "",
+      "evidence": "断言 TS-A05（text-settings TextSettings 页 + 字体域断言卡）引用「Roboto」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A07:application/x-font-ttf",
+      "file": "",
+      "evidence": "断言 TS-A07（text-settings TextSettings 页 + 字体域断言卡）引用「application/x-font-ttf」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A07:font/ttf",
+      "file": "",
+      "evidence": "断言 TS-A07（text-settings TextSettings 页 + 字体域断言卡）引用「font/ttf」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A11:Roboto",
+      "file": "",
+      "evidence": "断言 TS-A11（text-settings TextSettings 页 + 字体域断言卡）引用「Roboto」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A15:1.5x",
+      "file": "",
+      "evidence": "断言 TS-A15（text-settings TextSettings 页 + 字体域断言卡）引用「1.5x」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A17:人人生而自由",
+      "file": "",
+      "evidence": "断言 TS-A17（text-settings TextSettings 页 + 字体域断言卡）引用「人人生而自由」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A19:pref_font",
+      "file": "",
+      "evidence": "断言 TS-A19（text-settings TextSettings 页 + 字体域断言卡）引用「pref_font」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A19:bundled/roboto_flex",
+      "file": "",
+      "evidence": "断言 TS-A19（text-settings TextSettings 页 + 字体域断言卡）引用「bundled/roboto_flex」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A19:system/default",
+      "file": "",
+      "evidence": "断言 TS-A19（text-settings TextSettings 页 + 字体域断言卡）引用「system/default」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A20:pref_font",
+      "file": "",
+      "evidence": "断言 TS-A20（text-settings TextSettings 页 + 字体域断言卡）引用「pref_font」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A21:pref_body_text_scale",
+      "file": "",
+      "evidence": "断言 TS-A21（text-settings TextSettings 页 + 字体域断言卡）引用「pref_body_text_scale」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A22:filesDir/fonts/",
+      "file": "",
+      "evidence": "断言 TS-A22（text-settings TextSettings 页 + 字体域断言卡）引用「filesDir/fonts/」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A23:.ttf",
+      "file": "",
+      "evidence": "断言 TS-A23（text-settings TextSettings 页 + 字体域断言卡）引用「.ttf」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A25:00 01 00 00",
+      "file": "",
+      "evidence": "断言 TS-A25（text-settings TextSettings 页 + 字体域断言卡）引用「00 01 00 00」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A25:fvar",
+      "file": "",
+      "evidence": "断言 TS-A25（text-settings TextSettings 页 + 字体域断言卡）引用「fvar」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A25:wght",
+      "file": "",
+      "evidence": "断言 TS-A25（text-settings TextSettings 页 + 字体域断言卡）引用「wght」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A25:slnt",
+      "file": "",
+      "evidence": "断言 TS-A25（text-settings TextSettings 页 + 字体域断言卡）引用「slnt」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A30:pref_font",
+      "file": "",
+      "evidence": "断言 TS-A30（text-settings TextSettings 页 + 字体域断言卡）引用「pref_font」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TS-A30:pref_body_text_scale",
+      "file": "",
+      "evidence": "断言 TS-A30（text-settings TextSettings 页 + 字体域断言卡）引用「pref_body_text_scale」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A01:deepl.com",
+      "file": "",
+      "evidence": "断言 TR-A01（翻译域卡（translation））引用「deepl.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A01:local://translation",
+      "file": "",
+      "evidence": "断言 TR-A01（翻译域卡（translation））引用「local://translation」在工程源码/资源中未出现（探针 「local://translation」 「local:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A02:tag_handling=html",
+      "file": "",
+      "evidence": "断言 TR-A02（翻译域卡（translation））引用「tag_handling=html」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A11:en-GB",
+      "file": "",
+      "evidence": "断言 TR-A11（翻译域卡（translation））引用「en-GB」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A11:EN_GB",
+      "file": "",
+      "evidence": "断言 TR-A11（翻译域卡（translation））引用「EN_GB」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A11:en-US",
+      "file": "",
+      "evidence": "断言 TR-A11（翻译域卡（translation））引用「en-US」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A22:translations-models",
+      "file": "",
+      "evidence": "断言 TR-A22（翻译域卡（translation））引用「translations-models」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A22:registry-v3.json",
+      "file": "",
+      "evidence": "断言 TR-A22（翻译域卡（translation））引用「registry-v3.json」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A23:filter_expression",
+      "file": "",
+      "evidence": "断言 TR-A23（翻译域卡（translation））引用「filter_expression」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A23:env.appinfo.OS == 'Android'",
+      "file": "",
+      "evidence": "断言 TR-A23（翻译域卡（translation））引用「env.appinfo.OS == 'Android'」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A25:.download",
+      "file": "",
+      "evidence": "断言 TR-A25（翻译域卡（translation））引用「.download」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A27:bergamot-translator-worker.wasm",
+      "file": "",
+      "evidence": "断言 TR-A27（翻译域卡（translation））引用「bergamot-translator-worker.wasm」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A27:@browsermt/bergamot-translator@0.4.5",
+      "file": "",
+      "evidence": "断言 TR-A27（翻译域卡（translation））引用「@browsermt/bergamot-translator@0.4.5」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A30:bergamot/index.html",
+      "file": "",
+      "evidence": "断言 TR-A30（翻译域卡（translation））引用「bergamot/index.html」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A30:AndroidBergamot",
+      "file": "",
+      "evidence": "断言 TR-A30（翻译域卡（translation））引用「AndroidBergamot」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A30:onReady",
+      "file": "",
+      "evidence": "断言 TR-A30（翻译域卡（translation））引用「onReady」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A30:onTranslationBatchSuccess",
+      "file": "",
+      "evidence": "断言 TR-A30（翻译域卡（translation））引用「onTranslationBatchSuccess」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "TR-A30:onTranslationError",
+      "file": "",
+      "evidence": "断言 TR-A30（翻译域卡（translation））引用「onTranslationError」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UC-A14:5 unread articles",
+      "file": "",
+      "evidence": "断言 UC-A14（ui-components 通用 UI 组件域断言卡）引用「5 unread articles」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UC-A41:Downloading offline translation model X to Y: N%",
+      "file": "",
+      "evidence": "断言 UC-A41（ui-components 通用 UI 组件域断言卡）引用「Downloading offline translation model X to Y: N%」在工程源码/资源中未出现（探针 「Downloading offline translation model X to Y: N%」 「Downloading offline translation model X to Y:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UC-A43:isAboveThreshold",
+      "file": "",
+      "evidence": "断言 UC-A43（ui-components 通用 UI 组件域断言卡）引用「isAboveThreshold」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UM-A02:DrawerValue.Closed",
+      "file": "",
+      "evidence": "断言 UM-A02（ui-material 自定义 Material3 组件域断言卡）引用「DrawerValue.Closed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UM-A12:isOpen",
+      "file": "",
+      "evidence": "断言 UM-A12（ui-material 自定义 Material3 组件域断言卡）引用「isOpen」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UM-A12:isClosed",
+      "file": "",
+      "evidence": "断言 UM-A12（ui-material 自定义 Material3 组件域断言卡）引用「isClosed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UM-A12:currentValue",
+      "file": "",
+      "evidence": "断言 UM-A12（ui-material 自定义 Material3 组件域断言卡）引用「currentValue」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UM-A12:open()",
+      "file": "",
+      "evidence": "断言 UM-A12（ui-material 自定义 Material3 组件域断言卡）引用「open()」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UM-A12:close()",
+      "file": "",
+      "evidence": "断言 UM-A12（ui-material 自定义 Material3 组件域断言卡）引用「close()」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A01:sloppyLinkToStrictURL",
+      "file": "",
+      "evidence": "断言 UT-A01（工具域卡（util））引用「sloppyLinkToStrictURL」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A01:String is blank",
+      "file": "",
+      "evidence": "断言 UT-A01（工具域卡（util））引用「String is blank」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A02:sloppyLinkToStrictURL",
+      "file": "",
+      "evidence": "断言 UT-A02（工具域卡（util））引用「sloppyLinkToStrictURL」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A02:https://google.com",
+      "file": "",
+      "evidence": "断言 UT-A02（工具域卡（util））引用「https://google.com」在工程源码/资源中未出现（探针 「https://google.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A02:google.com",
+      "file": "",
+      "evidence": "断言 UT-A02（工具域卡（util））引用「google.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A02:http://",
+      "file": "",
+      "evidence": "断言 UT-A02（工具域卡（util））引用「http://」在工程源码/资源中未出现（探针 「http://」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A02:http://google.com",
+      "file": "",
+      "evidence": "断言 UT-A02（工具域卡（util））引用「http://google.com」在工程源码/资源中未出现（探针 「http://google.com」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A03:sloppyLinkToStrictURL",
+      "file": "",
+      "evidence": "断言 UT-A03（工具域卡（util））引用「sloppyLinkToStrictURL」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A03:gemini://google.com",
+      "file": "",
+      "evidence": "断言 UT-A03（工具域卡（util））引用「gemini://google.com」在工程源码/资源中未出现（探针 「gemini://google.com」 「gemini:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A03:http://",
+      "file": "",
+      "evidence": "断言 UT-A03（工具域卡（util））引用「http://」在工程源码/资源中未出现（探针 「http://」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A04:sloppyLinkToStrictURLOrNull",
+      "file": "",
+      "evidence": "断言 UT-A04（工具域卡（util））引用「sloppyLinkToStrictURLOrNull」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A05:sloppyLinkToStrictURLNoThrows",
+      "file": "",
+      "evidence": "断言 UT-A05（工具域卡（util））引用「sloppyLinkToStrictURLNoThrows」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A05:http://",
+      "file": "",
+      "evidence": "断言 UT-A05（工具域卡（util））引用「http://」在工程源码/资源中未出现（探针 「http://」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A06:http://cowboy.com/feed.xml",
+      "file": "",
+      "evidence": "断言 UT-A06（工具域卡（util））引用「http://cowboy.com/feed.xml」在工程源码/资源中未出现（探针 「http://cowboy.com/feed.xml」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A06:/bob.jpg",
+      "file": "",
+      "evidence": "断言 UT-A06（工具域卡（util））引用「/bob.jpg」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A06:http://cowboy.com/bob.jpg",
+      "file": "",
+      "evidence": "断言 UT-A06（工具域卡（util））引用「http://cowboy.com/bob.jpg」在工程源码/资源中未出现（探针 「http://cowboy.com/bob.jpg」 「http:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A07:relativeLinkIntoAbsolute",
+      "file": "",
+      "evidence": "断言 UT-A07（工具域卡（util））引用「relativeLinkIntoAbsolute」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A07:relativeLinkIntoAbsoluteOrNull",
+      "file": "",
+      "evidence": "断言 UT-A07（工具域卡（util））引用「relativeLinkIntoAbsoluteOrNull」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A07:relativeLinkIntoAbsoluteOrNullIfNotValid",
+      "file": "",
+      "evidence": "断言 UT-A07（工具域卡（util））引用「relativeLinkIntoAbsoluteOrNullIfNotValid」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A08:urlHasNoQueryParams",
+      "file": "",
+      "evidence": "断言 UT-A08（工具域卡（util））引用「urlHasNoQueryParams」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A08:https://example.com/path?",
+      "file": "",
+      "evidence": "断言 UT-A08（工具域卡（util））引用「https://example.com/path?」在工程源码/资源中未出现（探针 「https://example.com/path?」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A09:urlHasNoAuthParams",
+      "file": "",
+      "evidence": "断言 UT-A09（工具域卡（util））引用「urlHasNoAuthParams」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A09:https://@example.com/path",
+      "file": "",
+      "evidence": "断言 UT-A09（工具域卡（util））引用「https://@example.com/path」在工程源码/资源中未出现（探针 「https://@example.com/path」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A09:user:pass@",
+      "file": "",
+      "evidence": "断言 UT-A09（工具域卡（util））引用「user:pass@」在工程源码/资源中未出现（探针 「user:pass@」 「user:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A10:stripTrackingParameters",
+      "file": "",
+      "evidence": "断言 UT-A10（工具域卡（util））引用「stripTrackingParameters」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A10:utm_",
+      "file": "",
+      "evidence": "断言 UT-A10（工具域卡（util））引用「utm_」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A10:traffic_source",
+      "file": "",
+      "evidence": "断言 UT-A10（工具域卡（util））引用「traffic_source」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A10:?utm_source=rss&utm_medium=feed&id=123",
+      "file": "",
+      "evidence": "断言 UT-A10（工具域卡（util））引用「?utm_source=rss&utm_medium=feed&id=123」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A10:?id=123",
+      "file": "",
+      "evidence": "断言 UT-A10（工具域卡（util））引用「?id=123」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A11:https://example.com/article?traffic_source=rss",
+      "file": "",
+      "evidence": "断言 UT-A11（工具域卡（util））引用「https://example.com/article?traffic_source=rss」在工程源码/资源中未出现（探针 「https://example.com/article?traffic_source=rss」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A11:https://example.com/article",
+      "file": "",
+      "evidence": "断言 UT-A11（工具域卡（util））引用「https://example.com/article」在工程源码/资源中未出现（探针 「https://example.com/article」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A12:not a url",
+      "file": "",
+      "evidence": "断言 UT-A12（工具域卡（util））引用「not a url」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A13:UTM_source",
+      "file": "",
+      "evidence": "断言 UT-A13（工具域卡（util））引用「UTM_source」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A14:findFirstImageInHtml",
+      "file": "",
+      "evidence": "断言 UT-A14（工具域卡（util））引用「findFirstImageInHtml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A15:findFirstImageInHtml",
+      "file": "",
+      "evidence": "断言 UT-A15（工具域卡（util））引用「findFirstImageInHtml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A15:twitter_icon",
+      "file": "",
+      "evidence": "断言 UT-A15（工具域卡（util））引用「twitter_icon」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A15:facebook_icon",
+      "file": "",
+      "evidence": "断言 UT-A15（工具域卡（util））引用「facebook_icon」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A15:fromBody=true",
+      "file": "",
+      "evidence": "断言 UT-A15（工具域卡（util））引用「fromBody=true」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A16:findFirstImageInHtml",
+      "file": "",
+      "evidence": "断言 UT-A16（工具域卡（util））引用「findFirstImageInHtml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A17:extractOgImage",
+      "file": "",
+      "evidence": "断言 UT-A17（工具域卡（util））引用「extractOgImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A17:og:image",
+      "file": "",
+      "evidence": "断言 UT-A17（工具域卡（util））引用「og:image」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A17:twitter:image",
+      "file": "",
+      "evidence": "断言 UT-A17（工具域卡（util））引用「twitter:image」在工程源码/资源中未出现（探针 「twitter:image」 「twitter:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A17:meta[property]",
+      "file": "",
+      "evidence": "断言 UT-A17（工具域卡（util））引用「meta[property]」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A17:meta[name]",
+      "file": "",
+      "evidence": "断言 UT-A17（工具域卡（util））引用「meta[name]」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A17:og:Image",
+      "file": "",
+      "evidence": "断言 UT-A17（工具域卡（util））引用「og:Image」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A18:extractOgImage",
+      "file": "",
+      "evidence": "断言 UT-A18（工具域卡（util））引用「extractOgImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A19:extractOgImage",
+      "file": "",
+      "evidence": "断言 UT-A19（工具域卡（util））引用「extractOgImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A19:/images/thumb.jpg",
+      "file": "",
+      "evidence": "断言 UT-A19（工具域卡（util））引用「/images/thumb.jpg」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A19:https://example.com/article/123",
+      "file": "",
+      "evidence": "断言 UT-A19（工具域卡（util））引用「https://example.com/article/123」在工程源码/资源中未出现（探针 「https://example.com/article/123」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A19:https://example.com/images/thumb.jpg",
+      "file": "",
+      "evidence": "断言 UT-A19（工具域卡（util））引用「https://example.com/images/thumb.jpg」在工程源码/资源中未出现（探针 「https://example.com/images/thumb.jpg」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A19://cdn.example.com/image.jpg",
+      "file": "",
+      "evidence": "断言 UT-A19（工具域卡（util））引用「//cdn.example.com/image.jpg」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A19:https://cdn.example.com/image.jpg",
+      "file": "",
+      "evidence": "断言 UT-A19（工具域卡（util））引用「https://cdn.example.com/image.jpg」在工程源码/资源中未出现（探针 「https://cdn.example.com/image.jpg」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A19:fromBody=false",
+      "file": "",
+      "evidence": "断言 UT-A19（工具域卡（util））引用「fromBody=false」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A20:fetchOgImage",
+      "file": "",
+      "evidence": "断言 UT-A20（工具域卡（util））引用「fetchOgImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A20:Accept: text/html",
+      "file": "",
+      "evidence": "断言 UT-A20（工具域卡（util））引用「Accept: text/html」在工程源码/资源中未出现（探针 「Accept: text/html」 「Accept:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A20:/images/hero.jpg",
+      "file": "",
+      "evidence": "断言 UT-A20（工具域卡（util））引用「/images/hero.jpg」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A21:fetchOgImage",
+      "file": "",
+      "evidence": "断言 UT-A21（工具域卡（util））引用「fetchOgImage」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A21:xhtml+xml",
+      "file": "",
+      "evidence": "断言 UT-A21（工具域卡（util））引用「xhtml+xml」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A22:getVideo(src)",
+      "file": "",
+      "evidence": "断言 UT-A22（工具域卡（util））引用「getVideo(src)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A24:mailto:",
+      "file": "",
+      "evidence": "断言 UT-A24（工具域卡（util））引用「mailto:」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A25:linkOpener",
+      "file": "",
+      "evidence": "断言 UT-A25（工具域卡（util））引用「linkOpener」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A27:pref_open_adjacent",
+      "file": "",
+      "evidence": "断言 UT-A27（工具域卡（util））引用「pref_open_adjacent」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A29:currentlyUnmetered",
+      "file": "",
+      "evidence": "断言 UT-A29（工具域卡（util））引用「currentlyUnmetered」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A30:String.urlEncode()",
+      "file": "",
+      "evidence": "断言 UT-A30（工具域卡（util））引用「String.urlEncode()」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A33:abs(key.hashCode()) % 8",
+      "file": "",
+      "evidence": "断言 UT-A33（工具域卡（util））引用「abs(key.hashCode()) % 8」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A35:feederapp.nononsenseapps.com",
+      "file": "",
+      "evidence": "断言 UT-A35（工具域卡（util））引用「feederapp.nononsenseapps.com」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A35:https://feederapp.nononsenseapps.com",
+      "file": "",
+      "evidence": "断言 UT-A35（工具域卡（util））引用「https://feederapp.nononsenseapps.com」在工程源码/资源中未出现（探针 「https://feederapp.nononsenseapps.com」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A36:https://github.com/spacecowboy/feeder/issues",
+      "file": "",
+      "evidence": "断言 UT-A36（工具域卡（util））引用「https://github.com/spacecowboy/feeder/issues」在工程源码/资源中未出现（探针 「https://github.com/spacecowboy/feeder/issues」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A36:https://ko-fi.com/spacecowboy",
+      "file": "",
+      "evidence": "断言 UT-A36（工具域卡（util））引用「https://ko-fi.com/spacecowboy」在工程源码/资源中未出现（探针 「https://ko-fi.com/spacecowboy」 「https:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A37:image_cache",
+      "file": "",
+      "evidence": "断言 UT-A37（工具域卡（util））引用「image_cache」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A37:http_image_cache",
+      "file": "",
+      "evidence": "断言 UT-A37（工具域卡（util））引用「http_image_cache」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A38:pref_max_item_count_per_feed",
+      "file": "",
+      "evidence": "断言 UT-A38（工具域卡（util））引用「pref_max_item_count_per_feed」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A39:Either.catching(onCatch, block)",
+      "file": "",
+      "evidence": "断言 UT-A39（工具域卡（util））引用「Either.catching(onCatch, block)」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A42:ScreenType.SINGLE",
+      "file": "",
+      "evidence": "断言 UT-A42（工具域卡（util））引用「ScreenType.SINGLE」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A42:DUAL",
+      "file": "",
+      "evidence": "断言 UT-A42（工具域卡（util））引用「DUAL」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A43:isCompactDevice",
+      "file": "",
+      "evidence": "断言 UT-A43（工具域卡（util））引用「isCompactDevice」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A43:isCompactLandscape",
+      "file": "",
+      "evidence": "断言 UT-A43（工具域卡（util））引用「isCompactLandscape」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "UT-A47:mutableSavedStateOf",
+      "file": "",
+      "evidence": "断言 UT-A47（工具域卡（util））引用「mutableSavedStateOf」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    }
+  ],
+  "stats": {
+    "corpusFiles": 77,
+    "ledger": "../../../../../../var/folders/9r/yjtsqdz93nvcfbb2j_pz_rjh0000gn/T/parse-cards-precheck-46465.json",
+    "literalsChecked": 1448,
+    "literalMissing": 1,
+    "literalUnmatched": 672,
+    "prd": null,
+    "prdRequirementLines": 0,
+    "prdCovered": 0,
+    "prdUncovered": 0,
+    "prdStaleAnchors": 0
+  }
+}

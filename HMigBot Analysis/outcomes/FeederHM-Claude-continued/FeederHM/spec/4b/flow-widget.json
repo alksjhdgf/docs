@@ -1,0 +1,299 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-widget",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1200
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    1100,
+    1500
+   ],
+   "to": [
+    200,
+    1500
+   ],
+   "speed": 1500,
+   "ms": 1500
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^FormItem_com\\.nononsenseapps\\.feeder"
+   ]
+  },
+  {
+   "op": "tapAt",
+   "x": 1166,
+   "y": 684,
+   "ms": 4000
+  },
+  {
+   "op": "wait",
+   "match": "=All feeds",
+   "timeout": 6000
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Planet Money",
+   "dir": "up",
+   "max": 6
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Saved articles",
+    "=Planet Money"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-widget-settings-page"
+  },
+  {
+   "op": "tap",
+   "match": "=Planet Money"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1200
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    1100,
+    1500
+   ],
+   "to": [
+    200,
+    1500
+   ],
+   "speed": 1500,
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow-widget-planetmoney"
+  },
+  {
+   "op": "stop"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tapAt",
+   "x": 1026,
+   "y": 684,
+   "ms": 800
+  },
+  {
+   "op": "shot",
+   "name": "flow-widget-sync-tapped"
+  },
+  {
+   "op": "sleep",
+   "ms": 10000
+  },
+  {
+   "op": "shot",
+   "name": "flow-widget-after-sync-killed"
+  },
+  {
+   "op": "tapAt",
+   "x": 1166,
+   "y": 684,
+   "ms": 4000
+  },
+  {
+   "op": "wait",
+   "match": "=All feeds",
+   "timeout": 6000
+  },
+  {
+   "op": "tap",
+   "match": "^Feeder News"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1200
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    1100,
+    1500
+   ],
+   "to": [
+    200,
+    1500
+   ],
+   "speed": 1500,
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow-widget-feedernews-before"
+  },
+  {
+   "op": "tapAt",
+   "x": 660,
+   "y": 900,
+   "ms": 4000
+  },
+  {
+   "op": "wait",
+   "match": "=0:59 minutes",
+   "timeout": 8000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=2.24.0 released"
+   ]
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1200
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    1100,
+    1500
+   ],
+   "to": [
+    200,
+    1500
+   ],
+   "speed": 1500,
+   "ms": 3000
+  },
+  {
+   "op": "shot",
+   "name": "flow-widget-after-read"
+  },
+  {
+   "op": "tapAt",
+   "x": 660,
+   "y": 900,
+   "ms": 4000
+  },
+  {
+   "op": "wait",
+   "match": "=0:59 minutes",
+   "timeout": 8000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Mark as unread",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Mark as unread"
+  },
+  {
+   "op": "sleep",
+   "ms": 1000
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1200
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    1100,
+    1500
+   ],
+   "to": [
+    200,
+    1500
+   ],
+   "speed": 1500,
+   "ms": 3000
+  },
+  {
+   "op": "shot",
+   "name": "flow-widget-after-unread"
+  }
+ ]
+}

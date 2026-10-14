@@ -1,0 +1,396 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-device.json",
+  "at": "2026-10-12T17:13:22.878Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-device",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "直达 Settings",
+      "ms": 3673
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Theme",
+      "ms": 710
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Theme\" @369,434（点后页面无变化）",
+      "changed": false,
+      "ms": 3075
+    },
+    {
+      "i": 3,
+      "op": "wait",
+      "ok": false,
+      "detail": "等待 =Night 超时（最后 121 节点）",
+      "kind": "expect_missing",
+      "page": {
+        "texts": [
+          "Settings",
+          "Theme, System",
+          "Theme",
+          "System",
+          "Dynamic colors, Only available on Android 12 and above",
+          "Dynamic colors",
+          "Only available on Android 12 and above",
+          "Preferred dark theme, Black",
+          "Preferred dark theme",
+          "Black",
+          "Notify for new items, Permission must be granted before notifications can be enabled.",
+          "Notify for new items",
+          "Permission must be granted before notifications can be enabled.",
+          "Block list",
+          "Filters",
+          "Apply to summaries",
+          "Apply to links",
+          "Text",
+          "Text settings, Roboto",
+          "Text settings",
+          "Roboto",
+          "Syncing",
+          "Look for new articles…, Every hour",
+          "01, :, 13",
+          "01",
+          ":",
+          "13",
+          "100"
+        ],
+        "ids": [
+          "session21",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ethernet",
+          "StatusBarIconItemEthernetComponent_Image_icon",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellular",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView",
+          "LiveMetaBallBaseVm"
+        ],
+        "clickable": [
+          "Theme, System",
+          "Dynamic colors, Only available on Android 12 and above",
+          "Preferred dark theme, Black",
+          "Notify for new items, Permission must be granted before notifications can be enabled.",
+          "Filters",
+          "Apply to summaries",
+          "Apply to links",
+          "Text settings, Roboto",
+          "Look for new articles…, Every hour",
+          "#StatusBarBridgeView",
+          "#LiveMetaBallBaseVm"
+        ],
+        "geometry": {
+          "Theme, System": {
+            "center": [
+              0.5,
+              0.17
+            ],
+            "bounds": "[56,360][1264,584]"
+          },
+          "Dynamic colors, Only available on Android 12 and above": {
+            "center": [
+              0.5,
+              0.25
+            ],
+            "bounds": "[56,584][1264,815]"
+          },
+          "Preferred dark theme, Black": {
+            "center": [
+              0.5,
+              0.32
+            ],
+            "bounds": "[56,815][1264,1039]"
+          },
+          "Notify for new items, Permission must be granted before notifications can be enabled.": {
+            "center": [
+              0.5,
+              0.4
+            ],
+            "bounds": "[56,1039][1264,1263]"
+          },
+          "Filters": {
+            "center": [
+              0.5,
+              0.56
+            ],
+            "bounds": "[56,1491][1264,1715]"
+          },
+          "Apply to summaries": {
+            "center": [
+              0.5,
+              0.64
+            ],
+            "bounds": "[56,1715][1264,1939]"
+          },
+          "Apply to links": {
+            "center": [
+              0.5,
+              0.72
+            ],
+            "bounds": "[56,1939][1264,2163]"
+          },
+          "Text settings, Roboto": {
+            "center": [
+              0.5,
+              0.88
+            ],
+            "bounds": "[56,2390][1264,2614]"
+          },
+          "Look for new articles…, Every hour": {
+            "center": [
+              0.5,
+              1
+            ],
+            "bounds": "[56,2842][1264,2856]"
+          },
+          "#session21": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[49,55][1271,136]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[49,55][1320,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[49,66][111,128]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,55][1271,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_ethernet": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[995,55][1079,136]"
+          },
+          "#StatusBarIconItemEthernetComponent_Image_icon": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[1002,69][1079,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1079,55][1166,136]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellular": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1166,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,69][1271,125]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1182,75][1252,120]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#LiveMetaBallBaseVm": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[380,19][940,136]"
+          }
+        }
+      },
+      "ms": 4797,
+      "shot": "output/FeederHM/spec/screenshots/fail-flow-device-step-3.png"
+    }
+  ],
+  "ok": false,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Settings",
+      "Theme, System",
+      "Theme",
+      "System",
+      "Dynamic colors, Only available on Android 12 and above",
+      "Dynamic colors",
+      "Only available on Android 12 and above",
+      "Preferred dark theme, Black",
+      "Preferred dark theme",
+      "Black",
+      "Notify for new items, Permission must be granted before notifications can be enabled.",
+      "Notify for new items",
+      "Permission must be granted before notifications can be enabled.",
+      "Block list",
+      "Filters",
+      "Apply to summaries",
+      "Apply to links",
+      "Text",
+      "Text settings, Roboto",
+      "Text settings",
+      "Roboto",
+      "Syncing",
+      "Look for new articles…, Every hour",
+      "01, :, 13",
+      "01",
+      ":",
+      "13",
+      "100"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm"
+    ]
+  },
+  "tapsNoChange": 1,
+  "failStreak": 1
+}

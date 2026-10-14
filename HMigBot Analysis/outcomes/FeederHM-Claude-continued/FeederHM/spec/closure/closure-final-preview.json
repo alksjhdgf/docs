@@ -1,0 +1,133 @@
+{
+  "project": "output/FeederHM",
+  "stage": "final",
+  "violations": [
+    {
+      "severity": "violation",
+      "type": "dead_file",
+      "name": "FeedWidgetForm",
+      "file": "entry/src/main/ets/features/widget/FeedWidgetForm.ets",
+      "basis": "判据：该文件不在任何相对 import、route_map.pageSourceFile、main_pages.src、module.json5 srcEntry、build-profile workers 里——不在任何渲染/执行路径上",
+      "evidence": "entry/src/main/ets/features/widget/FeedWidgetForm.ets 无任何引用；交付物不带死代码：删除它（其 $r 悬空引用与样式桩随之消失），确需保留则让真正的页面/组件 import 它"
+    }
+  ],
+  "cases": [
+    {
+      "type": "unreachable_route",
+      "severity": "case",
+      "name": "FeedWidgetSettings",
+      "basis": "判据：存在跳转但发起文件不在入口 import 闭包内",
+      "evidence": "存在跳转（entry/src/main/ets/entryability/EntryAbility.ets:44, entry/src/main/ets/entryability/EntryAbility.ets:58）但从入口连通图不可达"
+    },
+    {
+      "type": "read_path_unused",
+      "severity": "case",
+      "key": "Accept",
+      "basis": "判据：store 内存在含该键读触点的方法，但全工程无该方法调用点",
+      "evidence": "store 内有读取方法 htmlTest()，但全工程无人调用"
+    },
+    {
+      "type": "read_path_unused",
+      "severity": "case",
+      "key": "dynamic_shortcuts",
+      "basis": "判据：store 内存在含该键读触点的方法，但全工程无该方法调用点",
+      "evidence": "store 内有读取方法 ensureLoaded()，但全工程无人调用"
+    },
+    {
+      "type": "read_unresolvable",
+      "severity": "info",
+      "key": "exact_device_ids",
+      "basis": "判据：写入文件存在持久化 API 的变量键读取（如 getSync(k) 循环），读取路径静态不可判",
+      "evidence": "entry/src/main/ets/pages/SyncScreenPage.ets 有 1 处变量键读取——该键消费与否静态不可判，不立案；不要为过门把变量键改写成字面量"
+    },
+    {
+      "type": "read_unresolvable",
+      "severity": "info",
+      "key": "feederPendingDeepLink",
+      "basis": "判据：写入文件存在持久化 API 的变量键读取（如 getSync(k) 循环），读取路径静态不可判",
+      "evidence": "entry/src/main/ets/pages/MainPage.ets 有 1 处变量键读取——该键消费与否静态不可判，不立案；不要为过门把变量键改写成字面量"
+    },
+    {
+      "type": "read_unresolvable",
+      "severity": "info",
+      "key": "height",
+      "basis": "判据：写入文件存在持久化 API 的变量键读取（如 getSync(k) 循环），读取路径静态不可判",
+      "evidence": "entry/src/test/Opml.test.ets 有 1 处变量键读取——该键消费与否静态不可判，不立案；不要为过门把变量键改写成字面量"
+    },
+    {
+      "type": "read_path_unused",
+      "severity": "case",
+      "key": "k",
+      "basis": "判据：store 内存在含该键读触点的方法，但全工程无该方法调用点",
+      "evidence": "store 内有读取方法 opmlTest()，但全工程无人调用"
+    },
+    {
+      "type": "read_unresolvable",
+      "severity": "info",
+      "key": "link",
+      "basis": "判据：写入文件存在持久化 API 的变量键读取（如 getSync(k) 循环），读取路径静态不可判",
+      "evidence": "entry/src/test/Opml.test.ets 有 1 处变量键读取——该键消费与否静态不可判，不立案；不要为过门把变量键改写成字面量"
+    },
+    {
+      "type": "read_unresolvable",
+      "severity": "info",
+      "key": "scrollPosition",
+      "basis": "判据：写入文件存在持久化 API 的变量键读取（如 getSync(k) 循环），读取路径静态不可判",
+      "evidence": "entry/src/main/ets/pages/ArticlePage.ets 有 1 处变量键读取——该键消费与否静态不可判，不立案；不要为过门把变量键改写成字面量"
+    },
+    {
+      "type": "read_unresolvable",
+      "severity": "info",
+      "key": "width",
+      "basis": "判据：写入文件存在持久化 API 的变量键读取（如 getSync(k) 循环），读取路径静态不可判",
+      "evidence": "entry/src/test/Opml.test.ets 有 1 处变量键读取——该键消费与否静态不可判，不立案；不要为过门把变量键改写成字面量"
+    }
+  ],
+  "results": [
+    {
+      "tool": "routes",
+      "violations": 0,
+      "cases": 1
+    },
+    {
+      "tool": "resources",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "consumers",
+      "violations": 0,
+      "cases": 9
+    },
+    {
+      "tool": "stubs",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "permissions",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "api-guards",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "safearea",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "anchors",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "dead-files",
+      "violations": 1,
+      "cases": "1 个未被引用的 .ets/.ts（final 记 dead_file 硬违规）"
+    }
+  ]
+}

@@ -1,0 +1,1120 @@
+{
+  "string": [
+    {
+      "name": "description_for_read_aloud",
+      "value": "ตรวจหาภาษาในบทความอัตโนมัติ"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "ที่อยู่ URL ของฟีด"
+    },
+    {
+      "name": "stop_reading",
+      "value": "หยุดอ่าน"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "สมัครรับข้อมูลฟีด"
+    },
+    {
+      "name": "resume_reading",
+      "value": "เรื่มอ่านต่อ"
+    },
+    {
+      "name": "url",
+      "value": "ที่อยู่เว็บ"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "การตั้งค่า"
+    },
+    {
+      "name": "set_language",
+      "value": "ตั้งค่าภาษา"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "ไม่มีอะไรให้แสดง!"
+    },
+    {
+      "name": "all_feeds",
+      "value": "ฟีดทั้งหมด"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "ทุก 30 นาที"
+    },
+    {
+      "name": "image_loading",
+      "value": "การโหลดภาพ"
+    },
+    {
+      "name": "action_settings",
+      "value": "การตั้งค่า"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "เปิดแถบลิ้นชักการนำทาง"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "ปิดแถบลิ้นชักการนำทาง"
+    },
+    {
+      "name": "title",
+      "value": "ชื่อ"
+    },
+    {
+      "name": "add_feed",
+      "value": "เพื่มฟีด"
+    },
+    {
+      "name": "tag",
+      "value": "แท็ก"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "เพื่มฟีด?"
+    },
+    {
+      "name": "save",
+      "value": "บันทึก"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "ไม่มีอะไรให้อ่านเลย ต้องการจะ…"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "ทำเครื่องหมายว่าอ่านแล้ว"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "ทำเครื่องหมายว่ายังไม่ได้อ่าน"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว"
+    },
+    {
+      "name": "edit_feed",
+      "value": "แก้ไขฟีด"
+    },
+    {
+      "name": "delete_feed",
+      "value": "ลบฟีด"
+    },
+    {
+      "name": "show_all_items",
+      "value": "แสดงทุกรายการ"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "แสดงรายการที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "new_items_available",
+      "value": "มีรายการใหม่"
+    },
+    {
+      "name": "view",
+      "value": "ดู"
+    },
+    {
+      "name": "no_tag",
+      "value": "ไม่มีป้าย"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "แจ้งเตือนรายการใหม่"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "หยุดการแจ้งเตือนรายการใหม่"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "เปิดลิงก์ในเว็บเบราว์เซอร์"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "เปิดในเว็บเบราว์เซอร์"
+    },
+    {
+      "name": "read_article",
+      "value": "อ่านบทความเป็นเสียง"
+    },
+    {
+      "name": "pause_reading",
+      "value": "หยุดพักการอ่าน"
+    },
+    {
+      "name": "sync",
+      "value": "ซิงค์"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "ส่งออกฟีดเป็นไฟล์ OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "นำเข้าฟีดจากไฟล์ OPML"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "ทุก 12 ชั่วโมง"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "ทุกวัน"
+    },
+    {
+      "name": "synchronization",
+      "value": "การซิงค์"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "ด้วย Wi-Fi เท่านั้น"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "แสดงรูปขนาดย่อ"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "อาจมีค่าบริการข้อมูลมือถือ"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "ติดตั้งแอปที่สามารถเปิดด้วยลิงก์นี้ได้ก่อน"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "มองหาบทความใหม่…"
+    },
+    {
+      "name": "on_startup",
+      "value": "เมื่อแอปเรื่มต้น"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "ข้อความเป็นคำพูด"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "ข้ามไปข้างหน้า"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "ดูปูมการดีบั้ก"
+    },
+    {
+      "name": "share",
+      "value": "แชร์"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "หาฟีดไม่พบ ลองใช้ HTTPS ดูไหม?"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "ด้วยตนเอง"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "ทุก 15 นาที"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "ทุกชั่วโมง"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "ทุก 3 ชั่วโมง"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "ทุก 6 ชั่วโมง"
+    },
+    {
+      "name": "syncing",
+      "value": "กำลังซิงค์"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "ตรวจหาภาษา"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "ใช้ได้เฉพาะบน Android %1$s ขึ้นไป"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "เมื่อกำลังชาร์จแบตเตอรี่อยู่เท่านั้น"
+    },
+    {
+      "name": "block_list",
+      "value": "รายการที่ถูกบล็อก"
+    },
+    {
+      "name": "add_item",
+      "value": "เพื่มรายการใหม่"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "ไม่พบแอปสแกนบาร์โค้ด"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "ตัดการเชื่อมต่อจากกลุ่มการซิงค์"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "อุปกรณ์บนกลุ่มการซิงค์"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "เปิดรายการโดยเรื่มต้นด้วย"
+    },
+    {
+      "name": "use_app_default",
+      "value": "ใช้แอปเรื่มต้น"
+    },
+    {
+      "name": "open_links_with",
+      "value": "เปิดลิงก์ด้วย"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "ทำเครื่องหมายรายการด้านล่างว่าอ่านแล้ว"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "ไปที่ %1$s"
+    },
+    {
+      "name": "feed_icon",
+      "value": "ไอคอนฟีด"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder เข้าถึงได้เฉพาะการอ่านอย่างเดียว"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "โหลดการแปลงข้อความเป็นคำพูดไม่ได้"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "เปิด %1$s"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "การแจ้งเตือนจะแสดงเฉพาะรายการที่ยังไม่ได้อ่านในฟีดที่ถูกตั้งค่าแล้ว"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "เปิดใน Webview"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "แท็บที่กำหนดเอง"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "เปิดใน Reader"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "เปิดฟีดอื่นๆ?"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "โดย %1$s, %2$s"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "ป้อนที่อยู่ฟีด"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "สลับสถานะการอ่าน"
+    },
+    {
+      "name": "show_fab",
+      "value": "แสดงปุ่มเมนูลอย"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "รวมฮอตสปอตจากมือถือด้วย"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "อัปเดตฟีดแล้ว"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s บทความที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "เว็บเบราว์เซอร์เรื่มต้น"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "ดำสนิท"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "มืด"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "รายการเก่าที่สุดก่อน"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "รายการใหม่ที่สุดก่อน"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "โหลดแท็บแบบกำหนดเองล่วงหน้า"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "ดึงข้อมูลบทความเต็มไม่ได้"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "เปิด"
+    },
+    {
+      "name": "already_read",
+      "value": "อ่านไปแล้ว"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s บทความที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s บทความที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "ซิงค์ฟีด"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s บทความที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "รูปแบบบทความ"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "การ์ด"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (อุปกรณ์นี้)"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "แน่ใจนะว่าจะลบอุปกรณ์ %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "บนอีกอุปกรณ์ของคุณ เปิดไปที่การซิงค์ระหว่างอุปกรณ์ แล้วกดเพื่อสแกนรหัสการซิงค์"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "ออกจากกลุ่มการซิงค์"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "ด้วยการสแกนรหัสจากกลุ่มการซิงค์ของคุณที่สร้างจากเครื่องอื่นๆ หรือเรื่มสร้างกลุ่มการซิงค์ใหม่"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "ร่วมกลุ่มการซิงค์"
+    },
+    {
+      "name": "disabled",
+      "value": "ปิดใช้งาน"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "แน่ใจนะว่าจะออกจากกลุ่มการซิงค์?"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "อนุญาตให้แอปอ่านฟีดและบทความ"
+    },
+    {
+      "name": "article_image",
+      "value": "รูปภาพบทความ"
+    },
+    {
+      "name": "sync_code",
+      "value": "รหัสการซิงค์"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "ตัวบอกเครื่องหมายว่าอ่านแล้ว"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "ฟีดที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "sync_status",
+      "value": "สถานะการซิงค์"
+    },
+    {
+      "name": "reader_settings",
+      "value": "เครื่องมืออ่าน"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "เปิดลิงก์ใน Webview"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "เปิดใน Webview"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "รายการสูงสุดในแต่ละฟีด"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "ไม่สามารถโหลดที่อยู่เว็บ"
+    },
+    {
+      "name": "theme_system",
+      "value": "ระบบ"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "อัตโนมัติ"
+    },
+    {
+      "name": "theme_day",
+      "value": "สว่าง"
+    },
+    {
+      "name": "theme_night",
+      "value": "กลางคืน"
+    },
+    {
+      "name": "theme",
+      "value": "ธีม"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "สีแบบไดนามิก"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "ธีมมืดที่จะเลือกใช้"
+    },
+    {
+      "name": "sort",
+      "value": "เรียงตาม"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "ส่งรายงานปัญหาบั้ก"
+    },
+    {
+      "name": "no_email_client",
+      "value": "เปิดอีเมล์ไคลแอนท์ไม่ได้"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "แตะเพื่อเล่นวีดิโอ"
+    },
+    {
+      "name": "javascript",
+      "value": "จาวาสคริปต์"
+    },
+    {
+      "name": "open_feed",
+      "value": "เปิดฟีด"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "ทำเครื่องหมายรายการด้านบนว่าอ่านแล้ว"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "รายชื่อฟีดที่สำรวจแล้ว"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "ดึงบทความเต็ม"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "การเพิ่มประสิทธิภาพแบตเตอรี่"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "ปิด"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "ดึงข้อมูลจาก %1$s ไม่ได้"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "ดึงข้อมูลบทความเต็มโดยค่าเรื่มต้น"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "เปิดบทความไม่ได้"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "กำลังดึงข้อมูลบทความเต็ม…"
+    },
+    {
+      "name": "go_back",
+      "value": "ย้อนกลับไป"
+    },
+    {
+      "name": "open_menu",
+      "value": "เปิดเมนู"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "ไม่ได้อ่าน"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "แสดงเฉพาะบทความที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "แสดงบทความทั้งหมด"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s บทความที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s บทความที่ยังไม่ได้อ่าน"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "กระทัดรัด"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "กระทัดรัดมากๆ"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "สร้าง ID เฉพาะตัวเพื่มเติม"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "เปิดใช้งานเฉพาะฟีดที่มี ID ไม่ถูกต้อง"
+    },
+    {
+      "name": "invalid_url",
+      "value": "ไม่ใช่ที่อยู่ URL ที่ใช้ได้"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "นำเข้าไฟล์ OPML ล้มเหลว"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "ส่งออกไฟล์ OPML ล้มเหลว"
+    },
+    {
+      "name": "add_new_device",
+      "value": "เพื่มอุปกรณ์ใหม่"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "ระบบนี้อยู่ได้ด้วยเงินสนับสนุนจากชุมชน ได้โปรดบริจาคเงินถ้าเห็นว่าคุณลักษณะนี้มีประโยชน์กับคุณ"
+    },
+    {
+      "name": "remove",
+      "value": "เอาออก"
+    },
+    {
+      "name": "remove_device",
+      "value": "เอาอุปกรณ์ออก"
+    },
+    {
+      "name": "device_sync",
+      "value": "การซิงค์ระหว่างอุปกรณ์"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "หรืออีกวีธี เปิดลิงก์นี้บนอุปกรณ์ของคุณ"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "สิ่งนี้จะเป็นเสมือนรหัสผ่าน ทุกคนที่มีลิงก์นี้จะสามารถอ่านและซิงค์ข้อมูลได้"
+    },
+    {
+      "name": "qr_code",
+      "value": "รหัส QR"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "รหัสการซิงค์ระหว่างอุปกรณ์ของ Feeder"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "การซิงค์ระหว่างอุปกรณ์จะทำให้คุณสามารถซิงค์การติดตามฟีดและการอ่านบทความระหว่างอุปกรณ์"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "สแกนหรือกรอกรหัสการซิงค์"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "เรื่มกลุ่มการซิงค์ใหม่"
+    },
+    {
+      "name": "secret_key",
+      "value": "กุญแจรหัสลับ"
+    },
+    {
+      "name": "only_from_end",
+      "value": "เฉพาะจากช่วงสุดท้าย"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "จากที่ไหนก็ได้"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "ปัดเพื่อทำเครื่องหมายว่าอ่านแล้ว"
+    },
+    {
+      "name": "new_indicator",
+      "value": "ใหม่"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "ต้องให้อนุญาตสิทธิ์ก่อนที่จะเปิดสามารถเปิดการแจ้งเตือนได้"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "text_scale",
+      "value": "ขนาดข้อความ"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "ซิงค์เพื่อเรียกบทความ"
+    },
+    {
+      "name": "block_list_description",
+      "value": "ซ่อนบทความที่หัวข้อมีข้อความที่กรองไว้ ตัวอย่างเช่น:"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "เปิดแท็ก"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "ปิดแท็ก"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "สลับเลือกส่วนขยายแท็ก"
+    },
+    {
+      "name": "no_feeds",
+      "value": "ไม่มีฟีด"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s ฟีด"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s ฟีด"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s ฟีด"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "นำเข้า %1$s ด้วย %2$s?"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s แท็ก"
+    },
+    {
+      "name": "saved_articles",
+      "value": "บทความที่บันทึกแล้ว"
+    },
+    {
+      "name": "saved_article",
+      "value": "บันทึกบทความแล้ว"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s ฟีด"
+    },
+    {
+      "name": "save_article",
+      "value": "บันทึกบทความ"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "ทำเครื่องหมายว่าอ่านแล้วเมื่อเลื่อนผ่าน"
+    },
+    {
+      "name": "unsave_article",
+      "value": "หยุดบันทึกบทความ"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s ฟีด"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s ฟีด"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s แท็ก"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s แท็ก"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s แท็ก"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s แท็ก"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s แท็ก"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "รายการบทความ"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "กระดาษอิเล็กทรอนิกส์"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "เรียกข้อมูล JSON ฟีด ล้มเหลว"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "ไม่มีอะไรให้ดึงข้อมูลได้"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "เรียกข้อมูลบทความเต็มล้มเหลว"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "ฟีดขาดลิงก์ไปยังบทความ"
+    },
+    {
+      "name": "filter_noun",
+      "value": "ตัวกรอง"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "อ่านแล้วล่าสุด"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "ลิงก์ไม่ใช่เอกสาร HTML"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "ไม่มีฟีดในหน้านี้"
+    },
+    {
+      "name": "http_error",
+      "value": "ข้อผิดพลาด HTTP"
+    },
+    {
+      "name": "no_url",
+      "value": "ไม่มี URL"
+    },
+    {
+      "name": "max_lines",
+      "value": "บรรทัดสูงสุด"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "บันทึกแล้ว"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "เรียกข้อมูล RSS ฟีดล้มเหลว"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "ไม่รองรับเนื้อหาชนิดนี้"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "ดาวน์โหลดล้มเหลว"
+    },
+    {
+      "name": "read_adjective",
+      "value": "อ่านแล้ว"
+    },
+    {
+      "name": "show_only_title",
+      "value": "แสดงเฉพาะชื่อ"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "เนื้อหาไม่ใช่ HTML"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "แสดงเวลาที่ใช้ในการอ่านโดยประมาณ"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s คำ"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s นาที"
+    },
+    {
+      "name": "add_anyway",
+      "value": "เพื่มไปเลย"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s นาที"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s คำ"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s นาที"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s นาที"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s คำ"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s คำ"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s นาที"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "เปิดหน้าเบราว์เซอร์ในหน้าจอแยก"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s นาที"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s คำ"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s คำ"
+    },
+    {
+      "name": "close_menu",
+      "value": "ปิดเมนู"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "ส่งออกบทความที่บันทึกไว้"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "ส่งออกบทความที่บันทึกไว้ล้มเหลว"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "ดึงข้อมูลหน้าไม่ได้"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "ข้ามบทความที่ซ้ำ"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "บทความที่มีลิงก์หรือหัวข้อที่มีอยู่แล้วจะถูกเพิกเฉย"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "การ์ดแบบกระทัดรัด"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "แตะเพื่อเล่นเสียง"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "ไม่มี body ในข้อมูลที่ตอบกลับมาจากเว็บ"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "แสดงจำนวนบทความที่ไม่ได้อ่านในหัวเรื่อง"
+    },
+    {
+      "name": "show_message",
+      "value": "แสดงข้อความ"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "แสดงฟีดที่ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว"
+    },
+    {
+      "name": "summarize",
+      "value": "สรุป"
+    },
+    {
+      "name": "openai_settings",
+      "value": "การทำงานร่วมกับ OpenAI"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "โหลดโมเดลไม่ได้"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "ไม่พบโมเดลดังกล่าว"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "รายการโมเดลที่ใช้งานได้"
+    },
+    {
+      "name": "search_verb",
+      "value": "ค้นหา"
+    },
+    {
+      "name": "cancel_search",
+      "value": "ยกเลิกการค้นหา"
+    },
+    {
+      "name": "on",
+      "value": "เปิด"
+    },
+    {
+      "name": "off",
+      "value": "ปิด"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "มีบางอย่างผิดปกติ"
+    },
+    {
+      "name": "font",
+      "value": "ฟ้อนต์"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "ถอนฟ้อนต์ไม่ได้"
+    },
+    {
+      "name": "text_settings",
+      "value": "การตั้งค่าตัวอักษร"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "เพื่มฟ้อนต์ไม่ได้"
+    },
+    {
+      "name": "add_font",
+      "value": "เพื่มฟ้อนต์…"
+    },
+    {
+      "name": "italic",
+      "value": "ตัวเอียง"
+    },
+    {
+      "name": "text_preview",
+      "value": "ตัวอย่างตัวอักษร"
+    },
+    {
+      "name": "bold",
+      "value": "ตัวหนา"
+    },
+    {
+      "name": "system_default",
+      "value": "ค่าเรื่มต้นของระบบ"
+    },
+    {
+      "name": "weight",
+      "value": "น้ำหนัก"
+    },
+    {
+      "name": "time_out",
+      "value": "หมดเวลา (วินาที)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "ระยะหมดเวลาต้องอยู่ระหว่าง 30 ถึง 600 วินาที"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "หมดเวลาคำขอสำหรับ OpenAI"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "เวอร์ชั่น Azure API"
+    },
+    {
+      "name": "text",
+      "value": "ข้อความ"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "คำแนะนำ"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "สรุปความเมื่อเปิด"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "รองรับกับผู้ให้บริการ AI หลากหลาย, แต่ไม่ใช่ทั้งหมด"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

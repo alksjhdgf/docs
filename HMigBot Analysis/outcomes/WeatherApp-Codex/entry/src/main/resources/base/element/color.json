@@ -1,0 +1,44 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "black",
+      "value": "#FF000000"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "backgroundPinkPrimary",
+      "value": "#4DD0BCFF"
+    },
+    {
+      "name": "backgroundPinkLight",
+      "value": "#F6EDFF"
+    },
+    {
+      "name": "backgroundPink",
+      "value": "#E2D3FA"
+    },
+    {
+      "name": "backgroundPurpleSecond",
+      "value": "#65558F"
+    },
+    {
+      "name": "textPrimary",
+      "value": "#1D1B20"
+    },
+    {
+      "name": "dartPurple20",
+      "value": "#332B00A5"
+    },
+    {
+      "name": "darkPurple",
+      "value": "#21005D"
+    }
+  ]
+}

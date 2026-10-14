@@ -1,0 +1,60 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "EditFeed",
+  "kind": "skeleton",
+  "slice": "page-feed-edit",
+  "route": "EditFeed",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "EditFeed"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "Edit feed",
+        "Go back",
+        "URL",
+        "Title",
+        "Use app default",
+        "Tag",
+        "Fetch full articles by default",
+        "Summarize on open",
+        "Enhance thumbnails from article metadata",
+        "）、",
+        "、",
+        "（说明",
+        "）；分隔线；分组",
+        "；分隔线；分组",
+        "；底部",
+        "example\\.com",
+        "Not a valid URL",
+        "OK",
+        "Open items by default with",
+        "（存",
+        "）；存量值为",
+        "Article filtering rules",
+        "Block rules",
+        "Allow rules",
+        "Title=\\(\\?i\\)sponsored",
+        "Line N:",
+        "／",
+        "；规则错误不禁用",
+        "Cancel",
+        "Delete feed",
+        "Open menu",
+        "Select all",
+        "Selected",
+        "Not selected"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "EditFeed"
+    }
+  ]
+}

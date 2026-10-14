@@ -1,0 +1,1612 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Ava menüü"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Sulge menüü"
+    },
+    {
+      "name": "action_settings",
+      "value": "Seadistused"
+    },
+    {
+      "name": "url",
+      "value": "Võrguaadress"
+    },
+    {
+      "name": "tag",
+      "value": "Silt"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Uudisvoo võrguaadress"
+    },
+    {
+      "name": "title",
+      "value": "Pealkiri"
+    },
+    {
+      "name": "add_feed",
+      "value": "Lisa uudisvoog"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Jälgi seda uudisvoogu"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Sisesta uudisvoo aadress"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Soovitused"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Märgi loetuks"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Märgi mitteloetuks"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Märgi kõik loetuks"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Muuda uudisvoogu"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Kustuta uudisvoog"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Näita kõiki kirjeid"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Näita lugemata kirjeid"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Leidub uusi kirjeid"
+    },
+    {
+      "name": "view",
+      "value": "Vaata"
+    },
+    {
+      "name": "no_tag",
+      "value": "Silti pole"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Anna uutest kirjetest teada"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Lõpeta teavitamine"
+    },
+    {
+      "name": "search_verb",
+      "value": "Otsi"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Katkesta otsing"
+    },
+    {
+      "name": "text",
+      "value": "Tekst"
+    },
+    {
+      "name": "font",
+      "value": "Kirjatüüp"
+    },
+    {
+      "name": "text_preview",
+      "value": "Teksti eelvaade"
+    },
+    {
+      "name": "system_default",
+      "value": "Süsteemi vaikeväärtus"
+    },
+    {
+      "name": "weight",
+      "value": "Kaal"
+    },
+    {
+      "name": "italic",
+      "value": "Kaldkiri"
+    },
+    {
+      "name": "add_font",
+      "value": "Lisa kirjatüüp…"
+    },
+    {
+      "name": "bold",
+      "value": "Paks kiri"
+    },
+    {
+      "name": "text_settings",
+      "value": "Teksti seadistused"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Kirjatüübi lisamine ei õnnestunud"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Kirjatüübi eemaldamine ei õnnestunud"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Midagi läks valesti"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Näita lugemata artiklite arvu"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Mudelite laadimine ei õnnestu."
+    },
+    {
+      "name": "close_menu",
+      "value": "Sulge menüü"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Jäta topeltartiklid vahele"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Artiklid, mille lingid või pealkirjad on olemasolevatega identsed, jäävad vahele"
+    },
+    {
+      "name": "summarize",
+      "value": "Tee sisukokkuvõte"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Tee avamisel sisukokkuvõte"
+    },
+    {
+      "name": "openai_settings",
+      "value": "Tehisaru ja tõlge"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s sõna"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s sõna"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s sõna"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s sõna"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s sõna"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s sõna"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minutit"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minutit"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minutit"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minutit"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minutit"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Salvesta"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Siin pole midagi lugeda. Kas sa tahaksid…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Avada mõne muu uudisvoo?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Lisada uusi uudisvooge?"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Lülita loetus sisse/välja"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Ava link veebibrauseris"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Ava veebibrauseris"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Ava kaasnev meedium"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Ava %1$s"
+    },
+    {
+      "name": "read_article",
+      "value": "Loe valjult ette"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Kõnesüntees"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Peata lugemine"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Jätka lugemist"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Lõpeta lugemine"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Siirdu järgmise juurde"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Seadistused"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Kõik uudisvood"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Käsitsi"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Iga 15 minuti järel"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Iga 30 minuti järel"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Kord tunnis"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Iga 3 tunni järel"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Iga 6 tunni järel"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Iga 12 tunni järel"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Kord päevas"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sünkroonin"
+    },
+    {
+      "name": "syncing",
+      "value": "Sünkroonin"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Ainult Wi-Fi ühendusega"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Näita pisipilte"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Tuvasta keel"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Saadaval vaid Androidi versioonis %1$s ja hilisemates"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Tuvasta artikli keel automaatselt"
+    },
+    {
+      "name": "set_language",
+      "value": "Seadista keel"
+    },
+    {
+      "name": "sync",
+      "value": "Sünkrooni"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Ekspordi uudisvood OPML-failina"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Impordi uudisvood OPML-failina"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Ekspordi salvestatud artiklid"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Vaata veaotsingu logi"
+    },
+    {
+      "name": "share",
+      "value": "Jaga"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Ühtegi sellist uudisvoogu ei leidu. Kas prooviksid HTTPS-i toimimist?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Pole mitte midagi näidata!"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Loetuks märkimise tunnus"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Võivad lisanduda mobiilse andmeside kulud."
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Sellel põhinev uus sisu"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Vaid aku laadimise ajal"
+    },
+    {
+      "name": "image_loading",
+      "value": "Piltide laadimine"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lugeja"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Androidi sisemine brauser"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Vaikimisi veebibrauser"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Esmalt paigalda vajalik rakendus selle lingi avamiseks"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Otsin uusi artikleid…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Rakenduse käivitamisel"
+    },
+    {
+      "name": "block_list",
+      "value": "Blokeeringute loend"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Võimaldab peita artikleid, mille pealkirjas leidub üks järgnevatest sõnadest. Filtrite näidised:"
+    },
+    {
+      "name": "add_item",
+      "value": "Lisa objekt"
+    },
+    {
+      "name": "show_fab",
+      "value": "Näita ujuvat tegevusnuppu"
+    },
+    {
+      "name": "sync_status",
+      "value": "Sünkroonimise olek"
+    },
+    {
+      "name": "theme_system",
+      "value": "Süsteemi kujundus"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automaatne kujundus"
+    },
+    {
+      "name": "theme_day",
+      "value": "Päevane kujundus"
+    },
+    {
+      "name": "theme_night",
+      "value": "Öine kujundus"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-tindi stiilis kujundus"
+    },
+    {
+      "name": "theme",
+      "value": "Kujundus"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dünaamilised värvid"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Eelistatud tume kujundus"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Süsimust kujundus"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tume kujundus"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Esmalt uuemad"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Esmalt vanemad"
+    },
+    {
+      "name": "sort",
+      "value": "Järjestus"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Koosta veateade"
+    },
+    {
+      "name": "no_email_client",
+      "value": "E-postikliendi avamine ei õnnestunud"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Klõpsa video esitamiseks"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Ava uudisvoog"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Märgi ülalasuvad loetuks"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Märgi allasuvad loetuks"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s lugemata artiklit"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s lugemata artikkel"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s lugemata artiklit"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s lugemata artiklit"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s lugemata artiklit"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s lugemata artiklit"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Artikli stiil"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Vahekaart"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompaktne vahekaart"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompaktne"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Ülikompaktne"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Ühildub paljude tehisaru teenusepakkujatega, kuid mitte kõigiga"
+    },
+    {
+      "name": "api_key",
+      "value": "API võti"
+    },
+    {
+      "name": "model_id",
+      "value": "Mudeli tunnus"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure'i API versioon"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Heli esitamiseks puuduta"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Ühtegi mudelit ei leidu"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Ava veebibrauser jagatud vaates"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Näita hinnangulist lugemisaega"
+    },
+    {
+      "name": "no_url",
+      "value": "Võrguaadressi pole"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Lisa ikkagi"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Uudisvooge pole"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s uudisvoogu"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s uudisvoog"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s uudisvoogu"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s uudisvoogu"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s uudisvoogu"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s uudisvoogu"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Kas impordime %1$s uudisvoogu, milles on %2$s silt?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s silti"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s silt"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s silti"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s silti"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s silti"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s silti"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Ei leidnud midagi, mida laadida"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Uudisvoos on puudu artikli link"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Link ei viita HTML-dokumendile"
+    },
+    {
+      "name": "max_lines",
+      "value": "Maksimaalne ridade arv"
+    },
+    {
+      "name": "time_out",
+      "value": "Aegumine (sekundites)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Aegumine peab olema vahemikus 30 kuni 600 sekundit"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Tehisaru päringute aegumine"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Hiljuti loetud"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Loetud"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Salvestatud"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Näita vaid pealkirja"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Allalaadimine ei õnnestunud"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Lehe töötlemine ei õnnestunud"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Sellel lehel pole uudisvooge"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Sisu pole HTML-vormingus"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "RSS-uudisvoo töötlemine ei õnnestunud"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP-viga"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "JSON-uudisvoo töötlemine ei õnnestunud"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Vastuses puudub sisuosa"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Sisutüüp pole toetatud"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Terve artikli töötlemine ei õnnestunud"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Sealhulgas mobiilsed kuumkohad"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Uuendatud uudisvood"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Lugemata uudisvood"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Teavitusi näidatakse vaid lugemata kirjete kohta vastavalt seadistatud uudisvoogude puhul"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Kohendatud vahekaart"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Kasuta rakenduse vaikimisi väärtust"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Vaikimisi kasuta kirjete avamiseks"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Ava lingid kasutades"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lugeja"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Artiklite loend"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Ava link sisseehitatud brauseris"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Ava sisseehitatud „Web view“ brauseris"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maksimaalne kirjete arv uudisvoo kohta"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Võrguaadressi laadimine ei õnnestunud"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Tuvastatud uudisvoogude loend"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Pole korrektne võrguaadress"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "OPML-failist importimine ei õnnestunud"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPML-faili eksportimine ei õnnestunud"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Salvestatud artiklite eksportimine ei õnnestunud"
+    },
+    {
+      "name": "device_sync",
+      "value": "Seadme sünkroonimine"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Lisa uus seade"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Seda teenust rahastab kogukond. Kui temast on sulle kasu, siis palun toeta teenust rahaliselt."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (see seade)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Eemalda seade sünkroonimisahelast"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Seadmed sünkroonimisahelas"
+    },
+    {
+      "name": "remove",
+      "value": "Eemalda"
+    },
+    {
+      "name": "remove_device",
+      "value": "Eemalda seade"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Kas oled kindel, et soovid kustutada %1$s seadme?"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-kood"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feederi seadme sünkroonimiskood"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Lahku sünkroonimisahelast"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Seadme sünkroonimine võimaldab sul oma erinevates seadmetes sünkroonida uudisvoogude tellimusi ja sisu lugeda."
+    },
+    {
+      "name": "article_image",
+      "value": "Artikli pilt"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Uudisvoo ikoon"
+    },
+    {
+      "name": "text_scale",
+      "value": "Teksti suurus"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Salvestatud artiklid"
+    },
+    {
+      "name": "saved_article",
+      "value": "Salvestatud artikkel"
+    },
+    {
+      "name": "save_article",
+      "value": "Salvesta artikkel"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Lõpeta artikli salvestamine"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Märgi kerimisel loetuks"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Ava silt"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Lülita silti laiem vaade sisse/välja"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Suletud silt"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Akukasutuse optimeerimine"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Pole kasutusel"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Kasutusel"
+    },
+    {
+      "name": "go_back",
+      "value": "Mine tagasi"
+    },
+    {
+      "name": "open_menu",
+      "value": "Ava menüü"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Ava %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Lugemata"
+    },
+    {
+      "name": "already_read",
+      "value": "Juba loetud"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Näitan vaid lugemata artikleid"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Näitan kõiki artikleid"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sünkrooni uudisvood"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Loo täiendavad unikaalsed tunnused"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Kasuta vaid selliste uudisvoogude puhul, kus on vigased või puuduvad tunnused"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Eellaadi kohandatud vahekaart"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Töötlemine ei õnnestu: %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Laadi terve artikkel"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Vaikimisi laadi terved artiklid"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Terve artikli laadimine ei õnnestunud"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Artikli avamine ei õnnestunud"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Artikli laadimiseks kasuta sünkroonimist"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Laadin tervet artiklit…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Kõnesünteesi laadimine ei õnnestunud"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Ava omas seadmes sedamete sünkroonimisvaade ja klõpsa sünkroonimiskoodi skaneerimise valikut."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternatiivina võid oma seadmes avada selle lingi."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Käsitle seda kui salasõna. Kellel iganes on ligipääs sellele lingile, siis saab ta lugeda ka sinu sünkroonitud sisu."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Lihtsalt skaneeri oma teises seadmes loodud sünkroonimisahela koodi või alusta uut sünkroonimisahelat."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skaneeri või sisesta sünkroonimiskood"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Alusta uut sünkroonimisahelat"
+    },
+    {
+      "name": "sync_code",
+      "value": "Sünkroonimiskood"
+    },
+    {
+      "name": "secret_key",
+      "value": "Salavõti"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Liitu sünkroonimisahelaga"
+    },
+    {
+      "name": "disabled",
+      "value": "Välja lülitatud"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Ainult lõpust"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Igalt poolt"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Loetuks märkimiseks viipa"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Kas oled kindel, et soovid lahkuda sünkroonimisahelast?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Ei suutnud leida triipkoodi skannerit"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Uus"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Võimaldab rakendusel lugeda uudisvooge ja artikleid"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feederi ligipääs „vaid lugemiseks“ õigusega"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Enne teavituste sisselülitamisest pead jagama vastavad õigused."
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure'i levitustunnus"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Saadavalolevate mudelite loend"
+    },
+    {
+      "name": "show_message",
+      "value": "Näita sõnumit"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Näita uudisvooge peale seda, kui oled kõik märkinud loetuks"
+    },
+    {
+      "name": "on",
+      "value": "Sees"
+    },
+    {
+      "name": "off",
+      "value": "Väljas"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Kasuta kokkuvõtete jaoks"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Ava lugejas"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Ava vaikimisi veebibrauseris"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Ava kohendatud vahekaardil"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Artikli avamine veebibrauseris ei õnnestu"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Artikli avamine kohendatud vahekaardil ei õnnestu"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Andmed on uuendamisel"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Lehekülgedeks jagamine"
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animeeritud lehekülgedeks jagamine"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Tavalise kerimise asemel liigu artiklite vahel nii, et see tundub „lehtede pööramisena“. Sobib e-tindi seadmetele."
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Korraks animeeri lehe pööramisi. Võib mõnedes e-tindi seadmetes tekitada varjutamise efekti."
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Impordi salvestatud artiklid"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Salvestatud artiklite importimine ei õnnestunud"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Otsi paremad pisipildid artikli metateabest"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Proovi asendada kehva kvaliteediga pisipildid nendega, mida artikli metateabest saab tuvastada"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Kokkuvõtete liidestus"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Kasutusel artiklite kokkuvõtete koostamisel."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "Tõlkimise liidestus"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Kasutusel uudisvoogude kaartide ja artiklite tõlkimisel."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepLi autentimisvõti"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Teenuspakkuja"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Pole seadistatud"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Teenuspakkuja: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Puudub"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI või ühilduv"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Teenus kohalikus seadmes"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Teenuse võrguaadress (kui on vaja lisada)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Tõlketeenuse otspunkt"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Enne salvestamist sisesta API võti."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Enne salvestamist sisesta DeepL-i API võti."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Enne salvestamist sisesta mudeli tunnus."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Kontrollin APi seadistusi…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "API seadistuste kontrollimine ei õnnestunud."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Enne salvestamist sisesta Azure'i teenuse otspunkt."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Enne salvestamist sisesta Azure'i paigalduse tunnus (deployment id)."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Enne salvestamist sisesta Azure'i API versioon."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Kontrollin Azure'i OpenAI seadistusi…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Azure'i OpenAI seadistuste kontrollimine ei õnnestunud."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Kontrollin DeepL-i võtit…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "DeepL-i võtme kontrollimine ei õnnestunud."
+    },
+    {
+      "name": "translate_article",
+      "value": "Tõlgi artikkel"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Näita algset varianti (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "algne"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Eelistatud tõlkekeel"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Vali keel, kuhu Feeder peaks tõlkima."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "eelistatud keel"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Tõlgi artiklite eelvaateid"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Vaikimisi tõlgi artiklid"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Seadista tehisaru seadistustes eelistatud tõlkekeel"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Vali keel"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Artikkel on liiga pikk. Kas pigem tahaksid ta avada veebibrauseris?"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "HOIATUS! See on beeta-järgus funktsionaalsus. Enne ekspordi kõik oma uudisvood OPML-failina ja salvesta nad varukoopiana."
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Kohalik tõlkimine eeldab, et kasutusel on Android 12 või uuem."
+    },
+    {
+      "name": "rename_tag",
+      "value": "Muuda sildi nime"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Selle helifaili esitamine pole võimalik"
+    },
+    {
+      "name": "play_audio",
+      "value": "Esita heli"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Peata heli esitamine"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Lõpeta heli esitamine"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Keri 10 sekundit tagasi"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Keri 10 sekundit edasi"
+    },
+    {
+      "name": "open_settings",
+      "value": "Ava seadistused"
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Kohalik tõlkimine pole selles seadmes saadaval."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Kohaliku tõlke päring aegus."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Kohalik tõlkimine ei õnnestunud."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Kohaliku tõlkimise väljundis ei leidunud teksti."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Kustuta"
+    },
+    {
+      "name": "cancel",
+      "value": "Katkesta"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Esita helifailide linke sisseehitatud meediapleieriga"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Väljalülitamisel esitatakse linkidest avatud helifaile sinu vaikimisi meediapleieriga"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Valmendan seadmes toimivat tõlkemudelt: „%1$s“ → „%2$s“…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Laadin alla seadmes toimivat tõlkemudelt: „%1$s“ → „%2$s“: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "Esimese allalaadimise maht võib olla 20-5 MB ja selleks võib kuluda paar minutit. Edaspidine tõlkimine toimib vallasrežiimis ehk vaid sinu nutiseadmes."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Kohaliku tõlkeliidese loomine ei õnnestunud."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Kohalik tõlkeliides polnud valmis. Kontrolli tõlkimise seadistusi nutiseadmes ja proovi uuesti."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Bergamoti tõlkemudelit ei leidu keelepaarile: „%1$s“ → „%2$s“. Kontrolli süsteemi tõlkimise seadistusi"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Päring Bergamoti tõlkeliidesele aegus."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Bergamoti tõlkeliides ei osanud anda vastust."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Tõlkemudelite allalaadimiseks loo ühendus."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Tõlkemudeli allalaadimine ei õnnestunud: „%1$s“ → „%2$s“."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Tõlkepäring Bergamoti WebView tõlkeliidesele aegus."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamoti WebView tõlkeliidese pole valmendatud."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Bergamoti tõlkeliidese vastuse töötlemine ei õnnestuud."
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Laadi tõlkemudelid alla"
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Kustuta mudel"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Feederi poolt allalaaditud vallasrežiimis kasutamiseks mõeldud tõlkekeeled. Kui tahad andmeruumi vabastada, siis kustuta keeled, mida sa ei kasuta."
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Kas kustutad tõlkemudeli: „%1$s“ → „%2$s“ (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Kustuta kõik allalaaditud tõlkemudelid"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Kas kustutad kõik %1$d allalaaditud tõlkemudeli(d) (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Tõlkemudel on kustutatud: „%1$s“ → „%2$s“"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Kõik allalaaditud tõlkemudelid on kustutatud"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Ühtegi tõlkemudelit pole veel allalaaditud. Tõlkeprotsessi käigus laaditakse vajalik mudel automaatselt alla."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Esmalt kasutab seadme tõlketeenust."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Kui see pole saadaval, siis Feeder oskab kasutada allalaaditavat vallasrežiimis toimivat tõlkemootorit."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Näita vaid allalaaditavaid keeli"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Kuva sundkorras üheveerulisena"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Rakenda linkidele"
+    },
+    {
+      "name": "filters",
+      "value": "Filtrid"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "Jätkamiseks laadi alla vallasrežiimis toimiv tõlkemootor."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Kas laadid alla vallasrežiimis toimiva tõlkemootori?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder laadib alla 4,9 MB suuruse käivitatava WebAssembly käitusteegi, mille on loonud Mozilla/Bergamoti projekt. F-Droid pole seda koodi kontrollinud ega kompileerinud. Peale allalaadimist toimib tõlkimine ilma võrguühendust kasutamata."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Vallasrežiimis toimiva tõlkemootori allalaadimine ei õnnestunud."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Vallasrežiimis toimiv tõlkemootor on allalaadimisel: %1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "Laadi alla"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "Artiklite filtreerimise reeglid"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "Üks reegel rea kohta, kirjutatuna VäljaNimi=muster stiilis. Kasutatavad väljad on: Title, URL, Author, Tag ja Content. Muster on regulaaravaldis, mis võib vastava ükspuha mis välja osale, tõstutundetuks muutmiseks lisa algusesse (?i). Reeglid kehtivad järgmisel laadimisel ja ei mõjuta seni salvestatud artikleid."
+    },
+    {
+      "name": "block_rules",
+      "value": "Blokeerimisreeglid"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "Reeglile vastavaid artikleid ei laadita kunagi alla. Erinevalt keeluloendist ei saa seda tegevust tagasi pöörata - reegli eemaldamisel ei laadita juba vahelejäetud artiklit alla."
+    },
+    {
+      "name": "allow_rules",
+      "value": "Lubamisreeglid"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "Kui lubamisreegel on seadistatud, siis laaditakse alla vaid sellele vastavad artiklid. Kui artiklil pole silte, siis jäetakse sildireegel vahele - seega siltideta artiklite allaadimiseks ei piisa ainult siltidekohasest reeglist."
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "Rida %1$d: puudu on '='. Eiran vigaseid ridu."
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "Rida %1$d: '%2$s' pole teadaolev väli. Eiran vigaseid ridu."
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "Rida %1$d: see muster on tühi ja vastaks seega kõigele. Eiran vigaseid ridu."
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "Rida %1$d: pole korrektne regulaaravaldis. Eiran vigaseid ridu."
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "Rida %1$d: kasutan vaid esimest %2$d reeglid. Eiran hilisemaid ridu."
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)sponsored"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

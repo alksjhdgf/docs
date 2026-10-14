@@ -1,0 +1,1700 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Feeder"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    },
+    {
+      "name": "pref_theme_value_default",
+      "value": "@string/pref_theme_value_day"
+    },
+    {
+      "name": "pref_theme_value_system",
+      "value": "system"
+    },
+    {
+      "name": "pref_theme_value_auto",
+      "value": "auto"
+    },
+    {
+      "name": "pref_theme_value_day",
+      "value": "day"
+    },
+    {
+      "name": "pref_theme_value_night",
+      "value": "night"
+    },
+    {
+      "name": "pref_sort_value_default",
+      "value": "@string/pref_sort_value_newest_first"
+    },
+    {
+      "name": "pref_sort_value_newest_first",
+      "value": "newest_first"
+    },
+    {
+      "name": "pref_sort_value_oldest_first",
+      "value": "oldest_first"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Open navigation drawer"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Close navigation drawer"
+    },
+    {
+      "name": "action_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "open_settings",
+      "value": "Open settings"
+    },
+    {
+      "name": "add_feed",
+      "value": "Add feed"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Subscribe to feed"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Tag"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Feed URL"
+    },
+    {
+      "name": "title",
+      "value": "Title"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Save"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Nothing to read here. Would you like to…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Open another feed?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Add more feeds?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Enter a feed address"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Suggestions"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Mark as read"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Mark as unread"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Mark all as read"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Edit feed"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Delete feed"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Rename tag"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Show all items"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Show unread items"
+    },
+    {
+      "name": "new_items_available",
+      "value": "New items available"
+    },
+    {
+      "name": "view",
+      "value": "View"
+    },
+    {
+      "name": "no_tag",
+      "value": "No tag"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Notify for new items"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Stop notifications"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Toggle read status"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Open link in web browser"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Open in web browser"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Open enclosed media"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Open %1$s"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Unable to play this audio file"
+    },
+    {
+      "name": "play_audio",
+      "value": "Play audio"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Pause audio"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Stop audio"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Seek back 10 seconds"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Seek forward 10 seconds"
+    },
+    {
+      "name": "read_article",
+      "value": "Read aloud"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Text to speech"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pause reading"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Resume reading"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Stop reading"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Skip to next"
+    },
+    {
+      "name": "set_language",
+      "value": "Set language"
+    },
+    {
+      "name": "sync",
+      "value": "Sync"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Export feeds to OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Import feeds from OPML"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Export saved articles"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Import saved articles"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "View debug log"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "New based on this"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indicator for mark as read"
+    },
+    {
+      "name": "share",
+      "value": "Share"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "No such feed could be found. Try using HTTPS maybe?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Nothing to display!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "all_feeds",
+      "value": "All feeds"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manually"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Every 15 minutes"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Every 30 minutes"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Every hour"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Every 3 hours"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Every 6 hours"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Every 12 hours"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Every day"
+    },
+    {
+      "name": "synchronization",
+      "value": "Syncing"
+    },
+    {
+      "name": "syncing",
+      "value": "Syncing"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Only on Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Show thumbnails"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Detect language"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Only available on Android %1$s and above"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Automatically detects article language"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "May result in mobile data charges."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Only when charging"
+    },
+    {
+      "name": "image_loading",
+      "value": "Image loading"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Install something to open this link with first"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Look for new articles…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Upon app start"
+    },
+    {
+      "name": "block_list",
+      "value": "Block list"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Hides articles with titles containing any of these filters. Example filters:"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Apply to summaries"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Apply to links"
+    },
+    {
+      "name": "filters",
+      "value": "Filters"
+    },
+    {
+      "name": "add_item",
+      "value": "Add item"
+    },
+    {
+      "name": "show_fab",
+      "value": "Show floating action button"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Include mobile hotspots"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Updated feeds"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Unread feeds"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Notifications are only shown for unread items in configured feeds"
+    },
+    {
+      "name": "sync_status",
+      "value": "Sync status"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Reader"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Web view"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Default browser"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Custom tab"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Open in reader"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Open in default browser"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Open in custom tab"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Unable to open article in browser"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Unable to open article in custom tab"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Use app default"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Open items by default with"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Open links with"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Play audio links with built-in player"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "When disabled, audio links open with your default app instead"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Reader"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Article list"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Open link in web view"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Open in Web view"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Max items per feed"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Could not load URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "System"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Auto"
+    },
+    {
+      "name": "theme_day",
+      "value": "Day"
+    },
+    {
+      "name": "theme_night",
+      "value": "Night"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E Ink"
+    },
+    {
+      "name": "theme",
+      "value": "Theme"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynamic colors"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Preferred dark theme"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Black"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Dark"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Newest first"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Oldest first"
+    },
+    {
+      "name": "sort",
+      "value": "Sort by"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Send bug report"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Could not open e-mail client"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Touch to play video"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Open feed"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Mark the above as read"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Mark the below as read"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Discovered feeds list"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Toggle tag expansion"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Open tag"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Closed tag"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Battery optimization"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Off"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "On"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Preload custom tab"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Could not parse %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Fetch full article"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Fetch full articles by default"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Could not fetch full article"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Could not open article"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synchronize to fetch article"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Fetching full article…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Could not load text to speech"
+    },
+    {
+      "name": "go_back",
+      "value": "Go back"
+    },
+    {
+      "name": "open_menu",
+      "value": "Open menu"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Go to %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Unread"
+    },
+    {
+      "name": "already_read",
+      "value": "Already read"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Showing only unread articles"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Showing all articles"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sync feeds"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s unread articles"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s unread article"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s unread articles"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s unread articles"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s unread articles"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s unread articles"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Article style"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Card"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Compact Card"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Compact"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super compact"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generate extra unique IDs"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Only enable for feeds with bad IDs"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Not a valid URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Failed to import OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Failed to export OPML"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Failed to export saved articles"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Failed to import saved articles"
+    },
+    {
+      "name": "device_sync",
+      "value": "Device sync"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Add new device"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "This service is paid for by the community. Please consider donating if you find it useful."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (this device)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Disconnect device from sync chain"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Devices on sync chain"
+    },
+    {
+      "name": "remove",
+      "value": "Remove"
+    },
+    {
+      "name": "remove_device",
+      "value": "Remove device"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Are you sure you want to delete device %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "On your device, navigate to device sync, and press scan sync code."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternatively, open the link on your device."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Treat this like a password. Anyone can read your synced data if they have the link."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR Code"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder device sync code"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Leave sync chain"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Device sync allows you to sync feed subscriptions and read articles between your various devices."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Simply scan the code from your sync chain that you created on another device, or start a new sync chain."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Scan or enter sync code"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Start new sync chain"
+    },
+    {
+      "name": "sync_code",
+      "value": "Sync code"
+    },
+    {
+      "name": "secret_key",
+      "value": "Secret key"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Join sync chain"
+    },
+    {
+      "name": "disabled",
+      "value": "Disabled"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Only from end"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "From anywhere"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Swipe to mark as read"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Are you sure you want to leave the sync chain?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Could not find a barcode scanner"
+    },
+    {
+      "name": "new_indicator",
+      "value": "New"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Allows the application to read feeds and articles"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder read-only access"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Permission must be granted before notifications can be enabled."
+    },
+    {
+      "name": "article_image",
+      "value": "Article image"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Feed Icon"
+    },
+    {
+      "name": "text_scale",
+      "value": "Text scale"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Saved articles"
+    },
+    {
+      "name": "saved_article",
+      "value": "Saved article"
+    },
+    {
+      "name": "save_article",
+      "value": "Save article"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Stop saving article"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Mark as read on scroll"
+    },
+    {
+      "name": "no_feeds",
+      "value": "No feeds"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s feed"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Import %1$s with %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s tags"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Found nothing to fetch"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Feed is missing link to article"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Link is not an HTML document"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Article is too large. Open in browser instead?"
+    },
+    {
+      "name": "max_lines",
+      "value": "Max lines"
+    },
+    {
+      "name": "time_out",
+      "value": "Timeout (seconds)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Timeout must be between 30 and 600 seconds"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Timeout for AI requests"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Recently read"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Read"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Saved"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Show only title"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Failed to download"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Failed to parse the page"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "No feeds in the page"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Content is not HTML"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Failed to parse RSS feed"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP error"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Failed to parse JSON feed"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "No body in response"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Unsupported content type"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Failed to parse full article"
+    },
+    {
+      "name": "no_url",
+      "value": "No URL"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Add anyway"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Open browser in split screen"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Paging Mode"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Navigate articles by \"turning pages\" instead of continuous scrolling. Optimized for e-ink devices."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animated Paging"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Briefly animate page turns. May cause ghosting on some e-ink devices."
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Show estimated reading time"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s words"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s word"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s words"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s words"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s words"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s words"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minutes"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minute"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minutes"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minutes"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minutes"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minutes"
+    },
+    {
+      "name": "close_menu",
+      "value": "Close menu"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Skip duplicate articles"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Articles with links or titles identical to existing articles are ignored"
+    },
+    {
+      "name": "summarize",
+      "value": "Summarize"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Summarize on open"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Enhance thumbnails from article metadata"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Try to improve missing or low-quality thumbnails for this feed"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "Article filtering rules"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "One rule per line, written as FieldName=pattern. Available fields are Title, URL, Author, Tag and Content. The pattern is a regular expression which matches anywhere in the field; start it with (?i) to ignore case. Rules take effect on the next fetch and do not affect already-saved articles."
+    },
+    {
+      "name": "block_rules",
+      "value": "Block rules"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "Matching articles are never downloaded. Unlike the blocklist, this cannot be undone: removing a rule does not bring back articles which were already skipped."
+    },
+    {
+      "name": "allow_rules",
+      "value": "Allow rules"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "If any allow rule is set, only matching articles are downloaded. A Tag rule is skipped for articles which have no tags, so a feed without tags is not emptied by a Tag rule alone."
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)sponsored"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "Line %1$d: missing '='. Invalid lines are ignored."
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "Line %1$d: '%2$s' is not a known field. Invalid lines are ignored."
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "Line %1$d: the pattern is empty, which would match everything. Invalid lines are ignored."
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "Line %1$d: not a valid regular expression. Invalid lines are ignored."
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "Line %1$d: only the first %2$d rules are used. Later lines are ignored."
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI and translation"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Compatible with many AI providers, but not all"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Summary API"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Used for article summaries."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "Translation API"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Used for translating feed cards and articles."
+    },
+    {
+      "name": "api_key",
+      "value": "API key"
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL auth key"
+    },
+    {
+      "name": "model_id",
+      "value": "Model Id"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Provider"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Not configured"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Provider: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "None"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI or compatible"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Local offline"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Base URL (optional)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Translation endpoint"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API version"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Touch to play audio"
+    },
+    {
+      "name": "title_unread_count",
+      "value": "(%1$d)"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Show unread article count in title"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "WARNING! This is a Beta feature. Do an OPML-export of all your feeds before and save as a backup."
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Unable to load models."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "No models were found"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure deployment id"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "List of available models"
+    },
+    {
+      "name": "show_message",
+      "value": "Show message"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Enter an API key before saving."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Enter a DeepL API key before saving."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Enter a model id before saving."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Verifying API settings…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "The API settings could not be verified."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Enter your Azure endpoint before saving."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Enter your Azure deployment id before saving."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Enter your Azure API version before saving."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Verifying Azure OpenAI settings…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "The Azure OpenAI settings could not be verified."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Verifying DeepL key…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "The DeepL key could not be verified."
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Show feeds after marking all as read"
+    },
+    {
+      "name": "on",
+      "value": "On"
+    },
+    {
+      "name": "off",
+      "value": "Off"
+    },
+    {
+      "name": "search_verb",
+      "value": "Search"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Cancel search"
+    },
+    {
+      "name": "text",
+      "value": "Text"
+    },
+    {
+      "name": "font",
+      "value": "Font"
+    },
+    {
+      "name": "text_preview",
+      "value": "Text preview"
+    },
+    {
+      "name": "system_default",
+      "value": "System default"
+    },
+    {
+      "name": "weight",
+      "value": "Weight"
+    },
+    {
+      "name": "italic",
+      "value": "Italic"
+    },
+    {
+      "name": "add_font",
+      "value": "Add font…"
+    },
+    {
+      "name": "bold",
+      "value": "Bold"
+    },
+    {
+      "name": "text_settings",
+      "value": "Text settings"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Could not add font"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Could not remove font"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Something went wrong"
+    },
+    {
+      "name": "translate_article",
+      "value": "Translate article"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Show original (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "original"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Preparing offline translation model %1$s to %2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Downloading offline translation model %1$s to %2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "First download can be 20–50 MB and may take a few minutes. Translation works offline afterward."
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Preferred translation language"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Choose the language Feeder should translate into."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "the preferred language"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Local translation requires Android 12 or newer."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Local translation is not available on this device."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Local translator could not be created."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Local translation timed out."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Local translation failed."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Local translation returned no text."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Local translator was not ready. Check device translation settings and retry."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "No Bergamot model for %1$s -> %2$s. Check system translation languages"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Bergamot translation timed out."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Bergamot translation failed."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Connect to download model list."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Could not download %1$s -> %2$s model."
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "Download the offline translation engine to continue."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Download offline translation engine?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder will download a 4.9 MB executable WebAssembly runtime from the Mozilla/Bergamot project. This code is not built or checked by F-Droid. After the download, translation works offline."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Could not download the offline translation engine."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Downloading offline translation engine: %1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "Download"
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Bergamot WebView translation timed out."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView is not initialized."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Could not parse Bergamot response."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Uses your device's translation service first."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "If it is unavailable, Feeder can use its downloadable offline translation engine."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Select a language"
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Show only downloadable languages"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Set a preferred translation language in AI settings"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Translate article previews"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Translate articles by default"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Downloaded translation models"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Offline translation languages downloaded by Feeder. Remove languages you no longer need to free up space."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Delete model"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Delete the %1$s to %2$s translation model (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Delete all downloaded models"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Delete all %1$d downloaded translation model(s) (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Deleted %1$s to %2$s model"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Deleted all downloaded models"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "No translation models downloaded yet. Translation will download the needed model automatically."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Delete"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Refreshing"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Force single column"
+    },
+    {
+      "name": "hm_ok",
+      "value": "OK"
+    },
+    {
+      "name": "hm_empty_feed_open_link",
+      "value": "Open"
+    },
+    {
+      "name": "hm_empty_feed_add_link",
+      "value": "Add"
+    },
+    {
+      "name": "hm_navigation_menu",
+      "value": "Navigation menu"
+    },
+    {
+      "name": "hm_permission_internet_reason",
+      "value": "Used to download feeds, articles and images"
+    },
+    {
+      "name": "hm_permission_network_info_reason",
+      "value": "Used to sync only on Wi-Fi and to avoid loading images on metered networks"
+    },
+    {
+      "name": "hm_permission_keep_background_reason",
+      "value": "Used to keep playing podcasts and read aloud in the background"
+    },
+    {
+      "name": "hm_shortcut_recent_feed_1",
+      "value": "Recent feed 1"
+    },
+    {
+      "name": "hm_shortcut_recent_feed_2",
+      "value": "Recent feed 2"
+    },
+    {
+      "name": "hm_shortcut_recent_feed_3",
+      "value": "Recent feed 3"
+    }
+  ]
+}

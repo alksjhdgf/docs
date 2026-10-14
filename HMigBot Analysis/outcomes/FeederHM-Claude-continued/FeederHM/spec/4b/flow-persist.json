@@ -1,0 +1,92 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-persist",
+ "steps": [
+  {
+   "op": "start",
+   "fresh": true
+  },
+  {
+   "op": "wait",
+   "match": "=Sep 20, 2026",
+   "timeout": 20000
+  },
+  {
+   "op": "probe",
+   "match": [
+    "^All feeds \\(\\d+\\)$"
+   ]
+  },
+  {
+   "op": "start",
+   "route": "Settings"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Show unread article count in title",
+   "dir": "up",
+   "max": 10
+  },
+  {
+   "op": "tap",
+   "match": "=Show unread article count in title"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "=Sep 20, 2026",
+   "timeout": 20000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^All feeds \\(\\d+\\)$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-persist-title-count"
+  },
+  {
+   "op": "start",
+   "route": "Settings"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Show unread article count in title",
+   "dir": "up",
+   "max": 10
+  },
+  {
+   "op": "tap",
+   "match": "=Show unread article count in title"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "=Sep 20, 2026",
+   "timeout": 20000
+  },
+  {
+   "op": "probe",
+   "match": [
+    "^All feeds \\(\\d+\\)$"
+   ]
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

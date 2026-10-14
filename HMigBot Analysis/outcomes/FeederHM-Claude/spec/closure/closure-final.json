@@ -1,0 +1,100 @@
+{
+  "project": "output/FeederHM",
+  "stage": "final",
+  "violations": [],
+  "cases": [],
+  "results": [
+    {
+      "tool": "routes",
+      "violations": 0,
+      "cases": 1
+    },
+    {
+      "tool": "resources",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "consumers",
+      "violations": 0,
+      "cases": 9
+    },
+    {
+      "tool": "stubs",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "permissions",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "api-guards",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "safearea",
+      "violations": 0,
+      "cases": 1
+    },
+    {
+      "tool": "anchors",
+      "violations": 0,
+      "cases": 0
+    }
+  ],
+  "waivers": {
+    "file": "output/FeederHM/spec/closure-waivers.json",
+    "valid": 11,
+    "invalid": [],
+    "absorbed": 11,
+    "byTicket": [
+      {
+        "ticket": "unreachable_route:FeedWidgetSettings",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_path_unused:dynamic_shortcuts",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_path_unused:Accept",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_path_unused:k",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_unresolvable:exact_device_ids",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_unresolvable:feederPendingDeepLink",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_unresolvable:scrollPosition",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_unresolvable:height",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_unresolvable:link",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_unresolvable:width",
+        "absorbed": 1
+      },
+      {
+        "ticket": "page_top_unavoided:entry/src/main/ets/features/widget/FeedWidgetForm.ets",
+        "absorbed": 1
+      }
+    ]
+  }
+}

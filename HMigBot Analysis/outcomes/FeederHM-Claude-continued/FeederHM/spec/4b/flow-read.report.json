@@ -1,0 +1,194 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-read.json",
+  "at": "2026-10-13T18:21:09.168Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-read",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "清数据后冷启",
+      "ms": 4363
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Oct 10, 2026",
+      "ms": 730
+    },
+    {
+      "i": 2,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 3/3",
+      "ms": 684
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3065
+    },
+    {
+      "i": 4,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 2/2",
+      "ms": 666
+    },
+    {
+      "i": 5,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 784
+    },
+    {
+      "i": 6,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Oct 10, 2026\" @1105,1278（页面自变，无法判定点击效果）",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": null,
+      "ms": 3103
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =readerColumn",
+      "ms": 698
+    },
+    {
+      "i": 8,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 3/3",
+      "ms": 681
+    },
+    {
+      "i": 9,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-read-article.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-read-article.png",
+      "ms": 204
+    },
+    {
+      "i": 10,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 789
+    },
+    {
+      "i": 11,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 691
+    },
+    {
+      "i": 12,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3057
+    },
+    {
+      "i": 13,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 2/2",
+      "ms": 696
+    },
+    {
+      "i": 14,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-read-drawer.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-read-drawer.png",
+      "ms": 203
+    },
+    {
+      "i": 15,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 91
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "All feeds",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Feeder News",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 20",
+      "02",
+      ":",
+      "20",
+      "100",
+      "All feeds, 16",
+      "16",
+      "Saved articles",
+      "Feeder News, 16",
+      "02, :, 21",
+      "21",
+      "2.24.0 released",
+      "by ⁨Jonas⁩, Saturday, October 10, 2026 at 8:26 PM",
+      "0:59 minutes",
+      "🚀 Features",
+      "•",
+      "Added per-feed article filtering rules (#1217) by @antoncarrot in #1217",
+      "🐛 Bug Fixes & Minor Changes",
+      "Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spacecowboy in #1226",
+      "Do not update feed url if selfLink would change between http and https (#1228) by @spacecowboy in #1228",
+      "Stopped changing feed urls to match selfLinks (#1257) by @spacecowboy in #1257",
+      "All feeds, 15",
+      "15",
+      "Feeder News, 15"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "readerColumn"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

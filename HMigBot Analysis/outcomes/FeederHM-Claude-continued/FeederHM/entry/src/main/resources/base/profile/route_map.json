@@ -1,0 +1,84 @@
+{
+  "routerMap": [
+    {
+      "name": "Main",
+      "pageSourceFile": "src/main/ets/pages/MainPage.ets",
+      "buildFunction": "MainPageBuilder"
+    },
+    {
+      "name": "ManageSettings",
+      "pageSourceFile": "src/main/ets/pages/ManageSettingsPage.ets",
+      "buildFunction": "ManageSettingsPageBuilder"
+    },
+    {
+      "name": "ImportOPMLFile",
+      "pageSourceFile": "src/main/ets/pages/ImportOPMLFilePage.ets",
+      "buildFunction": "ImportOPMLFilePageBuilder"
+    },
+    {
+      "name": "AddFeedFromShare",
+      "pageSourceFile": "src/main/ets/pages/AddFeedFromSharePage.ets",
+      "buildFunction": "AddFeedFromSharePageBuilder"
+    },
+    {
+      "name": "OpenLinkInDefault",
+      "pageSourceFile": "src/main/ets/pages/OpenLinkInDefaultPage.ets",
+      "buildFunction": "OpenLinkInDefaultPageBuilder"
+    },
+    {
+      "name": "FeedWidgetSettings",
+      "pageSourceFile": "src/main/ets/pages/FeedWidgetSettingsPage.ets",
+      "buildFunction": "FeedWidgetSettingsPageBuilder"
+    },
+    {
+      "name": "Search",
+      "pageSourceFile": "src/main/ets/pages/SearchPage.ets",
+      "buildFunction": "SearchPageBuilder"
+    },
+    {
+      "name": "Import",
+      "pageSourceFile": "src/main/ets/pages/ImportPage.ets",
+      "buildFunction": "ImportPageBuilder"
+    },
+    {
+      "name": "Feed",
+      "pageSourceFile": "src/main/ets/pages/FeedPage.ets",
+      "buildFunction": "FeedPageBuilder"
+    },
+    {
+      "name": "Article",
+      "pageSourceFile": "src/main/ets/pages/ArticlePage.ets",
+      "buildFunction": "ArticlePageBuilder"
+    },
+    {
+      "name": "SearchFeed",
+      "pageSourceFile": "src/main/ets/pages/SearchFeedPage.ets",
+      "buildFunction": "SearchFeedPageBuilder"
+    },
+    {
+      "name": "AddFeed",
+      "pageSourceFile": "src/main/ets/pages/AddFeedPage.ets",
+      "buildFunction": "AddFeedPageBuilder"
+    },
+    {
+      "name": "EditFeed",
+      "pageSourceFile": "src/main/ets/pages/EditFeedPage.ets",
+      "buildFunction": "EditFeedPageBuilder"
+    },
+    {
+      "name": "Settings",
+      "pageSourceFile": "src/main/ets/pages/SettingsPage.ets",
+      "buildFunction": "SettingsPageBuilder"
+    },
+    {
+      "name": "TextSettings",
+      "pageSourceFile": "src/main/ets/pages/TextSettingsPage.ets",
+      "buildFunction": "TextSettingsPageBuilder"
+    },
+    {
+      "name": "SyncScreen",
+      "pageSourceFile": "src/main/ets/pages/SyncScreenPage.ets",
+      "buildFunction": "SyncScreenPageBuilder"
+    }
+  ]
+}

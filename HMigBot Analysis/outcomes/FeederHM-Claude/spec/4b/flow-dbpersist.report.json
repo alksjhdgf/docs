@@ -1,0 +1,108 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-dbpersist.json",
+  "at": "2026-10-12T17:14:38.833Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-dbpersist",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3693
+    },
+    {
+      "i": 1,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 3003
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3012
+    },
+    {
+      "i": 3,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 2/2",
+      "ms": 696
+    },
+    {
+      "i": 4,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-dbpersist-drawer.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-dbpersist-drawer.png",
+      "ms": 182
+    },
+    {
+      "i": 5,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 87
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Feeder News",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "01, :, 14",
+      "01",
+      ":",
+      "14",
+      "100",
+      "All feeds, 36",
+      "All feeds",
+      "36",
+      "Saved articles",
+      "Feeder News, 16",
+      "16",
+      "Hacker News: Front Page, 20",
+      "Hacker News: Front Page",
+      "20"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

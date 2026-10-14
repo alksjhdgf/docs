@@ -1,0 +1,251 @@
+{
+  "manifest": "input/Feeder/app/src/main/AndroidManifest.xml",
+  "out": "output/FeederHM/entry/src/main/ets",
+  "launcher": "Feed",
+  "launcherResolved": true,
+  "sources": {
+    "manifest": 6,
+    "navgraph": 0,
+    "compose": 2,
+    "ledger": 8
+  },
+  "routes": [
+    {
+      "route": "Main",
+      "from": "com.nononsenseapps.feeder.ui.MainActivity",
+      "source": "manifest",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "ManageSettings",
+      "from": ".ui.ManageSettingsActivity",
+      "source": "manifest",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "ImportOPMLFile",
+      "from": ".ui.ImportOPMLFileActivity",
+      "source": "manifest",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "AddFeedFromShare",
+      "from": ".ui.AddFeedFromShareActivity",
+      "source": "manifest",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OpenLinkInDefault",
+      "from": ".ui.OpenLinkInDefaultActivity",
+      "source": "manifest",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "FeedWidgetSettings",
+      "from": ".widget.FeedWidgetSettingsActivity",
+      "source": "manifest",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "Search",
+      "from": "compose:\"search\"",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "Import",
+      "from": "compose:\"import\"",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "Feed",
+      "from": "ledger:Feed",
+      "source": "ledger",
+      "launcher": true,
+      "enabled": true
+    },
+    {
+      "route": "Article",
+      "from": "ledger:Article",
+      "source": "ledger",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "SearchFeed",
+      "from": "ledger:SearchFeed",
+      "source": "ledger",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "AddFeed",
+      "from": "ledger:AddFeed",
+      "source": "ledger",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "EditFeed",
+      "from": "ledger:EditFeed",
+      "source": "ledger",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "Settings",
+      "from": "ledger:Settings",
+      "source": "ledger",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "TextSettings",
+      "from": "ledger:TextSettings",
+      "source": "ledger",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "SyncScreen",
+      "from": "ledger:SyncScreen",
+      "source": "ledger",
+      "launcher": false,
+      "enabled": true
+    }
+  ],
+  "files": [
+    {
+      "file": "common/Router.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/MainPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/ManageSettingsPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/ImportOPMLFilePage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/AddFeedFromSharePage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OpenLinkInDefaultPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/FeedWidgetSettingsPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/SearchPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/ImportPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/FeedPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/ArticlePage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/SearchFeedPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/AddFeedPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/EditFeedPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/SettingsPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/TextSettingsPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/SyncScreenPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/Index.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "main_pages.json.generated",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "entryability/EntryAbility.ets",
+      "action": "skip(透传已在)"
+    },
+    {
+      "file": "../resources/base/profile/route_map.json",
+      "action": "merge(无新增)"
+    }
+  ],
+  "appInitScanned": true,
+  "appInit": {
+    "applicationClass": ".FeederApplication",
+    "appManifest": "input/Feeder/app/src/main/AndroidManifest.xml",
+    "applicationCandidates": [
+      {
+        "applicationClass": ".FeederApplication",
+        "manifest": "input/Feeder/app/src/main/AndroidManifest.xml"
+      }
+    ],
+    "ambiguous": false,
+    "file": "app/src/main/java/com/nononsenseapps/feeder/FeederApplication.kt",
+    "classFound": true,
+    "superChain": [
+      "FeederApplication"
+    ],
+    "onCreateSites": [
+      {
+        "cls": "FeederApplication",
+        "file": "app/src/main/java/com/nononsenseapps/feeder/FeederApplication.kt",
+        "startLine": 217,
+        "endLine": 221,
+        "bodyLines": 2
+      }
+    ],
+    "callHints": [
+      "Suppress"
+    ],
+    "providers": [
+      {
+        "name": ".contentprovider.RSSContentProvider",
+        "line": 168,
+        "manifest": "input/Feeder/app/src/main/AndroidManifest.xml"
+      }
+    ],
+    "startupInitializers": [],
+    "workManagerProvider": false,
+    "di": null
+  }
+}

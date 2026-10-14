@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.wemaka.weatherapp.store.proto";
+option java_multiple_files = true;
+option java_outer_classname = "UvIndexProto";
+
+message UvIndexProto {
+  int32 uvIndex = 1;
+  optional int32 uvIndexDiff = 2;
+  optional int32 imgIdChangeUvIndex = 3;
+}

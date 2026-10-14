@@ -1,0 +1,1152 @@
+{
+  "string": [
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Nu s-a putut încărca text to speech"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Obținerea articolului complet…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Nu s-a putut obține articolul complet"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Preluarea articolelor complete în mod implicit"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Obțineți articolul complet"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Nu s-a putut analiza %1$s"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Preîncărcați fila personalizată"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Deschis"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Închideți"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimizarea bateriei"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Comutați extinderea etichetei"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Lista de fluxuri descoperite"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Marcați cele de mai jos ca fiind citite"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Marcați cele de mai sus ca fiind citite"
+    },
+    {
+      "name": "open_feed",
+      "value": "Deschideți flux"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Atingeți pentru a reda video"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Nu s-a putut deschide clientul de e-mail"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Trimiteți un raport de eroare"
+    },
+    {
+      "name": "sort",
+      "value": "Sortează după"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Mai întâi cel mai vechi"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Mai întâi cel mai nou"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "theme_night",
+      "value": "Noapte"
+    },
+    {
+      "name": "theme_day",
+      "value": "Zi"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Auto"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistem"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Nu s-a putut încărca URL-ul"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Numărul maxim de articole pe feed"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Deschidere în vizualizare Web"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Deschidere link în vizualizare web"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Cititor"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Deschideți legături cu"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Deschideți elementele în mod implicit cu"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Utilizați aplicația implicită"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Filă personalizată"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Browserul implicit"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Vizualizare web"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Cititor"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Notificările sunt afișate numai pentru elementele necitite din fluxurile configurate"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Fluxuri necitite"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Fluxuri actualizate"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Includeți hotspoturi mobile"
+    },
+    {
+      "name": "show_fab",
+      "value": "Afișați butonul de acțiune plutitor"
+    },
+    {
+      "name": "on_startup",
+      "value": "La pornirea aplicației"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Căutați articole noi…"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Instalați mai întâi ceva cu care să deschideți acest link"
+    },
+    {
+      "name": "image_loading",
+      "value": "Încărcarea imaginii"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Numai la încărcare"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Poate avea ca rezultat taxe de date mobile."
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Afișați miniaturi"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Numai pe Wi-Fi"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sincronizare"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "În fiecare zi"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "La fiecare 12 ore"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "La fiecare 6 ore"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "La fiecare 3 ore"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "În fiecare oră"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "La fiecare 30 minute"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "La fiecare 15 minute"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manual"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Toate fluxurile"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Setări"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Nu este nimic de afișat!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Nu a fost găsit un astfel de feed. Încercați să folosiți HTTPS, poate?"
+    },
+    {
+      "name": "share",
+      "value": "Distribuiți"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indicator pentru marcare ca citit"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nou pe baza acestui"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Vizualizați jurnalul de depanare"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importați fluxuri din OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Exportați feed-uri în OPML"
+    },
+    {
+      "name": "sync",
+      "value": "Sincronizat"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Citiți în continuare"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pauză de citire"
+    },
+    {
+      "name": "read_article",
+      "value": "Citiți cu voce tare"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Deschideți mediile închise"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Deschideți în browserul web"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Deschideți link-ul în browserul web"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Comutați starea de citire"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Opriți notificările"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Notificare pentru articole noi"
+    },
+    {
+      "name": "no_tag",
+      "value": "Fără etichetă"
+    },
+    {
+      "name": "view",
+      "value": "Vezi"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Articole noi disponibile"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Afișați elementele necitite"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Afișați toate articolele"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Ștergeți fluxul"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Editare flux"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Marcați toate ca fiind citite"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Marcați ca necitit"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Marcați ca fiind citit"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Introduceți o adresă de flux"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Adăugați mai multe fluxuri?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Deschideți alt flux?"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Nimic de citit aici. Doriți să…"
+    },
+    {
+      "name": "save",
+      "value": "Salvați"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "title",
+      "value": "Titlu"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL de alimentare"
+    },
+    {
+      "name": "tag",
+      "value": "Etichetă"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Abonează-te la flux"
+    },
+    {
+      "name": "add_feed",
+      "value": "Adăugați flux"
+    },
+    {
+      "name": "action_settings",
+      "value": "Setări"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Închideți panoul de navigare"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Deschideți panoul de navigare"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s articole necitite"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s articole necitite"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s articole necitite"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s articole necitite"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s articol necitit"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s articole necitite"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sincronizare feed-uri"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Afișarea tuturor articolelor"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Afișarea numai a articolelor necitite"
+    },
+    {
+      "name": "already_read",
+      "value": "Deja citit"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Necitite"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Mergeți la %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Deschideți meniul"
+    },
+    {
+      "name": "go_back",
+      "value": "Înapoi"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Etichetă închisă"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Etichetă deschisă"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Opriți citirea"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Deschideți %1$s"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super compactă"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Compactă"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Cardul"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Stilul articolului"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Tema întunecată preferată"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Negru"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Întunecat"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Activați numai pentru fluxurile cu ID-uri greșite"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generarea de ID-uri unice suplimentare"
+    },
+    {
+      "name": "syncing",
+      "value": "Sincronizare"
+    },
+    {
+      "name": "sync_status",
+      "value": "Starea sincronizării"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Nu este un URL valid"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Nu a reușit să importe OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Nu a reușit să exporte OPML"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Nu s-a putut deschide articolul"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Acest serviciu se plătește de către comunitate. Vă rugăm să luați în considerare posibilitatea de a dona dacă îl considerați util."
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Pe dispozitiv, navigați la sincronizare dispozitiv și apăsați scanare cod sincronizare."
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Sincronizarea dispozitivelor vă permite să sincronizați abonamentele la fluxuri și articolele citite între diversele dumneavoastră dispozitive."
+    },
+    {
+      "name": "device_sync",
+      "value": "Sincronizare dispozitiv"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Adăugați un nou dispozitiv"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (acest dispozitiv)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Deconectați dispozitivul din lanțul de sincronizare"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Dispozitive pe lanțul de sincronizare"
+    },
+    {
+      "name": "remove_device",
+      "value": "Scoateți dispozitivul"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Sunteți sigur că doriți să ștergeți dispozitivul %1$s?"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternativ, deschideți linkul pe dispozitivul dumneavoastră."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Tratați-o ca pe o parolă. Oricine vă poate citi datele sincronizate dacă are linkul."
+    },
+    {
+      "name": "qr_code",
+      "value": "Cod QR"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Codul de sincronizare a dispozitivului de alimentare"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Părăsiți lanțul de sincronizare"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Pur și simplu scanați codul din lanțul de sincronizare pe care l-ați creat pe un alt dispozitiv sau inițiați un nou lanț de sincronizare."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Scanați sau introduceți codul de sincronizare"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Începeți un nou lanț de sincronizare"
+    },
+    {
+      "name": "sync_code",
+      "value": "Cod de sincronizare"
+    },
+    {
+      "name": "secret_key",
+      "value": "Cheia secretă"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Alăturați-vă lanțului de sincronizare"
+    },
+    {
+      "name": "disabled",
+      "value": "Dezactivat"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Doar de la capăt"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "De oriunde"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Glisați pentru a marca ca citit"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Ești sigur că vrei să părăsești lanțul de sincronizare?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Nu a putut găsi un cititor de coduri de bare"
+    },
+    {
+      "name": "block_list",
+      "value": "Lista de blocuri"
+    },
+    {
+      "name": "add_item",
+      "value": "Adăugați elementul"
+    },
+    {
+      "name": "remove",
+      "value": "Eliminați"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Permite aplicației să citească fluxuri și articole"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Acces numai pentru citire la Feeder"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Detectarea limbii"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Text la vorbire"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Treci la următorul"
+    },
+    {
+      "name": "set_language",
+      "value": "Setați limba"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Detectează automat limba articolului"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Culori dinamice"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nou"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Trebuie să se acorde permisiunea înainte de a activa notificările."
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Disponibil numai pe Android %1$s și mai sus"
+    },
+    {
+      "name": "article_image",
+      "value": "Imaginea articolului"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Pictograma Feed"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sincronizare pentru a prelua articolul"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Ascunde articolele cu titluri care conțin oricare dintre aceste filtre. Exemple de filtre:"
+    },
+    {
+      "name": "text_scale",
+      "value": "Scala textului"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s flux de date"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Listă de articole"
+    },
+    {
+      "name": "saved_article",
+      "value": "Articol salvat"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Articole salvate"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s de fluxuri de date"
+    },
+    {
+      "name": "save_article",
+      "value": "Salvează articolul"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s fluxuri de date"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s fluxuri de date"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Nu sunt fluxuri de date"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s de fluxuri de date"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Marchează ca citit în timpul derulării"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-Ink"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Nu s-a putut analiza fluxul JSON"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Nu am găsit nimic"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Nu s-a putut analiza întregul articol"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Adaugă oricum"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Aplicației îi lipsește link-ul către articol"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s etichetă"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filtru"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Citite recent"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Link-ul nu este un document HTML"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Nu există fluxuri de știri pe aceasta pagină"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Nu există niciun conținut în răspuns"
+    },
+    {
+      "name": "http_error",
+      "value": "Eroare HTTP"
+    },
+    {
+      "name": "no_url",
+      "value": "Fără URL"
+    },
+    {
+      "name": "max_lines",
+      "value": "Numărul maxim de linii"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Nu s-a putut analiza pagina"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Salvate"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s etichete"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Aa apărut în analiza fluxului RSS"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Tipul conținutului nu este suportat de aplicație"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "A apărut o eroare în descărcare"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s de etichete"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Citite"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s de etichete"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Arată numai titlul"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importați %1$s cu %2$s?"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Oprește salvarea articolului"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s fluxuri"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s etichete"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Conținutul nu este HTML"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s etichete"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Deschideți browserul în ecran divizat"
+    },
+    {
+      "name": "close_menu",
+      "value": "Închideți meniul"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Exportați articolele salvate"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s cuvinte"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s cuvânt"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s cuvinte"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s cuvinte"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s cuvinte"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minute"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minute"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minute"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minute"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minute"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Afișați timpul estimat de citire"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Nu a reușit să exporte articolele salvate"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s cuvinte"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Treceți peste articolele duplicate"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Atingeți pentru a reda audio"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Articolele cu linkuri sau titluri identice cu articole existente sunt ignorate"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Card compact"
+    },
+    {
+      "name": "time_out",
+      "value": "Timp de așteptare (secunde)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Timpul de așteptare trebuie să fie între 30 și 600 de secunde"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Timp de așteptare pentru cererile OpenAI"
+    },
+    {
+      "name": "summarize",
+      "value": "Rezumă"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Rezumă la deschidere"
+    },
+    {
+      "name": "openai_settings",
+      "value": "Integrare OpenAI"
+    },
+    {
+      "name": "api_key",
+      "value": "Cheie API"
+    },
+    {
+      "name": "model_id",
+      "value": "Model Id"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Versiune API Azure"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Afișează numărul de articole necitite în titlu"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Nu se pot încărca modelele."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Nu au fost găsite modele"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "ID-ul implementării Azure"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Lista modelelor disponibile"
+    },
+    {
+      "name": "show_message",
+      "value": "Afișează mesajul"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Afișează fluxurile după marcarea tuturor ca citite"
+    },
+    {
+      "name": "on",
+      "value": "Pornit"
+    },
+    {
+      "name": "off",
+      "value": "Oprit"
+    },
+    {
+      "name": "search_verb",
+      "value": "Caută"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Anulează căutarea"
+    },
+    {
+      "name": "text",
+      "value": "Text"
+    },
+    {
+      "name": "font",
+      "value": "Font"
+    },
+    {
+      "name": "text_preview",
+      "value": "Previzualizare text"
+    },
+    {
+      "name": "system_default",
+      "value": "Implicit sistem"
+    },
+    {
+      "name": "weight",
+      "value": "Greutate"
+    },
+    {
+      "name": "italic",
+      "value": "Italic"
+    },
+    {
+      "name": "add_font",
+      "value": "Adaugă font"
+    },
+    {
+      "name": "bold",
+      "value": "Bold"
+    },
+    {
+      "name": "text_settings",
+      "value": "Setări text"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Nu a putut fi adăugat font-ul"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Nu a putut fi șters fontul"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Ceva nu a mers bine"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Sugestii"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Aplică la rezumate"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Deschideți in cititor"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Compatibil cu mulți furnizori IA, dar nu toți"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

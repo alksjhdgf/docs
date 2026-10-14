@@ -1,0 +1,36 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "Import",
+  "kind": "skeleton",
+  "slice": "page-import",
+  "route": "Import",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "Import"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "全部订阅",
+        "id=-10",
+        "Import feeds from OPML",
+        "Go back",
+        "Failed to import OPML",
+        "No feeds",
+        "1 feed",
+        "1 tag",
+        "Cancel",
+        "OK"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "Import"
+    }
+  ]
+}

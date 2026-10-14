@@ -1,0 +1,1012 @@
+{
+  "string": [
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Marker elementer nedenfor som leste"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Marker elementer ovenfor som leste"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Trykk for å spille video"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Kunne ikke åpne e-postklient"
+    },
+    {
+      "name": "sort",
+      "value": "Sorter etter"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Eldste først"
+    },
+    {
+      "name": "theme_system",
+      "value": "Følg systemet"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maksimalt antall elementer per informasjonskanal"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Åpne elementer som forvalg med"
+    },
+    {
+      "name": "show_fab",
+      "value": "Vis flytende handlingsknapp"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Fant ingen slik informasjonskanal. Kanskje forsøk å bruke HTTPS?"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Forhåndsinnlast egedefinert fane"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Batterioptimisering avskrudd"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Batterioptimisering påskrudd"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Batterioptimisering"
+    },
+    {
+      "name": "open_feed",
+      "value": "Åpne informasjonskanal"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Send feilrapport"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Nyeste først"
+    },
+    {
+      "name": "theme",
+      "value": "Drakt"
+    },
+    {
+      "name": "theme_night",
+      "value": "Natt"
+    },
+    {
+      "name": "theme_day",
+      "value": "Dag"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automatisk"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Kunne ikke laste inn nettadresse"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Åpne i nettvisning"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Åpne lenke i nettvisning"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Åpne lenker med"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Egendefinert fane"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Forvalgt nettleser"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Nettvisning"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Uleste informasjonskanaler"
+    },
+    {
+      "name": "on_startup",
+      "value": "Ved oppstart"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Fant ikke noe program å åpne lenken med"
+    },
+    {
+      "name": "image_loading",
+      "value": "Bildeinnlasting"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Kun under lading"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Vis miniatyrbilder"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Kun på Wi-Fi"
+    },
+    {
+      "name": "synchronization",
+      "value": "Synkronisering"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Hver dag"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Hver tolvte time"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Hver sjette time"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Hver tredje time"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Hver time"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Hver halvtime"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Hvert kvarter"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manuelt"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Alle informasjonskanaler"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Innstillinger"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Ingenting å vise!"
+    },
+    {
+      "name": "share",
+      "value": "Del"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikator for leste"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Ny basert på dette"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Vis avlusningslogg"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importer informasjonskanaler til OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Eksporter informasjonskanaler til OPML"
+    },
+    {
+      "name": "sync",
+      "value": "Synkroniser"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Åpne innebygd media"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Åpne i nettleser"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Åpne lenke i nettleser"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Veksle lesetilstand"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Stopp merknader"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Varsle om nye elementer"
+    },
+    {
+      "name": "no_tag",
+      "value": "Ingen etikett"
+    },
+    {
+      "name": "view",
+      "value": "Vis"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Nye elementer tilgjengelig"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Vis uleste elementer"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Vis alle elementer"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Slett informasjonskanal"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Rediger informasjonskanal"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Marker som lest"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Marker som ulest"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Marker som lest"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Skriv inn adressen til en informasjonskanal"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Legg til flere informasjonskanaler?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Åpne en annen informasjonskanal?"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Ingenting å lese her. Ønsker du å…"
+    },
+    {
+      "name": "save",
+      "value": "Lagre"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "av %1$s, %2$s"
+    },
+    {
+      "name": "title",
+      "value": "Tittel"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Nettadresse til informasjonskanal"
+    },
+    {
+      "name": "tag",
+      "value": "Etikett"
+    },
+    {
+      "name": "url",
+      "value": "Nettadresse"
+    },
+    {
+      "name": "add_feed",
+      "value": "Legg til informasjonskanal"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Abonner på informasjonskanal"
+    },
+    {
+      "name": "action_settings",
+      "value": "Innstillinger"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Lukk navigasjonsskuff"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Åpne navigasjonsskuff"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Merknader vises kun for uleste elementer i oppsatte informasjonskanaler"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Inkluder trådløsdelingspunkter"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Oppdaterte informasjonskanaler"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Veksle utfolding av etiketter"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Oppdaget informasjonkanalsliste"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Leser"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Leser"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Se etter nye artikler…"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Mobildatakostnader kan påløpe."
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Klarte ikke å tolke %1$s"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Henter hele artikkelen …"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Klarte ikke å hente hele artikkelen"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Hent fullstendige artikler som forvalg"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Hent hele artikkelen"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Åpen etikett"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Viser alle artikler"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Synkroniser informasjonskanaler"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s uleste artikler"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s ulest artikkel"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s uleste artikler"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s uleste artikler"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s uleste artikler"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super-kompakt"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Foretrukket mørk drakt"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Mørk"
+    },
+    {
+      "name": "open_menu",
+      "value": "Åpne meny"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Lukket etikett"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Artikkelstil"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s uleste artikler"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Gå til %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Ulest"
+    },
+    {
+      "name": "already_read",
+      "value": "Allerede lest"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kort"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakt"
+    },
+    {
+      "name": "read_article",
+      "value": "Les høyt"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Ta pause i lesingen"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Fortsett å lese"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Åpne %1$s"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Stopp lesingen"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Bruk programforvalg"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Klarte ikke å laste inn tekst-til-tale"
+    },
+    {
+      "name": "go_back",
+      "value": "Gå tilbake"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Viser kun uleste artikler"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Svart"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generer ekstra unike ID-er"
+    },
+    {
+      "name": "syncing",
+      "value": "Synkronisering"
+    },
+    {
+      "name": "sync_status",
+      "value": "Synkroniseringsstatus"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Kun skru på for informasjonskanaler med feilaktige ID-er"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Klarte ikke å eksportere OPML"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Klarte ikke å importere OPML"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Kunne ikke åpne artikkel"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Ikke en gyldig nettadresse"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Oppdag språk"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Oppdager artikkelspråk automatisk"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Skann koden fra din synkronisering som du opprettet på en annen enhet, eller opprett en ny."
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Start ny synkronisering"
+    },
+    {
+      "name": "block_list",
+      "value": "Svarteliste"
+    },
+    {
+      "name": "add_item",
+      "value": "Legg til element"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Enhetssynkroniseringskode for Feeder"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Behandle dette som et passord. Alle kan lese din synkroniserte data hvis de har lenken."
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Fjern fra synkronisering"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Enhetssynkronisering lar deg synkronisere abonnementer og leste artikler mellom dine forskjellige enheter."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skann eller skriv inn synkroniseringskode"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Fant ingen strekkodeskanner"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Forlat synkroniseringen?"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Lesetilgang"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Lar programmet lese informasjonskanaler og artikler"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Må innvilges for å bruke merknader."
+    },
+    {
+      "name": "only_from_end",
+      "value": "Kun fra slutten"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Fra hvor som helst"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (denne enheten)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Koble fra enheten fra synkroniseringskjeden"
+    },
+    {
+      "name": "device_sync",
+      "value": "Enhetssynkronisering"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Legg til ny enhet"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Denne tjenesten er betalt av fellesskapet. Vennligst vurder å donere hvis du finner den nyttig."
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Enheter som synkroniseres"
+    },
+    {
+      "name": "remove_device",
+      "value": "Fjern enhet"
+    },
+    {
+      "name": "sync_code",
+      "value": "Synkroniseringskode"
+    },
+    {
+      "name": "secret_key",
+      "value": "Hemmelig nøkkel"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Ta del i synkronisering"
+    },
+    {
+      "name": "disabled",
+      "value": "Avskrudd"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Dra for å markere som lest"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-kode"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Tekst til tale"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Hopp til neste"
+    },
+    {
+      "name": "set_language",
+      "value": "Sett språk"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Kun tilgjengelig på Android %1$s+"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynamiske farger"
+    },
+    {
+      "name": "remove",
+      "value": "Fjern"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Er du sikker på at du vil slette enheten %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Naviger til enhetssynkronisering på enheten din og trykk «Skann synkroniseringskode»."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternativt kan du åpne lenken på enheten din."
+    },
+    {
+      "name": "new_indicator",
+      "value": "Ny"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Informasjonkanalsikon"
+    },
+    {
+      "name": "article_image",
+      "value": "Artikkelbilde"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Åpne i standard nettleser"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Åpne i tilpasset fane"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Klarte ikke åpne artikkelen i nettleseren"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Klarte ikke åpne artikkelen i tilpasset fane"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Forslag"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Eksporter lagrede artikler"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Skjuler artikler med titler som inneholder noen av disse filtrene. Eksempel på filtre:"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Bruk på sammendrag"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Åpne i leser"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Artikkelliste"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E Ink"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synkroniser for å hente artikkel"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompakt kort"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Mislyktes å eksportere lagrede artikler"
+    },
+    {
+      "name": "text_scale",
+      "value": "Tekstskalering"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Lagrede artikler"
+    },
+    {
+      "name": "saved_article",
+      "value": "Lagret artikkel"
+    },
+    {
+      "name": "save_article",
+      "value": "Lagre artikkel"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Stopp lagring av artikkel"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Merk som lest ved skrolling"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Ingen informasjonskanaler"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s informasjonskanaler"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s informasjonskanal"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s informasjonskanaler"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s informasjonskanaler"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s informasjonskanaler"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s informasjonskanaler"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importer %1$s med %2$s?"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Fant ingenting å hente"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Lenken er ikke et HTML-dokument"
+    },
+    {
+      "name": "max_lines",
+      "value": "Maks antall linjer"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Nylig lest"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Lest"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Lagret"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Vis kun tittel"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Nedlasting mislyktes"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Mislyktes å lese siden"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Innholdet er ikke HTML"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP-feil"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Innholdstypen støttes ikke"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Mislyktes i å lese hele artikkelen"
+    },
+    {
+      "name": "no_url",
+      "value": "Ingen URL"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Legg til likevel"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Åpne nettleser i delt skjerm"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Vis estimert lesetid"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s ords"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minutt"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "close_menu",
+      "value": "Lukk meny"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Artikler med lenker eller titler som er identiske med eksisterende artikler, blir ignorert"
+    },
+    {
+      "name": "summarize",
+      "value": "Oppsummer"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Oppsummer ved åpning"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI-integrering"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Kompatibel med mange AI-leverandører, men ikke alle"
+    },
+    {
+      "name": "api_key",
+      "value": "API-nøkkel"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API-versjon"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Trykk for å spille av lyd"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Vis antall uleste artikler i tittelen"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

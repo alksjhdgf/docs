@@ -1,0 +1,1564 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Åbn navigationsskuffen"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Markér alle som læst"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Abonner på feed"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Etiket"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Intet at læse her. Vil du …"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Åbn et andet feed?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Tilføj flere feeds?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Indtast en feed-adresse"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Markér som læst"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Markér som ulæst"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Rediger feed"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Skift læsestatus"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Åbn i webbrowser"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Åbn %1$s"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Sæt læsning på pause"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Genoptag læsning"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Eksporter feeds til OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Import af feeds fra OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Vis fejlfindingslog"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Ny baseret på dette"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikator for markering som læst"
+    },
+    {
+      "name": "share",
+      "value": "Del"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Der blev ikke fundet et sådant feed. Prøv at bruge HTTPS måske?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Intet at vise!"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Alle feeds"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manuelt"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Hvert 15. minut"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Hvert 30. minut"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Hver 3. time"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Hver 6. time"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Hver 12. time"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Hver dag"
+    },
+    {
+      "name": "synchronization",
+      "value": "Synkronisering"
+    },
+    {
+      "name": "syncing",
+      "value": "Synkronisering"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Kun på Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Vis miniaturebilleder"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Kan resultere i mobildataafgifter."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Kun i forbindelse med opladning"
+    },
+    {
+      "name": "image_loading",
+      "value": "Indlæsning af billeder"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Installer først noget til at åbne dette link med"
+    },
+    {
+      "name": "on_startup",
+      "value": "Ved app-start"
+    },
+    {
+      "name": "show_fab",
+      "value": "Vis flydende handlingsknap"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Inkluder mobile hotspots"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Opdaterede feeds"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Ulæste feeds"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Notifikationer vises kun for ulæste elementer i konfigurerede feeds"
+    },
+    {
+      "name": "sync_status",
+      "value": "Synkroniseringsstatus"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Læser"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Webvisning"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Standardbrowser"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Brugerdefineret fane"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Brug app-standard"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Åbn som standard elementer med"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Åbn links med"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Læser"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Åbn link i webvisning"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Åbn i webvisning"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maks. elementer pr. feed"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Kunne ikke indlæse URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "System"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Auto"
+    },
+    {
+      "name": "theme_day",
+      "value": "Dag"
+    },
+    {
+      "name": "theme_night",
+      "value": "Nat"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Foretrukket mørkt tema"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Sort"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Send fejlrapport"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Kunne ikke åbne e-mail-klient"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Tryk for at afspille video"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Udvidelse af etikette til/fra"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Åbn etikette"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Liste over opdagede feeds"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Lukket etikette"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Batterioptimering"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Fra"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Til"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Forudindlæs brugerdefineret fane"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Kunne ikke behandle %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Hent hele artiklen"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Kunne ikke hente hele artiklen"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Kunne ikke åbne artikel"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Tekst til tale kunne ikke indlæses"
+    },
+    {
+      "name": "go_back",
+      "value": "Gå tilbage"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Viser kun ulæste artikler"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Viser alle artikler"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Synkroniser feeds"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s ulæst artikel"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s ulæste artikler"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakt"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Ikke en gyldig URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Import af OPML mislykkedes"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Kunne ikke eksportere OPML"
+    },
+    {
+      "name": "device_sync",
+      "value": "Synkronisering af enhed"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Tilføj ny enhed"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Denne service betales af fællesskabet. Overvej at donere, hvis du finder den nyttig."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (denne enhed)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Afkobl enheden fra synkroniseringskæden"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Enheder på synkroniseringskæde"
+    },
+    {
+      "name": "remove_device",
+      "value": "Fjern enhed"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Er du sikker på, at du vil slette enhed %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Gå til enhedssynkronisering på din enhed, og tryk på Scan synkroniseringskode."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternativt kan du åbne linket på din enhed."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Behandl dette som en adgangskode. Alle kan læse dine synkroniserede data, hvis de har linket."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-kode"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Synkroniseringskode for feeder-enhed"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Forlad synkroniseringskæde"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Enhedssynkronisering giver dig mulighed for at synkronisere feed-abonnementer og læste artikler mellem dine forskellige enheder."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Scan eller indtast synkroniseringskode"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Start en ny synkroniseringskæde"
+    },
+    {
+      "name": "sync_code",
+      "value": "Synkroniseringskode"
+    },
+    {
+      "name": "secret_key",
+      "value": "Hemmelig nøgle"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Deltag i synkroniseringskæde"
+    },
+    {
+      "name": "disabled",
+      "value": "Deaktiveret"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Kun fra slutning"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Hvor som helst fra"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Stryg for at markere som læst"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Luk navigationsskuffen"
+    },
+    {
+      "name": "action_settings",
+      "value": "Indstillinger"
+    },
+    {
+      "name": "add_feed",
+      "value": "Tilføj feed"
+    },
+    {
+      "name": "title",
+      "value": "Titel"
+    },
+    {
+      "name": "save",
+      "value": "Gem"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL-adresse til feed"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Slet feed"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Vis alle elementer"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Nye elementer tilgængelige"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Vis ulæste elementer"
+    },
+    {
+      "name": "view",
+      "value": "Vis"
+    },
+    {
+      "name": "no_tag",
+      "value": "Ingen etikette"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Stop notifikationer"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Åbn vedlagte medier"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Stop med at læse"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Åbn link i webbrowser"
+    },
+    {
+      "name": "read_article",
+      "value": "Læs højt"
+    },
+    {
+      "name": "sync",
+      "value": "Synkroniser"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Giv besked om nye elementer"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Indstillinger"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Hver time"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Tjek efter nye artikler…"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Mørk"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Ældste først"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Nyeste først"
+    },
+    {
+      "name": "sort",
+      "value": "Sorter efter"
+    },
+    {
+      "name": "open_feed",
+      "value": "Åbn feed"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Markér ovenfor som læst"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Markér nedenfor som læst"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s ulæste artikler"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Kun aktiveret for feeds med dårlige ID'er"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Hent som standard hele artikler"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Henter hele artiklen…"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Gå til %1$s"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s ulæste artikler"
+    },
+    {
+      "name": "open_menu",
+      "value": "Åbn menu"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super kompakt"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Ulæst"
+    },
+    {
+      "name": "already_read",
+      "value": "Allerede læst"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s ulæste artikler"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kort"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generer ekstra unikke ID'er"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s ulæste artikler"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Artikel-stil"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Du skal blot scanne koden fra din synkroniseringskæde, som du har oprettet på en anden enhed, eller start en ny synkroniseringskæde."
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Er du sikker på, at du vil forlade synkroniseringskæden?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Kunne ikke finde en stregkodescanner"
+    },
+    {
+      "name": "block_list",
+      "value": "Blokeringsliste"
+    },
+    {
+      "name": "add_item",
+      "value": "Tilføj emne"
+    },
+    {
+      "name": "remove",
+      "value": "Fjern"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder skrivebeskyttet adgang"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Gør det muligt for applikationen at læse feeds og artikler"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Registrer sprog"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Registrerer artiklens sprog automatisk"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Kun tilgængelig på Android %1$s og nyere"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Der skal gives tilladelse, før notifikationer kan aktiveres."
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Tekst til tale"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Spring til næste"
+    },
+    {
+      "name": "set_language",
+      "value": "Indstil sprog"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynamiske farver"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Ny"
+    },
+    {
+      "name": "article_image",
+      "value": "Artikelbillede"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Feed-ikon"
+    },
+    {
+      "name": "text_scale",
+      "value": "Tekstskalering"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Skjuler artikler med titler, der indeholder nogen af disse filtre. Eksempel på filtre:"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synkroniser for at hente artikel"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Gemte artikler"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Stop med at gemme artikel"
+    },
+    {
+      "name": "saved_article",
+      "value": "Gemt artikel"
+    },
+    {
+      "name": "save_article",
+      "value": "Gem artikel"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Markér som læst, når der scrolles"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s feed"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s etiketter"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s etiket"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s etiketter"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s etiketter"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s etiketter"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s feeds"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Ingen feeds"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importér %1$s med %2$s?"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s etiketter"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Fandt intet at hente"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Feed mangler link til artikel"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Link er ikke et HTML-dokument"
+    },
+    {
+      "name": "max_lines",
+      "value": "Maks linjer"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Senest læst"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Læst"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Gemt"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Artikelliste"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Vis kun titel"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Download mislykkedes"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Ingen feeds på siden"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Kunne ikke behandle siden"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Indhold er ikke HTML"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP-fejl"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Kunne ikke behandle RSS-feed"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Kunne ikke behandle JSON-feed"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Intet indhold i svar"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Ikke-understøttet indholdstype"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Kunne ikke behandle hele artiklen"
+    },
+    {
+      "name": "no_url",
+      "value": "Ingen URL"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Tilføj alligevel"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E Ink"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "close_menu",
+      "value": "Luk menu"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Åbn browser i delt skærm"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Vis anslået læsetid"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minutter"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Tryk for at afspille lyd"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Eksporter gemte artikler"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Kunne ikke eksportere gemte artikler"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Spring dubletter af artikler over"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompakt kort"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Artikler med links eller titler, der er identiske med eksisterende artikler, ignoreres"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Vis antallet af ulæste artikler i titlen"
+    },
+    {
+      "name": "summarize",
+      "value": "Opsummer"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI og oversættelse"
+    },
+    {
+      "name": "api_key",
+      "value": "API-nøgle"
+    },
+    {
+      "name": "model_id",
+      "value": "Model-id"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API version"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Kan ikke indlæse modeller."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Der blev ikke fundet nogen modeller"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure implementerings-id"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Liste over tilgængelige modeller"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Vis feeds efter markering af alt som læst"
+    },
+    {
+      "name": "show_message",
+      "value": "Vis besked"
+    },
+    {
+      "name": "on",
+      "value": "Til"
+    },
+    {
+      "name": "off",
+      "value": "Fra"
+    },
+    {
+      "name": "search_verb",
+      "value": "Søg"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Annuller søgning"
+    },
+    {
+      "name": "text",
+      "value": "Tekst"
+    },
+    {
+      "name": "font",
+      "value": "Skrifttype"
+    },
+    {
+      "name": "text_preview",
+      "value": "Tekst forhåndsvisning"
+    },
+    {
+      "name": "system_default",
+      "value": "Systemstandard"
+    },
+    {
+      "name": "weight",
+      "value": "Vægt"
+    },
+    {
+      "name": "italic",
+      "value": "Kursiv"
+    },
+    {
+      "name": "add_font",
+      "value": "Tilføj skrifttype…"
+    },
+    {
+      "name": "bold",
+      "value": "Fed"
+    },
+    {
+      "name": "text_settings",
+      "value": "Tekstindstillinger"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Kunne ikke tilføje skrifttype"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Kunne ikke fjerne skrifttype"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Noget gik galt"
+    },
+    {
+      "name": "time_out",
+      "value": "Timeout (sekunder)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Timeouten skal være på mellem 30 og 600 sekunder"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Timeout for AI-anmodninger"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Forslag"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Opsummer ved åbning"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Anvend på resuméer"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Åbn i læser"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Åbn i standardbrowser"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Åbn i brugerdefineret fane"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Kan ikke åbne artikel i browser"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Kan ikke åbne artikel i brugerdefineret fane"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Kompatibel med mange AI-udbydere, men ikke alle"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Opfrisker"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Importer gemte artikler"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Kunne ikke importere gemte artikler"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Artiklen er for stor. Vil du åbne den i browseren i stedet?"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Side-tilstand"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Naviger i artiklerne ved at \"bladre\" i stedet for at rulle ned. Optimeret til e-ink-enheder."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animeret sideinddeling"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Animerer kortvarigt, når der bladres. Kan forårsage spøgelsesbilleder på visse e-ink-enheder."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Forbedr miniaturebilleder ud fra artiklens metadata"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Prøv at forbedre manglende eller dårlige miniaturebilleder for dette feed"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Resumé API"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Anvendes til artikelresuméer."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "Oversættelse API"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Anvendes til oversættelse af feed-kort og artikler."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL-autentifikationsnøgle"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Udbyder"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Ikke konfigureret"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Udbyder: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Ingen"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI eller kompatibel"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Lokal offline"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Basis-URL (valgfri)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Oversættelseslutpunkt"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "ADVARSEL! Dette er en betafunktion. Udfør først en OPML-eksport af alle dine feeds, og gem den som en sikkerhedskopi."
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Indtast en API-nøgle, før du gemmer."
+    },
+    {
+      "name": "open_settings",
+      "value": "Åbn indstillinger"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Omdøb etiket"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Det er ikke muligt at afspille denne lydfil"
+    },
+    {
+      "name": "play_audio",
+      "value": "Afspil lyd"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Sæt lyd på pause"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Stop lyd"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Søg 10 sekunder tilbage"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Søg 10 sekunder frem"
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Indtast en DeepL-API-nøgle, inden du gemmer."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Indtast et model-id, før du gemmer."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Bekræfter API-indstillinger…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "API-indstillingerne kunne ikke bekræftes."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Indtast dit Azure-endpoint, inden du gemmer."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Indtast dit Azure-implementerings-id, inden du gemmer."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Indtast din Azure API-version, inden du gemmer."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Bekræfter Azure OpenAI-indstillinger…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Det var ikke muligt at bekræfte Azure OpenAI-indstillingerne."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Bekræfter DeepL-nøgle…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "DeepL-nøglen kunne ikke bekræftes."
+    },
+    {
+      "name": "translate_article",
+      "value": "Oversæt artiklen"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Vis oprindelig (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "oprindelig"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Forbereder offline oversættelsesmodel %1$s til %2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Downloader offline oversættelsesmodel %1$s til %2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "Den første download kan være på 20–50 MB og kan tage et par minutter. Herefter fungerer oversættelsen offline."
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Foretrukket oversættelsessprog"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Vælg det sprog, som Feeder skal oversætte til."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "det foretrukne sprog"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Lokal oversættelse kræver Android 12 eller nyere."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Lokal oversættelse er ikke tilgængelig på denne enhed."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Det var ikke muligt at oprette den lokale oversætter."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Tidsgrænsen for den lokale oversættelse er overskredet."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Den lokale oversættelse mislykkedes."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Den lokale oversættelse returnerede ingen tekst."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Den lokale oversætter var ikke klar. Kontroller enhedens oversættelsesindstillinger, og prøv igen."
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Anvend på links"
+    },
+    {
+      "name": "filters",
+      "value": "Filtre"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Afspil lydlinks med den indbyggede afspiller"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Når deaktiveret, åbnes lydlinks i stedet i din standardapp"
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Der findes ingen Bergamot-model for %1$s -> %2$s. Kontroller systemets oversættelsessprog"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Tidsgrænse for Bergamot-oversættelse overskredet."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Bergamot-oversættelse mislykkedes."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Log ind for at downloade modelliste."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Kunne ikke downloade %1$s -> %2$s model."
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "Download offline-oversættelsesmodulet for at fortsætte."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Vil du downloade en offline oversættelsesmotor?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder henter en 4,9 MB stor, kørbar WebAssembly-runtime fra Mozilla/Bergamot-projektet. Denne kode er hverken kompileret eller kontrolleret af F-Droid. Efter downloadet fungerer oversættelsen offline."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Det var ikke muligt at downloade offline-oversættelsesmodulet."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Downloader offline oversættelsesmotor: %1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "Download"
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Tidsgrænse for Bergamot WebView-oversættelse overskredet."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView er ikke initialiseret."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Det var ikke muligt at fortolke svaret fra Bergamot."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Bruger først din enheds oversættelsestjeneste."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Hvis den ikke er tilgængelig, kan Feeder benytte sin offline-oversættelsesmotor, som kan downloades."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Vælg et sprog"
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Vis kun sprog, der kan downloades"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Indstil et foretrukket oversættelsessprog i AI-indstillingerne"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Oversæt artikelforhåndsvisninger"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Oversæt artikler som standard"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Downloadede oversættelsesmodeller"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Offline-oversættelsessprog, der er hentet af Feeder. Fjern de sprog, du ikke længere har brug for, for at frigøre plads."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Slet model"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Skal oversættelsesmodel fra %1$s til %2$s (%3$s) slettes?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Slet alle downloadede modeller"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Slet alle %1$d downloadede oversættelsesmodeller (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Slettede %1$s til %2$s model"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Slettede alle downloadede modeller"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Der er endnu ikke hentet nogen oversættelsesmodeller. Oversættelsesprogrammet henter automatisk den nødvendige model."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Slet"
+    },
+    {
+      "name": "cancel",
+      "value": "Annuller"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Tving til én kolonne"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

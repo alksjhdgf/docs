@@ -1,0 +1,37 @@
+10-14 00:14:03.825  2249  2249 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"shutdown","serviceName":"TtsAbility","runtime":"20","resultCode":"0","detai
+10-14 00:14:25.481  5830  5830 I A00001/HiAI_TtsServiceManager: listVoices input: {"language":"","online":1.0,"person":-1.0,"requestId":"feeder_tts_voices_1791908065413_1"}
+10-14 00:14:25.481  5830  5830 I A00001/HiAI_TtsServiceManager: listVoices voices: [{"language":"zh_CN","person":13,"style":"interaction-broadcast","status":"INSTALLED","gender":"Female","description":"中文 聆小珊女声","resId":"tts_zh_CN_13_interaction-
+10-14 00:14:25.481  5830  5830 I A00001/HiAI_TtsServiceManager: listVoices retList: {"language":"zh_CN","person":13,"style":"interaction-broadcast","status":"INSTALLED","gender":"Female","description":"中文 聆小珊女声","resId":"tts_zh_CN_13_interaction-
+10-14 00:14:25.482  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"listVoices","serviceName":"TtsAbility","runtime":"0","resultCode":"0","deta
+10-14 00:14:25.484  5830  5830 I A00001/HiAI_TtsServiceManager: createEngine input: {"appVersion":"","businessType":"","language":"zh_CN","locate":"CN","name":"","online":1.0,"person":13.0,"style":"interaction-broadcast"}
+10-14 00:14:25.498  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"listVoices","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"0","ser
+10-14 00:14:25.619  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"createEngine","serviceName":"TtsAbility","runtime":"134","resultCode":"0","
+10-14 00:14:25.619  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"createEngine","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"134",
+10-14 00:14:25.622  5830  5830 I A00001/HiAI_OfflineTtsService: insert speak deque text length: 11, requestId: feeder_tts_1791908065621_2
+10-14 00:14:25.622  5830  5830 I A00001/HiAI_TtsSpeakListener: onTtsStart, requestId: feeder_tts_1791908065621_2
+10-14 00:14:25.622  4496  4496 D A03d00/JSAPP: FEEDER_TTS onStart feeder_tts_1791908065621_2
+10-14 00:14:25.634  5830  5830 I A00001/HiAI_PcmSoundPlayer: speak start requestId: feeder_tts_1791908065621_2
+10-14 00:14:25.691  4496  4496 D A03d00/JSAPP: FEEDER_TTS onComplete feeder_tts_1791908065621_2 type 0 (synthesis done, still speaking)
+10-14 00:14:25.691  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"speak","serviceName":"TtsAbility","runtime":"69","resultCode":"0","detailMe
+10-14 00:14:25.691  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"speak","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"69","service
+10-14 00:14:27.827  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"speak","serviceName":"TtsAbility","runtime":"2204","resultCode":"0","detail
+10-14 00:14:27.829  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"speak","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"2204","servi
+10-14 00:14:27.830  5830  5830 I A00001/HiAI_OfflineTtsService: insert speak deque text length: 73, requestId: feeder_tts_1791908067828_3
+10-14 00:14:27.938  5830  5830 I A00001/HiAI_TtsSpeakListener: onTtsStart, requestId: feeder_tts_1791908067828_3
+10-14 00:14:27.939  4496  4496 D A03d00/JSAPP: FEEDER_TTS onStart feeder_tts_1791908067828_3
+10-14 00:14:27.943  5830  5830 I A00001/HiAI_PcmSoundPlayer: speak start requestId: feeder_tts_1791908067828_3
+10-14 00:14:28.103  4496  4496 D A03d00/JSAPP: FEEDER_TTS onComplete feeder_tts_1791908067828_3 type 0 (synthesis done, still speaking)
+10-14 00:14:28.103  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"speak","serviceName":"TtsAbility","runtime":"273","resultCode":"0","detailM
+10-14 00:14:28.104  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"speak","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"273","servic
+10-14 00:14:36.274  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"speak","serviceName":"TtsAbility","runtime":"8443","resultCode":"0","detail
+10-14 00:14:36.276  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"speak","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"8443","servi
+10-14 00:14:36.276  5830  5830 I A00001/HiAI_OfflineTtsService: insert speak deque text length: 28, requestId: feeder_tts_1791908076274_4
+10-14 00:14:36.381  5830  5830 I A00001/HiAI_TtsSpeakListener: onTtsStart, requestId: feeder_tts_1791908076274_4
+10-14 00:14:36.381  4496  4496 D A03d00/JSAPP: FEEDER_TTS onStart feeder_tts_1791908076274_4
+10-14 00:14:36.388  5830  5830 I A00001/HiAI_PcmSoundPlayer: speak start requestId: feeder_tts_1791908076274_4
+10-14 00:14:36.444  4496  4496 D A03d00/JSAPP: FEEDER_TTS onComplete feeder_tts_1791908076274_4 type 0 (synthesis done, still speaking)
+10-14 00:14:36.445  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"speak","serviceName":"TtsAbility","runtime":"168","resultCode":"0","detailM
+10-14 00:14:36.445  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"speak","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"168","servic
+10-14 00:14:39.342  5830  5830 I A00001/HiAI_TtsMaintenanceReportUtil: TTS callInfo: [{"appName":"com.nononsenseapps.feeder","appVersion":"2.24.0"},{"moduleName":"tts","interfaceName":"speak","serviceName":"TtsAbility","runtime":"3065","resultCode":"0","detail
+10-14 00:14:39.343  5830  5830 I A00001/HiAI_ReportCoreManager: reportBaseValue===={"device_type":"phone","device_model":"emulator","interface_name":"speak","module_name":"tts","result_code":"0","os_version":"OpenHarmony-6.1.1.125","run_duration":"3065","servi
+10-14 00:14:39.343  5830  5830 I A00001/HiAI_OfflineTtsService: insert speak deque text length: 99, requestId: feeder_tts_1791908079341_5

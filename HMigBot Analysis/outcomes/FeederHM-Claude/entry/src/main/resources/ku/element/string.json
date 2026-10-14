@@ -1,0 +1,976 @@
+{
+  "string": [
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Tenê ji bo postên bi nasnameyên çewt çalak bike"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Ne lînkekî derbasdar e"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Ya jêrîn wekî hatine xwendin bijmêre"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Her serê 15 deqîqeyan carekê"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Ma tu bi rastî dixwazî pergala %1$s jê bibî?"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Lînkan bi vê vekin"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Tiştek ji bo nîşandanê tune!"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Wêneyên piçûk nîşan bide"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "nehat xwendin"
+    },
+    {
+      "name": "save",
+      "value": "Komkirin"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Nasnameyên bêhempa yên zêde biafirîne"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Koda hevdemkirinê ya pergala Feederê"
+    },
+    {
+      "name": "title",
+      "value": "Sernav"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Pêşî yên kevn"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Gotar nehat vekirin"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Tenê ji dawiyê"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Lînkan di dîmena malperê de veke"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Ji zincîra hevdemkirinê derkevin"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Nivîs-bi-axaftin nehat barkirin"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Tenê dema ku bi tora Wİ-Fİ ve girêdayî be"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Şîwaza gotara"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Lîsteya weşanên keşifkirî"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Pergalên li ser zincîra hevdemkirinê"
+    },
+    {
+      "name": "open_menu",
+      "value": "Menuyê veke"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Jixweber"
+    },
+    {
+      "name": "remove",
+      "value": "Rakirin"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Veguncand"
+    },
+    {
+      "name": "show_fab",
+      "value": "Bişkojka çalakiya herikîn nîşan bide"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Her serê 6 saetan carekê"
+    },
+    {
+      "name": "open_feed",
+      "value": "Weşanê veke"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Zincîra hevdemkirinê ya nû dest pê bikin"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Zimanê gotarê bixweber nas bike"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Lînkê di geroka webê de veke"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Medyaya dorpêçkirî vekin"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Tespîtkirina ziman"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Lîsteya gotara"
+    },
+    {
+      "name": "saved_article",
+      "value": "Gotara tomarkirî"
+    },
+    {
+      "name": "on_startup",
+      "value": "Dema ku Bername dest pê kir"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Ji bo lîstina vîdyoyê bikirtînin"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Li ser cîhaza xwe, herin senkronîzekirina cîhazê û koda hevdengkirina şopandinê bikirtînin."
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Pergalê ji zincîra hevdemkirinê qut bike"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Di dîmena Web-ê de veke"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Gotarên hatine tomar kirin"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "theme_system",
+      "value": "Pergal"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Tenê koda di zincîra hevdengiyê de ku we li ser pergala din afirandiye bişopînin an zincîrek hevdemkirinê ya nû dest pê bikin."
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Ji bo wergirtina gotarê hevdeng bikin"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "venêrkara barkodê nehat dîtin"
+    },
+    {
+      "name": "image_loading",
+      "value": "Wêneyan barbike"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Berkêşka navîgasyonê bigire"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Weşanê rast bike"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Hejmara herî zêde ya hêmana yên li ser weşanan"
+    },
+    {
+      "name": "set_language",
+      "value": "ziman danîn"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Here %1$s"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Rapora xeletiyan bişînin"
+    },
+    {
+      "name": "sync_status",
+      "value": "Rewşa hevdemî"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Derbasî a li dû bike"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Rewşa xwendinê biguherîne"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (ev pergal)"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Ya jorîn wekî hatine xwendin bijmêre"
+    },
+    {
+      "name": "theme",
+      "value": "Dirb"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Berkêşka navîgasyonê vekin"
+    },
+    {
+      "name": "add_item",
+      "value": "hêmanan lê zêde bike"
+    },
+    {
+      "name": "save_article",
+      "value": "Gotarê tomar bike"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nû"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Tiştek ku li vir bixwînin tune. Ma hûn dixwazin…"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Tenê dema şarj kirin"
+    },
+    {
+      "name": "qr_code",
+      "value": "Koda bersiva bilez -qr code-"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Mijara tarî ya bijarî"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Bi destan"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Gotara tevahî bistînin"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Ragihandina rawestîne"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Berhemên nû hene"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Bişkojka çalakiya şemetoke nîşan bide"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Hevrêzkirina pergalê dihêle hûn aboneyên weşanê hevdeng bikin û gotaran li ser cîhazên xwe yên cihêreng bixwînin."
+    },
+    {
+      "name": "read_article",
+      "value": "bi dengekî bilind bixwînin"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Sembola weşanê"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Li ser bingeha vê nû"
+    },
+    {
+      "name": "tag",
+      "value": "Etîket"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Lêçûna vê xizmetê ji aliyê civakê ve tê dayîn. Heke hûn wê alîkar dibînin, ji kerema xwe bexşînê bifikirin."
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "%1$s nehat derandin"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "dîtina webê"
+    },
+    {
+      "name": "synchronization",
+      "value": "Hevdemkirin"
+    },
+    {
+      "name": "url",
+      "value": "Lînk"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Xwîner"
+    },
+    {
+      "name": "remove_device",
+      "value": "Pergalê jêbibe"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Bernameya jixweber bikar bînin"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Gotarên bi sernavên ku yek ji van parzûnan hene vedişêre. Mînakek ji parzûnanan:"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Navnîşanekî weşanê binivîse"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Gihîştina tenê-xwendina Feeder"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Hilpekîna taybet berê barbike"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Etîketên girtî"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Di geroka webê de vekin"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Dibe ku dikare bibe lêçûnên daneyên mobîlê."
+    },
+    {
+      "name": "delete_feed",
+      "value": "Weşanê jê bibe"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Nîşana hesabkirina wekî ku hatine xwendin"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Serê saetekê"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s gotarên nehatine xwendin"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Rengên guherbar"
+    },
+    {
+      "name": "theme_night",
+      "value": "Tarî"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Pêşî tiştek bar bikin ku vê girêdanê vekin"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Baştirînkirina pîlê hat vekirtin"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Berî ku agahdarî werin çalak kirin divê destûr were dayîn."
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Ji hêla jixweber gotarên tevahî bistînin"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Her roj"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s gotara nehatiye xwendin"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Gotar bitevahî tê standin…"
+    },
+    {
+      "name": "view",
+      "value": "Dîmen girtin"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Weşanên ji OPML derxînin"
+    },
+    {
+      "name": "text_scale",
+      "value": "pîvana nivîsê"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Vekirina muwekîlê e-nameyê bi ser neket"
+    },
+    {
+      "name": "sync",
+      "value": "hevdemî"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Di geroka xwerû de"
+    },
+    {
+      "name": "block_list",
+      "value": "Lîsteya blokê"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Weşanên OPML derxînin"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Têketinê çewtiyê bibînin"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$s veke"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Xwendinê rawestîne"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Hêmanan bi jixweber bi wê vê vekin"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Weşanên nexwendî"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Her serê 3 saetan carekê"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Gotarên nû bibînin …"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Hemî tiştan nîşan bide"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Baştîrin kirina pîlê"
+    },
+    {
+      "name": "theme_day",
+      "value": "Roj"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Qert"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Berfirehkirina etîketan veke-bigire"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Hemûçkan wekî ku hatine xwendin nîşan bide"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Wê wekî şîfreyek derman bikin. Her kesê ku pêwendiyê hebe dikare daneyên weya hevdemkirî bixwîne."
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Mîheng"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Reş"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Veguncandina zêde"
+    },
+    {
+      "name": "syncing",
+      "value": "Hevdemkirinê"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "ji bo hesibandina hatiye xwendin bikişîne"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Destûrê dide sepanê ku post û gotaran bixwîne"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Weşanekî wusa nehat dîtin. Dibe ku HTTPS bikar bînin?"
+    },
+    {
+      "name": "disabled",
+      "value": "deaktîv"
+    },
+    {
+      "name": "go_back",
+      "value": "Ê berê"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Pêşî yên nû"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Hemî gotaran nîşan dide"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Koda hevdemkirinê bişopînin an têkevin"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Xwîner"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s gotara nehatiye xwendin"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Tenê gotarên nexwendî tên nîşandan"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Weşanan hevdem bikin"
+    },
+    {
+      "name": "sort",
+      "value": "Rêz bike"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Têxistina OPML bi ser neket"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Bibe kiryarê weşanê"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tarî"
+    },
+    {
+      "name": "article_image",
+      "value": "Wêneya gotarê"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Her serê 30 deqîqeyan carekê"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Ma hûn pê bawer in ku hûn dixwazin ji zincîra hevdemkirinê derkevin?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "weşanen din vekin?"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s gotarên nehatine xwendin"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Etîketa vekirî"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Hemû weşan"
+    },
+    {
+      "name": "action_settings",
+      "value": "mîheng"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Nivîsa bi axaftinê"
+    },
+    {
+      "name": "already_read",
+      "value": "Hat xwendin"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPML nehat derxistin"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Hilpekîna taybet"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Baştirînkirina pîlê hat girtin"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Tenê dikarin li ser Android %1$s û jorîn bikarbînin"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-kaxiz"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Serê 12 saetan carekê"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "bi alternatîfî lînkê li ser cîhaza xwe vekin."
+    },
+    {
+      "name": "resume_reading",
+      "value": "Ji nû ve xwendinê bidomînin"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Tevlî zincîra hevdemkirinê bibe"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Gotar bitev nehat sitandin"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Agahdarî tenê ji bo tiştên nexwendî yên di postên mîhengkirî de têne xuyang bike"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Min ji naveroka nû agahdar bike"
+    },
+    {
+      "name": "secret_key",
+      "value": "Mifteya veşartî"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Pergaleke nû lê zêde bike"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s gotarên nehatine xwendin"
+    },
+    {
+      "name": "share",
+      "value": "Parve bike"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Dest ji xwendinê berdin"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s gotara nehatiye xwendin"
+    },
+    {
+      "name": "sync_code",
+      "value": "Koda hevdemkirinê"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Weşanên nûvekirî"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Wekî ku hatiye xwendin nîşan bide"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Tiştên nexwendî nîşan bide"
+    },
+    {
+      "name": "no_tag",
+      "value": "Etîket tune"
+    },
+    {
+      "name": "device_sync",
+      "value": "Hevdemkirina cîhazê"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "ji her derê"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Wek nexwendî nîşan bide"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Lînk bi ser neket"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Lînka weşanê"
+    },
+    {
+      "name": "add_feed",
+      "value": "Zêdekirina weşanan"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Weşana JSON nehat dêrandin"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Texmînî ê kengî xilas bibe nîşan bide"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s peyvan"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Tiştek nehat dîtin ku bînin"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Tevahiya gotarê nehat dêrandin"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s hûrdeman"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Dîsa jî lê zêde bike"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s hûrdeman"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s peyvan"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Lînka gotarê di weşanê de winda ye"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s weşan"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s etîket"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Parzûn"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Yên dawî hatin xwendin"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s weşanan"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Girêdan ne belgeyekî HTML ye"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Li ser rûpelê tu peyam tune"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s hûrdeman"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Di bersivê de laş tune"
+    },
+    {
+      "name": "http_error",
+      "value": "Çewtiya HTTP"
+    },
+    {
+      "name": "no_url",
+      "value": "URL tune"
+    },
+    {
+      "name": "max_lines",
+      "value": "Hejmara herî zêde ya rêzan"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s weşanan"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Rûpel nehate dêrandin"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Yên hatine komkirin"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s hûrdeman"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s Etîketan"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Weşana RSS nehat dêrandin"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s peyvan"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s peyv"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Cûreya naverokê ya ne piştgirî"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s hûrdem"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Gerokê di ekrana dabeşkirî de veke"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Nehat daxistin"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s weşanan"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s hûrdeman"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Weşan tune"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s peyvan"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s etîketan"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Yên hatine xwendin"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s etîketan"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Tenê sernavê nîşan bide"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Bêhtir weşanan zêde bikin?"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "%1$s bi %2$s re were veguhastin kirin?"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s weşanan"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Li ser dakirinê xwendî nîşan bike"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Tomarkirina gotarê rawestî ne"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s peyv"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s weşanan"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s etîketan"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Naverok ne HTML e"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s etîketan"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

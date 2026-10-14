@@ -1,0 +1,260 @@
+{
+  "string": [
+    {
+      "name": "sync_option_every_15min",
+      "value": "ప్రతి 15 నిమిషాలకు"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "ప్రదర్శించడానికి ఏమీ లేదు!"
+    },
+    {
+      "name": "save",
+      "value": "సేవ్ చేయండి"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "పూర్తి కథనాన్ని అన్వయించడంలో విఫలమైంది"
+    },
+    {
+      "name": "title",
+      "value": "శీర్షిక"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "add_anyway",
+      "value": "ఏమైనప్పటికీ జోడించండి"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "ప్రతి 6 గంటలు"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "వెబ్ బ్రౌజర్‌లో లింక్‌ని తెరవండి"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "మూసివున్న మీడియాను తెరవండి"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "నావిగేషన్ డ్రాయర్ మూసుకొని ప్రారంభించండి"
+    },
+    {
+      "name": "edit_feed",
+      "value": "ఫీడ్‌ని సవరించండి"
+    },
+    {
+      "name": "set_language",
+      "value": "భాషను సెట్ చేయండి"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "తదుపరి దానికి దాటవేయి"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "చదివే స్థితిని టోగుల్ చేయండి"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "నావిగేషన్ డ్రాయర్‌ని తెరవండి"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "ఇక్కడ చదవడానికి ఏమీ లేదు. మీరు చేయడానికి ఇష్టపడుతారా"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "మానవీయంగా"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "ప్రకటనలు ఆపు"
+    },
+    {
+      "name": "new_items_available",
+      "value": "కొత్త వస్తువులు అందుబాటులో ఉన్నాయి"
+    },
+    {
+      "name": "read_article",
+      "value": "గట్టిగ చదువుము"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "దీని ఆధారంగా కొత్తది"
+    },
+    {
+      "name": "tag",
+      "value": "ట్యాగ్"
+    },
+    {
+      "name": "url",
+      "value": "యూఆర్ఎల్"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "ఫీడ్ చిరునామాను నమోదు చేయండి"
+    },
+    {
+      "name": "no_url",
+      "value": "URL లేదు"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "వెబ్ బ్రౌజర్‌లో తెరవండి"
+    },
+    {
+      "name": "delete_feed",
+      "value": "ఫీడ్‌ను తొలగించండి"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "చదివిన గుర్తుకు సూచిక"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "ప్రతి గంట"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "ప్రతి రోజు"
+    },
+    {
+      "name": "view",
+      "value": "చూడండి"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "OPML నుండి ఫీడ్‌లను దిగుమతి చేయండి"
+    },
+    {
+      "name": "sync",
+      "value": "సమకాలీకరించు"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "OPMLకి ఫీడ్‌లను ఎగుమతి చేయండి"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "మద్దతు లేని కంటెంట్ రకం"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "డీబగ్ లాగ్‌ని వీక్షించండి"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$sని తెరవండి"
+    },
+    {
+      "name": "pause_reading",
+      "value": "చదవడం పాజ్ చేయండి"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "ప్రతి 3 గంటలు"
+    },
+    {
+      "name": "show_all_items",
+      "value": "ఫీడ్‌ను తొలగించండి"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "అన్నీ చదివినట్లు గుర్తించు"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "సెట్టింగ్‌లు"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "అటువంటి ఫీడ్ కనుగొనబడలేదు. బహుశా HTTPSని ఉపయోగించి ప్రయత్నించాలా?"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "ఫీడ్‌కు సభ్యత్వం పొందండి"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "ప్రతి 30 నిమిషాలకు"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "మరిన్ని ఫీడ్‌లను జోడించాలా?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "మరో ఫీడ్‌ని తెరువు చేయాలా?"
+    },
+    {
+      "name": "all_feeds",
+      "value": "అన్ని ఫీడ్‌లు"
+    },
+    {
+      "name": "action_settings",
+      "value": "సెట్టింగులు"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "వచనం నుండి ప్రసంగం"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "ప్రతి 12 గంటలు"
+    },
+    {
+      "name": "resume_reading",
+      "value": "చదవడం కొనసాగించండి"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "కొత్త అంశాల కోసం తెలియజేయండి"
+    },
+    {
+      "name": "share",
+      "value": "షేర్ చేయండి"
+    },
+    {
+      "name": "stop_reading",
+      "value": "చదవడం ఆపండి"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "చదివినట్లుగా గుర్తించు"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "చదవని అంశాలను చూపు"
+    },
+    {
+      "name": "no_tag",
+      "value": "ట్యాగ్ లేదు"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "చదవనట్టు గుర్తుపెట్టు"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "ఫీడ్ యూఆర్ఎల్"
+    },
+    {
+      "name": "add_feed",
+      "value": "ఫీడ్ జోడించండి"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

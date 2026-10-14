@@ -1,0 +1,243 @@
+{
+  "module": {
+    "routerMap": "$profile:route_map",
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "launchType": "singleton",
+        "recoverable": true,
+        "metadata": [
+          {
+            "name": "ohos.ability.shortcuts",
+            "resource": "$profile:shortcuts_config"
+          }
+        ],
+        "backgroundModes": [
+          "audioPlayback"
+        ],
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          },
+          {
+            "entities": [
+              "entity.system.browsable"
+            ],
+            "actions": [
+              "ohos.want.action.viewData"
+            ],
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "feederapp.nononsenseapps.com"
+              },
+              {
+                "scheme": "http",
+                "host": "feederapp.nononsenseapps.com"
+              }
+            ],
+            "domainVerify": true
+          },
+          {
+            "actions": [
+              "ohos.want.action.viewData"
+            ],
+            "uris": [
+              {
+                "scheme": "https",
+                "type": "application/rss+xml"
+              },
+              {
+                "scheme": "https",
+                "type": "application/atom+xml"
+              },
+              {
+                "scheme": "https",
+                "type": "application/json"
+              },
+              {
+                "scheme": "http",
+                "type": "application/rss+xml"
+              },
+              {
+                "scheme": "http",
+                "type": "application/atom+xml"
+              },
+              {
+                "scheme": "http",
+                "type": "application/json"
+              },
+              {
+                "scheme": "https",
+                "type": "text/xml"
+              },
+              {
+                "scheme": "https",
+                "type": "application/xml"
+              },
+              {
+                "scheme": "http",
+                "type": "text/xml"
+              },
+              {
+                "scheme": "http",
+                "type": "application/xml"
+              }
+            ]
+          },
+          {
+            "actions": [
+              "ohos.want.action.sendData"
+            ],
+            "uris": [
+              {
+                "scheme": "file",
+                "utd": "general.text",
+                "maxFileSupported": 1
+              },
+              {
+                "scheme": "file",
+                "utd": "general.hyperlink",
+                "maxFileSupported": 1
+              }
+            ]
+          },
+          {
+            "actions": [
+              "ohos.want.action.viewData",
+              "ohos.want.action.sendData"
+            ],
+            "uris": [
+              {
+                "scheme": "file",
+                "type": "text/xml"
+              },
+              {
+                "scheme": "file",
+                "type": "application/xml"
+              },
+              {
+                "scheme": "file",
+                "type": "text/x-opml"
+              },
+              {
+                "scheme": "file",
+                "type": "application/octet-stream"
+              },
+              {
+                "scheme": "file",
+                "utd": "general.xml",
+                "maxFileSupported": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NotificationActionAbility",
+        "srcEntry": "./ets/notificationactionability/NotificationActionAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": false,
+        "launchType": "singleton",
+        "removeMissionAfterTerminate": true
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ]
+      },
+      {
+        "name": "FeederWorkSchedulerAbility",
+        "srcEntry": "./ets/workschedulerability/FeederWorkSchedulerAbility.ets",
+        "type": "workScheduler",
+        "exported": false
+      },
+      {
+        "name": "FeedFormAbility",
+        "srcEntry": "./ets/features/widget/FeedFormAbility.ets",
+        "description": "$string:widget_title",
+        "label": "$string:widget_title",
+        "type": "form",
+        "exported": true,
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.VIBRATE"
+      },
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:hm_permission_internet_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility",
+            "FeederWorkSchedulerAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "reason": "$string:hm_permission_network_info_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility",
+            "FeederWorkSchedulerAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING",
+        "reason": "$string:hm_permission_keep_background_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ]
+  }
+}

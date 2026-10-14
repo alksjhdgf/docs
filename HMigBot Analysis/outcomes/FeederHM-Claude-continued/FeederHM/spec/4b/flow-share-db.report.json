@@ -1,0 +1,421 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-share-db.json",
+  "at": "2026-10-13T18:24:39.890Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-share-db",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3692
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 702
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3058
+    },
+    {
+      "i": 3,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =All feeds",
+      "ms": 680
+    },
+    {
+      "i": 4,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"All feeds\" @653,227",
+      "changed": true,
+      "ms": 3054
+    },
+    {
+      "i": 5,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1509
+    },
+    {
+      "i": 6,
+      "op": "longpress",
+      "ok": true,
+      "detail": "长按 Stack \"2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026\" @660,847",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": true,
+      "ms": 4562
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Share",
+      "ms": 694
+    },
+    {
+      "i": 8,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 MenuItem \"Share\" @551,2440",
+      "changed": true,
+      "ms": 3071
+    },
+    {
+      "i": 9,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Share",
+      "ms": 700
+    },
+    {
+      "i": 10,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 2/2",
+      "ms": 700
+    },
+    {
+      "i": 11,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-share-item-sheet.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-share-item-sheet.png",
+      "ms": 238
+    },
+    {
+      "i": 12,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 780
+    },
+    {
+      "i": 13,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 808
+    },
+    {
+      "i": 14,
+      "op": "longpress",
+      "ok": true,
+      "detail": "长按 Stack \"2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026\" @660,847（页面自变，无法判定点击效果）",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": null,
+      "ms": 4568
+    },
+    {
+      "i": 15,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^(Save article|Stop saving article)$",
+      "ms": 673
+    },
+    {
+      "i": 16,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 MenuItem \"Save article\" @551,1936",
+      "changed": true,
+      "ms": 3055
+    },
+    {
+      "i": 17,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 808
+    },
+    {
+      "i": 18,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3722
+    },
+    {
+      "i": 19,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 699
+    },
+    {
+      "i": 20,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3053
+    },
+    {
+      "i": 21,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Saved articles",
+      "ms": 681
+    },
+    {
+      "i": 22,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Saved articles\" @669,409",
+      "changed": true,
+      "ms": 3077
+    },
+    {
+      "i": 23,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1510
+    },
+    {
+      "i": 24,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 696
+    },
+    {
+      "i": 25,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-saved-after-coldstart.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-saved-after-coldstart.png",
+      "ms": 281
+    },
+    {
+      "i": 26,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Stack \"2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026\" @660,847",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": true,
+      "ms": 3073
+    },
+    {
+      "i": 27,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =0:59 minutes",
+      "ms": 703
+    },
+    {
+      "i": 28,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3040
+    },
+    {
+      "i": 29,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Read aloud",
+      "ms": 680
+    },
+    {
+      "i": 30,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Share\" @276,486",
+      "changed": true,
+      "ms": 3057
+    },
+    {
+      "i": 31,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Share",
+      "ms": 702
+    },
+    {
+      "i": 32,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-share-article-sheet.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-share-article-sheet.png",
+      "ms": 226
+    },
+    {
+      "i": 33,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 788
+    },
+    {
+      "i": 34,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 802
+    },
+    {
+      "i": 35,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1054,248",
+      "changed": true,
+      "ms": 3078
+    },
+    {
+      "i": 36,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 news.nononsenseapps.com",
+      "ms": 695
+    },
+    {
+      "i": 37,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-article-webview.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-article-webview.png",
+      "ms": 208
+    },
+    {
+      "i": 38,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 783
+    },
+    {
+      "i": 39,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 118
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "All feeds",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Feeder News",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 23",
+      "02",
+      ":",
+      "23",
+      "100",
+      "All feeds, 15",
+      "15",
+      "Saved articles",
+      "Feeder News, 15",
+      "Open in reader",
+      "Open in custom tab",
+      "Open in default browser",
+      "Save article",
+      "Mark the above as read",
+      "Mark the below as read",
+      "Share",
+      "2.24.0 released",
+      "Huawei Share",
+      "Feeder",
+      "  , All",
+      "  ",
+      "All",
+      "  , Copy",
+      "Copy",
+      "  , Print",
+      "Print",
+      "  , Add to SuperHub",
+      "Add to SuperHub",
+      "02, :, 24",
+      "24",
+      "Saved articles, 1",
+      "1",
+      "by ⁨Jonas⁩, Saturday, October 10, 2026 at 8:26 PM",
+      "0:59 minutes",
+      "🚀 Features",
+      "•",
+      "Added per-feed article filtering rules (#1217) by @antoncarrot in #1217",
+      "🐛 Bug Fixes & Minor Changes",
+      "Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spacecowboy in #1226",
+      "Do not update feed url if selfLink would change between http and https (#1228) by @spacecowboy in #1228",
+      "Stopped changing feed urls to match selfLinks (#1257) by @spacecowboy in #1257",
+      "Mark as unread",
+      "Stop saving article",
+      "Read aloud",
+      "2.24.0 released - Feeder News",
+      "https://news.nononsenseapps.com/posts/2.24.0/",
+      "Home",
+      " ",
+      "All posts",
+      "About",
+      "Tags",
+      "# 2.24.0 released",
+      "Posted on Oct 10, 2026",
+      "### 🚀 Features",
+      "* ",
+      "Added per-feed article filtering rules (#1217) by @antoncarrot in ",
+      "#1217",
+      "### 🐛 Bug Fixes & Minor Changes",
+      "Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spacecowboy in ",
+      "#1226",
+      "Do not update feed url if selfLink would change between http and https (#1228) by @spacecowboy in ",
+      "#1228",
+      "Stopped changing feed urls to match selfLinks (#1257) by @spacecowboy in ",
+      "#1257"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "modalRoot",
+      "HdsTitleBar",
+      "share_card",
+      "slot_icon",
+      "slot_label",
+      "more_button",
+      "readerColumn"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

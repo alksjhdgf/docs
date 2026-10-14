@@ -1,0 +1,1008 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Открыть меню навигации"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Закрыть меню навигации"
+    },
+    {
+      "name": "action_settings",
+      "value": "Настройки"
+    },
+    {
+      "name": "add_feed",
+      "value": "Добавить ленту"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Подписаться на ленту"
+    },
+    {
+      "name": "tag",
+      "value": "Метка"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL ленты"
+    },
+    {
+      "name": "title",
+      "value": "Название"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "save",
+      "value": "Сохранить"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Тут пусто. Вы можете:"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Открыть другую ленту?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Добавить ещё ленту?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Введите адрес ленты"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Отметить как прочитанное"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Отметить как непрочитанное"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Отметить всё как прочитанное"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Изменить ленту"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Удалить ленту"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Показать все записи"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Показать непрочитанные записи"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Есть новые записи"
+    },
+    {
+      "name": "view",
+      "value": "Вид"
+    },
+    {
+      "name": "no_tag",
+      "value": "Без метки"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Уведомлять о новом"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Не уведомлять"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Переключить статус прочитанного"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Открыть ссылку в браузере"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Открыть в браузере"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Открыть прикреплённый медиафайл"
+    },
+    {
+      "name": "sync",
+      "value": "Синхронизировать"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Экспортировать ленты в OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Импортировать ленты из OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Открыть журнал отладки"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Новая на основе этой"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Индикатор прочитанного"
+    },
+    {
+      "name": "share",
+      "value": "Поделиться"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Не удалось найти такую ленту. Попробуйте с HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Здесь ничего нет!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Настройки"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Все ленты"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Вручную"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Каждые 15 минут"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Каждые 30 минут"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Каждый час"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Каждые 3 часа"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Каждые 6 часов"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Каждые 12 часов"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Каждый день"
+    },
+    {
+      "name": "synchronization",
+      "value": "Синхронизируется"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Только по Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Показывать миниатюры"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Может привести к расходу мобильных данных."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Только при зарядке"
+    },
+    {
+      "name": "image_loading",
+      "value": "Изображение загружается"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Сначала установите что-нибудь, чтобы открыть эту ссылку"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Поиск новых статей…"
+    },
+    {
+      "name": "on_startup",
+      "value": "При запуске приложения"
+    },
+    {
+      "name": "show_fab",
+      "value": "Показывать плавающую кнопку действия"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Включая мобильные точки доступа"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Обновлённые ленты"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Непрочитанные ленты"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Уведомления показываются для непрочитанного в настроенных лентах"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Браузер по умолчанию"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "По умолчанию открывать элементы в"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Открывать ссылки в"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Открыть ссылку в WebView"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Открыть в WebView"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Максимум элементов в ленте"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Не удалось открыть URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "Системная"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Автоматическая"
+    },
+    {
+      "name": "theme_day",
+      "value": "День"
+    },
+    {
+      "name": "theme_night",
+      "value": "Ночь"
+    },
+    {
+      "name": "theme",
+      "value": "Тема"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Сначала новые"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Сначала старые"
+    },
+    {
+      "name": "sort",
+      "value": "Упорядочить"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Сообщить об ошибке"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Не удаётся открыть email-клиент"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Нажмите для просмотра видео"
+    },
+    {
+      "name": "open_feed",
+      "value": "Открыть ленту"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Отметить ниже как прочитанное"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Список найденных лент"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Переключить расширение меток"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Оптимизация использования батареи"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Выкл."
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Вкл."
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Предварительная встроенного браузера"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Отметить выше как прочитанное"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "url",
+      "value": "URL-адрес"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Статья загружается целиком…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Не удалось загрузить полную статью"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "По умолчанию загружать статьи целиком"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Загрузить статью целиком"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Не удалось разобрать %1$s"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Чтение"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "В приложении"
+    },
+    {
+      "name": "read_article",
+      "value": "Читать вслух"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Не удалось синтезировать речь"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Встроенный браузер"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Открыть во встроенном браузере"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Возобновить чтение"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Приостановить чтение"
+    },
+    {
+      "name": "use_app_default",
+      "value": "По умолчанию"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s непрочитанных статей"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s непрочитанных статей"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s непрочитанных статей"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s непрочитанных статей"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s непрочитанных статей"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s непрочитанная статья"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Синхронизировать ленты"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Показываются все"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Показываются непрочитанные"
+    },
+    {
+      "name": "already_read",
+      "value": "Прочитанное"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Непрочитанное"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Перейти к %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Открыть меню"
+    },
+    {
+      "name": "go_back",
+      "value": "Назад"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Закрытая метка"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Открытая метка"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Прекратить чтение"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Открыть %1$s"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Очень компактный"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Компактный"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Карточный"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Стиль статьи"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Чёрная"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Тёмная"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Предпочтительная темная тема"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Генерировать дополнительные уникальные ID"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Включить только для лент с плохими ID"
+    },
+    {
+      "name": "sync_status",
+      "value": "Состояние синхронизации"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Неверный URL-адрес"
+    },
+    {
+      "name": "syncing",
+      "value": "Синхронизируется"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Не удалось импортировать OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Не удалось экспортировать OPML"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Не удалось открыть статью"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Добавить новое устройство"
+    },
+    {
+      "name": "device_sync",
+      "value": "Синхронизировать устройства"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Эта услуга оплачивается сообществом. Пожалуйста, пожертвуйте, если вы считаете её полезной."
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Синхронизирующиеся устройства"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Присоединиться к группу синхронизации"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Вы уверены, что хотите удалить устройство «%1$s»?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "На устройстве перейдите к пункту «Синхронизация устройств» и нажмите «Сканировать код синхронизации»."
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Синхронизация устройств позволяет переносить подписки и прочитанные статьи между различными устройствами."
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Создать новую группу синхронизации"
+    },
+    {
+      "name": "secret_key",
+      "value": "Секретный ключ"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (это устройство)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Отключить устройство от синхронизации"
+    },
+    {
+      "name": "remove_device",
+      "value": "Удалить устройство"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Также, вы можете открыть ссылку на своем устройстве."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Относитесь к этому как к паролю. Любой может прочитать ваши синхронизированные данные, если у него есть ссылка."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-код"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Код синхронизации Feeder"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Выйти из группы синхронизации"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Просто отсканируйте код синхронизации, созданный на другом устройстве, или создайте новую группу синхронизации."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Отсканируйте или введите код синхронизации"
+    },
+    {
+      "name": "sync_code",
+      "value": "Код синхронизации"
+    },
+    {
+      "name": "disabled",
+      "value": "Выключено"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Только с конца"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "С любой стороны"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Проведите, чтобы отметить как прочитанное"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Вы уверены, что хотите покинуть группу синхронизации?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Не удалось найти сканер кодов"
+    },
+    {
+      "name": "block_list",
+      "value": "Чёрный список"
+    },
+    {
+      "name": "add_item",
+      "value": "Добавить элемент"
+    },
+    {
+      "name": "remove",
+      "value": "Удалить"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Даёт приложению доступ к каналам и статьям"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Синтез речи"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Доступно только на Android %1$s и выше"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Определять язык"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Динамические цвета"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Автоматически определяет язык статьи"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Перед включением уведомлений нужно предоставить разрешение."
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Доступ только для чтения"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Перейти к следующей"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Новое"
+    },
+    {
+      "name": "article_image",
+      "value": "Изображение статьи"
+    },
+    {
+      "name": "set_language",
+      "value": "Установить язык"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Значок ленты"
+    },
+    {
+      "name": "text_scale",
+      "value": "Размер шрифта"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Скрывает статьи с заголовками, содержащими любой из этих фильтров. Например:"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Синхронизируйте, чтобы получить статью"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Сохранённые статьи"
+    },
+    {
+      "name": "save_article",
+      "value": "Сохранить статью"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Помечать как прочитанное при прокрутке"
+    },
+    {
+      "name": "saved_article",
+      "value": "Сохранённая статья"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Остановить сохранение статьи"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Нет каналов"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s каналов"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s канал"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s канала"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s каналов"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s каналов"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s меток"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s каналы"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s метка"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s метки"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s меток"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s меток"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s меток"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "В ленте нет ссылки на статью"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Электронные чернила"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Не удалось разобрать JSON-ленту"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Нечего загружать"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Не удалось разобрать всю статью"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Список статей"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Фильтр"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Недавно прочитанное"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "По ссылке нет HTML-документа"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "На странице нет лент"
+    },
+    {
+      "name": "http_error",
+      "value": "Ошибка HTTP"
+    },
+    {
+      "name": "no_url",
+      "value": "Нет URL-адреса"
+    },
+    {
+      "name": "max_lines",
+      "value": "Максимум строк"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Не удалось разобрать страницу"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Сохранённое"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Не удалось разобрать RSS-ленту"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Неподдерживаемый тип содержимого"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Не удалось скачать"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Прочитанное"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Показывать только заголовок"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Содержимое не является HTML"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Импортировать %1$s, содержащих %2$s?"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s слово"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s минут"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Пустое тело в ответе"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Делить экран для браузера"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Показывать примерное время чтения"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s слов"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s слова"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s слова"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s слов"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s слов"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s минут"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s минута"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s минуты"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s минуты"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s минут"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Всё равно добавить"
+    },
+    {
+      "name": "close_menu",
+      "value": "Закрыть меню"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Экспортировать сохранённые статьи"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Не удалось экспортировать созранённые статьи"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Пропускать повторяющиеся статьи"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Статьи с ссылками или заголовками идентичными существующим статьям игнорируются"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Компактный карточный"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Коснитесь для воспроизведения аудио"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Показывать число непрочитанных статей в заголовке"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

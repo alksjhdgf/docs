@@ -1,0 +1,1008 @@
+{
+  "string": [
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "लिखे हुए को बोली में बदलने की सुविधा लोड नहीं किया जा सकी"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "पूरा आलेख लायें"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "तयशुदा रूप से पूर्ण आलेख लाएं"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "पूरा आलेख नहीं लाया जा सका"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "पूरा आलेख लाया जा रहा है…"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "%1$s का विश्लेषण नहीं कर सके"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "तदनुकूल टैब प्रीलोड करें"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "चालू"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "बंद"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "बैटरी अनुकूलन"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "टैग विस्तार को टॉगल करें"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "खोजी गई फीड सूची"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "नीचे को पठित चिह्नित करें"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "उपरोक्त पठित चिह्नित करें"
+    },
+    {
+      "name": "open_feed",
+      "value": "फीड खोलें"
+    },
+    {
+      "name": "javascript",
+      "value": "जावास्क्रिप्ट"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "वीडियो चलाने के लिए स्पर्श करें"
+    },
+    {
+      "name": "no_email_client",
+      "value": "ई-मेल क्लाइंट नहीं खुल सका"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "बग-रिपोर्ट भेजें"
+    },
+    {
+      "name": "sort",
+      "value": "ऐसे छांटें"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "पुराना पहले"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "नवीनतम पहले"
+    },
+    {
+      "name": "theme",
+      "value": "थीम"
+    },
+    {
+      "name": "theme_night",
+      "value": "रात्रि"
+    },
+    {
+      "name": "theme_day",
+      "value": "दिन"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "स्वतः"
+    },
+    {
+      "name": "theme_system",
+      "value": "सिस्टम"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "URL लोड नहीं हो सका"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "प्रति फीड अधिकतम आइटम"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "वेब व्यू में खोलें"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "वेब व्यू में लिंक खोलें"
+    },
+    {
+      "name": "reader_settings",
+      "value": "पाठक"
+    },
+    {
+      "name": "open_links_with",
+      "value": "लिंक इसके साथ खोले"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "तयशुदा रूप से आइटम इसके साथ खोलें"
+    },
+    {
+      "name": "use_app_default",
+      "value": "ऐप डिफॉल्ट का प्रयोग करें"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "तदनुकूल टैब"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "तयशुदा ब्राउज़र"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "वेब व्यू"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "रीडर"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "सूचनाएं केवल विन्यस्त फीड में अपठित आइटम के लिए दिखाई जाती हैं"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "अपठित फीड"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "अपडेट किए गए फीड"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "मोबाइल हॉटस्पॉट शामिल करें"
+    },
+    {
+      "name": "show_fab",
+      "value": "फ़्लोटिंग एक्शन बटन दिखाएं"
+    },
+    {
+      "name": "on_startup",
+      "value": "ऐप शुरू होने पर"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "नए आलेख खोजें…"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "इस लिंक को खोलने के लिए पहले कुछ इंस्टॉल करें"
+    },
+    {
+      "name": "image_loading",
+      "value": "छवि लोड हो रही है"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "केवल चार्ज करते समय"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "मोबाइल डेटा शुल्क लग सकता है।"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "थंबनेल दिखाएं"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "केवल वाई-फाई पर"
+    },
+    {
+      "name": "synchronization",
+      "value": "सिंक हो रहा है"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "हर दिन"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "हर 12 घंटे"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "हर 6 घंटे"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "हर 3 घंटे"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "हर घंटे"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "हर 30 मिनट"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "हर 15 मिनट"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "हस्तचालित"
+    },
+    {
+      "name": "all_feeds",
+      "value": "सभी फीड"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "सेटिंग"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "दिखाने के लिये कुछ नहीं!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "ऐसी कोई फीड नहीं मिल सकी। शायद HTTPS का उपयोग करने का प्रयास करें?"
+    },
+    {
+      "name": "share",
+      "value": "शेयर"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "पठित के रूप में चिह्नित करने के लिए सूचक"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "इसके आधार पर नया"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "डिबग लॉग देखें"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "OPML से फीड आयात करें"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "OPML को फीड निर्यात करें"
+    },
+    {
+      "name": "sync",
+      "value": "सिंक"
+    },
+    {
+      "name": "resume_reading",
+      "value": "पढना फिर से शुरू करें"
+    },
+    {
+      "name": "pause_reading",
+      "value": "पढ़ना रोकें"
+    },
+    {
+      "name": "read_article",
+      "value": "जोर से पढ़ें"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "संलग्न मीडिया खोलें"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "वेब ब्राउज़र में खोलें"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "वेब ब्राउज़र में लिंक खोलें"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "देखे को अनदेखा करे"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "सूचनाएं बंद करें"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "नये आइटम के लिए सूचित करें"
+    },
+    {
+      "name": "no_tag",
+      "value": "कोई टैग नहीं"
+    },
+    {
+      "name": "view",
+      "value": "देखें"
+    },
+    {
+      "name": "new_items_available",
+      "value": "नये आइटम उपलब्ध"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "अपठित आइटम दिखाएं"
+    },
+    {
+      "name": "show_all_items",
+      "value": "सभी आइटम दिखाएं"
+    },
+    {
+      "name": "delete_feed",
+      "value": "फीड हटाएं"
+    },
+    {
+      "name": "edit_feed",
+      "value": "फीड संपादित करें"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "सभी को पठित के रूप में चिह्नित करें"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "अपठित के रूप में चिह्नित करें"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "पढ़ा हुआ चिह्नित करें"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "फीड का पता दर्ज करें"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "और फीड जोड़ें ?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "खोलें  कोई और फीड?"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "यहां पढ़ने के लिए कुछ नहीं है। क्या आप चाहेंगे…"
+    },
+    {
+      "name": "save",
+      "value": "सहेजें"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "नेविगेशन ड्रॉअर बंद करें"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "नेविगेशन ड्रॉअर खोलें"
+    },
+    {
+      "name": "title",
+      "value": "शीर्षक"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "फीड URL"
+    },
+    {
+      "name": "tag",
+      "value": "टैग"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "फीड की सदस्यता लें"
+    },
+    {
+      "name": "add_feed",
+      "value": "फीड जोड़ें"
+    },
+    {
+      "name": "action_settings",
+      "value": "सेटिंग"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPML निर्यात करने में विफल"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s फीड्स"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "%2$s के साथ %1$s आयात करें?"
+    },
+    {
+      "name": "syncing",
+      "value": "सिंक हो रहा है"
+    },
+    {
+      "name": "close_menu",
+      "value": "मेनू बंद करें"
+    },
+    {
+      "name": "stop_reading",
+      "value": "पढ़ना बंद करें"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$s खोलें"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "पठित के रूप में चिह्नित करने के लिए स्वाइप करें"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "भाषा का पता लगाएं"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "स्वचालित रूप से आलेख भाषा का पता लगाता है"
+    },
+    {
+      "name": "block_list",
+      "value": "ब्लॉक सूची"
+    },
+    {
+      "name": "block_list_description",
+      "value": "इनमें से किसी भी फिल्टर वाले शीर्षक वाले आलेख छुपाता है। उदाहरण फिल्टर:"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "बंद टैग"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "आलेख नहीं खुल सका"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "आलेख लाने के लिए सिंक्रनाइज़ करें"
+    },
+    {
+      "name": "go_back",
+      "value": "वापस जाएं"
+    },
+    {
+      "name": "open_menu",
+      "value": "मेनू खोलें"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "%1$s पर जाएं"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "अपठित"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "केवल अपठित आलेख दिखाये जा रहे हैं"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "सभी आलेख दिखाए जा रहे हैं"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "फीड सिंक करें"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s अपठित आलेख"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s अपठित आलेख"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "आलेख शैली"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "कार्ड"
+    },
+    {
+      "name": "device_sync",
+      "value": "डिवाइस सिंक"
+    },
+    {
+      "name": "add_new_device",
+      "value": "नये डिवाइस जोड़ें"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "सिंक श्रृंखला पर डिवाइस"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "क्या आप वाकई डिवाइस %1$s को हटाना चाहते हैं?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "अपने डिवाइस पर, डिवाइस सिंक पर जाएं, और स्कैन सिंक कोड दबाएं।"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "इसे पासवर्ड की तरह समझें। यदि किसी के पास लिंक है तो वह आपके सिंक किए गए डेटा को पढ़ सकता है।"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR कोड"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "फीडर डिवाइस सिंक कोड"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "सिंक चेन छोड़ें"
+    },
+    {
+      "name": "sync_code",
+      "value": "कोड सिंक करें"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "सिंक श्रृंखला से जुड़ें"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "बारकोड स्कैनर नहीं मिल सका"
+    },
+    {
+      "name": "article_image",
+      "value": "आलेख छवि"
+    },
+    {
+      "name": "feed_icon",
+      "value": "फीड चिह्न"
+    },
+    {
+      "name": "text_scale",
+      "value": "पाठ पैमाना"
+    },
+    {
+      "name": "saved_articles",
+      "value": "सहेजे गए आलेख"
+    },
+    {
+      "name": "no_feeds",
+      "value": "कोई फीड नहीं"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s फीड"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s फीड्स"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s फीड्स"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s फीड्स"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s टैग्स"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s टैग्स"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s टैग्स"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s टैग्स"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "लाने के लिए कुछ नहीं मिला"
+    },
+    {
+      "name": "max_lines",
+      "value": "अधिकतम पंक्तियां"
+    },
+    {
+      "name": "filter_noun",
+      "value": "फिल्टर"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "सहेजा गया"
+    },
+    {
+      "name": "add_anyway",
+      "value": "फिर भी जोड़ें"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s शब्द"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s शब्द"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s शब्द"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s शब्द"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s शब्द"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s मिनट"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s मिनट"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s मिनट"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s शब्द"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s अपठित आलेख"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "लिंक एक HTML दस्तावेज़ नहीं है"
+    },
+    {
+      "name": "add_item",
+      "value": "आइटम जोड़ें"
+    },
+    {
+      "name": "sync_status",
+      "value": "सिंक स्थिति"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "पसंदीदा गहरी थीम"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "काली"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "टैग खोलें"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s अपठित आलेख"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s अपठित आलेख"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "सघन"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "अति सघन"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s अपठित आलेख"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "अतिरिक्त विशिष्ट आईडी उत्पन्न करें"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "केवल खराब आईडी वाले फीड के लिए सक्षम करें"
+    },
+    {
+      "name": "invalid_url",
+      "value": "मान्य यूआरएल नहीं"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "क्या आप वाकई सिंक श्रृंखला छोड़ना चाहते हैं?"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "सिंक कोड स्कैन करें या दर्ज करें"
+    },
+    {
+      "name": "already_read",
+      "value": "पहले ही पढ़ चुके हैं"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "आलेख सूची"
+    },
+    {
+      "name": "remove_device",
+      "value": "डिवाइस को हटाएं"
+    },
+    {
+      "name": "remove",
+      "value": "हटाएं"
+    },
+    {
+      "name": "new_indicator",
+      "value": "नया"
+    },
+    {
+      "name": "saved_article",
+      "value": "सहेजे गए आलेख"
+    },
+    {
+      "name": "save_article",
+      "value": "आलेख सहेजें"
+    },
+    {
+      "name": "unsave_article",
+      "value": "आलेख सहेजना बंद करें"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "फीड में आलेख का लिंक गायब है"
+    },
+    {
+      "name": "read_adjective",
+      "value": "पढ़ें"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "हाल ही में पढ़ा"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "अगले पर जाएं"
+    },
+    {
+      "name": "set_language",
+      "value": "भाषा निर्धारित करें"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "लिखे हुए को बोली में बदलने की सुविधा"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "ई इंक"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "डायनामिक रंग"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "गहरी"
+    },
+    {
+      "name": "show_only_title",
+      "value": "केवल शीर्षक दिखायें"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "डाउनलोड करने में विफल"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "पृष्ठ को पार्स करने में विफल"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "पेज में कोई फीड नहीं"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "सामग्री HTML नहीं है"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "RSS फीड को पार्स करने में विफल"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "JSON फीड को पार्स करने में विफल"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP त्रुटि"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "असमर्थित सामग्री प्रकार"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "संपूर्ण आलेख को पार्स करने में विफल"
+    },
+    {
+      "name": "no_url",
+      "value": "कोई URL नहीं"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "जवाब में कोई नहीं"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "कहीं से भी"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "पढ़ने का अनुमानित समय दिखाएं"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "सहेजे गए आलेख निर्यात करें"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "केवल एंड्रॉयड %1$s और उससे ऊपर पर उपलब्ध है"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "OPML आयात करने में विफल"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "सहेजे गए आलेख निर्यात करने में विफल"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (यह डिवाइस)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "डिवाइस को सिंक चेन से डिस्कनेक्ट करें"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "वैकल्पिक रूप से, अपने डिवाइस पर लिंक खोलें।"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "डिवाइस सिंक आपको अपने विभिन्न उपकरणों के बीच फीड सब्सक्रिप्शन को सिंक करने और आलेख पढ़ने की अनुमति देता है।"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "नई सिंक श्रृंखला प्रारंभ करें"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "एप्लिकेशन को फीड और आलेख पढ़ने की अनुमति देता है"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "बस अपनी सिंक श्रृंखला से उस कोड को स्कैन करें जिसे आपने किसी अन्य डिवाइस पर बनाया है, या एक नई सिंक श्रृंखला शुरू करें।"
+    },
+    {
+      "name": "secret_key",
+      "value": "गुप्त कुंजी"
+    },
+    {
+      "name": "only_from_end",
+      "value": "सिर्फ अंत से"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "फीडर पढ़ने-योग्य पहुंच"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "इस सेवा का भुगतान समुदाय द्वारा किया जाता है। यदि आपको यह उपयोगी लगे तो कृपया दान करने पर विचार करें।"
+    },
+    {
+      "name": "disabled",
+      "value": "अक्षम"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "सूचनाएं सक्षम करने से पहले अनुमति दी जानी चाहिए।"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "स्क्रॉल पर पढ़े गए के रूप में चिह्नित करें"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s फीड्स"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s मिनट"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s टैग"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "स्प्लिट स्क्रीन में ब्राउज़र खोलें"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s मिनट"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s टैग्स"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s मिनट"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "दोहरा आलेख छोड़ें"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "मौजूदा आलेखों के समान लिंक या शीर्षक वाले आलेखों को नजरअंदाज कर दिया जाता है"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "कॉम्पैक्ट कार्ड"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "ऑडियो चलाने के लिए छुएं"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "शीर्षक में अपठित आलेखों की संख्या दिखाएं"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

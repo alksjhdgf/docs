@@ -1,0 +1,7 @@
+[
+ {
+  "id": "blk-backend-notifications-widget",
+  "note": "Main session (fnd-app-init / owners of the shared files) needs to add: 1) entryability/EntryAbility.ets    - onCreate: call `NotificationActions.install(this.context)`, then `NotificationActions.onWant(want)`, both BEFORE `DeepLinkRouter.onCreateWant(want)`.    - onNewWant: call `NotificationActions",
+  "disposition": "切片 backend-notifications-widget 越权申报，待壳/共享件 owner 处置（3b 收口清账）（主会话补登：写入被宿主拦截）"
+ }
+]

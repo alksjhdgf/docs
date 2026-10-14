@@ -1,0 +1,187 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-readaloud.json",
+  "at": "2026-10-13T18:21:45.841Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-readaloud",
+  "steps": [
+    {
+      "i": 0,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 801
+    },
+    {
+      "i": 1,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3734
+    },
+    {
+      "i": 2,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 707
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3065
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^Feeder News",
+      "ms": 682
+    },
+    {
+      "i": 5,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Feeder News, 15\" @630,595",
+      "changed": true,
+      "ms": 3096
+    },
+    {
+      "i": 6,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1507
+    },
+    {
+      "i": 7,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Stack \"2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026\" @660,847",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": true,
+      "ms": 3102
+    },
+    {
+      "i": 8,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =0:59 minutes",
+      "ms": 677
+    },
+    {
+      "i": 9,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3076
+    },
+    {
+      "i": 10,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Read aloud",
+      "ms": 681
+    },
+    {
+      "i": 11,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Read aloud\" @338,990",
+      "changed": true,
+      "ms": 3049
+    },
+    {
+      "i": 12,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 12005
+    },
+    {
+      "i": 13,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-readaloud-playing.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-readaloud-playing.png",
+      "ms": 256
+    },
+    {
+      "i": 14,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 88
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "All feeds",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Feeder News",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 21",
+      "02",
+      ":",
+      "21",
+      "100",
+      "All feeds, 15",
+      "15",
+      "Saved articles",
+      "Feeder News, 15",
+      "2.24.0 released",
+      "by ⁨Jonas⁩, Saturday, October 10, 2026 at 8:26 PM",
+      "0:59 minutes",
+      "🚀 Features",
+      "•",
+      "Added per-feed article filtering rules (#1217) by @antoncarrot in #1217",
+      "🐛 Bug Fixes & Minor Changes",
+      "Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spacecowboy in #1226",
+      "Do not update feed url if selfLink would change between http and https (#1228) by @spacecowboy in #1228",
+      "Stopped changing feed urls to match selfLinks (#1257) by @spacecowboy in #1257",
+      "Share",
+      "Mark as unread",
+      "Save article",
+      "Read aloud"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "readerColumn"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

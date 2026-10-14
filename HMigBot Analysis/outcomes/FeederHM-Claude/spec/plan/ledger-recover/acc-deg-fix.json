@@ -1,0 +1,14 @@
+[
+ {
+  "id": "deg-acc-process-text-v2",
+  "kind": "no_equiv",
+  "note": "UT-A40/A41: menu order Copy/Paste/Cut/Select all is kept; third-party PROCESS_TEXT apps can't be listed/launched, only system items + in-app processors",
+  "symbols": [
+   "ACTION_PROCESS_TEXT",
+   "queryAbilityInfo"
+  ],
+  "probe": "grep SDK openharmony/ets/api + hms/ets/api：ACTION_PROCESS_TEXT、queryAbilityInfo 均 0 命中；TextMenuItemId 仅系统内置菜单项固定集合，无法枚举第三方文本处理能力",
+  "status": "open",
+  "disposition": "4a 验收收口登记·裁决成立"
+ }
+]

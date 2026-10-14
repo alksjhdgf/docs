@@ -1,0 +1,38 @@
+{
+  "resDirs": [
+    "app/src/main/res"
+  ],
+  "strings": {
+    "base": 411,
+    "locales": 46
+  },
+  "plurals": 5,
+  "colors": {
+    "base": 1,
+    "dark": 0
+  },
+  "icons": [
+    "ic_settings",
+    "ic_stat_sync",
+    "notification_open_in_browser",
+    "notification_play_circle_outline",
+    "placeholder_image_list_day_64dp",
+    "placeholder_image_list_night_64dp"
+  ],
+  "rasters": [
+    "blank_pixel",
+    "ic_launcher",
+    "ic_launcher_background",
+    "ic_launcher_foreground",
+    "ic_launcher_monochrome",
+    "ic_launcher_round",
+    "ic_stat_f",
+    "notification_check",
+    "youtube_icon"
+  ],
+  "integers": {},
+  "dimens": {},
+  "conflicts": [],
+  "skipped": [],
+  "warnings": []
+}

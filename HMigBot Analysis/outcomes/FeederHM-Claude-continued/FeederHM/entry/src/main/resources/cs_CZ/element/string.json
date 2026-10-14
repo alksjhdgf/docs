@@ -1,0 +1,1612 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Otevřít navigační lištu"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Zavřít navigační lištu"
+    },
+    {
+      "name": "action_settings",
+      "value": "Nastavení"
+    },
+    {
+      "name": "add_feed",
+      "value": "Přidat kanál"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Odebírat kanál"
+    },
+    {
+      "name": "tag",
+      "value": "Štítek"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL kanálu"
+    },
+    {
+      "name": "title",
+      "value": "Název"
+    },
+    {
+      "name": "save",
+      "value": "Uložit"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Nic ke čtení. Chtěli byste…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Otevřít jiný kanál?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Přidat více kanálů?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Zadejte adresu kanálu"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Označit jako přečtené"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Označit jako nepřečtené"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Označit vše jako přečtené"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Upravit kanál"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Odstranit kanál"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Zobrazit všechny články"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Zobrazit nepřečtené články"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Nové články jsou k dispozici"
+    },
+    {
+      "name": "view",
+      "value": "Náhled"
+    },
+    {
+      "name": "no_tag",
+      "value": "Bez štítku"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Upozorňovat na nové články"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Zastavit oznámení"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Otevřít odkaz v prohlížeči"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Otevřít připojená média"
+    },
+    {
+      "name": "sync",
+      "value": "Synchronizovat"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Exportovat kanály do OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importovat kanály z OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Zobrazit protokol ladění"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Na základě tohoto kanálu"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Ukazatel přečtení"
+    },
+    {
+      "name": "share",
+      "value": "Sdílet"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Kanál nebyl nalezen. Možná pomůže použít HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Nic k zobrazení!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Nastavení"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Všechny kanály"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Ručně"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Každých 15 minut"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Každých 30 minut"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Každou hodinu"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Každé 3 hodiny"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Každých 6 hodin"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Každých 12 hodin"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Každý den"
+    },
+    {
+      "name": "synchronization",
+      "value": "Synchronizace"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Pouze na Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Zobrazit miniatury"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Může mít za následek dodatečné poplatky za mobilní data."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Pouze při nabíjení"
+    },
+    {
+      "name": "image_loading",
+      "value": "Načítání obrázků"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Žádná aplikace nedokáže otevřít tento odkaz, zkuste první něco nainstalovat"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Aktualizovat kanály…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Po spuštění aplikace"
+    },
+    {
+      "name": "show_fab",
+      "value": "Zobrazit plovoucí tlačítko akcí"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Zahrnout mobilní hotspoty"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Aktualizované kanály"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Nepřečtené kanály"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Oznámení se zobrazují pouze pro nepřečtené články v nastavených kanálech"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Ve vloženém prohlížeči"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Ve výchozím prohlížeči"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Ve vlastní kartě"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Ve výchozím nastavení otevírat články"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Otevírat odkazy"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Volby čtení"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Otevřít odkaz ve webovém prohlížeči"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maximum článků v jednom kanálu"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Nelze načíst URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "Podle systému"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automaticky"
+    },
+    {
+      "name": "theme_day",
+      "value": "Denní"
+    },
+    {
+      "name": "theme_night",
+      "value": "Noční"
+    },
+    {
+      "name": "theme",
+      "value": "Motiv"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Od nejnovějších"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Od nejstarších"
+    },
+    {
+      "name": "sort",
+      "value": "Seřadit"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Odeslat chybové hlášení"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Nenalezen e-mailový klient"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Klepnutím přehrajete video"
+    },
+    {
+      "name": "open_feed",
+      "value": "Otevřít kanál"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Označit níže uvedené články za přečtené"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Seznam objevených kanálů"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Přepnout rozšíření štítku"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimalizace baterie"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Vypnuta"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Zapnuta"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Přenačtení přizpůsobené karty"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Označit výše uvedené články za přečtené"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Nelze zpracovat %1$s"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Načítání celého článku…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Nepodařilo se načíst celý článek"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Ve výchozím nastavení načítat celé články"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Načíst celý článek"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Nepodařilo se načíst převod textu na řeč"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Pokračovat v předčítání"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pozastavit předčítání"
+    },
+    {
+      "name": "read_article",
+      "value": "Předčítat článek"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Přepnout stav přečtení"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Otevřít v prohlížeči"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Ve vnitřní čtečce"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Použít výchozí"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Otevřít ve webovém prohlížeči"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Černý"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Složený štítek"
+    },
+    {
+      "name": "go_back",
+      "value": "Jít zpět"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Přejít na %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Nepřečtené"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Synchronizovat kanály"
+    },
+    {
+      "name": "open_menu",
+      "value": "Otevřít nabídku"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s nepřečtené články"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s nepřečtené články"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s nepřečtených článků"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Pouze povolit pro články se špatnými ID"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Rozbalený štítek"
+    },
+    {
+      "name": "syncing",
+      "value": "Synchronizace"
+    },
+    {
+      "name": "sync_status",
+      "value": "Stav synchronizace"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tmavý"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s přečtený článek"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s nepřečtených článků"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Nepodařilo se exportovat OPML"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Otevřít %1$s"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Ukončit předčítání"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Nepodařilo se otevřít článek"
+    },
+    {
+      "name": "already_read",
+      "value": "Přečtené"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Zobrazují se pouze nepřečtené články"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Zobrazují se všechny články"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s nepřečtených článků"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Styl článků"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Nahuštěný"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Jako karty"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Velmi nahuštěný"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generovat unikátní ID navíc"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Neplatná URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Nepodařilo se importovat OPML"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Preferovaný tmavý motiv"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Přidat nové zařízení"
+    },
+    {
+      "name": "remove_device",
+      "value": "Odebrat zařízení"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Zařízení v synchronizačním řetězu"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Na vašem zařízení otevřete nabídku synchronizace zařízení a stiskněte \"Skenovat synchronizační kód\"."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Můžete také otevřít ten odkaz na vašem zařízení."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR kód"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Odejít ze synchronizačního řetězu"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Synchronizační kód zařízení pro Feeder"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Synchronizace zařízení vám umožní synchronizovat vaše odběry kanálů a články mezi vašimi různými zařízeními."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skenovat synchronizační kód"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Utvořit nový synchronizační řetěz"
+    },
+    {
+      "name": "sync_code",
+      "value": "Synchronizační kód"
+    },
+    {
+      "name": "secret_key",
+      "value": "Tajný klíč"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Připojit se k synchronizačnímu řetězu"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Jste si jistí, že chcete odebrat zařízení %1$s?"
+    },
+    {
+      "name": "device_sync",
+      "value": "Synchronizace zařízení"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (toto zařízení)"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Chovejte se k tomu jako k heslu, kdokoliv kdo má tento odkaz, může číst vaše synchronizované data."
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Za tuto službu platí komunita, pokud ji shledávate užitečnou, zvažte prosím příspěvek."
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Odpojit zařízení ze synchronizačního řetězu"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Jednoduše naskenujte kód z vašeho synchronizačního řetězu, který jste vytvořili na jiném zařízení nebo vytvořte řetěz nový."
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Opravdu chcete opustit řetěz synchronizace?"
+    },
+    {
+      "name": "disabled",
+      "value": "Zakázáno"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Umožňuje aplikaci číst kanály a články"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Přístup k Feederu jen pro čtení"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Jen od konce"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Odkudkoliv"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Označte jako přečtené posunutím prstem do strany"
+    },
+    {
+      "name": "remove",
+      "value": "Odstranit"
+    },
+    {
+      "name": "block_list",
+      "value": "Černá listina"
+    },
+    {
+      "name": "add_item",
+      "value": "Přidat položku"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Nelze najít čtečku čárových kódů"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Detekovat jazyk"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Automaticky detekuje jazyk článku"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Před povolením oznámení je nutné udělit oprávnění."
+    },
+    {
+      "name": "article_image",
+      "value": "Obrázek článku"
+    },
+    {
+      "name": "set_language",
+      "value": "Nastavit jazyk"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Dostupné pouze v Androidu %1$s nebo vyšším"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Přeskočit na další"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Převod textu na řeč"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nový"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynamické barvy"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synchronizovat pro načtení článku"
+    },
+    {
+      "name": "text_scale",
+      "value": "Textové měřítko"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Skryje články s nadpisy obsahujícími některý z těchto filtrů. Příklady filtrů:"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Ikona kanálu"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Uložené články"
+    },
+    {
+      "name": "saved_article",
+      "value": "Uložený článek"
+    },
+    {
+      "name": "save_article",
+      "value": "Uložit článek"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Přestat ukládat článek"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Označit jako přečtené při posouvání"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Žádné kanály"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s kanálů"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s kanál"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s kanály"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s tagů"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s tagy"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s tagů"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s tagů"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s tagů"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s kanálů"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s kanálů"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s kanálů"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importovat %1$s s %2$s?"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "V kanálu chybí odkaz na článek"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Odkaz není HTML dokument"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Nenašlo se nic, co by se dalo stáhnout"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Seznam článků"
+    },
+    {
+      "name": "max_lines",
+      "value": "Max. počet řádků"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Přečtené"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Uložené"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Zobrazit pouze titulek"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filtr"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Nedávno přečtené"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Stažení se nezdařilo"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Nepodařilo se zpracovat stránku"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Na stránce nejsou žádné kanály"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Obsah není HTML"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Nepodařilo se zpracovat kanál RSS"
+    },
+    {
+      "name": "http_error",
+      "value": "Chyba HTTP"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Nepodařilo se zpracovat kanál JSON"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Nepodporovaný typ obsahu"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Nepodařilo se zpracovat celý článek"
+    },
+    {
+      "name": "no_url",
+      "value": "Žádná URL adresa"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-papír"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Přesto přidat"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Žádné tělo v odpovědi"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Otevření prohlížeče na rozdělené obrazovce"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Zobrazit odhadovaný čas čtení"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s slova"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minuta"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minuty"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s slovo"
+    },
+    {
+      "name": "close_menu",
+      "value": "Zavřít menu"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Export uložených článků"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Nepodařilo se exportovat uložené články"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Přeskočit duplicitní články"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Články s odkazy nebo názvy shodnými s existujícími články jsou ignorovány"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompaktní karty"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Dotykem přehrajete zvuk"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Zobrazit počet nepřečtených článků v nadpisu"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI a překlady"
+    },
+    {
+      "name": "model_id",
+      "value": "Id modelu"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Verze API Azure"
+    },
+    {
+      "name": "api_key",
+      "value": "Klíč API"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Nelze načíst modely."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Nebyly nalezeny žádné modely"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Id nasazení Azure"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Seznam dostupných modelů"
+    },
+    {
+      "name": "summarize",
+      "value": "Shrnutí"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Zobrazit kanály poté, co označíte všechny jako přečtené"
+    },
+    {
+      "name": "show_message",
+      "value": "Zobrazit zprávu"
+    },
+    {
+      "name": "search_verb",
+      "value": "Vyhledat"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Zrušit vyhledávání"
+    },
+    {
+      "name": "on",
+      "value": "Zapnout"
+    },
+    {
+      "name": "off",
+      "value": "Vypnout"
+    },
+    {
+      "name": "text",
+      "value": "Text"
+    },
+    {
+      "name": "font",
+      "value": "Font"
+    },
+    {
+      "name": "text_preview",
+      "value": "Náhled textu"
+    },
+    {
+      "name": "system_default",
+      "value": "Výchozí nastavení systému"
+    },
+    {
+      "name": "weight",
+      "value": "Váha"
+    },
+    {
+      "name": "add_font",
+      "value": "Přidat font…"
+    },
+    {
+      "name": "bold",
+      "value": "Tučné"
+    },
+    {
+      "name": "italic",
+      "value": "Kurzíva"
+    },
+    {
+      "name": "text_settings",
+      "value": "Nastavení textu"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Nepodařilo se přidat font"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Nepodařilo se smazat font"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Něco se nepovedlo"
+    },
+    {
+      "name": "time_out",
+      "value": "Časový limit (sekundy)"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Časový limit pro AI požadavky"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Časový limit musí být v rozmezí 30 až 600 sekund"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Shrnout při otevření"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Návrhy"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Kompatibilní s mnoha AI poskytovateli (ale ne se všemi)"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Použít na souhrny"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Otevřít ve čtečce"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Otevřít ve výchozím prohlížeči"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Otevřít ve vlastní kartě"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Nepodařilo se otevřít článek v prohlížeči"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Nepodařilo se otevřít článek ve vlastní kartě"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Obnovování"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Režim stránkování"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Navigovat se po článcích „otáčením stránek“ namísto průběžného posouvání. Optimalizováno pro zařízení s technologií e-ink."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animované otáčení stránek"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Animovat otáčení stránek. Na některých e-ink zařízeních může způsobit ghosting."
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Preferovaný jazyk překladu"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Vyberte jazyk, do kterého má Feeder překládat."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Vybrat jazyk"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Importovat uložené články"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Nepodařilo se importovat uložené články"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Zlepšit kvalitu náhledů z metadat článků"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Pokusit se zlepšit chybějící nebo nekvalitní náhledy v tomto kanále"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "API souhrnů"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Použito pro souhrny článků."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "API překladů"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Použito pro překlad karet kanálů a článků."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "Autentifikační klíč DeepL"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Poskytovatel"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Nenastaveno"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Poskytovatel: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Žádný"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI nebo kompatibilní"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Základní adresa (nepovinná)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Koncový bod překladu"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Před uložením zadejte klíč API."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Před uložením zadejte klíč API DeepL."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Před uložením zadejte ID modelu."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Ověřování nastavení API…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "Nastavení API se nepodařilo ověřit."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Před uložením zadejte koncový bod Azure."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Před uložením zadejte ID nasazení Azure."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Před uložením zadejte vaši verzi API Azure."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Ověřování nastavení Azure OpenAI…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Nastavení Azure OpenAI se nepodařilo ověřit."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Ověřování klíče DeepL…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "Klíč DeepL se nepodařilo ověřit."
+    },
+    {
+      "name": "translate_article",
+      "value": "Přeložit článek"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Zobrazit původní (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "původní"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Nastavte preferovaný jazyk překladu v nastavení AI"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Přeložit náhledy článků"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Ve výchozím nastavení překládat články"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Lokální offline"
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "preferovaný jazyk"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Článek je příliš velký. Chcete jej otevřít v prohlížeči?"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "VAROVÁNÍ! Toto je Beta funkce. Před jejím povolením proveďte export OPML všech vašich kanálů a uložte jej jako zálohu."
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Místní překlad vyžaduje Android 12 nebo novější."
+    },
+    {
+      "name": "rename_tag",
+      "value": "Přejmenovat štítek"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Nepodařilo se přehrát tento zvukový soubor"
+    },
+    {
+      "name": "play_audio",
+      "value": "Přehrát zvuk"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Pozastavit zvuk"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Zastavit zvuk"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Přejít zpět o 10 sekund"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Přejít vpřed o 10 sekund"
+    },
+    {
+      "name": "open_settings",
+      "value": "Otevřít nastavení"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Přehrávat zvukové odkazy vestavěným přehrávačem"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Pokud je zakázáno, otevřou se místo toho zvukové odkazy ve vaší výchozí aplikaci"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Příprava offline modelu překladače %1$s do %2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Stahování offline modelu překladače %1$s do %2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "První stažení může mít 20–50 MB a může trvat několik minut. Překlad bude následně fungovat offline."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Lokální překlad není na tomto zařízení dostupný."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Nepodařilo se vytvořit lokální překladač."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Lokální překlad vypršel."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Lokální překlad selhal."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Lokální překlad nevrátil žádný text."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Lokální překladač nebyl připraven. Zkontrolujte nastavení překladu a zkuste to znovu."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Nebyl nalezen model Bergamot pro %1$s -> %2$s. Zkontrolujte systémové jazyky překladu"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Překlad Bergamot vypršel."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Překlad Bergamot selhal."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Pro stažení seznamu modelů se připojte."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Nepodařilo se stáhnout model %1$s -> %2$s."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Překlad Bergamot WebView vypršel."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView není připraven."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Nepodařilo se zpracovat odpověď Bergamotu."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Používá nejprve překlad vašeho zařízení."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Pokud je nedostupný, může Feeder použít svůj offline překladač, který je k dispozici ke stažení."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Zobrazit pouze jazyky k dispozici ke stažení"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Stažené modely překladu"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Offline jazyky překladu stažené Feederem. Pro uvolnění místa odstraňte jazyky, které již nepotřebujete."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Smazat model"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Smazat překladový model z %1$s do %2$s (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Smazat všechny stažené modely"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Smazat všech %1$d stažených překladových modelů (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Smazán model z %1$s do %2$s"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Smazány všechny stažené modely"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Zatím nebyly staženy žádné překladové modely. Překlad si automaticky stáhne potřebný model."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Smazat"
+    },
+    {
+      "name": "cancel",
+      "value": "Zrušit"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Vynutit jeden sloupec"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Použít na odkazy"
+    },
+    {
+      "name": "filters",
+      "value": "Filtry"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "Pro pokračování si stáhněte offline překladač."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Stáhnout offline překladač?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder stáhne spustitelné prostředí WebAssemly o velikost 4,9 MB z projektu Mozilla/Bergamot. Tento kód nebyl sestaven ani zkontrolován F-Droidem. Po stažení budou překlady fungovat offline."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Nepoodařilo se stáhnout offline překladač."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Stahování offline překladače: %1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "Stáhnout"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "Pravidla filtrování článků"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "Jedno pravidlo na řádek, ve formátu NázevPole=vzor. Dostupná pole jsou Title, URL, Author, Tag a Content. Vzor je regulární výraz, který může odpovídat čemukoli v poli; pro ignorování velikosti písmen přidejte na začátek (?i). Pravidla budou použita při dalším načtení a neovlivňují již uložené články."
+    },
+    {
+      "name": "block_rules",
+      "value": "Pravidla blokování"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "Odpovídající články nebudou nikdy staženy. Na rozdíl od seznamu blokování je tato akce nevratná: odstranění pravidla nevrátí články, které již byly přeskočeny."
+    },
+    {
+      "name": "allow_rules",
+      "value": "Pravidla povolených"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "Pokud je nastaveno jakékoli pravidlo povolení, budou staženy pouze odpovídající články. Pravidlo Tag je přeskočeno pro články, které nemají žádné štítky, takže kanál bez štítků nebude promazán pouze samotným pravidlem Tag."
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)sponzor"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "Řádek %1$d: chybějící '='. Neplatné řádky jsou ignorovány."
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "Řádek %1$d: '%2$s' není platné pole. Neplatné řádky jsou ignorovány."
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "Řádek %1$d: vzor je prázdný, což by odpovídalo všemu. Neplatné řádky jsou ignorovány."
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "Řádek %1$d: neplatný regulární výraz. Neplatné řádky jsou ignorovány."
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "Řádek %1$d: je použito pouze prvních %2$d pravidel. Další řádky jsou ignorovány."
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

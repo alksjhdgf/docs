@@ -1,0 +1,147 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-swipe",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "^Feeder News",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "^Feeder News"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Mark all as read",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Mark all as read"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^Feeder News[^,]*$"
+   ]
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    1250,
+    850
+   ],
+   "to": [
+    300,
+    850
+   ],
+   "speed": 800,
+   "ms": 2000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^Feeder News[^,]*, 1$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-swipe-unread1"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    1250,
+    850
+   ],
+   "to": [
+    300,
+    850
+   ],
+   "speed": 800,
+   "ms": 2000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^Feeder News[^,]*$"
+   ]
+  },
+  {
+   "op": "probe",
+   "match": [
+    "^Feeder News[^,]*, \\d+$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-swipe-read-again"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

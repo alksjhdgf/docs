@@ -1,0 +1,72 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "Feed",
+  "kind": "skeleton",
+  "slice": "page-feed",
+  "route": "Feed",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "Feed"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "ID_UNSET",
+        "ID_ALL_FEEDS",
+        "All feeds",
+        "ID_SAVED_ARTICLES",
+        "Saved articles",
+        "pref_show_title_unread_count",
+        "\\(N\\)",
+        "Open navigation drawer",
+        "Search",
+        "Filter",
+        "Open menu",
+        "Cancel search",
+        "Unread",
+        "Saved",
+        "Recently read",
+        "Read",
+        "Mark all as read",
+        "Sync feeds",
+        "Add feed",
+        "Edit feed",
+        "Delete feed",
+        "Rename tag",
+        "Import feeds from OPML",
+        "Export feeds to OPML",
+        "Import saved articles",
+        "Export saved articles",
+        "Settings",
+        "Cancel",
+        "Failed to import OPML",
+        "Failed to export OPML",
+        "Failed to import saved articles",
+        "Failed to export saved articles",
+        "Open another feed\\?",
+        "Add more feeds\\?",
+        "pref_show_fab",
+        "pref_open_drawer_on_fab",
+        "pref_force_single_column",
+        "pref_feed_item_style",
+        "Open in reader",
+        "Open in custom tab",
+        "Open in default browser",
+        "Unable to open article in custom tab",
+        "Unable to open article in browser",
+        "Mark the above as read",
+        "Save article",
+        "Stop saving article"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "Feed"
+    }
+  ]
+}

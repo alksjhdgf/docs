@@ -1,0 +1,99 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-device.json",
+  "at": "2026-10-13T18:10:59.842Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-device",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "直达 Settings",
+      "ms": 3692
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Theme",
+      "ms": 714
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Theme\" @369,434",
+      "changed": true,
+      "ms": 3088
+    },
+    {
+      "i": 3,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Night",
+      "ms": 688
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Settings",
+      "Theme, System",
+      "Theme",
+      "System",
+      "Dynamic colors, Only available on Android 12 and above",
+      "Dynamic colors",
+      "Only available on Android 12 and above",
+      "Preferred dark theme, Black",
+      "Preferred dark theme",
+      "Black",
+      "Notify for new items",
+      "Block list",
+      "Filters",
+      "Apply to summaries",
+      "Apply to links",
+      "Text",
+      "Text settings, Roboto",
+      "Text settings",
+      "Roboto",
+      "Syncing",
+      "Look for new articles…, Every hour",
+      "02, :, 10",
+      "02",
+      ":",
+      "10",
+      "100",
+      "Day",
+      "Night",
+      "E Ink"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

@@ -1,0 +1,5106 @@
+{
+  "version": "0.1.0",
+  "engine": "arkanalyzer+regex",
+  "arkVersion": "1.0.8",
+  "sources": [
+    "entry/src/main/ets/core",
+    "entry/src/main/ets/ui/common",
+    "entry/src/main/ets/entryability"
+  ],
+  "fileCount": 127,
+  "symbolCount": 1273,
+  "symbols": {
+    "AppScope": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/AppBootstrap.ets"
+    },
+    "AppBootstrap": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/AppBootstrap.ets"
+    },
+    "AVOID_AREA_KEY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/AvoidArea.ets"
+    },
+    "AvoidArea": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/AvoidArea.ets"
+    },
+    "AvoidAreaStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/AvoidArea.ets"
+    },
+    "PENDING_DEEP_LINK_KEY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "DeepLinkTarget": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "matchDeepLink": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "resolveWant": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "DeepLinkRouter": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "EXTRA_FEEDITEMS_TO_MARK_AS_NOTIFIED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "ACTION_OPEN_IN_CUSTOM_TAB": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "COL_LINK": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "FEED_ITEMS_PATH_SEGMENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "ACTION_VIEW_DATA": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "ACTION_SEND_DATA": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "OPML_MIME_TYPES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "FeedParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "ArticleParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "EditFeedParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "SearchFeedParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "AddFeedParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "SyncParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "AddFeedFromShareParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "ImportOpmlFileParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "SettingsRouteParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "TextSettingsRouteParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "OpenLinkKind": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "OpenLinkInDefaultParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "QueryParamsBuilder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "uriEncode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "uriDecode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "NavRoutes": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "feedDeepLink": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "articleDeepLink": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "syncJoinDeepLink": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "feedItemNotificationUri": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "ParsedUri": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "parseUri": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "parseLongOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/DeepLinkRouter.ets"
+    },
+    "formEncode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/RouteParams.ets"
+    },
+    "queryParamDecode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/app/RouteParams.ets"
+    },
+    "RSS_PROVIDER_AUTHORITY_SUFFIX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "RSS_PROVIDER_READ_PERMISSION_SUFFIX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "MIME_FEEDS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "MIME_ARTICLES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "MIME_ARTICLES_IN_FEED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "ReadOnlyCursor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "UnsupportedOperationError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "RssReadOnlyApi": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/app/RssReadOnlyApi.ets"
+    },
+    "DATABASE_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "DATABASE_VERSION": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "DATABASE_IDENTITY_HASH": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_FEEDS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_FEED_ITEMS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_BLOCKLIST": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_SYNC_REMOTE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_READ_STATUS_SYNCED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_REMOTE_READ_MARK": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_REMOTE_FEED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "TABLE_SYNC_DEVICE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "VIEW_NAV_DRAWER": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "SqlArg": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "placeholders": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "numArgs": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "strArgs": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "boolArg": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "DbConn": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "DbChangeCallback": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "DbNotifier": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "observeQuery": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "AppDatabase": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/AppDatabase.ets"
+    },
+    "BlocklistEntry": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/BlocklistDao.ets"
+    },
+    "BlocklistDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/BlocklistDao.ets"
+    },
+    "RowMapper": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colIndex": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colIsNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colStr": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colStrOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colNum": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colNumOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colBool": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colInstant": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colInstantOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colUrlOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colPubDate": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "colThumbnail": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readAll": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFirst": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readScalarNumber": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readStringColumn": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readNumberColumn": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeed": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "feedToValues": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "FEED_COLUMNS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeedTitle": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeedForSettings": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeedUnreadCount": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeedItem": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "feedItemToValues": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "FEED_ITEM_COLUMNS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "FEED_ITEM_COLUMNS_WITH_FEED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeedItemWithFeed": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readPreviewItem": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeedItemIdWithLink": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "readFeedItemForReadMark": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "setClause": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "valuesInOrder": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/DbRows.ets"
+    },
+    "DbConstraintError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/FeedDao.ets"
+    },
+    "FeedDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/FeedDao.ets"
+    },
+    "FEED_ITEM_LIST_SORT_ORDER_DESC": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/FeedItemDao.ets"
+    },
+    "FEED_ITEM_LIST_SORT_ORDER_ASC": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/FeedItemDao.ets"
+    },
+    "FeedItemWithText": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/db/FeedItemDao.ets"
+    },
+    "FeedItemTextBlock": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/db/FeedItemDao.ets"
+    },
+    "ContentProviderItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/FeedItemDao.ets"
+    },
+    "rawQueryFilter": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/FeedItemDao.ets"
+    },
+    "FeedItemDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/FeedItemDao.ets"
+    },
+    "DEFAULT_SERVER_ADDRESS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "DEPRECATED_SYNC_HOSTS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "SYNC_REMOTE_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "SecretKeyGenerator": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "setSecretKeyGenerator": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "generateSecretKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "generateDeviceName": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "SyncRemote": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "ReadStatusSynced": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "RemoteReadMark": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "RemoteReadMarkReadyToBeApplied": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "RemoteFeed": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "SyncDevice": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "SyncRemoteDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "ReadStatusSyncedDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "RemoteReadMarkDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "RemoteFeedDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "SyncDeviceDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/db/SyncDaos.ets"
+    },
+    "detectAllCharsets": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/CharsetDetector.ets"
+    },
+    "CharsetMatch": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetDetector.ets"
+    },
+    "BYTE_MAP_8859_1": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_8859_2": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_8859_5": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_8859_6": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_8859_7": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_8859_8_I": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_1251": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_1256": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_KOI8_R": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "BYTE_MAP_8859_9": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_EN": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_DA": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_DE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_ES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_FR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_IT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_NL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_NO": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_PT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_1_SV": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_2_CS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_2_HU": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_2_PL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_2_RO": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_5_RU": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_6_AR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_7_EL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_8_I_HE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_8_HE_VISUAL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_1251_RU": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_1256_AR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_KOI8_R_RU": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "NGRAMS_8859_9_TR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "COMMON_CHARS_SJIS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "COMMON_CHARS_GB18030": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "COMMON_CHARS_EUC_JP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "COMMON_CHARS_EUC_KR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "COMMON_CHARS_BIG5": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetDetectorData.ets"
+    },
+    "DetectorInput": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "CharsetRecognizer": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "binarySearch": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "RecogUtf8": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "adjustUtf16Confidence": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "RecogUtf16": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "RecogUtf32": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "ESC_2022_JP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "ESC_2022_KR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "ESC_2022_CN": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "escapeSequenceAt": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "Recog2022": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizers.ets"
+    },
+    "IteratedChar": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogMbcs": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogSjis": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogEuc": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogEucJp": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogEucKr": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogBig5": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogGb18030": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "NGramLanguage": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "SPACE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "ngramConfidence": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "RecogSbcs": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/CharsetRecognizersLegacy.ets"
+    },
+    "FeedParserErrorKind": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "FeedParserError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "NotInitializedYet": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "FetchError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "NotHTML": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "MetaDataParseError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "RSSParseError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "JsonFeedParseError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "NoAlternateFeeds": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "HttpError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "UnsupportedContentType": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "NoBody": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "NoUrl": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "FullTextDecodingFailure": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "FullTextTooLarge": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FeedParserError.ets"
+    },
+    "parseFullArticle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextExtract.ets"
+    },
+    "findMetaCharset": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextExtract.ets"
+    },
+    "detectCharset": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextExtract.ets"
+    },
+    "toJavaCharset": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextExtract.ets"
+    },
+    "isSupportedCharset": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextExtract.ets"
+    },
+    "decodeWithCharset": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextExtract.ets"
+    },
+    "MAX_FULL_TEXT_BYTES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/FullTextParser.ets"
+    },
+    "FULL_TEXT_READ_CAP_BYTES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/FullTextParser.ets"
+    },
+    "FullTextParser": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/FullTextParser.ets"
+    },
+    "writeGzipTextFile": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextParser.ets"
+    },
+    "readGzipTextFile": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextParser.ets"
+    },
+    "fullArticleFilePath": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/FullTextParser.ets"
+    },
+    "NODE_ELEMENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "NODE_TEXT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "NODE_DATA": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "NODE_COMMENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "NODE_DOCUMENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "BLOCK_TAGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "VOID_TAGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "PRESERVE_WS_TAGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "isActuallyWhitespace": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "isHtmlWhitespace": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "appendNormalisedWhitespace": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "lastCharIsWhitespace": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "javaTrim": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "escapeHtmlText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "TextAccum": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlChars.ets"
+    },
+    "HtmlDocument": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlDocument.ets"
+    },
+    "isBaseNamedEntity": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlEntities.ets"
+    },
+    "isNamedEntity": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlEntities.ets"
+    },
+    "lookupEntity": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlEntities.ets"
+    },
+    "numericReference": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlEntities.ets"
+    },
+    "isAsciiLetter": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlEntities.ets"
+    },
+    "unescapeEntities": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlEntities.ets"
+    },
+    "HtmlLinearizer": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlLinearizer.ets"
+    },
+    "ListBuilderScope": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlLinearizer.ets"
+    },
+    "stripHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlLinearizer.ets"
+    },
+    "resolveImageUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlLinearizer.ets"
+    },
+    "getImageSource": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlLinearizer.ets"
+    },
+    "LinearTextBuilder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlLinearizer.ets"
+    },
+    "NodeVisitor": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/html/HtmlNode.ets"
+    },
+    "HtmlNode": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlNode.ets"
+    },
+    "parseHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlParser.ets"
+    },
+    "parseBodyFragment": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlParser.ets"
+    },
+    "resolveUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlParser.ets"
+    },
+    "SelectorParseError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlSelector.ets"
+    },
+    "SelectorGroup": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlSelector.ets"
+    },
+    "compileSelector": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlSelector.ets"
+    },
+    "select": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlSelector.ets"
+    },
+    "selectFirst": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlSelector.ets"
+    },
+    "matchesSelector": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlSelector.ets"
+    },
+    "closest": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlSelector.ets"
+    },
+    "HEAD_TAGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "RAW_DATA_TAGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "CLOSES_P": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "HEADINGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "SPECIAL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "FORMATTING": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "SCOPE_DEFAULT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "SCOPE_TABLE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "TABLE_CONTEXT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "TABLE_SECTIONS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "TABLE_ALLOWED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "MARKER_TAGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "NO_RECONSTRUCT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/HtmlTags.ets"
+    },
+    "repeated": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlToPlainText.ets"
+    },
+    "HtmlToPlainTextConverter": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlToPlainText.ets"
+    },
+    "htmlToPlainText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlToPlainText.ets"
+    },
+    "plainContentOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlToPlainText.ets"
+    },
+    "shallowClone": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlTreeBase.ets"
+    },
+    "TreeBuilderBase": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlTreeBase.ets"
+    },
+    "TreeBuilder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlTreeBuilder.ets"
+    },
+    "stripControlChars": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUrl.ets"
+    },
+    "IOException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "kotlinToIntOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "isTrackingPixel": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "isSocialIconUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "findFirstImageInHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "extractOgImage": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "streamHeadContent": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "OgHttpResponse": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "OgHttpGet": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "isHtmlContentType": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "fetchOgImage": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/HtmlUtils.ets"
+    },
+    "LinearArticle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "idsOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "idSet": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextBlockStyle": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "shouldSoftWrap": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationKind": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationData": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationLink": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationFont": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationH1": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationH2": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationH3": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationH4": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationH5": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationH6": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationBold": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationItalic": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationMonospace": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationUnderline": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationStrikethrough": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationSuperscript": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationSubscript": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotationCode": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTextAnnotation": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearElementType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "linearIdsToString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "linearElementsToString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearElement": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearText": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearImageSource": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearImage": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearVideoSource": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearVideo": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearAudioSource": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearAudio": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearListItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearListItemBuilder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearList": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearListBuilder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearBlockQuote": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTableCellItemType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "Coordinate": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "coordinateKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTableCellItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTable": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "LinearTableBuilder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/LinearArticle.ets"
+    },
+    "SPACE_CODE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/LinearTextBuilder.ets"
+    },
+    "isCollapsableWhiteSpaceCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearTextBuilder.ets"
+    },
+    "kotlinIsWhitespace": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearTextBuilder.ets"
+    },
+    "kotlinTrimEnd": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearTextBuilder.ets"
+    },
+    "kotlinIsBlank": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearTextBuilder.ets"
+    },
+    "appendCorrectlyNormalizedWhiteSpace": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearTextBuilder.ets"
+    },
+    "appendOneNormalizedWhitespace": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearTextBuilder.ets"
+    },
+    "kotlinTrim": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "kotlinToFloat": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "parseStyleDeclarations": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "allIds": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "descendantImageCandidates": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "ancestorImageCandidates": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "isHiddenByCSS": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "appendCorrectlyNormalizedWhiteSpaceRecursively": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/LinearizerHelpers.ets"
+    },
+    "escText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/MarkdownInline.ets"
+    },
+    "renderInline": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/MarkdownInline.ets"
+    },
+    "escapeHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/MarkdownToHtml.ets"
+    },
+    "MarkdownToHtmlConverter": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/MarkdownToHtml.ets"
+    },
+    "Readability": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/Readability.ets"
+    },
+    "parseReadability": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/Readability.ets"
+    },
+    "ReadabilityArticle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/html/Readability.ets"
+    },
+    "FLAG_STRIP_UNLIKELYS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "FLAG_WEIGHT_CLASSES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "FLAG_CLEAN_CONDITIONALLY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "RE_UNLIKELY_CANDIDATES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "RE_OK_MAYBE_CANDIDATE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "RE_POSITIVE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "RE_NEGATIVE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "RE_BYLINE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "RE_VIDEOS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "RE_HAS_CONTENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "DEFAULT_TAGS_TO_SCORE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "DIV_TO_P_ELEMS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "ALTER_TO_DIV_EXCEPTIONS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "CLASSES_TO_PRESERVE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "READABILITY_STYLED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "getNextNode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "removeAndGetNext": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "descendantsByTag": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "removeNodes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "getNodeAncestors": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "hasAncestorTag": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "getInnerText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "getCharCount": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "getLinkDensity": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "isElementWithoutContent": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "hasSingleTagInsideElement": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "hasChildBlockElement": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "isPhrasingContent": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "isWhitespaceNode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "isProbablyVisible": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "prepareDocument": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "cleanStyles": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "markDataTables": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "cleanTag": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "cleanMatchedNodes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "cleanShareNodes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "removeExtraParagraphs": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "fixRelativeUris": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "cleanClasses": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityCleaner.ets"
+    },
+    "getMetaContent": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityMetadata.ets"
+    },
+    "getArticleTitle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/html/ReadabilityMetadata.ets"
+    },
+    "ID_UNSET": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "ID_ALL_FEEDS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "ID_SAVED_ARTICLES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "PREF_VAL_OPEN_WITH_READER": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "PREF_VAL_OPEN_WITH_WEBVIEW": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "PREF_VAL_OPEN_WITH_BROWSER": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "PREF_VAL_OPEN_WITH_CUSTOM_TAB": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "ThemeOptions": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "THEME_OPTIONS_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "themeOptionsStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "themeOptionsToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "themeOptionsFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "DarkThemePreferences": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "DARK_THEME_PREFERENCES_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "darkThemePreferencesStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "darkThemePreferenceToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "darkThemePreferenceFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "SortingOptions": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "SORTING_OPTIONS_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "sortingOptionsStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "sortingOptionsToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "sortingOptionsFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "ItemOpener": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "ITEM_OPENER_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "itemOpenerStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "itemOpenerToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "itemOpenerFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "LinkOpener": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "LINK_OPENER_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "linkOpenerStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "linkOpenerToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "linkOpenerFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "SyncFrequency": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "SYNC_FREQUENCY_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "syncFrequencyMinutes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "syncFrequencyName": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "syncFrequencyStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "syncFrequencyToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "syncFrequencyFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "FeedItemStyle": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "FEED_ITEM_STYLE_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "feedItemStyleStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "feedItemStyleToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "feedItemStyleFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "SwipeAsRead": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "SWIPE_AS_READ_VALUES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "swipeAsReadStringKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "swipeAsReadToStoredString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "swipeAsReadFromString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Enums.ets"
+    },
+    "OPEN_ARTICLE_WITH_APPLICATION_DEFAULT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "DEFAULT_URL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "EPOCH_MS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "isBlankString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "Feed": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "FeedForSettings": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "FeedTitle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "FeedUnreadCount": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "ZonedDateTimeValue": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "JavaTime": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "JavaUrl": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "Converters": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Feed.ets"
+    },
+    "MAX_TITLE_LENGTH": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "MAX_SNIPPET_LENGTH": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "WORD_COUNT_MAX_CHARS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "FeedItemForFetching": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "FeedItemCursor": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "ReadStatusFeedItem": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "PlainTextConverter": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "enclosureFilenameOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "estimateWordCount": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "FeedItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "FeedItemWithFeed": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "FeedItemIdWithLink": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "FeedItemForReadMark": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "FeedListItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/FeedItem.ets"
+    },
+    "ParsedAuthor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "ParsedEnclosure": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "ParsedArticle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "ParsedFeed": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "AlternateLink": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "SiteMetaData": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "PREVIEW_COLUMNS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "PreviewItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "linkHost": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Parsed.ets"
+    },
+    "THUMBNAIL_TYPE_IMAGE_FROM_HTML": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "THUMBNAIL_TYPE_ENCLOSURE_IMAGE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "THUMBNAIL_TYPE_MEDIA_IMAGE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "ThumbnailImage": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "ImageFromHTML": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "EnclosureImage": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "MediaImage": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "thumbnailEquals": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "ThumbnailImagePolicy": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Thumbnail.ets"
+    },
+    "parseHttpDate": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "formatHttpDate": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "CacheStrategy": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "isCacheable": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "invalidatesCache": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "computeCacheStrategy": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "combineHeaders": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "varyFields": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/CacheStrategy.ets"
+    },
+    "HttpDiskCache": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpCache.ets"
+    },
+    "MAIN_HTTP_CACHE_SIZE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/net/HttpClient.ets"
+    },
+    "IMAGE_HTTP_CACHE_SIZE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/net/HttpClient.ets"
+    },
+    "IMAGE_DISK_CACHE_SIZE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/net/HttpClient.ets"
+    },
+    "HttpClientConfig": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpClient.ets"
+    },
+    "BasicAuthInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpClient.ets"
+    },
+    "HttpClient": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpClient.ets"
+    },
+    "headersToMap": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/HttpClient.ets"
+    },
+    "HttpHeaders": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "CacheControl": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "MediaType": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "HttpRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "hostOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "HttpResponse": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "decodeBytes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "basicCredentials": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "stripUserInfo": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "InterceptorChain": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "Interceptor": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/net/HttpMessages.ets"
+    },
+    "USER_AGENT_PRODUCT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "userAgentString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "UserAgentInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "RateLimitedInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "ForceCacheOnSomeFailuresInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "onlyIfCachedForever": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "TooManyRequestsInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "AlwaysUseCacheIfPossibleRequestsInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "currentlyUnmetered": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "ImageOnlyOnWifiInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "AsyncMutex": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "OneImageRequestPerHostInterceptor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "isDataUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "decodeDataUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/Interceptors.ets"
+    },
+    "NetworkIOException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/NetworkResult.ets"
+    },
+    "HttpStatusException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/NetworkResult.ets"
+    },
+    "NetworkResult": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/NetworkResult.ets"
+    },
+    "NetworkSuccess": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/NetworkResult.ets"
+    },
+    "NetworkHttpError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/NetworkResult.ets"
+    },
+    "NetworkError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/NetworkResult.ets"
+    },
+    "toError": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/net/NetworkResult.ets"
+    },
+    "RateLimiter": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/net/RateLimiter.ets"
+    },
+    "stripWrappingDiv": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/AtomFeedParser.ets"
+    },
+    "parseAtomText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/AtomFeedParser.ets"
+    },
+    "parseAtomFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/AtomFeedParser.ets"
+    },
+    "GoTime": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/FeedDates.ets"
+    },
+    "daysFromCivil": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedDates.ets"
+    },
+    "civilFromDays": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedDates.ets"
+    },
+    "parseFeedDate": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedDates.ets"
+    },
+    "parsedUtcDateString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedDates.ets"
+    },
+    "parsedDateString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedDates.ets"
+    },
+    "parseGoFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "FeederGoItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "asParsedArticle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "goFeedAsFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "copyParsedFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "okHttpCanonicalUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "parseFeedBody": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "parseFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "parseFeedHttpResponse": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "parseFeedUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedMapping.ets"
+    },
+    "curlAndOnResponse": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedParserError.ets"
+    },
+    "curl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedParserError.ets"
+    },
+    "isWs": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "isNameStart": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "isNameEnd": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "normalizeNewlines": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "decodeXmlEntities": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "resolveBase": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "resolveReference": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "declaredXmlEncoding": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "decodeFeedBytes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/FeedXmlText.ets"
+    },
+    "XML_START_DOCUMENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/FeedXmlTokenizer.ets"
+    },
+    "XML_END_DOCUMENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/FeedXmlTokenizer.ets"
+    },
+    "XML_START_TAG": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/FeedXmlTokenizer.ets"
+    },
+    "XML_END_TAG": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/FeedXmlTokenizer.ets"
+    },
+    "XML_TEXT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/FeedXmlTokenizer.ets"
+    },
+    "XmlAttr": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/FeedXmlTokenizer.ets"
+    },
+    "FeedXmlTokenizer": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/FeedXmlTokenizer.ets"
+    },
+    "GoPerson": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoImage": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoEnclosure": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoExtension": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoExtensions": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoDublinCoreExtension": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoITunesCategory": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoITunesOwner": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoITunesFeedExtension": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoITunesItemExtension": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "GoFeed": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "emptyToNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "emptyListToNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "sortedKeys": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "makeGoItem": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeed.ets"
+    },
+    "FeedParseException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "decodeEntities": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "stripCdata": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "goTrim": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "parseText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "isExtension": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "parseExtension": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "extValues": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "extFirst": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "extFirstAttr": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "parseNameAddress": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "personFromText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "extensionsOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "findRoot": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/GoFeedShared.ets"
+    },
+    "parseJsonFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/JsonFeedParser.ets"
+    },
+    "ImportExportToastHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "OpmlImportSyncHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "setImportExportToastHook": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "setOpmlImportSyncHook": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "readAllBytes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "writeAllText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "loadBlockListPatterns": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "addBlocklistPattern": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "OPMLImporter": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "OpmlExportUnknownError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "exportOpml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "parseOpmlFile": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "importOpml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "DbSavedArticlesStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "SavedArticlesError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "exportSavedArticles": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "importSavedArticles": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlActions.ets"
+    },
+    "OpmlError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "OpmlUnknownError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "OpmlParsingError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "OPMLParserHandler": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "kotlinToBoolean": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "OpmlPullParser": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "mergeBlocklistPatterns": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "OpmlFeedList": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlParser.ets"
+    },
+    "OPML_FEEDER_NAMESPACE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "escape": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "escapeAttribute": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "unescape": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "OpmlElement": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "OpmlTextElement": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "OpmlTag": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "feedToOutline": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "FeedsWithTag": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "writeOpmlString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "exportFileStamp": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "opmlExportFileName": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "OPML_EXPORT_MIME_TYPE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "OPML_IMPORT_MIME_TYPES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "OPML_IMPORT_SUFFIXES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/OpmlWriter.ets"
+    },
+    "XmlPullParserException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlXmlPullParser.ets"
+    },
+    "OpmlXmlPullParser": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/OpmlXmlPullParser.ets"
+    },
+    "SAVED_ARTICLES_EXPORT_FORMAT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SAVED_ARTICLES_EXPORT_VERSION": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SavedArticleFeedExportItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SavedArticleExportItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SavedArticlesExport": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "toSavedArticleExportItem": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "encodeSavedArticlesExport": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "buildSavedArticlesExport": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SerializationException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "decodeSavedArticlesExport": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SavedArticlesStore": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "savedArticleToFeedItem": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "importSavedArticlesExport": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "importLegacySavedArticleLinks": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "importSavedArticlesContent": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "savedArticlesExportFileName": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SAVED_ARTICLES_EXPORT_MIME_TYPE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "SAVED_ARTICLES_IMPORT_MIME_TYPES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/parser/SavedArticlesExport.ets"
+    },
+    "pointsToImage": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "toLongOrDefault": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "kotlinToLongOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "forEachExtension": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "nonNullEnclosures": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "feedThumbnailOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "linkToHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "bodyThumbnailOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "selectThumbnail": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/ThumbnailSelector.ets"
+    },
+    "parseRssFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/parser/XmlFeedParser.ets"
+    },
+    "WindowWidthSizeClass": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "WindowHeightSizeClass": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "ScreenType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "widthSizeClassOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "heightSizeClassOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "getScreenType": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "isCompactDeviceFor": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "isCompactLandscapeFor": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "FoldableHinge": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "WindowMetrics": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "WINDOW_METRICS_KEY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "LayoutAdapt": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "isEscapeLikeKeyCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "onKeyEventLikeEscape": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "scaledFontSize": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "scaledLineHeight": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "FSI": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "PDI": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "unicodeWrap": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "SavedStateHandle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "SavedStateRegistry": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "MutableSavedState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "mutableSavedStateOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LayoutAdapt.ets"
+    },
+    "ERR_NO_MATCHING_ABILITY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "ACTION_SEND_TO_DATA": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "ENTITY_BROWSABLE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "InAppBrowserHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "setInAppBrowserHook": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "LinkRoute": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "routeForLink": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "shouldOpenAdjacent": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "smallestScreenWidthVp": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "browserWant": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "emailWant": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "isParsableLink": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "ActivityLauncher": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "openLink": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/LinkOpener.ets"
+    },
+    "SHORTCUT_DISABLED_MESSAGE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "MAX_FEED_SHORTCUTS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "FeedShortcut": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "feedShortcutUri": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "buildFeedShortcut": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "ShortcutOpKind": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "ShortcutPlan": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "planAddFeedShortcut": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "ShortcutPlatformHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "setShortcutPlatformHook": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "DynamicShortcutModel": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "SHORTCUT_SLOT_ID_PREFIX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "SHORTCUT_SLOT_PARAM": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "serializeShortcuts": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "deserializeShortcuts": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "slotIndexOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "shortcutOpsIdle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "addDynamicShortcutToFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "reportShortcutToFeedUsed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "removeFeedShortcuts": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "resolveShortcutWantUri": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "LETTER_TILE_COLORS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "NUM_OF_TILE_COLORS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "letterIconColorIndex": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "letterIconColor": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "letterIconChar": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "getLetterIcon": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/Shortcuts.ets"
+    },
+    "currentlyMetered": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "currentlyConnected": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "currentlyOnWifi": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "currentlyCharging": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "okToSyncAutomatically": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "isOkToSyncAutomatically": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "shouldLoadImagesFromNetwork": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "imagesAllowedFromNetwork": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "urlEncode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "PermissionStatus": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "ApiPermissionState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "isGrantedByApiLevel": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "currentApiLevel": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "checkPermission": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/SystemConditions.ets"
+    },
+    "TEXT_PROCESSOR_ID_PREFIX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "TextProcessorHandler": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "TextProcessor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "registerTextProcessor": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "sortedTextProcessors": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "orderTextMenuItems": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "selectedTextOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "FeederEditMenuOptions": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/platform/TextToolbar.ets"
+    },
+    "FEED_LIST_PAGING": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/repo/FeedItemStore.ets"
+    },
+    "formatForFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/repo/FeedItemStore.ets"
+    },
+    "previewToFeedListItem": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/repo/FeedItemStore.ets"
+    },
+    "FeedItemStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FeedItemStore.ets"
+    },
+    "NAV_DRAWER_PAGING": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/repo/FeedStore.ets"
+    },
+    "FeedStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FeedStore.ets"
+    },
+    "FloatVariations": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "TrueTypeMetadata": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "InvalidTrueTypeError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "ByteReader": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "uBytesToUInt": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "fixedType32ToSignedFloat": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "parseTrueTypeFont": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "getFontMetadata": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "FontSelectionKind": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "FontSelection": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "DEFAULT_FONT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "FontState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "filenameFromUri": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "FontStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/FontStore.ets"
+    },
+    "RepoBackground": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoBackground.ets"
+    },
+    "RepoSettings": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoSettings.ets"
+    },
+    "FeedType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "ScreenTitle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "Enclosure": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "Article": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "TextToDisplay": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "AddFontError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "RemoveFontError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "FeedAndTag": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "Listeners": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "PageLoader": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "PagedListCallback": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "PagingConfig": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "PagedList": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "PagedListHandle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "RssSyncHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "SyncChainSendReadHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "SyncChainConfiguredHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "AddShortcutHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "RemoveShortcutsHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "RepositoryHooks": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/RepoTypes.ets"
+    },
+    "FEEDER_NEWS_TITLE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/repo/Repository.ets"
+    },
+    "FEEDER_NEWS_URL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/repo/Repository.ets"
+    },
+    "EMPTY_FEED_LIST_FILTER": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/repo/Repository.ets"
+    },
+    "RepositoryState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/Repository.ets"
+    },
+    "Repository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/Repository.ets"
+    },
+    "SessionState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/SessionStore.ets"
+    },
+    "SessionStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/SessionStore.ets"
+    },
+    "SyncRemoteStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/repo/SyncRemoteStore.ets"
+    },
+    "SyncScheduleHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/settings/SettingsHooks.ets"
+    },
+    "BlocklistChangedHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/settings/SettingsHooks.ets"
+    },
+    "setSyncScheduleHook": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/settings/SettingsHooks.ets"
+    },
+    "setBlocklistChangedHook": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/settings/SettingsHooks.ets"
+    },
+    "fireSyncScheduleHook": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/settings/SettingsHooks.ets"
+    },
+    "fireBlocklistChanged": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/settings/SettingsHooks.ets"
+    },
+    "PREF_ADDED_FEEDER_NEWS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_LAST_FEED_TAG": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_LAST_FEED_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_LAST_WIDGET_FEED_TAG": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_LAST_WIDGET_FEED_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_LAST_ARTICLE_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_IS_ARTICLE_OPEN": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_THEME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_DARK_THEME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_DYNAMIC_THEME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SORT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SHOW_FAB": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_FEED_ITEM_STYLE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SWIPE_AS_READ": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_BLOCKLIST_APPLY_TO_SUMMARIES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_BLOCKLIST_APPLY_TO_LINKS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SYNC_ONLY_CHARGING": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SYNC_ONLY_WIFI": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SYNC_FREQ": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SYNC_ON_RESUME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_IMG_ONLY_WIFI": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_IMG_SHOW_THUMBNAILS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_DEFAULT_OPEN_ITEM_WITH": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPEN_LINKS_WITH": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPEN_ADJACENT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_USE_IN_APP_AUDIO_PLAYER": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_PAGING_MODE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_ANIMATED_PAGING": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TEXT_SCALE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_FONT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_IS_MARK_AS_READ_ON_SCROLL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_MAX_LINES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREFS_FILTER_SAVED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREFS_FILTER_RECENTLY_READ": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREFS_FILTER_READ": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_LIST_SHOW_ONLY_TITLES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_LIST_SHOW_READING_TIME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPEN_DRAWER_ON_FAB": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_READALOUD_USE_DETECT_LANGUAGE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPENAI_KEY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPENAI_MODEL_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPENAI_URL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPENAI_AZURE_VERSION": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPENAI_AZURE_DEPLOYMENT_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_OPENAI_REQUEST_TIMEOUT_SECONDS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_PREFERRED_TRANSLATION_LANGUAGE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATION_API_KEY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATION_API_MODEL_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATION_API_URL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATION_API_AZURE_VERSION": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATION_API_AZURE_DEPLOYMENT_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATION_API_REQUEST_TIMEOUT_SECONDS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATE_ARTICLE_PREVIEWS_BY_DEFAULT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_TRANSLATE_ARTICLES_BY_DEFAULT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_SHOW_TITLE_UNREAD_COUNT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_FORCE_SINGLE_COLUMN": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "PREF_MAX_ITEM_COUNT_PER_FEED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "SETTING_KEY_MIN_READ_TIME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "FONT_PATH_ROBOTO_FLEX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "FONT_PATH_SYSTEM_DEFAULT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "DEFAULT_FONT_PATH": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "FONTS_DIR_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "SETTINGS_PREFERENCES_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "KotlinParse": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "SettingsCodec": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/settings/SettingsKeys.ets"
+    },
+    "DYNAMIC_THEME_PLATFORM_SUPPORTED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/SettingsModels.ets"
+    },
+    "FeedListFilter": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/settings/SettingsModels.ets"
+    },
+    "PrefsFeedListFilter": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/settings/SettingsModels.ets"
+    },
+    "OpenAISettings": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/settings/SettingsModels.ets"
+    },
+    "TranslationApiSettings": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/settings/SettingsModels.ets"
+    },
+    "SettingsState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/settings/SettingsModels.ets"
+    },
+    "SettingsListener": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/settings/SettingsStore.ets"
+    },
+    "SettingsStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/settings/SettingsStore.ets"
+    },
+    "UserSettings": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/settings/UserSettings.ets"
+    },
+    "ALL_USER_SETTINGS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/settings/UserSettings.ets"
+    },
+    "userSettingFromKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/settings/UserSettings.ets"
+    },
+    "getAllSettings": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/settings/UserSettings.ets"
+    },
+    "setSetting": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/settings/UserSettings.ets"
+    },
+    "ArticleRuleField": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "articleRuleFieldFromName": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "PatternSyntaxError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "JavaRegexTranslation": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "translateJavaRegex": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "ArticleRule": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "ArticleRuleError": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "MissingSeparator": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "UnknownField": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "EmptyPattern": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "InvalidRegex": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "TooManyRules": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "ArticleRuleSet": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "ArticleFilterRules": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "ArticleFilterPolicy": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/ArticleFilterRules.ets"
+    },
+    "YOUTUBE_CHANNEL_ID_ATTR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "fetchFeed": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "getSiteMetaData": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "getSiteMetaDataInHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "getFeedIconInHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "getAlternateFeedLinksInHtml": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "FeedUrlCandidates": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "handleHttpErrorRetryAfter": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "findFeedUrls": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/FeedFetcher.ets"
+    },
+    "SyncChainClient": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "setSyncChainClient": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "getSyncChainClient": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "isSyncChainConfigured": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "FullTextSyncRequester": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "setFullTextSyncRequester": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "syncMutex": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "alternateIdOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "setSynced": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "applyRemoteReadMarks": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "deleteStaleRemoteReadMarks": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "deleteArticleFiles": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "RssLocalSync": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "cleanupOrphanedFiles": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "SyncStatus": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/RssLocalSync.ets"
+    },
+    "BackgroundJobId": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "WORK_SCHEDULER_ABILITY_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "MIN_REPEAT_CYCLE_MS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "SYNC_NOTIFICATION_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "SYNC_NOTIFICATION_GROUP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "ARG_FEED_ID": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "ARG_FEED_TAG": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "ARG_FORCE_NETWORK": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "ARG_ONLY_NEW": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "NewItemsNotifier": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "setNewItemsNotifier": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "StorageReadyHook": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "SyncScheduler": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "FeederWorkSchedulerAbility": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/SyncScheduler.ets"
+    },
+    "BooleanListener": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/sync/SyncStatus.ets"
+    },
+    "SyncUiState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/sync/SyncStatus.ets"
+    },
+    "OgImageFetcher": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/sync/Thumbnails.ets"
+    },
+    "ogHttpGetFor": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/Thumbnails.ets"
+    },
+    "defaultOgImageFetcher": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/Thumbnails.ets"
+    },
+    "resolveThumbnailImage": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/sync/Thumbnails.ets"
+    },
+    "DEEP_LINK_HOST": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "DEEP_LINK_BASE_URI": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "GITHUB_ISSUES_URL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "KOFI_URL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "ARTICLES_DIR_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "FULL_ARTICLES_DIR_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "HTTP_CACHE_DIR_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "IMAGE_CACHE_DIR_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "HTTP_IMAGE_CACHE_DIR_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "BLOB_FILE_SUFFIX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "BLOB_FULL_FILE_SUFFIX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "blobFilePath": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "blobFullFilePath": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "FilePathProvider": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "DEFAULT_MAX_ITEM_COUNT_PER_FEED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "getStringNonNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/Constants.ets"
+    },
+    "Either": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/Either.ets"
+    },
+    "Left": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/Either.ets"
+    },
+    "Right": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/Either.ets"
+    },
+    "leftOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/Either.ets"
+    },
+    "rightOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/Either.ets"
+    },
+    "identity": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/Either.ets"
+    },
+    "MalformedURLException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "URISyntaxException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "IllegalArgumentException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "DateTimeParseException": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "hexDigitValue": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "percentByte": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "utf8Encode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "utf8Decode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "javaUrlEncode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "javaUrlDecode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_ALPHA": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_SCHEME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_UNRESERVED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_RESERVED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_URIC": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_PCHAR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_PATH": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_REG_NAME": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_USERINFO": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "CS_SERVER": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "isJavaSpaceChar": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "isJavaIsoControl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "isUriOther": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "inCharSet": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "isIPv6Literal": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCodec.ets"
+    },
+    "JavaUri": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaUriDecode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaUriQuote": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaStringHashCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaIntHashCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaLongHashCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaBooleanHashCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaListHashCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "kotlinDataClassHashCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaInstantHashCode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "javaIntRem": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "JavaZonedDateTime": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "zonedDateTimeToString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "zoneOffsetToString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "localOffsetSeconds": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantOfEpochMilli": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantToEpochMilli": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantOfEpochSecond": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantEpochSecond": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantToString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantParse": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantNow": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "instantMinusMinutes": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/JavaCompat.ets"
+    },
+    "sloppyLinkToStrictURL": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "sloppyLinktoURIOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "sloppyLinkToStrictURLOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "urlHasNoAuthParams": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "urlHasNoQueryParams": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "sloppyLinkToStrictURLNoThrows": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "relativeLinkIntoAbsolute": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "relativeLinkIntoAbsoluteOrNull": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "relativeLinkIntoAbsoluteOrThrow": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "relativeLinkIntoAbsoluteOrNullIfNotValid": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/LinkUtils.ets"
+    },
+    "encodeUtf8": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "encodeUtf8Buffer": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "decodeUtf8": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "decodeUtf16": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "decodeLatin1": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "isPureCharset": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "decodeCharset": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "base64Encode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "base64DecodeStrict": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/TextCodec.ets"
+    },
+    "TRACKING_PREFIXES": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/UrlCleaner.ets"
+    },
+    "stripTrackingParameters": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/UrlCleaner.ets"
+    },
+    "YOUTUBE_ID_PATTERN": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/util/VideoTagHunter.ets"
+    },
+    "Video": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/VideoTagHunter.ets"
+    },
+    "getVideo": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/util/VideoTagHunter.ets"
+    },
+    "ArticleElementView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/ArticleBlocks.ets"
+    },
+    "ColumnArticleContent": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/ArticleBlocks.ets"
+    },
+    "shouldOpenInPodcastPlayer": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/ArticleLinks.ets"
+    },
+    "ArticleAnchors": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/ArticleLinks.ets"
+    },
+    "ArticleLinkOptions": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/ArticleLinks.ets"
+    },
+    "toolbarColorOfTheme": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/ArticleLinks.ets"
+    },
+    "ArticleLinkAction": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/ArticleLinks.ets"
+    },
+    "handleArticleLinkClick": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/ArticleLinks.ets"
+    },
+    "maxImageWidthPx": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "selectBestImageSource": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "readerScaleMode": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "CAPTION_STYLE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "linkTextModifier": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "ReaderImage": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "ImageBlock": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "VideoBlock": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "AudioBlock": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/ArticleMedia.ets"
+    },
+    "currentDimens": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "KEY_ENTER": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "KEY_ESCAPE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "interceptKey": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "VisibilityInfo": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "VISIBILITY_RATIOS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "computeVisibleFraction": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "VisibilityTracker": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "RestrainedScale": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "computeRestrainedScale": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "ImageLoader": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "FeederImage": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "PullRefreshContainer": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "PaddedBottomAppBar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "TranslationDownloadProgress": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "TranslationProgressContent": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "OkCancelButtons": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "OkCancelWithContent": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "Dimensions": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "phoneDimensions": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "tabletDimensions": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "selectDimensions": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/CommonWidgets.ets"
+    },
+    "DialogHandle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "ConfirmDialogArgs": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "ConfirmDialogView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "openConfirmDialog": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "RenameTagDialogArgs": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "RenameTagDialogView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "openRenameTagDialog": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "EditableListDialogModel": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "EditableListDialogView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "openEditableListDialog": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "FeedNotificationItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "FeedNotificationsDialogModel": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "FeedNotificationsDialogView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "openFeedNotificationsDialog": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "SingleChoiceDialogArgs": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "SingleChoiceDialogView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "openSingleChoiceDialog": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "AutoCompleteResults": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/Dialogs.ets"
+    },
+    "DRAWER_LIST_FOCUS_KEY": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "DrawerContentType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "drawerContentTypeOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "isFeedListItem": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "showFeedsDividerAt": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "drawerItemIdentity": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "tagTitleNodeId": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "iconUrlOf": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "formatUnreadCount": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "DrawerList": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "ScreenWithNavDrawer": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/DrawerList.ets"
+    },
+    "splitLinkText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/EmptyState.ets"
+    },
+    "NothingToRead": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/EmptyState.ets"
+    },
+    "FEED_CARD_CORNER_RADIUS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/FeedItemCard.ets"
+    },
+    "elevatedCardColor": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemCard.ets"
+    },
+    "FeedItemCard": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemCard.ets"
+    },
+    "FeedItemCompact": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemCompact.ets"
+    },
+    "compactCardGradientStops": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemCompact.ets"
+    },
+    "FeedItemCompactCard": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemCompact.ets"
+    },
+    "DeletableFeed": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "EditFeedDialogArgs": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "EditFeedDialogView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "openEditFeedDialog": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "openEditFeedOrChooser": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "ExplainPermissionDialogArgs": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "ExplainPermissionDialogView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "openExplainPermissionDialog": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "NotificationPermissionFlow": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/FeedItemDialogs.ets"
+    },
+    "FeedItemSuperCompact": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemSuperCompact.ets"
+    },
+    "MINIMUM_TOUCH_SIZE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "wordsToReadTimeSecs": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "readTimeClock": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "isThumbnailLargeEnough": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "isHttpUrl": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "emptyFeedListItem": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemHandlers": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemEvent": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "dispatchFeedItemEvent": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "pluralText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemSavedIndicator": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemNewIndicator": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemFeedIconIndicator": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemEitherIndicator": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemText": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "ScreenReaderState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "FeedItemAccessibilityActions": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/FeedItemText.ets"
+    },
+    "AnnotatedSpanStyle": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "AnnotatedStyleRange": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "AnnotatedStringAnnotation": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "URL_ANNOTATION_TAG": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "AnnotatedParagraph": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "annotatedParagraphTexts": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "AnnotatedParagraphStringBuilder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "AnnotatedStringComposer": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "htmlToAnnotatedString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "htmlStringToAnnotatedString": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/HtmlSpeech.ets"
+    },
+    "TableCell": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "compareTableCells": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "TableData": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "linearTableToTableData": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "tableContainsImage": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "CellSize": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "TableMetrics": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "TABLE_UNBOUNDED": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "TableLayout": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/HtmlTable.ets"
+    },
+    "DRAWER_CONTAINER_WIDTH_VP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "DRAWER_MIN_WIDTH_VP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "DRAWER_VELOCITY_THRESHOLD_VP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "DRAWER_ANIMATION_MS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "DrawerValue": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "computeDrawerContainerWidth": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "computeDrawerTarget": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "computeDrawerSheetWidth": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "avoidAreaStartVp": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "isRtlLayout": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "DrawerState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "NavigationDrawer": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/NavigationDrawer.ets"
+    },
+    "ArticleLinkClick": {
+      "kind": "type",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "linkTargetIndex": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "bidiBaseIsLeftToRight": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "paragraphDirection": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "ColorRole": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "colorOfRole": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "ArticleTextStyle": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "ARTICLE_BODY_STYLE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "faceAsFontFamily": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "RichSegment": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "buildRichSegments": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "LinearTextContent": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "ParagraphSegment": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "paragraphSegments": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "AnnotatedParagraphList": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/RichText.ets"
+    },
+    "filterOnlyUnread": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "filterOnlyUnreadAndSaved": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "feedItemShowsDivider": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "FeedItemActions": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "FeedItemHandlerDeps": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "createFeedItemHandlers": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "FeedItemSwipeState": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "SwipeableFeedItem": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/SwipeableFeedItem.ets"
+    },
+    "GREEN_700": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "SWIPING_ITEM_TO_READ_COLOR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "SWIPING_ITEM_TO_UNREAD_COLOR": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "NAV_BAR_SCRIM_LIGHT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "NAV_BAR_SCRIM_DARK": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "PURE_BLACK": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "ColorSchemeValues": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "LIGHT_COLORS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "DARK_COLORS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "EINK_COLORS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "isDarkTheme": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "computeColorScheme": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "useDarkSystemIcons": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "blendColors": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "surfaceAtElevation": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "COMPACT_WIDTH_LIMIT_VP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "COMPACT_HEIGHT_LIMIT_VP": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "ThemeState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "FeederTheme": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "ThemeController": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "isRtlText": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "SensibleTopAppBar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "screenDensity": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "FeederUiBootstrap": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Theme.ets"
+    },
+    "FAMILY_ROBOTO_FLEX": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "FAMILY_ROBOTO_MONO": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "FAMILY_SYSTEM_SANS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "FAMILY_SYSTEM_MONO": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "FAMILY_SYSTEM_SERIF": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "WEIGHT_LIGHT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "WEIGHT_NORMAL": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "WEIGHT_MEDIUM": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "WEIGHT_BOLD": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "WEIGHT_BLACK": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "titleFontWeight": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "TextStyleSpec": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "M3Type": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "FeederTextStyles": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "TypographyState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "FeederTypography": {
+      "kind": "const",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "sansFamily": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "monoFamily": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "TextStyleModifier": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "textStyle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "monoTextStyle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "readFontEpoch": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "ButtonLabelModifier": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "buttonLabelStyle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "TextInputStyleModifier": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "textInputStyle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "scaledSize": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "looksLikeFontHeader": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "userFontFamilyName": {
+      "kind": "function",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "TypographyController": {
+      "kind": "class",
+      "file": "entry/src/main/ets/ui/common/Typography.ets"
+    },
+    "EntryAbility": {
+      "kind": "class",
+      "file": "entry/src/main/ets/entryability/EntryAbility.ets"
+    }
+  }
+}

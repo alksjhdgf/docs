@@ -1,0 +1,1004 @@
+{
+  "string": [
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Không thể tải văn bản thành giọng nói"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Đang lấy bài viết đầy đủ…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Không thể lấy bài viết đầy đủ"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Nạp toàn bộ bài viết theo mặc định"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Lấy bài viết đầy đủ"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Không thể xử lý %1$s"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Tải trước tab tuỳ chỉnh"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Bật"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Tắt"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Tối ưu hoá pin"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Bật/tắt mở rộng thẻ"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Danh sách các nguồn cấp đã tìm ra"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Đánh dấu các mục ở dưới đã đọc"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Đánh dấu các mục ở trên đã đọc"
+    },
+    {
+      "name": "open_feed",
+      "value": "Mở nguồn cấp"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Chạm để phát video"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Không thể mở ứng dụng email"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Gửi báo cáo lỗi"
+    },
+    {
+      "name": "sort",
+      "value": "Sắp xếp theo"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Cũ nhất trước"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Mới nhất trước"
+    },
+    {
+      "name": "theme",
+      "value": "Chủ đề"
+    },
+    {
+      "name": "theme_night",
+      "value": "Ban đêm"
+    },
+    {
+      "name": "theme_day",
+      "value": "Ban ngày"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Tự động"
+    },
+    {
+      "name": "theme_system",
+      "value": "Hệ thống"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Không thể tải URL"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Số mục tối đa trên mỗi nguồn cấp dữ liệu"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Mở trong Web view"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Mở liên kết trong web view"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Trình đọc"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Mở các liên kết bằng"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Mở các mục mặc định bằng"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Sử dụng mặc định của ứng dụng"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Tab tuỳ chỉnh"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Trình duyệt mặc định"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Web view"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Trình đọc"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Thông báo chỉ được hiện cho các mục chưa đọc trong các nguồn cấp được thiết lập"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Nguồn cấp chưa đọc"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Nguồn cấp đã cập nhật"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Bao gồm các điểm phát sóng di động"
+    },
+    {
+      "name": "show_fab",
+      "value": "Hiện nút hành động nổi"
+    },
+    {
+      "name": "on_startup",
+      "value": "Khi khởi động ứng dụng"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Tìm kiếm bài viết mới…"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Trước tiên, hãy cài đặt ứng dụng gì đó để mở liên kết này"
+    },
+    {
+      "name": "image_loading",
+      "value": "Tải hình ảnh"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Chỉ khi đang sạc"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Có thể gây ra phí dữ liệu di động."
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Hiện ảnh thu nhỏ"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Chỉ khi có Wi-Fi"
+    },
+    {
+      "name": "synchronization",
+      "value": "Đồng bộ"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Mỗi ngày"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Mỗi 12 giờ"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Mỗi 6 giờ"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Mỗi 3 giờ"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Mỗi 1 giờ"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Mỗi 30 phút"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Mỗi 15 phút"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Thủ công"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Tất cả nguồn cấp dữ liệu"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Cài đặt"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Không có gì để xem!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Không tìm thấy nguồn cấp nào như vậy. Hãy thử sử dụng https xem?"
+    },
+    {
+      "name": "share",
+      "value": "Chia sẻ"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Dấu chỉ thị cho đánh dấu đã đọc"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Mới và được dựa trên mục này"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Xem nhật ký gỡ lỗi"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Nhập các nguồn cấp từ OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Xuất các nguồn cấp ra OPML"
+    },
+    {
+      "name": "sync",
+      "value": "Đồng bộ"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Tiếp tục đọc"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Tạm dừng đọc"
+    },
+    {
+      "name": "read_article",
+      "value": "Đọc thành tiếng"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Mở phương tiện bên trong mục"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Mở trong trình duyệt web"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Mở liên kết trong trình duyệt web"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Đánh dấu đọc/chưa đọc"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Dừng thông báo"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Thông báo khi có mục mới"
+    },
+    {
+      "name": "no_tag",
+      "value": "Không có thẻ"
+    },
+    {
+      "name": "view",
+      "value": "Xem"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Có mục mới"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Hiện các mục chưa đọc"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Hiện tất cả các mục"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Xóa nguồn cấp"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Chỉnh sửa nguồn cấp"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Đánh dấu tất cả đã đọc"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Đánh dấu chưa đọc"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Đánh dấu đã đọc"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Nhập địa chỉ một nguồn cấp"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Thêm nguồn cấp khác?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Mở một nguồn cấp khác?"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Không có gì để đọc ở đây. Bạn có muốn…"
+    },
+    {
+      "name": "save",
+      "value": "Lưu"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "title",
+      "value": "Tiêu đề"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL nguồn cấp"
+    },
+    {
+      "name": "tag",
+      "value": "Thẻ"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Đăng ký nguồn cấp"
+    },
+    {
+      "name": "add_feed",
+      "value": "Thêm nguồn cấp"
+    },
+    {
+      "name": "action_settings",
+      "value": "Cài đặt"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Đóng ngăn điều hướng"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Mở ngăn điều hướng"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s bài viết chưa đọc"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s bài viết chưa đọc"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s bài viết chưa đọc"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s bài viết chưa đọc"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s bài viết chưa đọc"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s bài viết chưa đọc"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Đồng bộ các nguồn cấp"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Đang hiện tất cả bài viết"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Đang hiện chỉ những bài viết chưa đọc"
+    },
+    {
+      "name": "already_read",
+      "value": "Đã đọc"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Chưa đọc"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Đi đến %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Mở menu"
+    },
+    {
+      "name": "go_back",
+      "value": "Quay lại"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Thẻ đóng"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Thẻ mở"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Dừng đọc"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Mở %1$s"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Siêu thu gọn"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Thu gọn"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Thẻ"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Kiểu bài viết"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Đen"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tối"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Chủ đề tối được ưu tiên"
+    },
+    {
+      "name": "sync_status",
+      "value": "Trạng thái đồng bộ"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Chỉ bật cho các nguồn cấp có ID không hợp lệ"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Không phải URL hợp lệ"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Tạo thêm các ID độc nhất"
+    },
+    {
+      "name": "syncing",
+      "value": "Đang đồng bộ"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Nhập OPML thất bại"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Xuất OPML thất bại"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Không thể mở bài viết"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Bạn có chắc bạn muốn xóa thiết bị %1$s không?"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Hãy coi nó như mật khẩu. Ai cũng có thể đọc dữ liệu được đồng bộ nếu họ có liên kết."
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Tham gia chuỗi đồng bộ"
+    },
+    {
+      "name": "device_sync",
+      "value": "Đồng bộ thiết bị"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Dịch vụ này được cộng đồng trả phí. Vui lòng cân nhắc ủng hộ nếu bạn thấy nó hữu ích."
+    },
+    {
+      "name": "secret_key",
+      "value": "Mã bí mật"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Đồng bộ thiết bị cho phép bạn đồng bộ việc đăng ký nguồn cấp và bài viết đã đọc sang các thiết bị khác."
+    },
+    {
+      "name": "disabled",
+      "value": "Tắt"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Chỉ từ cuối"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Từ bất cứ đâu"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Vuốt để đánh dấu đã đọc"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Bạn có chắc bạn muốn rời khỏi chuỗi đồng bộ này không?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Không tìm thấy ứng dụng quét mã vạch"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Thêm thiết bị mới"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (thiết bị này)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Ngắt kết nối thiết bị khỏi chuỗi đồng bộ"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Thiết bị trong chuỗi đồng bộ"
+    },
+    {
+      "name": "remove_device",
+      "value": "Xóa thiết bị"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Ở thiết bị, đi đến đồng bộ thiết bị, và nhấn quét mã đồng bộ."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Hoặc là mở liên kết trên thiết bị."
+    },
+    {
+      "name": "qr_code",
+      "value": "Mã QR"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Mã đồng bộ thiết bị của Feeder"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Rời khỏi chuỗi đồng bộ"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Chỉ cần quét mã từ chuỗi đồng bộ mà bạn tạo ở thiết bị khác, hoặc bắt đầu chuỗi đồng bộ mới."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Quét hoặc nhập mã đồng bộ"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Bắt đầu chuỗi đồng bộ mới"
+    },
+    {
+      "name": "sync_code",
+      "value": "Mã đồng bộ"
+    },
+    {
+      "name": "block_list",
+      "value": "Danh sách chặn"
+    },
+    {
+      "name": "add_item",
+      "value": "Thêm mục"
+    },
+    {
+      "name": "remove",
+      "value": "Xoá"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Cho phép ứng dụng đọc nguồn cấp và bài viết"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Quyền truy cập chỉ đọc"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Phát hiện ngôn ngữ"
+    },
+    {
+      "name": "article_image",
+      "value": "Hình ảnh bài viết"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Tự động phát hiện ngôn ngữ bài viết"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Nhảy sang mục tiếp"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Chỉ có sẵn ở Android %1$s và cao hơn"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Màu sắc động"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Mới"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Bạn phải cấp quyền trước khi bật thông báo."
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Văn bản sang giọng nói"
+    },
+    {
+      "name": "set_language",
+      "value": "Đặt ngôn ngữ"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Biểu tượng nguồn cấp dữ liệu"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Đồng bộ để lấy bài viết"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s nguồn cấp dữ liệu"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s nguồn cấp dữ liệu"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s nguồn cấp dữ liệu"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Không có nguồn cấp dữ liệu"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s nguồn cấp dữ liệu"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s nguồn cấp dữ liệu"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s nguồn cấp dữ liệu"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Nhập %1$s với %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s tag"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Không tìm thấy gì để lấy"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Nguồn cấp dữ liệu bị thiếu liên kết đến bài viết"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Liên kết không phải tài liệu HTML"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Ẩn bài viết có tiêu đề chứa bất kỳ một trong số những bộ lọc này. Ví dụ:"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Đánh dấu đã đọc khi cuộn"
+    },
+    {
+      "name": "text_scale",
+      "value": "Tỉ lệ chữ"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Bài viết đã lưu"
+    },
+    {
+      "name": "saved_article",
+      "value": "Bài viết đã lưu"
+    },
+    {
+      "name": "save_article",
+      "value": "Lưu bài viết"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Dừng lưu bài viết"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Giấy điện tử"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Không phân tích được nguồn cấp JSON"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Không thể phân tích toàn bộ bài viết"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Vẫn thêm"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Danh sách bài viết"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Lọc"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Đọc gần đây"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Không có nguồn cấp dữ liệu trong trang"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Không có ai phản hồi"
+    },
+    {
+      "name": "http_error",
+      "value": "Lỗi HTTP"
+    },
+    {
+      "name": "no_url",
+      "value": "Không có URL"
+    },
+    {
+      "name": "max_lines",
+      "value": "Số dòng tối đa"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Không thể phân tích trang"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Đã lưu"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Không thể phân tích nguồn cấp RSS"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Loại nội dung không được hỗ trợ"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Không thể tải xuống"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Đã đọc"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Chỉ hiện tiêu đề"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Nội dung không phải là HTML"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Mở trình duyệt ở chế độ chia đôi màn hình"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Hiện thời gian đọc ước tính"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s từ"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s phút"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s phút"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s từ"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s phút"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s phút"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s từ"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s từ"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s phút"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s phút"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s từ"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s từ"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Thẻ nhỏ gọn"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Không thể xuất các bài viết đã lưu"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Các bài viết có liên kết hoặc tiêu đề giống hệt với bài viết hiện có sẽ bị bỏ qua"
+    },
+    {
+      "name": "close_menu",
+      "value": "Đóng trình đơn"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Xuất các bài viết đã lưu"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Bỏ qua bài viết trùng lặp"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Chạm để phát âm thanh"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

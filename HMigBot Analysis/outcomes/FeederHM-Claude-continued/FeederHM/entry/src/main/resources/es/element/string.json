@@ -1,0 +1,1540 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Abrir menú de navegación"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Cerrar menú de navegación"
+    },
+    {
+      "name": "action_settings",
+      "value": "Ajustes"
+    },
+    {
+      "name": "add_feed",
+      "value": "Añadir canal"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Suscríbete al canal"
+    },
+    {
+      "name": "url",
+      "value": "Dirección URL"
+    },
+    {
+      "name": "tag",
+      "value": "Etiqueta"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Dirección del canal RSS"
+    },
+    {
+      "name": "title",
+      "value": "Título"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Guardar"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "No hay nada que leer aquí. ¿Le gustaría…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "¿abrir otra fuente?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "¿Añadir más fuentes?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Introduzca la dirección del feed"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Marcar como leído"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Marcar como no leído"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Marcar todo como leído"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Editar canal"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Borrar fuente"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Mostrar todas las entradas"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Mostrar entradas no leídas"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Nuevas entradas disponibles"
+    },
+    {
+      "name": "view",
+      "value": "Ver"
+    },
+    {
+      "name": "no_tag",
+      "value": "Sin etiquetas"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Notificarme sobre nuevos artículos"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Detener notificaciones"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Cambiar el estado de lectura"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Abrir enlace en navegador"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Abrir en navegador"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Abrir medio adjunto"
+    },
+    {
+      "name": "sync",
+      "value": "Sincronizar"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Exportar fuentes a OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importar fuentes de OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Ver registro de depuración"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nuevo basado en esto"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indicador para marcar como leído"
+    },
+    {
+      "name": "share",
+      "value": "Compartir"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "No se pudo encontrar el canal. ¿Puedes probar con HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "¡Nada que mostrar!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Configuraciones"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Todas las fuentes"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manualmente"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Cada 15 minutos"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Cada 30 minutos"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Cada hora"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Cada 3 horas"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Cada 6 horas"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Cada 12 horas"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Cada día"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sincronización"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Solo con WiFi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Mostrar miniaturas"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Puede generar cargos por usar datos móviles."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Solo cuando se está cargando"
+    },
+    {
+      "name": "image_loading",
+      "value": "Cargando imagen"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "No se encontró ninguna actividad con la que abrir el enlace"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Buscar nuevos artículos…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Al iniciar la aplicación"
+    },
+    {
+      "name": "show_fab",
+      "value": "Mostrar botón flotante"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Incluir puntos de acceso móviles"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Fuentes actualizadas"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Entradas no leídas"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Notificaciones solo se muestran para elementos no leídos fuentes configuradas"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lector"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Vista Web"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Navegador por defecto"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Pestaña personalizada"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Por defecto abrir elementos con"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Abrir enlaces con"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lector"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Abrir enlace en vista Web"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Abrir en vista Web"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Número máximo de entradas por fuente"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "No se pudo cargar la URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "Tema del sistema"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automático"
+    },
+    {
+      "name": "theme_day",
+      "value": "Día"
+    },
+    {
+      "name": "theme_night",
+      "value": "Noche"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Tema oscuro preferido"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Negro"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Oscuro"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "El más nuevo primero"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "El más antiguo primero"
+    },
+    {
+      "name": "sort",
+      "value": "Ordenar por"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Enviar un informe de error"
+    },
+    {
+      "name": "no_email_client",
+      "value": "No se puede abrir un cliente de correo"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Tocar para reproducir vídeo"
+    },
+    {
+      "name": "javascript",
+      "value": "Javascript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Abrir fuente"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Marcar anteriores como leídos"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Marcar siguientes como leídos"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Lista de fuentes descubiertas"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Alternar expansión de etiquetas"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimización de batería"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Optimización de batería deshabilitada"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Optimización de batería habilitada"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Precargar pestaña personalizada"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Fallo al analizar %1$s"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Buscando artículo completo…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Falló la búsqueda de artículo completo"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Obtener artículos completos predeterminadamente"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Buscar el artículo completo"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Fallo al cargar texto para voz"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Continuar lectura"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pausar lectura"
+    },
+    {
+      "name": "read_article",
+      "value": "Leer en voz alta"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Usar aplicación por defecto"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sincronizar orígenes"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Mostrar todos los artículos"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Mostrar solo artículos no leídos"
+    },
+    {
+      "name": "already_read",
+      "value": "Ya leídos"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "No leídos"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Ir a %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Abrir menú"
+    },
+    {
+      "name": "go_back",
+      "value": "Ir hacía atrás"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Etiqueta cerrada"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Abrir etiqueta"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Detener lectura"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Abrir %1$s"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s artículos no leídos"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s artículos no leídos"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s artículos no leídos"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s artículos no leídos"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s artículo no leído"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s artículos no leídos"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Tarjeta"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Supercompacto"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Compacto"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Estilo de artículo"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generar identificadores únicos extra"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Habilitar solo para orígenes con identificadores incorrectos"
+    },
+    {
+      "name": "sync_status",
+      "value": "Estado de sincronización"
+    },
+    {
+      "name": "syncing",
+      "value": "Sincronizando"
+    },
+    {
+      "name": "invalid_url",
+      "value": "URL no válida"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Fallo al importar OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Fallo al exportar OPML"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "No se pudo abrir el artículo"
+    },
+    {
+      "name": "device_sync",
+      "value": "Sincronizar dispositivo"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Añadir nuevo dispositivo"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Este servicio está mantenido por la comunidad. Por favor, considera hacer un donativo si lo encuentras útil."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (este dispositivo)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Desconectar dispositivo de la cadena de sincronización"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "En tu dispositivo, navegar hasta la sincronización de dispositivo, y pulsar el código de escaneo de sincronización."
+    },
+    {
+      "name": "qr_code",
+      "value": "Código QR"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Abandonar la cadena de sincronización"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Simplemente escanea el código de tu cadena de sincronización que creaste en otro dispositivo o inicia una nueva cadena de sincronización."
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Dispositivos en la cadena de sincronización"
+    },
+    {
+      "name": "remove_device",
+      "value": "Eliminar dispositivo"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "¿Estás seguro de que quieres eliminar el dispositivo %1$s?"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternativamente, abrir el enlace en tu dispositivo."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Tratar esto como si fuera una contraseña. Cualquiera puede leer tus datos si tienen en enlace."
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Código de sincronización de dispositivo Feeder"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "La sincronización de dispositivos te permite sincronizar suscripciones de fuentes y leer artículos entre tus diversos dispositivos."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Escanea o entra el código de sincronización"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Crear nueva cadena de sincronización"
+    },
+    {
+      "name": "sync_code",
+      "value": "Código de sincronización"
+    },
+    {
+      "name": "secret_key",
+      "value": "Clave secreta"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Unir a cadena de sincronización"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Solo desde el final"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Desde cualquier sitio"
+    },
+    {
+      "name": "disabled",
+      "value": "Deshabilitado"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Deslizar para marcar como leído"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "¿Estás seguro que quieres abandonar la cadena de sincronización?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "No se encontró un escáner de código de barras"
+    },
+    {
+      "name": "block_list",
+      "value": "Lista de bloqueos"
+    },
+    {
+      "name": "add_item",
+      "value": "Añadir elemento"
+    },
+    {
+      "name": "remove",
+      "value": "Retirar"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Permite a la aplicación leer fuentes y artículos"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Acceso de solo lectura"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Detectar idioma"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Disponible solo en Android %1$s y superior"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Detecta automáticamente el idioma del artículo"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Se debe otorgar permiso antes de habilitar las notificaciones."
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Texto a voz"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Saltar al siguiente"
+    },
+    {
+      "name": "set_language",
+      "value": "Establecer idioma"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Colores dinámicos"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nuevo"
+    },
+    {
+      "name": "article_image",
+      "value": "Imagen del artículo"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Icono de fuente"
+    },
+    {
+      "name": "text_scale",
+      "value": "Escalar texto"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Oculta los artículos cuyos títulos contengan alguno de estos filtros. Filtros de ejemplo:"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sincronizar para obtener el artículo"
+    },
+    {
+      "name": "save_article",
+      "value": "Guardar artículo"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Dejar de guardar artículo"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Artículos guardados"
+    },
+    {
+      "name": "saved_article",
+      "value": "Artículo guardado"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Marcar como leído al desplazar"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s fuentes"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s fuentes"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "¿Importar %1$s con %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s etiqueta"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Sin fuentes"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s fuente"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s fuentes"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s fuentes"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s fuentes"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "No se ha encontrado nada"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "A la fuente le falta el enlace al artículo"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "El enlace no es un documento HTML"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filtro"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Leído recientemente"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Leído"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Lista de artículos"
+    },
+    {
+      "name": "max_lines",
+      "value": "Máximo de líneas"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Guardado"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Mostrar solo el título"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Fallo al descargar"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Fallo al analizar la página"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "No hay fuentes en la página"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Fallo al analizar la fuente RSS"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "El contenido no es HTML"
+    },
+    {
+      "name": "http_error",
+      "value": "Error HTTP"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Fallo al analizar la fuente JSON"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Ningún cuerpo en respuesta"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Tipo de contenido no soportado"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Fallo al analizar el artículo completo"
+    },
+    {
+      "name": "no_url",
+      "value": "No hay URL"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Tinta electrónica"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Agregar de todos modos"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Abrir el navegador a pantalla dividida"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Mostrar el tiempo estimado de lectura"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minuto"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s palabra"
+    },
+    {
+      "name": "close_menu",
+      "value": "Cerrar el menú"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Exportar los artículos guardados"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Error al exportar artículos guardados"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Omitir artículos duplicados"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Se ignoran los artículos con enlaces o títulos idénticos a artículos existentes"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Tarjeta compacta"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Toca para reproducir el audio"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Mostrar número de artículos no leídos en el título"
+    },
+    {
+      "name": "openai_settings",
+      "value": "IA y traducción"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Sin modelos"
+    },
+    {
+      "name": "summarize",
+      "value": "Resumir"
+    },
+    {
+      "name": "model_id",
+      "value": "Identificación del modelo"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Versión de la API de Azure"
+    },
+    {
+      "name": "api_key",
+      "value": "Clave API"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "No se pueden cargar modelos."
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Lista de modelos disponibles"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Identificación de implementación de Azure"
+    },
+    {
+      "name": "show_message",
+      "value": "Mostrar mensaje"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Mostrar feeds después de marcar todo como leído"
+    },
+    {
+      "name": "search_verb",
+      "value": "Buscar"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Cancelar búsqueda"
+    },
+    {
+      "name": "on",
+      "value": "Activo"
+    },
+    {
+      "name": "off",
+      "value": "Inactivo"
+    },
+    {
+      "name": "font",
+      "value": "Fuente"
+    },
+    {
+      "name": "text_preview",
+      "value": "Vista previa"
+    },
+    {
+      "name": "system_default",
+      "value": "Por defecto"
+    },
+    {
+      "name": "add_font",
+      "value": "Añadir fuente…"
+    },
+    {
+      "name": "bold",
+      "value": "Negrita"
+    },
+    {
+      "name": "weight",
+      "value": "Tamaño"
+    },
+    {
+      "name": "text_settings",
+      "value": "Ajustes de texto"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "No se pudo eliminar la fuente"
+    },
+    {
+      "name": "italic",
+      "value": "Itálica"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Algo fue mal"
+    },
+    {
+      "name": "text",
+      "value": "Texto"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "No se pudo añadir la fuente"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Tiempo de espera por IA"
+    },
+    {
+      "name": "time_out",
+      "value": "Tiempo de espera (segundos)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "El tiempo de espera debe ser entre 30 y 600 segundos"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Resumir al abrir"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Sugerencias"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Compatible con muchos proveedores IA, pero no todos"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Abrir en el lector"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Abrir en el navegador predeterminado"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Abrir en una pestaña personalizada"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "No se pudo abrir el artículo en el navegador"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "No se pudo abrir el artículo en una pestaña personalizada"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Aplicar a los resúmenes"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Actualizar"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Modo de paginación"
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Paginación animada"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Navega por los artículos girando páginas en lugar de desplazándote continuamente. Optimizado para dispositivos de tinta electrónica."
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Al animar el paso de página. Puede provocar un efecto fantasma en algunos dispositivos de tinta electrónica."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Mejorar las miniaturas a partir de los metadatos de los artículos"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Intenta mejorar las miniaturas que faltan o que son de baja calidad en este feed"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Resumen de la API"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Se utiliza para los resúmenes de artículos."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "API de traducción"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Se utiliza para traducir tarjetas de noticias y artículos."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "Clave de autenticación de DeepL"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Proveedor"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Sin configurar"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Proveedor: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Ninguno"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI o compatible"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Enlace base (opcional)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Punto final de la traducción"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Introduce una clave API antes de guardar."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Introduce una clave API de DeepL antes de guardar."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Introduce un modelo de identificador antes de guardar."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Comprobando la configuración de la API…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "No se ha podido verificar la configuración de la API."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Introduce tu punto de conexión de Azure antes de guardar."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Introduce el id de tu implementación de Azure antes de guardar."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Introduce la versión de tu API de Azure antes de guardar."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Comprobando la configuración de Azure OpenAI…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "No se han podido verificar los ajustes de Azure OpenAI."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Comprobando la clave de DeepL…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "No se ha podido verificar la clave de DeepL."
+    },
+    {
+      "name": "translate_article",
+      "value": "Traducir el artículo"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Mostrar el original (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "original"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Idioma preferido para la traducción"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Escoja el idioma al que Feeder debería traducir."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Seleccione un idioma"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Establece un idioma de traducción preferido en la configuración de la IA"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Traducir las vistas previas de los artículos"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Traducir artículos por defecto"
+    },
+    {
+      "name": "open_settings",
+      "value": "Abrir ajustes"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Renombrar etiqueta"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "No se pudo reproducir este archivo de audio"
+    },
+    {
+      "name": "play_audio",
+      "value": "Reproducir audio"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Pausar audio"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Detener audio"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Retroceder 10 segundos"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Avanzar 10 segundos"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Importar artículos guardados"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Aplicar a los enlaces"
+    },
+    {
+      "name": "filters",
+      "value": "Filtros"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Reproducir enlaces a audios con en reproductor integrado"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Cuando está deshabilitado, los enlaces de audio de abren con su aplicación predeterminada"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Fallo al importar los artículos guardados"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "El artículo es demasiado grande. ¿Desea abrirlo en el navegador?"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Local sin conexión"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "¡ADVERTENCIA! Esto es una función beta. Realice una exportación OPML de todos sus canales primero y guarde la copia de seguridad."
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Preparando el modelo de traducción sin conexión %1$s para %2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Descargando modelo de traducción sin conexión %1$s para %2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "La descarga inicial puede ser unos 20-50MB y durar varios minutos. La traducción funciona sin conexión a partir de ese momento."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "el idioma preferido"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "La traducción local requiere Android 12 o superior."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "La traducción local no está disponible en este dispositivo."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "El traductor local no pudo ser creado."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Se agotó el tiempo de espera de la traducción local."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Fallo en la traducción local."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "La traducción local devolvió un texto vacío."
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Todos los modelos descargados fueron eliminados"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "¿Borrar los %1$d modelo(s) de traducción descargados (%2$s)?"
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "El traductor local no estaba listo. Compruebe los ajustes del traductor e inténtelo de nuevo."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Sin modelo de Bergamot para %1$s -> %2$s. Compruebe los idiomas de traducción del sistema"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Se agotó el tiempo de espera de la traducción Bergamot."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Falló la traducción Bergamot."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Conéctese para descargar la lista de modelos."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "No se pudo descargar el modelo %1$s -> %2$s."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Se agotó el tiempo de espera de la traducción Bergamot WebView."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "WebView de Bergamot no inicializada."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "No se pudo analizar la respuesta de Bergamot."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Utiliza la traducción en dispositivo del sistema Android primero, la cual debe ser descargada en los ajustes del sistema."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Si el SO no tiene traductor en dispositivo, Feeder descarga modelos de Mozilla/Bergamot para los %1$s pares de idiomas soportados."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Mostrar solo idiomas objetivo con modelos Mozilla/Bergamot"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Modelos de traducción descargados"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Modelos Mozilla/Bergamot almacenados en el dispositivo para traducción sin conexión. Borre los pares de idiomas no usados para liberar espacio."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Eliminar modelo"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "¿Eliminar el modelo de traducción %1$s a %2$s (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Eliminar todos los modelos descargados"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Eliminado modelo %1$s a %2$s"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Aún no se ha descargado ningún modelo de traducción. La traducción descargará el modelo necesario automáticamente."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Eliminar"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancelar"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Forzar columna única"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

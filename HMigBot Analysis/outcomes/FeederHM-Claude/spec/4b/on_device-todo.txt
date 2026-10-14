@@ -1,0 +1,55 @@
+APP-A11	on_device	untested	开启“恢复时同步”(`pref_sync_on_resume`)且满足联网、(仅充电→正在充电)、(仅 Wi-Fi→非计费网络) 时，应用回到前台自动触发一次同步链更新+RSS 同步（非用户触发、不强制网络）；条件不满足
+APP-A12	on_device	untested	阅读文章且开启分页模式时，音量上/下键滚动文章内容而不调节音量；非分页模式或不在文章页时音量键保持系统行为
+APP-A31	on_device	untested	在文件管理器中打开 MIME 为 `text/xml`/`application/xml`/`text/x-opml`/`application/octet-stream` 的文件时，系统可选择 Feeder 打开并显示
+APP-A41	on_device	untested	从其它应用分享纯文本或 http/https 链接，或打开 MIME 为 `application/rss+xml`/`application/atom+xml`/`text/xml`/`application/xml`
+APP-A51	on_device	untested	点击汇总通知：通知所含条目全部标记为已通知（不标已读），随后打开主界面并定位到通知 URI 指定的 feed/tag
+APP-A52	on_device	untested	点击单篇通知（打开方式为浏览器/CustomTab 且有链接）：该条目标记为已读并已通知、对应通知被取消，并用默认浏览器（CustomTab 动作则用应用内浏览标签）打开文章链接
+APP-A77	on_device	untested	允许订阅明文 http 源（cleartext 放行）
+AR-A16	on_device	untested	点击 `Share` 后真实弹出系统分享面板并可分享到其他应用
+AR-A47	on_device	untested	翻页模式且文章打开时按音量上/下键使正文向上/下滚动 0.9 屏且不调节音量。结果契约：音量键翻页；鸿蒙实现：页面 onKeyEvent 尝试拦截音量键；差异：可能无法拦截，降级为仅点击区翻页
+AR-A49	on_device	untested	点击 `Open in Web view` 或正文外链后真实打开浏览页/外部浏览器显示该网页
+DB-A10	on_device	untested	订阅、文章已读/收藏状态写入后冷重启应用仍保持
+EF-A33	on_device	untested	结果契约：打开 `Notify for new items` 时若通知权限未授予则先申请，授予后开关才变为开、拒绝则保持关；系统要求先解释时弹出对话框 `Permission must be granted before
+FI-A16	on_device	untested	`Share` 调起系统分享面板，分享纯文本为去除 `utm_*`/`traffic_source*` 追踪参数后的条目链接（链接为空则无正文），标题为条目 title
+FI-A37	on_device	untested	滑动越过阈值时触发一次触觉反馈；触发后的自动回弹不再震动
+FI-A42	on_device	untested	点 `OK` 发起系统通知权限请求；点对话框外部/返回仅关闭说明对话框、不请求
+FI-A43	on_device	untested	结果契约：在 Settings 通知项或 EditFeed 页打开通知开关时，若未授权且系统需要先说明理由则先显示说明对话框，若未授权且无需说明则直接发起系统授权，已授权则直接生效（EditFeed 开关置开 / Set
+FP-A52	on_device	untested	选择"导出 OPML"后系统文件保存器默认文件名为 `feeder-export-<yyyy-MM-dd>-<当日秒数>.opml`，保存后文件内容为当前订阅的 OPML
+FP-A62	on_device	untested	选择"导入 OPML"打开系统文件选择器（接受 xml/opml/json/octet-stream/任意类型），选中合法 OPML 后订阅出现在抽屉中并开始同步
+FP-A67	on_device	untested	导出收藏时系统保存器默认文件名为 `feeder-saved-articles-<yyyy-MM-dd>-<当日秒数>.json`，再次导入该文件后收藏列表恢复
+FD-A47	on_device	untested	条目 `Share` 弹出系统分享面板，内容为去跟踪参数后的链接（有链接时）与标题，类型 text/plain
+FS-A47	on_device	untested	结果契约：同步频率不为"手动"时，按设置周期（15/30/60/180/360/720/1440 分钟，默认 60）在后台定期同步，受"仅充电""仅 Wi‑Fi"约束，重启设备后仍有效；鸿蒙实现：WorkSchedule
+FS-A51	on_device	untested	结果契约：用户手动触发同步（下拉刷新或菜单）时，同步期间显示标题为 `Syncing` 的常驻低优先级通知（渠道名 `Sync status`），任务结束即移除；鸿蒙实现：短时任务或长时任务（dataTransfer）配
+FS-A55	on_device	untested	结果契约：孤儿文件清理每天执行一次，仅在设备空闲且充电时运行，重启后仍保留调度；鸿蒙实现：WorkScheduler 周期任务（isDeepIdle + chargerType + isPersisted）；差异：执行时
+HU-A32	on_device	untested	点击正文外链后真实拉起浏览器/自定义标签页（或邮件客户端）并加载该 URL；无可处理应用时提示 `no_activity_for_link` 文案
+HU-A39	on_device	untested	朗读文章时 TTS 按 htmlToAnnotatedString 产出的段落顺序依次朗读正文（原文/全文/译文按当前显示选择）
+NW-A06	on_device	untested	通知使用低重要性渠道 `feederNotifications`（名称 `Unread feeds`，描述 `Notifications are only shown for unread items in config
+NW-A07	on_device	untested	单条通知标题为文章纯文本标题，正文为订阅源显示名，点按后通知自动消失
+NW-A08	on_device	untested	汇总通知标题 `Updated feeds`，正文为去重后的源名以 `, ` 连接，展开后每条一行 `<源名> — <文章标题>`，角标数字为条目数
+NW-A09	on_device	untested	单条通知的动作按钮按顺序：有附件链接时 `Open enclosed media`；文章打开方式不是默认浏览器且有链接时 `Open link in web browser`；始终有 `Mark as read`
+NW-A22	on_device	untested	点小组件同步图标会以默认参数（非强制）触发一次订阅源同步，完成后小组件列表刷新；此路径不发布新条目通知。鸿蒙实现：卡片 message 事件 → FormExtensionAbility 转发同步任务，结束后 updat
+NW-A23	on_device	untested	点小组件设置图标打开 FeedWidgetSettings 页
+NW-A24	on_device	untested	数据库条目变化（同步新增、已读状态变化）或小组件源选择变化后，桌面小组件内容随之更新。鸿蒙实现：主进程在同步结束/读状态变化/选择变化时调用 `formProvider.updateForm`；差异：Glance 依赖 
+NW-A30	on_device	untested	冷重启后小组件仍显示上次选择的源（设置持久化）
+AI-A61	on_device	untested	保存后的摘要/翻译 API 设置（含 key）冷重启后仍在且对话框回显一致
+RA-A07	on_device	untested	在 Article 页点击 `Read aloud` 后设备实际发声朗读文章正文
+RA-A34	on_device	untested	点击文章中的音频附件后设备实际播放该远程音频，暂停/继续/拖动生效
+RP-A08	on_device	untested	选中某个具体源（feedId>0）后，系统桌面长按应用出现以该源标题命名的动态快捷方式（最多 3 个），点击打开该源；删除源后对应快捷方式移除。结果契约：快捷方式可直达源；鸿蒙实现：无动态 shortcut API；差异
+RP-A37	on_device	untested	应用启动时确保周期 RSS 同步已按 syncFrequency 调度（不替换已存在的调度）；频率为手动(<1 分钟)时取消周期同步。结果契约：后台定时拉取；鸿蒙实现：WorkScheduler；差异：最小间隔受限
+SS-A02	on_device	untested	修改任一用户设置后冷重启应用，设置值保持为修改后的值
+SS-A24	on_device	untested	修改同步频率/仅 Wi-Fi/仅充电后，后台周期同步按新参数重新调度；频率为 `Manually` 时取消周期同步
+ST-A10	on_device	untested	点击 `Notify for new items`：已有通知权限时打开订阅通知对话框；无权限时弹系统通知授权请求，授予后自动打开该对话框；需解释时先显示解释对话框（`OK` 再次请求授权）
+ST-A22	on_device	untested	`Battery optimization` 副标题在应用已豁免电池优化时为 `Off`、否则为 `On`，回到页面时刷新；点击跳转系统电池优化设置页
+ST-A40	on_device	untested	点 `Send bug report` 用外部浏览器打开 `https://github.com/spacecowboy/feeder/issues`；无可处理应用时提示 `Install something to op
+ST-A41	on_device	untested	在本页修改的任一设置在冷重启后进入 Settings 页仍显示修改后的值
+SY-A21	on_device	untested	点添加设备页的链接文本拉起系统分享面板，分享纯文本链接，标题 `Feeder device sync code`
+SY-A50	on_device	untested	结果契约：本地标记已读（单条/全部/之前/之后）后约 10 秒内（受“仅充电/仅 Wi-Fi”约束）把已读标记上传，重复触发不重复排队；仅在已入链时调度。鸿蒙实现：WorkScheduler 一次性任务或前台延时任务。差
+SY-A51	on_device	untested	结果契约：应用回到前台且开启“恢复时同步”且网络/充电条件满足时，拉取远端已读→应用远端已读→刷新设备列表；仅在已入链时调度。鸿蒙实现：UIAbility onForeground 触发。差异：无 JobSchedule
+TR-A21	on_device	untested	已下载模型与运行时后断网，本地离线翻译文章仍能产出译文
+TR-A46	on_device	untested	首次本地离线翻译某语言对时真实下载模型并显示百分比进度，完成后文章显示译文；再次翻译同语言对不再下载
+TR-A47	on_device	untested	下载的模型与运行时在冷重启后仍在，设置中已下载模型列表保持
+UC-A22	on_device	untested	主题、深色偏好、动态取色、字体设置在冷重启应用后仍保持
+UT-A26	on_device	untested	无应用可处理链接时弹短 Toast `Install something to open this link with first`（`no_activity_for_link`）且返回 false，不崩溃；链接格式非法
+UT-A27	on_device	untested	当请求方允许、设备最小宽度 ≥600dp 且设置 `pref_open_adjacent`（默认 true）开启时，外部页面在分屏相邻窗口打开。结果契约：大屏时链接在并排窗口打开；鸿蒙实现：分屏/自由窗口启动 Want（
+UT-A34	on_device	untested	选中具体源后系统桌面长按图标出现该源快捷方式，点击直达该源；结果契约：最多 3 个、最近用的在前；鸿蒙实现：动态 shortcut（如不支持动态则降级）；差异：见探索文档降级候选
+UT-A41	on_device	untested	点选"处理文本"应用项时，以选中文本（经剪贴板中转）拉起该应用的 PROCESS_TEXT，随后恢复用户原剪贴板内容。结果契约：选中文本被送入第三方处理应用且剪贴板不被污染；鸿蒙实现：无 PROCESS_TEXT 生态，

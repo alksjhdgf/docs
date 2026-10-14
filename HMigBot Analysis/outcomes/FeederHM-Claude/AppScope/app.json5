@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "com.nononsenseapps.feeder",
+    "vendor": "nononsenseapps",
+    "versionCode": 4158,
+    "versionName": "2.24.0",
+    "icon": "$media:layered_image",
+    "label": "$string:app_name"
+  }
+}

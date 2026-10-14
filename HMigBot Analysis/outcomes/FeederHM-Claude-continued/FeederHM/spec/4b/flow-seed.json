@@ -1,0 +1,22 @@
+{"bundle":"com.nononsenseapps.feeder","name":"flow-seed","steps":[
+ {"op":"key","name":"Home"},
+ {"op":"start"},
+ {"op":"wait","match":"type:^Button$","timeout":15000},
+ {"op":"tap","match":"type:^Button$","nth":3},
+ {"op":"wait","match":"=Import feeds from OPML","timeout":4000},
+ {"op":"tap","match":"=Import feeds from OPML"},
+ {"op":"wait","match":"=Browse","timeout":6000},
+ {"op":"tap","match":"=Browse"},
+ {"op":"wait","match":"=My phone","timeout":4000},
+ {"op":"tap","match":"=My phone"},
+ {"op":"wait","match":"=Download","timeout":4000},
+ {"op":"tap","match":"=Download"},
+ {"op":"wait","match":"=seed-feeds.opml","timeout":4000},
+ {"op":"tap","match":"=seed-feeds.opml"},
+ {"op":"sleep","ms":40000},
+ {"op":"tap","match":"type:^Button$","nth":0},
+ {"op":"expect","match":["=Hacker News: Newest","=Planet Money","^The Changelog","=Tech"]},
+ {"op":"shot","name":"flow-seed-drawer"},
+ {"op":"back"},
+ {"op":"alive"}
+]}

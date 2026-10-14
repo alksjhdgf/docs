@@ -1,0 +1,1000 @@
+{
+  "string": [
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Perjungti žymos išplėtimą"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Įtraukti mobiliuosius taškus"
+    },
+    {
+      "name": "show_fab",
+      "value": "Rodyti paslankųjį veiksmo mygtuką"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Žymos \"perskaityta\" indikatorius"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nauja, pagrįsta tai"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Atidaryti uždarą laikmeną"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Perjungti perskaitymo būseną"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Sklaidos kanalo URL"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Uždaryti naršymo stalčių"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Atidaryti naršymo stalčių"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Pranešimai rodomi tik neskaitytiems sukonfigūruotų kanalų elementams"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Tokio kanalo nepavyko rasti. Galbūt pabandykite naudoti HTTPS?"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Pirmiausia įdiekite ką nors, su kuo galėtumėte atidaryti šią nuorodą"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Čia nėra ką skaityti. Ar norėtumėte…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Nepavyko įkelti teksto skaitymo garsu funkcijos"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Didžiausias elementų kiekis viename sklaidos kanale"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Gali būti taikomi mobiliųjų duomenų mokesčiai."
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Atidaryti nuorodą žiniatinklio rodinyje"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Atidaryti elementus kaip numatyta naudojant"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Nepavyko išanalizuoti %1$s"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Nepavyko įkelti URL adreso"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Atidaryti žiniatinklio rodinyje"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importuoti kanalus iš OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Eksportuoti kanalus į OPML"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Atidaryti nuorodą interneto naršyklėje"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Pranešti apie naujus elementus"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Pažymėti visus kaip skaitytus"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Įveskite kanalo adresą"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Pridėti daugiau kanalų?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Atidaryti kitą kanalą?"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Iš anksto įkelti pasirinktinį skirtuką"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Atrastų kanalų sąrašas"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Atidarykite nuorodas su"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Naudoti numatytuosius programos nustatymus"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Ieškoti naujų straipsnių…"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Tik kraunant"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Tik per Wi-Fi"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Kas 12 valandų"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Kas 6 valandas"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Kas 3 valandas"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Kas 30 minučių"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Kas 15 minučių"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Nėra ką rodyti!"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Peržiūrėti derinimo žurnalą"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Atidaryti interneto naršyklėje"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Yra naujų elementų"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Rodyti neskaitytus elementus"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Rodyti visus elementus"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Žymėti kaip neskaitytą"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Žymėti kaip skaitytą"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Prenumeruoti kanalą"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Seniausi viršuje"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Naujausi viršuje"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistemos"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Pasirinktinis skirtukas"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Numatytoji naršyklė"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Žiniatinklio rodinys"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Neskaityti kanalai"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Atnaujinti kanalai"
+    },
+    {
+      "name": "on_startup",
+      "value": "Paleidus programėlę"
+    },
+    {
+      "name": "image_loading",
+      "value": "Vaizdų įkėlimas"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Rodyti miniatiūras"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Kasdien"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Kas valandą"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Visi kanalai"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Tęsti skaitymą"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pristabdyti skaitymą"
+    },
+    {
+      "name": "read_article",
+      "value": "Perskaityti garsiai"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Sustabdyti pranešimus"
+    },
+    {
+      "name": "no_tag",
+      "value": "Nėra žymos"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Ištrinti sklaidos kanalą"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Redaguoti sklaidos kanalą"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "autorius %1$s, %2$s"
+    },
+    {
+      "name": "add_feed",
+      "value": "Pridėti sklaidos kanalą"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "theme_night",
+      "value": "Naktis"
+    },
+    {
+      "name": "theme_day",
+      "value": "Diena"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automatinė"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Skaitytuvas"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Skaitytuvas"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sinchronizuojama"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Rankiniu būdu"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Nustatymai"
+    },
+    {
+      "name": "share",
+      "value": "Dalintis"
+    },
+    {
+      "name": "sync",
+      "value": "Sinchronizuoti"
+    },
+    {
+      "name": "view",
+      "value": "Žiūrėti"
+    },
+    {
+      "name": "save",
+      "value": "Išsaugoti"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "title",
+      "value": "Pavadinimas"
+    },
+    {
+      "name": "tag",
+      "value": "Žyma"
+    },
+    {
+      "name": "action_settings",
+      "value": "Nustatymai"
+    },
+    {
+      "name": "sort",
+      "value": "Rūšiuoti pagal"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Siųsti pranešimą apie klaidą"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Nepavyko atidaryti el. pašto programos"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Palieskite, kad paleistumėte vaizdo įrašą"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Atidaryti sklaidos kanalą"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Pažymėti aukščiau kaip skaitytą"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Pažymėti žemiau kaip skaitytą"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Baterijos optimizavimas"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Išjungta"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Įjungta"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Parsiųsti pilną straipsnį"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Parsiųsti pilnus straipsnius automatiškai"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Viso straipsnio gauti nepavyko"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Parsiunčiamas pilnas straipsnis…"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s neskaityti straipsniai"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s neskaitytų straipsnių"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s neskaitytų straipsnių"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s neskaityti straipsniai"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s neskaitytų straipsnių"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s neskaitytas straipsnis"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sinchronizuoti sklaidos kanalus"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Rodomi visi straipsniai"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Rodomi tik neskaityti straipsniai"
+    },
+    {
+      "name": "already_read",
+      "value": "Jau skaityta"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Neskaityta"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Eiti į %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Atidaryti meniu"
+    },
+    {
+      "name": "go_back",
+      "value": "Grįžti atgal"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Uždaryti žymą"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Atidaryti žymą"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Baigti skaitymą"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Atidaryti %1$s"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Itin kompaktiškas"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompaktiškas"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kortelė"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Straipsnio stilius"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Pageidaujama tamsi tema"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Juoda"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tamsi"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generuoti papildomus unikalius ID"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Įgalinti tik sklaidos kanalams su netinkamais ID"
+    },
+    {
+      "name": "sync_status",
+      "value": "Sinchronizavimo būsena"
+    },
+    {
+      "name": "syncing",
+      "value": "Sinchronizuojama"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Netinkamas URL adresas"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (šis įrenginys)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Atjungti įrenginį nuo sinchronizavimo grandinės"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Pradėti naują sinchronizavimo grandinę"
+    },
+    {
+      "name": "sync_code",
+      "value": "Sinchronizavimo kodas"
+    },
+    {
+      "name": "secret_key",
+      "value": "Slaptas raktas"
+    },
+    {
+      "name": "disabled",
+      "value": "Išjungta"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Tik nuo galo"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Leidžia programai skaityti sklaidos kanalus ir straipsnius"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder tik skaitymo prieiga"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Iš bet kur"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Perbraukimas, kad būtų pažymėta kaip perskaitytą"
+    },
+    {
+      "name": "device_sync",
+      "value": "Įrenginio sinchronizavimas"
+    },
+    {
+      "name": "block_list",
+      "value": "Blokuojamųjų sąrašas"
+    },
+    {
+      "name": "add_item",
+      "value": "Pridėti elementą"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Pridėti naują įrenginį"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Už šią paslaugą moka bendruomenė. Apsvarstykite galimybę paaukoti, jei manote, kad tai naudinga."
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Ar tikrai norite išeiti iš sinchronizavimo grandinės?"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Prisijunkiti prie sinchronizavimo grandinės"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Nepavyko rasti brūkšninių kodų skaitytuvo"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Sinchronizavimo grandinėje esantys įrenginiai"
+    },
+    {
+      "name": "remove",
+      "value": "Pašalinti"
+    },
+    {
+      "name": "remove_device",
+      "value": "Pašalinti įrenginį"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Ar tikrai norite pašalinti įrenginį %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Įrenginyje eikite į įrenginio sinchronizavimą ir paspauskite nuskaityti sinchronizavimo kodą."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Arba atidarykite nuorodą savo įrenginyje."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Laikykite tai kaip slaptažodį. Bet kas gali perskaityti sinchronizuotus duomenis, jei turi nuorodą."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR kodas"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder įrenginio sinchronizavimo kodas"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Įrenginio sinchronizavimas leidžia sinchronizuoti kanalų prenumeratas ir skaityti straipsnius įvairiuose įrenginiuose."
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Palikti sinchronizavimo grandinę"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Tiesiog nuskaitykite kodą iš jūsų sinchronizavimo grandinės, kurią sukūrėte kitame prietaise, arba pradėkite naują sinchronizavimo grandinę."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Nuskaitykite arba įveskite sinchronizavimo kodą"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Nepavyko atidaryti straipsnio"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Nepavyko importuoti OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Nepavyko eksportuoti OPML"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Aptikti kalbą"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Automatiškai nustato straipsnio kalbą"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Tekstas į kalbą"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Pereiti prie kito"
+    },
+    {
+      "name": "set_language",
+      "value": "Nustatyti kalbą"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dinaminės spalvos"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nauja"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Prieš įjungiant pranešimus turi būti suteiktas leidimas."
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Pasiekiama tik \"Android\" %1$s ir naujesnėse versijose"
+    },
+    {
+      "name": "article_image",
+      "value": "Straipsnio paveikslėlis"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Sklaidos kanalo piktograma"
+    },
+    {
+      "name": "text_scale",
+      "value": "Teksto mastelis"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s kanalai"
+    },
+    {
+      "name": "close_menu",
+      "value": "Uždaryti meniu"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Eksportuoti išsaugotus straipsnius"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-Popierius"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sinchronizuoti parsiunčiant straipsnius"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Nepavyko eksportuoti išsaugotų straipsnių"
+    },
+    {
+      "name": "saved_article",
+      "value": "Išsaugotas straipsnis"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Nėra kanalų"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s žymės"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Nepavyko išanalizuoti RSS kanalo"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Nepalaikomas turinio tipas"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Vistiek pridėti"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minučių"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minučių"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minučių"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minučių"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Straipsnių sąrašas"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Įkelti %1$s su %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s žymės"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s žymė"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Kanalui trūksta nuorodos į straipsnį"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Nerasta nieko parsiųsti"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Skaityti"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Nepavyko parsiųsti"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Nepavyko išanalizuoti puslapio"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Kanalų puslapyje nėra"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Paslepia straipsnius su antraštėmis turinčiomis bet kurį iš šių filtrų. Pavyzdžiui:"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompaktiška korta"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Išsaugoti straipsniai"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Sustabdyti straipsnio saugojimą"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Pažymėti perskaitytu slenkant"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s kanalai"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s kanalas"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s kanalai"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s kanalai"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Išsaugota"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Straipsniai su nuorodomis arba antraštėmis identiškomis su egzistuojančiais straipsniais bus ignoruojamos"
+    },
+    {
+      "name": "save_article",
+      "value": "Išsaugoti straipsnį"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s kanalai"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s žymės"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s žymės"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s žymės"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Nuoroda nėra HTML dokumentas"
+    },
+    {
+      "name": "max_lines",
+      "value": "Maksimaliai eilučių"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filtras"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Neseniai skaityta"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Rodyti tik antraštę"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Turinys nėra HTML"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP klaida"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Nepavyko išanalizuoti JSON kanalo"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Nėra turinio atsake"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Nepavyko išanalizuoti pilno straipsnio"
+    },
+    {
+      "name": "no_url",
+      "value": "Nėra nuorods"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Atidaryti naršyklę atskirame lange"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s žodžių"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s žodis"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s žodžių"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s žodžių"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s žodžių"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s žodžių"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minučių"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minutė"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Praleisti atsikartojančius straipsnius"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Rodyti likusį skaitymo laiką"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

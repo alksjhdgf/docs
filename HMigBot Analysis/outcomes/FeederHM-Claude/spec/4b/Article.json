@@ -1,0 +1,51 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "Article",
+  "kind": "skeleton",
+  "slice": "page-article",
+  "route": "Article",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "Article"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "Go back",
+        "Fetch full article",
+        "Open in Web view",
+        "Open menu",
+        "Share",
+        "Summarize",
+        "Mark as unread",
+        "Save article",
+        "Stop saving article",
+        "Read aloud",
+        "original",
+        "Translate article",
+        "Install something to open this link with first",
+        "Article is too large\\. Open in browser instead\\?",
+        "n_minutes",
+        "minute",
+        "Open enclosed media",
+        "image/\\*",
+        "pref_open_links_with",
+        "Set a preferred translation language in AI settings",
+        "Open settings",
+        "Cancel",
+        "Download offline translation engine\\?",
+        "Download",
+        "Could not download the offline translation engine\\."
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "Article"
+    }
+  ]
+}

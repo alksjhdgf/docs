@@ -1,0 +1,51 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "SearchFeed",
+  "kind": "skeleton",
+  "slice": "page-search-feed",
+  "route": "SearchFeed",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "SearchFeed"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "Add feed",
+        "Go back",
+        "Feed URL",
+        "urlField",
+        "Search",
+        "http:",
+        "cowboyprogrammer\\.org",
+        "searchingIndicator",
+        "searchResult",
+        "errorResult",
+        "Add anyway",
+        "Failed to download",
+        "Failed to parse the page",
+        "No feeds in the page",
+        "Content is not HTML",
+        "Failed to parse RSS feed",
+        "HTTP error",
+        "Failed to parse JSON feed",
+        "No body in response",
+        "Unsupported content type",
+        "Failed to parse full article",
+        "Article is too large\\. Open in browser instead\\?",
+        "No URL",
+        "Suggestions",
+        "feedUrl"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "SearchFeed"
+    }
+  ]
+}

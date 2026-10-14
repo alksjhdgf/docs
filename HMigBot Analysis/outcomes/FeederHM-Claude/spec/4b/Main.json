@@ -1,0 +1,27 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "Main",
+  "kind": "skeleton",
+  "slice": "page-main",
+  "route": "Main",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "Main"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "ID_UNSET"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "Main"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-nav.json",
+  "at": "2026-10-13T18:33:40.234Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-nav",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3732
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 738
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3074
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Feeder News\" @630,595",
+      "changed": true,
+      "ms": 3071
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 705
+    },
+    {
+      "i": 5,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 687
+    },
+    {
+      "i": 6,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Sep 20, 2026\" @1102,2308",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": true,
+      "ms": 3045
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =readerColumn",
+      "ms": 665
+    },
+    {
+      "i": 8,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 689
+    },
+    {
+      "i": 9,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 780
+    },
+    {
+      "i": 10,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 709
+    },
+    {
+      "i": 11,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3035
+    },
+    {
+      "i": 12,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 686
+    },
+    {
+      "i": 13,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"All feeds\" @630,228",
+      "changed": true,
+      "ms": 3063
+    },
+    {
+      "i": 14,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^All feeds",
+      "ms": 661
+    },
+    {
+      "i": 15,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3071
+    },
+    {
+      "i": 16,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Settings",
+      "ms": 670
+    },
+    {
+      "i": 17,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Settings\" @388,2002",
+      "changed": true,
+      "ms": 3047
+    },
+    {
+      "i": 18,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Theme",
+      "ms": 690
+    },
+    {
+      "i": 19,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 791
+    },
+    {
+      "i": 20,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3057
+    },
+    {
+      "i": 21,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 687
+    },
+    {
+      "i": 22,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 96
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Feeder News",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 33",
+      "02",
+      ":",
+      "33",
+      "100",
+      "All feeds",
+      "Saved articles, 1",
+      "Saved articles",
+      "1",
+      "2.23.2 released",
+      "by ⁨Jonas⁩, Sunday, September 20, 2026 at 10:37 PM",
+      "0:41 minutes",
+      "🌐 Translations",
+      "•",
+      "Updated Hungarian translation using Weblate by @summoner001 in commit",
+      "Updated Ukrainian translation using Weblate by @G-H-User in commit",
+      "Updated Japanese translation using Weblate in commit",
+      "Updated Tamil translation using Weblate by @TamilNeram in commit",
+      "Updated Czech translation using Weblate in commit",
+      "Mark all as read",
+      "Sync feeds",
+      "Add feed",
+      "Edit feed",
+      "Delete feed",
+      "Import feeds from OPML",
+      "Export feeds to OPML",
+      "Import saved articles",
+      "Export saved articles",
+      "Settings",
+      "Theme, Day",
+      "Theme",
+      "Day",
+      "Dynamic colors, Only available on Android 12 and above",
+      "Dynamic colors",
+      "Only available on Android 12 and above",
+      "Preferred dark theme, Dark",
+      "Preferred dark theme",
+      "Dark",
+      "Notify for new items",
+      "Block list",
+      "Filters",
+      "Apply to summaries",
+      "Apply to links",
+      "Text",
+      "Text settings, Roboto",
+      "Text settings",
+      "Roboto",
+      "Syncing",
+      "Look for new articles…, Every hour"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "readerColumn"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

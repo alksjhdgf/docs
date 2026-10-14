@@ -1,0 +1,928 @@
+{
+  "string": [
+    {
+      "name": "sync_to_fetch",
+      "value": "زامن لجلب المقال"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s مقالاً غير مقروءة"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s مقال غير مقروءة"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "بطاقة"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "مضغوط جداً"
+    },
+    {
+      "name": "add_new_device",
+      "value": "أضف جهازًا جديدًا"
+    },
+    {
+      "name": "disabled",
+      "value": "معطّل"
+    },
+    {
+      "name": "block_list_description",
+      "value": "يخفي المقالات ذات العناوين التي تحتوي على أي من هذه المرشحات. مثال مرشحات:"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "المس لتشغيل الفيديو"
+    },
+    {
+      "name": "javascript",
+      "value": "جافاسكربت"
+    },
+    {
+      "name": "open_feed",
+      "value": "افتح خلاصة"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "علّم الذي بالأعلى أنه مقروء"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "افتح وسم"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "زامن الخلاصات"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s مقال غير مقروء"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s مقالان غير مقروءين"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s مقالات غير مقروءة"
+    },
+    {
+      "name": "remove",
+      "value": "أزل"
+    },
+    {
+      "name": "remove_device",
+      "value": "أزل الجهاز"
+    },
+    {
+      "name": "feed_icon",
+      "value": "رمز الخلاصة"
+    },
+    {
+      "name": "text_scale",
+      "value": "مقاس النص"
+    },
+    {
+      "name": "article_image",
+      "value": "صورة المقال"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "افتح خزنة التصفح"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "أغلق خزنة التصفح"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "أوقف الإخطارات"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "أخطر بالعناصر الجديدة"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "فعّل/عطّل حالة القراءة"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "افتح الرابط في المتصفح"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "افتح في متصفح الويب"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "كل ساعة"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "كلّ ٣ ساعات"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "كلّ ٦ ساعات"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "كلّ ١٢ ساعة"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "كل يوم"
+    },
+    {
+      "name": "action_settings",
+      "value": "إعدادات"
+    },
+    {
+      "name": "add_feed",
+      "value": "أضف خلاصة"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "اشترك بخلاصة"
+    },
+    {
+      "name": "url",
+      "value": "العنوان/الرابط"
+    },
+    {
+      "name": "tag",
+      "value": "الوسم"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "مسار الخلاصة"
+    },
+    {
+      "name": "title",
+      "value": "العنوان"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s، %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "احفظ"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "لا يوجد شيء هنا. هل ترغب في…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "فتح خلاصة أخرى؟"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "أضف المزيد من الخلاصات؟"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "أدخل عنوان خلاصة"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "علّم كمقروءة"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "علّم كَغَير مقروءة"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "علّم الكلّ كمقروءة"
+    },
+    {
+      "name": "edit_feed",
+      "value": "حرّر خلاصة"
+    },
+    {
+      "name": "delete_feed",
+      "value": "احذف خلاصة"
+    },
+    {
+      "name": "show_all_items",
+      "value": "أظهر كل العناصر"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "أظهر العناصر غير المقروءة"
+    },
+    {
+      "name": "new_items_available",
+      "value": "عناصر جديدة متوفرة"
+    },
+    {
+      "name": "view",
+      "value": "العرض"
+    },
+    {
+      "name": "no_tag",
+      "value": "لا يوجد وسم"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "افتح الوسيط المرفق"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "افتح %1$s"
+    },
+    {
+      "name": "read_article",
+      "value": "اقرأ المكتوب"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "نطق النص"
+    },
+    {
+      "name": "pause_reading",
+      "value": "ألبث القراءة"
+    },
+    {
+      "name": "resume_reading",
+      "value": "استأنف القراءة"
+    },
+    {
+      "name": "stop_reading",
+      "value": "أوقف القراءة"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "تخطى للتالي"
+    },
+    {
+      "name": "set_language",
+      "value": "اضبط اللغة"
+    },
+    {
+      "name": "sync",
+      "value": "مزامنه"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "صدر الخلاصات كـOPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "استورد الخلاصات من OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "اعرض سجل التنقيح"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "جديد بناءً على هذه"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "مؤشر لتعْليم المقروء"
+    },
+    {
+      "name": "share",
+      "value": "شارك"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "لا يمكن العثور على مثل هذه الخلاصة. حاول استخدام HTTPS ربما يفيد؟"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "لا يوجد شيء لعرضه!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "إعدادات"
+    },
+    {
+      "name": "all_feeds",
+      "value": "كل الخلاصات"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "يدويا"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "كلّ ١٥ دقيقة"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "كلّ ٣٠ دقيقة"
+    },
+    {
+      "name": "synchronization",
+      "value": "يُزامن"
+    },
+    {
+      "name": "syncing",
+      "value": "يُزامن"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "على الشبكة اللاسلكية"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "أظهر المصغرات"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "تعرف اللغة"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "متوفرة لأندرويد %1$s وأعلى"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "يتعرف تلقائيا على لغة المقال"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "قد يؤدي إلى رسوم بيانات الهاتف المحمول."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "فقط عند الشحن"
+    },
+    {
+      "name": "image_loading",
+      "value": "تحميل الصور"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "قم بتثبيت شيء لفتح هذا الرابط أولاً"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "يتحقق المقالات الجديدة…"
+    },
+    {
+      "name": "on_startup",
+      "value": "عند بدء التطبيق"
+    },
+    {
+      "name": "block_list",
+      "value": "قائمة المنع"
+    },
+    {
+      "name": "add_item",
+      "value": "أضف عنصرًا"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "خلاصات المحدثة"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "خلاصات غير مقروءة"
+    },
+    {
+      "name": "sync_status",
+      "value": "حالة المزامنة"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "القارئ"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "عرض الويب"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "المتصفح المبدئي"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "لسان مخصص"
+    },
+    {
+      "name": "use_app_default",
+      "value": "استخدم التطبيق المبدئي"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "افتح العناصر مبدئيا باستخدام"
+    },
+    {
+      "name": "open_links_with",
+      "value": "افتح الروابط بـ"
+    },
+    {
+      "name": "reader_settings",
+      "value": "القارئ"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "افتح الرابط في عرض الويب"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "افتح في عرض الويب"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "أقصى عدد للعناصر لكل خلاصة"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "لا يمكن تحميل العنوان"
+    },
+    {
+      "name": "theme_system",
+      "value": "النظام"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "آليّ"
+    },
+    {
+      "name": "theme_day",
+      "value": "اليوم"
+    },
+    {
+      "name": "theme_night",
+      "value": "الليل"
+    },
+    {
+      "name": "theme",
+      "value": "السمة"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "ألوان حركية"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "فضّل السمة المظلمة"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "أسود"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "مظلمة"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "الأحدث أولاً"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "الأقدم أولاً"
+    },
+    {
+      "name": "sort",
+      "value": "رتّب بحسب"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "أرسل تقرير عن العلة"
+    },
+    {
+      "name": "no_email_client",
+      "value": "تعذر فتح عميل البريد الإلكتروني"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "علّم الذي بالأسفل أنه مقروء"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "قائمة الخلاصات المكتشفة"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "بدل توسيع الوسوم"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "وسم مغلق"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "تحسين المدخرة"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "مغلق"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "يعمل"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "حمل مسبقا اللسان المخصص"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "تعذر تحليل %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "اجلب كامل المقال"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "اجلب المقالات بالكامل بشكل مبدئي"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "تعثر جلب كامل المقال"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "تعذر فتح المقال"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "يجلب كامل المقال…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "تعذر تحميل نطق النص"
+    },
+    {
+      "name": "go_back",
+      "value": "عُد"
+    },
+    {
+      "name": "open_menu",
+      "value": "افتح القائمة"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "اذهب إلى %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "غير المقروء"
+    },
+    {
+      "name": "already_read",
+      "value": "المقروءة فعلاً"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "يعرض المقالات غير المقروءة"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "يعرض جميع المقالات"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s مقال غير مقروءة"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "نمط المقال"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "مُدمج"
+    },
+    {
+      "name": "qr_code",
+      "value": "رمز استجابة سريعة"
+    },
+    {
+      "name": "new_indicator",
+      "value": "جديد"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "ولّد معرفات فريدة إضافية"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "فعله للخلاصات ذات المعرفات السيئة فقط"
+    },
+    {
+      "name": "invalid_url",
+      "value": "عنوان غير صالح"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "فشل استيراد OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "أخفق تصدير OPML"
+    },
+    {
+      "name": "device_sync",
+      "value": "مزامنة جهاز"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "على جهازك، تنقل إلى مزامنة جهاز واضغط على امسح رمز المزامنة."
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "رمز المزامنة للجهاز المزود"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "اخرج من سلسلة المزامنة"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "امسح أو أدخل رمز المزامنة"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "ابدأ سلسلة مزامنة جديدة"
+    },
+    {
+      "name": "sync_code",
+      "value": "رمز المزامنة"
+    },
+    {
+      "name": "secret_key",
+      "value": "المفتاح السر"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "تتيح لك مزامنة جهاز مزامنة اشتراكات الخلاصة وقراءة المقالات بين أجهزتك المختلفة."
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "انضم لسلسلة مزامنة"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "لم يتمكن من العثور على ماسح الرموز"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (هذا الجهاز)"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "الأجهزة التي ستزامن"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "هل تريد حذف هذا الجهاز %1$s؟"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "مرر لتعلمها كمقروءة"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "يجب أن يحصل على الصلاحيات قبل أن تمكن الإخطارات."
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "تسمح للتطبيق أن يقرأ الخلاصات و المقالات"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "وصول القراءة فقط لفيدر"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "هذه الخدمة مدفوعة بواسطة المجتمع. الرجاء تبرع إذا وجدتها مفيدة."
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "افصل جهاز من سلسلة المزامنة"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "عامل هذا ككلمة سر. أي شخص يمكنه أن يقرأ بياناتك المزامنة إذا امتلكوا هذا الرابط."
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "هل تريد ترك سلسلة المزامنة؟"
+    },
+    {
+      "name": "only_from_end",
+      "value": "فقط من النهاية"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "يمكنك أيضا فتح الرابط على جهازك."
+    },
+    {
+      "name": "from_anywhere",
+      "value": "من أي مكان"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "ما عليك سوى مسح الرمز من سلسلة المزامنة التي أنشأتها على جهاز آخر، أو بَدْء سلسلة مزامنة جديدة."
+    },
+    {
+      "name": "show_fab",
+      "value": "أظهر زر الإجراءات العائم"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "ضمّن شبكة المشاركة من المحمول"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "تُعرض الإخطارات فقط للعناصر غير المقروءة في الخلاصات المضبوطة"
+    },
+    {
+      "name": "no_feeds",
+      "value": "لا خلاصات"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s خلاصة"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s خلاصة واحدة"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s خلاصتين"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s خلاصات"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s خلاصة"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s خلاصات"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "استورد %1$s مع %2$s؟"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s علامة"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s علامة"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s علامتين"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s علامات"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s علامة"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s علامات"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "علّم كمقروء عند التخطي"
+    },
+    {
+      "name": "saved_articles",
+      "value": "المقالات المحفوظة"
+    },
+    {
+      "name": "saved_article",
+      "value": "مقال محفوظ"
+    },
+    {
+      "name": "save_article",
+      "value": "احفظ المقال"
+    },
+    {
+      "name": "unsave_article",
+      "value": "أوقف حفظ المقال"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "لم يتم العثور على شيء"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "لا تحتوي الخلاصة على رابط للمقالة"
+    },
+    {
+      "name": "show_only_title",
+      "value": "أظهر العنوان فقط"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "قائمة المقالات"
+    },
+    {
+      "name": "max_lines",
+      "value": "الحد الأقصى للسطور"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "الرابط ليس مستندًا بصيغة HTML"
+    },
+    {
+      "name": "filter_noun",
+      "value": "المصفي"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "قرأت مؤخرا"
+    },
+    {
+      "name": "read_adjective",
+      "value": "مقروء"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "محفوظ"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "ورق إلكتروني"
+    },
+    {
+      "name": "close_menu",
+      "value": "اغلق القائمة"
+    },
+    {
+      "name": "one_minute",
+      "value": "دقيقة واحدة"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s دقيقة"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s دقائق"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s دقائق"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s كلمات"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s دقائق"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s كلمة"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s كلمات"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s كلمات"
+    },
+    {
+      "name": "two_minutes",
+      "value": "دقيقتان"
+    },
+    {
+      "name": "two_words",
+      "value": "كلمتان"
+    },
+    {
+      "name": "one_word",
+      "value": "كلمة واحدة"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "صدّر المقالات المحفوظة"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

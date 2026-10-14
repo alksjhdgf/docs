@@ -1,0 +1,1540 @@
+{
+  "string": [
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "இயல்பு நிலையாக முழு கட்டுரைகளையும் பெறுங்கள்"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "ஆன்"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "கீழே படித்ததாகக் குறிக்கவும்"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "புதியன முதலில்"
+    },
+    {
+      "name": "theme_day",
+      "value": "பகல்"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "படிக்காத ஊட்டங்கள்"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "ஓ.பி.எம்.எல்.க்கு ஊட்டங்களை ஏற்றுமதி செய்க"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "ஊட்டத்திற்கு குழுசேரவும்"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "ஊட்ட URL"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "உரையில் உரையை ஏற்ற முடியவில்லை"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "முழு கட்டுரையைப் பெறுகிறது…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "முழு கட்டுரையையும் பெற முடியவில்லை"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "முழு கட்டுரையைப் பெறுங்கள்"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "%1$sஐ அலச முடியவில்லை"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "விருப்ப தாவலை முன்ஏற்றவும்"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "அணை"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "பேட்டரி தேர்வுமுறை"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "குறிச்சொல் விரிவாக்கத்தை நிலைமாற்று"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "கண்டுபிடிக்கப்பட்ட ஊட்டங்கள் பட்டியல்"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "மேலே படித்ததாகக் குறிக்கவும்"
+    },
+    {
+      "name": "open_feed",
+      "value": "திறந்த ஊட்டம்"
+    },
+    {
+      "name": "javascript",
+      "value": "ஜாவாஸ்கிரிப்ட்"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "வீடியோவை இயக்கத் தொடவும்"
+    },
+    {
+      "name": "no_email_client",
+      "value": "மின்னஞ்சல் கிளையண்டை திறக்க முடியவில்லை"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "பிழை அறிக்கையை அனுப்பு"
+    },
+    {
+      "name": "sort",
+      "value": "வரிசைப்படுத்து"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "பழையன முதலில்"
+    },
+    {
+      "name": "theme",
+      "value": "தீம்"
+    },
+    {
+      "name": "theme_night",
+      "value": "இரவு"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "தானியங்கி"
+    },
+    {
+      "name": "theme_system",
+      "value": "அமைப்பு"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "யுஆர்எல்-ஐ ஏற்ற முடியவில்லை"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "ஒரு ஊட்டத்திற்கு அதிகபட்ச பொருட்கள்"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "வலை பார்வையில் திறக்கவும்"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "இணையக் காட்சியில் இணைப்பைத் திறக்கவும்"
+    },
+    {
+      "name": "reader_settings",
+      "value": "வாசிப்பவர்"
+    },
+    {
+      "name": "open_links_with",
+      "value": "உடன் இணைப்புகளைத் திறக்கவும்"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "உருப்படிகளை இயல்புநிலையாக திறக்கவும்"
+    },
+    {
+      "name": "use_app_default",
+      "value": "பயன்பாட்டு இயல்புநிலையைப் பயன்படுத்தவும்"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "தனிப்பயன் தாவல்"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "இயல்புநிலை உலாவி"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "வலை பார்வை"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "வாசிப்பவர்"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "உள்ளமைக்கப்பட்ட ஊட்டங்களில் படிக்காத உருப்படிகளுக்கு மட்டுமே அறிவிப்புகள் காண்பிக்கப்படும்"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "புதுப்பிக்கப்பட்ட ஊட்டங்கள்"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "மொபைல் ஹாட்ஸ்பாட்களை சேர்க்கவும்"
+    },
+    {
+      "name": "show_fab",
+      "value": "மிதக்கும் செயல் பொத்தானைக் காண்பி"
+    },
+    {
+      "name": "on_startup",
+      "value": "பயன்பாடு தொடங்கும் போது"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "புதிய கட்டுரைகளைத் தேடுங்கள்…"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "முதலில் இந்த இணைப்பைத் திறக்க ஏதாவது ஒன்றை நிறுவவும்"
+    },
+    {
+      "name": "image_loading",
+      "value": "பட ஏற்றுதல்"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "சார்ஜ் செய்யும் போது மட்டுமே"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "மொபைல் தரவு கட்டணங்கள் ஏற்படலாம்."
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "சிறுபடங்களை காண்பி"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Wi-Fi இல் மட்டும்"
+    },
+    {
+      "name": "synchronization",
+      "value": "ஒத்திசைக்கிறது"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "தினமும்"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "ஒவ்வொரு 12 மணி நேரமும்"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "ஒவ்வொரு 6 மணி நேரமும்"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "ஒவ்வொரு 3 மணி நேரமும்"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "ஒவ்வொரு மணி நேரமும்"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "ஒவ்வொரு 30 நிமிடங்களுக்கும்"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "ஒவ்வொரு 15 நிமிடங்களுக்கும்"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "கைமுறையாக"
+    },
+    {
+      "name": "all_feeds",
+      "value": "அனைத்து ஊட்டங்களும்"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "அமைப்புகள்"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "காண்பிக்க ஒன்றுமில்லை!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "அத்தகைய ஊட்டத்தை கண்டுபிடிக்க முடியவில்லை. HTTPS ஐப் பயன்படுத்த முயற்சிக்கலாமா?"
+    },
+    {
+      "name": "share",
+      "value": "பகிர்"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "படித்தகுறிக்கான குறிகாட்டி"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "இதன் அடிப்படையில் புதியது"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "பிழைத்திருத்த பதிவை காண்க"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "ஓ.பி.எம்.எல்.லிருந்து ஊட்டங்களை இறக்குமதி செய்க"
+    },
+    {
+      "name": "sync",
+      "value": "ஒத்திசைவு"
+    },
+    {
+      "name": "resume_reading",
+      "value": "வாசிப்பை மீண்டும் தொடங்குங்கள்"
+    },
+    {
+      "name": "pause_reading",
+      "value": "வாசிப்பை நிறுத்துங்கள்"
+    },
+    {
+      "name": "read_article",
+      "value": "சத்தமாக வாசிக்கவும்"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "இணைக்கப்பட்ட மீடியாவை திற"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "இணைய உலாவியில் திறக்கவும்"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "இணைய உலாவியில் இணைப்பைத் திறக்கவும்"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "படித்த நிலையை நிலை மாற்று"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "அறிவிப்புகளை நிறுத்து"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "புதிய உருப்படிகளுக்கு அறிவிக்கவும்"
+    },
+    {
+      "name": "no_tag",
+      "value": "குறிச்சொல் இல்லை"
+    },
+    {
+      "name": "view",
+      "value": "காண்க"
+    },
+    {
+      "name": "new_items_available",
+      "value": "புதிய உருப்படிகள் கிடைக்கின்றன"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "படிக்காத உருப்படிகளைக் காண்பி"
+    },
+    {
+      "name": "show_all_items",
+      "value": "அனைத்து உருப்படிகளையும் காட்டு"
+    },
+    {
+      "name": "delete_feed",
+      "value": "ஊட்டத்தை நீக்கு"
+    },
+    {
+      "name": "edit_feed",
+      "value": "ஊட்டத்தை திருத்து"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "அனைத்தையும் படித்ததாக குறியிடு"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "படிக்காததாக குறியிடு"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "படித்ததாக குறியிடு"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "ஊட்ட முகவரியை உள்ளிடவும்"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "மேலும் ஊட்டங்கள் சேர்?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "திற மற்றொரு ஊட்டம்?"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "இங்கே படிக்க எதுவும் இல்லை. நீங்கள் விரும்புகிறீர்களா…"
+    },
+    {
+      "name": "save",
+      "value": "சேமி"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "title",
+      "value": "தலைப்பு"
+    },
+    {
+      "name": "tag",
+      "value": "குறிச்சொல்"
+    },
+    {
+      "name": "url",
+      "value": "முகவரி"
+    },
+    {
+      "name": "add_feed",
+      "value": "ஊட்டத்தை சேர்க்கவும்"
+    },
+    {
+      "name": "action_settings",
+      "value": "அமைப்புகள்"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "வழிசெலுத்தல் அலமாரியை மூடு"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "வழிசெலுத்தல் அலமாரியைத் திறக்கவும்"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "OPML ஐ இறக்குமதி செய்ய முடியவில்லை"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPMLஐ ஏற்றுமதி செய்ய முடியவில்லை"
+    },
+    {
+      "name": "syncing",
+      "value": "ஒத்திசைக்கிறது"
+    },
+    {
+      "name": "sync_status",
+      "value": "ஒத்திசைவு நிலை"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "விருப்பமான இருண்ட தீம்"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "குறிச்சொல்லைத் திற"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "மூடப்பட்ட குறிச்சொல்"
+    },
+    {
+      "name": "go_back",
+      "value": "பின் செல்"
+    },
+    {
+      "name": "open_menu",
+      "value": "மெனுவைத் திற"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "%1$s க்குச் செல்லுங்கள்"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "படிக்காதது"
+    },
+    {
+      "name": "already_read",
+      "value": "ஏற்கனவே படித்தது"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "அனைத்து கட்டுரைகளையும் காட்டுகிறது"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s படிக்காத கட்டுரைகள்"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s படிக்காத கட்டுரைகள்"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s படிக்காத கட்டுரைகள்"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "மோசமான ஐடிகளுடன் ஊட்டங்களுக்கு மட்டுமே இயக்கவும்"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s படிக்காத கட்டுரை"
+    },
+    {
+      "name": "invalid_url",
+      "value": "சரியான URL அல்ல"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$sஐத் திறக்கவும்"
+    },
+    {
+      "name": "stop_reading",
+      "value": "படிப்பதை நிறுத்து"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "படிக்காத கட்டுரைகளை மட்டும் காட்டுகிறது"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "ஊட்டங்களை ஒத்திசைக்கவும்"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "கட்டுரை நடை"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "அட்டை"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "கச்சிதமான"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "கூடுதல் தனிப்பட்ட ஐடிகளை உருவாக்கவும்"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "கருப்பு"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "இருள்"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s படிக்காத கட்டுரைகள்"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s படிக்காத கட்டுரைகள்"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "சூப்பர் சிறிய"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "மின் தாள்"
+    },
+    {
+      "name": "new_indicator",
+      "value": "புதிய"
+    },
+    {
+      "name": "no_feeds",
+      "value": "ஊட்டங்கள் இல்லை"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "ஆடியோவை இயக்கத் தொடவும்"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "ஏற்றுமதி சேமிக்கப்பட்ட கட்டுரைகள்"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "மொழியைக் கண்டறியவும்"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "ஆண்ட்ராய்டு %1$s மற்றும் அதற்கு மேற்பட்டவற்றில் மட்டுமே கிடைக்கும்"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "கட்டுரை மொழியை தானாகவே கண்டறியும்"
+    },
+    {
+      "name": "block_list",
+      "value": "தொகுதி பட்டியல்"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "மாறும் வண்ணங்கள்"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "கட்டுரையைப் பெற ஒத்திசைக்கவும்"
+    },
+    {
+      "name": "add_new_device",
+      "value": "புதிய சாதனத்தைச் சேர்க்கவும்"
+    },
+    {
+      "name": "remove",
+      "value": "அகற்று"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "மாற்றாக, உங்கள் சாதனத்தில் இணைப்பைத் திறக்கவும்."
+    },
+    {
+      "name": "from_anywhere",
+      "value": "எங்கிருந்தும்"
+    },
+    {
+      "name": "article_image",
+      "value": "கட்டுரை படம்"
+    },
+    {
+      "name": "save_article",
+      "value": "கட்டுரையை சேமிக்கவும்"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s ஊட்டங்கள்"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "%1$s %2$s உடன் இறக்குமதி செய்யவா?"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s குறிச்சொல்"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s குறிச்சொற்கள்"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "கட்டுரைக்கான இணைப்பை ஊட்டம் காணவில்லை"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "இணைப்பு ஒரு உஉகுமொ ஆவணம் அல்ல"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "சேமிக்கப்பட்டது"
+    },
+    {
+      "name": "show_only_title",
+      "value": "தலைப்பைக் காட்டுங்கள்"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "உள்ளடக்கம் உஉகுமொ அல்ல"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "ஆர்எச்எச் ஊட்டத்தை அலசத் தவறிவிட்டது"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP பிழை"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s சொற்கள்"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s சொல்"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s சொற்கள்"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s நிமிடங்கள்"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s நிமிடங்கள்"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s நிமிடங்கள்"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s நிமிடங்கள்"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s நிமிடங்கள்"
+    },
+    {
+      "name": "block_list_description",
+      "value": "இந்த வடிப்பான்களில் ஏதேனும் ஒன்றைக் கொண்ட தலைப்புகளுடன் கட்டுரைகளை மறைக்கிறது. எடுத்துக்காட்டு வடிப்பான்கள்:"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "கட்டுரையைத் திறக்க முடியவில்லை"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR குறியீடு"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "புதிய ஒத்திசைவு சங்கிலியைத் தொடங்கவும்"
+    },
+    {
+      "name": "sync_code",
+      "value": "குறியீட்டை ஒத்திசைக்கவும்"
+    },
+    {
+      "name": "secret_key",
+      "value": "ரகசிய விசை"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "சுருளில் படிக்க மார்க்"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "கட்டுரை பட்டியல்"
+    },
+    {
+      "name": "add_item",
+      "value": "உருப்படியைச் சேர்க்கவும்"
+    },
+    {
+      "name": "show_message",
+      "value": "செய்தியைக் காட்டு"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "ஊட்டி சாதன ஒத்திசைவு குறியீடு"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "ஊட்டி படிக்க மட்டும் அணுகல்"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "பதிலளிக்கும் உடல் இல்லை"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "ஆதரிக்கப்படாத உள்ளடக்க வகை"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "முழு கட்டுரையை அலசத் தவறிவிட்டது"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "அனைத்தையும் படித்தபின் ஊட்டங்களைக் காட்டு"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "உங்கள் சாதனத்தில், சாதன ஒத்திசைவுக்கு செல்லவும், ச்கேன் ஒத்திசைவு குறியீட்டை அழுத்தவும்."
+    },
+    {
+      "name": "remove_device",
+      "value": "சாதனத்தை அகற்று"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "சாதனத்தை %1$s ஐ நீக்க விரும்புகிறீர்களா?"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "இதை கடவுச்சொல் போல நடத்துங்கள். உங்கள் ஒத்திசைக்கப்பட்ட தரவை எவரும் இணைப்பு வைத்திருந்தால் படிக்கலாம்."
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "ஒத்திசைவு சங்கிலியை விடுங்கள்"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "சாதன ஒத்திசைவு தீவன சந்தாக்களை ஒத்திசைக்கவும், உங்கள் பல்வேறு சாதனங்களுக்கு இடையில் கட்டுரைகளைப் படிக்கவும் உங்களை அனுமதிக்கிறது."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "வேறொரு சாதனத்தில் நீங்கள் உருவாக்கிய உங்கள் ஒத்திசைவு சங்கிலியிலிருந்து குறியீட்டை ச்கேன் செய்யுங்கள் அல்லது புதிய ஒத்திசைவு சங்கிலியைத் தொடங்கவும்."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "ஒத்திசை குறியீட்டை ச்கேன் செய்யுங்கள் அல்லது உள்ளிடவும்"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "ஒத்திசைவு சங்கிலியில் சேரவும்"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "பார்கோடு ச்கேனரைக் கண்டுபிடிக்க முடியவில்லை"
+    },
+    {
+      "name": "disabled",
+      "value": "முடக்கப்பட்டது"
+    },
+    {
+      "name": "only_from_end",
+      "value": "முடிவில் இருந்து மட்டுமே"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "படிக்க ச்வைப் செய்ய ச்வைப் செய்யவும்"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "ஒத்திசைவு சங்கிலியை விட்டு வெளியேற விரும்புகிறீர்களா?"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "ஊட்டங்கள் மற்றும் கட்டுரைகளைப் படிக்க பயன்பாட்டை அனுமதிக்கிறது"
+    },
+    {
+      "name": "text_scale",
+      "value": "உரை அளவு"
+    },
+    {
+      "name": "saved_articles",
+      "value": "சேமித்த கட்டுரைகள்"
+    },
+    {
+      "name": "saved_article",
+      "value": "சேமித்த கட்டுரை"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "அறிவிப்புகளை இயக்குவதற்கு முன் இசைவு வழங்கப்பட வேண்டும்."
+    },
+    {
+      "name": "feed_icon",
+      "value": "படவுரு உணவளிக்கவும்"
+    },
+    {
+      "name": "unsave_article",
+      "value": "கட்டுரையைச் சேமிப்பதை நிறுத்துங்கள்"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s ஊட்டங்கள்"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s ஊட்டம்"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s ஊட்டங்கள்"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s ஊட்டங்கள்"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s ஊட்டங்கள்"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s குறிச்சொற்கள்"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s குறிச்சொற்கள்"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s குறிச்சொற்கள்"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s குறிச்சொற்கள்"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "பெற எதுவும் கிடைக்கவில்லை"
+    },
+    {
+      "name": "max_lines",
+      "value": "அதிகபட்ச கோடுகள்"
+    },
+    {
+      "name": "filter_noun",
+      "value": "வடிப்பி"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "பக்கத்தில் ஊட்டங்கள் இல்லை"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "அண்மைக் காலத்தில் படியுங்கள்"
+    },
+    {
+      "name": "read_adjective",
+      "value": "படிக்க"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "பதிவிறக்கம் செய்யத் தவறிவிட்டது"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "பக்கத்தை அலசத் தவறிவிட்டது"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "சாதொபொகு ஊட்டத்தை அலசத் தவறிவிட்டது"
+    },
+    {
+      "name": "no_url",
+      "value": "முகவரி இல்லை"
+    },
+    {
+      "name": "add_anyway",
+      "value": "எப்படியும் சேர்க்கவும்"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "பிளவு திரையில் உலாவியைத் திறக்கவும்"
+    },
+    {
+      "name": "close_menu",
+      "value": "பட்டியல் மூடு"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s சொற்கள்"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s சொற்கள்"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s சொற்கள்"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s மணித்துளி"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "நகல் கட்டுரைகளைத் தவிர்க்கவும்"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "ஏற்கனவே உள்ள கட்டுரைகளுக்கு ஒத்த இணைப்புகள் அல்லது தலைப்புகள் கொண்ட கட்டுரைகள் புறக்கணிக்கப்படுகின்றன"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "அசூர் பநிஇ பதிப்பு"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "மாதிரிகளை ஏற்ற முடியவில்லை."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "மாதிரிகள் எதுவும் காணப்படவில்லை"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "அசூர் வரிசைப்படுத்தல் ஐடி"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "கிடைக்கக்கூடிய மாதிரிகளின் பட்டியல்"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "பேச்சுக்கு உரை"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "அடுத்து செல்லவும்"
+    },
+    {
+      "name": "set_language",
+      "value": "மொழியை அமைக்கவும்"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "சேமித்த கட்டுரைகளை ஏற்றுமதி செய்யத் தவறிவிட்டது"
+    },
+    {
+      "name": "device_sync",
+      "value": "சாதன ஒத்திசைவு"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "இந்த பணி சமூகத்தால் செலுத்தப்படுகிறது. நன்கொடை உங்களுக்கு பயனுள்ளதாக இருந்தால் தயவுசெய்து கவனியுங்கள்."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (இந்த சாதனம்)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "ஒத்திசைவு சங்கிலியிலிருந்து சாதனத்தை துண்டிக்கவும்"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "ஒத்திசைவு சங்கிலியில் உள்ள சாதனங்கள்"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "சிறிய அட்டை"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "மதிப்பிடப்பட்ட வாசிப்பு நேரத்தைக் காட்டு"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "தலைப்பில் படிக்காத கட்டுரை எண்ணிக்கையைக் காட்டு"
+    },
+    {
+      "name": "summarize",
+      "value": "சுருக்கமாக"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI மற்றும் மொழிபெயர்ப்பு"
+    },
+    {
+      "name": "api_key",
+      "value": "பநிஇ விசை"
+    },
+    {
+      "name": "model_id",
+      "value": "மாதிரி ஐடி"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "பரிந்துரைகள்"
+    },
+    {
+      "name": "time_out",
+      "value": "நேரம் முடிந்தது (வினாடிகள்)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "காலக்கெடு 30 முதல் 600 வினாடிகளுக்குள் இருக்க வேண்டும்"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "AI கோரிக்கைகளுக்கான நேரம் முடிந்தது"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "திறந்ததை சுருக்கவும்"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "பல AI வழங்குநர்களுடன் இணக்கமானது, ஆனால் அனைவருக்கும் இல்லை"
+    },
+    {
+      "name": "on",
+      "value": "அன்று"
+    },
+    {
+      "name": "off",
+      "value": "அணை"
+    },
+    {
+      "name": "search_verb",
+      "value": "தேடல்"
+    },
+    {
+      "name": "cancel_search",
+      "value": "தேடலை நீக்கறல்"
+    },
+    {
+      "name": "text",
+      "value": "உரை"
+    },
+    {
+      "name": "font",
+      "value": "எழுத்துரு"
+    },
+    {
+      "name": "text_preview",
+      "value": "உரை முன்னோட்டம்"
+    },
+    {
+      "name": "system_default",
+      "value": "கணினி இயல்புநிலை"
+    },
+    {
+      "name": "weight",
+      "value": "எடை"
+    },
+    {
+      "name": "italic",
+      "value": "சாய்வு"
+    },
+    {
+      "name": "add_font",
+      "value": "எழுத்துருவைச் சேர்…"
+    },
+    {
+      "name": "bold",
+      "value": "தடிமான"
+    },
+    {
+      "name": "text_settings",
+      "value": "உரை அமைப்புகள்"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "எழுத்துருவை சேர்க்க முடியவில்லை"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "எழுத்துருவை அகற்ற முடியவில்லை"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "ஏதோ தவறாகிவிட்டது"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "சேமித்த கட்டுரைகளை இறக்குமதி செய்யவும்"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "சுருக்கங்களுக்கு விண்ணப்பிக்கவும்"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "ரீடரில் திறக்கவும்"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "இயல்புநிலை உலாவியில் திறக்கவும்"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "தனிப்பயன் தாவலில் திறக்கவும்"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "உலாவியில் கட்டுரையைத் திறக்க முடியவில்லை"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "தனிப்பயன் தாவலில் கட்டுரையைத் திறக்க முடியவில்லை"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "சேமித்த கட்டுரைகளை இறக்குமதி செய்ய முடியவில்லை"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "கட்டுரை மிகவும் பெரியது. அதற்கு பதிலாக உலாவியில் திறக்கவா?"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "பேசிங் பயன்முறை"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "தொடர்ச்சியான ச்க்ரோலிங் செய்வதற்குப் பதிலாக \"பக்கங்களைத் திருப்புவதன் மூலம்\" கட்டுரைகளுக்குச் செல்லவும். மின் மை சாதனங்களுக்கு உகந்ததாக உள்ளது."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "அனிமேசன் பேசிங்"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "பக்க திருப்பங்களை சுருக்கமாக அனிமேட் செய்யவும். சில மின் மை சாதனங்களில் பேயை ஏற்படுத்தலாம்."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "கட்டுரை மெட்டாடேட்டாவிலிருந்து சிறுபடங்களை மேம்படுத்தவும்"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "இந்த ஊட்டத்திற்கான விடுபட்ட அல்லது தகுதி குறைந்த சிறுபடங்களை மேம்படுத்த முயற்சிக்கவும்"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "சுருக்கம் பநிஇ"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "கட்டுரை சுருக்கங்களுக்குப் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "மொழிபெயர்ப்பு பநிஇ"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "ஊட்ட அட்டைகள் மற்றும் கட்டுரைகளை மொழிபெயர்க்கப் பயன்படுகிறது."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "டீப்எல் அங்கீகார விசை"
+    },
+    {
+      "name": "ai_provider",
+      "value": "வழங்குநர்"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "கட்டமைக்கப்படவில்லை"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "வழங்குநர்: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "எதுவுமில்லை"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI அல்லது இணக்கமானது"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "அசூர் OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "ஆழம்எல்"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "உள்ளக இணைப்பின்றி"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "அடிப்படை முகவரி (விரும்பினால்)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "மொழிபெயர்ப்பு இறுதிப்புள்ளி"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "சேமிப்பதற்கு முன் பநிஇ விசையை உள்ளிடவும்."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "சேமிப்பதற்கு முன் ஆழம்எல் பநிஇ விசையை உள்ளிடவும்."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "சேமிப்பதற்கு முன் மாதிரி ஐடியை உள்ளிடவும்."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "பநிஇ அமைப்புகளைச் சரிபார்க்கிறது…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "பநிஇ அமைப்புகளை சரிபார்க்க முடியவில்லை."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "சேமிப்பதற்கு முன் உங்கள் அசூர் இறுதிப் புள்ளியை உள்ளிடவும்."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "சேமிப்பதற்கு முன் உங்கள் அசூர் வரிசைப்படுத்தல் ஐடியை உள்ளிடவும்."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "சேமிப்பதற்கு முன் உங்கள் அசூர் பநிஇ பதிப்பை உள்ளிடவும்."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "அசூர் OpenAI அமைப்புகளைச் சரிபார்க்கிறது…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "அசூர் OpenAI அமைப்புகளை சரிபார்க்க முடியவில்லை."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "ஆழம்எல் விசையைச் சரிபார்க்கிறது…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "ஆழம்எல் விசையை சரிபார்க்க முடியவில்லை."
+    },
+    {
+      "name": "translate_article",
+      "value": "கட்டுரையை மொழிபெயர்க்கவும்"
+    },
+    {
+      "name": "show_original_language",
+      "value": "அசலைக் காட்டு (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "அசல்"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "விருப்பமான மொழிபெயர்ப்பு மொழி"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "ஃபீடர் மொழிபெயர்க்கப்பட வேண்டிய மொழியைத் தேர்ந்தெடுக்கவும்."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "விருப்பமான மொழி"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "ஒரு மொழியைத் தேர்ந்தெடு"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "AI அமைப்புகளில் விருப்பமான மொழிபெயர்ப்பு மொழியை அமைக்கவும்"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "கட்டுரை முன்னோட்டங்களை மொழிபெயர்க்கவும்"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "கட்டுரைகளை இயல்பாக மொழிபெயர்க்கவும்"
+    },
+    {
+      "name": "widget_title",
+      "value": "ஊட்டி"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "புத்துணர்ச்சி தரும்"
+    },
+    {
+      "name": "open_settings",
+      "value": "அமைப்புகளைத் திறக்கவும்"
+    },
+    {
+      "name": "rename_tag",
+      "value": "குறிச்சொல்லை மறுபெயரிடவும்"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "இந்த ஆடியோ கோப்பை இயக்க முடியவில்லை"
+    },
+    {
+      "name": "play_audio",
+      "value": "ஆடியோவை இயக்கவும்"
+    },
+    {
+      "name": "pause_audio",
+      "value": "ஆடியோவை இடைநிறுத்து"
+    },
+    {
+      "name": "stop_audio",
+      "value": "ஆடியோவை நிறுத்து"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "10 வினாடிகள் பின்வாங்கவும்"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "10 வினாடிகள் முன்னோக்கி தேடுங்கள்"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "உள்ளமைக்கப்பட்ட பிளேயருடன் ஆடியோ இணைப்புகளை இயக்கவும்"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "முடக்கப்பட்டிருக்கும் போது, ஆடியோ இணைப்புகள் உங்கள் இயல்புநிலை பயன்பாட்டில் திறக்கப்படும்"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "எச்சரிக்கை! இது பீட்டா அம்சமாகும். உங்களின் அனைத்து ஊட்டங்களையும் OPML-ஏற்றுமதி செய்து, காப்புப்பிரதியாகச் சேமிக்கவும்."
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "இணைப்பில்லாத மொழிபெயர்ப்பு மாதிரி %1$s முதல் %2$s வரை தயாராகிறது…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "இணைப்பில்லாத மொழிபெயர்ப்பு மாதிரி %1$s முதல் %2$s வரை பதிவிறக்குகிறது: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "முதல் பதிவிறக்கம் 20-50 MB ஆக இருக்கலாம் மற்றும் சில நிமிடங்கள் ஆகலாம். மொழிபெயர்ப்பு பின்னர் ஆஃப்லைனில் வேலை செய்கிறது."
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "உள்ளக மொழிபெயர்ப்பிற்கு ஆண்ட்ராய்டு 12 அல்லது அதற்குப் பிந்தைய பதிப்பு தேவை."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "இந்தச் சாதனத்தில் உள்ளக மொழிபெயர்ப்பு இல்லை."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "உள்ளக மொழிபெயர்ப்பாளரை உருவாக்க முடியவில்லை."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "உள்ளக மொழிபெயர்ப்பு நேரம் முடிந்தது."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "உள்ளக மொழிபெயர்ப்பு தோல்வியடைந்தது."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "உள்ளக மொழிபெயர்ப்பு எந்த உரையையும் தரவில்லை."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "உள்ளக மொழிபெயர்ப்பாளர் தயாராக இல்லை. சாதன மொழிபெயர்ப்பு அமைப்புகளைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "%1$s -> %2$sக்கு பெர்கமோட் மாதிரி இல்லை. கணினி மொழிபெயர்ப்பு மொழிகளைச் சரிபார்க்கவும்"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "பெர்கமோட் மொழிபெயர்ப்பு நேரம் முடிந்தது."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "பெர்கமோட் மொழிபெயர்ப்பு தோல்வியடைந்தது."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "பதிவிறக்க மாதிரி பட்டியலை இணைக்கவும்."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "%1$s -> %2$s மாதிரியைப் பதிவிறக்க முடியவில்லை."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Bergamot WebView மொழிபெயர்ப்பு நேரம் முடிந்தது."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView துவக்கப்படவில்லை."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "பெர்கமோட் பதிலை அலச முடியவில்லை."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "முதலில் ஆன்ட்ராய்டு சிச்டம் ஆன்-டிவைச் மொழிபெயர்ப்பைப் பயன்படுத்துகிறது, இது கணினி அமைப்புகளில் பதிவிறக்கம் செய்யப்பட வேண்டும்."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "OS இல் சாதனத்தில் மொழிபெயர்ப்பாளர் இல்லை என்றால், Feeder ஆதரிக்கப்படும் %1$s மொழி சோடிகளுக்கு Mozilla/Bergamot மாதிரிகளைப் பதிவிறக்கும்."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Mozilla/Bergamot மாதிரியுடன் இலக்கு மொழிகளை மட்டும் காட்டு"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "பதிவிறக்கப்பட்ட மொழிபெயர்ப்பு மாதிரிகள்"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Mozilla/Bergamot மாதிரிகள் இணைப்பில்லாத மொழிபெயர்ப்புக்காக சாதனத்தில் சேமிக்கப்பட்டுள்ளன. இடத்தைக் காலியாக்க, பயன்படுத்தப்படாத மொழி சோடிகளை நீக்கவும்."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "மாதிரியை நீக்கு"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "%1$s முதல் %2$s வரையிலான மொழிபெயர்ப்பு மாதிரியை (%3$s) நீக்கவா?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "பதிவிறக்கம் செய்யப்பட்ட அனைத்து மாடல்களையும் நீக்கவும்"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "அனைத்து %1$d பதிவிறக்கம் செய்யப்பட்ட மொழிபெயர்ப்பு மாதிரி(களை) (%2$s) நீக்கவா?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "%1$s முதல் %2$s வரையிலான மாதிரி நீக்கப்பட்டது"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "பதிவிறக்கம் செய்யப்பட்ட அனைத்து மாடல்களும் நீக்கப்பட்டன"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "மொழிபெயர்ப்பு மாதிரிகள் எதுவும் இன்னும் பதிவிறக்கப்படவில்லை. மொழிபெயர்ப்பு தானாகவே தேவையான மாதிரியைப் பதிவிறக்கும்."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "நீக்கு"
+    },
+    {
+      "name": "cancel",
+      "value": "ரத்துசெய்"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "இணைப்புகளுக்கு இடவும்"
+    },
+    {
+      "name": "filters",
+      "value": "வடிப்பான்கள்"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "தொடர ஆஃப்லைன் மொழிபெயர்ப்பு இயந்திரத்தைப் பதிவிறக்கம் செய்."
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

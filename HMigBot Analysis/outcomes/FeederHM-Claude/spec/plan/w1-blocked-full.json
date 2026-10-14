@@ -1,0 +1,26 @@
+[
+ {
+  "id": "page-import",
+  "blocked": "module.json5 (owned by fnd-app-init): for APP-A31, the OPML file-open skill (viewData/sendData) has no entry for MIME type application/octet-stream. Add {\"scheme\":\"file\",\"type\":\"application/octet-stream\"}, and consider the content/datashare schemes too. The intent filter in the source AndroidManifest accepts text/xml, application/xml, text/x-opml and application/octet-stream. Resources owner: the base string `failed_to_import_OPML` has the value \"\\\"Failed to import OPML\\\"\" with literal quotes; remove the quotes so OpmlActions toasts display correctly too."
+ },
+ {
+  "id": "page-text-settings",
+  "blocked": "TS-A02 needs pages/SettingsPage.ets, which belongs to the page-settings slice and is not mine to edit. Under its `Text` group, the `Text settings` item must call AppRouter.push(Routes.TEXT_SETTINGS, new TextSettingsRouteParam()). Its subtitle can use fontDisplayLabel(Repository.instance().font), exported from features/textsettings/TextSettingsViewModel.ets."
+ },
+ {
+  "id": "backend-notifications-widget",
+  "blocked": "Main session (fnd-app-init / owners of the shared files) needs to add:\n1) entryability/EntryAbility.ets\n   - onCreate: call `NotificationActions.install(this.context)`, then `NotificationActions.onWant(want)`, both BEFORE `DeepLinkRouter.onCreateWant(want)`.\n   - onNewWant: call `NotificationActions.onWant(want)` before `DeepLinkRouter.onNewWant(want)`.\n   - import { NotificationActions } from '../features/notify/NotificationActions'.\n   - Without this: NW-A01 is not registered, the Mark as read / swipe-away events are not subscribed, widgets get no pushes, and the widget's article/settings ta"
+ },
+ {
+  "id": "page-sync",
+  "blocked": "core/app/AppBootstrap.ets (fnd-owned) has to call `installSyncChain(ctx)` from `features/sync/SyncChain.ets` right after registerRepositoryHooks() in step 5 of run(). core/sync/SyncScheduler.bootstrapHeadless (the WorkScheduler extension process) needs the same call after SyncScheduler.init(ctx). Without these calls RssLocalSync / SyncScheduler have no SyncChainClient. The chain then counts as unconfigured: no getFeeds/getRead/getDevices/sendUpdatedFeeds/markAsRead before RSS sync (SY-A49), no read-mark upload after marking read (SY-A50), and no remote updates on resume (SY-A51), until the use"
+ },
+ {
+  "id": "page-shells",
+  "blocked": "A41 (owned by fnd-app-init, module.json5): the viewData skill lists only application/rss+xml, application/atom+xml and application/json for http(s). It is missing text/xml and application/xml, which the source AndroidManifest.xml:115 intent-filter (1) declares; fnd-app-init needs to add both MIME types for http and https. A42 (owned by core/app/DeepLinkRouter.matchShareWant): it currently takes a record's text content before its URI. The source rule is intent.dataString (link data) first, then EXTRA_TEXT, so the owning unit should check whether a hyperlink record's uri should come first. A21 a"
+ },
+ {
+  "id": "page-article",
+  "blocked": "The in-app browser hook (features/article/InAppBrowser.ets) registers when its module loads, which happens when the Article page loads. Because route_map loads pages lazily, a link opened with the CUSTOM_TAB setting from the Feed page before any article has been opened falls back to the system browser. Fix, owned by fnd-app-init: EntryAbility or AppBootstrap startup should import '../features/article/InAppBrowser' and call registerInAppBrowser(). This slice is not allowed to edit EntryAbility."
+ }
+]

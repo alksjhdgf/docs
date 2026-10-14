@@ -1,0 +1,1392 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Öppna navigeringsmeny"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Stäng navigeringsmeny"
+    },
+    {
+      "name": "action_settings",
+      "value": "Inställningar"
+    },
+    {
+      "name": "add_feed",
+      "value": "Lägg till flöde"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Prenumerera på flöde"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Tagg"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "FlödesURL"
+    },
+    {
+      "name": "title",
+      "value": "Titel"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "av %1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Spara"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Inget att läsa. Skulle du vilja…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Öppna annat flöde?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Lägga till nytt flöde?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Skriv adress till flöde"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Markera som läst"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Markera som oläst"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Markera alla som lästa"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Redigera flöde"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Ta bort flöde"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Visa alla"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Visa olästa"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Nya artiklar tillgängliga"
+    },
+    {
+      "name": "view",
+      "value": "Vy"
+    },
+    {
+      "name": "no_tag",
+      "value": "Ingen tagg"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Notifiera vid nytt flödesinnehåll"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Stoppa aviseringar"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Växla läst"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Öppna länk i webbläsare"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Öppna i webbläsare"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Öppna bifogad fil"
+    },
+    {
+      "name": "sync",
+      "value": "Synka"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Exportera flöden till OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importera flöden från OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Visa felsökningslogg"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nytt flöde baserad på detta"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikator för markera som läst"
+    },
+    {
+      "name": "share",
+      "value": "Dela"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Kunde inte hitta flöde. Försök med HTTPS kanske?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Inget att visa!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Inställningar"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Alla flöden"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manuellt"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Var 15:e minut"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Var 30:e minut"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Varje timme"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Var 3e timme"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Var 6e timme"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Var 12e timme"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Varje dag"
+    },
+    {
+      "name": "synchronization",
+      "value": "Synkronisering"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Endast på Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Visa miniatyrbilder"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Kan resultera i datakostnader."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Endast under laddning"
+    },
+    {
+      "name": "image_loading",
+      "value": "Bildvisning"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Installera något som kan öppna länken först"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Kolla efter nya artiklar…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Vid app start"
+    },
+    {
+      "name": "show_fab",
+      "value": "Visa flytande åtgärdsknapp"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Inkludera hotspots"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Uppdaterade flöden"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Olästa flöden"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Notifikationer visas endast för olästa flöden"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Läsare"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Webbvy"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Standardwebbläsare"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Integrerad tabb"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Öppna flödesinnehåll med"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Öppna länkar med"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Läsare"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Öppna länk med webbvy"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Öppna med webbvy"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maxantal per flöde"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Kunde inte öppna webbadressen"
+    },
+    {
+      "name": "theme_system",
+      "value": "System"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Auto"
+    },
+    {
+      "name": "theme_day",
+      "value": "Dag"
+    },
+    {
+      "name": "theme_night",
+      "value": "Natt"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Valt natt-tema"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Svart"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Mörk"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Senaste först"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Äldst först"
+    },
+    {
+      "name": "sort",
+      "value": "Ordna efter"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Skicka fel rapport"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Kunde inte öppna e-postklient"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Tryck för att spela upp video"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Öppna flöde"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Markera objekten ovanför som lästa"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Markera objekten nedanför som lästa"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Lista över hittade flöden"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Växla taggexpansion"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Batterioptimering"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Avstängd"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Aktiverad"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Förladda integerad tabb"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Hämtar hela artikeln…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Kunde inte hämta hela artikeln"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Hämta hela artiklar automatiskt"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Hämta hela artikeln"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Kunde inte läsa %1$s"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Kunde inte ladda text till tal"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Återuppta uppläsning"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pausa uppläsning"
+    },
+    {
+      "name": "read_article",
+      "value": "Läs högt"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Använd standardinställning"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Synka flöden"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Visar alla artiklar"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Visar bara olästa artiklar"
+    },
+    {
+      "name": "already_read",
+      "value": "Redan läst"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Oläst"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Öppna %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Öppna meny"
+    },
+    {
+      "name": "go_back",
+      "value": "Gå tillbaka"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Stängd tagg"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Öppen tagg"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Stoppa läsning"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Öppna %1$s"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s olästa artiklar"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s olästa artiklar"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s olästa artiklar"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s olästa artiklar"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s oläst artikel"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s olästa artiklar"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Superkompakt"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakt"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kort"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Artikelstil"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Använd endast för flöden med dåliga IDn"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Skapa extraunika IDn"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Felaktig URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Misslyckades med att importera OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Misslyckades med att exportera OPML"
+    },
+    {
+      "name": "syncing",
+      "value": "Synkroniseras"
+    },
+    {
+      "name": "sync_status",
+      "value": "Synkroniseringsstatus"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Kunde inte öppna artikel"
+    },
+    {
+      "name": "disabled",
+      "value": "Avstängd"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Bara från slutet"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Från var som helst"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Dra för att markera som läst"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Denna tjänst är finansierad av volontärer. Fundera på att donera om du tycker den är användbar."
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Enheter i synkkedjan"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Är du säker på att du vill ta bort enhet %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "På din enhet, navigera till enhetssynkronisering, och tryck skanna synkkod."
+    },
+    {
+      "name": "device_sync",
+      "value": "Enhetssynkronisering"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Koppla ifrån enhet från synkkedja"
+    },
+    {
+      "name": "remove_device",
+      "value": "Ta bort enhet"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Behandla detta som ett lösenord. Vem som helst kan läsa din synkroniserade data om de har länken."
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Enhetssynkronisering låter dig synka flöden och lästa artiklar mellan dina olika enheter."
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Gå med i synkkedja"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Lägg till enhet"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (denna enhet)"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Annars öppna länken på din enhet."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-kod"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder enhetssynkkod"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Lämna synkkedja"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Skanna bara koden från din synkkedja som du skapade på en annan enhet, eller starta en ny synkkedja."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skanna eller skriv in synkkoden"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Starta ny synkkedja"
+    },
+    {
+      "name": "sync_code",
+      "value": "Synkkod"
+    },
+    {
+      "name": "secret_key",
+      "value": "Hemlig nyckel"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Är du säker på att du vill lämna synkkedjan?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Kunde inte hitta en streckkodsläsare"
+    },
+    {
+      "name": "block_list",
+      "value": "Blocklista"
+    },
+    {
+      "name": "add_item",
+      "value": "Lägg till"
+    },
+    {
+      "name": "remove",
+      "value": "Ta bort"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Tillåter appen att läsa flöden och artiklar"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder skrivskyddad åtkomst"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Ny"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Innan notiser kan aktiveras måste de tillåtas."
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynamiska färger"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Identifiera språk"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Endast tillgänlig på Android %1$s eller senare"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Identifierar artikelspråk automatiskt"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Hoppa till nästa"
+    },
+    {
+      "name": "set_language",
+      "value": "Sätt språk"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Text-till-tal"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Flödesikon"
+    },
+    {
+      "name": "article_image",
+      "value": "Artikelbild"
+    },
+    {
+      "name": "text_scale",
+      "value": "Textstorlek"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Dölj artiklar med titlar som matchar någon av filterna. Exempelfilter:"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synkronisera för att hämta artikel"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Sparade artiklar"
+    },
+    {
+      "name": "save_article",
+      "value": "Spara artikel"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Sluta spara artikel"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Inga flöden"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s flöden"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s flöde"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s flöden"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s flöden"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s flöden"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s flöden"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importera %1$s med %2$s?"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s taggar"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s taggar"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s taggar"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s taggar"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s taggar"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s tagg"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Markera som läst vid skrollning"
+    },
+    {
+      "name": "saved_article",
+      "value": "Sparad artikel"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Hittade ingenting att hämta"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Flödet saknar länk till artikeln"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Länken är inte ett HTML-dokument"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Artikellista"
+    },
+    {
+      "name": "max_lines",
+      "value": "Max antal linjer"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Nyligen lästa"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Lästa"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Sparade"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Visa endast titel"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Kunde inte hämta"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Kunde inte läsa sidan"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Inga flöden i sidan"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Innehållet är inte HTML"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Kunde inte läsa RSS-flöde"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP-fel"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Kunde inte läsa JSON-flöde"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Inget att läsa i svar"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Innehållstypen stöds inte"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Kund inte läsa hela artikeln"
+    },
+    {
+      "name": "no_url",
+      "value": "Ingen URL"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Läsplatta"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Lägg till ändå"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Öppna webbläsare i delad skärm"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Visa uppskattad lästid"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minuter"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minuter"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minuter"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minuter"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minuter"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s ord"
+    },
+    {
+      "name": "close_menu",
+      "value": "Stäng meny"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Exportera sparade artiklar"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Misslyckades att exportera sparade artiklar"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Hoppa över dubbletter"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Artiklar med titlar eller länkar som redan finns ignoreras"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompakt kort"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Tryck för att spela upp ljud"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Visa antalet olästa artiklar i rubrik"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Visa flöden efter alla markerats som lästa"
+    },
+    {
+      "name": "summarize",
+      "value": "Sammanfatta"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI och översättning"
+    },
+    {
+      "name": "api_key",
+      "value": "API-nyckel"
+    },
+    {
+      "name": "model_id",
+      "value": "Model-id"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API-version"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Kunde inte ladda modeller."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Hittade inga modeller"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure deployment id"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Lista av tillgängliga modeller"
+    },
+    {
+      "name": "show_message",
+      "value": "Visa meddelande"
+    },
+    {
+      "name": "on",
+      "value": "På"
+    },
+    {
+      "name": "off",
+      "value": "Av"
+    },
+    {
+      "name": "text",
+      "value": "Text"
+    },
+    {
+      "name": "font",
+      "value": "Typsnitt"
+    },
+    {
+      "name": "text_preview",
+      "value": "Textförhandsvisning"
+    },
+    {
+      "name": "search_verb",
+      "value": "Sök"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Avbryt sök"
+    },
+    {
+      "name": "system_default",
+      "value": "Systemstandard"
+    },
+    {
+      "name": "weight",
+      "value": "Vikt"
+    },
+    {
+      "name": "text_settings",
+      "value": "Textinställningar"
+    },
+    {
+      "name": "bold",
+      "value": "Fet"
+    },
+    {
+      "name": "add_font",
+      "value": "Lägg till typsnitt…"
+    },
+    {
+      "name": "italic",
+      "value": "Kursiv"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Kunde ej lägga till typsnitt"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Kunde ej ta bort typsnitt"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Någonting gick fel"
+    },
+    {
+      "name": "time_out",
+      "value": "Timeout (sekunder)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Timeout måste vara mellan 30 och 600 sekunder"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Förslag"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Tidsgräns för AI-anrop"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Sammanfatta vid öppning"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Kompatibel med många AI-leverantörer, men inte alla"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Blockera från artikeltext"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Öppna i läsarvy"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Öppna i standardwebbläsare"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Öppna i custom tab"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Kan inte öppna artikeln med webbläsare"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Kan inte öppna artiklen med custom tab"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Uppdaterar"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Döp om tagg"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Kan inte spela ljudfilen"
+    },
+    {
+      "name": "play_audio",
+      "value": "Spela"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Pausa"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Stoppa"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Spola 10 sekunder bakåt"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Spola 10 sekunder framåt"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Importera sparade artiklar"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Kunde inte importera sparade artiklar"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Artikeln är för stor. Öppna i webbläsare istället?"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Sidläge"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Läs artiklar genom att \"vända blad\" istället för att skrolla. Optimerat för e-läsare."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animerat sidskifte"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Animerar sidskifte. Kan skapa artefakter på några e-läsare."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Hitta bättre artikelbilder från artikelns metadata"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Försök förbättra bilder som saknas eller har låg upplösning för flödet"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Sammanfattnings-API"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Används för artikelsammanfattningar."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "Översättnings-API"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Används för att översätta kort och artiklar."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL auth-nyckel"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Leverantör"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Inte konfigurerad"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Leverantör: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Ingen"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI eller kompatibel"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Lokal"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Bas-URL (valfritt)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Översättnings endpoint"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "VARNING: Detta är en Beta-funktion. Gör en OPML-export av dina flöden innan och spara som backup."
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Ange en API-nyckel innan du sparar."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Ange en DeepL API-nyckel innan du sparar."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Ange ett modell-ID innan du sparar."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Verifierar API-inställningar…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "Kunde inte verifiera API-inställningarna."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Ange din Azure-slutpunkt innan du sparar."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Ange ditt Azure-deployment-ID innan du sparar."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Ange din Azure API-version innan du sparar."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Verifierar Azure OpenAI-inställningar…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Kunde inte verifiera Azure OpenAI-inställningarna."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Verifierar DeepL-nyckeln…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "Kunde inte verifiera DeepL-nyckeln."
+    },
+    {
+      "name": "translate_article",
+      "value": "Översätt artikel"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Visa original (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "original"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Föredraget översättningsspråk"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Använd ett språknamn eller en språkkod som spanska, es, franska eller fr-CA."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "föredraget språk"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Lokal översättning kräver Android 12 eller senare."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Till exempel: Swedish eller sv"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Ställ in ett önskat översättningsspråk i AI-inställningarna"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Översätt förhandsgranskningar av artiklar"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Översätt artiklar som standard"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

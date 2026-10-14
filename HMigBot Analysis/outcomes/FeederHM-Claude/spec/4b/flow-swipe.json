@@ -1,0 +1,97 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-swipe",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "sleep",
+   "ms": 3000
+  },
+  {
+   "op": "sleep",
+   "ms": 500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "tap",
+   "match": "^Feeder News"
+  },
+  {
+   "op": "wait",
+   "match": "=Sep 20, 2026"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^Feeder News, 16$"
+   ]
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "swipe",
+   "dir": "left",
+   "within": "News, Sep 20, 2026"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^Feeder News, 15$"
+   ]
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 4
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^Feeder News$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-swipe-allread"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

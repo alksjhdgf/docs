@@ -1,0 +1,120 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-settings-ext",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=All feeds",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=All feeds"
+  },
+  {
+   "op": "sleep",
+   "ms": 1200
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Settings",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Theme"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Battery optimization",
+   "dir": "up",
+   "max": 8
+  },
+  {
+   "op": "swipe",
+   "dir": "up"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Battery optimization",
+    "=On"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=Battery optimization"
+  },
+  {
+   "op": "sleep",
+   "ms": 3000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Feeder",
+    "^Version 2\\.24\\.0$"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-battery-settings"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "wait",
+   "match": "=Battery optimization",
+   "timeout": 4000
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Send bug report",
+   "dir": "up",
+   "max": 10
+  },
+  {
+   "op": "swipe",
+   "dir": "up"
+  },
+  {
+   "op": "tap",
+   "match": "=Send bug report"
+  },
+  {
+   "op": "sleep",
+   "ms": 5000
+  },
+  {
+   "op": "shot",
+   "name": "flow-bugreport-browser"
+  }
+ ]
+}

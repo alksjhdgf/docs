@@ -1,0 +1,1392 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Atvērt navigācijas izvēlni"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Aizvērt navigācijas izvēlni"
+    },
+    {
+      "name": "action_settings",
+      "value": "Iestatījumi"
+    },
+    {
+      "name": "add_feed",
+      "value": "Pievienot ziņu plūsmu"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%2$s %1$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Saglabāt"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Atzīmēt kā lasītu"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Atzīmēt kā nelasītu"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Atzīmēt visus kā lasītus"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Rediģēt ziņu plūsmu"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Atvērt saiti pārlūkā"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Atvērt pārlūkā"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Atvērt %1$s"
+    },
+    {
+      "name": "set_language",
+      "value": "Iestatīt valodu"
+    },
+    {
+      "name": "sync",
+      "value": "Atsvaidzināt"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Izgūt atzīmētos rakstus"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Iestatījumi"
+    },
+    {
+      "name": "share",
+      "value": "Dalīties"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Ik pēc 15 minūtēm"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Ik pēc 30 minūtēm"
+    },
+    {
+      "name": "synchronization",
+      "value": "Atsvaidzināšana"
+    },
+    {
+      "name": "syncing",
+      "value": "Atsvaidzina"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Katru dienu"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Ik stundu"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Ik pēc 3 stundām"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Ik pēc 6 stundām"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Ik pēc 12 stundām"
+    },
+    {
+      "name": "sync_status",
+      "value": "Atsvaidzināšanas statuss"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lietotnē (WebView)"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Izmantojot lietotnes iestatīto veidu"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Atvērt saiti WebView"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Atvērt WebView"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maksimālais rakstu skaits vienā ziņu plūsmā"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistēmas"
+    },
+    {
+      "name": "theme_day",
+      "value": "Diena"
+    },
+    {
+      "name": "theme_night",
+      "value": "Nakts"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Jaunākos augšgalā"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Vecākos augšgalā"
+    },
+    {
+      "name": "theme",
+      "value": "Motīvs"
+    },
+    {
+      "name": "sort",
+      "value": "Kārtot pēc"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dinamiskas krāsas"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tumšs"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Melns"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Pieskarieties, lai atskaņotu video"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Atvērt ziņu plūsmu"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Aizvērta birka"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Atvērta birka"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Atsvaidziniet, lai iegūtu rakstu"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Atsvaidzināt ziņu plūsmas"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s nelasīti raksti"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s nelasīti raksti"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s nelasīti raksti"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s nelasīti raksti"
+    },
+    {
+      "name": "device_sync",
+      "value": "Ierīču sinhronizācija"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Šo pakalpojumu apmaksā kopiena. Lūdzu, ziedojiet, ja uzskatiet, ka šī funkcija ir noderīga - jūs vairs nevariet dzīvot bez tās."
+    },
+    {
+      "name": "add_new_device",
+      "value": "Pievienot jaunu ierīci"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (šī ierīce)"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Ierīces sinhronizācijas grupā"
+    },
+    {
+      "name": "remove_device",
+      "value": "Noņemt ierīci"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Vai tiešām vēlaties dzēst %1$s ierīci?"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Vai arī, variet atvērt saiti."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR kods"
+    },
+    {
+      "name": "sync_code",
+      "value": "Sinhronizācijas kods"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Vienkārši skenējiet sinhronizācijas kodu, kas izveidots uz citas ierīces, vai izveidojiet jaunu sinhronizācijas grupu."
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Ierīces sinhronizācija ļauj sinhronizēt ziņu plūsmas abonementus un lasītos rakstus starp dažādām ierīcēm."
+    },
+    {
+      "name": "save_article",
+      "value": "Pievienot atzīmētiem"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Atzīmētie"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Rādīt tikai virsrakstu"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Saturs nav HTML"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Tik un tā pievienot"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s vārdu"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s vārds"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s vārdi"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s vārdi"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s vārdi"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s vārdi"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minūte"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minūtes"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Izlaist atkārtotus, dublētos, rakstus"
+    },
+    {
+      "name": "openai_settings",
+      "value": "Mākslīgais intelekts (AI) un tulkošana"
+    },
+    {
+      "name": "api_key",
+      "value": "API atslēga"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API versija"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Rādīt nelasīto rakstu skaitu ziņu plūsmas nosaukumā"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Atcelt meklēšanu"
+    },
+    {
+      "name": "search_verb",
+      "value": "Meklēt"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Rādīt ziņu plūsmas, kad visi raksti ir atzīmēti kā lasīti"
+    },
+    {
+      "name": "show_message",
+      "value": "Rādīt ziņojumu"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Pieejamo modeļu saraksts"
+    },
+    {
+      "name": "font",
+      "value": "Fonts"
+    },
+    {
+      "name": "add_font",
+      "value": "Pievienot fontu…"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Nevarēja noņemt fontu"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Kaut kas nogāja greizi"
+    },
+    {
+      "name": "text_settings",
+      "value": "Teksta iestatījumi"
+    },
+    {
+      "name": "tag",
+      "value": "Birka"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Ziņu plūsmas URL adrese"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minūtes"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minūtes"
+    },
+    {
+      "name": "summarize",
+      "value": "Apkopot"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Izturies pret to kā pret paroli. Jo ikviens var izlasīt jūsu sinhronizētos datus, ja ir zināma saite."
+    },
+    {
+      "name": "remove",
+      "value": "Noņemt"
+    },
+    {
+      "name": "text",
+      "value": "Teksts"
+    },
+    {
+      "name": "close_menu",
+      "value": "Aizvērt izvēlni"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP kļūda"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Neatbalstīts satura tips"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minūtes"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minūtes"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Rādīt aptuveno lasīšanas ilgumu"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Pieskarieties, lai atskaņotu audio"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Rādīt visus rakstus"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Rādīt nelasītos rakstus"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Dzēst ziņu plūsmu"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Nelasītās ziņu plūsmas"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Iespējojiet tikai ziņu plūsmām ar sliktiem (kļūdainiem) ID"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder ierīces sinhronizācijas kods"
+    },
+    {
+      "name": "disabled",
+      "value": "Atspējot"
+    },
+    {
+      "name": "secret_key",
+      "value": "Slepenā atslēga"
+    },
+    {
+      "name": "article_image",
+      "value": "Raksta attēls"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Ziņu plūsmas ikona"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Atzīmētie raksti"
+    },
+    {
+      "name": "saved_article",
+      "value": "Atzīmētais raksts"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Abonēt ziņu plūsmu"
+    },
+    {
+      "name": "url",
+      "value": "URL adrese"
+    },
+    {
+      "name": "title",
+      "value": "Nosaukums"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Ievadiet ziņu plūsmas adresi"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Šeit nav ko lasīt. Vai vēlaties…"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Vai pievienot vairāk ziņu plūsmu?"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Pieejami jauni raksti"
+    },
+    {
+      "name": "view",
+      "value": "Skatīt"
+    },
+    {
+      "name": "no_tag",
+      "value": "Nav birkas"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Paziņot par jauniem rakstiem"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Atvērt pievienoto multimedijas datni"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Neziņot"
+    },
+    {
+      "name": "read_article",
+      "value": "Lasīt priekšā"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Pārtraukt lasīt priekšā"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Apturēt lasīt priekšā"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Turpināt lasīt priekšā"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Pārlekt uz nākamo rindkopu"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Izgūt ziņu plūsmas OPML datnē"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Ievietot ziņu plūsmas no OPML datnes"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Skatīt atkļūdošanas žurnālu"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Šāda ziņu plūsmas URL adrese neeksistē. Vai mēģinājiet ar HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Šeit nekā nav!"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Visas ziņu plūsmas"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Neizdevās izgūt OPML datni"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Neizdevās izgūt atzīmētos rakstus"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Neizdevās ievietot OPML datni"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Vai ievietot %1$s, kas satur %2$s?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Vai atvērt citu ziņu plūsmu?"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Noņemt no atzīmētiem"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Atsvaidzināt ziņu plūsmas…"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s ziņu plūsmu"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s ziņu plūsma"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s ziņu plūsmas"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s ziņu plūsmas"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s ziņu plūsmas"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s ziņu plūsmas"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s birku"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s birka"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s birkas"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s birkas"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s birkas"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s birkas"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Atlasīt"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Nesen lasītie"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Lasītie"
+    },
+    {
+      "name": "italic",
+      "value": "Slīpraksts"
+    },
+    {
+      "name": "text_preview",
+      "value": "Teksta priekšskatījums"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Nevarēja pievienot fontu"
+    },
+    {
+      "name": "bold",
+      "value": "Treknraksts"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Tikai, kad izmanto Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Rādīt sīktēlus"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Automātiski atpazīst raksta valodu"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Var tikt piemērota maksa par mobilajiem datiem."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Tikai, kad uzlādē ierīci"
+    },
+    {
+      "name": "image_loading",
+      "value": "Attēlu ielāde"
+    },
+    {
+      "name": "on_startup",
+      "value": "Kad atver lietotni"
+    },
+    {
+      "name": "block_list",
+      "value": "Melnais saraksts"
+    },
+    {
+      "name": "go_back",
+      "value": "Atpakaļ"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Ielādēt visu, pilnu, rakstu"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Nevarēja ielādēt visu, pilnu, rakstu"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Nevarēja atvērt rakstu"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Ielādē visu, pilnu, rakstu…"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Rāda tikai nelasītos rakstus"
+    },
+    {
+      "name": "open_menu",
+      "value": "Atvērt izvēlni"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Nelasīts"
+    },
+    {
+      "name": "already_read",
+      "value": "Jau lasīts"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Rāda visus rakstus"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s nelasītu rakstu"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s nelasīts raksts"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Nederīga URL adrese"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Atvienot ierīci no sinhronizācijas"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Pamest sinhronizācijas grupu"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skenēt vai ievadīt sinhronizācijas kodu"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Izveidot jaunu sinhronizācijas grupu"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Pievienoties sinhronizācijas grupai"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Vai tiešām vēlaties pamest sinhronizācijas grupu?"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Ziņu plūsmai trūkst saites uz rakstu"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Raksta saite nav HTML dokuments"
+    },
+    {
+      "name": "max_lines",
+      "value": "Maksimālais rindu skaits"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Nav ko ielādēt"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Neizdevās parsēt lapu"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Lapā nav ziņu plūsmu"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Neizdevās parsēt visu, pilno, rakstu"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Raksti ar saitēm vai nosaukumiem, kas ir identiski esošajiem rakstiem, tiek ignorēti"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Nevarēja parsēt %1$s"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Jauns, pamatojoties uz šo"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Atpazīt valodu"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Pieejams tikai Android %1$s un jaunākās versijās"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Vispirms uzstādiet kaut ko, kas ļaus jums atvērt šo saiti"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Pēc noklusējuma ielādēt pilnus rakstus"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Atbilde nesatur pamattekstu"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Atzīmēt rakstu kā lasītu, to ritinot"
+    },
+    {
+      "name": "no_url",
+      "value": "Nav URL adreses"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Neizdevās lejupielādēt"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Atvērt pārlūku dalītā ekrānā"
+    },
+    {
+      "name": "time_out",
+      "value": "Noildze (sekundes)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Noildzei jābūt no 30 līdz 600 sekundēm"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Mākslīgā intelekta (AI) pieprasījumu noildze"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Neizdevās parsēt RSS ziņu plūsmu"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Neizdevās parsēt JSON ziņu plūsmu"
+    },
+    {
+      "name": "add_item",
+      "value": "Pievienot vienumu"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Atjauninātas ziņu plūsmas"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Noklusējuma pārlūkā"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Pēc noklusējuma atvērt rakstus"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Atvērt saites"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Nevarēja atvērt e-pasta klientu"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Atzīmēt zemāk minētos rakstus kā lasītus"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Akumulatora optimizācija"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Izslēgta"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Ieslēgta"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Nav nevienas ziņu plūsmas"
+    },
+    {
+      "name": "model_id",
+      "value": "Modeļa ID"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Nevar ielādēt modeļus."
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Atzīmēt augstāk minētos rakstus kā lasītus"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Lasīt priekšā tekstu"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Neizdevās lasīt priekšā tekstu"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Slēpj rakstus, kuru virsraksti satur kādu no šiem filtriem. Piemēri:"
+    },
+    {
+      "name": "show_fab",
+      "value": "Rādīt peldošo \"Atzīmēt visus kā lasītus\" darbības pogu"
+    },
+    {
+      "name": "text_scale",
+      "value": "Fonta izmērs"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Dod lietotnei lasīšanas piekļuvi ziņu plūsmām un rakstiem"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Jauns"
+    },
+    {
+      "name": "system_default",
+      "value": "Sistēmas noklusējuma"
+    },
+    {
+      "name": "on",
+      "value": "Ieslēgta"
+    },
+    {
+      "name": "off",
+      "value": "Izslēgta"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Iebūvētajā sistēmas pārlūkā - WebView"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lasīt"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Rakstu saraksts"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Nevarēja ielādēt URL adreses saiti"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-tinte"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Vēlamais nakts motīvs"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Nevarēja atrast svītrkodu skeneri"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Pavelkot rakstu atzīmēt kā lasītu/nelasītu"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Tikai no labās puses"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "No jebkuras vietas"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Ģenerēt papildu unikālus ID"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Rakstu izkārtojuma stils"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompaktais"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Ļoti kompaktais"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompaktais karšu"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Karšu"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Ziņot par kļūdu"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Atklāto ziņu plūsmu saraksts"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Pēc pašu izvēles"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Tikai lasīšanas piekļuve"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Doties uz %1$s"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Pirms paziņojumu iespējošanas ir jāpiešķir atļauja."
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Apkopot, kad atver"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Pielāgotā cilnē"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Atvērt lasītājā"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Atvērt noklusējuma pārlūkā"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Rakstu nevar atvērt pārlūkā"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automātiski"
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animēta lappušu pāršķiršana"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Atsvaidzina"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Pakalpojuma sniedzējs"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Kopsavilkuma API"
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "Tulkošanas API"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Pakalpojuma sniedzējs: %1$s"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "translate_article",
+      "value": "Tulkot rakstu"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Piemērot kopsavilkumiem"
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL autentifikācijas atslēga"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI vai saderīgs"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Pamatadrese (neobligāti)"
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Pārbauda API iestatījumus…"
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Pārbauda DeepL atslēgu…"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Rādīt oriģinālu (%1$s)"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Vēlams tulkot šajā valodā"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Tulkot rakstu priekšskatījumus"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Neizdevās ievietot atzīmētos rakstus"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Ievietot atzīmētos rakstus"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Atvērt pielāgotā cilnē"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Rakstu nevar atvērt pielāgotā cilnē"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Ieteikumi"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Pārslēgt statusu uz lasītu/nelasītu"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikators atzīmēšanai kā lasīts"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Ieskaitot mobīlos piekļuves punktus"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Tiek rādīti tikai nelasīto rakstu paziņojumi, kas iestatīti ziņu plūsmās"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Pārslēgt birku paplašinājumu"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Raksts ir pārāk liels. Vai atvērt pārlūkā?"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Izmanto rakstu saraksta un rakstu tulkošanai."
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Nav iestatīts"
+    },
+    {
+      "name": "provider_none",
+      "value": "Nav iestatīts neviens"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Izmanto rakstu apkopošanai."
+    },
+    {
+      "name": "weight",
+      "value": "Treknums"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Vietējo"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Lappušu pāršķiršanas režīms"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure izvietošanas ID"
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "vēlamā valoda"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Netika atrasts neviens modelis"
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Pārbauda Azure OpenAI iestatījumus…"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Automātiski tulkot rakstus"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Piemēram: English vai en"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Uzlabot sīktēlus, izmantojot raksta metadatus"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Ievadiet API atslēgu pirms saglabāšanas."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Ievadiet modeļa ID pirms saglabāšanas."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Ievadiet DeepL API atslēgu pirms saglabāšanas."
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "API iestatījumus nevarēja pārbaudīt."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Ievadiet savu Azure izvietošanas ID pirms saglabāšanas."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Ievadiet savu Azure API versiju pirms saglabāšanas."
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "DeepL atslēgu nevarēja pārbaudīt."
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Saderīgs ar daudziem mākslīgā intelekta (AI) pakalpojumu sniedzējiem, bet ne ar visiem"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Azure OpenAI iestatījumus nevarēja pārbaudīt."
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Iestatiet vēlamo tulkošanas valodu mākslīgā intelekta (AI) iestatījumos"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Mēģinās uzlabot šīs ziņu plūsmas trūkstošos vai zemas kvalitātes sīktēlus"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Īsi animē lapu pāršķiršanu. Dažās e-tintes ierīcēs var izraisīt atspulga efektu, attēla dubultošanos, dubultattēlu."
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Pārvietojas pa rakstiem, \"šķirstot lapas\", nevis nepārtrauktu ritināšanu. Optimizēts e-tintes ierīcēm."
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Izmantojiet valodas nosaukumu vai kodu, piemēram, Spanish, es, French vai fr-CA."
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "BRĪDINĀJUMS! Šī ir Beta funkcija. Vispirms izgūstiet visas savas ziņu plūsmas OPML datnē un saglabājiet to kā rezerves kopiju."
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Vietējā tulkošana darbojas uz Android 12 un jaunākām versijām."
+    },
+    {
+      "name": "original_article",
+      "value": "oriģinālais"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Pārsaukt birku"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Nevar atskaņot šo audio datni"
+    },
+    {
+      "name": "play_audio",
+      "value": "Atskaņot audio"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Iepauzēt audio"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Apturēt audio"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Attīt atpakaļ 10 sekundes"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Patīt uz priekšu 10 sekundes"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Savā ierīcē atveriet \"Ierīču sinhronizācija\" un nospiediet \"Skenēt vai ievadīt sinhronizācijas kodu\"."
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Tulkošanas galapunkts"
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Ievadiet savu Azure galapunktu pirms saglabāšanas."
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Iepriekš ielādēt pielāgotās cilnes saturu"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

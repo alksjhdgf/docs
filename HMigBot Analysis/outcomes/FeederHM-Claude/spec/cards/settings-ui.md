@@ -1,0 +1,45 @@
+# 设置页卡（settings-ui）
+
+## 页面: Settings
+
+- ST-A01 [ui] 顶部内容避让状态栏，不与状态栏重叠。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:149
+- ST-A02 [ui] 顶栏标题为 `Settings`，左侧返回按钮（无障碍名 `Go back`）点击返回上一页；无上一页时进入 Feed 页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navigation/NavigationDestinations.kt:333
+- ST-A03 [ui] 页面为单列可纵向滚动列表，分组标题依次为 `Block list`、`Text`、`Syncing`、`Article list`、`Reader`、`Image loading`、`Text to speech`、`AI and translation`；第一个分组前依次有 `Theme`、`Dynamic colors`、`Preferred dark theme`、`Notify for new items` 四行，最后一组后有 `Send bug report` 行。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:468
+- ST-A04 [ui] 下拉型设置行副标题显示当前值；点击行弹出选项菜单，当前值项高亮（加粗），选中某项后菜单关闭、副标题与持久化值立即更新为该项；点菜单外关闭不改值。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:1100
+- ST-A05 [ui] 开关型设置行点击整行或开关均切换值并立即持久化；禁用状态的行不可切换。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:1438
+- ST-A06 [ui] `Theme` 选项恰为 `System`、`Day`、`Night`、`E Ink`（此顺序），默认 `System`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:468
+- ST-A07 [ui] `Dynamic colors` 开关默认开；平台不支持动态取色时该行禁用并显示不可用说明（源：`Only available on Android 12 and above`），且值视为关。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:484
+- ST-A08 [ui] `Preferred dark theme` 选项恰为 `Black`、`Dark`，默认 `Black`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:504
+- ST-A09 [ui] `Notify for new items` 副标题：通知权限被拒时显示 `Permission must be granted before notifications can be enabled.`；否则显示已开启通知的订阅标题以 `, ` 连接，最多 3 个，超过 3 个时末尾追加 `...`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:1336
+- ST-A10 [on_device] 点击 `Notify for new items`：已有通知权限时打开订阅通知对话框；无权限时弹系统通知授权请求，授予后自动打开该对话框；需解释时先显示解释对话框（`OK` 再次请求授权）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:1305
+- ST-A11 [ui] 订阅通知对话框标题 `Notify for new items`，按订阅显示名不区分大小写排序列出全部订阅，每行一个开关；点击行或开关切换该订阅 notify 并持久化；唯一按钮 `OK` 关闭对话框。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/dialog/FeedNotificationsDialog.kt:40
+- ST-A12 [ui] `Block list` 组含 `Filters`（过滤词列表）、`Apply to summaries`（默认关）、`Apply to links`（默认关）三行。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:525
+- ST-A13 [ui] `Filters` 行副标题为按字母排序的过滤词以空格连接，最多 5 个，超出追加 `...`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:1241
+- ST-A14 [ui] 点 `Filters` 打开对话框：标题 `Filters`、说明 `Hides articles with titles containing any of these filters. Example filters:`、示例 `feeder feed?r fe*er`；列出现有过滤词，每条带删除按钮（`Remove`）点即删除；底部 `Add item` 输入框按键盘"下一项/回车"即添加并清空输入框；对话框无确认按钮，点外部关闭。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/dialog/EditableListDialog.kt:50
+- ST-A15 [backend] 添加过滤词：空白输入忽略；保存为去首尾空格的小写形式；重复添加不报错不重复；增删后触发一次屏蔽列表重算使已有文章的屏蔽状态更新。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:226
+- ST-A16 [ui] `Text` 组仅一行 `Text settings`，副标题为当前字体名（默认 `Roboto`；系统字体 `System default`；用户字体显示文件名），点击进入 TextSettings 页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:580
+- ST-A17 [ui] `Syncing` 组依次为：`Look for new articles…`、`Upon app start`、`Only on Wi-Fi`、`Only when charging`、`Max items per feed`、`Battery optimization`、`Device sync`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:589
+- ST-A18 [ui] `Look for new articles…` 选项恰为 `Manually`、`Every 15 minutes`、`Every 30 minutes`、`Every hour`、`Every 3 hours`、`Every 6 hours`、`Every 12 hours`、`Every day`（此顺序），默认 `Every hour`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:592
+- ST-A19 [backend] 修改同步频率、`Only on Wi-Fi`（同步）或 `Only when charging` 后立即以替换方式重新调度后台周期同步，新约束/频率生效；`Manually` 时不做周期同步。结果契约：后台同步按新设置运行；鸿蒙实现：WorkScheduler 重排；差异：系统最小间隔可能大于 15/30/60 分钟。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/SettingsStore.kt:249
+- ST-A20 [ui] `Upon app start`、同步 `Only on Wi-Fi`、`Only when charging` 三开关默认均关。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/SettingsStore.kt:238
+- ST-A21 [ui] `Max items per feed` 选项恰为 `50`、`100`、`200`、`500`、`1000`，默认 `100`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:627
+- ST-A22 [on_device] `Battery optimization` 副标题在应用已豁免电池优化时为 `Off`、否则为 `On`，回到页面时刷新；点击跳转系统电池优化设置页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:644
+- ST-A23 [ui] `Device sync` 行副标题为空，点击进入 SyncScreen（无预填同步码）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navigation/NavigationDestinations.kt:338
+- ST-A24 [ui] `Article list` 组依次为：`Sort by`、`Show floating action button`、`Show feeds after marking all as read`、`Article style`、`Max lines`、`Show only title`、`Swipe to mark as read`、`Mark as read on scroll`、`Show thumbnails`、`Show estimated reading time`、`Show unread article count in title`、`Force single column`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:667
+- ST-A25 [ui] `Sort by` 选项恰为 `Newest first`、`Oldest first`，默认 `Newest first`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:670
+- ST-A26 [ui] `Article style` 选项恰为 `Card`、`Compact Card`、`Compact`、`Super compact`，默认 `Card`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:696
+- ST-A27 [ui] `Max lines` 选项恰为 `1` 至 `10`，默认 `2`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:708
+- ST-A28 [ui] `Swipe to mark as read` 选项恰为 `Disabled`、`Only from end`、`From anywhere`，默认 `Only from end`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:724
+- ST-A29 [ui] `Article list` 组开关默认值：`Show floating action button` 开、`Show thumbnails` 开，其余（`Show feeds after marking all as read`、`Show only title`、`Mark as read on scroll`、`Show estimated reading time`、`Show unread article count in title`、`Force single column`）关；首帧不得显示与持久化值不同的状态。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/SettingsStore.kt:230
+- ST-A30 [ui] `Reader` 组依次为：`Open items by default with`、`Open links with`、`Play audio links with built-in player`、（大屏时）`Open browser in split screen`、`Paging Mode`、（条件）`Animated Paging`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:769
+- ST-A31 [ui] `Open items by default with` 选项恰为 `Reader`、`Custom tab`、`Default browser`，默认 `Reader`；`Open links with` 选项恰为 `Custom tab`、`Default browser`，默认 `Custom tab`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:772
+- ST-A32 [ui] `Play audio links with built-in player` 默认开，副标题 `When disabled, audio links open with your default app instead`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:805
+- ST-A33 [ui] `Open browser in split screen`（默认开）仅在最小屏宽 ≥600dp 时显示，小屏不显示。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:812
+- ST-A34 [ui] `Paging Mode` 默认关，带描述副标题；`Animated Paging`（默认关，带描述副标题）仅在 `Paging Mode` 开启时显示，关闭 Paging Mode 后立即隐藏。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:822
+- ST-A35 [ui] `Image loading` 组仅一个 `Only on Wi-Fi` 开关（默认关），与同步组同名开关为独立设置，互不影响。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:844
+- ST-A36 [ui] `Text to speech` 组仅一个 `Detect language` 开关，默认开，副标题 `Automatically detects article language`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:856
+- ST-A37 [ui] 已下载翻译模型区中确认删除某模型或全部模型后，条目立即从列表消失，但仅在翻译 API 对话框点保存后才真正删除文件；取消对话框则条目恢复、不删除。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:892
+- ST-A38 [ui] 删除单个模型确认框：标题 `Delete model`，正文 `Delete the <源语言> to <目标语言> translation model (<大小>)?`，按钮 `Delete model`/`Cancel`；模型数 >1 时额外显示 `Delete all downloaded models` 行（含总大小），其确认框正文 `Delete all <n> downloaded translation model(s) (<总大小>)?`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:1652
+- ST-A39 [backend] 模型大小格式：≥1 MiB 显示一位小数 `MB`，≥1 KiB 显示整数 `KB`，否则 `<n> B`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/Settings.kt:111
+- ST-A40 [on_device] 点 `Send bug report` 用外部浏览器打开 `https://github.com/spacecowboy/feeder/issues`；无可处理应用时提示 `Install something to open this link with first`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/util/BugReport.kt:7
+- ST-A41 [on_device] 在本页修改的任一设置在冷重启后进入 Settings 页仍显示修改后的值。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/settings/SettingsViewModel.kt:276

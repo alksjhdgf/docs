@@ -1,0 +1,1612 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "打开导航菜单"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "关闭导航菜单"
+    },
+    {
+      "name": "action_settings",
+      "value": "设置"
+    },
+    {
+      "name": "add_feed",
+      "value": "添加订阅源"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "订阅 Feed"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "标签"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "订阅 URL"
+    },
+    {
+      "name": "title",
+      "value": "标题"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s，%2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "保存"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "没有可阅读的内容。您是否想要…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "打开 另一个订阅源？"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "添加 更多订阅源？"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "输入订阅源地址"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "标记为已读"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "标记为未读"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "全部标记为已读"
+    },
+    {
+      "name": "edit_feed",
+      "value": "编辑订阅源"
+    },
+    {
+      "name": "delete_feed",
+      "value": "删除订阅源"
+    },
+    {
+      "name": "show_all_items",
+      "value": "显示全部内容"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "显示未读内容"
+    },
+    {
+      "name": "new_items_available",
+      "value": "有新的内容"
+    },
+    {
+      "name": "view",
+      "value": "查看"
+    },
+    {
+      "name": "no_tag",
+      "value": "尚无标签"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "新内容通知"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "停止通知"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "切换阅读状态"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "在浏览器中打开链接"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "在浏览器中打开"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "打开内嵌媒体"
+    },
+    {
+      "name": "sync",
+      "value": "同步"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "将订阅源导出为 OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "从 OPML 导入订阅源"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "查看调试日志"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "在此基础上新建"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "标记为已读的标志"
+    },
+    {
+      "name": "share",
+      "value": "分享"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "找不到这样的订阅。也许可以试试 HTTPS？"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "没有可显示内容！"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "设置"
+    },
+    {
+      "name": "all_feeds",
+      "value": "所有订阅源"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "手动"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "每 15 分钟"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "每 30 分钟"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "每小时"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "每 3 小时"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "每 6 小时"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "每 12 小时"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "每天"
+    },
+    {
+      "name": "synchronization",
+      "value": "同步"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "仅在连接 Wi-Fi 时"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "显示缩略图"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "可能产生移动数据费用。"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "仅在充电时"
+    },
+    {
+      "name": "image_loading",
+      "value": "图片加载"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "无法找到打开该链接的应用"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "查找新文章…"
+    },
+    {
+      "name": "on_startup",
+      "value": "应用启动时"
+    },
+    {
+      "name": "show_fab",
+      "value": "显示悬浮操作按钮"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "包括移动热点"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "已更新订阅源"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "未读订阅源"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "仅对已配置订阅中的未读内容显示通知"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "阅读器"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "网页视图"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "默认浏览器"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "自定义标签页"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "内容默认打开方式"
+    },
+    {
+      "name": "open_links_with",
+      "value": "链接打开方式"
+    },
+    {
+      "name": "reader_settings",
+      "value": "阅读器"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "以网页视图打开链接"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "在网页视图中打开"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "每个订阅源的最大内容数"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "无法加载 URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "系统"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "自动"
+    },
+    {
+      "name": "theme_day",
+      "value": "浅色"
+    },
+    {
+      "name": "theme_night",
+      "value": "深色"
+    },
+    {
+      "name": "theme",
+      "value": "主题"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "从新到旧"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "从旧到新"
+    },
+    {
+      "name": "sort",
+      "value": "排序方式"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "发送错误报告"
+    },
+    {
+      "name": "no_email_client",
+      "value": "无法打开电子邮件客户端"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "轻触播放视频"
+    },
+    {
+      "name": "javascript",
+      "value": "Javascript"
+    },
+    {
+      "name": "open_feed",
+      "value": "打开订阅源"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "标记以上内容为已读"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "标记以下内容为已读"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "已发现订阅列表"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "展开/闭合标签"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "电池优化"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "已关闭"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "已开启"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "预加载自定义标签页"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "正在获取完整文章…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "无法获取完整文章"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "默认获取完整文章"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "获取完整文章"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "无法解析 %1$s"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "无法加载文本转语音"
+    },
+    {
+      "name": "resume_reading",
+      "value": "继续朗读"
+    },
+    {
+      "name": "pause_reading",
+      "value": "暂停朗读"
+    },
+    {
+      "name": "read_article",
+      "value": "大声朗读"
+    },
+    {
+      "name": "use_app_default",
+      "value": "使用应用默认值"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "同步订阅源"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "显示所有文章"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "仅显示未读文章"
+    },
+    {
+      "name": "already_read",
+      "value": "已读"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "未读"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "转到 %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "打开菜单"
+    },
+    {
+      "name": "go_back",
+      "value": "返回"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "已关闭的标签"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "打开标签"
+    },
+    {
+      "name": "stop_reading",
+      "value": "停止朗读"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "打开 %1$s"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s 篇未读文章"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s 篇未读文章"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s 篇未读文章"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s 篇未读文章"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s 篇未读文章"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s 篇未读文章"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "超紧凑"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "紧凑"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "卡片"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "文章样式"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "黑色"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "深色"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "首选深色主题"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "生成附加的唯一 ID"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "只对坏 ID 源启用"
+    },
+    {
+      "name": "syncing",
+      "value": "同步中"
+    },
+    {
+      "name": "sync_status",
+      "value": "同步状态"
+    },
+    {
+      "name": "invalid_url",
+      "value": "无效 URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "无法导入 OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "无法导出 OPML"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "无法打开文章"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "这项服务是由社区支付的。如果您觉得有用，请考虑捐赠。"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "把它当作密码。任何有此链接的人都都可以读取你的同步数据。"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "加入同步链"
+    },
+    {
+      "name": "add_new_device",
+      "value": "添加新设备"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s（此设备）"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "将设备从同步链断开"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "同步链上的设备"
+    },
+    {
+      "name": "remove_device",
+      "value": "移除设备"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "确定要删除设备 %1$s 吗？"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "在你的设备上，导航到设备同步，并按扫描同步代码。"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "或者，打开设备上的链接。"
+    },
+    {
+      "name": "qr_code",
+      "value": "二维码"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder 设备同步码"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "离开同步链"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "只需扫描您在另一个设备上创建的同步链的代码，或启动一个新的同步链。"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "扫描或输入同步代码"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "启动新的同步链"
+    },
+    {
+      "name": "sync_code",
+      "value": "同步码"
+    },
+    {
+      "name": "secret_key",
+      "value": "密钥"
+    },
+    {
+      "name": "device_sync",
+      "value": "设备同步"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "设备同步允许你在不同设备之间同步订阅和已读文章。"
+    },
+    {
+      "name": "only_from_end",
+      "value": "仅从右侧"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "滑动标记为已读"
+    },
+    {
+      "name": "disabled",
+      "value": "已禁用"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "从任何方向"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "确定要离开同步链吗？"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "找不到条形码扫描器"
+    },
+    {
+      "name": "remove",
+      "value": "移除"
+    },
+    {
+      "name": "block_list",
+      "value": "拦截列表"
+    },
+    {
+      "name": "add_item",
+      "value": "添加项目"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder 只读权限"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "允许应用读取源和文章"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "检测语言"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "自动检测文章语言"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "仅适用于 Android %1$s 及更高版本"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "必须先授予权限才能启用通知。"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "文本转语音"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "动态配色"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "跳到下一篇"
+    },
+    {
+      "name": "set_language",
+      "value": "设置语言"
+    },
+    {
+      "name": "new_indicator",
+      "value": "新"
+    },
+    {
+      "name": "article_image",
+      "value": "文章图片"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Feed 图标"
+    },
+    {
+      "name": "text_scale",
+      "value": "文本缩放"
+    },
+    {
+      "name": "block_list_description",
+      "value": "隐藏标题中包含以下任意筛选条件的文章。示例筛选条件："
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "同步以获取文章"
+    },
+    {
+      "name": "saved_articles",
+      "value": "已保存文章"
+    },
+    {
+      "name": "saved_article",
+      "value": "已保存文章"
+    },
+    {
+      "name": "save_article",
+      "value": "保存文章"
+    },
+    {
+      "name": "unsave_article",
+      "value": "停止保存文章"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "滚动时自动标记为已读"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s 个订阅源"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s 个订阅源"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s 个订阅源"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s 个订阅源"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s 个订阅源"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s 标签"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s 标签"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s 标签"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s 标签"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s 标签"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s 标签"
+    },
+    {
+      "name": "no_feeds",
+      "value": "没有订阅源"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s 个订阅源"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "导入 %1$s 个含 %2$s 标签的订阅源？"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "未找到可获取的内容"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "链接并非 HTML 文档"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "订阅源缺少文章链接"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "文章列表"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "最近读过"
+    },
+    {
+      "name": "read_adjective",
+      "value": "已读"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "已保存"
+    },
+    {
+      "name": "show_only_title",
+      "value": "仅显示标题"
+    },
+    {
+      "name": "filter_noun",
+      "value": "筛选器"
+    },
+    {
+      "name": "max_lines",
+      "value": "最大行数"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "无法下载"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "无法解析页面"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "页面中无订阅源"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "内容不是 HTML"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "无法解析 RSS 订阅源"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP 错误"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "无法解析 JSON 订阅源"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "无响应正文"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "不受支持的内容类型"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "无法解析完整文章"
+    },
+    {
+      "name": "no_url",
+      "value": "无 URL"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "电子墨水"
+    },
+    {
+      "name": "add_anyway",
+      "value": "仍要添加"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "在分屏中打开浏览器"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "显示预估的阅读时间"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s 字"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s 分钟"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s 分钟"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s 字"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s 分钟"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s 分钟"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s 字"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s 字"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s 分钟"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s 分钟"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s 字"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s 字"
+    },
+    {
+      "name": "close_menu",
+      "value": "关闭菜单"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "导出已保存的文章"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "无法导出已保存的文章"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "跳过重复的文章"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "忽略链接或标题和现存文章相同的新文章"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "紧凑卡片"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "轻触播放音频"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "在标题中显示未读文章数"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "未找到模型"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI 和翻译"
+    },
+    {
+      "name": "api_key",
+      "value": "API 密钥"
+    },
+    {
+      "name": "model_id",
+      "value": "模型 Id"
+    },
+    {
+      "name": "summarize",
+      "value": "摘要"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API 版本"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "无法加载模型。"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure 部署 id"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "可用模型列表"
+    },
+    {
+      "name": "show_message",
+      "value": "显示消息"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "标记所有为已读后显示订阅源"
+    },
+    {
+      "name": "on",
+      "value": "已开启"
+    },
+    {
+      "name": "off",
+      "value": "已关闭"
+    },
+    {
+      "name": "cancel_search",
+      "value": "取消搜索"
+    },
+    {
+      "name": "search_verb",
+      "value": "搜索"
+    },
+    {
+      "name": "font",
+      "value": "字体"
+    },
+    {
+      "name": "text_preview",
+      "value": "文本预览"
+    },
+    {
+      "name": "system_default",
+      "value": "系统默认"
+    },
+    {
+      "name": "italic",
+      "value": "斜体"
+    },
+    {
+      "name": "add_font",
+      "value": "添加字体…"
+    },
+    {
+      "name": "bold",
+      "value": "粗体"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "无法添加字体"
+    },
+    {
+      "name": "weight",
+      "value": "字体粗细"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "出了点问题"
+    },
+    {
+      "name": "text",
+      "value": "文本"
+    },
+    {
+      "name": "text_settings",
+      "value": "文本设置"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "无法移除字体"
+    },
+    {
+      "name": "time_out",
+      "value": "超时时间（秒）"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "超时时间必须在 30 到 600 秒之间"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "AI 请求的超时时间"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "打开时生成摘要"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "建议"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "兼容众多 AI 提供商，但非全部"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "在默认浏览器中打开"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "在阅读器中打开"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "在自定义标签页中打开"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "无法在浏览器中打开文章"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "无法在自定义标签页中打开文章"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "应用于摘要"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "刷新中"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "分页模式"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "通过“翻页”而非持续滚动来浏览文章。为 e-ink 设备优化。"
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "翻页动画"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "短暂显示翻页动画。可能在一些 e-ink 设备上造成残影。"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "导入已保存的文章"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "无法导入已保存的文章"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "从文章元数据增强缩略图"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "尝试改进此订阅源中缺失或质量较低的缩略图"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "摘要 API"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "用于文章摘要。"
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "翻译 API"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "用于翻译订阅源卡片和文章。"
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL 授权密钥"
+    },
+    {
+      "name": "ai_provider",
+      "value": "提供商"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "未配置"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "提供商：%1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "无"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI 或兼容"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "基础 URL（可选）"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "翻译端点"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "保存前请输入 API 密钥。"
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "保存前请输入 DeepL API 密钥。"
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "保存前请输入模型 ID。"
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "正在验证 API 设置…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "无法验证 API 设置。"
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "保存前请输入您的 Azure 端点。"
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "保存前请输入您的 Azure 部署 ID。"
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "保存前请输入您的 Azure API 版本。"
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "正在验证 Azure OpenAI 设置…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "无法验证 Azure OpenAI 设置。"
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "正在验证 DeepL 密钥…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "无法验证 DeepL 密钥。"
+    },
+    {
+      "name": "translate_article",
+      "value": "翻译文章"
+    },
+    {
+      "name": "show_original_language",
+      "value": "显示原文（%1$s）"
+    },
+    {
+      "name": "original_article",
+      "value": "原文"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "首选翻译语言"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "选择 Feeder 应翻译成的语言。"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "选择语言"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "在 AI 设置中设置首选翻译语言"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "翻译文章预览"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "默认翻译文章"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "本地离线"
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "首选语言"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "文章太大。改为在浏览器中打开？"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "警告！这是一项测试功能。使用前请先将所有订阅源导出为 OPML 文件并保存为备份。"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "本地翻译需要 Android 12 或更高版本。"
+    },
+    {
+      "name": "rename_tag",
+      "value": "重命名标签"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "无法播放此音频文件"
+    },
+    {
+      "name": "play_audio",
+      "value": "播放音频"
+    },
+    {
+      "name": "pause_audio",
+      "value": "暂停音频"
+    },
+    {
+      "name": "stop_audio",
+      "value": "停止音频"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "快退 10 秒"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "快进 10 秒"
+    },
+    {
+      "name": "open_settings",
+      "value": "打开设置"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "正在准备 %1$s 到 %2$s 的离线翻译模型…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "正在下载 %1$s 到 %2$s 的离线翻译模型：%3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "首次下载大小为 20–50 MB，可能需要几分钟。之后即可离线翻译。"
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "本地翻译在此设备上不可用。"
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "无法创建本地翻译器。"
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "本地翻译超时。"
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "本地翻译失败。"
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "本地翻译未返回文本。"
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "本地翻译器未就绪。请检查设备翻译设置并重试。"
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "没有 %1$s -> %2$s 的 Bergamot 模型。请检查系统翻译语言"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Bergamot 翻译超时。"
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Bergamot 翻译失败。"
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "连接以下载模型列表。"
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "无法下载 %1$s -> %2$s 模型。"
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Bergamot WebView 翻译超时。"
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView 未初始化。"
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "无法解析 Bergamot 响应。"
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "优先使用您设备的翻译服务。"
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "如果该服务不可用，Feeder 可以使用其可下载的离线翻译引擎。"
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "仅显示可下载的语言"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "已下载的翻译模型"
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "删除模型"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Feeder 下载的离线翻译语言。移除不再需要的语言以释放空间。"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "删除 %1$s 到 %2$s 的翻译模型（%3$s）？"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "删除所有已下载的模型"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "删除所有 %1$d 个已下载的翻译模型（%2$s）？"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "已删除 %1$s 到 %2$s 的模型"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "已删除所有已下载的模型"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "尚未下载翻译模型。翻译时会自动下载所需模型。"
+    },
+    {
+      "name": "delete_button_text",
+      "value": "删除"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "使用内置播放器播放音频链接"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "禁用后，音频链接将改用您的默认应用打开"
+    },
+    {
+      "name": "force_single_column",
+      "value": "强制单列布局"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "应用于链接"
+    },
+    {
+      "name": "filters",
+      "value": "筛选条件"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "下载离线翻译引擎以继续。"
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "下载离线翻译引擎？"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder 将从 Mozilla/Bergamot 项目下载 4.9 MB 的可执行 WebAssembly 运行时。此代码并非由 F-Droid 构建或检查。下载完成后，翻译功能即可离线使用。"
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "无法下载离线翻译引擎。"
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "正在下载离线翻译引擎：%1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "下载"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "文章过滤规则"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "每行一条规则，格式为 FieldName=pattern。可用字段为标题、URL、作者、标签和内容。模式是匹配字段中任何地方的正则表达式；以 (?i) 开头来忽略大小写。规则在下次获取文章时生效，不影响已经保存的文章。"
+    },
+    {
+      "name": "block_rules",
+      "value": "拦截规则"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "永不下载匹配的文章。和黑名单不同，这无法撤销：删除规则不会恢复已经被跳过的文章。"
+    },
+    {
+      "name": "allow_rules",
+      "value": "放行规则"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "如设置了任意放行规则将只下载匹配的文章。不会对没有标签的文章执行标签规则，因此单单标签规则不会清空没有标签的订阅源。"
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)sponsored"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "第 %1$d 行: 缺少 '=' 。忽略无效行。"
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "第 %1$d 行: '%2$s' 不是已知字段。忽略无效行。"
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "第 %1$d 行: 模式为空，这代表匹配一切。忽略无效行。"
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "第 %1$d 行: 非有效正则表达式。忽略无效行。"
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "第 %1$d 行: 只使用前面 %2$d 条规则。忽略后面的行。"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

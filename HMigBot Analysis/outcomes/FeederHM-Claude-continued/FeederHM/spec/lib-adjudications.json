@@ -1,0 +1,213 @@
+{
+ "entries": [
+  {
+   "match": "com\\.nononsenseapps\\.gofeed",
+   "status": "partial",
+   "harmony": "自研 ArkTS feed 解析器（@ohos.xml XmlPullParser / convertxml + JSON.parse）：RSS 0.9x/2.0、RDF 1.0、Atom 0.3/1.0、JSON Feed 1.x，含 media:/itunes:/dc:/content: 扩展",
+   "note": "源依赖 gomobile 编译的 Go gofeed（gofeedandroid.Gofeedandroid.parseBody*），鸿蒙无 Go 运行时；按 GoFeed JSON 结构等价自研；源 androidTest FeedParserTest + 48 份 fixture 作黄金向量",
+   "source": "adjudicated",
+   "evidence": "model/gofeed/GoFeedAdapter.kt:22-29；model/FeedParser.kt:44"
+  },
+  {
+   "match": "org\\.jsoup",
+   "status": "partial",
+   "harmony": "自研 HTML 解析器（宽容 tokenizer + DOM 树 + CSS 选择器子集），ArkTS",
+   "note": "8 文件用于 HTML→Compose 渲染、链接/图片提取、全文清洗；无 ArkTS 等价库",
+   "source": "adjudicated",
+   "evidence": "ui/compose/html/HtmlToComposable.kt、HtmlToAnnotatedString.kt、model/html/HtmlUtils.kt 等"
+  },
+  {
+   "match": "org\\.ccil\\.cowan\\.tagsoup",
+   "status": "partial",
+   "harmony": "复用自研 HTML 解析器的纯文本转换",
+   "note": "仅 HtmlToPlainTextConverter",
+   "source": "adjudicated",
+   "evidence": "model/HtmlToPlainTextConverter.kt"
+  },
+  {
+   "match": "net\\.dankito\\.readability4j",
+   "status": "partial",
+   "harmony": "自研 Readability 正文抽取（移植 readability4j 算法于自研 DOM）",
+   "note": "仅 FullTextParser 全文模式",
+   "source": "adjudicated",
+   "evidence": "model/FullTextParser.kt"
+  },
+  {
+   "match": "com\\.ibm\\.icu",
+   "status": "partial",
+   "harmony": "@kit.ArkTS util.TextDecoder（GB2312/GBK/Big5/Shift_JIS/ISO-8859-x 等）+ HTTP/meta charset 声明；无 ICU CharsetDetector 统计探测",
+   "note": "仅 FullTextParser 字符集探测",
+   "source": "adjudicated",
+   "evidence": "model/FullTextParser.kt"
+  },
+  {
+   "match": "org\\.jetbrains:markdown|org\\.intellij\\.markdown",
+   "status": "partial",
+   "harmony": "自研 Markdown→HTML（CommonMark 子集）",
+   "note": "仅 MarkdownToHtmlConverter（feed 内容 text/markdown）",
+   "source": "adjudicated",
+   "evidence": "model/MarkdownToHtmlConverter.kt"
+  },
+  {
+   "match": "com\\.aallam\\.openai",
+   "status": "equivalent",
+   "harmony": "@kit.NetworkKit http 直调 OpenAI 兼容 REST（chat/completions、models）",
+   "note": "可选翻译/摘要功能，需用户自填 key",
+   "source": "adjudicated",
+   "evidence": "openai/OpenAIApi.kt、OpenAIClient.kt"
+  },
+  {
+   "match": "org\\.kodein\\.di",
+   "status": "equivalent",
+   "harmony": "显式依赖装配（单例服务定位器），无 DI 框架",
+   "note": "调用面 290（70 文件）均为注入样板",
+   "source": "adjudicated",
+   "evidence": "di/*.kt"
+  },
+  {
+   "match": "com\\.google\\.accompanist:accompanist-permissions",
+   "status": "equivalent",
+   "harmony": "abilityAccessCtrl.requestPermissionsFromUser",
+   "note": "通知权限",
+   "source": "adjudicated",
+   "evidence": "ui/compose/settings/Settings.kt、editfeed/EditFeedScreen.kt"
+  },
+  {
+   "match": "com\\.google\\.accompanist:accompanist-adaptive",
+   "status": "equivalent",
+   "harmony": "@ohos.display 折叠态 + 窗口尺寸断点",
+   "note": "折叠屏双栏",
+   "source": "adjudicated",
+   "evidence": "ui/compose/utils/Foldables.kt"
+  },
+  {
+   "match": "com\\.github\\.nanihadesuka\\.LazyColumnScrollbar",
+   "status": "equivalent",
+   "harmony": "ArkUI List.scrollBar / ScrollBar 组件",
+   "note": "阅读页滚动条",
+   "source": "adjudicated",
+   "evidence": "ui/compose/reader/ReaderView.kt"
+  },
+  {
+   "match": "com\\.github\\.kenglxn\\.qrgen",
+   "status": "equivalent",
+   "harmony": "ArkUI QRCode 组件",
+   "note": "同步配对二维码生成",
+   "source": "adjudicated",
+   "evidence": "调用面 0（经 Compose 包装）"
+  },
+  {
+   "match": "com\\.nononsenseapps:jsonfeed|com\\.nononsenseapps\\.jsonfeed",
+   "status": "equivalent",
+   "harmony": "JSON.parse + 手写模型",
+   "note": "JSON Feed 模型/客户端",
+   "source": "adjudicated",
+   "evidence": "FeederApplication.kt、di/NetworkModule.kt"
+  },
+  {
+   "match": "com\\.google\\.android\\.material:material",
+   "status": "equivalent",
+   "harmony": "ArkUI 内置组件",
+   "note": "调用面 0",
+   "source": "adjudicated",
+   "evidence": "调用面 0"
+  },
+  {
+   "match": "com\\.squareup\\.okio",
+   "status": "equivalent",
+   "harmony": "@kit.CoreFileKit fs / buffer",
+   "note": "调用面 0",
+   "source": "adjudicated",
+   "evidence": "调用面 0"
+  },
+  {
+   "match": "io\\.nlopez\\.compose\\.rules|junit:junit|io\\.mockk",
+   "status": "equivalent",
+   "harmony": "hypium（仅测试/lint）",
+   "note": "不进产物",
+   "source": "adjudicated",
+   "evidence": "测试依赖"
+  },
+  {
+   "match": "java\\.time",
+   "status": "equivalent",
+   "harmony": "原生 Date + @ohos.intl DateTimeFormat/RelativeTimeFormat（Instant/ZonedDateTime→epoch ms + 时区）",
+   "note": "标准库原语（58 处）",
+   "source": "official-map",
+   "evidence": "SDK @ohos.intl.d.ts class DateTimeFormat",
+   "importPrefix": "java\\.time"
+  },
+  {
+   "match": "java\\.net",
+   "status": "equivalent",
+   "harmony": "@ohos.url URL/URLParams + @kit.NetworkKit http",
+   "note": "标准库原语（URL/URI 62 处）",
+   "source": "official-map",
+   "evidence": "SDK @ohos.url.d.ts class URL",
+   "importPrefix": "java\\.net"
+  },
+  {
+   "match": "java\\.io|java\\.nio",
+   "status": "equivalent",
+   "harmony": "@kit.CoreFileKit fileIo / buffer",
+   "note": "标准库原语",
+   "source": "official-map",
+   "evidence": "SDK @ohos.file.fs",
+   "importPrefix": "java\\.io|java\\.nio"
+  },
+  {
+   "match": "java\\.util\\.zip",
+   "status": "equivalent",
+   "harmony": "@ohos.zlib（gzip 压缩/解压）",
+   "note": "同步数据 GZIP",
+   "source": "official-map",
+   "evidence": "SDK @ohos.zlib.d.ts",
+   "importPrefix": "java\\.util\\.zip"
+  },
+  {
+   "match": "javax\\.crypto|java\\.security",
+   "status": "equivalent",
+   "harmony": "@kit.CryptoArchitectureKit cryptoFramework（AES/HMAC/PBKDF2/SHA/随机数）",
+   "note": "同步端到端加密",
+   "source": "official-map",
+   "evidence": "SDK @ohos.security.cryptoFramework.d.ts createCipher",
+   "importPrefix": "javax\\.crypto|java\\.security"
+  },
+  {
+   "match": "javax\\.net\\.ssl",
+   "status": "partial",
+   "harmony": "@kit.NetworkKit http 证书校验选项（caPath / remoteValidation，按 SDK 实际字段）",
+   "note": "自签证书信任（同步服务器）",
+   "source": "official-map",
+   "evidence": "SDK @ohos.net.http.d.ts",
+   "importPrefix": "javax\\.net\\.ssl"
+  },
+  {
+   "match": "kotlinx\\.coroutines",
+   "status": "equivalent",
+   "harmony": "async/await + Promise；Flow→@ObservedV2/@Trace 状态与回调订阅；后台→taskpool",
+   "note": "平台模型差异",
+   "source": "official-map",
+   "evidence": "platform-model-gaps.md",
+   "importPrefix": "kotlinx\\.coroutines"
+  },
+  {
+   "match": "kotlinx\\.serialization|kotlinx\\.parcelize",
+   "status": "equivalent",
+   "harmony": "JSON.parse/stringify + 手写模型",
+   "note": "序列化",
+   "source": "official-map",
+   "evidence": "stdlib-mapping-table",
+   "importPrefix": "kotlinx\\.serialization|kotlinx\\.parcelize"
+  },
+  {
+   "match": "java\\.util\\.concurrent",
+   "status": "equivalent",
+   "harmony": "Map/Set + taskpool（单线程无需并发容器）",
+   "note": "标准库原语",
+   "source": "official-map",
+   "evidence": "platform-model-gaps.md",
+   "importPrefix": "java\\.util\\.concurrent"
+  }
+ ]
+}

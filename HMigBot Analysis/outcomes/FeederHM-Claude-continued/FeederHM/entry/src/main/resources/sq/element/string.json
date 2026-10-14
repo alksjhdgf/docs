@@ -1,0 +1,824 @@
+{
+  "string": [
+    {
+      "name": "action_settings",
+      "value": "Parametrat"
+    },
+    {
+      "name": "add_feed",
+      "value": "Shto feed"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Etiketa"
+    },
+    {
+      "name": "title",
+      "value": "Titulli"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Hap navigimim"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Abonohu në feed"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Mbyll navigimin"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL e feed"
+    },
+    {
+      "name": "save",
+      "value": "Ruaj"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Asgjë për të lexuar. A dëshiron të…"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Add me shume feed-e?"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Shenjoji të gjitha si të lexuara"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Lajmëro për artikuj të rinj"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Tekst ne te folur"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Eksporto feed-et si OPML"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Ky feed nuk gjendet. Ndoshta mund te perdoresh HTTPS?"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Cdo ore"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Identifiko automatikisht gjuhen e artikullit"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Hap lidhjet ne pamje web"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Hap nje feed tjeter?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Shkruaj adresën e një feed-i"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Shenjoje si të lexuar"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Shenoje si të palexuar"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Redakto feed-in"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Fshi feed-in"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Trego të gjithë artikujt"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Trego vetëm artikujt e palexuar"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Artikuj të rinj janë gati"
+    },
+    {
+      "name": "view",
+      "value": "Shiko"
+    },
+    {
+      "name": "no_tag",
+      "value": "Pa etiketë"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Ndalo njoftimet"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Ndrysho statusin e te qenit e lexuar"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Hap lidhjet ne web browser"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Hap ne web browser"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Hap mediat e bashkelidhura"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Hap %1$s"
+    },
+    {
+      "name": "read_article",
+      "value": "Lexo me ze"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Rifillo te lexuarin"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pusho te lexuarin"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Ndalo te lexuarin"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Kalo tek e radhes"
+    },
+    {
+      "name": "set_language",
+      "value": "Cakto gjuhen"
+    },
+    {
+      "name": "sync",
+      "value": "Sinkronizo"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importo feed-et nga OPML"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Shiko debug log"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Te reja bazuar ne kete"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikatori per te markuar si te lexuar"
+    },
+    {
+      "name": "share",
+      "value": "Ndaj"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Asgje per te treguar!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Parametrat"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Te gjitha feed-et"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manualisht"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Cdo 15 minuta"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Cdo 30 minuta"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Cdo 3 ore"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Cdo 6 ore"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Cdo 12 ore"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Cdo dite"
+    },
+    {
+      "name": "synchronization",
+      "value": "Duke sinkronizuar"
+    },
+    {
+      "name": "syncing",
+      "value": "Duke sinkronizuar"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Vetem ne Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Trego fotografine miniature"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Identifiko gjuhen"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Vetem per Android %1$s e lart"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Mund te rezultoje ne pagesa per te dhenat e perdorura."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Vetem kur telefoni eshte ne karikim"
+    },
+    {
+      "name": "image_loading",
+      "value": "Ngarkimi i imazhit"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Instalo dicka per ta hapur kete lidhje me se pari"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Kerko per artikuj te rinj…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Kur aplikacioni hapet"
+    },
+    {
+      "name": "block_list",
+      "value": "Lista e termave te bllokuar"
+    },
+    {
+      "name": "show_fab",
+      "value": "Trego buton"
+    },
+    {
+      "name": "add_item",
+      "value": "Shto"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Perfshi hotspot-et"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Fresko feed-et"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Feed-e te palexuar"
+    },
+    {
+      "name": "sync_status",
+      "value": "Statusi i sinkronizimit"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lexuesi"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Pamje web"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Browser i parapelqyer"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Perdor te parapelqyeren e aplikacionit"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Hap artikujt ne menyre te parapelqyer me"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Hap lidhjet me"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lexuesi"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Shenjo të gjitha më poshtë si të lexuara"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Më të vjetrat në krye"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automatik"
+    },
+    {
+      "name": "open_feed",
+      "value": "Hap feed-in"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Lista e artikujve"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Prek për të luajtur videon"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Hap në pamje web"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistem"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maksimumi i artikujve për feed"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Dërgo raport gabimi"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Shenjo të gjitha më sipër si të lexuara"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Tema e errët e preferuar"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Fsheh artikujt me tituj që përmbajnë cilindo prej këtyre filtrave. Shembuj filtrash:"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Ngjyra dinamike"
+    },
+    {
+      "name": "theme_night",
+      "value": "Natë"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Nuk mund të hapet klienti i postës elektronike"
+    },
+    {
+      "name": "theme_day",
+      "value": "Ditë"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "E zezë"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Më të rejat në krye"
+    },
+    {
+      "name": "sort",
+      "value": "Rendit sipas"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "E errët"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Skedë e zakonshme"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Bojë elektronike"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Njoftimet shfaqen vetëm për artikuj të palexuar në feed-et e konfiguruara"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "URL nuk mund të ngarkohet"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Sugjerime"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Eksporto artikujt e ruajtur"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Lista e prurjeve të zbuluara"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Ndërro zgjerimin e etiketës"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Hap etiketën"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Mbyll etiketën"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimizimi i baterisë"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Fikur"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Ndezur"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Parangarko skedën e personalizuar"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Nuk mund të analizohet %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Merr artikullin e plotë"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Merr artikujt e plotë automatikisht"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Nuk mund të merrej artikulli i plotë"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Nuk mund të hapej artikulli"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sinkronizo për të marrë artikullin"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Duke marrë artikullin e plotë…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Nuk mund të ngarkohet leximi me zë"
+    },
+    {
+      "name": "go_back",
+      "value": "Shko pas"
+    },
+    {
+      "name": "open_menu",
+      "value": "Hap menunë"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Shko tek %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Të palexuara"
+    },
+    {
+      "name": "already_read",
+      "value": "Të lexuara"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Po shfaqen vetëm artikujt e palexuar"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Po shfaqen të gjithë artikujt"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sinkronizo prurjet"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s artikuj të palexuar"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s artikull i palexuar"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s artikuj të palexuar"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s artikuj të palexuar"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s artikuj të palexuar"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s unread articles"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Stili i artikullit"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Skedë"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Skedë kompakte"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakte"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super kompakt"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Gjenero ID shtesë unike"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Aktivizo vetëm për prurjet me ID të gabuara"
+    },
+    {
+      "name": "invalid_url",
+      "value": "URL e pavlefshme"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Dështoi importimi i OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Dështoi eksportimi i OPML"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Dështoi eksportimi i artikujve të ruajtur"
+    },
+    {
+      "name": "device_sync",
+      "value": "Sinkronizimi i pajisjes"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Shto pajisje të re"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Ky shërbim financohet nga komuniteti. Të lutem konsidero një dhurim nëse e gjen të dobishëm."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (kjo pajisje)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Shkëput pajisjen nga zinxhiri i sinkronizimit"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Pajisjet në zinxhirin e sinkronizimit"
+    },
+    {
+      "name": "remove",
+      "value": "Hiq"
+    },
+    {
+      "name": "remove_device",
+      "value": "Hiq pajisjen"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Je i sigurt që do ta fshish pajisjen %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Në pajisjen tënde, shko te sinkronizimi i pajisjes dhe shtyp skano kodin e sinkronizimit."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Ose, hap lidhjen në pajisjen tënde."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Trajtoje këtë si një fjalëkalim. Kushdo mund të lexojë të dhënat e tua të sinkronizuara nëse ka lidhjen."
+    },
+    {
+      "name": "qr_code",
+      "value": "Kodi QR"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Kodi i sinkronizimit të pajisjes Feeder"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Largohu nga zinxhiri i sinkronizimit"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Sinkronizimi i pajisjes të lejon të sinkronizosh abonimet e prurjeve dhe artikujt e lexuar midis pajisjeve të tua të ndryshme."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Thjesht skano kodin nga zinxhiri i sinkronizimit që ke krijuar në një pajisje tjetër, ose nis një zinxhir të ri sinkronizimi."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skano ose fut kodin e sinkronizimit"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Nis zinxhir sinkronizimi të ri"
+    },
+    {
+      "name": "sync_code",
+      "value": "Kodi i sinkronizimit"
+    },
+    {
+      "name": "secret_key",
+      "value": "Çelësi sekret"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Bashkohu me zinxhirin e sinkronizimit"
+    },
+    {
+      "name": "disabled",
+      "value": "E çaktivizuar"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Vetëm nga fundi"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Nga kudo"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Rrëshqite për ta shenjuar si të lexuar"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Je i sigurt që dëshiron të largohesh nga zinxhiri i sinkronizimit?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Nuk u gjet skaner barkodi"
+    },
+    {
+      "name": "new_indicator",
+      "value": "I ri"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Lejon aplikacionin të lexojë prurjet dhe artikujt"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Qasje vetëm lexim për Feeder"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Duhet të jepet leje para se të aktivizohen njoftimet."
+    },
+    {
+      "name": "article_image",
+      "value": "Imazhi i artikullit"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Ikona e prurjes"
+    },
+    {
+      "name": "text_scale",
+      "value": "Shkalla e tekstit"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Artikujt e ruajtur"
+    },
+    {
+      "name": "saved_article",
+      "value": "Artikull i ruajtur"
+    },
+    {
+      "name": "save_article",
+      "value": "Ruaj artikullin"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Ndalo ruajtjen e artikullit"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Shenjo si të lexuar kur zbret poshtë"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Nuk ka prurje"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "Prurjet %1$s"
+    },
+    {
+      "name": "one_feed",
+      "value": "Prurja %1$s"
+    },
+    {
+      "name": "two_feeds",
+      "value": "Prurjet %1$s"
+    },
+    {
+      "name": "few_feeds",
+      "value": "Prurjet %1$s"
+    },
+    {
+      "name": "many_feeds",
+      "value": "Prurjet %1$s"
+    },
+    {
+      "name": "other_feeds",
+      "value": "Prurjet %1$s"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

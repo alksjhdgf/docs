@@ -1,0 +1,209 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-sync-notification.json",
+  "at": "2026-10-13T18:27:36.046Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-sync-notification",
+  "steps": [
+    {
+      "i": 0,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 799
+    },
+    {
+      "i": 1,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3693
+    },
+    {
+      "i": 2,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 723
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3092
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =All feeds",
+      "ms": 683
+    },
+    {
+      "i": 5,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"All feeds\" @630,228",
+      "changed": true,
+      "ms": 3104
+    },
+    {
+      "i": 6,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1007
+    },
+    {
+      "i": 7,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3069
+    },
+    {
+      "i": 8,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sync feeds",
+      "ms": 683
+    },
+    {
+      "i": 9,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Sync feeds\" @417,655",
+      "changed": true,
+      "ms": 2541
+    },
+    {
+      "i": 10,
+      "op": "swipeRaw",
+      "ok": true,
+      "detail": "滑 300,2→300,1500",
+      "ms": 2053
+    },
+    {
+      "i": 11,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-sync-notification-during.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-sync-notification-during.png",
+      "ms": 451
+    },
+    {
+      "i": 12,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 30005
+    },
+    {
+      "i": 13,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-sync-notification-after.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-sync-notification-after.png",
+      "ms": 459
+    },
+    {
+      "i": 14,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 791
+    },
+    {
+      "i": 15,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 60005
+    },
+    {
+      "i": 16,
+      "op": "swipeRaw",
+      "ok": true,
+      "detail": "滑 300,2→300,1500",
+      "ms": 2953
+    },
+    {
+      "i": 17,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-sync-notification-removed.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-sync-notification-removed.png",
+      "ms": 373
+    },
+    {
+      "i": 18,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 777
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Feeder News",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 25",
+      "02",
+      ":",
+      "25",
+      "100",
+      "All feeds",
+      "Saved articles, 1",
+      "Saved articles",
+      "1",
+      "Mark all as read",
+      "Sync feeds",
+      "Add feed",
+      "Edit feed",
+      "Delete feed",
+      "Import feeds from OPML",
+      "Export feeds to OPML",
+      "Import saved articles",
+      "Export saved articles",
+      "Settings"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

@@ -1,0 +1,1168 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-ai-settings.json",
+  "at": "2026-10-13T18:44:48.621Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-ai-settings",
+  "steps": [
+    {
+      "i": 0,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 845
+    },
+    {
+      "i": 1,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3743
+    },
+    {
+      "i": 2,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 680
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3107
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Settings",
+      "ms": 698
+    },
+    {
+      "i": 5,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Settings\" @388,2002",
+      "changed": true,
+      "ms": 3050
+    },
+    {
+      "i": 6,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Theme",
+      "ms": 678
+    },
+    {
+      "i": 7,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 6 次后出现 =Summary API",
+      "ms": 23582
+    },
+    {
+      "i": 8,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Summary API\" @453,2348",
+      "changed": true,
+      "ms": 3050
+    },
+    {
+      "i": 9,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Provider",
+      "ms": 682
+    },
+    {
+      "i": 10,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @1054,646",
+      "ms": 1677
+    },
+    {
+      "i": 11,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Azure OpenAI",
+      "ms": 718
+    },
+    {
+      "i": 12,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Option \"None\" @802,856",
+      "changed": true,
+      "ms": 3052
+    },
+    {
+      "i": 13,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 808
+    },
+    {
+      "i": 14,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"Save\" @1035,2504",
+      "changed": true,
+      "ms": 3084
+    },
+    {
+      "i": 15,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1201
+    },
+    {
+      "i": 16,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 732
+    },
+    {
+      "i": 17,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Summary API\" @453,2348",
+      "changed": true,
+      "ms": 3052
+    },
+    {
+      "i": 18,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Provider",
+      "ms": 679
+    },
+    {
+      "i": 19,
+      "op": "tapAt",
+      "ok": true,
+      "detail": "坐标点 @1054,646",
+      "ms": 1695
+    },
+    {
+      "i": 20,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =OpenAI or compatible",
+      "ms": 697
+    },
+    {
+      "i": 21,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Option \"OpenAI or compatible\" @802,1024",
+      "changed": true,
+      "ms": 3053
+    },
+    {
+      "i": 22,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =API key",
+      "ms": 674
+    },
+    {
+      "i": 23,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 TextInput \"\" @674,1571",
+      "changed": true,
+      "ms": 3083
+    },
+    {
+      "i": 24,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 242
+    },
+    {
+      "i": 25,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 253
+    },
+    {
+      "i": 26,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 262
+    },
+    {
+      "i": 27,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 256
+    },
+    {
+      "i": 28,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 255
+    },
+    {
+      "i": 29,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 249
+    },
+    {
+      "i": 30,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 255
+    },
+    {
+      "i": 31,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 248
+    },
+    {
+      "i": 32,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 254
+    },
+    {
+      "i": 33,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 257
+    },
+    {
+      "i": 34,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 241
+    },
+    {
+      "i": 35,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 254
+    },
+    {
+      "i": 36,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 249
+    },
+    {
+      "i": 37,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 255
+    },
+    {
+      "i": 38,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 239
+    },
+    {
+      "i": 39,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 252
+    },
+    {
+      "i": 40,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 244
+    },
+    {
+      "i": 41,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 244
+    },
+    {
+      "i": 42,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 245
+    },
+    {
+      "i": 43,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 255
+    },
+    {
+      "i": 44,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 246
+    },
+    {
+      "i": 45,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 253
+    },
+    {
+      "i": 46,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 231
+    },
+    {
+      "i": 47,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 254
+    },
+    {
+      "i": 48,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 255
+    },
+    {
+      "i": 49,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 254
+    },
+    {
+      "i": 50,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 252
+    },
+    {
+      "i": 51,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 261
+    },
+    {
+      "i": 52,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 247
+    },
+    {
+      "i": 53,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 249
+    },
+    {
+      "i": 54,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 243
+    },
+    {
+      "i": 55,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 258
+    },
+    {
+      "i": 56,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 250
+    },
+    {
+      "i": 57,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 253
+    },
+    {
+      "i": 58,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 240
+    },
+    {
+      "i": 59,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 258
+    },
+    {
+      "i": 60,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 248
+    },
+    {
+      "i": 61,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 250
+    },
+    {
+      "i": 62,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 244
+    },
+    {
+      "i": 63,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 264
+    },
+    {
+      "i": 64,
+      "op": "type",
+      "ok": true,
+      "detail": "输入到 TextInput \"\" @674,1528",
+      "occludedBy": "root [0,137][1320,2856]",
+      "ms": 3930
+    },
+    {
+      "i": 65,
+      "op": "type",
+      "ok": true,
+      "detail": "输入到 TextInput \"\" @583,1310",
+      "occludedBy": "root [0,137][1320,2856]",
+      "ms": 3476
+    },
+    {
+      "i": 66,
+      "op": "type",
+      "ok": true,
+      "detail": "输入到 TextInput \"\" @674,1083",
+      "occludedBy": "root [0,137][1320,2856]",
+      "ms": 3729
+    },
+    {
+      "i": 67,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 789
+    },
+    {
+      "i": 68,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 3006
+    },
+    {
+      "i": 69,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-ai-settings-filled.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-ai-settings-filled.png",
+      "ms": 291
+    },
+    {
+      "i": 70,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"Save\" @1035,2504（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 3112
+    },
+    {
+      "i": 71,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1510
+    },
+    {
+      "i": 72,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 701
+    },
+    {
+      "i": 73,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-ai-settings-saved.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-ai-settings-saved.png",
+      "ms": 199
+    },
+    {
+      "i": 74,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3692
+    },
+    {
+      "i": 75,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 735
+    },
+    {
+      "i": 76,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248",
+      "changed": true,
+      "ms": 3054
+    },
+    {
+      "i": 77,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Settings",
+      "ms": 700
+    },
+    {
+      "i": 78,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Settings\" @388,2002",
+      "changed": true,
+      "ms": 3059
+    },
+    {
+      "i": 79,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Theme",
+      "ms": 670
+    },
+    {
+      "i": 80,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 6 次后出现 =Summary API",
+      "ms": 23495
+    },
+    {
+      "i": 81,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Summary API\" @453,2325",
+      "changed": true,
+      "ms": 3021
+    },
+    {
+      "i": 82,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =API key",
+      "ms": 690
+    },
+    {
+      "i": 83,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 3/3",
+      "ms": 704
+    },
+    {
+      "i": 84,
+      "op": "probe",
+      "ok": true,
+      "detail": "出现 0/1（页面 170 节点） 未见 [=hmig-test-key-0001]",
+      "seen": [],
+      "unseen": [
+        "=hmig-test-key-0001"
+      ],
+      "page": {
+        "texts": [
+          "Settings",
+          "Notify for new items",
+          "Open links with, Custom tab",
+          "Open links with",
+          "Custom tab",
+          "Play audio links with built-in player, When disabled, audio links open with your default app instead",
+          "Play audio links with built-in player",
+          "When disabled, audio links open with your default app instead",
+          "Paging Mode, Navigate articles by \"turning pages\" instead of continuous scrolling. Optimized for e-ink devices.",
+          "Paging Mode",
+          "Navigate articles by \"turning pages\" instead of continuous scrolling. Optimized for e-ink devices.",
+          "Image loading",
+          "Only on Wi-Fi",
+          "Text to speech",
+          "Detect language, Automatically detects article language",
+          "Detect language",
+          "Automatically detects article language",
+          "AI and translation",
+          "Summary API",
+          "Provider: OpenAI or compatible",
+          "Translation API",
+          "Not configured",
+          "Send bug report",
+          "Used for article summaries.",
+          "Provider",
+          "OpenAI or compatible",
+          "API key",
+          "hmig***********001",
+          "Model Id",
+          "hmig-test-model",
+          "Base URL (optional)",
+          "http://127.0.0.1:8765/v1",
+          "Timeout (seconds)",
+          "30",
+          "Cancel",
+          "Save",
+          "02, :, 44",
+          "02",
+          ":",
+          "44",
+          "100"
+        ],
+        "ids": [
+          "session21",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ethernet",
+          "StatusBarIconItemEthernetComponent_Image_icon",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellular",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView",
+          "LiveMetaBallBaseVm"
+        ],
+        "clickable": [
+          "Notify for new items",
+          "Open links with, Custom tab",
+          "Play audio links with built-in player, When disabled, audio links open with your default app instead",
+          "Paging Mode, Navigate articles by \"turning pages\" instead of continuous scrolling. Optimized for e-ink devices.",
+          "Only on Wi-Fi",
+          "Detect language, Automatically detects article language",
+          "Send bug report",
+          "hmig***********001",
+          "hmig-test-model",
+          "http://127.0.0.1:8765/v1",
+          "30",
+          "Cancel",
+          "Save",
+          "#StatusBarBridgeView",
+          "#LiveMetaBallBaseVm"
+        ],
+        "geometry": {
+          "30": {
+            "center": [
+              0.51,
+              0.56
+            ],
+            "bounds": "[224,1554][1124,1638]"
+          },
+          "Notify for new items": {
+            "center": [
+              0,
+              0
+            ],
+            "bounds": "[0,0][0,0]"
+          },
+          "Open links with, Custom tab": {
+            "center": [
+              0.5,
+              0.15
+            ],
+            "bounds": "[56,360][1264,491]"
+          },
+          "Play audio links with built-in player, When disabled, audio links open with your default app instead": {
+            "center": [
+              0.5,
+              0.23
+            ],
+            "bounds": "[56,491][1264,806]"
+          },
+          "Paging Mode, Navigate articles by \"turning pages\" instead of continuous scrolling. Optimized for e-ink devices.": {
+            "center": [
+              0.5,
+              0.34
+            ],
+            "bounds": "[56,806][1264,1107]"
+          },
+          "Only on Wi-Fi": {
+            "center": [
+              0.5,
+              0.51
+            ],
+            "bounds": "[56,1334][1264,1558]"
+          },
+          "Detect language, Automatically detects article language": {
+            "center": [
+              0.5,
+              0.67
+            ],
+            "bounds": "[56,1786][1264,2017]"
+          },
+          "Send bug report": {
+            "center": [
+              0.5,
+              0.97
+            ],
+            "bounds": "[56,2696][1264,2856]"
+          },
+          "hmig***********001": {
+            "center": [
+              0.51,
+              0.32
+            ],
+            "bounds": "[224,873][1124,957]"
+          },
+          "hmig-test-model": {
+            "center": [
+              0.44,
+              0.4
+            ],
+            "bounds": "[224,1100][942,1184]"
+          },
+          "http://127.0.0.1:8765/v1": {
+            "center": [
+              0.51,
+              0.48
+            ],
+            "bounds": "[224,1327][1124,1411]"
+          },
+          "Cancel": {
+            "center": [
+              0.57,
+              0.88
+            ],
+            "bounds": "[603,2434][889,2574]"
+          },
+          "Save": {
+            "center": [
+              0.78,
+              0.88
+            ],
+            "bounds": "[917,2434][1152,2574]"
+          },
+          "#session21": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[49,55][1271,136]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[49,55][1320,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[49,66][111,128]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,55][1271,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_ethernet": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[995,55][1079,136]"
+          },
+          "#StatusBarIconItemEthernetComponent_Image_icon": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[1002,69][1079,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1079,55][1166,136]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellular": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1166,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,69][1271,125]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1182,75][1252,120]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#LiveMetaBallBaseVm": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[380,19][940,136]"
+          }
+        }
+      },
+      "ms": 676
+    },
+    {
+      "i": 85,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-ai-settings-after-restart.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-ai-settings-after-restart.png",
+      "ms": 262
+    },
+    {
+      "i": 86,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"Cancel\" @746,2504",
+      "changed": true,
+      "ms": 3092
+    },
+    {
+      "i": 87,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 87
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "Feeder News",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "02, :, 42",
+      "02",
+      ":",
+      "42",
+      "100",
+      "Mark all as read",
+      "Sync feeds",
+      "Add feed",
+      "Edit feed",
+      "Delete feed",
+      "Import feeds from OPML",
+      "Export feeds to OPML",
+      "Import saved articles",
+      "Export saved articles",
+      "Settings",
+      "Theme, Day",
+      "Theme",
+      "Day",
+      "Dynamic colors, Only available on Android 12 and above",
+      "Dynamic colors",
+      "Only available on Android 12 and above",
+      "Preferred dark theme, Dark",
+      "Preferred dark theme",
+      "Dark",
+      "Notify for new items",
+      "Block list",
+      "Filters",
+      "Apply to summaries",
+      "Apply to links",
+      "Text",
+      "Text settings, Roboto",
+      "Text settings",
+      "Roboto",
+      "Syncing",
+      "Look for new articles…, Every hour",
+      "Look for new articles…",
+      "Every hour",
+      "Upon app start",
+      "Only on Wi-Fi",
+      "Only when charging",
+      "Max items per feed, 100",
+      "Max items per feed",
+      "Battery optimization, On",
+      "Battery optimization",
+      "On",
+      "Device sync",
+      "Article list",
+      "Sort by, Newest first",
+      "Sort by",
+      "Newest first",
+      "Show floating action button",
+      "Show feeds after marking all as read",
+      "Article style, Card",
+      "Article style",
+      "Card",
+      "Max lines, 2",
+      "Max lines",
+      "2",
+      "Show only title",
+      "Swipe to mark as read, Only from end",
+      "Swipe to mark as read",
+      "Only from end",
+      "Mark as read on scroll",
+      "Show thumbnails",
+      "Show estimated reading time",
+      "Show unread article count in title",
+      "Force single column",
+      "Reader",
+      "Open items by default with, Reader",
+      "Open items by default with",
+      "Open links with, Custom tab",
+      "Open links with",
+      "Custom tab",
+      "Play audio links with built-in player, When disabled, audio links open with your default app instead",
+      "Play audio links with built-in player",
+      "When disabled, audio links open with your default app instead",
+      "Paging Mode, Navigate articles by \"turning pages\" instead of continuous scrolling. Optimized for e-ink devices.",
+      "Paging Mode",
+      "Navigate articles by \"turning pages\" instead of continuous scrolling. Optimized for e-ink devices.",
+      "Image loading",
+      "02, :, 43",
+      "43",
+      "Text to speech",
+      "Detect language, Automatically detects article language",
+      "Detect language",
+      "Automatically detects article language",
+      "AI and translation",
+      "Summary API",
+      "Not configured",
+      "Translation API",
+      "Send bug report",
+      "Used for article summaries.",
+      "Provider",
+      "None",
+      "Cancel",
+      "Save",
+      "OpenAI or compatible",
+      "Azure OpenAI",
+      "Enter an API key before saving.",
+      "API key",
+      "Model Id",
+      "Base URL (optional)",
+      "Timeout (seconds)",
+      "30",
+      "www.",
+      ".",
+      "/",
+      ".com",
+      "http://127.0.0.1:8765/v1",
+      "hmig-test-model",
+      "hmig***********001",
+      "02, :, 44",
+      "44",
+      "Provider: OpenAI or compatible"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "parentLayout",
+      "SkinBgContent",
+      "SkinBgContentStack",
+      "browserViewId",
+      "index_content",
+      "index_stack_container",
+      "index_outer",
+      "functionView",
+      "downMenu",
+      "downMenu_container",
+      "downMenu_flex",
+      "KeyMenu",
+      "kbd_toolbar_list_menu",
+      "KeyCustom_0",
+      "KeyCustom_1",
+      "KeyHideKbd",
+      "downMenu_line",
+      "index_keyMenu_container",
+      "KeyboardCanvas",
+      "KeyCanvasKeyboard",
+      "keyboardPanel40",
+      "keyboard318",
+      "inputMethodPanel",
+      "keyboardLeftButton",
+      "keyboardRightButton"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

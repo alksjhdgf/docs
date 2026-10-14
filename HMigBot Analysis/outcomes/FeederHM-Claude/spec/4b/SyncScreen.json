@@ -1,0 +1,60 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "SyncScreen",
+  "kind": "skeleton",
+  "slice": "page-sync",
+  "route": "SyncScreen",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "SyncScreen"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "syncChainId",
+        "Device sync",
+        "device_sync_description_1",
+        "device_sync_description_2",
+        "device_sync_financed_by_community",
+        "https:",
+        "device_sync_beta_warning",
+        "Scan or enter sync code",
+        "Start new sync chain",
+        "sync_code=",
+        "key=",
+        "&",
+        "%3A",
+        "Could not find a barcode scanner",
+        "Join sync chain",
+        "Sync code",
+        "Secret key",
+        "提取出的同步码",
+        "base64\\(16字节\\):",
+        "/sync/join\\?sync_code=\\.\\.&key=\\.\\.",
+        "Devices on sync chain",
+        "Disconnect device from sync chain",
+        "Add new device",
+        "Remove device",
+        "OK",
+        "Cancel",
+        "Open menu",
+        "Leave sync chain",
+        "Are you sure you want to leave the sync chain\\?",
+        "press_scan_sync",
+        "or_open_device_sync_link",
+        "treat_like_password",
+        "QR Code",
+        "Device not registered"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "SyncScreen"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-notify",
+ "steps": [
+  {
+   "op": "start",
+   "route": "Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Notify for new items"
+  },
+  {
+   "op": "tap",
+   "match": "=Notify for new items"
+  },
+  {
+   "op": "probe",
+   "match": [
+    "=Allow Feeder to send you notifications?"
+   ]
+  },
+  {
+   "op": "wait",
+   "match": "=OK",
+   "timeout": 6000
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-after-allow"
+  },
+  {
+   "op": "probe",
+   "match": [
+    "Feeder News",
+    "Hacker News",
+    "OK",
+    "Cancel"
+   ]
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

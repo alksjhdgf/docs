@@ -1,0 +1,261 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-notify-device",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=Hacker News: Newest",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Hacker News: Newest"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Delete feed",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Delete feed"
+  },
+  {
+   "op": "wait",
+   "match": "=Cancel",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Hacker News: Newest"
+  },
+  {
+   "op": "tap",
+   "match": "=OK"
+  },
+  {
+   "op": "sleep",
+   "ms": 2000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Add feed",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Add feed"
+  },
+  {
+   "op": "wait",
+   "match": "=urlField",
+   "timeout": 6000
+  },
+  {
+   "op": "type",
+   "match": "=urlField",
+   "text": "https://hnrss.org/newest"
+  },
+  {
+   "op": "tap",
+   "match": "=Search"
+  },
+  {
+   "op": "wait",
+   "match": "=searchResult",
+   "timeout": 20000
+  },
+  {
+   "op": "tap",
+   "match": "=searchResult"
+  },
+  {
+   "op": "wait",
+   "match": "=editFeedTitle",
+   "timeout": 6000
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=editFeedNotify",
+   "dir": "up",
+   "max": 4
+  },
+  {
+   "op": "swipe",
+   "dir": "up"
+  },
+  {
+   "op": "tap",
+   "match": "=editFeedNotify"
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-editfeed-on"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=OK",
+   "dir": "up",
+   "max": 10
+  },
+  {
+   "op": "tap",
+   "match": "=OK"
+  },
+  {
+   "op": "sleep",
+   "ms": 15000
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    300,
+    2
+   ],
+   "to": [
+    300,
+    1500
+   ],
+   "speed": 800,
+   "ms": 2000
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-shade"
+  },
+  {
+   "op": "tapAt",
+   "x": 1180,
+   "y": 1000,
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-expanded"
+  },
+  {
+   "op": "tapAt",
+   "x": 400,
+   "y": 1336,
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-item-actions"
+  },
+  {
+   "op": "tapAt",
+   "x": 400,
+   "y": 1336,
+   "ms": 4000
+  },
+  {
+   "op": "wait",
+   "match": "^\\d+:\\d+ minutes?$",
+   "timeout": 6000
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-opened-article"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 1000
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    300,
+    2
+   ],
+   "to": [
+    300,
+    1500
+   ],
+   "speed": 800,
+   "ms": 2000
+  },
+  {
+   "op": "tapAt",
+   "x": 1180,
+   "y": 1000,
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-after-single"
+  },
+  {
+   "op": "tapAt",
+   "x": 400,
+   "y": 966,
+   "ms": 4000
+  },
+  {
+   "op": "wait",
+   "match": "=Hacker News: Newest",
+   "timeout": 6000
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-summary-opened"
+  },
+  {
+   "op": "swipeRaw",
+   "from": [
+    300,
+    2
+   ],
+   "to": [
+    300,
+    1500
+   ],
+   "speed": 800,
+   "ms": 2000
+  },
+  {
+   "op": "shot",
+   "name": "flow-notify-cleared"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

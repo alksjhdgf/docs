@@ -1,0 +1,31 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "FeedWidgetSettings",
+  "kind": "skeleton",
+  "slice": "backend-notifications-widget",
+  "route": "FeedWidgetSettings",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "FeedWidgetSettings"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "Feeder",
+        "syncWorkerRunning",
+        "Refreshing",
+        "All feeds",
+        "Saved articles"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "FeedWidgetSettings"
+    }
+  ]
+}

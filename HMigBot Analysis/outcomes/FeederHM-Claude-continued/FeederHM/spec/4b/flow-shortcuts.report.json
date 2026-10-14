@@ -1,0 +1,392 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-shortcuts.json",
+  "at": "2026-10-13T18:40:17.114Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-shortcuts",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3744
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 type:^Button$",
+      "ms": 759
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3121
+    },
+    {
+      "i": 3,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 0 次后出现 =Planet Money",
+      "ms": 695
+    },
+    {
+      "i": 4,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Planet Money\" @636,1323",
+      "changed": true,
+      "ms": 3125
+    },
+    {
+      "i": 5,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1508
+    },
+    {
+      "i": 6,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3235
+    },
+    {
+      "i": 7,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 0 次后出现 ^The Changelog",
+      "ms": 683
+    },
+    {
+      "i": 8,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"The Changelog: Software Development, Open Source, 1014\" @630,1505",
+      "changed": true,
+      "ms": 3075
+    },
+    {
+      "i": 9,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1510
+    },
+    {
+      "i": 10,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 843
+    },
+    {
+      "i": 11,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1510
+    },
+    {
+      "i": 12,
+      "op": "longpress",
+      "ok": true,
+      "detail": "长按 Image \"AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0\" @502,350",
+      "changed": true,
+      "ms": 4596
+    },
+    {
+      "i": 13,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Recent feed 1",
+      "ms": 747
+    },
+    {
+      "i": 14,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 4/4",
+      "ms": 697
+    },
+    {
+      "i": 15,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-shortcuts-menu.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-shortcuts-menu.png",
+      "ms": 443
+    },
+    {
+      "i": 16,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Recent feed 1\" @779,581",
+      "changed": true,
+      "ms": 3161
+    },
+    {
+      "i": 17,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 0 次后出现 ^The Changelog",
+      "ms": 692
+    },
+    {
+      "i": 18,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-shortcuts-recent1.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-shortcuts-recent1.png",
+      "ms": 225
+    },
+    {
+      "i": 19,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 789
+    },
+    {
+      "i": 20,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1509
+    },
+    {
+      "i": 21,
+      "op": "longpress",
+      "ok": true,
+      "detail": "长按 Image \"AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0\" @502,350",
+      "changed": true,
+      "ms": 4596
+    },
+    {
+      "i": 22,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Recent feed 2",
+      "ms": 699
+    },
+    {
+      "i": 23,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Recent feed 2\" @779,736",
+      "changed": true,
+      "ms": 3090
+    },
+    {
+      "i": 24,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 0 次后出现 =Planet Money",
+      "ms": 701
+    },
+    {
+      "i": 25,
+      "op": "key",
+      "ok": true,
+      "detail": "",
+      "ms": 786
+    },
+    {
+      "i": 26,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1509
+    },
+    {
+      "i": 27,
+      "op": "longpress",
+      "ok": true,
+      "detail": "长按 Image \"AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0\" @502,350",
+      "changed": true,
+      "ms": 4558
+    },
+    {
+      "i": 28,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Recent feed 3",
+      "ms": 683
+    },
+    {
+      "i": 29,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Recent feed 3\" @779,891",
+      "changed": true,
+      "ms": 3062
+    },
+    {
+      "i": 30,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 ^Feeder News",
+      "ms": 687
+    },
+    {
+      "i": 31,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/FeederHM/spec/screenshots/flow-shortcuts-recent3.png",
+      "shot": "output/FeederHM/spec/screenshots/flow-shortcuts-recent3.png",
+      "ms": 213
+    },
+    {
+      "i": 32,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 86
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "The Changelog: Software Development, Open Source",
+      "From zero to NanoClaw (Interview)\nGavriel Cohen, creator of NanoClaw and co-founder of NanoCo, joins Adam to explain how a 40-hour weekend project became a viral open source hit and the foundation of an enterprise AI company. Gavriel , The Changelog: Software Development, Open Source, Oct 10, 2026",
+      "From zero to NanoClaw (Interview)\nGavriel Cohen, creator of NanoClaw and co-founder of NanoCo, joins Adam to explain how a 40-hour weekend project became a viral open source hit and the foundation of an enterprise AI company. Gavriel ",
+      "Oct 10, 2026",
+      "Forking Cal.com to closed source (Interview)\nThis week I’m joined by Peer Richelsen, co-founder of Cal.com. What if the majority of open source repositories are already compromised and we just don’t know it yet? That’s the theory Peer brings to , The Changelog: Software Development, Open Source, Sep 4, 2026",
+      "Forking Cal.com to closed source (Interview)\nThis week I’m joined by Peer Richelsen, co-founder of Cal.com. What if the majority of open source repositories are already compromised and we just don’t know it yet? That’s the theory Peer brings to ",
+      "Sep 4, 2026",
+      "Postgres at PlanetScale (Interview)\nSam Lambert is back after 4 years and he does not hold back! We cover $5 PlanetScale Postgres, the Neki “do-over” of Vitess, agents shipping schema changes through deploy requests, rolling back a 500T, The Changelog: Software Development, Open Source, Aug 26, 2026",
+      "02, :, 39",
+      "02",
+      ":",
+      "39",
+      "100",
+      "All feeds, 1409",
+      "All feeds",
+      "1409",
+      "Saved articles, 1",
+      "Saved articles",
+      "1",
+      "Tech",
+      "Feeder News",
+      "Hacker News: Front Page, 20",
+      "Hacker News: Front Page",
+      "20",
+      "Hacker News: Newest, 20",
+      "Hacker News: Newest",
+      "Planet Money, 355",
+      "Planet Money",
+      "355",
+      "The Changelog: Software Development, Open Source, 1014",
+      "1014",
+      "Should we all be getting tariff refunds right now?\nCompanies are getting billions of dollars back. How about us? It seems simple, right? We paid higher prices for imported goods because of tariffs. Then the tariffs were ruled illegal. Courts said the , Planet Money, Oct 10, 2026",
+      "Should we all be getting tariff refunds right now?\nCompanies are getting billions of dollars back. How about us? It seems simple, right? We paid higher prices for imported goods because of tariffs. Then the tariffs were ruled illegal. Courts said the ",
+      "Charles Ponzi's scheme (plus a new scam)\nCharles Ponzi was down on his luck. In 1919, the Italian immigrant had spent a decade and a half in the U.S. He was looking for a way to get rich and tried his hand at everything — including bookkeepi, Planet Money, Oct 7, 2026",
+      "Charles Ponzi's scheme (plus a new scam)\nCharles Ponzi was down on his luck. In 1919, the Italian immigrant had spent a decade and a half in the U.S. He was looking for a way to get rich and tried his hand at everything — including bookkeepi",
+      "Oct 7, 2026",
+      "Where all those weird new drinks are coming from\nIt's getting pretty wild in the beverage aisle these days — from the rainbow wall of seltzers, to the increasingly strange flavors of Pepsi, to the new \"functional\" sodas with added fiber or supplemen, Planet Money, Oct 3, 2026",
+      "Weather App",
+      "Feeder",
+      "3",
+      "SI.gov",
+      "Article URL: https://www.si.gov/ Comments URL: https://news.ycombinator.com/item?id=50076394 Points: 1 # Comments: 0",
+      "Show HN: Popcorn Tracker",
+      "Article URL: https://popcorn-tracker.wasmer.app/ Comments URL: https://news.ycombinator.com/item?id=50076373 Points: 1 # Comments: 0",
+      "Recent feed 1",
+      "Recent feed 2",
+      "Recent feed 3",
+      "Widgets",
+      "Uninstall",
+      "02, :, 40",
+      "40",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "feederDrawerTag:Tech",
+      "session10",
+      "SCBDesktop_Image_container",
+      "SCBDesktop_Flex_Desktop",
+      "SCBDesktop_Column_PageDesktopLayout",
+      "GridSwiper_stack_snap",
+      "GridSwiper_Stack_Swiper",
+      "SwiperPage_Grid_WorkSpace_1",
+      "SwiperPage_GridItem_[com.wemaka.weatherapp___16777219___0,1]",
+      "AppIconCommonView_com.wemaka.weatherapp.EntryAbility",
+      "AppIcon_Image_com.wemaka.weatherappEntryAbilityentry0_undefined_0",
+      "AppNameLite_text_com.wemaka.weatherapp_mv1803yr7p719uieqbl",
+      "SwiperPage_GridItem_[com.nononsenseapps.feeder___16777220___0,1]",
+      "AppIconCommonView_com.nononsenseapps.feeder.EntryAbility",
+      "AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0",
+      "AppNameLite_text_com.nononsenseapps.feeder_mv5dtx42ran8kkd6b3n",
+      "CustomBadge_AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0",
+      "SwiperPage_GridItem_[com.nononsenseapps.feeder__346906563_undefined___0,1]",
+      "SwiperPage_FormItem_com.nononsenseapps.feeder_346906563",
+      "FormItem_com.nononsenseapps.feeder_346906563column",
+      "FormItem_com.nononsenseapps.feeder_346906563",
+      "CommonForm_FormComponent_0",
+      "AppName_text_com.nononsenseapps.feeder_Feeder_mv6xflsche72e0n08s6",
+      "SwiperIndicator_indicator",
+      "SwiperIndicator_ic_negative_screen_indicator",
+      "SCBDesktop_Column_smartDock",
+      "ResidentLayout",
+      "SmartDock_V_ResidentLayout_Rect_placeholder",
+      "ResidentLayout_AppItem_com.ohos.contacts_Wrap",
+      "ResidentLayout_AppItem_com.ohos.contacts",
+      "AppIconCommonView_com.ohos.contacts.com.ohos.contacts.MainAbility",
+      "AppIcon_Image_com.ohos.contactscom.ohos.contacts.MainAbilityentry0_undefined_1",
+      "ResidentLayout_AppItem_com.huawei.hmos.browser_Wrap",
+      "ResidentLayout_AppItem_com.huawei.hmos.browser",
+      "AppIconCommonView_com.huawei.hmos.browser.MainAbility",
+      "AppIcon_Image_com.huawei.hmos.browserMainAbilityentry0_undefined_1",
+      "AppIconMenu_AppMenu_longPressMenu",
+      "AppMenu_HorizontalMenuItem_dynamicMenu0",
+      "AppMenu_com.nononsenseapps.feeder_feed_slot_0_Image_shortCut",
+      "AppMenu_Text_shortCutName",
+      "AppMenu_HorizontalMenuItem_dynamicMenu1",
+      "AppMenu_com.nononsenseapps.feeder_feed_slot_1_Image_shortCut",
+      "AppMenu_HorizontalMenuItem_dynamicMenu2",
+      "AppMenu_com.nononsenseapps.feeder_feed_slot_2_Image_shortCut",
+      "AppMenu_HorizontalMenuItem_fixedMenu0",
+      "AppMenu_Image_nullShortCut",
+      "AppMenu_HorizontalMenuItem_fixedMenu1",
+      "LongPressImage",
+      "AppIcon_Image_com.nononsenseapps.feederEntryAbilityentry0_undefined_0_PressMask_Canvas"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

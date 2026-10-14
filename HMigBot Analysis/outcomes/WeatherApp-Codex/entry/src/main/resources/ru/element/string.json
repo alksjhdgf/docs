@@ -1,0 +1,376 @@
+{
+  "string": [
+    {
+      "name": "air_pressure_insert_hpa",
+      "value": "%1$d гПа"
+    },
+    {
+      "name": "air_pressure_insert_mmhg",
+      "value": "%1$d мм. рт. ст."
+    },
+    {
+      "name": "air_pressure_insert_inhg",
+      "value": "%1$d дюйм рт. ст."
+    },
+    {
+      "name": "air_pressure_name_hpa",
+      "value": "Гектопаскали (гПа)"
+    },
+    {
+      "name": "air_pressure_name_mmhg",
+      "value": "Миллиметры ртутного столба (мм. рт. ст.)"
+    },
+    {
+      "name": "air_pressure_name_inhg",
+      "value": "Дюйм ртутного столба (дюйм рт. ст.)"
+    },
+    {
+      "name": "app_name",
+      "value": "Погода"
+    },
+    {
+      "name": "button_search",
+      "value": "Кнопка для поиска"
+    },
+    {
+      "name": "button_settings",
+      "value": "Кнопка настроек"
+    },
+    {
+      "name": "city_default",
+      "value": "Chinatown"
+    },
+    {
+      "name": "clear_sky",
+      "value": "Ясное небо"
+    },
+    {
+      "name": "degree_day_night",
+      "value": "Днем %1$d°\nНочью %2$d°"
+    },
+    {
+      "name": "degree_feels_like",
+      "value": "Ощущается %1$s"
+    },
+    {
+      "name": "desc_button_back",
+      "value": "Вернуться назад"
+    },
+    {
+      "name": "desc_img_calendar",
+      "value": "Иконка календаря"
+    },
+    {
+      "name": "desc_img_clock",
+      "value": "Иконка часов"
+    },
+    {
+      "name": "desc_img_main",
+      "value": "Фон основного заголовка"
+    },
+    {
+      "name": "desc_img_main_weather",
+      "value": "Иконка погоды"
+    },
+    {
+      "name": "desc_img_pressure",
+      "value": "Иконка давления"
+    },
+    {
+      "name": "desc_img_pressure_indicator",
+      "value": "Индикатор, отображающий повышение или понижение атмосферного давления"
+    },
+    {
+      "name": "desc_img_rain",
+      "value": "Иконка дождя"
+    },
+    {
+      "name": "desc_img_rain_indicator",
+      "value": "Индикатор, отображающий повышение или понижение выпавших осадков"
+    },
+    {
+      "name": "desc_img_sun",
+      "value": "Иконка солнца"
+    },
+    {
+      "name": "desc_img_sunrise",
+      "value": "Иконка восхода"
+    },
+    {
+      "name": "desc_img_sunset",
+      "value": "Иконка заката"
+    },
+    {
+      "name": "desc_img_temperature",
+      "value": "Иконка температуры"
+    },
+    {
+      "name": "desc_img_uv_indicator",
+      "value": "Индикатор, отображающий повышение или понижение УФ индекса"
+    },
+    {
+      "name": "desc_img_weather",
+      "value": "Иконка погоды"
+    },
+    {
+      "name": "desc_img_wind",
+      "value": "Иконка скорости ветра"
+    },
+    {
+      "name": "desc_img_wind_indicator",
+      "value": "Индикатор, отображающий повышение или понижение скорости ветра"
+    },
+    {
+      "name": "desc_scroll_precipitation",
+      "value": "Список прогнозируемых осадков"
+    },
+    {
+      "name": "drizzle",
+      "value": "Дождь"
+    },
+    {
+      "name": "fog",
+      "value": "Туман"
+    },
+    {
+      "name": "freezing_drizzle",
+      "value": "Ледяной дождь"
+    },
+    {
+      "name": "freezing_rain",
+      "value": "Ледяной дождь"
+    },
+    {
+      "name": "heavy_drizzle",
+      "value": "Сильный дождь"
+    },
+    {
+      "name": "heavy_rain",
+      "value": "Сильный дождь"
+    },
+    {
+      "name": "heavy_showers",
+      "value": "Сильные ливни"
+    },
+    {
+      "name": "heavy_snow",
+      "value": "Сильный снег"
+    },
+    {
+      "name": "ice_fog",
+      "value": "Ледяной туман"
+    },
+    {
+      "name": "info_last_update",
+      "value": "Последнее обновление\n%2$d %1$s, %3$s"
+    },
+    {
+      "name": "light_drizzle",
+      "value": "Мелкий дождь"
+    },
+    {
+      "name": "light_freezing_drizzle",
+      "value": "Ледяной мелкий дождь"
+    },
+    {
+      "name": "light_freezing_rain",
+      "value": "Ледяной небольшой дождь"
+    },
+    {
+      "name": "light_rain",
+      "value": "Небольшой дождь"
+    },
+    {
+      "name": "light_showers",
+      "value": "Небольшие ливни"
+    },
+    {
+      "name": "light_snow",
+      "value": "Небольшой снег"
+    },
+    {
+      "name": "light_snow_showers",
+      "value": "Небольшие снегопады"
+    },
+    {
+      "name": "light_thunderstorm_hail",
+      "value": "Небольшая гроза с градом"
+    },
+    {
+      "name": "mainly_clear",
+      "value": "Преимущественно ясно"
+    },
+    {
+      "name": "no_internet_connection",
+      "value": "Включите мобильную передачу данных или подключитесь к сети Wi-Fi"
+    },
+    {
+      "name": "overcast",
+      "value": "Пасмурно"
+    },
+    {
+      "name": "partly_cloudy",
+      "value": "Переменная облачность"
+    },
+    {
+      "name": "rain",
+      "value": "Дождь"
+    },
+    {
+      "name": "search_title",
+      "value": "Поиск"
+    },
+    {
+      "name": "showers",
+      "value": "Ливни"
+    },
+    {
+      "name": "snow",
+      "value": "Снег"
+    },
+    {
+      "name": "snow_grains",
+      "value": "Снежная крупа"
+    },
+    {
+      "name": "snow_showers",
+      "value": "Снегопады"
+    },
+    {
+      "name": "speed_insert_kmh",
+      "value": "%1$d км/ч"
+    },
+    {
+      "name": "speed_insert_ms",
+      "value": "%1$d м/с"
+    },
+    {
+      "name": "speed_insert_mph",
+      "value": "%1$d миль/ч"
+    },
+    {
+      "name": "speed_name_kmh",
+      "value": "Километры в час (км/ч)"
+    },
+    {
+      "name": "speed_name_mph",
+      "value": "Миль в час (миль/ч)"
+    },
+    {
+      "name": "speed_name_ms",
+      "value": "Метры в секунду (м/с)"
+    },
+    {
+      "name": "sunrise_sunset_hours_future",
+      "value": "через %1$dч"
+    },
+    {
+      "name": "sunrise_sunset_hours_past",
+      "value": "%1$dч назад"
+    },
+    {
+      "name": "sunrise_sunset_minutes_future",
+      "value": "через %1$dмин"
+    },
+    {
+      "name": "sunrise_sunset_minutes_past",
+      "value": "%1$dмин назад"
+    },
+    {
+      "name": "sunrise_sunset_time_default",
+      "value": "06:00"
+    },
+    {
+      "name": "temperature_name_celsius",
+      "value": "Градусы Цельсия (°C)"
+    },
+    {
+      "name": "temperature_name_fahrenheit",
+      "value": "Градусы Фаренгейта (°F)"
+    },
+    {
+      "name": "text_now",
+      "value": "Сейчас"
+    },
+    {
+      "name": "thunderstorm",
+      "value": "Гроза"
+    },
+    {
+      "name": "thunderstorm_hail",
+      "value": "Гроза с градом"
+    },
+    {
+      "name": "title_air_pressure_settings",
+      "value": "Давление воздуха"
+    },
+    {
+      "name": "title_chance_precipitation",
+      "value": "Вероятность осадков"
+    },
+    {
+      "name": "title_day_forecast",
+      "value": "Дневной прогноз"
+    },
+    {
+      "name": "title_hourly_forecast",
+      "value": "Почасовой прогноз"
+    },
+    {
+      "name": "title_language_category",
+      "value": "Язык"
+    },
+    {
+      "name": "title_language_settings",
+      "value": "Выбрать язык"
+    },
+    {
+      "name": "title_pressure",
+      "value": "Давление"
+    },
+    {
+      "name": "title_rain_chance",
+      "value": "Шанс дождя"
+    },
+    {
+      "name": "title_settings",
+      "value": "Настройки"
+    },
+    {
+      "name": "title_sunrise",
+      "value": "Восход"
+    },
+    {
+      "name": "title_sunset",
+      "value": "Закат"
+    },
+    {
+      "name": "title_temp_settings",
+      "value": "Температура"
+    },
+    {
+      "name": "title_units_category",
+      "value": "Единицы"
+    },
+    {
+      "name": "title_uv_index",
+      "value": "УФ индекс"
+    },
+    {
+      "name": "title_wind_settings",
+      "value": "Ветер"
+    },
+    {
+      "name": "title_wind_speed",
+      "value": "Скорость ветра"
+    },
+    {
+      "name": "provider_absence_notification",
+      "value": "Разрешите службе определения местоположения получать актуальные\n        данные о погоде."
+    },
+    {
+      "name": "weather_type_default",
+      "value": "Облачно"
+    }
+  ]
+}

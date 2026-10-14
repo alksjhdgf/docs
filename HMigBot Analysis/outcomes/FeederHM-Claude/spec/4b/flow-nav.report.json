@@ -1,0 +1,480 @@
+{
+  "plan": "output/FeederHM/spec/4b/flow-nav.json",
+  "at": "2026-10-12T17:05:19.314Z",
+  "bundle": "com.nononsenseapps.feeder",
+  "name": "flow-nav",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3671
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 712
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3037
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"Feeder News, 15\" @630,595",
+      "changed": true,
+      "ms": 3041
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 650
+    },
+    {
+      "i": 5,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 662
+    },
+    {
+      "i": 6,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"Sep 20, 2026\" @1102,2308",
+      "occludedBy": "Stack [0,360][1320,2856]",
+      "changed": true,
+      "ms": 3030
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =readerColumn",
+      "ms": 693
+    },
+    {
+      "i": 8,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 679
+    },
+    {
+      "i": 9,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 776
+    },
+    {
+      "i": 10,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Sep 20, 2026",
+      "ms": 677
+    },
+    {
+      "i": 11,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @98,248",
+      "changed": true,
+      "ms": 3009
+    },
+    {
+      "i": 12,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 675
+    },
+    {
+      "i": 13,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Row \"All feeds, 14\" @630,228",
+      "changed": true,
+      "ms": 3035
+    },
+    {
+      "i": 14,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =All feeds",
+      "ms": 680
+    },
+    {
+      "i": 15,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Button \"\" @1222,248（点后页面无变化）",
+      "changed": false,
+      "ms": 3048
+    },
+    {
+      "i": 16,
+      "op": "wait",
+      "ok": false,
+      "detail": "等待 =Settings 超时（最后 120 节点）",
+      "kind": "expect_missing",
+      "page": {
+        "texts": [
+          "All feeds",
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+          "Feeder News",
+          "Oct 10, 2026",
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+          "Sep 20, 2026",
+          "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+          "01, :, 05",
+          "01",
+          ":",
+          "05",
+          "100"
+        ],
+        "ids": [
+          "session21",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ethernet",
+          "StatusBarIconItemEthernetComponent_Image_icon",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellular",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView",
+          "LiveMetaBallBaseVm"
+        ],
+        "clickable": [
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+          "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+          "#StatusBarBridgeView",
+          "#LiveMetaBallBaseVm"
+        ],
+        "geometry": {
+          "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026": {
+            "center": [
+              0.5,
+              0.3
+            ],
+            "bounds": "[56,360][1264,1334]"
+          },
+          "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026": {
+            "center": [
+              0.5,
+              0.66
+            ],
+            "bounds": "[56,1390][1264,2364]"
+          },
+          "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026": {
+            "center": [
+              0.5,
+              0.92
+            ],
+            "bounds": "[56,2419][1264,2856]"
+          },
+          "#session21": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[49,55][1271,136]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1320,136]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[49,55][1320,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.09,
+              0.03
+            ],
+            "bounds": "[49,55][188,136]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[49,66][111,128]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,55][1271,136]"
+          },
+          "#StatusBarIconWrapper_status_bar_ethernet": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[995,55][1079,136]"
+          },
+          "#StatusBarIconItemEthernetComponent_Image_icon": {
+            "center": [
+              0.79,
+              0.03
+            ],
+            "bounds": "[1002,69][1079,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1079,55][1166,136]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellular": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[1086,69][1166,125]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1166,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,55][1271,136]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.93,
+              0.03
+            ],
+            "bounds": "[1173,69][1271,125]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[1182,75][1252,120]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[520,48][800,136]"
+          },
+          "#LiveMetaBallBaseVm": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[380,19][940,136]"
+          }
+        }
+      },
+      "ms": 4860,
+      "shot": "output/FeederHM/spec/screenshots/fail-flow-nav-step-16.png"
+    },
+    {
+      "i": 17,
+      "op": "tap",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 18,
+      "op": "wait",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 19,
+      "op": "back",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 20,
+      "op": "tap",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 21,
+      "op": "expect",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    },
+    {
+      "i": 22,
+      "op": "alive",
+      "ok": false,
+      "detail": "skipped（前步失败）",
+      "skipped": true
+    }
+  ],
+  "ok": false,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "All feeds",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac, Feeder News, Oct 10, 2026",
+      "2.24.0 released\n🚀 Features \n* Added per-feed article filtering rules (#1217) by @antoncarrot in #1217\n🐛 Bug Fixes & Minor Changes \n* Format text in monospace inside pre-blocks, not just code-blocks (#1226) by @spac",
+      "Feeder News",
+      "Oct 10, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla, Feeder News, Sep 20, 2026",
+      "2.23.2 released\n🌐 Translations \n* Updated Hungarian translation using Weblate by @summoner001 in commit\n* Updated Ukrainian translation using Weblate by @G-H-User in commit\n* Updated Japanese translation using Webla",
+      "Sep 20, 2026",
+      "2.23.1 released\n🐛 Bug Fixes & Minor Changes \n* Moved Bergamot runtime to a verified opt-in download (#1213) by @JaredTweed in #1213, Feeder News, Sep 11, 2026",
+      "01, :, 04",
+      "01",
+      ":",
+      "04",
+      "100",
+      "All feeds, 15",
+      "15",
+      "Saved articles",
+      "Feeder News, 15",
+      "2.23.2 released",
+      "by ⁨Jonas⁩, Sunday, September 20, 2026 at 10:37 PM",
+      "0:41 minutes",
+      "🌐 Translations",
+      "•",
+      "Updated Hungarian translation using Weblate by @summoner001 in commit",
+      "Updated Ukrainian translation using Weblate by @G-H-User in commit",
+      "Updated Japanese translation using Weblate in commit",
+      "Updated Tamil translation using Weblate by @TamilNeram in commit",
+      "Updated Czech translation using Weblate in commit",
+      "01, :, 05",
+      "05",
+      "All feeds, 14",
+      "14",
+      "Feeder News, 14"
+    ],
+    "ids": [
+      "session21",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ethernet",
+      "StatusBarIconItemEthernetComponent_Image_icon",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "LiveMetaBallBaseVm",
+      "feederNavDrawerList",
+      "readerColumn"
+    ]
+  },
+  "tapsNoChange": 1,
+  "failStreak": 1
+}

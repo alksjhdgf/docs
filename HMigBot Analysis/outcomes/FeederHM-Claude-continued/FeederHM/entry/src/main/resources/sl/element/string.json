@@ -1,0 +1,1204 @@
+{
+  "string": [
+    {
+      "name": "theme_e_ink",
+      "value": "E-papir"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Odpri navigacijski predal"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Zapri navigacijski predal"
+    },
+    {
+      "name": "action_settings",
+      "value": "Nastavitve"
+    },
+    {
+      "name": "add_feed",
+      "value": "Dodaj vir"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Naroči se na vir"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Oznaka"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL vira"
+    },
+    {
+      "name": "title",
+      "value": "Naslov"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Obvesti za nove članke"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Samodejno zaznaj jezik članka"
+    },
+    {
+      "name": "search_verb",
+      "value": "Išči"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Prekliči iskanje"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Odstrani napravo s sinhronizacijske verige"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Največ člankov na vir"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Označi zgornje kot prebrano"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Seznam odkritih virov"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s neprebranih člankov"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Pokazatelj za prebrano"
+    },
+    {
+      "name": "share",
+      "value": "Deli"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Izvozi shranjene članke"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Ogled zapisnika razhroščevanja"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Vira ni bilo mogoče najti. Morda poskusi s HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Ničesar za prikazati!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Nastavitve"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Ročno"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Vsi viri"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Vsakih 15 minut"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Vsakih 30 minut"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Vsako uro"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Vsake 3 ure"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Vsakih 12 ur"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Vsak dan"
+    },
+    {
+      "name": "syncing",
+      "value": "Sinhroniziranje"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Samo na Wi-Fiju"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Prikaži predogledne sličice"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Dostopno le na Android %1$s ali novejšem"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Lahko privede do porabe mobilnih podatkov."
+    },
+    {
+      "name": "image_loading",
+      "value": "Slika se nalaga"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Le pri polnjenju"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Preveri za nove članke…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Ob zagonu aplikacije"
+    },
+    {
+      "name": "block_list",
+      "value": "Blokiraj seznam"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Uporabi privzeto"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Ni bilo mogoče naložiti povezave"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dinamične barve"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Preferiraj temno temo"
+    },
+    {
+      "name": "sort",
+      "value": "Sortiraj po"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Prednaloži zavihek"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Ni bilo mogoče razbrati %1$s"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Prižgano"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Članek se nalaga…"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s neprebranih člankov"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Stil člankov"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Ni bilo mogoče uvoziti OPML datoteke"
+    },
+    {
+      "name": "open_menu",
+      "value": "Odpri meni"
+    },
+    {
+      "name": "remove_device",
+      "value": "Odstrani napravo"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder sinhronizacijska koda za napravo"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Ali pa odprite povezavo na svoji napravi."
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Od kjerkoli"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Podrsaj, da označiš kot prebrano"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Shranjeni članki"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Obvestila lahko omogočite šele, ko jim date dovoljenje v nastavitvah."
+    },
+    {
+      "name": "saved_article",
+      "value": "Shranjen članek"
+    },
+    {
+      "name": "save_article",
+      "value": "Shrani članek"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Prenehaj shranjevati članek"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Ni virov"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s virov"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Odprtje članka ga označi kot prebranega"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s vir"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s virov"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s vira"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s virov"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s virov"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Uvozi %1$s s %2$s?"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s oznaka"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s oznaki"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s oznak"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s oznak"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s oznak"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Povezava ni HTML"
+    },
+    {
+      "name": "max_lines",
+      "value": "Največ vrstic"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Nedavno prebrano"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Prebrano"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Shranjeno"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Vseeno dodaj"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Odpri brskalnik v ločenem oknu"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s besed"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s besed"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minuta"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minuti"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "save",
+      "value": "Shrani"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Odprli drug vir?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Vnesite naslov vira"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Označi kot prebrano"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Označi kot neprebrano"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Označi vse kot prebrano"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Pokaži vse"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Pokaži neprebrano"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Novi članki so na voljo"
+    },
+    {
+      "name": "view",
+      "value": "Ogled"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Ustavi sporočila"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Prebrano/neprebrano"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Odpri URL v brskalniku"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Odpri v brskalniku"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Odpri priložen medij"
+    },
+    {
+      "name": "read_article",
+      "value": "Preberi naglas"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Prikaži/skrij razširitev oznak"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Prikaz vseh člankov"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s neprebrana članka"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super kompaktno"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generiraj posebej unikatne ID-je"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Ni veljaven URL"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Ni bilo mogoče izvoziti shranjenih člankov"
+    },
+    {
+      "name": "remove",
+      "value": "Odstrani"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s oznak"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Ni bilo mogoče razbrati RSS vira"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Ni bilo mogoče razbrati celega članka"
+    },
+    {
+      "name": "no_url",
+      "value": "Brez URL naslova"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Prikaži približen čas branja"
+    },
+    {
+      "name": "system_default",
+      "value": "Privzeto za sistem"
+    },
+    {
+      "name": "weight",
+      "value": "Utež"
+    },
+    {
+      "name": "italic",
+      "value": "Ležeče"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Ni bilo mogoče dodati fonta"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Ni bilo mogoče odstraniti fonta"
+    },
+    {
+      "name": "show_fab",
+      "value": "Prikaži plavajoč \"Označi vse kot prebrano\" gumb"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Posodobljeni viri"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Vsebuj mobilne vroče točke"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Neprebrani viri"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Obvestila so prikazana le za neprebrane članke nastavljenih virov"
+    },
+    {
+      "name": "sync_status",
+      "value": "Stanje sinhronizacije"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Bralnik člankov"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Spletni pogled"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Avtomatsko"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Bralnik"
+    },
+    {
+      "name": "theme_day",
+      "value": "Dan"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Izklopi"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Zapri oznako"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Odpri oznako"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Naloži celoten članek"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Ni bilo mogoče naložiti pretvorbe v govor"
+    },
+    {
+      "name": "go_back",
+      "value": "Pojdi nazaj"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Pojdi na %1$s"
+    },
+    {
+      "name": "already_read",
+      "value": "Že prebrano"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sinhroniziraj vire"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Karta"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Dodaj novo napravo"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Ste prepričani, da bi radi odstranili napravo %1$s?"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Pridruži se sinhronizacijski verigi"
+    },
+    {
+      "name": "disabled",
+      "value": "Onemogočeno"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Ni bilo mogoče najti čitalnika črtnih kod"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Ste prepričani, da bi radi zapustili sinhronizacijsko verigo?"
+    },
+    {
+      "name": "article_image",
+      "value": "Slika članka"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Vsakih 6 ur"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Prebrali ste vse članke tega vira. Bi radi…"
+    },
+    {
+      "name": "no_tag",
+      "value": "Brez oznake"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Uredi vir"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Izbriši vir"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Odpri %1$s"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Da odprete ta naslov, morate prej nekaj namestiti"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sinhroniziranje"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Zaznaj jezik"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Skrij članke z naslovi, ki se ujemajo s temi filtri. Primeri filtrov:"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Dodali več virov?"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Privzeto odpiraj z"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Črna"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompaktna karta"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Pošlji poročilo o napaki"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Odpri povezavo v spletnem pogledu"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Odprijal povezave z"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Temna"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Najstarejši najprej"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "S sinhronizacijo naprav je mogoče sinhronizirati seznam virov ter brati članke med večimi napravami."
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Privzeto naloži celotne članke"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Ni bilo mogoče izvoziti OPML datoteke"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Ni bilo mogoče naložiti celotnega članka"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Ni bilo mogoče odpreti članka"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sinhroniziraj, da naložite članek"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Le od konca"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Omogoča aplikaciji brati vire in članke"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Novo na osnovi tega"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Označi spodnje kot prebrano"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Odpri v spletnem pogledu"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompaktno"
+    },
+    {
+      "name": "theme_night",
+      "value": "Noč"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Privzeti brskalnik"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Spletni zavihek"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Najnovejši najprej"
+    },
+    {
+      "name": "open_feed",
+      "value": "Odpri vir"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Ni bilo mogoče odpreti aplikacije za elektronsko pošto"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s neprebranih člankov"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Na svoji napravi pojdite pod sinhronizacijo naprav ter skenirajte sinhronizacijsko kodo."
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimizacija baterije"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s neprebran članek"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s neprebranih člankov"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Skenirajte kodo iste sinhronizacijske verige kot na drugi napravi, ali pa ustvarite novo sinhronizacijsko verigo."
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Strani ni bilo mogoče razbrati"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s besed"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Tapni za predvajanje videoposnetka"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Prikaži le naslov"
+    },
+    {
+      "name": "http_error",
+      "value": "Napaka HTTP"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Prenos neuspešen"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Vsebina ni HTML"
+    },
+    {
+      "name": "bold",
+      "value": "Krepko"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s beseda"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Viru manjka povezava do članka"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s besed"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Nekaj je šlo narobe"
+    },
+    {
+      "name": "api_key",
+      "value": "API ključ"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s besedi"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minut"
+    },
+    {
+      "name": "add_font",
+      "value": "Dodaj font…"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Seznam člankov"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistem"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Omogoči le vire s slabimi ID-ji"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder dostop samo za branje"
+    },
+    {
+      "name": "font",
+      "value": "Font"
+    },
+    {
+      "name": "text",
+      "value": "Besedilo"
+    },
+    {
+      "name": "text_preview",
+      "value": "Predogled besedila"
+    },
+    {
+      "name": "text_settings",
+      "value": "Nastavitve besedila"
+    },
+    {
+      "name": "set_language",
+      "value": "Nastavi jezik"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Uvozi vire iz OPML datoteke"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Pretvorba besedila v govor"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Začasno prenehaj z branjem"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Nadaljuj z branjem"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Prenehaj z branjem"
+    },
+    {
+      "name": "add_item",
+      "value": "Dodaj"
+    },
+    {
+      "name": "sync",
+      "value": "Sinhroniziraj"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Izvozi vire v OPML datoteko"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Preskoči na naslednjega"
+    },
+    {
+      "name": "off",
+      "value": "Ugasnjeno"
+    },
+    {
+      "name": "on",
+      "value": "Prižgano"
+    },
+    {
+      "name": "show_message",
+      "value": "Prikaži sporočilo"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Neprebrano"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Prikaz le neprebranih člankov"
+    },
+    {
+      "name": "device_sync",
+      "value": "Sinhronizacija naprav"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR koda"
+    },
+    {
+      "name": "sync_code",
+      "value": "Sinhronizacijska koda"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Stran ne vsebuje virov"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Ni bilo mogoče razbrati JSON vira"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Odziv nima telesa (body)"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Vsebina nepodprtega formata"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Ko označiš vse kot prebrano, prikaži vire"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "To storitev financira skupnost. Če vam pride prav, prosimo, da razmislite o donaciji."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (ta naprava)"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Naprave na sinhronizacijski verigi"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skenirajte ali vnesite sinhronizacijsko kodo"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Zapusti sinhronizacijsko verigo"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Obravnavajte to povezavo kot geslo, saj je z njo mogoče brati vaše sinhronizirane podatke."
+    },
+    {
+      "name": "secret_key",
+      "value": "Skrivni ključ"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Ustvari novo sinhronizacijsko verigo"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Novo"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Ikona vira"
+    },
+    {
+      "name": "text_scale",
+      "value": "Velikost besedila"
+    },
+    {
+      "name": "close_menu",
+      "value": "Zapri meni"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Zahtevane vsebine ni mogoče naložiti"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Preskoči podvojene članke"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Članki s povezavami ali naslovi, ki so identični obstoječim, se preskočeni"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "V naslovu prikaži število neprebranih člankov"
+    },
+    {
+      "name": "summarize",
+      "value": "Povzemi"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AI integracija"
+    },
+    {
+      "name": "model_id",
+      "value": "ID modela"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Različica Azure API"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Tapni za predvajanje zvoka"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Ni bilo mogoče naložiti modelov."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Ni bilo mogoče najti modelov"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure deployment identifikacija"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Seznam razpoložljivih modelov"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Časovni iztek za AI zahteve"
+    },
+    {
+      "name": "time_out",
+      "value": "Časovni iztek (v sekundah)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Časovni iztek mora biti med 30 in 600 sekundami"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Povzemi ob odprtju"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Predlogi"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Podpira mnogo AI ponudnikov, a ne vseh"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Osveževanje"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "cancel",
+      "value": "Prekliči"
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Izbriši"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Prenešenega nimate nobenega modela za prevajanje. Prevajalnik bo samodejno prenesel potrebne modele."
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Izbriši vse prenešene modele"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Model %1$s do %2$s izbrisan"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Izbriši vseh %1$d prenešenih modelov za prevajanje (%2$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Izbriši vse prenesene modele"
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Izbriši model"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Prenešeni modeli za prevajanje"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Prevedi vse članke samodejno"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Prevedi predoglede člankov"
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Prikaži le prenešene jezike"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Izberi jezik"
+    },
+    {
+      "name": "download",
+      "value": "Prenesi"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

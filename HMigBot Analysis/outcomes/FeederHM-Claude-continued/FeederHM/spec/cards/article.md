@@ -1,0 +1,53 @@
+# article
+
+## 页面: Article
+- AR-A01 [ui] 顶部内容避让状态栏，不与状态栏重叠。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:284
+- AR-A02 [backend] 页面路由 `reader/{itemId}`（Long）；深链 `https://feederapp.nononsenseapps.com/article/{itemId}` 打开同一页面；缺 itemId 视为错误。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navigation/NavigationDestinations.kt:436
+- AR-A03 [backend] 进入 Article 页即把该文章标记为已读并已通知（read_time 仅在为空时写入当前时间，notified=1），并触发已读同步。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/NavigationDeepLinkViewModel.kt:24
+- AR-A04 [backend] 进入 Article 页把当前文章 id 存为 `pref_last_article_id`，并置 `pref_is_article_open`=true。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/NavigationDeepLinkViewModel.kt:28
+- AR-A05 [ui] 顶栏标题显示订阅源显示名（feedDisplayTitle），左侧返回箭头（cd `Go back`）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:295
+- AR-A06 [ui] 点击返回箭头或系统返回：有上一页则返回上一页，无后栈（如深链冷启）则进入 Feed 页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navigation/NavigationDestinations.kt:481
+- AR-A07 [ui] 顶栏操作按钮从左到右依次为：`Fetch full article`、`Open in Web view`、`Open menu`（溢出菜单）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:304
+- AR-A08 [ui] 溢出菜单项顺序：`Share`、[`Summarize`]、[翻译项]、`Mark as unread`、`Save article`/`Stop saving article`、`Read aloud`；方括号项按条件出现；点任一项先关闭菜单再执行动作。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:346
+- AR-A09 [ui] `Summarize` 菜单项仅在摘要设置可用（有效且非 DeepL、非本地翻译）且文章链接非空时出现。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:226
+- AR-A10 [ui] 翻译菜单项在"正在显示译文"或（翻译 API 可用[DeepL/本地]且首选翻译语言非空且链接非空且未检测为已是目标语言）时出现；文案显示译文时为 `Show original (<源语言>)`（源语言空时用 `original`），否则 `Translate article`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:228
+- AR-A11 [ui] 收藏菜单项文案：已收藏显示 `Stop saving article`，未收藏显示 `Save article`；点击后切换收藏状态，菜单文案随之更新。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:437
+- AR-A12 [backend] 收藏切换写 `feed_items.bookmarked`=!当前值，离开页面也会完成写入。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:455
+- AR-A13 [backend] `Mark as unread`：把该条 read_time 置空并把同步状态标为未同步；停留在当前页面不跳转。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/archmodel/Repository.kt:527
+- AR-A14 [ui] `Share`（仅文章 id 有效时）弹出系统分享面板，内容类型纯文本：文本为去追踪参数后的文章链接（无链接则无文本），标题为当前显示的文章标题（显示译文时为译文标题）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:159
+- AR-A15 [backend] 分享链接去追踪：删除名称以 `utm_` 或 `traffic_source` 开头的查询参数，其余参数原样保留；全删则去掉查询串；无此类参数或 URI 无法解析时原样返回。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/util/UrlCleaner.kt:13
+- AR-A16 [on_device] 点击 `Share` 后真实弹出系统分享面板并可分享到其他应用。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:176
+- AR-A17 [ui] 顶栏 `Open in Web view`：文章链接非空时始终用应用内浏览页（CustomTab 等价）打开该链接，不受"打开链接方式"设置影响；链接为空时无反应。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:182
+- AR-A18 [ui] 打开外部链接/应用失败（无可处理应用）时 toast `Install something to open this link with first`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/util/ActivityLauncher.kt:46
+- AR-A19 [ui] `Fetch full article` 切换全文/摘要：切换瞬间正文显示 `Fetching full article…`，加载完成后显示另一模式内容；初始模式取该订阅源的"默认全文"设置。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:321
+- AR-A20 [backend] 全文模式下本地无全文缓存时自动抓取全文；抓取错误映射：无正文→`Found nothing to fetch`，无链接→`Feed is missing link to article`，非 HTML/不支持类型→`Link is not an HTML document`，过大→`Article is too large. Open in browser instead?`，其他→`Could not fetch full article`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:384
+- AR-A21 [ui] 全文过大失败时正文显示 `Article is too large. Open in browser instead?` 及按钮 `Open in Web view`，点击按 AR-A17 打开文章链接。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:769
+- AR-A22 [backend] 摘要模式读取本地已存正文 blob 线性化显示；读取失败显示 `Could not fetch full article`；blob 不存在时触发该源强制网络同步并显示含 snippet 的兜底说明文本。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:344
+- AR-A23 [ui] 正文为空态前（文章 id 未就绪）不渲染正文区；正文成功时按 LinearArticle 渲染（见 HU 区）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:717
+- AR-A24 [ui] 正文头部依次显示：文章标题（非空白才显示）、订阅源名（链接样式）、作者/日期行、阅读时长行。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ReaderView.kt:162
+- AR-A25 [ui] 点击正文头部订阅源名进入该订阅源的 Feed 页（按 feedId 过滤）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/navigation/NavigationDestinations.kt:486
+- AR-A26 [ui] 作者/日期行：有发布日期无作者时只显示日期；两者都有显示 `<作者>, <日期>`；无发布日期时整行不显示（即使有作者）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:676
+- AR-A27 [ui] 日期按当前语言区域的完整日期+时间格式（含星期、月份全称、时:分，按系统 12/24 小时制）以系统时区显示。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:781
+- AR-A28 [backend] 阅读时长秒数 = round(字数×60/220)；字数取当前模式（全文用 wordCountFull，否则 wordCount）；为 0 时不显示该行。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ReaderView.kt:401
+- AR-A29 [ui] 阅读时长文本为 `<分>:<两位秒> minutes`（复数按整分钟数选 `n_minutes`，1 分钟为 `minute`），前置计时图标。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ReaderView.kt:225
+- AR-A30 [ui] 有非图片附件时头部下方显示链接 `Open enclosed media`（附件名空）或 `Open <附件名>`；附件为 `image/*` 时不显示该链接。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ReaderView.kt:254
+- AR-A31 [backend] 点击附件链接：开启应用内音频播放器且附件判定为音频时用内置播客播放，否则在外部浏览器打开（不看"打开链接方式"设置）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:663
+- AR-A32 [backend] 音频链接判定：空白或 `#` 开头为否；等于附件链接且附件类型 `audio/*` 为是；否则末段路径扩展名（小写）∈ aac/flac/m4a/m4b/mp3/mp4/oga/ogg/opus/wav/weba 为是。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/PodcastPlayerLinks.kt:21
+- AR-A33 [ui] 头图仅在：正文为 CONTENT 状态、图片非取自正文、图片 URL 未在正文中出现、且图片宽度未知或 ≥640 时显示；加载中/失败显示占位/错误图标。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ReaderView.kt:395
+- AR-A34 [ui] 正文链接点击：页内锚点（#id 命中元素）平滑滚动到该元素；音频链接（且开启内置播放器）用内置播客播放；其余按设置 `pref_open_links_with`（默认应用内浏览页）用应用内浏览页或默认浏览器打开。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:722
+- AR-A35 [backend] 外部链接打开：空白或 `#` 开头忽略；`mailto:` 链接交给邮件客户端。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/util/ActivityLauncher.kt:60
+- AR-A36 [ui] 阅读区文本可长按选择并复制。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ReaderView.kt:110
+- AR-A37 [ui] 摘要：点击 `Summarize` 后正文头部下方出现摘要卡，加载中显示进度条，完成显示 Markdown 渲染的摘要，失败直接显示错误文本。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:712
+- AR-A38 [ui] 翻译：点 `Translate article` 后正文顶部显示加载进度（或模型下载进度卡），成功后正文与文章标题替换为译文，菜单项变为 `Show original (<源语言>)`；再点切回原文。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:607
+- AR-A39 [ui] 翻译时首选翻译语言为空则 toast `Set a preferred translation language in AI settings` 并保持原文；其它翻译异常 toast 异常消息并回到原文。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:620
+- AR-A40 [ui] 需要系统翻译设置时弹对话框：正文为错误消息，按钮 `Open settings`（打开系统设置并关闭对话框）与 `Cancel`。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:617
+- AR-A41 [ui] 需要下载离线翻译引擎时弹对话框：标题 `Download offline translation engine?`、4.9 MB 警告正文、按钮 `Download`/`Cancel`；下载失败 toast `Could not download the offline translation engine.`，成功后继续翻译。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:595
+- AR-A42 [backend] 显示译文期间切换全文/摘要会对新模式重新翻译；译文仅在其全文标志与当前模式一致时显示。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:325
+- AR-A43 [backend] 打开文章时（仅一次）：订阅源开启"打开时摘要"且摘要可用则自动摘要；开启"默认翻译文章"且可翻译（本地翻译需已有缓存或无需下载引擎）则自动翻译。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:246
+- AR-A44 [ui] `Read aloud` 开始朗读（先停止播客；同一文章暂停中则恢复），底部出现朗读栏；朗读或播客活动时显示底栏，播客优先。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:482
+- AR-A45 [backend] 朗读内容来源为当前文章（pref_last_article_id）：显示译文时读译文，否则按当前全文/摘要模式读对应 blob；文件缺失时静默不播。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleViewModel.kt:471
+- AR-A46 [ui] 翻页模式开启时，点击阅读区左侧 20% 向上滚动 0.9 屏、右侧 20% 向下滚动 0.9 屏（不越界），中间 60% 正常交互；开启"动画翻页"时平滑滚动，否则瞬间跳转。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:531
+- AR-A47 [on_device] 翻页模式且文章打开时按音量上/下键使正文向上/下滚动 0.9 屏且不调节音量。结果契约：音量键翻页；鸿蒙实现：页面 onKeyEvent 尝试拦截音量键；差异：可能无法拦截，降级为仅点击区翻页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/MainActivity.kt:55
+- AR-A48 [backend] 阅读滚动位置（500ms 防抖）与菜单开闭状态保存在页面状态中，页面重建后恢复。结果契约：重建后回到原阅读位置；鸿蒙实现：页面内状态/AppStorageV2；差异：无 SavedStateHandle 进程重建语义。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:122
+- AR-A49 [on_device] 点击 `Open in Web view` 或正文外链后真实打开浏览页/外部浏览器显示该网页。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/util/ActivityLauncher.kt:98
+- AR-A50 [ui] Article 页没有上一篇/下一篇导航入口（不得新增）。锚点：input/Feeder/app/src/main/java/com/nononsenseapps/feeder/ui/compose/feedarticle/ArticleScreen.kt:304

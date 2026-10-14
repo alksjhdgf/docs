@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "by_author_on_date",
+      "value": "by %1$s, %2$s"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

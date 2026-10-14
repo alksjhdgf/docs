@@ -1,0 +1,1132 @@
+{
+  "string": [
+    {
+      "name": "theme_e_ink",
+      "value": "E-papier"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Otvoriť navigačnú lištu"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Zavrieť navigačný panel"
+    },
+    {
+      "name": "action_settings",
+      "value": "Nastavenia"
+    },
+    {
+      "name": "add_feed",
+      "value": "Pridať kanál"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Odoberať kanál"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Štítok"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL kanálu"
+    },
+    {
+      "name": "title",
+      "value": "Názov"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Uložiť"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Nič na prečítanie tu nieje. Chceli by ste…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Otvoriť iný kanál?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Pridať viac kanálov?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Vložte adresu kanálu"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Označiť ako prečítané"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Označiť ako neprečítané"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Označiť všetky ako prečítané"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Pozmeniť kanál"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Odstrániť kanál"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Zobraziť všetky položky"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Zobraziť neprečítané položky"
+    },
+    {
+      "name": "no_tag",
+      "value": "Žiaden štítok"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Upozorniť na nové položky"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Pozastaviť upozornenia"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Prepnúť stav prečítania"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Otvoriť odkaz v prehliadači"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Otvoriť v prehliadači"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Otvoriť priložené média"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Otvoriť%1$s"
+    },
+    {
+      "name": "read_article",
+      "value": "Čitať nahlas"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Prevod textu na reč"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pozastav čítanie"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Pokračovať v čítaní"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Pozastaviť čítanie"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Preskočiť na nasledujúce"
+    },
+    {
+      "name": "set_language",
+      "value": "Nastaviť jazyk"
+    },
+    {
+      "name": "sync",
+      "value": "Synchronizovať"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Exportovať kanály do OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importovať kanály do OPML"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Exportovať uložené články"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Zobraziť diagnostický záznam"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Dostupné nové položky"
+    },
+    {
+      "name": "view",
+      "value": "Prezrieť"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nové založené na tomto"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikátor pre označ ako prečítané"
+    },
+    {
+      "name": "share",
+      "value": "Zdielať"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Nepodarilo sa nájsť daný kanál. Možno ešte skúste použiť HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Nič na zobrazenie!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Nastavenia"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Všetky kanály"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manuálne"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Každých 15 minút"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Každých 30 minút"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Každú hodinu"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Každé 3 hodiny"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Každých 6 hodín"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Každých 12 hodín"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Každý deň"
+    },
+    {
+      "name": "synchronization",
+      "value": "Synchronizujem"
+    },
+    {
+      "name": "syncing",
+      "value": "Synchronizujem"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Len na Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Ukázať náhľady"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Zistiť jazyk"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Dostupné len na Androide %1$s a vyššie"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Automaticky zistí jazyk článku"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Môže vyústiť do poplatkov za mobilné dáta."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Len pri nabíjaní"
+    },
+    {
+      "name": "image_loading",
+      "value": "Nahrávanie obrázku"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Nainštalujte najprv niečo, čím sa otvorí tento link"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Hľadať nové články…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Pri spustení aplikácie"
+    },
+    {
+      "name": "block_list",
+      "value": "Zoznam blokovaných"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Schová články s nadpismi obsahujúcimi akýkoľvek z týchto filtrov. Príklady filtrov:"
+    },
+    {
+      "name": "add_item",
+      "value": "Pridať položku"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Zahrnúť mobilné hotspoty"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Aktualizované kanály"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Neprečítané kanály"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Notifikácie sú zobrazené len pre neprečítané položky v nastavených kanáloch"
+    },
+    {
+      "name": "sync_status",
+      "value": "Stav synchronizácie"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Čítačka"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Webový pohľad"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Preddefinovaný prehliadač"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Použiť prednastavené"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Otvoriť položky prednastavene s"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Otvoriť link s"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Čítačka"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Zoznam článkov"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Otvoriť link vo webovom pohľade"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Otvoriť vo webovom pohľade"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maximum položiek na kanál"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Nepodarilo sa načítať URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "Systém"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automaticky"
+    },
+    {
+      "name": "theme_day",
+      "value": "Deň"
+    },
+    {
+      "name": "theme_night",
+      "value": "Noc"
+    },
+    {
+      "name": "theme",
+      "value": "Téma"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynamické farby"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Preferovaná tmavá téma"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Čierna"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tmavá"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Najprv najnovšie"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Najprv najstaršie"
+    },
+    {
+      "name": "sort",
+      "value": "Triediť podľa"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Poslať správu o chybe"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Nepodarilo sa otvoriť e-mailového klienta"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Dotknúť sa pre prehratie videa"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Otvoriť kanál"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Označiť vyššie uvedené články ako prečíťané"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Označiť nižšie položky ako prečítané"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Zoznam objavených kanálov"
+    },
+    {
+      "name": "show_fab",
+      "value": "Zobraziť plávajúce tlačidlo akcií"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Vlastná karta"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Prepnúť rozšírenie štítku"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Otvoriť štítok"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Zatvorený štítok"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimalizácia batérie"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Vypnuté"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Zapnuté"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Prednahrať vlastnú kartu"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Nepodarilo sa analyzovať %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Načíťať celý článok"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Priniesť celé články prednastavene"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Nepodarilo sa priniesť celý článok"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Nepodarilo sa otvoriť článok"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synchronizovať pre načítanie článku"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Prinášam celý článok…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Nepodarilo sa nahrať prevod textu na reč"
+    },
+    {
+      "name": "go_back",
+      "value": "Naspäť"
+    },
+    {
+      "name": "open_menu",
+      "value": "Otvoriť menu"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Choď na %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Neprečítané"
+    },
+    {
+      "name": "already_read",
+      "value": "Už prečítané"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Zobrazujem len neprečítané články"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Zobrazujem všetky články"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Synchronizovať kanály"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s neprečítané články"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s neprečítaný článok"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s neprečítané články"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s neprečítané články"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s neprečítané články"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s neprečítané články"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Štýl článku"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Karta"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompaktná karta"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompaktné"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super kompaktné"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Vygeneruj extra unikátne IDs"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Povoliť len pre kanály so zlými IDs"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Neplatná URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Nepodarilo sa importovať OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Nepodarilo sa exportovať OPML"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Nepodarilo sa exportovať uložené články"
+    },
+    {
+      "name": "device_sync",
+      "value": "Synchronizácia zariadenia"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Pridať nové zariadenie"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Túto službu platí komunita. Ak ju považujete za užitočnú, prosím zvážte príspevok."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (toto zariadenie)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Odpojiť zariadenie zo synchronizačnej reťaze"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Zariadenia v synchronizačnej reťazi"
+    },
+    {
+      "name": "remove",
+      "value": "Odstrániť"
+    },
+    {
+      "name": "remove_device",
+      "value": "Odstrániť zariadenie"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Ste si istý, že chcete odstrániť zariadenie %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Na Vašom zariadení otvorte ponuku synchronizácie a stlačte \"skenovať synchronizačný kód\"."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alebo otvorte odkaz na Vašom zariadení."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Chovajte sa k tomu ako k heslu. Každý kto má tento odkaz môže čítať Vaše synchronizované dáta."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR kód"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Synchornizačný kód zariadenia pre Feeder"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Opustiť synchronizačnú reťaz"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Synchronizácia zariadenia Vám umožňuje synchronizovať odbery kanálov a čítať články medzi Vašimi rôznymi zariadeniami."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Jednoducho naskenujte kód z Vašej synchronizačnej reťaze, ktorú Ste vytvorili na inom zariadení, alebo začnite novú synchronizačnú reťaz."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skenujte alebo napíšte snychronizačný kód"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Začať novú synchronizačnú reťaz"
+    },
+    {
+      "name": "sync_code",
+      "value": "Synchronizačný kód"
+    },
+    {
+      "name": "secret_key",
+      "value": "Tajný kľúč"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Pripojiť sa k synchronizačnej reťazi"
+    },
+    {
+      "name": "disabled",
+      "value": "Zakázané"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Len od konca"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Okiaľkoľvek"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Označte ako prečíťané potiahnutím prstom do strany"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Ste si istý, že chcete opustiť synchronizačnú reťaz?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Nepodarilo sa nájsť čítačku čiarových kódov"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nový"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Umožňuje aplikácii čítať kanály a články"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Prístup k Feederu len pre čítanie"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Pred povolením oznámení je nutné udeliť oprávnenie."
+    },
+    {
+      "name": "article_image",
+      "value": "Obrázok článku"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Ikona kanálu"
+    },
+    {
+      "name": "text_scale",
+      "value": "Mierka textu"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Uložené články"
+    },
+    {
+      "name": "saved_article",
+      "value": "Uložený článok"
+    },
+    {
+      "name": "save_article",
+      "value": "Uložiť článok"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Zastaviť ukladanie článku"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Označiť ako prečítané pri posúvaní"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Žiadne kanály"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s kanálov"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s kanál"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s kanály"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s kanálov"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s kanálov"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s kanálov"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importovať %1$s s %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s štítkov"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s štítok"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s štítky"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s štítkov"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s štítkov"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s štítkov"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Nenašlo sa nič, čo by sa dalo stiahnuť"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Kanálu chýba odkaz na článok"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Odkaz nie je HTML dokument"
+    },
+    {
+      "name": "max_lines",
+      "value": "Maximálny počet riadkov"
+    },
+    {
+      "name": "time_out",
+      "value": "Časový limit (sekundy)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Časový limit musí byť medzi 30 a 600 sekundami"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Časový limit pre OpenAI požiadavky"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filter"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Nedávno prečítané"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Prečítané"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Uložené"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Zobraziť len nadpis"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Nepodarilo sa stiahnuť"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Nepodarilo sa spracovať stránku"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Na stránke nie sú žiadne kanály"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Obsah nie je HTML"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Nepodarilo sa spracovať RSS kanál"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP chyba"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Nepodarilo sa spracovať JSON kanál"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Žiadne telo v odpovedi"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Nepodporovaný typ obsahu"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Nepodarilo sa spracovať celý článok"
+    },
+    {
+      "name": "no_url",
+      "value": "Žiadna URL"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Pridať aj tak"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Otvoriť prehliadač na rozdelenej obrazovke"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Zobraziť odhadovaný čas čítania"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s slovo"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s slov"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minút"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minúta"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minúty"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minút"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minút"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minút"
+    },
+    {
+      "name": "close_menu",
+      "value": "Zatvoriť menu"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Preskočiť duplicitné články"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Články s odkazmi alebo nadpismi, ktoré su identické s existujúcimi článkami sú ignorované"
+    },
+    {
+      "name": "summarize",
+      "value": "Zhrnutie"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Zhrnúť pri otvorení"
+    },
+    {
+      "name": "openai_settings",
+      "value": "Integrácia OpenAI"
+    },
+    {
+      "name": "api_key",
+      "value": "API kľúč"
+    },
+    {
+      "name": "model_id",
+      "value": "Id modelu"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Verzia API Azure"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Dotykom prehráte zvuk"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Zobraziť počet neprečítaných článkov v nadpise"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Nemožno nahrať modely."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Neboli nájdené žiadne modely"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Id nasadenia Azure"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Zoznam dostupných modelov"
+    },
+    {
+      "name": "show_message",
+      "value": "Zobraziť správu"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Zobrazovať kanály potom, čo označíte všetky ako prečítané"
+    },
+    {
+      "name": "on",
+      "value": "Zapnúť"
+    },
+    {
+      "name": "off",
+      "value": "Vypnúť"
+    },
+    {
+      "name": "search_verb",
+      "value": "Vyhladať"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Zrušiť vyhladávanie"
+    },
+    {
+      "name": "text",
+      "value": "Text"
+    },
+    {
+      "name": "font",
+      "value": "Font"
+    },
+    {
+      "name": "text_preview",
+      "value": "Náhľad textu"
+    },
+    {
+      "name": "system_default",
+      "value": "Predvolené nastavenie systému"
+    },
+    {
+      "name": "weight",
+      "value": "Váha"
+    },
+    {
+      "name": "italic",
+      "value": "Kurzíva"
+    },
+    {
+      "name": "add_font",
+      "value": "Pridať font…"
+    },
+    {
+      "name": "bold",
+      "value": "Tučné"
+    },
+    {
+      "name": "text_settings",
+      "value": "Nastavenia textu"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Nepodarilo sa pridať font"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Nepodarilo sa zmazať font"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Niečo sa pokazilo"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

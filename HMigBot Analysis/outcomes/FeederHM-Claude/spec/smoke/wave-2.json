@@ -1,0 +1,45 @@
+{
+  "bundle": "com.nononsenseapps.feeder",
+  "hap": {
+    "file": "entry-default-signed.hap",
+    "size": 12523909,
+    "mtime": "2026-10-12T12:52:45.404Z"
+  },
+  "hooks": {
+    "passthrough": true,
+    "landingLog": true
+  },
+  "routes": [
+    {
+      "route": "(cold-start)",
+      "foreground": true,
+      "landed": "Feed",
+      "nodes": 79,
+      "windowNodes": 120,
+      "textCount": 10,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-home.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "Main",
+      "foreground": true,
+      "landed": "Feed",
+      "nodes": 79,
+      "windowNodes": 120,
+      "textCount": 10,
+      "missing": [],
+      "shot": "output/FeederHM/spec/smoke/smoke-Main.png",
+      "verdict": "forwarded",
+      "failing": true,
+      "forwarded": true,
+      "shown": [
+        "Main",
+        "Feed"
+      ]
+    }
+  ],
+  "crash": null,
+  "launcher": "Main"
+}

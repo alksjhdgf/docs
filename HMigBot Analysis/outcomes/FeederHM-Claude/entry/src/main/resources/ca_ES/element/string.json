@@ -1,0 +1,964 @@
+{
+  "string": [
+    {
+      "name": "preload_custom_tab",
+      "value": "Precarrega la pestanya personalitzada"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Activada"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Desactivada"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimització de la bateria"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Commuta l'expansió d'etiquetes"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Llista de canals descoberts"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Marca els inferiors com a llegits"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Marca els superiors com a llegits"
+    },
+    {
+      "name": "open_feed",
+      "value": "Obre el canal"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Toca per reproduir el vídeo"
+    },
+    {
+      "name": "no_email_client",
+      "value": "No s'ha pogut obrir el client de correu"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Envia un informe d'error"
+    },
+    {
+      "name": "sort",
+      "value": "Ordena per"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "El més antic primer"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "El més nou primer"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "theme_night",
+      "value": "Nit"
+    },
+    {
+      "name": "theme_day",
+      "value": "Dia"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automàtic"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistema"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "No s'ha pogut carregar l'URL"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Nombre màxim d'elements per canal"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Obre amb la vista web"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Obre l'enllaç amb la vista web"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lector"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Obre els enllaços amb"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Obre per defecte els elements amb"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Pestanya personalitzada"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Navegador per defecte"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Vista web"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lector"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Les notificacions només es mostren per elements no llegits en els canals configurats"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Canals no llegits"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Canals actualitzats"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Inclou els punts d'accés mòbils"
+    },
+    {
+      "name": "show_fab",
+      "value": "Mostra el botó flotant d'acció"
+    },
+    {
+      "name": "on_startup",
+      "value": "En iniciar l'aplicació"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Busca articles nous…"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Primer instal·la quelcom per obrir aquest enllaç"
+    },
+    {
+      "name": "image_loading",
+      "value": "Càrrega d'imatges"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Només quan s'estigui carregant"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Pot resultar en càrregues de dades mòbils."
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Mostra miniatures"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Només per Wi-Fi"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sincronitzant"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Cada dia"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Cada 12 hores"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Cada 6 hores"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Cada 3 hores"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Cada hora"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Cada 30 minuts"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Cada 15 minuts"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manualment"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Tots els canals"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Configuració"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Res a mostrar!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Aquest canal no s'ha pogut trobar. Prova d'utilitzar HTTPS?"
+    },
+    {
+      "name": "share",
+      "value": "Comparteix"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indicador per marcar com a llegit"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nou basat en aquest"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Veure el registre de depuració"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importa els canals des d'OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Exporta els canals a OPML"
+    },
+    {
+      "name": "sync",
+      "value": "Sincronitza"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Obre els mitjans adjunts"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Obre al navegador"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Obre l'enllaç al navegador"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Commuta l'estat de lectura"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Atura notificacions"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Notifica elements nous"
+    },
+    {
+      "name": "no_tag",
+      "value": "Cap etiqueta"
+    },
+    {
+      "name": "view",
+      "value": "Veure"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Elements nous disponibles"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Mostra els elements no llegits"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Mostra tots els elements"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Suprimeix el canal"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Edita el canal"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Marca tot com a llegit"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Marca com a no llegit"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Marca com a llegit"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Introdueix una adreça de canal"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Afegir més canals?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Obrir un altre canal?"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Res a llegir aquí. Voldries…"
+    },
+    {
+      "name": "save",
+      "value": "Desa"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "title",
+      "value": "Títol"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL del canal"
+    },
+    {
+      "name": "tag",
+      "value": "Etiqueta"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Subscriure's al canal"
+    },
+    {
+      "name": "add_feed",
+      "value": "Afegeix un canal"
+    },
+    {
+      "name": "action_settings",
+      "value": "Configuració"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Tanca el panell de navegació"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Obre el panell de navegació"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Obtenint l'article sencer…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "No s'ha pogut obtenir l'article sencer"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Obtén per defecte els articles sencers"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Obtén l'article sencer"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "No s'ha pogut analitzar: %1$s"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Detecta l'idioma"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Detecta automàticament l'idioma de l'article"
+    },
+    {
+      "name": "sync_status",
+      "value": "Estat de la sincronització"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Obre l'etiqueta"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Etiqueta tancada"
+    },
+    {
+      "name": "open_menu",
+      "value": "Obre el menú"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Vés a: %1$s"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Només visualitza els articles sense llegir"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sincronitza els canals"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generar identificadors únics addicionals"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternativament, obriu l'enllaç al seu dispositiu."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Escanegeu el codi de la cadena de sincronització d'un altre dispositiu o inicieu una nova cadena de sincronització."
+    },
+    {
+      "name": "disabled",
+      "value": "Deshabilitat"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Només des del final"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "S'ha de donar els permisos abans que les notificacions puguin ser habilitades."
+    },
+    {
+      "name": "block_list",
+      "value": "Llista de bloquejos"
+    },
+    {
+      "name": "add_item",
+      "value": "Afegeix un element"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Dispositius a la cadena de sincronització"
+    },
+    {
+      "name": "remove",
+      "value": "Elimina"
+    },
+    {
+      "name": "remove_device",
+      "value": "Elimina el dispositiu"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Esteu segurs que voleu esborrar el dispositiu %1$s?"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Abandona la cadena de sincronització"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "La sincronització de dispositius permet sincronitzar subscripcions de canals i llegir articles entre diversos dispositius."
+    },
+    {
+      "name": "syncing",
+      "value": "Sincronitzant"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Fosc"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "No s'ha pogut carregar el text per veu"
+    },
+    {
+      "name": "go_back",
+      "value": "Vés enrere"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Icona del Feeder"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Permet a l'aplicació llegir els canals i articles"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Obre %1$s"
+    },
+    {
+      "name": "read_article",
+      "value": "Llegeix en veu alta"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Pausa la lectura"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Continua la lectura"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Para la lectura"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s articles sense llegir"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Estil de l'article"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Targeta"
+    },
+    {
+      "name": "article_image",
+      "value": "Imatge de l'article"
+    },
+    {
+      "name": "qr_code",
+      "value": "Codi QR"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Tracteu això com una contrasenya. Qualsevol pot llegir les vostres dades sincronitzades si tenen l'enllaç."
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Llisqueu per marcar com a llegit"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "No s'ha pogut obrir l'article"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s articles sense llegir"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s articles sense llegir"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Ha fallat la importació de l'OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Ha fallat l'exportació de l'OPML"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Tema fosc preferit"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s articles sense llegir"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Visualitza tots els articles"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Compacte"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Supercompacte"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s articles sense llegir"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Habilita-ho només per canals amb identificadors dolents"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Des de qualsevol lloc"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Esteu segurs que voleu sortir de la cadena de sincronització?"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Només disponible a l'Android %1$s i superior"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Utilitza l'opció per defecte"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Aquest servei és pagat per la comunitat. Si us plau, considereu fer una donació si el troba útil."
+    },
+    {
+      "name": "add_new_device",
+      "value": "Afegeix un dispositiu nou"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (aquest dispositiu)"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Text a veu"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Salta al següent"
+    },
+    {
+      "name": "set_language",
+      "value": "Defineix l'idioma"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Colors dinàmics"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Negre"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Sense llegir"
+    },
+    {
+      "name": "already_read",
+      "value": "Ja llegit"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s article sense llegir"
+    },
+    {
+      "name": "invalid_url",
+      "value": "URL no vàlida"
+    },
+    {
+      "name": "device_sync",
+      "value": "Sincronització del dispositiu"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Desconnecta el dispositiu de la cadena de sincronització"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Al seu dispositiu, navegui a la sincronització del dispositiu i premi «Escaneja el codi de sincronització»."
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Codi de sincronització del dispositiu amb el Feeder"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Escaneja o introdueix un codi de sincronització"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Crea una nova cadena de sincronització"
+    },
+    {
+      "name": "sync_code",
+      "value": "Codi de sincronització"
+    },
+    {
+      "name": "secret_key",
+      "value": "Clau secreta"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Unir-se a la cadena de sincronització"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "No s'ha trobat un escàner de codi de barres"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Nou"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Accés de només lectura"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Amaga històries amb títols que contenen algun d'aquests filtres. Filtres d'exemple:"
+    },
+    {
+      "name": "text_scale",
+      "value": "Escalat del text"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sincronitza per obtenir l'article"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s canals"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s canals"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s canals"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importar %1$s amb %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s etiquetes"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s etiqueta"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s etiquetes"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s etiquetes"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s etiquetes"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s etiquetes"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "No s'ha trobat res a obtenir"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Llista d'articles"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Mostra només el títol"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Marca els articles com a llegits al desplaçar-s'hi"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Cap canal"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s canals"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s canal"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s canals"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "L'enllaç no apunta a un document HTML"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Falta al canal l'enllaç a l'article"
+    },
+    {
+      "name": "max_lines",
+      "value": "Màxim número de línies"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Desat"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filtre"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Llegit recentment"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Llegit"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Articles desats"
+    },
+    {
+      "name": "saved_article",
+      "value": "Article desat"
+    },
+    {
+      "name": "save_article",
+      "value": "Desa l'article"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Treu l'article de desats"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Paper electrònic"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Error analitzant la font JSON"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "No hi ha fonts en aquesta pàgina"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "No hi ha cos a la resposta"
+    },
+    {
+      "name": "http_error",
+      "value": "Error HTTP"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Error analitzant la pàgina"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Error analitzant la font RSS"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Tipus de contingut no suportat"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Error al descarregar"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "El contingut no és HTML"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Exporta els articles desats"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Targeta compacta"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Ha fallat l'exportació d'articles desats"
+    },
+    {
+      "name": "time_out",
+      "value": "Temps d'espera (segons)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "El temps d'espera ha de ser entre 30 i 600 segons"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Temps d'espera per OpenAI"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Error analitzant l'article complet"
+    },
+    {
+      "name": "no_url",
+      "value": "No hi ha URL"
+    },
+    {
+      "name": "search_verb",
+      "value": "Cercar"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Cancel·la la cerca"
+    },
+    {
+      "name": "text",
+      "value": "Text"
+    },
+    {
+      "name": "font",
+      "value": "Font"
+    },
+    {
+      "name": "text_preview",
+      "value": "Vista prèvia"
+    },
+    {
+      "name": "italic",
+      "value": "Itàlica"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

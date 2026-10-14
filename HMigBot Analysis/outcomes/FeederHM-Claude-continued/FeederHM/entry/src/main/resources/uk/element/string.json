@@ -1,0 +1,1612 @@
+{
+  "string": [
+    {
+      "name": "notify_for_new_items",
+      "value": "Сповіщати про нові статті"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Показувати всі статті"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Показувати лише непрочитані статті"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Не вдалося завантажити текст у мовлення"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Отримання повної статті…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Не вдалося отримати повну статтю"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Отримувати повні статті типово"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Отримувати повну статтю"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Показувати/ховати мітки"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Відкрити у вебперегляді"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Відкрити посилання у вебперегляді"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Як у додатку"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Сповіщення показуються лише для непрочитаних статей у налаштованих стрічках"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Непрочитані стрічки"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Оновлені стрічки"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Враховувати мобільні точки доступу"
+    },
+    {
+      "name": "show_fab",
+      "value": "Плаваюча кнопка дії"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Установіть відповідну програму, щоб відкрити це посилання"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Лише під час заряджання"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Може призвести до стягнення плати за мобільні дані."
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Показувати мініатюри"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Лише через Wi-Fi"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Нічого відображати!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Такої стрічки не знайдено. Можливо, варто спробувати HTTPS?"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Показник прочитання"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Нове на основі цього"
+    },
+    {
+      "name": "sync",
+      "value": "Синхронізувати"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Зупинити читання"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Відновити читання"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Призупинити читання"
+    },
+    {
+      "name": "read_article",
+      "value": "Прочитати вголос"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Відкрити вкладені медіафайли"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Відкрити посилання в браузері"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Змінити статус прочитаного"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Припинити сповіщення"
+    },
+    {
+      "name": "no_tag",
+      "value": "Без мітки"
+    },
+    {
+      "name": "view",
+      "value": "Перегляд"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Позначити все прочитаним"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Позначити непрочитаним"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Позначити прочитаним"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Тут нема що читати. Чи бажаєте…"
+    },
+    {
+      "name": "title",
+      "value": "Заголовок"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Закрити навігаційну панель"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Відкрити навігаційну панель"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s непрочитаних статей"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s непрочитаних статей"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s непрочитаних статей"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s непрочитаних статті"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s непрочитані статті"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s непрочитана стаття"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Синхронізувати стрічки"
+    },
+    {
+      "name": "already_read",
+      "value": "Прочитане"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Непрочитане"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Перейти до %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Відкрити меню"
+    },
+    {
+      "name": "go_back",
+      "value": "Назад"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Не вдалося проаналізувати %1$s"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Попереднє завантаження власної вкладки"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Увімк."
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Вимк."
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Оптимізація батареї"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Закрита мітка"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Відкрита мітка"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Список виявлених стрічок"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Позначити нижче прочитаним"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Позначити вище прочитаним"
+    },
+    {
+      "name": "open_feed",
+      "value": "Відкрити стрічку"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Натисніть, щоб відтворити відео"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Не вдалося відкрити клієнт ел. пошти"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Надіслати звіт про помилку"
+    },
+    {
+      "name": "sort",
+      "value": "Сортування"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Спочатку найстаріші"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Спочатку найновіші"
+    },
+    {
+      "name": "theme",
+      "value": "Тема"
+    },
+    {
+      "name": "theme_night",
+      "value": "Нічна"
+    },
+    {
+      "name": "theme_day",
+      "value": "Денна"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Автоматична"
+    },
+    {
+      "name": "theme_system",
+      "value": "Системна"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Не вдалося завантажити URL"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Максимум статей у стрічці"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Режим читання"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Відкривати посилання через"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Відкривати статті через"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Власна вкладка"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Браузер"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Вебперегляд"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Режим читання"
+    },
+    {
+      "name": "on_startup",
+      "value": "Під час запуску"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Пошук нових статей"
+    },
+    {
+      "name": "image_loading",
+      "value": "Завантаження зображень"
+    },
+    {
+      "name": "synchronization",
+      "value": "Синхронізація"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Щодня"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Кожні 12 годин"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Кожні 6 годин"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Кожні 3 години"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Щогодини"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Кожні 30 хвилин"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Кожні 15 хвилин"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Вручну"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Усі стрічки"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Налаштування"
+    },
+    {
+      "name": "share",
+      "value": "Поділитися"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Переглянути журнал відлагодження"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Імпортувати стрічки з OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Експортувати стрічки в OPML"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Відкрити %1$s"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Відкрити в браузері"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Доступні нові статті"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Показати непрочитані статті"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Показати всі статті"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Видалити стрічку"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Редагувати стрічку"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Введіть адресу стрічки"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Додати більше стрічок?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Відкрити іншу стрічку?"
+    },
+    {
+      "name": "save",
+      "value": "Зберегти"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL-адреса стрічки"
+    },
+    {
+      "name": "tag",
+      "value": "Мітка"
+    },
+    {
+      "name": "url",
+      "value": "URL-адреса"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Підписатися на стрічку"
+    },
+    {
+      "name": "add_feed",
+      "value": "Додати стрічку"
+    },
+    {
+      "name": "action_settings",
+      "value": "Налаштування"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Дуже компактний"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Компактний"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Картка"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Вигляд статей"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Чорна"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Бажана темна тема"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Темна"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Створювати додаткові унікальні ID"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Увімкнути лише для стрічок із неправильними ID"
+    },
+    {
+      "name": "syncing",
+      "value": "Синхронізація"
+    },
+    {
+      "name": "sync_status",
+      "value": "Стан синхронізації"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Недійсна URL-адреса"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Не вдалося імпортувати OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Не вдалося експортувати OPML"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Не вдалося відкрити статтю"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Додати новий пристрій"
+    },
+    {
+      "name": "device_sync",
+      "value": "Синхронізація пристрою"
+    },
+    {
+      "name": "remove_device",
+      "value": "Вилучити пристрій"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-код"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Перейдіть на вашому пристрої до синхронізованих пристроїв та натисніть «Відсканувати код синхронізації»."
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Код синхронізації пристрою Feeder"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Синхронізація пристроїв дозволяє синхронізувати підписки на стрічки та читати статті між різними вашими пристроями."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Відскануйте або введіть код синхронізації"
+    },
+    {
+      "name": "sync_code",
+      "value": "Код синхронізації"
+    },
+    {
+      "name": "secret_key",
+      "value": "Секретний ключ"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Від’єднати пристрій від ланцюжка синхронізації"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Покинути ланцюжок синхронізації"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Розпочати новий ланцюжок синхронізації"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Вилучити пристрій «%1$s»?"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (цей пристрій)"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Сервіс фінансується спільнотою. Будь ласка, підтримайте проєкт, якщо він вам корисний."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Просто відскануйте код зі свого ланцюжка синхронізації, який ви створили на іншому пристрої, або розпочніть новий."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Або відкрийте посилання на своєму пристрої."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Ставтеся до цього як до пароля. Будь-хто, у кого є посилання, зможе прочитати ваші синхронізовані дані."
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Долучитися до ланцюжка синхронізації"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Пристрої в ланцюжку синхронізації"
+    },
+    {
+      "name": "disabled",
+      "value": "Вимкнено"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Лише з кінця"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Звідусіль"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Проведіть, щоб позначити прочитаним"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Ви впевнені, що хочете покинути ланцюжок синхронізації?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Не вдалося знайти сканер штрихкодів"
+    },
+    {
+      "name": "block_list",
+      "value": "Список блокування"
+    },
+    {
+      "name": "add_item",
+      "value": "Додати статтю"
+    },
+    {
+      "name": "remove",
+      "value": "Вилучити"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Дозволяє застосунку читати стрічки та статті"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Доступ лише для читання Feeder"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Визначати мову"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Автоматично визначати мову статті"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Працює лише на Android %1$s та вище"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Щоб увімкнути сповіщення, необхідно надати відповідний дозвіл."
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Текст у мовлення"
+    },
+    {
+      "name": "set_language",
+      "value": "Встановити мову"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Перейти до наступного"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Динамічні кольори"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Нове"
+    },
+    {
+      "name": "article_image",
+      "value": "Зображення статті"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Значок стрічки"
+    },
+    {
+      "name": "text_scale",
+      "value": "Розмір тексту"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Приховує статті, заголовки яких містять будь-який із цих фільтрів. Приклади фільтрів:"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Синхронізуйте, щоб отримати статтю"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Збережені статті"
+    },
+    {
+      "name": "saved_article",
+      "value": "Збережена стаття"
+    },
+    {
+      "name": "save_article",
+      "value": "Зберегти статтю"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Вилучити статтю зі збережених"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Позначати як прочитане при прокручуванні"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s стрічка"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Імпортувати %1$s з %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s міток"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s мітка"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s міток"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s мітки"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Немає стрічок"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s стрічок"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s стрічок"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s міток"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s стрічки"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s стрічки"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s стрічок"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s мітки"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Нічого не знайдено для отримання"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "У стрічці немає посилання на статтю"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Посилання не є HTML-документом"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Нещодавно прочитане"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Прочитане"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Збережене"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Список статей"
+    },
+    {
+      "name": "max_lines",
+      "value": "Макс. кількість рядків"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Фільтр"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "На сторінці немає стрічок"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Вміст не є HTML"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Не вдалося проаналізувати сторінку"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Не вдалося проаналізувати RSS-стрічку"
+    },
+    {
+      "name": "http_error",
+      "value": "Помилка HTTP"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Не вдалося проаналізувати JSON-стрічку"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Немає вмісту у відповіді"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Непідтримуваний тип вмісту"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Не вдалося проаналізувати повну статтю"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Показувати лише заголовок"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Не вдалося завантажити"
+    },
+    {
+      "name": "no_url",
+      "value": "Немає URL"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Електронний папір"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Показувати приблизний час читання"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s слів"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s хвилин"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Все одно додати"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s хвилини"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s слова"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s хвилин"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s хвилин"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s слова"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s слів"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s хвилина"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Відкрити браузер у режимі розділеного екрана"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s хвилини"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s слів"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s слово"
+    },
+    {
+      "name": "close_menu",
+      "value": "Закрити меню"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Експортувати збережені статті"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Не вдалося експортувати збережені статті"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Статті з посиланнями або заголовками, що вже існують, буде проігноровано"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Пропускати повторювані статті"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Компактна картка"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Натисніть, щоб відтворити аудіо"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Показувати кількість непрочитаних статей у заголовку"
+    },
+    {
+      "name": "off",
+      "value": "Вимк."
+    },
+    {
+      "name": "show_message",
+      "value": "Показати повідомлення"
+    },
+    {
+      "name": "openai_settings",
+      "value": "ШІ та переклад"
+    },
+    {
+      "name": "api_key",
+      "value": "Ключ API"
+    },
+    {
+      "name": "model_id",
+      "value": "ID моделі"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Версія Azure API"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Не вдалося завантажити моделі."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Моделі не знайдено"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "ID розгортання Azure"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Список доступних моделей"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Показувати стрічки після позначення всіх прочитаними"
+    },
+    {
+      "name": "on",
+      "value": "Увімк."
+    },
+    {
+      "name": "summarize",
+      "value": "Короткий опис"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Скасувати пошук"
+    },
+    {
+      "name": "search_verb",
+      "value": "Пошук"
+    },
+    {
+      "name": "text",
+      "value": "Текст"
+    },
+    {
+      "name": "font",
+      "value": "Шрифт"
+    },
+    {
+      "name": "text_preview",
+      "value": "Попередній перегляд тексту"
+    },
+    {
+      "name": "italic",
+      "value": "Курсив"
+    },
+    {
+      "name": "add_font",
+      "value": "Додати шрифт…"
+    },
+    {
+      "name": "system_default",
+      "value": "Як у системі"
+    },
+    {
+      "name": "weight",
+      "value": "Товщина"
+    },
+    {
+      "name": "text_settings",
+      "value": "Налаштування тексту"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Не вдалося додати шрифт"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Не вдалося видалити шрифт"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Щось пішло не так"
+    },
+    {
+      "name": "bold",
+      "value": "Жирний"
+    },
+    {
+      "name": "time_out",
+      "value": "Час очікування (у секундах)"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "Час очікування для запитів ШІ"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Час очікування має бути від 30 до 600 секунд"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Пропозиції"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Короткий опис при відкритті"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Сумісний з багатьма постачальниками ШІ, але не з усіма"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Відкрити в режимі читання"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Відкрити в браузері"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Відкрити у власній вкладці"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Неможливо відкрити статтю в браузері"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Не вдалося відкрити статтю у власній вкладці"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Оновлення"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Застосувати до коротких описів"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Постачальник"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Постачальник: %1$s"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_none",
+      "value": "Немає"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI або сумісний"
+    },
+    {
+      "name": "translate_article",
+      "value": "Перекласти статтю"
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Анімація гортання"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Анімувати перегортання сторінок. На деяких пристроях з електронним папером може спричиняти появу «примарних зображень»."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Покращувати мініатюри на основі метаданих статті"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Намагатися покращити відсутні або неякісні мініатюри у цій стрічці"
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "Ключ авторизації DeepL"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Не налаштовано"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Введіть API-ключ перед збереженням."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Введіть ключ API DeepL перед збереженням."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Введіть ID моделі перед збереженням."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Введіть версію Azure API перед збереженням."
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Виберіть мову"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Перекладати статті типово"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Перекладати попередній перегляд статей"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Оберіть мову, на яку потрібно перекласти Feeder."
+    },
+    {
+      "name": "show_original_language",
+      "value": "Показати оригінал (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "оригінал"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "Встановіть бажану мову перекладу в налаштуваннях ШІ"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Бажана мова перекладу"
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Введіть ID розгортання Azure перед збереженням."
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "API коротких описів"
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "API перекладу"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Режим сторінок"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Навігація статтями шляхом «гортання сторінок» замість безперервного прокручування. Оптимізовано для електронних книжок."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "Перевірка налаштувань API…"
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Перевірка налаштувань Azure OpenAI…"
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "Перевірка ключа DeepL…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "Не вдалося перевірити налаштування API."
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Не вдалося перевірити налаштування Azure OpenAI."
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "Не вдалося перевірити ключ DeepL."
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Використовується для створення коротких описів статей."
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Використовується для перекладу карток стрічки та статей."
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Базова URL-адреса (необов’язково)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Кінцева точка перекладу"
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Введіть кінцеву точку Azure перед збереженням."
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Імпортувати збережені статті"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Не вдалося імпортувати збережені статті"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Стаття занадто велика. Відкрити в браузері замість цього?"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Локально поза мережею"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "УВАГА! Це бета-функція. Перед цим виконайте OPML-експорт усіх ваших стрічок і збережіть як резервну копію."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "Бажана мова"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Локальний переклад потребує Android 12 або новішої версії."
+    },
+    {
+      "name": "rename_tag",
+      "value": "Перейменувати мітку"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Не можливо відтворити цей аудіо-файл"
+    },
+    {
+      "name": "play_audio",
+      "value": "Відтворити аудіо"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Призупинити аудіо"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Зупинити аудіо"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "Перемотати вперед на 10 секунд"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "Перемотати назад на 10 секунд"
+    },
+    {
+      "name": "open_settings",
+      "value": "Відкрити налаштування"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Відтворювати аудіопосилання у вбудованому програвачі"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Якщо вимкнено, посилання на аудіо відкриватимуться у вашому основному плеєрі"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "Підготовка офлайн-моделі перекладу з %1$s на %2$s…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "Завантаження офлайн-моделі перекладу %1$s на %2$s: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "Перше завантаження може займати 20–50 МБ і тривати кілька хвилин. Надалі переклад працюватиме офлайн."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Локальний переклад недоступний на цьому пристрої."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Не вдалося створити локальний перекладач."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Час очікування локального перекладу вичерпано."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Локальний переклад не вдався."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Локальний переклад не повернув тексту."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Локальний перекладач не був готовий. Перевірте налаштування перекладу на пристрої та повторіть спробу."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "Модель Bergamot для %1$s -> %2$s відсутня. Перевірте мови перекладу системи"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Час очікування перекладу Bergamot вичерпано."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Переклад через Bergamot не вдався."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Підключіться, щоб завантажити список моделей."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "Не вдалося завантажити модель %1$s -> %2$s"
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Час очікування перекладу Bergamot WebView вичерпано."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView не ініціалізовано."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Не вдалося розпізнати відповідь Bergamot."
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Спочатку використовує службу перекладу вашого пристрою."
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Якщо недоступно, Feeder може використовувати свій завантажуваний офлайн-модуль перекладу."
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Показувати лише доступні для завантаження мови"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "Завантажені моделі перекладу"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Офлайн-мови перекладу, завантажені Feeder. Видаліть мови, які вам більше не потрібні, щоб звільнити місце."
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Видалити модель"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "Видалити модель перекладу з %1$s на %2$s (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Видалити всі завантажені моделі"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "Видалити всі завантажені моделі перекладу %1$d (%2$s)?"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "Видалено модель з %1$s на %2$s"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Видалено всі завантажені моделі"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Ще немає завантажених моделей перекладу. Перекладач автоматично завантажить потрібну модель."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Видалити"
+    },
+    {
+      "name": "cancel",
+      "value": "Скасувати"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Застосувати до посилань"
+    },
+    {
+      "name": "filters",
+      "value": "Фільтри"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Один стовпчик (примусово)"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "Завантажте офлайн-модуль перекладу, щоб продовжити."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Завантажити офлайн-модуль перекладу?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder завантажить виконуване середовище WebAssembly розміром 4,9 МБ із проєкту Mozilla/Bergamot. Цей код не створений і не перевірений F-Droid. Після завантаження переклад працюватиме офлайн."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Не вдалося завантажити офлайн-модуль перекладу."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Завантаження офлайн-модуля перекладу: %1$d%%"
+    },
+    {
+      "name": "download",
+      "value": "Завантажити"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "Правила фільтрації статей"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "Одне правило на рядок у форматі: FieldName=pattern. Доступні поля: Title, URL, Author, Tag та Content. Шаблон — це регулярний вираз, який збігається з будь-якою частиною поля; починайте його з (?i), щоб ігнорувати регістр. Правила починають діяти з наступного отримання даних і не впливають на вже збережені статті."
+    },
+    {
+      "name": "block_rules",
+      "value": "Правила блокування"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "Статті, які відповідають правилам, ніколи не завантажуються. На відміну від списку блокування, цю дію неможливо скасувати: видалення правила не повертає статті, які вже було пропущено."
+    },
+    {
+      "name": "allow_rules",
+      "value": "Правила дозволу"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "Якщо встановлено хоча б одне правило дозволу, завантажуються лише статті, які їм відповідають. Правило для тегів (Tag) пропускається для статей, які не мають тегів, тому стрічка без тегів не буде повністю порожньою лише через одне правило для тегів."
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)рекламний"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "Рядок %1$d: пропущено '='. Недійсні рядки ігноруються."
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "Рядок %1$d: '%2$s' не є відомим полем. Недійсні рядки ігноруються."
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "Рядок %1$d: шаблон порожній, тому він відповідатиме всьому. Недійсні рядки ігноруються."
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "Рядок %1$d: некоректний регулярний вираз. Недійсні рядки ігноруються."
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "Рядок %1$d: використовуються лише перші %2$d правил. Наступні рядки ігноруються."
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

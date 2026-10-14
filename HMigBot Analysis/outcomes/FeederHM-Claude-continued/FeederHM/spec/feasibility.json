@@ -1,0 +1,567 @@
+{
+  "src": "input/Feeder",
+  "verdict": "yellow",
+  "profile": {
+    "activities": 6,
+    "uiParadigm": "compose",
+    "navSources": [
+      "manifest",
+      "compose-navhost"
+    ],
+    "fragments": 0,
+    "archHints": [],
+    "sizeClass": "standard",
+    "sizeSignals": {
+      "lines": 60549,
+      "files": 321,
+      "pagesApprox": 8,
+      "deps": 81
+    },
+    "shape": {
+      "explore": "workflow",
+      "foundation": "wave",
+      "adversary": "derived"
+    }
+  },
+  "scale": {
+    "srcFiles": 321,
+    "lines": 60549,
+    "uiTech": "compose",
+    "layoutXml": 0,
+    "sampleTruncated": null
+  },
+  "deps": [
+    "androidx.activity:activity-compose",
+    "androidx.appcompat:appcompat",
+    "androidx.browser:browser",
+    "androidx.compose.foundation:foundation",
+    "androidx.compose.foundation:foundation-layout",
+    "androidx.compose.material3:material3",
+    "androidx.compose.material3:material3-window-size-class",
+    "androidx.compose.material:material",
+    "androidx.compose.material:material-icons-extended",
+    "androidx.compose.runtime:runtime",
+    "androidx.compose.ui:ui",
+    "androidx.compose.ui:ui-test-junit4",
+    "androidx.compose.ui:ui-test-manifest",
+    "androidx.compose.ui:ui-tooling",
+    "androidx.compose:compose-bom",
+    "androidx.core:core-ktx",
+    "androidx.emoji2:emoji2",
+    "androidx.emoji2:emoji2-views-helper",
+    "androidx.glance:glance-appwidget",
+    "androidx.glance:glance-appwidget-preview",
+    "androidx.glance:glance-material3",
+    "androidx.glance:glance-preview",
+    "androidx.lifecycle:lifecycle-runtime-compose",
+    "androidx.lifecycle:lifecycle-runtime-ktx",
+    "androidx.lifecycle:lifecycle-viewmodel-ktx",
+    "androidx.lifecycle:lifecycle-viewmodel-savedstate",
+    "androidx.navigation:navigation-compose",
+    "androidx.paging:paging-compose",
+    "androidx.paging:paging-runtime-ktx",
+    "androidx.preference:preference",
+    "androidx.room:room-compiler",
+    "androidx.room:room-ktx",
+    "androidx.room:room-paging",
+    "androidx.room:room-testing",
+    "androidx.test.espresso:espresso-core",
+    "androidx.test.ext:junit-ktx",
+    "androidx.test:core",
+    "androidx.test:core-ktx",
+    "androidx.test:runner",
+    "androidx.window:window",
+    "com.aallam.openai:openai-client",
+    "com.aallam.openai:openai-client-bom",
+    "com.android.tools:desugar_jdk_libs",
+    "com.github.kenglxn.qrgen:android",
+    "com.github.nanihadesuka.LazyColumnScrollbar:lazycolumnscrollbar",
+    "com.google.accompanist:accompanist-adaptive",
+    "com.google.accompanist:accompanist-permissions",
+    "com.google.android.material:material",
+    "com.ibm.icu:icu4j",
+    "com.nononsenseapps.gofeed:gofeed-android",
+    "com.squareup.moshi:moshi",
+    "com.squareup.moshi:moshi-adapters",
+    "com.squareup.moshi:moshi-kotlin",
+    "com.squareup.okhttp3:mockwebserver",
+    "com.squareup.okhttp3:okhttp",
+    "com.squareup.okhttp3:okhttp-bom",
+    "com.squareup.okio:okio",
+    "com.squareup.retrofit2:converter-moshi",
+    "com.squareup.retrofit2:retrofit",
+    "com.squareup.retrofit2:retrofit-bom",
+    "io.coil-kt.coil3:coil-compose",
+    "io.coil-kt.coil3:coil-gif",
+    "io.coil-kt.coil3:coil-network-okhttp",
+    "io.coil-kt.coil3:coil-svg",
+    "io.ktor:ktor-client-okhttp",
+    "io.mockk:mockk",
+    "io.mockk:mockk-android",
+    "io.nlopez.compose.rules:ktlint",
+    "junit:junit",
+    "net.dankito.readability4j:readability4j",
+    "org.ccil.cowan.tagsoup:tagsoup",
+    "org.jetbrains.kotlin:kotlin-stdlib",
+    "org.jetbrains.kotlin:kotlin-stdlib-common",
+    "org.jetbrains.kotlin:kotlin-test-junit",
+    "org.jetbrains.kotlinx:kotlinx-coroutines-android",
+    "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+    "org.jetbrains.kotlinx:kotlinx-coroutines-test",
+    "org.jetbrains.kotlinx:kotlinx-serialization-json",
+    "org.jetbrains:markdown",
+    "org.jsoup:jsoup",
+    "org.kodein.di:kodein-di-framework-android-x"
+  ],
+  "libFindings": [
+    {
+      "dep": "com.squareup.retrofit2:retrofit-bom",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.okhttp3:okhttp-bom",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose:compose-bom",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "com.aallam.openai:openai-client-bom",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http 直调 OpenAI 兼容 REST（chat/completions、models）",
+      "note": "可选翻译/摘要功能，需用户自填 key",
+      "evidence": "openai/OpenAIApi.kt、OpenAIClient.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.aallam.openai:openai-client",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http 直调 OpenAI 兼容 REST（chat/completions、models）",
+      "note": "可选翻译/摘要功能，需用户自填 key",
+      "evidence": "openai/OpenAIApi.kt、OpenAIClient.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "io.ktor:ktor-client-okhttp",
+      "status": "equivalent",
+      "harmony": "`@kit.NetworkKit` http",
+      "note": "实例需 `destroy()`",
+      "source": "official-map"
+    },
+    {
+      "dep": "io.nlopez.compose.rules:ktlint",
+      "status": "equivalent",
+      "harmony": "hypium（仅测试/lint）",
+      "note": "不进产物",
+      "evidence": "测试依赖",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "androidx.room:room-compiler",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.room:room-ktx",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.room:room-paging",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.activity:activity-compose",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.foundation:foundation",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.foundation:foundation-layout",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.material3:material3",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.material:material",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.material3:material3-window-size-class",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.material:material-icons-extended",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.runtime:runtime",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-tooling",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "com.google.android.material:material",
+      "status": "equivalent",
+      "harmony": "ArkUI 内置组件",
+      "note": "调用面 0",
+      "evidence": "调用面 0",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.google.accompanist:accompanist-permissions",
+      "status": "equivalent",
+      "harmony": "abilityAccessCtrl.requestPermissionsFromUser",
+      "note": "通知权限",
+      "evidence": "ui/compose/settings/Settings.kt、editfeed/EditFeedScreen.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.google.accompanist:accompanist-adaptive",
+      "status": "equivalent",
+      "harmony": "@ohos.display 折叠态 + 窗口尺寸断点",
+      "note": "折叠屏双栏",
+      "evidence": "ui/compose/utils/Foldables.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "org.jsoup:jsoup",
+      "status": "partial",
+      "harmony": "自研 HTML 解析器（宽容 tokenizer + DOM 树 + CSS 选择器子集），ArkTS",
+      "note": "8 文件用于 HTML→Compose 渲染、链接/图片提取、全文清洗；无 ArkTS 等价库",
+      "evidence": "ui/compose/html/HtmlToComposable.kt、HtmlToAnnotatedString.kt、model/html/HtmlUtils.kt 等",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "org.ccil.cowan.tagsoup:tagsoup",
+      "status": "partial",
+      "harmony": "复用自研 HTML 解析器的纯文本转换",
+      "note": "仅 HtmlToPlainTextConverter",
+      "evidence": "model/HtmlToPlainTextConverter.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.ibm.icu:icu4j",
+      "status": "partial",
+      "harmony": "@kit.ArkTS util.TextDecoder（GB2312/GBK/Big5/Shift_JIS/ISO-8859-x 等）+ HTTP/meta charset 声明；无 ICU CharsetDetector 统计探测",
+      "note": "仅 FullTextParser 字符集探测",
+      "evidence": "model/FullTextParser.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.nononsenseapps.gofeed:gofeed-android",
+      "status": "partial",
+      "harmony": "自研 ArkTS feed 解析器（@ohos.xml XmlPullParser / convertxml + JSON.parse）：RSS 0.9x/2.0、RDF 1.0、Atom 0.3/1.0、JSON Feed 1.x，含 media:/itunes:/dc:/content: 扩展",
+      "note": "源依赖 gomobile 编译的 Go gofeed（gofeedandroid.Gofeedandroid.parseBody*），鸿蒙无 Go 运行时；按 GoFeed JSON 结构等价自研；源 androidTest FeedParserTest + 48 份 fixture 作黄金向量",
+      "evidence": "model/gofeed/GoFeedAdapter.kt:22-29；model/FeedParser.kt:44",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "org.jetbrains:markdown",
+      "status": "partial",
+      "harmony": "自研 Markdown→HTML（CommonMark 子集）",
+      "note": "仅 MarkdownToHtmlConverter（feed 内容 text/markdown）",
+      "evidence": "model/MarkdownToHtmlConverter.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.squareup.okhttp3:okhttp",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.okio:okio",
+      "status": "equivalent",
+      "harmony": "@kit.CoreFileKit fs / buffer",
+      "note": "调用面 0",
+      "evidence": "调用面 0",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "io.coil-kt.coil3:coil-gif",
+      "status": "equivalent",
+      "harmony": "Image 组件 + ImageKnife(ohpm)",
+      "note": "图片加载",
+      "source": "seed"
+    },
+    {
+      "dep": "io.coil-kt.coil3:coil-svg",
+      "status": "equivalent",
+      "harmony": "Image 组件 + ImageKnife(ohpm)",
+      "note": "图片加载",
+      "source": "seed"
+    },
+    {
+      "dep": "io.coil-kt.coil3:coil-compose",
+      "status": "equivalent",
+      "harmony": "Image 组件 + ImageKnife(ohpm)",
+      "note": "图片加载",
+      "source": "seed"
+    },
+    {
+      "dep": "io.coil-kt.coil3:coil-network-okhttp",
+      "status": "equivalent",
+      "harmony": "Image 组件 + ImageKnife(ohpm)",
+      "note": "图片加载",
+      "source": "seed"
+    },
+    {
+      "dep": "org.jetbrains.kotlinx:kotlinx-serialization-json",
+      "status": "equivalent",
+      "harmony": "JSON 内建 / class-transformer 模式",
+      "note": "",
+      "source": "seed"
+    },
+    {
+      "dep": "org.jetbrains.kotlinx:kotlinx-coroutines-test",
+      "status": "equivalent",
+      "harmony": "Promise/async + TaskPool/Worker",
+      "note": "并发原语改写",
+      "source": "seed"
+    },
+    {
+      "dep": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+      "status": "equivalent",
+      "harmony": "Promise/async + TaskPool/Worker",
+      "note": "并发原语改写",
+      "source": "seed"
+    },
+    {
+      "dep": "org.jetbrains.kotlinx:kotlinx-coroutines-android",
+      "status": "equivalent",
+      "harmony": "Promise/async + TaskPool/Worker",
+      "note": "并发原语改写",
+      "source": "seed"
+    },
+    {
+      "dep": "org.kodein.di:kodein-di-framework-android-x",
+      "status": "equivalent",
+      "harmony": "显式依赖装配（单例服务定位器），无 DI 框架",
+      "note": "调用面 290（70 文件）均为注入样板",
+      "evidence": "di/*.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "net.dankito.readability4j:readability4j",
+      "status": "partial",
+      "harmony": "自研 Readability 正文抽取（移植 readability4j 算法于自研 DOM）",
+      "note": "仅 FullTextParser 全文模式",
+      "evidence": "model/FullTextParser.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.squareup.retrofit2:retrofit",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.retrofit2:converter-moshi",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.moshi:moshi",
+      "status": "equivalent",
+      "harmony": "JSON 内建 / class-transformer 模式",
+      "note": "",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.moshi:moshi-kotlin",
+      "status": "equivalent",
+      "harmony": "JSON 内建 / class-transformer 模式",
+      "note": "",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.moshi:moshi-adapters",
+      "status": "equivalent",
+      "harmony": "JSON 内建 / class-transformer 模式",
+      "note": "",
+      "source": "seed"
+    },
+    {
+      "dep": "com.github.kenglxn.qrgen:android",
+      "status": "equivalent",
+      "harmony": "ArkUI QRCode 组件",
+      "note": "同步配对二维码生成",
+      "evidence": "调用面 0（经 Compose 包装）",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.github.nanihadesuka.LazyColumnScrollbar:lazycolumnscrollbar",
+      "status": "equivalent",
+      "harmony": "ArkUI List.scrollBar / ScrollBar 组件",
+      "note": "阅读页滚动条",
+      "evidence": "ui/compose/reader/ReaderView.kt",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "junit:junit",
+      "status": "equivalent",
+      "harmony": "hypium（仅测试/lint）",
+      "note": "不进产物",
+      "evidence": "测试依赖",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "io.mockk:mockk",
+      "status": "equivalent",
+      "harmony": "hypium（仅测试/lint）",
+      "note": "不进产物",
+      "evidence": "测试依赖",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.squareup.okhttp3:mockwebserver",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "io.mockk:mockk-android",
+      "status": "equivalent",
+      "harmony": "hypium（仅测试/lint）",
+      "note": "不进产物",
+      "evidence": "测试依赖",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "androidx.room:room-testing",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-test-junit4",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-test-manifest",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    }
+  ],
+  "capFindings": [
+    {
+      "cap": "桌面小组件",
+      "wall": "yellow",
+      "callFace": 3,
+      "where": "manifest",
+      "disposition": "替换：FormExtensionAbility 卡片（工作量另计，易被跳过——calendar 实证欠账）",
+      "evidence": "calendar 冒烟欠账 §卡片缺失"
+    },
+    {
+      "cap": "开机自启",
+      "wall": "yellow",
+      "callFace": 1,
+      "where": "manifest",
+      "disposition": "降级：常驻改用户拉起+续任务；预案按场景"
+    },
+    {
+      "cap": "常规能力",
+      "wall": "green",
+      "callFace": 5,
+      "where": "manifest",
+      "disposition": "直接映射"
+    }
+  ],
+  "crossPlatform": [],
+  "summary": {
+    "red": [],
+    "yellow": [
+      "androidx.compose:compose-bom（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.activity:activity-compose（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.foundation:foundation（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.foundation:foundation-layout（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.material3:material3（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.material:material（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.material3:material3-window-size-class（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.material:material-icons-extended（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.runtime:runtime（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui-tooling（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "org.jsoup:jsoup（partial）→ 自研 HTML 解析器（宽容 tokenizer + DOM 树 + CSS 选择器子集），ArkTS",
+      "org.ccil.cowan.tagsoup:tagsoup（partial）→ 复用自研 HTML 解析器的纯文本转换",
+      "com.ibm.icu:icu4j（partial）→ @kit.ArkTS util.TextDecoder（GB2312/GBK/Big5/Shift_JIS/ISO-8859-x 等）+ HTTP/meta charset 声明；无 ICU CharsetDetector 统计探测",
+      "com.nononsenseapps.gofeed:gofeed-android（partial）→ 自研 ArkTS feed 解析器（@ohos.xml XmlPullParser / convertxml + JSON.parse）：RSS 0.9x/2.0、RDF 1.0、Atom 0.3/1.0、JSON Feed 1.x，含 media:/itunes:/dc:/content: 扩展",
+      "org.jetbrains:markdown（partial）→ 自研 Markdown→HTML（CommonMark 子集）",
+      "net.dankito.readability4j:readability4j（partial）→ 自研 Readability 正文抽取（移植 readability4j 算法于自研 DOM）",
+      "androidx.compose.ui:ui-test-junit4（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui-test-manifest（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "桌面小组件 → 替换：FormExtensionAbility 卡片（工作量另计，易被跳过——calendar 实证欠账）",
+      "开机自启 → 降级：常驻改用户拉起+续任务；预案按场景"
+    ],
+    "unadjudicated": []
+  }
+}

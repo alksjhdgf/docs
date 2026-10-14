@@ -1,0 +1,8 @@
+{"bundle":"com.nononsenseapps.feeder","name":"flow-dbpersist","steps":[
+{"op":"start"},
+{"op":"sleep","ms":3000},
+{"op":"tap","match":"type:^Button$","nth":0},
+{"op":"expect","match":["^Hacker News: Front Page","^Feeder News"]},
+{"op":"shot","name":"flow-dbpersist-drawer"},
+{"op":"alive"}
+]}

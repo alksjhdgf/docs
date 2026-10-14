@@ -1,0 +1,1612 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "ナビゲーションドロワーを開く"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "ナビゲーションドロワーを閉じる"
+    },
+    {
+      "name": "action_settings",
+      "value": "設定"
+    },
+    {
+      "name": "add_feed",
+      "value": "フィードを追加"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "フィードを購読"
+    },
+    {
+      "name": "tag",
+      "value": "タグ"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "フィードのURL"
+    },
+    {
+      "name": "title",
+      "value": "タイトル"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "save",
+      "value": "保存"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "読むものはありません。やりたいことは…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "別のフィードを開く"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "更にフィードを追加する"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "フィードのアドレスを入力"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "すべて既読にする"
+    },
+    {
+      "name": "edit_feed",
+      "value": "フィードを編集"
+    },
+    {
+      "name": "delete_feed",
+      "value": "フィードを削除"
+    },
+    {
+      "name": "show_all_items",
+      "value": "すべてのアイテムを表示"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "未読のアイテムを表示"
+    },
+    {
+      "name": "new_items_available",
+      "value": "新しいアイテムが利用可能です"
+    },
+    {
+      "name": "view",
+      "value": "表示"
+    },
+    {
+      "name": "no_tag",
+      "value": "タグなし"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "新しいアイテムの通知"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "既読/未読の切り替え"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "リンクをウェブブラウザで開く"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "閉鎖されたメディアを開く"
+    },
+    {
+      "name": "sync",
+      "value": "同期"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "OPMLでフィードをエクスポート"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "OPMLからフィードをインポート"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "デバッグログを表示"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "これに基づき新規"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "既読のインジケーター"
+    },
+    {
+      "name": "share",
+      "value": "共有"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "そのようなフィードは見つかりませんでした。HTTPSを使ってみてください。"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "表示するものはありません!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "設定"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "手動"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "1時間ごと"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "3時間ごと"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "6時間ごと"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "12時間ごと"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "1日ごと"
+    },
+    {
+      "name": "sort",
+      "value": "並び替え"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "古い順"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "新しい順"
+    },
+    {
+      "name": "theme",
+      "value": "テーマ"
+    },
+    {
+      "name": "theme_night",
+      "value": "夜間"
+    },
+    {
+      "name": "theme_day",
+      "value": "昼間"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "アイテムをデフォルトで開く"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "カスタムタブ"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "デフォルトのブラウザ"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Web view"
+    },
+    {
+      "name": "show_fab",
+      "value": "フローティングアクションボタンを表示"
+    },
+    {
+      "name": "on_startup",
+      "value": "アプリ起動時"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "新しい記事を探す…"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "このリンクを開くために何かをインストールする"
+    },
+    {
+      "name": "image_loading",
+      "value": "画像の読み込み"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "充電時のみ"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "サムネイルを表示する"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Wi-Fi接続時のみ"
+    },
+    {
+      "name": "synchronization",
+      "value": "同期"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "30分ごと"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "15分ごと"
+    },
+    {
+      "name": "all_feeds",
+      "value": "すべてのフィード"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "ウェブブラウザで開く"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "通知を停止"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "未読にする"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "既読にする"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "open_links_with",
+      "value": "リンクを開く"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "カスタムタブのプリロード"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "オン"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "オフ"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "電池の最適化"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "これより下を既読にする"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "これより上を既読にする"
+    },
+    {
+      "name": "open_feed",
+      "value": "フィードを開く"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "タッチしてビデオを再生"
+    },
+    {
+      "name": "no_email_client",
+      "value": "メールクライアントを開けませんでした"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "バグレポートの送信"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "自動"
+    },
+    {
+      "name": "theme_system",
+      "value": "システム"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "URLを読み込めませんでした"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "フィードごとの最大アイテム数"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "通知は、構成されたフィードの未読アイテムに対してのみ表示されます"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "未読フィード"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "更新されたフィード"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "モバイルデータ通信料が発生するかもしれません。"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Web viewでリンクを開く"
+    },
+    {
+      "name": "reader_settings",
+      "value": "リーダー"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "リーダー"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "タグ展開の切り替え"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "検出されたフィードリスト"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Web viewで開く"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "モバイルホットスポットを含める"
+    },
+    {
+      "name": "read_article",
+      "value": "読み上げ"
+    },
+    {
+      "name": "use_app_default",
+      "value": "アプリのデフォルトを使う"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "優先ダークテーマ"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "%1$sへ"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "未読の記事のみ表示"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "すべての記事を表示"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "%1$sを解析できませんでした"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "完全な記事を取得できませんでした"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "フィードの同期"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$sを開く"
+    },
+    {
+      "name": "pause_reading",
+      "value": "読み上げ一時停止"
+    },
+    {
+      "name": "resume_reading",
+      "value": "読み上げ再開"
+    },
+    {
+      "name": "stop_reading",
+      "value": "読み上げ停止"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "記事のスタイル"
+    },
+    {
+      "name": "syncing",
+      "value": "同期"
+    },
+    {
+      "name": "sync_status",
+      "value": "同期ステータス"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "ブラック"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "ダーク"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "タグを開く"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "タグを閉じる"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "完全な記事を取得"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "デフォルトで完全な記事を取得"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "完全な記事を取得中…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "音声読み上げソフトを読み込めませんでした"
+    },
+    {
+      "name": "go_back",
+      "value": "戻る"
+    },
+    {
+      "name": "open_menu",
+      "value": "メニューを開く"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "未読"
+    },
+    {
+      "name": "already_read",
+      "value": "既読"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "カード"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "コンパクト"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "超コンパクト"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s件の未読記事"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s件の未読記事"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s件の未読記事"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s件の未読記事"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s件の未読記事"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "無効なIDを持つフィードのみ有効"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "OPMLのインポートに失敗しました"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "記事を開けませんでした"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s件の未読記事"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "ユニークなIDを生成する"
+    },
+    {
+      "name": "invalid_url",
+      "value": "有効なURLではありません"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPMLのエクスポートに失敗しました"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "このサービスはコミュニティによって支えられています。便利だと思われましたら寄付をご検討ください。"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "同期チェーンからデバイスを切断"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "同期チェーン上のデバイス"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "デバイス%1$sを削除しますか?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "お使いのデバイスで、デバイス同期に移動し、同期コードのスキャンを押します。"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "または、デバイスのリンクを開いてください。"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "これはパスワードのようなものです。リンクがあれば、誰でも同期されたデータを読むことができます。"
+    },
+    {
+      "name": "qr_code",
+      "value": "QRコード"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feederのデバイス同期コード"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "デバイス同期を使用すると、様々なデバイス間で購読フィードを同期して記事を読むことができます。"
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "他のデバイスで作成した同期チェーンからコードをスキャンするか、新しい同期チェーンを開始します。"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "同期コードのスキャンまたは入力"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "新しい同期チェーンを開始"
+    },
+    {
+      "name": "sync_code",
+      "value": "同期コード"
+    },
+    {
+      "name": "secret_key",
+      "value": "秘密鍵"
+    },
+    {
+      "name": "device_sync",
+      "value": "デバイス同期"
+    },
+    {
+      "name": "add_new_device",
+      "value": "新しいデバイスを追加"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (このデバイス)"
+    },
+    {
+      "name": "remove_device",
+      "value": "デバイスを削除"
+    },
+    {
+      "name": "disabled",
+      "value": "無効"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "どこからでも"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "スワイプして既読にする"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "同期チェーンを終了しますか?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "バーコードスキャナーが見つかりません"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "同期チェーンを終了"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "同期チェーンを始める"
+    },
+    {
+      "name": "only_from_end",
+      "value": "端からのみ"
+    },
+    {
+      "name": "block_list",
+      "value": "ブロックリスト"
+    },
+    {
+      "name": "add_item",
+      "value": "アイテムの追加"
+    },
+    {
+      "name": "remove",
+      "value": "削除"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feederの読み取り専用アクセス"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "アプリによるフィードと記事の読み取りを許可する"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "言語の検出"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "記事の言語を自動的に検出"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Android %1$s以降でのみ利用可能"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "通知を有効にするには、アクセス許可を付与する必要があります。"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "動的な色"
+    },
+    {
+      "name": "new_indicator",
+      "value": "新"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "テキスト読み上げ"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "次へスキップ"
+    },
+    {
+      "name": "set_language",
+      "value": "言語の設定"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "記事を取得するために同期する"
+    },
+    {
+      "name": "article_image",
+      "value": "記事の画像"
+    },
+    {
+      "name": "text_scale",
+      "value": "文字の大きさ"
+    },
+    {
+      "name": "block_list_description",
+      "value": "次のフィルターをタイトルに含む記事を隠します。例:"
+    },
+    {
+      "name": "feed_icon",
+      "value": "フィードのアイコン"
+    },
+    {
+      "name": "saved_articles",
+      "value": "保存された記事"
+    },
+    {
+      "name": "saved_article",
+      "value": "保存された記事"
+    },
+    {
+      "name": "save_article",
+      "value": "記事を保存する"
+    },
+    {
+      "name": "unsave_article",
+      "value": "記事を保存するのをやめる"
+    },
+    {
+      "name": "no_feeds",
+      "value": "フィードがありません"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$sフィード"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$sフィード"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$sフィード"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$sフィード"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$sフィード"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$sフィード"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$sタグ"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "%1$sを%2$sでインポートしますか?"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$sタグ"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$sタグ"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$sタグ"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$sタグ"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$sタグ"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "スクロールして既読にする"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "取得するものは見つかりませんでした"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "フィードに記事へのリンクがありません"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "リンクはHTMLドキュメントではありません"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "記事リスト"
+    },
+    {
+      "name": "filter_noun",
+      "value": "フィルター"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "最近読んだ"
+    },
+    {
+      "name": "read_adjective",
+      "value": "既読"
+    },
+    {
+      "name": "show_only_title",
+      "value": "タイトルのみ表示"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTPエラー"
+    },
+    {
+      "name": "no_url",
+      "value": "URLはありません"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "保存済み"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "ダウンロード出来ませんでした"
+    },
+    {
+      "name": "max_lines",
+      "value": "最大行数"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "ページの解析に失敗しました"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "コンテンツはHTMLではありません"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "RSSフィードの解析に失敗しました"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "JSONフィードの解析に失敗しました"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "ページ内にフィードはありません"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "回答はありません"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "未対応のコンテンツタイプ"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "記事全体の解析に失敗しました"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "電子ペーパー"
+    },
+    {
+      "name": "add_anyway",
+      "value": "とにかく追加"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "分割画面でブラウザーを開く"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "読み終わるまでの推定時間を表示"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s 語"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s 分"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s 分"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s 語"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s 分"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s 分"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s 語"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s 語"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s 分"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s 分"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s 語"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s 語"
+    },
+    {
+      "name": "close_menu",
+      "value": "メニューを閉じる"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "保存した記事をエクスポート"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "保存した記事のエクスポートに失敗しました"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "コンパクトなカード"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "重複記事をスキップする"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure APIのバージョン"
+    },
+    {
+      "name": "show_message",
+      "value": "メッセージを表示"
+    },
+    {
+      "name": "time_out",
+      "value": "タイムアウト（秒）"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "タイムアウトは３０～６００秒にしてください"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "AIリクエストのタイムアウト"
+    },
+    {
+      "name": "api_key",
+      "value": "API キー"
+    },
+    {
+      "name": "open_settings",
+      "value": "設定を開く"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "提案"
+    },
+    {
+      "name": "rename_tag",
+      "value": "タグ名の変更"
+    },
+    {
+      "name": "pause_audio",
+      "value": "一時停止"
+    },
+    {
+      "name": "stop_audio",
+      "value": "停止"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "10秒戻す"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "10秒進む"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "保存した記事をインポート"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "要約に適用"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "リンクに適用"
+    },
+    {
+      "name": "filters",
+      "value": "フィルター"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "リーダーで開く"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "デフォルトブラウザーで開く"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "カスタムタブで開く"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "ブラウザで記事を開けませんでした"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "カスタムタブで記事を開けませんでした"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "オーディオリンクを内蔵プレイヤーで再生する"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "無効な場合、オーディオリンクをデフォルトアプリで開きます。"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "保存された記事のインポートに失敗しました"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "記事が大きすぎます。代わりにブラウザで開きますか？"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "ページめくりモード"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "連続スクロールではなく、「ページをめくる」ことで記事を閲覧します。電子インク端末向けです。"
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "ページめくりアニメーション"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "ページめくりアニメーションの表示を短くします。一部の電子インク端末では、残像が発生する場合があります。"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "既存の記事とリンクまたはタイトルが同一の記事は無視されます"
+    },
+    {
+      "name": "summarize",
+      "value": "要約"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "開いた時に要約する"
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "記事のメタデータでサムネイルを向上"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "このフィードの設定されていないまたは低解像度のサムネイルを改善する"
+    },
+    {
+      "name": "openai_settings",
+      "value": "AIと翻訳"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "多くのAIプロバイダーと互換性がありますが、すべてではありません。"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "要約API"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "記事のサマリーを使用する。"
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "翻訳API"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "フィードカードと記事の翻訳を使用する。"
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL 認証キー"
+    },
+    {
+      "name": "model_id",
+      "value": "モデルID"
+    },
+    {
+      "name": "ai_provider",
+      "value": "プロバイダー"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "未設定"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "プロバイダー: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "なし"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI または互換"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "ローカルオフライン"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "ベースURL (任意)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "翻訳エンドポイント"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "タッチで音声を再生"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "未読記事の件数をタイトルに表示"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "注意！この機能はベータ機能です。事前にすべてのフィードをOPML形式でエクスポートし、バックアップとして保存しておいてください。"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "モデルをロードできません。"
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "モデルが見つかりません"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure デプロイメントID"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "利用可能なモデルの一覧"
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "保存する前にAPIキーを入力してください。"
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "保存する前にDeepL APIキーを入力してください。"
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "保存する前にモデルIDを入力してください。"
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "API設定を検証中…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "API設定を検証できませんでした。"
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "保存する前にあなたのAzureエンドポイントを入力してください。"
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "保存する前にあなたのAzureデプロイメントIDを入力してください。"
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "保存する前にAzureバージョンを入力してください。"
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Azure OpenAI設定を検証中…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Azure OpenAI 設定を検証できませんでした。"
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "DeepL キーを検証中…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "DeepL キーを検証できませんでした。"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "すべてのフィードをマークしたあとにフィードを見る"
+    },
+    {
+      "name": "on",
+      "value": "オン"
+    },
+    {
+      "name": "off",
+      "value": "オフ"
+    },
+    {
+      "name": "search_verb",
+      "value": "検索"
+    },
+    {
+      "name": "cancel_search",
+      "value": "検索を中止"
+    },
+    {
+      "name": "text",
+      "value": "テキスト"
+    },
+    {
+      "name": "font",
+      "value": "フォント"
+    },
+    {
+      "name": "text_preview",
+      "value": "テキストプレビュー"
+    },
+    {
+      "name": "system_default",
+      "value": "システムデフォルト"
+    },
+    {
+      "name": "weight",
+      "value": "太さ"
+    },
+    {
+      "name": "italic",
+      "value": "斜体"
+    },
+    {
+      "name": "add_font",
+      "value": "フォントを追加…"
+    },
+    {
+      "name": "bold",
+      "value": "太字"
+    },
+    {
+      "name": "text_settings",
+      "value": "テキスト設定"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "フォントを追加できません"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "フォントを取り除けません"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "何らかの問題が発生しました"
+    },
+    {
+      "name": "translate_article",
+      "value": "記事を翻訳"
+    },
+    {
+      "name": "show_original_language",
+      "value": "原文を表示 (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "原文"
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "%1$s から %2$s のオフライン翻訳モデルを準備…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "%1$s から %2$s の翻訳モデルをダウンロード: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "初回ダウンロードは20～50MB程度で、数分かかる場合があります。ダウンロード後はオフラインで翻訳が可能です。"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "希望する翻訳言語"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Feederが翻訳する言語を選択してください。"
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "翻訳する言語"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "ローカル翻訳にはAndroid 12以降が必要です。"
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "ローカル翻訳はこのデバイスでは利用できません。"
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "ローカル翻訳を作成できません。"
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "ローカル翻訳がタイムアウトしました。"
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "ローカル翻訳に失敗しました。"
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "ローカル翻訳が空のテキストを返しました。"
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "ローカル翻訳の準備ができていません。デバイスの翻訳設定を確認して、もう一度お試しください。"
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "%1$s -> %2$s に対応するベルガモットモデルがありません。システム翻訳言語を確認してください。"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "ベルガモットモデルがタイムアウトしました。"
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "ベルガモットモデルの翻訳に失敗しました。"
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "接続してモデルリストをダウンロードします。"
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "%1$s -> %2$s モデルをダウンロードできません。"
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "ベルガモット WebView 翻訳がタイムアウトしました。"
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "ベルガモット WebView が初期化できません。"
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "ベルガモットのレスポンスをパースできません。"
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "まず、お使いのデバイスの翻訳サービスを使用します。"
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "利用できない場合、Feederはダウンロード可能なオフライン翻訳エンジンを使用できます。"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "言語を選択"
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "ダウンロード可能な言語のみ表示"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "AI設定で希望する翻訳言語をセット"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "記事のプレビューを翻訳"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "デフォルトで記事を翻訳"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "翻訳モデルをダウンロード"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "オフライン翻訳言語がFeederによりダウンロードされました。不要になった言語を削除して、空き容量を確保できます。"
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "モデルを削除"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "%1$s から %2$s への翻訳モデルを削除しますか (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "すべてのダウンロード済みモデルを削除"
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "すべての %1$d ダウンロード済みモデルを削除しますか (%2$s)？"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "%1$s から %2$s へのモデルを削除"
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "すべてのダウンロード済みモデルを削除しました"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "翻訳モデルはまだダウンロードされていません。翻訳に必要なモデルは自動的にダウンロードされます。"
+    },
+    {
+      "name": "delete_button_text",
+      "value": "削除"
+    },
+    {
+      "name": "cancel",
+      "value": "キャンセル"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "再読み込み"
+    },
+    {
+      "name": "force_single_column",
+      "value": "単一カラムを強制"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "このオーディオファイルを再生できません"
+    },
+    {
+      "name": "play_audio",
+      "value": "再生"
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "続行するには、オフライン翻訳エンジンをダウンロードしてください。"
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "オフライン翻訳エンジンをダウンロードしますか？"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feederは、Mozilla/Bergamotプロジェクトから4.9MBの実行可能なWebAssemblyランタイムをダウンロードします。このコードはF-Droidによってビルドまたは検証されていません。ダウンロード後、翻訳はオフラインで動作します。"
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "オフライン翻訳エンジンをダウンロードできませんでした。"
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "オフライン翻訳エンジンをダウンロード中: %1$d%%"
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "記事のフィルタリングルール"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "ルールは1行に1つずつ記述し、FieldName=pattern の形式で指定します。使用可能なフィールドは、Title、URL、Author、Tag、Content です。pattern は、フィールド内の任意の場所に一致する正規表現です。大文字と小文字を区別するには、(?i) で始めます。ルールは次回の取得時に有効になり、既に保存されている記事には反映されません。"
+    },
+    {
+      "name": "block_rules",
+      "value": "ブロックルール"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "マッチした記事はダウンロードされません。ブロックリストとは異なり、この設定は元に戻すことができません。ルールを削除しても、既にスキップされた記事は復元されません。"
+    },
+    {
+      "name": "allow_rules",
+      "value": "許可ルール"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "許可ルールが設定されている場合、マッチする記事のみがダウンロードされます。タグルールはタグのない記事には適用されないため、タグのないフィードはタグルールのみによって空になることはありません。"
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)sponsored"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "行 %1$d: '=' がありません。無効な行は無視されます。"
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "行 %1$d: '%2$s' は既定のフィールドではありません。無効な行は無視されます。"
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "行 %1$d: パターンが空です。これはすべてに一致します。無効な行は無視されます。"
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "行 %1$d: 無効な正規表現です。無効な行は無視されます。"
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "行 %1$d: 最初の %2$d 個のルールが使用されます。このあとの行は無視されます。"
+    },
+    {
+      "name": "download",
+      "value": "ダウンロード"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

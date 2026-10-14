@@ -1,0 +1,1048 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Avaa navigointivalikko"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Sulje navigointivalikko"
+    },
+    {
+      "name": "action_settings",
+      "value": "Asetukset"
+    },
+    {
+      "name": "add_feed",
+      "value": "Lisää syöte"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Tilaa syöte"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Tunniste"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Syöte-URL"
+    },
+    {
+      "name": "title",
+      "value": "Otsikko"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Tallenna"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Täällä ei ole mitään luettavaa. Haluaisitko…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Avataanko toinen syöte?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Lisää enemmän syötteitä?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Lisää syötteen osoite"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Merkitse luetuksi"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Merkitse lukemattomaksi"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Merkitse kaikki luetuksi"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Muokkaa syötettä"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Poista syöte"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Näytä kaikki kohteet"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Näytä lukemattomat kohteet"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Uusia kohteita saatavilla"
+    },
+    {
+      "name": "view",
+      "value": "Näytä"
+    },
+    {
+      "name": "no_tag",
+      "value": "Ei tunnisteita"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Ilmoita uusista kohteista"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Lopeta ilmoitukset"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Vaihda lukemattomuuden tila"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Avaa linkki selaimessa"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Avaa selaimessa"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Avaa liitetty media"
+    },
+    {
+      "name": "sync",
+      "value": "Synkronoi nyt"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Vie syötteet OPML-muotoon"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Tuo syötteet OPML: stä"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Näytä virheenkorjausloki"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Uusi perustuen tähän"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Osoitin luetuksi merkkaamiseen"
+    },
+    {
+      "name": "share",
+      "value": "Jaa"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Tällaista syötettä ei löytynyt. Kokeile käyttää HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Ei mitään näytettävää!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Asetukset"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Kaikki syötteet"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manuaalisesti"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "15 minuutin välein"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "30 minuutin välein"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "1 tunnin välein"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "3 tunnin välein"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "6 tunnin välein"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "12 tunnin välein"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Päivittäin"
+    },
+    {
+      "name": "synchronization",
+      "value": "Synkronoidaan"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Vain Wi-Fi-yhteydellä"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Näytä pikkukuvat"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Voi johtaa mobiiliverkon tiedonsiirto kuluihin."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Vain ladattaessa"
+    },
+    {
+      "name": "image_loading",
+      "value": "Kuvien lataaminen"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Asenna ensin jotain avataksesi tämän linkin"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Uusia artikkeleita etsitään…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Sovelluksen käynnistyessä"
+    },
+    {
+      "name": "show_fab",
+      "value": "Kelluva toimintopainike"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Sisällytä mobiili hotspotit"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Päivitetyt syötteet"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Lukemattomat syötteet"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Ilmoitukset näytetään vain määritellyissä syötteissä oleville lukemattomille kohteille"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lukija"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Web-näkymä"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Oletusselain"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Mukautettu välilehti"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Avaa kohteet oletusarvoisesti"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Avaa linkit käyttäen"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lukija"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Avaa linkki Web-näkymässä"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Avaa Web-näkymässä"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Syötteen sisällön raja"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "URL-osoitetta ei voitu ladata"
+    },
+    {
+      "name": "theme_system",
+      "value": "Järjestelmä"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Automaattinen"
+    },
+    {
+      "name": "theme_day",
+      "value": "Päivä"
+    },
+    {
+      "name": "theme_night",
+      "value": "Yö"
+    },
+    {
+      "name": "theme",
+      "value": "Teema"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Uusin ensin"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Vanhin ensin"
+    },
+    {
+      "name": "sort",
+      "value": "Lajittelujärjestys"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Lähetä virheraportti"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Sähköpostiohjelmaa ei voitu avata"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Toista video koskettamalla"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Avaa syöte"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Merkitse yllä olevat luetuiksi"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Merkitse alla olevat luetuiksi"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Löydettyjen syötteiden luettelo"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Vaihda tagin laajennustilaa"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Akun optimointi"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Pois käytöstä"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Käytössä"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Esilataa mukautettu välilehti"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Tekstistä puheeksi -toiminnallisuuden lataaminen epäonnistui"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Koko artikkelia haetaan…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Koko artikkelia ei voitu hakea"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Hae kokonaisia artikkeleita oletusarvoisesti"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Hae koko artikkeli"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Jatka lukemista"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Keskeytä lukeminen"
+    },
+    {
+      "name": "read_article",
+      "value": "Lue ääneen"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Parseeraus epäonnistui %1$s"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s lukematonta artikkelia"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Synkronoi syötteet"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Vain lukemattomat artikkelit näytetään"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Kaikki artikkelit näytetään"
+    },
+    {
+      "name": "already_read",
+      "value": "Jo luettu"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Lukematon"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s lukematonta artikkelia"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s lukematonta artikkelia"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s lukematonta artikkelia"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s lukematonta artikkelia"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s lukematon artikkeli"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Siirry kohtaan %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "Avaa valikko"
+    },
+    {
+      "name": "go_back",
+      "value": "Palaa takaisin"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Suljettu tunniste"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Avattu tunniste"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Käytä sovelluksen oletusarvoa"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Lopeta lukeminen"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Avaa %1$s"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Erittäin kompakti"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakti"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kortti"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Artikkelin tyyli"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Musta"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Tumma"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Suosittu tumma teema"
+    },
+    {
+      "name": "syncing",
+      "value": "Synkronoidaan"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Ei kelvollinen URL-osoite"
+    },
+    {
+      "name": "sync_status",
+      "value": "Synkronoinnin tila"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Artikkelia ei voitu avata"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Luo ylimääräisiä yksilöllisiä tunnuksia"
+    },
+    {
+      "name": "disabled",
+      "value": "Pois päältä"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Vain lopusta"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Mistä tahansa"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Merkitse luettu pyyhkäisemällä"
+    },
+    {
+      "name": "secret_key",
+      "value": "Salainen avain"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Liity synkronointiketjuun"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Viivakoodiskanneria ei löytynyt"
+    },
+    {
+      "name": "add_item",
+      "value": "Lisää kohde"
+    },
+    {
+      "name": "device_sync",
+      "value": "Laitteen synkronointi"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Lisää uusi laite"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Ota käyttöön vain syötteille, joilla on huonot tunnukset"
+    },
+    {
+      "name": "block_list",
+      "value": "Estoluettelo"
+    },
+    {
+      "name": "article_image",
+      "value": "Artikkelin kuva"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Tunnista kieli"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Saatavilla vain Androidissa %1$s ja uudemmissa"
+    },
+    {
+      "name": "set_language",
+      "value": "Aseta kieli"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Tunnistaa automaattisesti artikkelin kielen"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Teksti puheeksi"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Siirry seuraavaan"
+    },
+    {
+      "name": "qr_code",
+      "value": "QR-koodi"
+    },
+    {
+      "name": "remove_device",
+      "value": "Poista laite"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Haluatko varmasti poistaa laitteen %1$s?"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Skannaa tai kirjoita synkronointikoodi"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Sallii sovelluksen lukea syötteitä ja artikkeleja"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feederin \"vain luku\"-pääsyoikeus"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPML:n vieminen epäonnistui"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dynaamiset värit"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Ennen kuin ilmoitukset voi ottaa käyttöön, sitä varten tulee antaa käyttöoikeus."
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "OPML:n tuominen epäonnistui"
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (tämä laite)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Katkaise laitteen yhteys synkronointiketjuun"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Laitteet synkronointiketjussa"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Vaihtoehtoisesti avaa linkki laitteellasi."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Kohtele tätä kuin salasanaa. Kuka tahansa, kenellä on tämä linkki, voi lukea synkronoituja tietojasi."
+    },
+    {
+      "name": "remove",
+      "value": "Poista"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder-laitteen synkronointikoodi"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Poistu synkronointiketjusta"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Käynnistä uusi synkronointiketju"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Haluatko varmasti poistua synkronointiketjusta?"
+    },
+    {
+      "name": "sync_code",
+      "value": "Synkronointikoodi"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Uusi"
+    },
+    {
+      "name": "text_scale",
+      "value": "Tekstin skaalaus"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Laitteellasi, siirry synkronintiin ja paina skannaa synkronointi koodi."
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Synkronoi noutamaan artikkeli"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Piilottaa artikkelit, joiden otsikot sisältävät jonkin näistä suodattimista. Esimerkkisuodattimet:"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Tämä palvelu on yhteisön rahoittama. Harkitse lahjoittamista, jos näät tämän hyödyllisenä."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Skannaa yksinkertaisesti koodi synkronointiketjustasi, jonka loin toisella laitteella, tai aloita uusi synkronointiketju."
+    },
+    {
+      "name": "feed_icon",
+      "value": "Syötteen kuvake"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Laitteen synkronointi mahdollistaa syötteiden tilausten ja lukemiesi artikkeleiden synkronoinnin eri laitteidesi välillä."
+    },
+    {
+      "name": "saved_article",
+      "value": "Tallennettu artikkeli"
+    },
+    {
+      "name": "save_article",
+      "value": "Tallenna Artikkeli"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Merkitse luetuksi vierityksellä"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Tallennetut artikkelit"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Lopeta artikkelin tallentaminen"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Ei syötteitä"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s syötettä"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s syöte"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s syötettä"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s syötettä"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s syötettä"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s tunnistetta"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s tunnistetta"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s tunnistetta"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Artikkelilista"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s syötettä"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s tunniste"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s tunnistetta"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Haettavaa ei löytynyt"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Linkki ei ole HTML-dokumentti"
+    },
+    {
+      "name": "max_lines",
+      "value": "Rivien maksimimäärä"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Suodatin"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Luettu äskettäin"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Tallennettu"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Luetut"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Tuodaanko %1$s %2$s:lla?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s tunnistetta"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Syötteestä puuttuu linkki artikkeliin"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Näytä vain otsikko"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Lataaminen epäonnistui"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Sivun jäsentäminen epäonnistui"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Sivulla ei ole syötteitä"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Sisältö ei ole HTML-muodossa"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "RSS-syötteen jäsentäminen epäonnistui"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP-virhe"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "JSON-syötteen jäsentäminen epäonnistui"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Vastauksessa ei ole leipätekstiä"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Ei-tuettu sisältötyyppi"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Koko artikkelin jäsentäminen epäonnistui"
+    },
+    {
+      "name": "no_url",
+      "value": "Ei URL:ää"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Sähkömuste"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Lisää kuitenkin"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Näytä arvioitu lukemisaika"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s sanaa"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minuuttia"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minuuttia"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s sanaa"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minuuttia"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minuuttia"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s sanaa"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s sanaa"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minuutti"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Avaa selain jaettuun näyttöön"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minuuttia"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s sanaa"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s sana"
+    },
+    {
+      "name": "close_menu",
+      "value": "Sulje valikko"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Vie tallennetut artikkelit"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Tallennettujen artikkeleiden vienti epäonnistui"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Toista ääntä koskettamalla"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Ohita monistetut artikkelit"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompakti kortti"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Artikkelit, joiden linkit tai otsikot ovat identtisiä olemassa olevien artikkelien kanssa sivuutetaan"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Näytä lukemattomien artikkeleiden määrä otsikossa"
+    },
+    {
+      "name": "show_message",
+      "value": "Näytä viesti"
+    },
+    {
+      "name": "summarize",
+      "value": "Tee yhteenveto"
+    },
+    {
+      "name": "openai_settings",
+      "value": "OpenAI-integraatio"
+    },
+    {
+      "name": "api_key",
+      "value": "API-avain"
+    },
+    {
+      "name": "model_id",
+      "value": "Mallin tunnus"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API -versio"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Malleja ei voi ladata."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Malleja ei löytynyt"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure-käyttöönottotunnus"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Luettelo saatavilla olevista malleista"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

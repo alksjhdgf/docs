@@ -1,0 +1,205 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-volume-paging",
+ "steps": [
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Settings",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Theme"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Paging Mode",
+   "dir": "up",
+   "max": 10
+  },
+  {
+   "op": "swipe",
+   "dir": "up"
+  },
+  {
+   "op": "tap",
+   "match": "=Paging Mode"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "^Feeder News",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "^Feeder News"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "^2.24.0 released",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=0:59 minutes",
+   "timeout": 6000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=2.24.0 released",
+    "=🚀 Features"
+   ]
+  },
+  {
+   "op": "key",
+   "name": "17",
+   "ms": 1500
+  },
+  {
+   "op": "probe",
+   "match": [
+    "=2.24.0 released",
+    "=🚀 Features"
+   ]
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=🌐 Translations"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-volume-down"
+  },
+  {
+   "op": "key",
+   "name": "16",
+   "ms": 1500
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=2.24.0 released"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-volume-up"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 3
+  },
+  {
+   "op": "wait",
+   "match": "=Settings",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Settings"
+  },
+  {
+   "op": "wait",
+   "match": "=Theme"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Paging Mode",
+   "dir": "up",
+   "max": 10
+  },
+  {
+   "op": "swipe",
+   "dir": "up"
+  },
+  {
+   "op": "tap",
+   "match": "=Paging Mode"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "tap",
+   "match": "^2.24.0 released",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=0:59 minutes",
+   "timeout": 6000
+  },
+  {
+   "op": "key",
+   "name": "17",
+   "ms": 1500
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=2.24.0 released",
+    "=🚀 Features"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-volume-nonpaging"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

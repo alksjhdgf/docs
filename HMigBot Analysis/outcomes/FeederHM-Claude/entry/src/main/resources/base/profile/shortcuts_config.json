@@ -1,0 +1,52 @@
+{
+  "shortcuts": [
+    {
+      "shortcutId": "feed_slot_0",
+      "label": "$string:hm_shortcut_recent_feed_1",
+      "icon": "$media:ic_launcher",
+      "visible": false,
+      "wants": [
+        {
+          "bundleName": "com.nononsenseapps.feeder",
+          "moduleName": "entry",
+          "abilityName": "EntryAbility",
+          "parameters": {
+            "feederShortcutSlot": "0"
+          }
+        }
+      ]
+    },
+    {
+      "shortcutId": "feed_slot_1",
+      "label": "$string:hm_shortcut_recent_feed_2",
+      "icon": "$media:ic_launcher",
+      "visible": false,
+      "wants": [
+        {
+          "bundleName": "com.nononsenseapps.feeder",
+          "moduleName": "entry",
+          "abilityName": "EntryAbility",
+          "parameters": {
+            "feederShortcutSlot": "1"
+          }
+        }
+      ]
+    },
+    {
+      "shortcutId": "feed_slot_2",
+      "label": "$string:hm_shortcut_recent_feed_3",
+      "icon": "$media:ic_launcher",
+      "visible": false,
+      "wants": [
+        {
+          "bundleName": "com.nononsenseapps.feeder",
+          "moduleName": "entry",
+          "abilityName": "EntryAbility",
+          "parameters": {
+            "feederShortcutSlot": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

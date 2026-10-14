@@ -1,0 +1,157 @@
+{
+ "bundle": "com.nononsenseapps.feeder",
+ "name": "flow-shortcuts",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "type:^Button$",
+   "timeout": 15000
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Planet Money",
+   "dir": "up",
+   "max": 6
+  },
+  {
+   "op": "tap",
+   "match": "=Planet Money"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "type:^Button$",
+   "nth": 0
+  },
+  {
+   "op": "scrollUntil",
+   "match": "^The Changelog",
+   "dir": "up",
+   "max": 6
+  },
+  {
+   "op": "tap",
+   "match": "^The Changelog",
+   "nth": 0
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "longpress",
+   "match": "^AppIcon_Image_com\\.nononsenseapps\\.feeder"
+  },
+  {
+   "op": "wait",
+   "match": "=Recent feed 1",
+   "timeout": 4000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Recent feed 1",
+    "=Recent feed 2",
+    "=Recent feed 3",
+    "=Widgets"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow-shortcuts-menu"
+  },
+  {
+   "op": "tap",
+   "match": "=Recent feed 1"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "^The Changelog",
+   "dir": "up",
+   "max": 6
+  },
+  {
+   "op": "shot",
+   "name": "flow-shortcuts-recent1"
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "longpress",
+   "match": "^AppIcon_Image_com\\.nononsenseapps\\.feeder"
+  },
+  {
+   "op": "wait",
+   "match": "=Recent feed 2",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Recent feed 2"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=Planet Money",
+   "dir": "up",
+   "max": 6
+  },
+  {
+   "op": "key",
+   "name": "Home"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "longpress",
+   "match": "^AppIcon_Image_com\\.nononsenseapps\\.feeder"
+  },
+  {
+   "op": "wait",
+   "match": "=Recent feed 3",
+   "timeout": 4000
+  },
+  {
+   "op": "tap",
+   "match": "=Recent feed 3"
+  },
+  {
+   "op": "wait",
+   "match": "^Feeder News",
+   "timeout": 8000
+  },
+  {
+   "op": "shot",
+   "name": "flow-shortcuts-recent3"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

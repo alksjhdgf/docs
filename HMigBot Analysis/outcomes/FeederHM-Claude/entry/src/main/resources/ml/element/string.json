@@ -1,0 +1,628 @@
+{
+  "string": [
+    {
+      "name": "no_tag",
+      "value": "അടയാളങ്ങളൊന്നുമില്ല"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "വായിക്കാത്ത ഇനങ്ങൾ കാണിക്കൂ"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "ഇവിടെ വായിക്കാൻ ഒന്നുമില്ല. ഇത് ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നോ…"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "ഫീഡിലേക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ"
+    },
+    {
+      "name": "sort",
+      "value": "ഇങ്ങനെ അടുക്കുക"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "സ്വയം"
+    },
+    {
+      "name": "theme_system",
+      "value": "സംവിധാനം"
+    },
+    {
+      "name": "reader_settings",
+      "value": "വായനക്കാരൻ"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "തന്നത്താന്‍"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "എല്ലാ മണിക്കൂറും"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "എല്ലാ 3 മണിക്കൂറും"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "എല്ലാ 6 മണിക്കൂറും"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "എല്ലാ 12 മണിക്കൂറും"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "എല്ലാ ദിവസവും"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "ചാർജ് ചെയ്യുമ്പോൾ മാത്രം"
+    },
+    {
+      "name": "synchronization",
+      "value": "സമന്വയിപ്പിക്കുന്നു"
+    },
+    {
+      "name": "sync",
+      "value": "സമന്വയിപ്പിക്കൂ"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "വായിക്കാത്തതായി കാണിക്കൂ"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "മറ്റൊരു ഫീഡ് തുറക്കണോ?"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "ഫീഡിനുള്ള URL"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "നാവിഗേഷൻ ഡ്രോയർ അടയ്‌ക്കൂ"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "നാവിഗേഷൻ ഡ്രോയർ തുറക്കൂ"
+    },
+    {
+      "name": "open_feed",
+      "value": "ഫീഡ് തുറക്കൂ"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "ലഖുചിത്രങ്ങൾ കാണിക്കൂ"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "വൈഫൈയിൽ മാത്രം"
+    },
+    {
+      "name": "all_feeds",
+      "value": "എല്ലാ ഫീഡുകളും"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "ക്രമീകരണങ്ങൾ"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "കാണിക്കാനൊന്നുമില്ല!"
+    },
+    {
+      "name": "share",
+      "value": "പങ്കിടൂ"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "ബ്രൗസറിൽ തുറക്കൂ"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "ബ്രൗസറിൽ ലിങ്ക് തുറക്കൂ"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "അറിയിപ്പുകൾ നിർത്തൂ"
+    },
+    {
+      "name": "new_items_available",
+      "value": "പുതിയ ഇനങ്ങൾ ലഭ്യമാണ്"
+    },
+    {
+      "name": "show_all_items",
+      "value": "എല്ലാ ഇനങ്ങളും കാണിക്കൂ"
+    },
+    {
+      "name": "delete_feed",
+      "value": "ഫീഡ് ഇല്ലാതാക്കൂ"
+    },
+    {
+      "name": "edit_feed",
+      "value": "ഫീഡ് തിരുത്തൂ"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "എല്ലാം വായിച്ചതായി കാണിക്കൂ"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "വായിച്ചതായി കാണിക്കൂ"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "ഒരു ഫീഡ് വിലാസം നൽകുക"
+    },
+    {
+      "name": "save",
+      "value": "സംരക്ഷിക്കൂ"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "title",
+      "value": "ശീർഷകം"
+    },
+    {
+      "name": "tag",
+      "value": "അടയാളം"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "add_feed",
+      "value": "ഫീഡ് ചേർക്കൂ"
+    },
+    {
+      "name": "action_settings",
+      "value": "ക്രമീകരണങ്ങൾ"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "വീഡിയോ പ്ലേ ചെയ്യാൻ തൊടുക"
+    },
+    {
+      "name": "open_links_with",
+      "value": "ഇത് ഉപയോഗിച്ച് ലിങ്കുകൾ തുറക്കുക"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "പുതിയ ലേഖനങ്ങൾക്കായി തിരയുക…"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "എല്ലാ 30 മിനിറ്റും"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "എല്ലാ 15 മിനിറ്റും"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "അത്തരം ഫീഡുകളൊന്നും കണ്ടെത്താൻ കഴിഞ്ഞില്ല. ഒരുപക്ഷേ https ഉപയോഗിച്ചു നോക്കൂ."
+    },
+    {
+      "name": "show_fab",
+      "value": "ഫ്ലോട്ടിംഗ് ആക്ഷൻ ബട്ടൺ കാണിക്കുക"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "കൂടുതൽ ഫീഡുകൾ  ചേർക്കണോ?"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "പുതുക്കിയ ഫീഡുകൾ"
+    },
+    {
+      "name": "image_loading",
+      "value": "ചിത്രം ലഭ്യമാക്കുന്നൂ"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "ഏറ്റവും പുതിയത് ആദ്യം"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "ഏറ്റവും പഴയത് ആദ്യം"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "മുകളിൽ പറഞ്ഞവ വായിച്ചതായി അടയാളപ്പെടുത്തുക"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "ചുവടെ വായിച്ചതായി അടയാളപ്പെടുത്തുക"
+    },
+    {
+      "name": "theme_night",
+      "value": "രാത്രി"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "ബഗ് റിപ്പോർട്ട് അയയ്ക്കൂ"
+    },
+    {
+      "name": "theme",
+      "value": "രൂപഭംഗി"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "കണ്ടെത്തിയ ഫീഡുകളുടെ പട്ടിക"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "ഇഷ്‌ടാനുസൃത ടാബ് പ്രീലോഡുചെയ്യുക"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "സ്ഥിര ബ്രൌസർ"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "വായിക്കാത്ത ഫീഡുകൾ"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "പുതിയ ഇനങ്ങൾക്കായി അറിയിക്കുക"
+    },
+    {
+      "name": "view",
+      "value": "പ്രദർശനം"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "മുഴുവൻ ലേഖനവും ലഭ്യമാക്കൂ"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "വെബ് കാഴ്ചയിൽ ലിങ്ക് തുറക്കുക"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "വായിച്ചന്ന് കാണിക്കുന്നതിനുള്ള സൂചകം"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "OPML-ലേക്ക് ഫീഡുകൾ കയറ്റുമതി ചെയ്യൂ"
+    },
+    {
+      "name": "article_image",
+      "value": "ലേഖന ചിത്രം"
+    },
+    {
+      "name": "disabled",
+      "value": "പ്രവർത്തനരഹിതമാക്കുക"
+    },
+    {
+      "name": "text_scale",
+      "value": "വാചക വലുപ്പം"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "ഭാഷ തിരിച്ചറിയുക"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "ലേഖന ഭാഷ സ്വയമേവ കണ്ടെത്തുന്നു"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "മൊബൈൽ ഹോട്ട്‌സ്‌പോട്ടുകൾ ഉൾപ്പെടുത്തുക"
+    },
+    {
+      "name": "invalid_url",
+      "value": "സാധുവായ യുആർഎൽ അല്ല"
+    },
+    {
+      "name": "add_item",
+      "value": "ഇനം ചേർക്കുക"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "%1$s എന്നതിലേക്ക് പോകുക"
+    },
+    {
+      "name": "block_list",
+      "value": "തടസ്സപ്പെടുത്തി വച്ചിരിക്കുന്നവയുടെ പട്ടിക"
+    },
+    {
+      "name": "device_sync",
+      "value": "ഉപകരണ സമന്വയം"
+    },
+    {
+      "name": "add_new_device",
+      "value": "പുതിയ ഉപകരണം ചേർക്കുക"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "ഈ സേവനത്തിന് സമൂഹമാണ് പണം നൽകുന്നു. നിങ്ങൾക്ക് ഉപകാരപ്രദമെന്ന് തോന്നുന്നെങ്കിൽ സംഭാവന നൽകുന്നത് പരിഗണിക്കുക."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (ഈ ഉപകരണം)"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "പുതിയ സമന്വയ ശൃംഖല ആരംഭിക്കുക"
+    },
+    {
+      "name": "secret_key",
+      "value": "രഹസ്യ താക്കോൽ"
+    },
+    {
+      "name": "syncing",
+      "value": "സമന്വയിപ്പിക്കുന്നു"
+    },
+    {
+      "name": "sync_status",
+      "value": "സമന്വയ നില"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "വായനക്കാരൻ"
+    },
+    {
+      "name": "theme_day",
+      "value": "ദിവസം"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "ഇരുണ്ട"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "സ്ഥിരസ്ഥിതിയായി മുഴുവൻ ലേഖനങ്ങളും ലഭ്യമാക്കുക"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "ബാറ്ററി ഉത്തമീകരണം"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "വായിക്കാത്ത ലേഖനങ്ങൾ മാത്രം കാണിക്കുന്നു"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "ലേഖന ശൈലി"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "ഒതുക്കമുള്ള"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "അടച്ച മാധ്യമം തുറക്കുക"
+    },
+    {
+      "name": "on_startup",
+      "value": "പ്രയോഗം ആരംഭിക്കുമ്പോൾ"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$s തുറക്കുക"
+    },
+    {
+      "name": "read_article",
+      "value": "ഉച്ചത്തിൽ വായിക്കുക"
+    },
+    {
+      "name": "pause_reading",
+      "value": "വായന താൽക്കാലികമായി നിർത്തുക"
+    },
+    {
+      "name": "stop_reading",
+      "value": "വായന നിർത്തുക"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "മൊബൈൽ ഡാറ്റ നിരക്കുകൾക്ക് കാരണമായേക്കാം."
+    },
+    {
+      "name": "only_from_end",
+      "value": "അവസാനം മുതൽ മാത്രം"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "കറുപ്പ്"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "മുഴുവൻ ലേഖനവും ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "മുഴുവൻ ലേഖനവും ലഭ്യമാക്കുന്നു…"
+    },
+    {
+      "name": "go_back",
+      "value": "മടങ്ങിപ്പോവുക"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "എല്ലാ ലേഖനങ്ങളും കാണിക്കുന്നു"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "ചീട്ട്‌"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s വായിക്കാത്ത ലേഖനങ്ങൾ"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s വായിക്കാത്ത ലേഖനങ്ങൾ"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "അധിക അദ്വിതീയ ഐഡികൾ സൃഷ്ടിക്കുക"
+    },
+    {
+      "name": "remove",
+      "value": "നീക്കം ചെയ്യുക"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "%1$s ഉപകരണം ഇല്ലാതാക്കണമെന്ന് തീർച്ചയാണോ?"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "സമന്വയ ശൃംഖല വിടുക"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "എവിടെ നിന്നും"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "അറിയിപ്പുകൾ പ്രവർത്തനക്ഷമമാക്കുന്നതിന് മുമ്പ് അനുമതി നൽകണം."
+    },
+    {
+      "name": "new_indicator",
+      "value": "പുതിയത്"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "സമന്വയ ശൃംഖല ഉപേക്ഷിക്കണമെന്ന് തീർച്ചയാണോ?"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "വായിച്ചതായി അടയാളപ്പെടുത്താൻ സ്വൈപ്പ് ചെയ്യുക"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "സമന്വയ ശൃംഖലയിലെ ഉപകരണങ്ങൾ"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "സമന്വയ ശൃംഖലയിൽ ചേരുക"
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "പകരമായി, നിങ്ങളുടെ ഉപകരണത്തിലെ ലിങ്ക് തുറക്കുക."
+    },
+    {
+      "name": "remove_device",
+      "value": "ഉപകരണം നീക്കം ചെയ്യുക"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "സമന്വയ ശൃംഖലയിൽ നിന്ന് ഉപകരണം വിച്ഛേദിക്കുക"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s വായിക്കാത്ത ലേഖനങ്ങൾ"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s വായിക്കാത്ത ലേഖനങ്ങൾ"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s വായിക്കാത്ത ലേഖനം"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s വായിക്കാത്ത ലേഖനങ്ങൾ"
+    },
+    {
+      "name": "resume_reading",
+      "value": "വായന പുനരാരംഭിക്കുക"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "യുആർഎൽ ലോഡ് ചെയ്യാനായില്ല"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "ലേഖനം തുറക്കാൻ കഴിഞ്ഞില്ല"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "ലേഖനം ലഭ്യമാക്കാൻ സമന്വയിപ്പിക്കുക"
+    },
+    {
+      "name": "already_read",
+      "value": "ഇതിനകം വായിച്ചിട്ടുണ്ട്"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "ഉപയോഗിച്ച് സ്ഥിരസ്ഥിതിയായി ഇനങ്ങൾ തുറക്കുക"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "സംഭാഷണത്തിലേക്ക് വാചകം ലോഡ് ചെയ്യാനായില്ല"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "വെബ് കാഴ്‌ചയിൽ തുറക്കുക"
+    },
+    {
+      "name": "treat_like_password",
+      "value": "ഇതൊരു പാസ്‌വേഡ് പോലെ പരിഗണിക്കുക. ലിങ്ക് ഉണ്ടെങ്കിൽ ആർക്കും നിങ്ങളുടെ സമന്വയിപ്പിച്ച ഡാറ്റ വായിക്കാനാകും."
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "ഫീഡുകളും ലേഖനങ്ങളും വായിക്കാൻ പ്രയോഗത്തെ അനുവദിക്കുന്നു"
+    },
+    {
+      "name": "javascript",
+      "value": "ജാവാസ്ക്രിപ്റ്റ്"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "വായിക്കാത്തത്"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "ചലനാത്മകമായ നിറങ്ങൾ"
+    },
+    {
+      "name": "no_email_client",
+      "value": "ഇ-മെയിൽ കക്ഷിയെ തുറക്കാൻ കഴിഞ്ഞില്ല"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "വാചകം സംഭാഷണത്തിലേക്ക് തിരിക്കുക"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "വെബ് കാഴ്ച"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "അടുത്തതിലേക്ക് പോകുക"
+    },
+    {
+      "name": "set_language",
+      "value": "ഭാഷ സജ്ജമാക്കുക"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "ഇതിന്റെ അടിസ്ഥാനത്തിൽ പുതിയത്"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "ആൻഡ്രോയിഡ് %1$s-ലും അതിനുമുകളിലുള്ളവയിലും മാത്രമേ ലഭ്യമാകൂ"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "ഇലക്ട്രോണിക് പേപ്പർ"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

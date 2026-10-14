@@ -1,0 +1,1616 @@
+{
+  "string": [
+    {
+      "name": "navigation_drawer_open",
+      "value": "Gezinme çekmecesini aç"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Gezinme çekmecesini kapat"
+    },
+    {
+      "name": "action_settings",
+      "value": "Ayarlar"
+    },
+    {
+      "name": "add_feed",
+      "value": "Akış ekle"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Akışa abone ol"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Etiket"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "Akış URL'si"
+    },
+    {
+      "name": "title",
+      "value": "Başlık"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Kaydet"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Burada okunacak bir şey yok. Şunu yapmak ister misiniz…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Aç başka bir akış?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Ekle daha fazla akış?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Bir akış adresi girin"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Okundu olarak işaretle"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Okunmadı olarak işaretle"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Tümünü okundu olarak işaretle"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Akışı düzenle"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Akışı sil"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Tüm öğeleri göster"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Yalnızca okunmamış öğeleri göster"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Yeni öğeler mevcut"
+    },
+    {
+      "name": "view",
+      "value": "Görüntüle"
+    },
+    {
+      "name": "no_tag",
+      "value": "Etiket yok"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Yeni öğeler için bildir"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Bildirimleri durdur"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Okuma durumunu değiştir"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Bağlantıyı web tarayıcısında aç"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Web tarayıcısında aç"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Ekli medyayı aç"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "%1$s dosyasını aç"
+    },
+    {
+      "name": "read_article",
+      "value": "Makaleyi sesli oku"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Metni sese çevir"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Okumayı duraklat"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Okumaya devam et"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Okumayı durdur"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Sonrakine geç"
+    },
+    {
+      "name": "set_language",
+      "value": "Dili ayarla"
+    },
+    {
+      "name": "sync",
+      "value": "Senkronize et"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Akışları OPML'ye aktar"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Akışları OPML'den içe aktar"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Kayıtlı makaleleri dışa aktar"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Hata ayıklama günlüğünü görüntüle"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Buna dayanarak yeni"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Okundu olarak işaretleme göstergesi"
+    },
+    {
+      "name": "share",
+      "value": "Paylaş"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Böyle bir akış bulunamadı. HTTPS kullanmayı deneyin?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Görüntülenecek bir şey yok!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Ayarlar"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Tüm akışlar"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manuel"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Her 15 dakikada"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Her 30 dakikada"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Her saat"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Her 3 saatte"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Her 6 saatte"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Her 12 saatte"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Her gün"
+    },
+    {
+      "name": "synchronization",
+      "value": "Senkronizasyon"
+    },
+    {
+      "name": "syncing",
+      "value": "Senkronize ediliyor"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Yalnızca Wi-Fi'de"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Küçük resimleri göster"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Dili algıla"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Yalnızca Android %1$s ve üzeri sürümlerde kullanılabilir"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Makale dilini otomatik olarak algılar"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Mobil veri ücretlerine neden olabilir."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Yalnızca şarj edilirken"
+    },
+    {
+      "name": "image_loading",
+      "value": "Görüntü yükleme"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Bu bağlantıyı açmak için önce bir uygulama yükleyin"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Yeni makaleleri kontrol et…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Uygulama başlatıldığında"
+    },
+    {
+      "name": "block_list",
+      "value": "Engelleme listesi"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Başlıklarında bu filtrelerden herhangi birini içeren makaleleri gizler. Örnek filtreler:"
+    },
+    {
+      "name": "add_item",
+      "value": "Öğe ekle"
+    },
+    {
+      "name": "show_fab",
+      "value": "Kayan işlem düğmesini göster"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Mobil erişim noktalarını dahil et"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Güncellenmiş akışlar"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Okunmamış akışlar"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Bildirimler yalnızca yapılandırılmış akışlardaki okunmamış öğeler için gösterilir"
+    },
+    {
+      "name": "sync_status",
+      "value": "Senkronizasyon durumu"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Okuyucu"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Web görünümü"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Varsayılan tarayıcı"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Özel sekme"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Uygulama varsayılanını kullan"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Öğeleri varsayılan olarak şununla aç"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Bağlantıları şununla aç"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Okuyucu"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Makale listesi"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Bağlantıyı web görünümünde aç"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Web görünümünde aç"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Akış başına maksimum öğe"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "URL yüklenemedi"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistem"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Otomatik"
+    },
+    {
+      "name": "theme_day",
+      "value": "Gündüz"
+    },
+    {
+      "name": "theme_night",
+      "value": "Gece"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-Mürekkep"
+    },
+    {
+      "name": "theme",
+      "value": "Tema"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dinamik renkler"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Tercih edilen karanlık tema"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Siyah"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Koyu"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Önce en yenisi"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Önce en eskisi"
+    },
+    {
+      "name": "sort",
+      "value": "Sırala"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Hata raporu gönder"
+    },
+    {
+      "name": "no_email_client",
+      "value": "E-posta istemcisi açılamadı"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Videoyu oynatmak için dokunun"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Akışı aç"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Yukarıdakileri okundu olarak işaretle"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Aşağıdakileri okundu olarak işaretle"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Keşfedilen akışlar listesi"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Etiket genişletmeyi değiştir"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Açık etiket"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Kapalı etiket"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Pil optimizasyonu"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Kapalı"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Açık"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Özel sekme ön yükleme"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "%1$s ayrıştırılamadı"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Tam makaleyi getir"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Varsayılan olarak tam makaleleri getir"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Tam makale getirilemedi"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Makale açılamadı"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Makaleyi getirmek için senkronize et"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Tam makale getiriliyor…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Metin seslendirme yüklenemedi"
+    },
+    {
+      "name": "go_back",
+      "value": "Geri dön"
+    },
+    {
+      "name": "open_menu",
+      "value": "Menüyü aç"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "%1$s akışına git"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Okunmamış"
+    },
+    {
+      "name": "already_read",
+      "value": "Zaten okundu"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Yalnızca okunmamış makaleler gösteriliyor"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Tüm makaleler gösteriliyor"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Akışları senkronize et"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s okunmamış makale"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s okunmamış makale"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s okunmamış makale"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s okunmamış makale"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s okunmamış makale"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s okunmamış makale"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Makale stili"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Kart"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompakt Kart"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakt"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Süper Kompakt"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Ekstra benzersiz kimlikler oluştur"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Yalnızca hatalı kimliklere sahip akışlar için etkinleştir"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Geçersiz URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "OPML içe aktarma başarısız"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "OPML dışa aktarma başarısız"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Kayıtlı makaleleri dışa aktarma başarısız"
+    },
+    {
+      "name": "device_sync",
+      "value": "Cihaz senkronizasyonu"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Yeni cihaz ekle"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Bu hizmet topluluk tarafından finanse edilmektedir. Yararlı buluyorsanız lütfen bağış yapmayı düşünün."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (bu cihaz)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Cihazı senkronizasyon zincirinden ayır"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Senkronizasyon zincirindeki cihazlar"
+    },
+    {
+      "name": "remove",
+      "value": "Kaldır"
+    },
+    {
+      "name": "remove_device",
+      "value": "Cihazı kaldır"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "%1$s cihazını silmek istediğinizden emin misiniz?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "Cihazınızda cihaz senkronizasyonuna gidin ve senkronizasyon kodunu tara'yı basın."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Alternatif olarak, bağlantıyı cihazınızda açın."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Bunu bir şifre gibi değerlendirin. Bağlantıya sahip olan herkes senkronize verilerinizi okuyabilir."
+    },
+    {
+      "name": "qr_code",
+      "value": "QR Kodu"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Feeder cihaz senkronizasyon kodu"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Senkronizasyon zincirinden ayrıl"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "Cihaz senkronizasyonu, akış aboneliklerini ve okunan makaleleri farklı cihazlarınız arasında senkronize etmenizi sağlar."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Başka bir cihazda oluşturduğunuz senkronizasyon zincirinden kodu tarayın veya yeni bir senkronizasyon zinciri başlatın."
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Kodu tara veya gir"
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Yeni senkronizasyon zinciri başlat"
+    },
+    {
+      "name": "sync_code",
+      "value": "Senkronizasyon kodu"
+    },
+    {
+      "name": "secret_key",
+      "value": "Gizli anahtar"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Senkronizasyon zincirine katıl"
+    },
+    {
+      "name": "disabled",
+      "value": "Devre dışı"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Yalnızca sondan"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Herhangi bir yerden"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Okundu olarak işaretlemek için kaydır"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Senkronizasyon zincirinden ayrılmak istediğinizden emin misiniz?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Barkod tarayıcı bulunamadı"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Yeni"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Uygulamanın akışları ve makaleleri okumasına izin verir"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Feeder salt okunur erişim"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Bildirimlerin etkinleştirilebilmesi için izin verilmesi gerekir."
+    },
+    {
+      "name": "article_image",
+      "value": "Makale resmi"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Akış simgesi"
+    },
+    {
+      "name": "text_scale",
+      "value": "Metin ölçeği"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Kayıtlı makaleler"
+    },
+    {
+      "name": "saved_article",
+      "value": "Kayıtlı makale"
+    },
+    {
+      "name": "save_article",
+      "value": "Makaleyi kaydet"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Makaleyi kaydetmeyi durdur"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Kaydırma sırasında okundu olarak işaretle"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Akış yok"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s akış"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s akış"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s akışlar"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s akış"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s akışlar"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s akışlar"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "%1$s akışı %2$s etiketiyle içe aktar?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s etiket"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s etiket"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s etiket"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s etiket"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s etiket"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s etiket"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Getirilecek bir şey bulunamadı"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Akışta makaleye bağlantı eksik"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "Bağlantı bir HTML belgesi değil"
+    },
+    {
+      "name": "max_lines",
+      "value": "Maksimum satır"
+    },
+    {
+      "name": "time_out",
+      "value": "Zaman aşımı (saniye)"
+    },
+    {
+      "name": "time_out_validation_error",
+      "value": "Zaman aşımı 30 ile 600 saniye arasında olmalıdır"
+    },
+    {
+      "name": "time_out_placeholder",
+      "value": "YZ istekleri için zaman aşımı"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filtre"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Yakın zamanda okunan"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Okundu"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Kayıtlı"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Yalnızca başlığı göster"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "İndirme başarısız"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Sayfa ayrıştırılamadı"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Sayfada akış yok"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "İçerik HTML değil"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "RSS akışı ayrıştırılamadı"
+    },
+    {
+      "name": "http_error",
+      "value": "HTTP hatası"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "JSON akışı ayrıştırılamadı"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Yanıtta gövde yok"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Desteklenmeyen içerik türü"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Tam makale ayrıştırılamadı"
+    },
+    {
+      "name": "no_url",
+      "value": "URL yok"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Yine de ekle"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Tarayıcıyı bölünmüş ekranda aç"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Tahmini okuma süresini göster"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s kelime"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s kelime"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s kelime"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s kelime"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s kelime"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s kelime"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s dakika"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s dakika"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s dakika"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s dakika"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s dakika"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s dakika"
+    },
+    {
+      "name": "close_menu",
+      "value": "Menüyü kapat"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Yinelenen makaleleri atla"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Bağlantıları veya başlıkları mevcut makalelerle aynı olan makaleler yok sayılır"
+    },
+    {
+      "name": "summarize",
+      "value": "Özetle"
+    },
+    {
+      "name": "openai_settings",
+      "value": "Yapay zeka ve çeviri"
+    },
+    {
+      "name": "api_key",
+      "value": "API anahtarı"
+    },
+    {
+      "name": "model_id",
+      "value": "Model Kimliği"
+    },
+    {
+      "name": "azure_api_version",
+      "value": "Azure API sürümü"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Sesi oynatmak için dokunun"
+    },
+    {
+      "name": "title_unread_count",
+      "value": "(%1$d)"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Başlıkta okunmamış makale sayısını göster"
+    },
+    {
+      "name": "unable_to_load_models",
+      "value": "Modeller yüklenemedi."
+    },
+    {
+      "name": "no_models_were_found",
+      "value": "Hiçbir model bulunamadı"
+    },
+    {
+      "name": "azure_deployment_id",
+      "value": "Azure dağıtım kimliği"
+    },
+    {
+      "name": "list_of_available_models",
+      "value": "Kullanılabilir modeller listesi"
+    },
+    {
+      "name": "show_message",
+      "value": "Mesajı göster"
+    },
+    {
+      "name": "open_drawer_on_fab",
+      "value": "Tümünü okundu olarak işaretledikten sonra akışları göster"
+    },
+    {
+      "name": "on",
+      "value": "Açık"
+    },
+    {
+      "name": "off",
+      "value": "Kapalı"
+    },
+    {
+      "name": "search_verb",
+      "value": "Ara"
+    },
+    {
+      "name": "cancel_search",
+      "value": "Aramayı iptal et"
+    },
+    {
+      "name": "text",
+      "value": "Metin"
+    },
+    {
+      "name": "font",
+      "value": "Yazı tipi"
+    },
+    {
+      "name": "text_preview",
+      "value": "Metin önizlemesi"
+    },
+    {
+      "name": "system_default",
+      "value": "Sistem varsayılanı"
+    },
+    {
+      "name": "weight",
+      "value": "Kalınlık"
+    },
+    {
+      "name": "italic",
+      "value": "İtalik"
+    },
+    {
+      "name": "add_font",
+      "value": "Yazı tipi ekle…"
+    },
+    {
+      "name": "bold",
+      "value": "Kalın"
+    },
+    {
+      "name": "text_settings",
+      "value": "Metin ayarları"
+    },
+    {
+      "name": "could_not_add_font",
+      "value": "Yazı tipi eklenemedi"
+    },
+    {
+      "name": "could_not_remove_font",
+      "value": "Yazı tipi kaldırılamadı"
+    },
+    {
+      "name": "something_went_wrong",
+      "value": "Bir şeyler ters gitti"
+    },
+    {
+      "name": "summarize_on_open",
+      "value": "Açıldığında özetle"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Öneriler"
+    },
+    {
+      "name": "openai_settings_info",
+      "value": "Bir çok YZ sağlayıcısı ile uyumlu, fakat hepsi ile değil"
+    },
+    {
+      "name": "play_audio",
+      "value": "Sesi oynat"
+    },
+    {
+      "name": "pause_audio",
+      "value": "Sesi duraklat"
+    },
+    {
+      "name": "stop_audio",
+      "value": "Sesi durdur"
+    },
+    {
+      "name": "seek_back_10_seconds",
+      "value": "10 saniye geriye git"
+    },
+    {
+      "name": "seek_forward_10_seconds",
+      "value": "10 saniye ileriye git"
+    },
+    {
+      "name": "open_settings",
+      "value": "Ayarları aç"
+    },
+    {
+      "name": "rename_tag",
+      "value": "Etiketin adını değiştir"
+    },
+    {
+      "name": "audio_playback_failed",
+      "value": "Bu ses dosyası oynatılamıyor"
+    },
+    {
+      "name": "import_saved_articles",
+      "value": "Kayıtlı makaleleri içe aktar"
+    },
+    {
+      "name": "apply_blocklist_to_summaries",
+      "value": "Özetlere uygula"
+    },
+    {
+      "name": "apply_blocklist_to_links",
+      "value": "Bağlantılara uygula"
+    },
+    {
+      "name": "filters",
+      "value": "Filtreler"
+    },
+    {
+      "name": "open_article_in_reader",
+      "value": "Okuyucuda aç"
+    },
+    {
+      "name": "open_article_in_default_browser",
+      "value": "Varsayılan tarayıcıda aç"
+    },
+    {
+      "name": "open_article_in_custom_tab",
+      "value": "Özel sekmede aç"
+    },
+    {
+      "name": "no_article_link_browser",
+      "value": "Makale tarayıcıda açılamıyor"
+    },
+    {
+      "name": "no_article_link_custom_tab",
+      "value": "Makale özel sekmede açılamıyor"
+    },
+    {
+      "name": "use_in_app_audio_player",
+      "value": "Ses bağlantılarını yerleşik oynatıcıyla çal"
+    },
+    {
+      "name": "use_in_app_audio_player_description",
+      "value": "Bu özellik devre dışı bırakıldığında, ses bağlantıları varsayılan uygulamanızla açılır"
+    },
+    {
+      "name": "failed_to_import_saved_articles",
+      "value": "Kayıtlı makaleleri içe aktarma başarısız"
+    },
+    {
+      "name": "failed_to_fetch_full_article_too_large",
+      "value": "Makale çok büyük. Bunun yerine tarayıcıda açmak ister misiniz?"
+    },
+    {
+      "name": "pref_paging_mode_title",
+      "value": "Sayfa Modu"
+    },
+    {
+      "name": "pref_paging_mode_description",
+      "value": "Sürekli kaydırma yerine \"sayfaları çevirerek\" makaleler arasında gezinin. E-ink cihazlar için optimize edilmiştir."
+    },
+    {
+      "name": "pref_animated_paging_title",
+      "value": "Animasyonlu Sayfa Geçişi"
+    },
+    {
+      "name": "pref_animated_paging_description",
+      "value": "Sayfa çevirme hareketlerini kısa süreliğine canlandırır. Bazı e-ink cihazlarda gölgelenme etkisine neden olabilir."
+    },
+    {
+      "name": "fetch_og_images",
+      "value": "Makale meta verilerinden küçük resimleri iyileştirin"
+    },
+    {
+      "name": "fetch_og_images_desc",
+      "value": "Bu akıştaki eksik veya düşük kaliteli küçük resimleri iyileştirmeye çalışın"
+    },
+    {
+      "name": "summary_api_settings",
+      "value": "Özet API'si"
+    },
+    {
+      "name": "summary_api_settings_info",
+      "value": "Makale özetleri için kullanılır."
+    },
+    {
+      "name": "translation_api_settings",
+      "value": "Çeviri API'si"
+    },
+    {
+      "name": "translation_api_settings_info",
+      "value": "Akış kartlarını ve makaleleri çevirmek için kullanılır."
+    },
+    {
+      "name": "deepl_api_key",
+      "value": "DeepL kimlik doğrulama anahtarı"
+    },
+    {
+      "name": "ai_provider",
+      "value": "Sağlayıcı"
+    },
+    {
+      "name": "ai_not_configured",
+      "value": "Yapılandırılmamış"
+    },
+    {
+      "name": "api_provider_summary",
+      "value": "Sağlayıcı: %1$s"
+    },
+    {
+      "name": "provider_none",
+      "value": "Hiçbiri"
+    },
+    {
+      "name": "provider_openai_compatible",
+      "value": "OpenAI veya uyumlu"
+    },
+    {
+      "name": "provider_azure_openai",
+      "value": "Azure OpenAI"
+    },
+    {
+      "name": "provider_deepl",
+      "value": "DeepL"
+    },
+    {
+      "name": "provider_local_translation",
+      "value": "Yerel çevrimdışı"
+    },
+    {
+      "name": "base_url_optional",
+      "value": "Temel URL (isteğe bağlı)"
+    },
+    {
+      "name": "translation_endpoint",
+      "value": "Çeviri uç noktası"
+    },
+    {
+      "name": "device_sync_beta_warning",
+      "value": "UYARI! Bu bir Beta özelliğidir. Öncesinde tüm akışlarınızı OPML'ye aktarın ve yedek olarak kaydedin."
+    },
+    {
+      "name": "enter_api_key_before_saving",
+      "value": "Kaydetmeden önce bir API anahtarı girin."
+    },
+    {
+      "name": "enter_deepl_api_key_before_saving",
+      "value": "Kaydetmeden önce bir DeepL API anahtarı girin."
+    },
+    {
+      "name": "enter_model_id_before_saving",
+      "value": "Kaydetmeden önce bir model kimliği girin."
+    },
+    {
+      "name": "verifying_api_settings",
+      "value": "API ayarları doğrulanıyor…"
+    },
+    {
+      "name": "api_settings_could_not_be_verified",
+      "value": "API ayarları doğrulanamadı."
+    },
+    {
+      "name": "enter_azure_endpoint_before_saving",
+      "value": "Kaydetmeden önce Azure uç noktanızı girin."
+    },
+    {
+      "name": "enter_azure_deployment_id_before_saving",
+      "value": "Kaydetmeden önce Azure dağıtım kimliğinizi girin."
+    },
+    {
+      "name": "enter_azure_api_version_before_saving",
+      "value": "Kaydetmeden önce Azure API versiyonunuzu girin."
+    },
+    {
+      "name": "verifying_azure_openai_settings",
+      "value": "Azure OpenAI ayarları doğrulanıyor…"
+    },
+    {
+      "name": "azure_openai_settings_could_not_be_verified",
+      "value": "Azure OpenAI ayarları doğrulanamadı."
+    },
+    {
+      "name": "verifying_deepl_key",
+      "value": "DeepL anahtarı doğrulanıyor…"
+    },
+    {
+      "name": "deepl_key_could_not_be_verified",
+      "value": "DeepL anahtarı doğrulanamadı."
+    },
+    {
+      "name": "translate_article",
+      "value": "Makaleyi çevir"
+    },
+    {
+      "name": "show_original_language",
+      "value": "Orijinali göster (%1$s)"
+    },
+    {
+      "name": "original_article",
+      "value": "orijinal"
+    },
+    {
+      "name": "widget_refreshing",
+      "value": "Yenileniyor"
+    },
+    {
+      "name": "preferred_translation_language",
+      "value": "Tercih edilen çeviri dili"
+    },
+    {
+      "name": "preferred_translation_language_description",
+      "value": "Feeder'ın çeviri yapacağı dili seçin."
+    },
+    {
+      "name": "preferred_translation_language_fallback",
+      "value": "tercih edilen dil"
+    },
+    {
+      "name": "local_translation_requires_android_12",
+      "value": "Yerel çeviri için Android 12 veya daha yeni bir sürüm gereklidir."
+    },
+    {
+      "name": "local_translation_unavailable",
+      "value": "Bu cihazda yerel çeviri özelliği mevcut değildir."
+    },
+    {
+      "name": "local_translator_creation_failed",
+      "value": "Yerel çevirici oluşturulamadı."
+    },
+    {
+      "name": "local_translation_timed_out",
+      "value": "Yerel çeviri zaman aşımına uğradı."
+    },
+    {
+      "name": "local_translation_failed",
+      "value": "Yerel çeviri başarısız oldu."
+    },
+    {
+      "name": "local_translation_empty_result",
+      "value": "Yerel çeviri boş metin döndürdü."
+    },
+    {
+      "name": "local_translator_not_ready",
+      "value": "Yerel çevirmen hazır değil. Cihazın çeviri ayarlarını kontrol edin ve yeniden deneyin."
+    },
+    {
+      "name": "no_bergamot_translation_model",
+      "value": "%1$s -> %2$s için Bergamot modeli mevcut değil. Sistemin çeviri dillerini kontrol edin"
+    },
+    {
+      "name": "bergamot_translation_timed_out",
+      "value": "Bergamot çevirisi zaman aşımına uğradı."
+    },
+    {
+      "name": "bergamot_translation_failed",
+      "value": "Bergamot çevirisi başarısız oldu."
+    },
+    {
+      "name": "bergamot_model_registry_unavailable",
+      "value": "Model listesini indirmek için bağlanın."
+    },
+    {
+      "name": "bergamot_model_download_failed",
+      "value": "%1$s -> %2$s modeli indirilemedi."
+    },
+    {
+      "name": "bergamot_webview_translation_timed_out",
+      "value": "Bergamot WebView çevirisi zaman aşımına uğradı."
+    },
+    {
+      "name": "bergamot_webview_not_initialized",
+      "value": "Bergamot WebView başlatılmadı."
+    },
+    {
+      "name": "bergamot_response_parse_failed",
+      "value": "Bergamot yanıtı çözümlenemedi."
+    },
+    {
+      "name": "preparing_offline_translation_model",
+      "value": "%1$s -> %2$s çevrimdışı çeviri modeli hazırlanıyor…"
+    },
+    {
+      "name": "downloading_offline_translation_model",
+      "value": "%1$s -> %2$s çevrimdışı çeviri modeli indiriliyor: %3$d%%"
+    },
+    {
+      "name": "offline_translation_model_download_hint",
+      "value": "İlk indirme işlemi yaklaşık 20–50 MB olur ve birkaç dakika sürebilir. Çeviri işlemi bundan sonra çevrimdışı çalışır."
+    },
+    {
+      "name": "deleted_all_models",
+      "value": "Tüm indirilmiş modeller silindi"
+    },
+    {
+      "name": "no_downloaded_models",
+      "value": "Henüz hiçbir çeviri modeli yüklü değil. Çeviri, gerekli modeli otomatik olarak indirecektir."
+    },
+    {
+      "name": "delete_button_text",
+      "value": "Sil"
+    },
+    {
+      "name": "cancel",
+      "value": "İptal Et"
+    },
+    {
+      "name": "widget_title",
+      "value": "Feeder"
+    },
+    {
+      "name": "translation_language_placeholder",
+      "value": "Bir dil seçin"
+    },
+    {
+      "name": "translate_feed_cards_by_default",
+      "value": "Makale önizlemelerini çevir"
+    },
+    {
+      "name": "translate_articles_by_default",
+      "value": "Varsayılan olarak makaleleri çevir"
+    },
+    {
+      "name": "downloaded_translation_models",
+      "value": "İndirilen çeviri modelleri"
+    },
+    {
+      "name": "delete_model_pair",
+      "value": "Modeli sil"
+    },
+    {
+      "name": "delete_model_pair_desc",
+      "value": "%1$s -> %2$s çeviri modelini sil (%3$s)?"
+    },
+    {
+      "name": "delete_all_models",
+      "value": "Tüm indirilmiş modelleri sil"
+    },
+    {
+      "name": "deleted_model_pair",
+      "value": "%1$s -> %2$s modeli silindi"
+    },
+    {
+      "name": "set_translation_language_first",
+      "value": "YZ ayarlarında tercih edilen çeviri dilini belirleyin"
+    },
+    {
+      "name": "downloaded_translation_models_desc",
+      "value": "Feeder tarafından indirilen çevrim dışı çeviri dilleri. Yer açmak için artık ihtiyacınız olmayan dilleri kaldırın."
+    },
+    {
+      "name": "delete_all_models_desc",
+      "value": "İndirilen tüm %1$d çeviri modelini silmek istiyor musunuz (%2$s)?"
+    },
+    {
+      "name": "force_single_column",
+      "value": "Tek sütunlu görünümü zorunlu kıl"
+    },
+    {
+      "name": "show_only_bergamot_languages",
+      "value": "Yalnızca indirilebilir dilleri göster"
+    },
+    {
+      "name": "local_translation_setup_bergamot",
+      "value": "Kullanılabilir değilse, Feeder indirilebilir çevrim dışı çeviri motorunu kullanabilir."
+    },
+    {
+      "name": "bergamot_runtime_download_required",
+      "value": "Devam etmek için çevrim dışı çeviri motorunu indirin."
+    },
+    {
+      "name": "bergamot_runtime_download_title",
+      "value": "Çevrim dışı çeviri motoru indirilsin mi?"
+    },
+    {
+      "name": "bergamot_runtime_download_warning",
+      "value": "Feeder, Mozilla/Bergamot projesinden 4,9 MB boyutunda bir WebAssembly çalışma zamanı dosyası indirecek. Bu kod, F-Droid tarafından derlenmedi veya denetlenmedi. İndirme işlemi tamamlandıktan sonra çeviri işlemi çevrim dışı olarak gerçekleştirilir."
+    },
+    {
+      "name": "bergamot_runtime_download_failed",
+      "value": "Çevrim dışı çeviri motoru indirilemedi."
+    },
+    {
+      "name": "downloading_offline_translation_runtime",
+      "value": "Çevrim dışı çeviri motoru indiriliyor: %%%1$d"
+    },
+    {
+      "name": "download",
+      "value": "İndir"
+    },
+    {
+      "name": "local_translation_setup_system",
+      "value": "Öncelikle aygıtınızın çeviri hizmetini kullanır."
+    },
+    {
+      "name": "article_filter_rules",
+      "value": "Makale filtreleme kuralları"
+    },
+    {
+      "name": "article_filter_rules_desc",
+      "value": "Her satırda bir kural bulunur ve AlanAdı=desen biçiminde yazılır. Kullanılabilir alanlar şunlardır: Title, URL, Author, Tag ve Content. Desen, alanın herhangi bir yerinde eşleşen bir düzenli ifadedir; büyük/küçük harf farkını göz ardı etmek için (?i) ile başlatın. Kurallar bir sonraki getirme işleminde geçerli olur ve önceden kaydedilen makaleleri etkilemez."
+    },
+    {
+      "name": "block_rules",
+      "value": "Engelleme kuralları"
+    },
+    {
+      "name": "block_rules_desc",
+      "value": "Eşleşen makaleler hiçbir zaman indirilmez. Engelleme listesinin aksine, bu işlem geri alınamaz: Bir kuralın kaldırılması, daha önce atlanan makaleleri geri getirmez."
+    },
+    {
+      "name": "allow_rules",
+      "value": "İzin verme kuralları"
+    },
+    {
+      "name": "allow_rules_desc",
+      "value": "Herhangi bir izin verme kuralı ayarlandıysa, yalnızca bu kuralla eşleşen makaleler indirilir. Etiket kuralı, etiketi olmayan makaleler için atlanır; dolayısıyla, etiketi olmayan bir akış, yalnızca bir etiket kuralı nedeniyle boşaltılmaz."
+    },
+    {
+      "name": "article_rules_placeholder",
+      "value": "Title=(?i)sponsorlu"
+    },
+    {
+      "name": "rule_error_missing_separator",
+      "value": "%1$d. satır: '=' eksik. Geçersiz satırlar göz ardı edilir."
+    },
+    {
+      "name": "rule_error_unknown_field",
+      "value": "%1$d. satır: '%2$s' bilinen bir alan değil. Geçersiz satırlar göz ardı edilir."
+    },
+    {
+      "name": "rule_error_empty_pattern",
+      "value": "%1$d. satır: Desen boş, bu durumda her şeyle eşleşir. Geçersiz satırlar göz ardı edilir."
+    },
+    {
+      "name": "rule_error_invalid_regex",
+      "value": "%1$d. satır: geçerli bir düzenli ifade değil. Geçersiz satırlar göz ardı edilir."
+    },
+    {
+      "name": "rule_error_too_many_rules",
+      "value": "%1$d. satır: Yalnızca ilk %2$d kural kullanılır. Sonraki satırlar göz ardı edilir."
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "string": [
+    {
+      "name": "open_in_reader",
+      "value": "Legilo"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Nelegitaj fluoj"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Laste ĝisdatigitaj"
+    },
+    {
+      "name": "on_startup",
+      "value": "Al la komenco de la aplikaĵo"
+    },
+    {
+      "name": "image_loading",
+      "value": "Ŝargado de bildo"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Nur dum baterioŝargado"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Montri bildetojn"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Nur per vifio"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sinkronigo"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "Ĉiutage"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Ĉiuduontage"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Ĉiukvarontage"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Ĉiutrihore"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Ĉiuhore"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Ĉiuduonhore"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Ĉiukvaronhore"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Mane"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Ĉiuj fluoj"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Agordoj"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Neniu por montri!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Ne troviĝis ĉi tiu fluo. Ĉu provi uzi HTTPS eble?"
+    },
+    {
+      "name": "share",
+      "value": "Konigi"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indikilo de legita statuso"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Nova bazita sur ĉi tiu"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Montri sencimigoprotokolon"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Enporti fluojn el OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Elporti fluojn al OPML"
+    },
+    {
+      "name": "sync",
+      "value": "Sinkronigi"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Malfermi envolvitajn aŭdvidaĵojn"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Malfermi en TTT-legilo"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Malfermi ligilon en TTT-legilo"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Baskuligi legitecon"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Ĉesi sciigojn"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Sciigi pri novaj elementoj"
+    },
+    {
+      "name": "view",
+      "value": "Vido"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Novaj elementoj disponeblaj"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Montri nelegitajn elementojn"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Montri ĉiujn elementojn"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Forigi fluon"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Redakti fluon"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Marki ĉiujn kiel legitajn"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Marki kiel nelegitan"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Marki kiel legitan"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Tajpu adreson de fluo"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Neniu legaĵo ĉi tie. Ĉu vi volas…"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Aldoni pli da fluoj?"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Malfermi alian fluon?"
+    },
+    {
+      "name": "save",
+      "value": "Konservi"
+    },
+    {
+      "name": "title",
+      "value": "Titolo"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL fluo"
+    },
+    {
+      "name": "add_feed",
+      "value": "Aldoni fluon"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Aboni fluon"
+    },
+    {
+      "name": "action_settings",
+      "value": "Agordoj"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Ne povis malfermi retpoŝtan klienton"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Me povis ŝargi URL-on"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Fermi navigilon"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Malfermi navigilon"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Marki la sube kiel legitan"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Marki la supre kiel legitan"
+    },
+    {
+      "name": "open_feed",
+      "value": "Malfermi fluon"
+    },
+    {
+      "name": "sort",
+      "value": "Ordigi laŭ"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Plej malnovaj unue"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Plej novaj unue"
+    },
+    {
+      "name": "theme",
+      "value": "Etoso"
+    },
+    {
+      "name": "theme_night",
+      "value": "Nokta"
+    },
+    {
+      "name": "theme_day",
+      "value": "Taga"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Aŭtomate"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistemo"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Malfermi en Web view"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Malfermi ligilon en interreta vido"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Legilo"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Malfermi ligilojn per"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Implicite malfermi elementojn per"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Adaptita langeto"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Implicita TTT-legilo"
+    },
+    {
+      "name": "no_tag",
+      "value": "Sen etikedo"
+    },
+    {
+      "name": "tag",
+      "value": "Etikedo"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Antaŭŝargi adaptitan langeton"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Sciigoj montriĝas nur por nelegitaj elementoj en agorditaj fluoj"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Inkluzivi poŝaparatajn retkaptejojn"
+    },
+    {
+      "name": "show_fab",
+      "value": "Montri flosantan agbutonon"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Instali ion por malfermi ĉi tiun ligon unue"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Listo de trovitaj fluoj"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Baskuligi malvolvon de etikedoj"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Maksimumaj eroj per feed"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Tuŝi por ekspekti filmon"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "Elŝutante plenan artikolon…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Ne eblis akiri plenan artikolon"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Implicite elŝuti plenajn artikolojn"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Elŝuti plenan artikolon"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Tio eble kaŭzos pagendajn datenuzojn."
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Serĉu novajn artikolojn…"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Sendi cimraporton"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Ne eblis analizi %1$s"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Ŝalti"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Malŝalti"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Ŝparado de baterio"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Retvidigilo"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Ne eblis ŝargi tekston al parolado"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Rekomenci laŭtlegadon"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Paŭzigi laŭtlegadon"
+    },
+    {
+      "name": "read_article",
+      "value": "Laŭtlegi"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Uzi implicitaĵon de programo"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "E-papero"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Detekti lingvon"
+    },
+    {
+      "name": "set_language",
+      "value": "Agordi lingvon"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Preterpasi al la sekva"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Malfermi %1$s"
+    },
+    {
+      "name": "syncing",
+      "value": "Sinkronigo"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Teksto al parolado"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Disponebla nur ĉe Android %1$s kaj pli"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Ĉesi legi"
+    },
+    {
+      "name": "sync_status",
+      "value": "Sinkroniga stato"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Eksporti konservitajn artikolojn"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Aŭtomate detektas artikollingvon"
+    },
+    {
+      "name": "block_list",
+      "value": "Listo de blokado"
+    },
+    {
+      "name": "add_item",
+      "value": "Aldonu eron"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Mallumo"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Kaŝas artikolojn kun titoloj enhavantaj iun el ĉi tiuj filtriloj. Ekzemplaj filtriloj:"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Nigra"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Listo de artikoloj"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Dinamikaj koloroj"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Preferata malhela temo"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s nelegitaj artikoloj"
+    },
+    {
+      "name": "go_back",
+      "value": "Reiru"
+    },
+    {
+      "name": "open_menu",
+      "value": "Malfermu menuon"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Iru al %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Nelegita"
+    },
+    {
+      "name": "already_read",
+      "value": "Jam legis"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Montrante nur nelegitajn artikolojn"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s nelegita artikolo"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Ne eblis malfermi artikolon"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sinkronigi nutras"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s nelegitaj artikoloj"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s nelegitaj artikoloj"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Malfermu etikedon"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Fermita etikedo"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sinkronigi por preni artikolon"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "Montrante ĉiujn artikolojn"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s nelegitaj artikoloj"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s nelegitaj artikoloj"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Malsukcesis eksporti konservitajn artikolojn"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Aldonu novan aparaton"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "Ĉi tiu servo estas pagita de la komunumo. Bonvolu konsideri donaci se vi trovas ĝin utila."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (ĉi tiu aparato)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Malkonekti aparaton de sinkroniga ĉeno"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Aparatoj sur sinkroniga ĉeno"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Karto"
+    },
+    {
+      "name": "device_sync",
+      "value": "Aparato sinkronigi"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Malsukcesis eksporti OPML"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Artikolo stilo"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Kompakta"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Super kompakta"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Ebligu nur por nutras kun malbonaj identigiloj"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Kompakta Karto"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Generu ekstrajn unikajn identigilojn"
+    },
+    {
+      "name": "invalid_url",
+      "value": "Ne valida URL"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Malsukcesis importi OPML"
+    },
+    {
+      "name": "feed_search_suggestions_header",
+      "value": "Sugestoj"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

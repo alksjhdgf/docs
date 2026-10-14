@@ -1,0 +1,428 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Weather App"
+    },
+    {
+      "name": "search_menu_location_name",
+      "value": ""
+    },
+    {
+      "name": "air_pressure_insert_hpa",
+      "value": "%1$d hpa"
+    },
+    {
+      "name": "air_pressure_insert_mmhg",
+      "value": "%1$d mmHg"
+    },
+    {
+      "name": "air_pressure_insert_inhg",
+      "value": "%1$d inHg"
+    },
+    {
+      "name": "air_pressure_name_hpa",
+      "value": "Hectopascals (hPa)"
+    },
+    {
+      "name": "air_pressure_name_mmhg",
+      "value": "Millimeters of mercury column (mmHg)"
+    },
+    {
+      "name": "air_pressure_name_inhg",
+      "value": "Inch of mercury column (inHg)"
+    },
+    {
+      "name": "app_name",
+      "value": "Weather App"
+    },
+    {
+      "name": "button_search",
+      "value": "button searchable"
+    },
+    {
+      "name": "button_settings",
+      "value": "button settings"
+    },
+    {
+      "name": "city_default",
+      "value": "Chinatown"
+    },
+    {
+      "name": "clear_sky",
+      "value": "Clear Sky"
+    },
+    {
+      "name": "curr_degree_default",
+      "value": "3°"
+    },
+    {
+      "name": "degree_day_night",
+      "value": "Day %1$d°\nNight %2$d°"
+    },
+    {
+      "name": "degree_default",
+      "value": "20°"
+    },
+    {
+      "name": "degree_feels_like",
+      "value": "Feels like %1$s"
+    },
+    {
+      "name": "degree_hourly_forecast",
+      "value": "3°"
+    },
+    {
+      "name": "desc_button_back",
+      "value": "Go back"
+    },
+    {
+      "name": "desc_img_calendar",
+      "value": "Calendar icon"
+    },
+    {
+      "name": "desc_img_clock",
+      "value": "Clock icon"
+    },
+    {
+      "name": "desc_img_main",
+      "value": "main header background"
+    },
+    {
+      "name": "desc_img_main_weather",
+      "value": "Weather icon"
+    },
+    {
+      "name": "desc_img_pressure",
+      "value": "Waves icon"
+    },
+    {
+      "name": "desc_img_pressure_indicator",
+      "value": "Indicator that shows whether the atmospheric pressure is rising or falling"
+    },
+    {
+      "name": "desc_img_rain",
+      "value": "Rain icon"
+    },
+    {
+      "name": "desc_img_rain_indicator",
+      "value": "An indicator that shows whether the chance of precipitation is increasing or decreasing"
+    },
+    {
+      "name": "desc_img_sun",
+      "value": "Sun icon"
+    },
+    {
+      "name": "desc_img_sunrise",
+      "value": "Sunrise icon"
+    },
+    {
+      "name": "desc_img_sunset",
+      "value": "Sunset icon"
+    },
+    {
+      "name": "desc_img_temperature",
+      "value": "Temperature icon"
+    },
+    {
+      "name": "desc_img_uv_indicator",
+      "value": "Indicator showing the increase or decrease of the uv index"
+    },
+    {
+      "name": "desc_img_weather",
+      "value": "Weather icon"
+    },
+    {
+      "name": "desc_img_wind",
+      "value": "Wind speed icon"
+    },
+    {
+      "name": "desc_img_wind_indicator",
+      "value": "Indicator showing the increase or decrease in wind speed"
+    },
+    {
+      "name": "desc_scroll_precipitation",
+      "value": "Precipitation forecast list."
+    },
+    {
+      "name": "drizzle",
+      "value": "Drizzle"
+    },
+    {
+      "name": "fog",
+      "value": "Fog"
+    },
+    {
+      "name": "freezing_drizzle",
+      "value": "Freezing Drizzle"
+    },
+    {
+      "name": "freezing_rain",
+      "value": "Freezing Rain"
+    },
+    {
+      "name": "heavy_drizzle",
+      "value": "Heavy Drizzle"
+    },
+    {
+      "name": "heavy_rain",
+      "value": "Heavy Rain"
+    },
+    {
+      "name": "heavy_showers",
+      "value": "Heavy Showers"
+    },
+    {
+      "name": "heavy_snow",
+      "value": "Heavy Snow"
+    },
+    {
+      "name": "ice_fog",
+      "value": "Ice Fog"
+    },
+    {
+      "name": "info_last_update",
+      "value": "Last update\n%1$s %2$d, %3$s"
+    },
+    {
+      "name": "light_drizzle",
+      "value": "Light Drizzle"
+    },
+    {
+      "name": "light_freezing_drizzle",
+      "value": "Light Freezing Drizzle"
+    },
+    {
+      "name": "light_freezing_rain",
+      "value": "Light Freezing Rain"
+    },
+    {
+      "name": "light_rain",
+      "value": "Light Rain"
+    },
+    {
+      "name": "light_showers",
+      "value": "Light Showers"
+    },
+    {
+      "name": "light_snow",
+      "value": "Light Snow"
+    },
+    {
+      "name": "light_snow_showers",
+      "value": "Light Snow Showers"
+    },
+    {
+      "name": "light_thunderstorm_hail",
+      "value": "Light T-storm w/ hail"
+    },
+    {
+      "name": "mainly_clear",
+      "value": "Mainly Clear"
+    },
+    {
+      "name": "no_internet_connection",
+      "value": "Turn on mobile data or connect to a Wi-Fi network"
+    },
+    {
+      "name": "overcast",
+      "value": "Overcast"
+    },
+    {
+      "name": "partly_cloudy",
+      "value": "Partly Cloudy"
+    },
+    {
+      "name": "pressure_diff",
+      "value": "5"
+    },
+    {
+      "name": "rain",
+      "value": "Rain"
+    },
+    {
+      "name": "rain_diff",
+      "value": "0"
+    },
+    {
+      "name": "rain_percent",
+      "value": "0%"
+    },
+    {
+      "name": "showers",
+      "value": "Showers"
+    },
+    {
+      "name": "snow",
+      "value": "Snow"
+    },
+    {
+      "name": "snow_grains",
+      "value": "Snow Grains"
+    },
+    {
+      "name": "snow_showers",
+      "value": "Snow Showers"
+    },
+    {
+      "name": "speed_insert_kmh",
+      "value": "%1$d km/h"
+    },
+    {
+      "name": "speed_insert_ms",
+      "value": "%1$d m/s"
+    },
+    {
+      "name": "speed_insert_mph",
+      "value": "%1$d mph"
+    },
+    {
+      "name": "speed_name_kmh",
+      "value": "Kilometers per hour (km/h)"
+    },
+    {
+      "name": "speed_name_mph",
+      "value": "Miles per hour (mph)"
+    },
+    {
+      "name": "speed_name_ms",
+      "value": "Meters per second (m/s)"
+    },
+    {
+      "name": "sunrise_sunset_hours_future",
+      "value": "in %1$dh"
+    },
+    {
+      "name": "sunrise_sunset_hours_past",
+      "value": "%1$dh ago"
+    },
+    {
+      "name": "sunrise_sunset_minutes_future",
+      "value": "in %1$dmin"
+    },
+    {
+      "name": "sunrise_sunset_minutes_past",
+      "value": "%1$dmin ago"
+    },
+    {
+      "name": "sunrise_sunset_time_default",
+      "value": "4:15 AM"
+    },
+    {
+      "name": "temperature_format",
+      "value": "%1$d°"
+    },
+    {
+      "name": "temperature_name_celsius",
+      "value": "Degrees Celsius (°C)"
+    },
+    {
+      "name": "temperature_name_fahrenheit",
+      "value": "Degrees Fahrenheit (°F)"
+    },
+    {
+      "name": "text_now",
+      "value": "Now"
+    },
+    {
+      "name": "thunderstorm",
+      "value": "Thunderstorm"
+    },
+    {
+      "name": "thunderstorm_hail",
+      "value": "T-storm w/ hail"
+    },
+    {
+      "name": "title_air_pressure_settings",
+      "value": "Air pressure"
+    },
+    {
+      "name": "title_chance_precipitation",
+      "value": "Chance of precipitation"
+    },
+    {
+      "name": "title_day_forecast",
+      "value": "Day forecast"
+    },
+    {
+      "name": "title_hourly_forecast",
+      "value": "Hourly forecast"
+    },
+    {
+      "name": "title_language_category",
+      "value": "Language"
+    },
+    {
+      "name": "title_language_settings",
+      "value": "Select language"
+    },
+    {
+      "name": "title_pressure",
+      "value": "Pressure"
+    },
+    {
+      "name": "title_rain_chance",
+      "value": "Rain chance"
+    },
+    {
+      "name": "title_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "title_sunrise",
+      "value": "Sunrise"
+    },
+    {
+      "name": "title_sunset",
+      "value": "Sunset"
+    },
+    {
+      "name": "title_temp_settings",
+      "value": "Temperature"
+    },
+    {
+      "name": "title_units_category",
+      "value": "Units"
+    },
+    {
+      "name": "title_uv_index",
+      "value": "UV Index"
+    },
+    {
+      "name": "title_wind_settings",
+      "value": "Wind"
+    },
+    {
+      "name": "title_wind_speed",
+      "value": "Wind speed"
+    },
+    {
+      "name": "uv_diff",
+      "value": "0"
+    },
+    {
+      "name": "uv_index_reading",
+      "value": "1.0"
+    },
+    {
+      "name": "provider_absence_notification",
+      "value": "Enables the location service to retrieve weather data for the current location."
+    },
+    {
+      "name": "weather_type_default",
+      "value": "Cloudy"
+    },
+    {
+      "name": "wind_speed_diff",
+      "value": "2"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "format": "feeder-saved-articles",
+    "version": 1,
+    "articles": [
+        {
+            "link": "https://forbetterscience.com/2026/09/22/a-book-that-will-never-be-read/",
+            "guid": "https://news.ycombinator.com/item?id=50072229",
+            "title": "A Book That Will Never Be Read",
+            "snippet": "Article URL: https://forbetterscience.com/2026/09/22/a-book-that-will-never-be-read/ Comments URL: https://news.ycombinator.com/item?id=50072229 Points: 5 # Comments: 0",
+            "pubDate": "2026-10-13T14:21:40Z",
+            "primarySortTime": "2026-10-13T14:21:40Z",
+            "readTime": "2026-10-13T15:15:47.082Z",
+            "author": "jruohonen",
+            "thumbnailImage": null,
+            "enclosureLink": null,
+            "enclosureType": null,
+            "wordCount": 0,
+            "wordCountFull": 0,
+            "feed": {
+                "url": "https://hnrss.org/frontpage",
+                "title": "Hacker News: Front Page",
+                "customTitle": "Hacker News: Front Page",
+                "tag": "",
+                "fullTextByDefault": false
+            }
+        }
+    ]
+}

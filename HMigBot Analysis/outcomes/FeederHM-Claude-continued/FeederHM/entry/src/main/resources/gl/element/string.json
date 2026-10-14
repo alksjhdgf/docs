@@ -1,0 +1,1008 @@
+{
+  "string": [
+    {
+      "name": "add_feed",
+      "value": "Engadir canle"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "Subscríbete á canle"
+    },
+    {
+      "name": "sync",
+      "value": "Sincr"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "Ver rexistro depuración"
+    },
+    {
+      "name": "share",
+      "value": "Compartir"
+    },
+    {
+      "name": "show_fab",
+      "value": "Mostrar botón flotante para acción"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "Por defecto descargar os artigos completos"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s artigos sen ler"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "Estilo do artigo"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "Tarxeta"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "Compacto"
+    },
+    {
+      "name": "scan_or_enter_code",
+      "value": "Escanea ou escribe o código de sincr"
+    },
+    {
+      "name": "two_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "few_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "many_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "other_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_body",
+      "value": "Non hai nada que descargar"
+    },
+    {
+      "name": "failed_to_fetch_full_article_missing_link",
+      "value": "Falta a ligazón ao artigo na canle"
+    },
+    {
+      "name": "failed_to_fetch_full_article_not_html",
+      "value": "A ligazón non é un documento HTML"
+    },
+    {
+      "name": "max_lines",
+      "value": "Máx liñas"
+    },
+    {
+      "name": "filter_noun",
+      "value": "Filtrar"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "Abrir cadro de navegación"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "Pechar cadro de navegación"
+    },
+    {
+      "name": "action_settings",
+      "value": "Axustes"
+    },
+    {
+      "name": "url",
+      "value": "URL"
+    },
+    {
+      "name": "tag",
+      "value": "Etiqueta"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "URL da canle"
+    },
+    {
+      "name": "title",
+      "value": "Título"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "save",
+      "value": "Gardar"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "Non hai nada para ler. Igual queres…"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "Abrir outra canle?"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "Engadir máis canles?"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "Escribe o enderezo dunha canle"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "Marcar como lido"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "Marcar como non lido"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "Marcar todo como lido"
+    },
+    {
+      "name": "edit_feed",
+      "value": "Editar canle"
+    },
+    {
+      "name": "delete_feed",
+      "value": "Eliminar canle"
+    },
+    {
+      "name": "show_all_items",
+      "value": "Mostrar todo"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "Mostrar elementos sen ler"
+    },
+    {
+      "name": "new_items_available",
+      "value": "Hai novos contidos"
+    },
+    {
+      "name": "view",
+      "value": "Ver"
+    },
+    {
+      "name": "no_tag",
+      "value": "Sen etiqueta"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "Avisar de novos contidos"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "Deter notificacións"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "Cambiar estado da lectura"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "Abrir ligazón no navegador"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "Abrir no navegador"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "Abrir multimedia pechado"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "Abrir %1$s"
+    },
+    {
+      "name": "read_article",
+      "value": "Ler en alto"
+    },
+    {
+      "name": "text_to_speech",
+      "value": "Texto falado"
+    },
+    {
+      "name": "pause_reading",
+      "value": "Deter lectura"
+    },
+    {
+      "name": "resume_reading",
+      "value": "Retomar lectura"
+    },
+    {
+      "name": "stop_reading",
+      "value": "Deixar de ler"
+    },
+    {
+      "name": "skip_to_next",
+      "value": "Ir ao seguinte"
+    },
+    {
+      "name": "set_language",
+      "value": "Establecer idioma"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "Exportar canles a OPML"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "Importar canles desde OPML"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "Novo en función disto"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "Indicador para marcar como lido"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "Non se atopa esa canle. Intentámolo con HTTPS?"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "Nada que mostrar!"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "Axustes"
+    },
+    {
+      "name": "all_feeds",
+      "value": "Todas as canles"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "Manualmente"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "Cada 15 minutos"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "Cada 30 minutos"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "Cada hora"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "Cada 3 horas"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "Cada 6 horas"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "Cada 12 horas"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "A diario"
+    },
+    {
+      "name": "synchronization",
+      "value": "Sincronizar"
+    },
+    {
+      "name": "syncing",
+      "value": "A sincronizar"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "Só con Wi-Fi"
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "Mostrar miniaturas"
+    },
+    {
+      "name": "use_detect_language",
+      "value": "Detectar idioma"
+    },
+    {
+      "name": "only_available_on_android_n",
+      "value": "Só dispoñible para Android %1$s e superior"
+    },
+    {
+      "name": "description_for_read_aloud",
+      "value": "Detecta automaticamente o idioma do artigo"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "Podería gastar datos do móbil."
+    },
+    {
+      "name": "only_when_charging",
+      "value": "Só ao cargar batería"
+    },
+    {
+      "name": "image_loading",
+      "value": "A cargar imaxe"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "Primeiro instala algo para abrir esta ligazón"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "Comprobar novidades…"
+    },
+    {
+      "name": "on_startup",
+      "value": "Ao iniciar a app"
+    },
+    {
+      "name": "block_list",
+      "value": "Lista de bloqueo"
+    },
+    {
+      "name": "block_list_description",
+      "value": "Oculta os artigos que teñen no título algunha destas expresións. Exemplos:"
+    },
+    {
+      "name": "add_item",
+      "value": "Engadir elemento"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "Incluír puntos de acceso móbil"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "Canles actualizadas"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "Canles sen ler"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "Só se mostran notificacións para elementos ser ler das canles seleccionadas"
+    },
+    {
+      "name": "sync_status",
+      "value": "Estado da sincr"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "Lector"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "Vista web"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "Navegador por defecto"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "Pestana persoal"
+    },
+    {
+      "name": "use_app_default",
+      "value": "Usar por defecto na app"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "Por defecto abrir elementos con"
+    },
+    {
+      "name": "open_links_with",
+      "value": "Abrir ligazóns con"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Lector"
+    },
+    {
+      "name": "article_list_settings",
+      "value": "Lista de artigos"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "Abrir ligazón na vista web"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "Abrir en vista Web"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "Máx. elementos por canle"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "Non cargou o URL"
+    },
+    {
+      "name": "theme_system",
+      "value": "Sistema"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "Auto"
+    },
+    {
+      "name": "theme_day",
+      "value": "Día"
+    },
+    {
+      "name": "theme_night",
+      "value": "Noite"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "Tinta E"
+    },
+    {
+      "name": "theme",
+      "value": "Decorado"
+    },
+    {
+      "name": "dynamic_theme_use",
+      "value": "Cores dinámicas"
+    },
+    {
+      "name": "dark_theme_preference",
+      "value": "Prefires decorado escuro"
+    },
+    {
+      "name": "dark_theme_preference_black",
+      "value": "Negro"
+    },
+    {
+      "name": "dark_theme_preference_dark",
+      "value": "Escuro"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "Primeiro novidades"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "Primeiro os antigos"
+    },
+    {
+      "name": "sort",
+      "value": "Orde por"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "Informar sobre problemas"
+    },
+    {
+      "name": "no_email_client",
+      "value": "Non se puido abrir cliente de correo"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "Toca para reproducir vídeo"
+    },
+    {
+      "name": "javascript",
+      "value": "JavaScript"
+    },
+    {
+      "name": "open_feed",
+      "value": "Abrir canle"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "Marcar o superior como lido"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "Marcar o inferior como lido"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "Lista de canles atopadas"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "Activar Despregar etiqueta"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "Abrir etiqueta"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "Etiqueta pechada"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "Optimización da batería"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "Apagada"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "Acendida"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "Precarga da pestana persoa"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "Non se puido procesar %1$s"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "Obter artigo completo"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "Non se puido obter o artigo completo"
+    },
+    {
+      "name": "failed_to_open_article",
+      "value": "Non se puido abrir o artigo"
+    },
+    {
+      "name": "sync_to_fetch",
+      "value": "Sincroniza para obter o artigo"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "A descargar o artigo completo…"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "Non se puido cargar o texto a fala"
+    },
+    {
+      "name": "go_back",
+      "value": "Volver"
+    },
+    {
+      "name": "open_menu",
+      "value": "Abrir menú"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "Ir a %1$s"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "Sen ler"
+    },
+    {
+      "name": "already_read",
+      "value": "Xa lido"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "Só se mostran artigos non lidos"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "A mostrar todos os artigos"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "Sincr. canles"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s artigos sen ler"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s artigo sen ler"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s artigos sen ler"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s artigos sen ler"
+    },
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s artigos sen ler"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "Moi compacto"
+    },
+    {
+      "name": "generate_extra_unique_ids",
+      "value": "Crear IDs únicos extra"
+    },
+    {
+      "name": "only_enable_for_bad_id_feeds",
+      "value": "Activar só para canles con IDs incorrectos"
+    },
+    {
+      "name": "invalid_url",
+      "value": "URL non válido"
+    },
+    {
+      "name": "failed_to_import_OPML",
+      "value": "Fallou a importación OPML"
+    },
+    {
+      "name": "failed_to_export_OPML",
+      "value": "Fallou a exportación OPML"
+    },
+    {
+      "name": "device_sync",
+      "value": "Sincr dispositivo"
+    },
+    {
+      "name": "add_new_device",
+      "value": "Engadir novo dispositivo"
+    },
+    {
+      "name": "device_sync_financed_by_community",
+      "value": "A comunidade está financiando este servizo. Se o atopas útil, por favor considera facer unha doazón."
+    },
+    {
+      "name": "this_device",
+      "value": "%1$s (este dispositivo)"
+    },
+    {
+      "name": "disconnect_device_from_sync",
+      "value": "Desconectar dispositivo da rolda de sincronización"
+    },
+    {
+      "name": "devices_on_sync_chain",
+      "value": "Dispositivos que se sincronizan"
+    },
+    {
+      "name": "remove",
+      "value": "Eliminar"
+    },
+    {
+      "name": "remove_device",
+      "value": "Retirar dispositivo"
+    },
+    {
+      "name": "remove_device_question",
+      "value": "Tes a certeza de querer retirar o dispositivo %1$s?"
+    },
+    {
+      "name": "press_scan_sync",
+      "value": "No teu dispositivo, vai a sincr dispositivos, e preme en escanear código de sincr."
+    },
+    {
+      "name": "or_open_device_sync_link",
+      "value": "Ou ben, abre a ligazón no teu dispositivo."
+    },
+    {
+      "name": "treat_like_password",
+      "value": "Trata isto como un contrasinal. Calquera podería ver os teus datos sincronizados se teñen a ligazón."
+    },
+    {
+      "name": "qr_code",
+      "value": "Código QR"
+    },
+    {
+      "name": "feeder_device_sync_code",
+      "value": "Código de sincr de dispositivo Feeder"
+    },
+    {
+      "name": "leave_sync_chain",
+      "value": "Saír da rolda de sincronización"
+    },
+    {
+      "name": "device_sync_description_1",
+      "value": "A sincronización de dispositivos permíteche sincronizar a subscrición a canles e artigos lidos entre os teus dispositivos."
+    },
+    {
+      "name": "device_sync_description_2",
+      "value": "Simplemente escanea o código da túa rolda de sincronización que creaches noutro dispositivo, ou inicia aquí dito mecanismo."
+    },
+    {
+      "name": "start_new_sync_chain",
+      "value": "Iniciar novo servizo de sincr"
+    },
+    {
+      "name": "sync_code",
+      "value": "Código sincr"
+    },
+    {
+      "name": "secret_key",
+      "value": "Chave secreta"
+    },
+    {
+      "name": "join_sync_chain",
+      "value": "Únete á rolda de sincr"
+    },
+    {
+      "name": "disabled",
+      "value": "Desactivado"
+    },
+    {
+      "name": "only_from_end",
+      "value": "Só desde o final"
+    },
+    {
+      "name": "from_anywhere",
+      "value": "Desde calquera punto"
+    },
+    {
+      "name": "swipe_to_mark_as_read",
+      "value": "Despraza para marcar como lido"
+    },
+    {
+      "name": "are_you_sure_leave_sync_chain",
+      "value": "Tes a certeza de querer saír da rolda de sincronización?"
+    },
+    {
+      "name": "no_barcode_scanner_installed",
+      "value": "Non se atopa o escáner de códigos de barras"
+    },
+    {
+      "name": "new_indicator",
+      "value": "Novo"
+    },
+    {
+      "name": "permission_read_desc",
+      "value": "Permite á aplicación ler canles e artigos"
+    },
+    {
+      "name": "permission_read_label",
+      "value": "Acceso de só-lectura para Feeder"
+    },
+    {
+      "name": "explanation_permission_notifications",
+      "value": "Debes conceder o permiso antes de poder activar as notificacións."
+    },
+    {
+      "name": "article_image",
+      "value": "Imaxe do artigo"
+    },
+    {
+      "name": "feed_icon",
+      "value": "Icona da canle"
+    },
+    {
+      "name": "text_scale",
+      "value": "Tamaño do texto"
+    },
+    {
+      "name": "saved_articles",
+      "value": "Artigos gardados"
+    },
+    {
+      "name": "saved_article",
+      "value": "Artigo gardado"
+    },
+    {
+      "name": "save_article",
+      "value": "Gardar artigo"
+    },
+    {
+      "name": "unsave_article",
+      "value": "Deixar de gardar o artigo"
+    },
+    {
+      "name": "mark_as_read_on_scroll",
+      "value": "Marcar como lido ao desprazarse"
+    },
+    {
+      "name": "no_feeds",
+      "value": "Sen canles"
+    },
+    {
+      "name": "zero_feeds",
+      "value": "%1$s canles"
+    },
+    {
+      "name": "one_feed",
+      "value": "%1$s canle"
+    },
+    {
+      "name": "two_feeds",
+      "value": "%1$s canles"
+    },
+    {
+      "name": "few_feeds",
+      "value": "%1$s canles"
+    },
+    {
+      "name": "many_feeds",
+      "value": "%1$s canles"
+    },
+    {
+      "name": "other_feeds",
+      "value": "%1$s canles"
+    },
+    {
+      "name": "import_x_feeds_with_y_tags",
+      "value": "Importar %1$s con %2$s?"
+    },
+    {
+      "name": "zero_tags",
+      "value": "%1$s etiquetas"
+    },
+    {
+      "name": "one_tags",
+      "value": "%1$s etiqueta"
+    },
+    {
+      "name": "recently_read_adjective",
+      "value": "Lido recentemente"
+    },
+    {
+      "name": "read_adjective",
+      "value": "Lido"
+    },
+    {
+      "name": "saved_adjective",
+      "value": "Gardado"
+    },
+    {
+      "name": "show_only_title",
+      "value": "Mostrar só o título"
+    },
+    {
+      "name": "failed_to_download",
+      "value": "Fallou a descarga"
+    },
+    {
+      "name": "failed_to_parse_the_page",
+      "value": "Non se puido procesar a páxina"
+    },
+    {
+      "name": "no_feeds_in_the_page",
+      "value": "Non hai canles na páxina"
+    },
+    {
+      "name": "content_is_not_html",
+      "value": "Non é contido HTML"
+    },
+    {
+      "name": "failed_to_parse_rss_feed",
+      "value": "Non se puido procesar a canle RSS"
+    },
+    {
+      "name": "http_error",
+      "value": "Erro HTTP"
+    },
+    {
+      "name": "failed_to_parse_json_feed",
+      "value": "Non se puido procesar a canle JSON"
+    },
+    {
+      "name": "no_body_in_response",
+      "value": "Sen corpo na resposta"
+    },
+    {
+      "name": "unsupported_content_type",
+      "value": "Sen soporte para este tipo de contido"
+    },
+    {
+      "name": "failed_to_parse_full_article",
+      "value": "Fallou o procesamento do artigo completo"
+    },
+    {
+      "name": "no_url",
+      "value": "Sen URL"
+    },
+    {
+      "name": "add_anyway",
+      "value": "Engadir igualmente"
+    },
+    {
+      "name": "open_browser_in_split_screen",
+      "value": "Abrir navegador en pantalla partida"
+    },
+    {
+      "name": "show_reading_time",
+      "value": "Mostrar tempo estimado de lectura"
+    },
+    {
+      "name": "zero_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "one_word",
+      "value": "%1$s palabra"
+    },
+    {
+      "name": "two_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "few_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "many_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "other_words",
+      "value": "%1$s palabras"
+    },
+    {
+      "name": "zero_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "one_minute",
+      "value": "%1$s minuto"
+    },
+    {
+      "name": "two_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "few_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "many_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "other_minutes",
+      "value": "%1$s minutos"
+    },
+    {
+      "name": "close_menu",
+      "value": "Pechar menú"
+    },
+    {
+      "name": "failed_to_export_saved_articles",
+      "value": "Fallou a exportación dos artigos"
+    },
+    {
+      "name": "export_saved_articles",
+      "value": "Exportar artigos gardados"
+    },
+    {
+      "name": "skip_duplicate_articles",
+      "value": "Omitir artigos duplicados"
+    },
+    {
+      "name": "skip_duplicate_articles_desc",
+      "value": "Vanse ignorar os artigos con ligazóns ou titulares idénticos aos existentes"
+    },
+    {
+      "name": "feed_item_style_compact_card",
+      "value": "Tarxeta compacta"
+    },
+    {
+      "name": "touch_to_play_audio",
+      "value": "Toca para reproducir o audio"
+    },
+    {
+      "name": "show_title_unread_count",
+      "value": "Mostrar número de artigos non lidos no título"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}

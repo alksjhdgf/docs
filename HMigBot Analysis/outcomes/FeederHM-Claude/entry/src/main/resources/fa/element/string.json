@@ -1,0 +1,528 @@
+{
+  "string": [
+    {
+      "name": "many_unread_articles",
+      "value": "%1$s مقاله خوانده نشده"
+    },
+    {
+      "name": "other_unread_articles",
+      "value": "%1$s مقاله خوانده نشده"
+    },
+    {
+      "name": "feed_item_style_super_compact",
+      "value": "بسیار فشرده"
+    },
+    {
+      "name": "feed_item_style_compact",
+      "value": "فشرده"
+    },
+    {
+      "name": "feed_item_style_card",
+      "value": "کارت"
+    },
+    {
+      "name": "feed_item_style",
+      "value": "سبک مقاله"
+    },
+    {
+      "name": "few_unread_articles",
+      "value": "%1$s مقاله خوانده نشده"
+    },
+    {
+      "name": "two_unread_articles",
+      "value": "%1$s مقاله خوانده نشده"
+    },
+    {
+      "name": "one_unread_article",
+      "value": "%1$s مقاله خوانده نشده"
+    },
+    {
+      "name": "zero_unread_articles",
+      "value": "%1$s مقاله خوانده نشده"
+    },
+    {
+      "name": "synchronize_feeds",
+      "value": "هم‌گام‌سازی خوراک‌ها"
+    },
+    {
+      "name": "showing_all_articles",
+      "value": "نمایش همه مقالات"
+    },
+    {
+      "name": "showing_only_unread_articles",
+      "value": "نمایش تنها مقالات خوانده نشده"
+    },
+    {
+      "name": "already_read",
+      "value": "خوانده شده"
+    },
+    {
+      "name": "unread_adjective",
+      "value": "خوانده نشده"
+    },
+    {
+      "name": "go_to_feed",
+      "value": "رفتن به %1$s"
+    },
+    {
+      "name": "open_menu",
+      "value": "باز کردن فهرست"
+    },
+    {
+      "name": "go_back",
+      "value": "بازگشت"
+    },
+    {
+      "name": "failed_to_load_text_to_speech",
+      "value": "ناتوانی در بار کردن متن به صدا"
+    },
+    {
+      "name": "fetching_full_article",
+      "value": "در حال دریافت مقاله کامل…"
+    },
+    {
+      "name": "failed_to_fetch_full_article",
+      "value": "ناتوانی در دریافت کامل مقاله"
+    },
+    {
+      "name": "fetch_full_articles_by_default",
+      "value": "دریافت مقالات کامل به طور پیش‌فرض"
+    },
+    {
+      "name": "fetch_full_article",
+      "value": "دریافت مقاله کامل"
+    },
+    {
+      "name": "failed_to_parse",
+      "value": "ناتوانی در تجزیهٔ %1$s"
+    },
+    {
+      "name": "preload_custom_tab",
+      "value": "برگه سفارشی از پیش تنظیم شده"
+    },
+    {
+      "name": "battery_optimization_enabled",
+      "value": "بهینه‌سازی باتری فعال است"
+    },
+    {
+      "name": "battery_optimization_disabled",
+      "value": "بهینه‌سازی باتری غیرفعال است"
+    },
+    {
+      "name": "battery_optimization",
+      "value": "بهینه‌سازی باتری"
+    },
+    {
+      "name": "contracted_tag",
+      "value": "بستن برچسب"
+    },
+    {
+      "name": "expanded_tag",
+      "value": "باز کردن برچسب"
+    },
+    {
+      "name": "toggle_tag_expansion",
+      "value": "تغییر وضعیت گستردگی برچسب"
+    },
+    {
+      "name": "discovered_feeds_list",
+      "value": "سیاههٔ خورک‌های کشف شده"
+    },
+    {
+      "name": "mark_items_below_as_read",
+      "value": "علامت‌گذاری موارد پایین‌تر به عنوان خوانده شده"
+    },
+    {
+      "name": "mark_items_above_as_read",
+      "value": "علامت‌گذاری موارد بالاتر به عنوان خوانده شده"
+    },
+    {
+      "name": "open_feed",
+      "value": "باز کردن خوراک"
+    },
+    {
+      "name": "javascript",
+      "value": "جاوااسکریپت"
+    },
+    {
+      "name": "touch_to_play_video",
+      "value": "برای پخش ویدئو، لمس کنید"
+    },
+    {
+      "name": "no_email_client",
+      "value": "ناتوای در باز کردن کارخواه رایانامه"
+    },
+    {
+      "name": "send_bug_report",
+      "value": "فرستادن گزارش مشکلات"
+    },
+    {
+      "name": "sort",
+      "value": "به ترتیب"
+    },
+    {
+      "name": "sort_oldest_first",
+      "value": "اول قدیمی‌ترین‌ها"
+    },
+    {
+      "name": "sort_newest_first",
+      "value": "اول جدیدترین‌ها"
+    },
+    {
+      "name": "theme",
+      "value": "پوسته"
+    },
+    {
+      "name": "theme_night",
+      "value": "شب"
+    },
+    {
+      "name": "theme_day",
+      "value": "روز"
+    },
+    {
+      "name": "theme_automatic",
+      "value": "خودکار"
+    },
+    {
+      "name": "theme_system",
+      "value": "پیروی از سامانه"
+    },
+    {
+      "name": "could_not_load_url",
+      "value": "ناتوانی در دریافت نشانی"
+    },
+    {
+      "name": "max_feed_items",
+      "value": "بیشینه تعداد موارد در هر خوراک"
+    },
+    {
+      "name": "open_in_webview",
+      "value": "وب‌نما"
+    },
+    {
+      "name": "open_link_in_web_view",
+      "value": "باز کردن پیوند با وب‌نما"
+    },
+    {
+      "name": "open_in_web_view",
+      "value": "باز کردن در وب‌نما"
+    },
+    {
+      "name": "reader_settings",
+      "value": "خواننده"
+    },
+    {
+      "name": "open_item_by_default_with",
+      "value": "باز کردن موارد به طور پیش‌فرض با"
+    },
+    {
+      "name": "open_links_with",
+      "value": "باز کردن پیوندها با"
+    },
+    {
+      "name": "use_app_default",
+      "value": "استفاده از پیش‌فرض برنامه"
+    },
+    {
+      "name": "open_in_custom_tab",
+      "value": "برگه سفارشی"
+    },
+    {
+      "name": "open_in_default_browser",
+      "value": "مرورگر پیش‌فرض"
+    },
+    {
+      "name": "open_in_reader",
+      "value": "خواننده"
+    },
+    {
+      "name": "notification_channel_description",
+      "value": "اعلانات فقط برای موارد خوانده‌نشده در خوراک‌های تنظیم شده نمایش می‌یابند"
+    },
+    {
+      "name": "notification_channel_name",
+      "value": "خوراک‌های خوانده نشده"
+    },
+    {
+      "name": "updated_feeds",
+      "value": "خوراک‌های به‌روزشده"
+    },
+    {
+      "name": "include_mobile_hotspots",
+      "value": "شامل نقاط اتصال همراه"
+    },
+    {
+      "name": "show_fab",
+      "value": "نمایش دکمه کنش شناور"
+    },
+    {
+      "name": "on_startup",
+      "value": "در زمان شروع برنامه"
+    },
+    {
+      "name": "check_for_updates",
+      "value": "بررسی به‌روزرسانی‌ها"
+    },
+    {
+      "name": "no_activity_for_link",
+      "value": "فعالیتی برای بازکردن پیوند به کمک آن یافت نشد"
+    },
+    {
+      "name": "image_loading",
+      "value": "بار شدن تصویر"
+    },
+    {
+      "name": "only_when_charging",
+      "value": "فقط در زمان شارژ شدن"
+    },
+    {
+      "name": "may_result_data_charges",
+      "value": "ممکن است منتجر به هزینه داده‌های همراه شود."
+    },
+    {
+      "name": "show_thumbnails",
+      "value": "نمایش تصویر بندانگشتی"
+    },
+    {
+      "name": "only_on_wifi",
+      "value": "فقط روی وای‌فای"
+    },
+    {
+      "name": "synchronization",
+      "value": "هم‌گام‌سازی"
+    },
+    {
+      "name": "sync_option_every_day",
+      "value": "هر روز"
+    },
+    {
+      "name": "sync_option_every_12_hours",
+      "value": "هر ۱۲ ساعت"
+    },
+    {
+      "name": "sync_option_every_6_hours",
+      "value": "هر ۶ ساعت"
+    },
+    {
+      "name": "sync_option_every_3_hours",
+      "value": "هر ۳ ساعت"
+    },
+    {
+      "name": "sync_option_every_hour",
+      "value": "هر ساعت"
+    },
+    {
+      "name": "sync_option_every_30min",
+      "value": "هر ۳۰ دقیقه"
+    },
+    {
+      "name": "sync_option_every_15min",
+      "value": "هر ۱۵ دقیقه"
+    },
+    {
+      "name": "sync_option_manually",
+      "value": "دستی"
+    },
+    {
+      "name": "all_feeds",
+      "value": "همه خوراک‌ها"
+    },
+    {
+      "name": "title_activity_settings",
+      "value": "تنظیمات"
+    },
+    {
+      "name": "nothing_to_display",
+      "value": "چیزی برای نمایش وجود ندارد!"
+    },
+    {
+      "name": "no_such_feed",
+      "value": "چنین خوراکی پیدا نشد. شاید استفاده از https کمک کند."
+    },
+    {
+      "name": "share",
+      "value": "هم‌رسانی"
+    },
+    {
+      "name": "indicator_for_mark_as_read",
+      "value": "نشان‌گر برای علامت خوانده شده"
+    },
+    {
+      "name": "new_based_on_this",
+      "value": "جدید بر اساس این"
+    },
+    {
+      "name": "view_debug_log",
+      "value": "نمایش گزارش اشکال‌یابی"
+    },
+    {
+      "name": "import_feeds_from_opml",
+      "value": "درون‌ریزی خوراک‌ها از OPML"
+    },
+    {
+      "name": "export_feeds_to_opml",
+      "value": "برون‌ریزی خوراک‌ها به OPML"
+    },
+    {
+      "name": "sync",
+      "value": "هم‌گام‌سازی"
+    },
+    {
+      "name": "stop_reading",
+      "value": "توقف خواندن"
+    },
+    {
+      "name": "resume_reading",
+      "value": "ادامه خواندن"
+    },
+    {
+      "name": "pause_reading",
+      "value": "مکث در خواندن"
+    },
+    {
+      "name": "read_article",
+      "value": "بلند خوانده شود"
+    },
+    {
+      "name": "open_enclosed_media_file",
+      "value": "باز کردن %1$s"
+    },
+    {
+      "name": "open_enclosed_media",
+      "value": "بازکردن رسانه‌ی داخل مطلب"
+    },
+    {
+      "name": "open_in_browser",
+      "value": "باز کردن در مرورگر"
+    },
+    {
+      "name": "open_link_in_browser",
+      "value": "باز کردن پیوند در مرورگر"
+    },
+    {
+      "name": "toggle_read_status",
+      "value": "تغییر وضعیت خوانده شدن"
+    },
+    {
+      "name": "dont_notify_for_new_items",
+      "value": "توقف اعلانات"
+    },
+    {
+      "name": "notify_for_new_items",
+      "value": "موارد جدید را اعلان کن"
+    },
+    {
+      "name": "no_tag",
+      "value": "بدون برچسب"
+    },
+    {
+      "name": "view",
+      "value": "نمایش"
+    },
+    {
+      "name": "new_items_available",
+      "value": "موارد جدیدی در دسترسی‌اند"
+    },
+    {
+      "name": "show_unread_items",
+      "value": "نمایش موارد خوانده نشده"
+    },
+    {
+      "name": "show_all_items",
+      "value": "نمایش همه موارد"
+    },
+    {
+      "name": "delete_feed",
+      "value": "پاک کردن خوراک"
+    },
+    {
+      "name": "edit_feed",
+      "value": "ویرایش خوراک"
+    },
+    {
+      "name": "mark_all_as_read",
+      "value": "علامت‌گذاری همه به عنوان خوانده شده"
+    },
+    {
+      "name": "mark_as_unread",
+      "value": "علامت‌گذاری به عنوان خوانده نشده"
+    },
+    {
+      "name": "mark_as_read",
+      "value": "علامت‌گذاری به عنوان خوانده شده"
+    },
+    {
+      "name": "search_feed_empty_hint",
+      "value": "افزودن یک نشانی خوراک"
+    },
+    {
+      "name": "empty_feed_add",
+      "value": "افزودن خوراک‌های بیشتر؟"
+    },
+    {
+      "name": "empty_feed_open",
+      "value": "باز کردن خوراکی دیگر؟"
+    },
+    {
+      "name": "empty_feed_top",
+      "value": "چیزی برای خواندن وجود ندارد. مایلید که…"
+    },
+    {
+      "name": "save",
+      "value": "ذخیره"
+    },
+    {
+      "name": "on_date",
+      "value": "%1$s"
+    },
+    {
+      "name": "by_author_on_date",
+      "value": "%1$s، %2$s"
+    },
+    {
+      "name": "title",
+      "value": "عنوان"
+    },
+    {
+      "name": "add_feed_search_hint",
+      "value": "نشانی خوراک"
+    },
+    {
+      "name": "tag",
+      "value": "برچسب"
+    },
+    {
+      "name": "url",
+      "value": "نشانی"
+    },
+    {
+      "name": "title_activity_edit_feed",
+      "value": "اشتراک یک خوراک"
+    },
+    {
+      "name": "add_feed",
+      "value": "افزودن خوراک"
+    },
+    {
+      "name": "action_settings",
+      "value": "تنظیمات"
+    },
+    {
+      "name": "navigation_drawer_close",
+      "value": "بستن کشوی ناوبری"
+    },
+    {
+      "name": "navigation_drawer_open",
+      "value": "باز کردن کشوی ناوبری"
+    },
+    {
+      "name": "theme_e_ink",
+      "value": "کاغذ الکترونیک"
+    },
+    {
+      "name": "app_name",
+      "value": "Feeder"
+    }
+  ]
+}
