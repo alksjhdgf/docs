@@ -1,0 +1,1844 @@
+{
+  "string": [
+    {
+      "name": "empty_cart",
+      "value": "Cart is Empty"
+    },
+    {
+      "name": "empty_cart_subtitle",
+      "value": "Add some products"
+    },
+    {
+      "name": "empty_cart_btn",
+      "value": "Go Shopping"
+    },
+    {
+      "name": "empty_data",
+      "value": "No Data"
+    },
+    {
+      "name": "empty_data_subtitle",
+      "value": "No content available"
+    },
+    {
+      "name": "empty_error",
+      "value": "Load Failed"
+    },
+    {
+      "name": "empty_error_subtitle",
+      "value": "Something went wrong"
+    },
+    {
+      "name": "empty_network",
+      "value": "Network Error"
+    },
+    {
+      "name": "empty_network_subtitle",
+      "value": "Please check your connection"
+    },
+    {
+      "name": "click_retry",
+      "value": "Retry"
+    },
+    {
+      "name": "loading",
+      "value": "Loading..."
+    },
+    {
+      "name": "load_more_pull",
+      "value": "Pull to Load More"
+    },
+    {
+      "name": "load_more_loading",
+      "value": "Loading..."
+    },
+    {
+      "name": "load_more_success",
+      "value": "Load Success"
+    },
+    {
+      "name": "load_more_error",
+      "value": "Load Failed"
+    },
+    {
+      "name": "load_more_error_retry",
+      "value": "Load Failed, Click to Retry"
+    },
+    {
+      "name": "load_more_no_more",
+      "value": "No More Data"
+    },
+    {
+      "name": "refresh_pull_down",
+      "value": "Pull to Refresh"
+    },
+    {
+      "name": "refresh_release",
+      "value": "Release to Refresh"
+    },
+    {
+      "name": "refresh_refreshing",
+      "value": "Refreshing..."
+    },
+    {
+      "name": "refresh_complete",
+      "value": "Refresh Complete"
+    },
+    {
+      "name": "confirm",
+      "value": "Confirm"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "delete",
+      "value": "Delete"
+    },
+    {
+      "name": "edit",
+      "value": "Edit"
+    },
+    {
+      "name": "save",
+      "value": "Save"
+    },
+    {
+      "name": "submit",
+      "value": "Submit"
+    },
+    {
+      "name": "search",
+      "value": "Search"
+    },
+    {
+      "name": "search_hint",
+      "value": "Search products..."
+    },
+    {
+      "name": "retry",
+      "value": "Retry"
+    },
+    {
+      "name": "selected",
+      "value": "Selected"
+    },
+    {
+      "name": "unselected",
+      "value": "Unselected"
+    },
+    {
+      "name": "coupon_expired",
+      "value": "Expired"
+    },
+    {
+      "name": "coupon_used",
+      "value": "Used"
+    },
+    {
+      "name": "coupon_available",
+      "value": "Available"
+    },
+    {
+      "name": "coupon_conditions",
+      "value": "Min ¥%1$d"
+    },
+    {
+      "name": "coupon_no_conditions",
+      "value": "No Conditions"
+    },
+    {
+      "name": "coupon_valid_date",
+      "value": "Valid: %1$s - %2$s"
+    },
+    {
+      "name": "coupon_valid_until",
+      "value": "Valid until %1$s"
+    },
+    {
+      "name": "coupon_receive",
+      "value": "Receive"
+    },
+    {
+      "name": "coupon_received",
+      "value": "Received"
+    },
+    {
+      "name": "coupon_use",
+      "value": "Use Now"
+    },
+    {
+      "name": "coupon_insufficient",
+      "value": "Insufficient"
+    },
+    {
+      "name": "coupon_usage_instructions",
+      "value": "Usage Instructions"
+    },
+    {
+      "name": "coupon_modal_title",
+      "value": "Receive Coupons"
+    },
+    {
+      "name": "address_default",
+      "value": "Default"
+    },
+    {
+      "name": "address_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "address_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "address_not_selected",
+      "value": "No shipping address selected"
+    },
+    {
+      "name": "address_add_hint",
+      "value": "Tap to add shipping address"
+    },
+    {
+      "name": "goods_sold",
+      "value": "%d Sold"
+    },
+    {
+      "name": "goods_select",
+      "value": "Select"
+    },
+    {
+      "name": "goods_spec",
+      "value": "Specs"
+    },
+    {
+      "name": "goods_quantity",
+      "value": "Quantity"
+    },
+    {
+      "name": "spec_category",
+      "value": "Specification Category"
+    },
+    {
+      "name": "please_select",
+      "value": "Please Select"
+    },
+    {
+      "name": "spec_selected",
+      "value": "Selected"
+    },
+    {
+      "name": "spec_not_selected",
+      "value": "Not Selected"
+    },
+    {
+      "name": "spec_stock",
+      "value": "Stock"
+    },
+    {
+      "name": "rate_star",
+      "value": "Rating Star"
+    },
+    {
+      "name": "default_avatar",
+      "value": "Default Avatar"
+    },
+    {
+      "name": "image_load_error",
+      "value": "Image Load Error"
+    },
+    {
+      "name": "selected_image",
+      "value": "Selected Image"
+    },
+    {
+      "name": "add_image",
+      "value": "Add Image"
+    },
+    {
+      "name": "modal_close",
+      "value": "Close"
+    },
+    {
+      "name": "modal_select_spec",
+      "value": "Select Specification"
+    },
+    {
+      "name": "modal_add_to_cart",
+      "value": "Add to Cart"
+    },
+    {
+      "name": "modal_buy_now",
+      "value": "Buy Now"
+    },
+    {
+      "name": "total",
+      "value": "Total"
+    },
+    {
+      "name": "price",
+      "value": "Price"
+    },
+    {
+      "name": "quantity",
+      "value": "Quantity"
+    },
+    {
+      "name": "app_name",
+      "value": "Cool Mall"
+    },
+    {
+      "name": "welcome_login",
+      "value": "Hello,\nWelcome to Cool Mall"
+    },
+    {
+      "name": "welcome_register",
+      "value": "Hello,\nWelcome to register Cool Mall"
+    },
+    {
+      "name": "phone_hint",
+      "value": "Please enter phone number"
+    },
+    {
+      "name": "phone_code",
+      "value": "+86"
+    },
+    {
+      "name": "verification_code",
+      "value": "Verification code"
+    },
+    {
+      "name": "get_verification_code",
+      "value": "Get code"
+    },
+    {
+      "name": "login_agreement_prefix",
+      "value": "I agree to the"
+    },
+    {
+      "name": "register_agreement_prefix",
+      "value": "I agree to the"
+    },
+    {
+      "name": "user_agreement",
+      "value": "User Agreement"
+    },
+    {
+      "name": "privacy_policy",
+      "value": "Privacy Policy"
+    },
+    {
+      "name": "and",
+      "value": "and"
+    },
+    {
+      "name": "login",
+      "value": "Login"
+    },
+    {
+      "name": "go_register",
+      "value": "Register"
+    },
+    {
+      "name": "forgot_password",
+      "value": "Forgot password"
+    },
+    {
+      "name": "password_hint",
+      "value": "Please enter password"
+    },
+    {
+      "name": "sms_not_available",
+      "value": "SMS unavailable?"
+    },
+    {
+      "name": "use_third_party_login",
+      "value": "Use third-party login"
+    },
+    {
+      "name": "sms_login",
+      "value": "SMS Login"
+    },
+    {
+      "name": "account_login",
+      "value": "Account Login"
+    },
+    {
+      "name": "other_login_methods",
+      "value": "Other Login Methods"
+    },
+    {
+      "name": "wechat",
+      "value": "WeChat"
+    },
+    {
+      "name": "qq",
+      "value": "QQ"
+    },
+    {
+      "name": "alipay",
+      "value": "Alipay"
+    },
+    {
+      "name": "register",
+      "value": "Register"
+    },
+    {
+      "name": "set_password",
+      "value": "Please set password"
+    },
+    {
+      "name": "confirm_password",
+      "value": "Please confirm password"
+    },
+    {
+      "name": "have_account",
+      "value": "Already have an account?"
+    },
+    {
+      "name": "go_login",
+      "value": "Go to login"
+    },
+    {
+      "name": "reset_password",
+      "value": "Reset Password"
+    },
+    {
+      "name": "set_new_password",
+      "value": "Please set new password"
+    },
+    {
+      "name": "confirm_new_password",
+      "value": "Please confirm new password"
+    },
+    {
+      "name": "reset_password_button",
+      "value": "Reset Password"
+    },
+    {
+      "name": "reset_password_tip",
+      "value": "After resetting, please login with the new password"
+    },
+    {
+      "name": "password_mismatch",
+      "value": "The passwords don't match"
+    },
+    {
+      "name": "hide_password",
+      "value": "Hide password"
+    },
+    {
+      "name": "show_password",
+      "value": "Show password"
+    },
+    {
+      "name": "security_verification",
+      "value": "Security Verification"
+    },
+    {
+      "name": "complete_verification",
+      "value": "Complete Verification"
+    },
+    {
+      "name": "image_captcha_hint",
+      "value": "Please enter captcha code"
+    },
+    {
+      "name": "image_captcha_description",
+      "value": "Captcha image"
+    },
+    {
+      "name": "refresh_captcha",
+      "value": "Tap to refresh"
+    },
+    {
+      "name": "invalid_phone_number",
+      "value": "Please enter a valid phone number"
+    },
+    {
+      "name": "invalid_verification_code",
+      "value": "Please enter a 4-digit verification code"
+    },
+    {
+      "name": "invalid_password",
+      "value": "Please enter the correct password"
+    },
+    {
+      "name": "login_success",
+      "value": "Login successful"
+    },
+    {
+      "name": "register_success",
+      "value": "Registration successful"
+    },
+    {
+      "name": "login_failed",
+      "value": "Login failed: %s"
+    },
+    {
+      "name": "login_cancelled",
+      "value": "Login cancelled"
+    },
+    {
+      "name": "start_qq_login_failed",
+      "value": "Failed to start QQ login: %s"
+    },
+    {
+      "name": "third_party_login_only_qq",
+      "value": "Third-party login currently only supports QQ"
+    },
+    {
+      "name": "notification_permission_required",
+      "value": "Notification permission required to receive verification code"
+    },
+    {
+      "name": "settings_title",
+      "value": "Settings"
+    },
+    {
+      "name": "contributors_title",
+      "value": "Contributors"
+    },
+    {
+      "name": "about_title",
+      "value": "About Us"
+    },
+    {
+      "name": "privacy_policy_title",
+      "value": "Privacy Policy"
+    },
+    {
+      "name": "user_agreement_title",
+      "value": "User Agreement"
+    },
+    {
+      "name": "web_title",
+      "value": "Web Page"
+    },
+    {
+      "name": "about_app_name",
+      "value": "App Name"
+    },
+    {
+      "name": "about_version",
+      "value": "Version"
+    },
+    {
+      "name": "about_version_code",
+      "value": "Version Code"
+    },
+    {
+      "name": "about_copyright",
+      "value": "© 2025 Joker.X & CoolMallKotlin Contributors"
+    },
+    {
+      "name": "about_developer",
+      "value": "Developer"
+    },
+    {
+      "name": "about_developer_email",
+      "value": "joker.x.dev@gmail.com"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "Joker.X"
+    },
+    {
+      "name": "about_section_project",
+      "value": "Project Links"
+    },
+    {
+      "name": "about_github",
+      "value": "GitHub"
+    },
+    {
+      "name": "about_github_url",
+      "value": "https://github.com/Joker-x-dev/CoolMallKotlin"
+    },
+    {
+      "name": "about_gitee",
+      "value": "Gitee"
+    },
+    {
+      "name": "about_gitee_url",
+      "value": "https://gitee.com/Joker-x-dev/CoolMallKotlin"
+    },
+    {
+      "name": "about_section_resources",
+      "value": "Related Resources"
+    },
+    {
+      "name": "about_api_doc",
+      "value": "API Documentation"
+    },
+    {
+      "name": "about_api_doc_desc",
+      "value": "View detailed definitions of backend APIs"
+    },
+    {
+      "name": "about_demo_download",
+      "value": "Demo Download"
+    },
+    {
+      "name": "about_demo_download_desc",
+      "value": "Updated irregularly, may not sync with latest code changes"
+    },
+    {
+      "name": "about_icon_source",
+      "value": "Icon Source"
+    },
+    {
+      "name": "about_icon_source_desc",
+      "value": "Icons used in this project are from TuNiao Icon"
+    },
+    {
+      "name": "about_section_discussion",
+      "value": "Discussion"
+    },
+    {
+      "name": "about_github_discussion",
+      "value": "GitHub Discussions"
+    },
+    {
+      "name": "about_github_discussion_desc",
+      "value": "Participate in project discussions on GitHub"
+    },
+    {
+      "name": "about_qq_group",
+      "value": "QQ Group"
+    },
+    {
+      "name": "about_wechat_group",
+      "value": "WeChat Group"
+    },
+    {
+      "name": "about_section_support",
+      "value": "Support & Help"
+    },
+    {
+      "name": "about_translation",
+      "value": "Translation"
+    },
+    {
+      "name": "about_translation_desc",
+      "value": "Help translate this app into your language"
+    },
+    {
+      "name": "about_support",
+      "value": "Support"
+    },
+    {
+      "name": "about_support_desc",
+      "value": "You can sponsor to support me here"
+    },
+    {
+      "name": "about_help",
+      "value": "Help"
+    },
+    {
+      "name": "about_help_desc",
+      "value": "For any questions or suggestions, feel free to submit an Issue"
+    },
+    {
+      "name": "about_section_other",
+      "value": "Other"
+    },
+    {
+      "name": "about_citation",
+      "value": "Citation"
+    },
+    {
+      "name": "about_citation_desc",
+      "value": "Acknowledgments for third-party libraries and resources used in this project"
+    },
+    {
+      "name": "about_user_agreement",
+      "value": "User Agreement"
+    },
+    {
+      "name": "about_privacy_policy",
+      "value": "Privacy Policy"
+    },
+    {
+      "name": "about_open_source_license",
+      "value": "Open Source License"
+    },
+    {
+      "name": "settings_account_security",
+      "value": "Account & Security"
+    },
+    {
+      "name": "settings_section_appearance",
+      "value": "Appearance & Language"
+    },
+    {
+      "name": "settings_dark_mode",
+      "value": "Dark Mode"
+    },
+    {
+      "name": "settings_dark_mode_follow_system",
+      "value": "Follow System"
+    },
+    {
+      "name": "settings_dark_mode_light",
+      "value": "Light Mode"
+    },
+    {
+      "name": "settings_dark_mode_dark",
+      "value": "Dark Mode"
+    },
+    {
+      "name": "settings_theme_color",
+      "value": "Theme Color"
+    },
+    {
+      "name": "settings_theme_color_default",
+      "value": "Aurora Blue"
+    },
+    {
+      "name": "settings_theme_color_purple",
+      "value": "Mystic Purple"
+    },
+    {
+      "name": "settings_theme_color_green",
+      "value": "Fresh Green"
+    },
+    {
+      "name": "settings_theme_color_orange",
+      "value": "Sunset Orange"
+    },
+    {
+      "name": "settings_theme_color_red",
+      "value": "Vital Red"
+    },
+    {
+      "name": "settings_dynamic_color",
+      "value": "Dynamic Theme Color"
+    },
+    {
+      "name": "settings_dynamic_color_desc",
+      "value": "When enabled, the app theme color will sync with system wallpaper colors"
+    },
+    {
+      "name": "settings_language",
+      "value": "Language"
+    },
+    {
+      "name": "settings_language_chinese",
+      "value": "Chinese"
+    },
+    {
+      "name": "settings_section_privacy",
+      "value": "Privacy & Agreement"
+    },
+    {
+      "name": "settings_section_other",
+      "value": "Other"
+    },
+    {
+      "name": "settings_hide_splash",
+      "value": "Hide Splash Screen"
+    },
+    {
+      "name": "settings_hide_splash_desc",
+      "value": "When enabled, the app will skip the splash screen"
+    },
+    {
+      "name": "settings_app_guide",
+      "value": "App Guide"
+    },
+    {
+      "name": "settings_section_general",
+      "value": "General"
+    },
+    {
+      "name": "settings_clear_cache",
+      "value": "Clear Cache"
+    },
+    {
+      "name": "settings_cache_size",
+      "value": "13.24MB"
+    },
+    {
+      "name": "settings_feedback",
+      "value": "Feedback"
+    },
+    {
+      "name": "settings_about_app",
+      "value": "About App"
+    },
+    {
+      "name": "web_menu_refresh",
+      "value": "Refresh"
+    },
+    {
+      "name": "web_menu_open_browser",
+      "value": "Open in Browser"
+    },
+    {
+      "name": "web_more_options",
+      "value": "More Options"
+    },
+    {
+      "name": "dependency_modal_title",
+      "value": "Acknowledgments"
+    },
+    {
+      "name": "customer_service_chat",
+      "value": "Customer Service Chat"
+    },
+    {
+      "name": "back_to_bottom",
+      "value": "Back to bottom"
+    },
+    {
+      "name": "input_message_hint",
+      "value": "Send a message..."
+    },
+    {
+      "name": "send",
+      "value": "Send"
+    },
+    {
+      "name": "emoji",
+      "value": "Emoji"
+    },
+    {
+      "name": "more_functions",
+      "value": "More functions"
+    },
+    {
+      "name": "load_more_history",
+      "value": "Load more history"
+    },
+    {
+      "name": "loading_history",
+      "value": "Loading history..."
+    },
+    {
+      "name": "load_success",
+      "value": "Load success"
+    },
+    {
+      "name": "load_failed_retry",
+      "value": "Load failed, tap to retry"
+    },
+    {
+      "name": "load_failed",
+      "value": "Load failed"
+    },
+    {
+      "name": "no_more_messages",
+      "value": "No more messages"
+    },
+    {
+      "name": "gallery",
+      "value": "Gallery"
+    },
+    {
+      "name": "camera",
+      "value": "Camera"
+    },
+    {
+      "name": "connection_error",
+      "value": "Connection error"
+    },
+    {
+      "name": "create_session_failed",
+      "value": "Failed to create session"
+    },
+    {
+      "name": "send_message_failed",
+      "value": "Failed to send message"
+    },
+    {
+      "name": "normal_close",
+      "value": "Normal close"
+    },
+    {
+      "name": "feedback_list",
+      "value": "Feedback List"
+    },
+    {
+      "name": "feedback_submit",
+      "value": "Submit Feedback"
+    },
+    {
+      "name": "feedback_type",
+      "value": "Feedback Type"
+    },
+    {
+      "name": "feedback_content",
+      "value": "Feedback Content"
+    },
+    {
+      "name": "contact_info_optional",
+      "value": "Contact (Optional)"
+    },
+    {
+      "name": "problem_screenshot_optional",
+      "value": "Screenshots (Optional)"
+    },
+    {
+      "name": "feedback_content_hint",
+      "value": "Please describe the problem in detail, including steps to reproduce and relevant screenshots to help us locate the issue"
+    },
+    {
+      "name": "contact_info_hint",
+      "value": "QQ/WeChat ID, phone number, or email"
+    },
+    {
+      "name": "status_processed",
+      "value": "Processed"
+    },
+    {
+      "name": "status_unprocessed",
+      "value": "Unprocessed"
+    },
+    {
+      "name": "customer_service_reply",
+      "value": "Customer Service Reply"
+    },
+    {
+      "name": "unknown_type",
+      "value": "Unknown Type"
+    },
+    {
+      "name": "please_select_type_and_fill_content",
+      "value": "Please select feedback type and fill in content"
+    },
+    {
+      "name": "submitting",
+      "value": "Submitting..."
+    },
+    {
+      "name": "feedback_submit_success",
+      "value": "Feedback submitted successfully, thank you for your feedback"
+    },
+    {
+      "name": "goods_detail",
+      "value": "Product Details"
+    },
+    {
+      "name": "goods_comment_title",
+      "value": "Product Reviews"
+    },
+    {
+      "name": "sold_count",
+      "value": "Sold %d"
+    },
+    {
+      "name": "coupon_text",
+      "value": "%d off when you spend %d"
+    },
+    {
+      "name": "spec",
+      "value": "Specification"
+    },
+    {
+      "name": "selected_spec",
+      "value": "Selected: %s"
+    },
+    {
+      "name": "select_spec",
+      "value": "Select Spec"
+    },
+    {
+      "name": "shipping_and_service",
+      "value": "Shipping & Service"
+    },
+    {
+      "name": "shipping",
+      "value": "Shipping"
+    },
+    {
+      "name": "shipping_location",
+      "value": "Yunnan, Kunming"
+    },
+    {
+      "name": "service",
+      "value": "Service"
+    },
+    {
+      "name": "service_details",
+      "value": "7-day returns · Insurance · 48h shipping"
+    },
+    {
+      "name": "customer_service",
+      "value": "Service"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "Cart"
+    },
+    {
+      "name": "add_to_cart",
+      "value": "Add to Cart"
+    },
+    {
+      "name": "buy_now",
+      "value": "Buy Now"
+    },
+    {
+      "name": "view_all",
+      "value": "View All"
+    },
+    {
+      "name": "goods_reviews",
+      "value": "Reviews"
+    },
+    {
+      "name": "filter",
+      "value": "Filter"
+    },
+    {
+      "name": "comprehensive",
+      "value": "All"
+    },
+    {
+      "name": "sales",
+      "value": "Sales"
+    },
+    {
+      "name": "search_history",
+      "value": "Search History"
+    },
+    {
+      "name": "recommended_search",
+      "value": "Recommended"
+    },
+    {
+      "name": "price_range",
+      "value": "Price"
+    },
+    {
+      "name": "min_price",
+      "value": "Min"
+    },
+    {
+      "name": "max_price",
+      "value": "Max"
+    },
+    {
+      "name": "reset",
+      "value": "Reset"
+    },
+    {
+      "name": "add_to_cart_failed",
+      "value": "Failed to add to cart"
+    },
+    {
+      "name": "add_to_cart_success",
+      "value": "Added to cart successfully"
+    },
+    {
+      "name": "anonymous_user",
+      "value": "Anonymous"
+    },
+    {
+      "name": "spec_colon",
+      "value": "Spec: %s"
+    },
+    {
+      "name": "view_images",
+      "value": "View Images"
+    },
+    {
+      "name": "guide_skip",
+      "value": "Skip"
+    },
+    {
+      "name": "guide_start_experience",
+      "value": "Get Started"
+    },
+    {
+      "name": "guide_continue",
+      "value": "Continue"
+    },
+    {
+      "name": "guide_page_1_title",
+      "value": "CoolMall - Open Source E-Commerce Learning Project"
+    },
+    {
+      "name": "guide_page_1_desc",
+      "value": "Modern e-commerce app developed in 100% Kotlin\nCompletely open source and free, helping developers grow fast\nProviding complete code references and learning resources"
+    },
+    {
+      "name": "guide_page_2_title",
+      "value": "Declarative UI Experience"
+    },
+    {
+      "name": "guide_page_2_desc",
+      "value": "Build smooth interfaces with Jetpack Compose\nMVVM + Clean Architecture\nFull integration of Hilt, Coroutines, Flow and more"
+    },
+    {
+      "name": "guide_page_3_title",
+      "value": "Complete E-Commerce Process"
+    },
+    {
+      "name": "guide_page_3_desc",
+      "value": "User authentication, product display, search & categories\nShopping cart management, full order & payment flow\nLearning cases close to real business scenarios"
+    },
+    {
+      "name": "guide_page_4_title",
+      "value": "Modular Architecture Design"
+    },
+    {
+      "name": "guide_page_4_desc",
+      "value": "Reference to Google Now in Android best practices\nHigh cohesion, low coupling, easy to maintain and extend\nQuality project for learning and secondary development"
+    },
+    {
+      "name": "app_name_splash",
+      "value": "CoolMall"
+    },
+    {
+      "name": "app_copyright",
+      "value": "© 2025 Joker.X & CoolMallKotlin Contributors"
+    },
+    {
+      "name": "home",
+      "value": "Home"
+    },
+    {
+      "name": "category",
+      "value": "Category"
+    },
+    {
+      "name": "cart",
+      "value": "Cart"
+    },
+    {
+      "name": "me",
+      "value": "Me"
+    },
+    {
+      "name": "complete",
+      "value": "Done"
+    },
+    {
+      "name": "delete_count",
+      "value": "Delete(%d)"
+    },
+    {
+      "name": "select_all",
+      "value": "Select All"
+    },
+    {
+      "name": "price_format",
+      "value": "¥%.2f"
+    },
+    {
+      "name": "settle_account",
+      "value": "Checkout"
+    },
+    {
+      "name": "settle_account_count",
+      "value": "Checkout(%d)"
+    },
+    {
+      "name": "cart_empty",
+      "value": "Your cart is empty~"
+    },
+    {
+      "name": "go_shopping",
+      "value": "Go Shopping"
+    },
+    {
+      "name": "search_goods",
+      "value": "Search Products"
+    },
+    {
+      "name": "recommend_goods",
+      "value": "Recommended Products"
+    },
+    {
+      "name": "all_goods",
+      "value": "All Products"
+    },
+    {
+      "name": "flash_sale",
+      "value": "Flash Sale"
+    },
+    {
+      "name": "receive",
+      "value": "Receive"
+    },
+    {
+      "name": "not_logged_in",
+      "value": "Not Logged In"
+    },
+    {
+      "name": "click_to_login",
+      "value": "Click to Login"
+    },
+    {
+      "name": "phone_number",
+      "value": "Phone"
+    },
+    {
+      "name": "member",
+      "value": "Member"
+    },
+    {
+      "name": "member_benefits",
+      "value": "5 VIP Benefits!"
+    },
+    {
+      "name": "activate_now",
+      "value": "Activate"
+    },
+    {
+      "name": "my_orders",
+      "value": "My Orders"
+    },
+    {
+      "name": "pending_payment",
+      "value": "To Pay"
+    },
+    {
+      "name": "pending_shipment",
+      "value": "To Ship"
+    },
+    {
+      "name": "pending_receipt",
+      "value": "To Receive"
+    },
+    {
+      "name": "pending_review",
+      "value": "To Review"
+    },
+    {
+      "name": "refund_after_sale",
+      "value": "Refund"
+    },
+    {
+      "name": "my_footprint",
+      "value": "My Footprint"
+    },
+    {
+      "name": "coupons",
+      "value": "Coupons"
+    },
+    {
+      "name": "shipping_address",
+      "value": "Shipping Address"
+    },
+    {
+      "name": "online_customer_service",
+      "value": "Online Customer Service"
+    },
+    {
+      "name": "feedback",
+      "value": "Feedback"
+    },
+    {
+      "name": "about_us",
+      "value": "About Us"
+    },
+    {
+      "name": "settings",
+      "value": "Settings"
+    },
+    {
+      "name": "category_all",
+      "value": "All Categories"
+    },
+    {
+      "name": "category_empty",
+      "value": "No Categories"
+    },
+    {
+      "name": "please_select_settlement_goods",
+      "value": "Please select items to checkout"
+    },
+    {
+      "name": "get_selected_goods_failed",
+      "value": "Failed to get selected items"
+    },
+    {
+      "name": "coupon_title",
+      "value": "My Coupons"
+    },
+    {
+      "name": "order_list",
+      "value": "Order List"
+    },
+    {
+      "name": "order_detail",
+      "value": "Order Detail"
+    },
+    {
+      "name": "order_confirm",
+      "value": "Confirm Order"
+    },
+    {
+      "name": "order_pay",
+      "value": "Checkout"
+    },
+    {
+      "name": "order_logistics",
+      "value": "Logistics Detail"
+    },
+    {
+      "name": "order_refund",
+      "value": "Refund Request"
+    },
+    {
+      "name": "order_comment",
+      "value": "Product Review"
+    },
+    {
+      "name": "order_status_all",
+      "value": "All"
+    },
+    {
+      "name": "order_status_unpaid",
+      "value": "Unpaid"
+    },
+    {
+      "name": "order_status_unshipped",
+      "value": "Unshipped"
+    },
+    {
+      "name": "order_status_unreceived",
+      "value": "Unreceived"
+    },
+    {
+      "name": "order_status_after_sale",
+      "value": "After Sale/Refund"
+    },
+    {
+      "name": "order_status_unevaluated",
+      "value": "To Review"
+    },
+    {
+      "name": "order_status_completed_tab",
+      "value": "Completed"
+    },
+    {
+      "name": "order_status_pending_payment",
+      "value": "Pending Payment"
+    },
+    {
+      "name": "order_status_pending_shipment",
+      "value": "Pending Shipment"
+    },
+    {
+      "name": "order_status_pending_receipt",
+      "value": "Pending Receipt"
+    },
+    {
+      "name": "order_status_pending_comment",
+      "value": "Pending Review"
+    },
+    {
+      "name": "order_status_completed",
+      "value": "Completed"
+    },
+    {
+      "name": "order_status_refunding",
+      "value": "Refunding"
+    },
+    {
+      "name": "order_status_refunded",
+      "value": "Refunded"
+    },
+    {
+      "name": "order_status_closed",
+      "value": "Closed"
+    },
+    {
+      "name": "order_status_unknown",
+      "value": "Unknown"
+    },
+    {
+      "name": "total_items",
+      "value": "Total %d items"
+    },
+    {
+      "name": "select_cancel_reason",
+      "value": "Select Cancel Reason"
+    },
+    {
+      "name": "confirm_receipt",
+      "value": "Confirm Receipt"
+    },
+    {
+      "name": "confirm_receipt_message",
+      "value": "Once confirmed, you cannot request refund or after-sales service. Please proceed with caution"
+    },
+    {
+      "name": "select_goods_to_buy",
+      "value": "Select Products to Buy"
+    },
+    {
+      "name": "rebuy",
+      "value": "Buy Again"
+    },
+    {
+      "name": "select_goods_to_comment",
+      "value": "Select Products to Review"
+    },
+    {
+      "name": "go_to_comment",
+      "value": "Go to Review"
+    },
+    {
+      "name": "price_detail",
+      "value": "Price Detail"
+    },
+    {
+      "name": "goods_total_price",
+      "value": "Products Total"
+    },
+    {
+      "name": "discount_amount",
+      "value": "Discount Amount"
+    },
+    {
+      "name": "actual_payment",
+      "value": "Actual Payment"
+    },
+    {
+      "name": "refund_amount",
+      "value": "Refund Amount"
+    },
+    {
+      "name": "refund_status",
+      "value": "Refund Status"
+    },
+    {
+      "name": "refund_status_applying",
+      "value": "Applying"
+    },
+    {
+      "name": "refund_status_refunded",
+      "value": "Refunded"
+    },
+    {
+      "name": "refund_status_rejected",
+      "value": "Rejected"
+    },
+    {
+      "name": "refund_status_unknown",
+      "value": "Unknown Status"
+    },
+    {
+      "name": "refund_reason",
+      "value": "Application Reason"
+    },
+    {
+      "name": "refund_reject_reason",
+      "value": "Refusal Reason"
+    },
+    {
+      "name": "refund_apply_time",
+      "value": "Application Time"
+    },
+    {
+      "name": "none",
+      "value": "None"
+    },
+    {
+      "name": "order_info",
+      "value": "Order Information"
+    },
+    {
+      "name": "order_number",
+      "value": "Order Number"
+    },
+    {
+      "name": "copy",
+      "value": "Copy"
+    },
+    {
+      "name": "payment_method",
+      "value": "Payment Method"
+    },
+    {
+      "name": "wechat_pay",
+      "value": "WeChat"
+    },
+    {
+      "name": "payment_time",
+      "value": "Payment Time"
+    },
+    {
+      "name": "unpaid",
+      "value": "Not Paid"
+    },
+    {
+      "name": "not_paid",
+      "value": "Not Paid"
+    },
+    {
+      "name": "order_time",
+      "value": "Order Time"
+    },
+    {
+      "name": "order_remark",
+      "value": "Order Remark"
+    },
+    {
+      "name": "purchase_goods",
+      "value": "Purchase Goods"
+    },
+    {
+      "name": "select_coupon",
+      "value": "Select Coupon"
+    },
+    {
+      "name": "coupon",
+      "value": "Coupon"
+    },
+    {
+      "name": "coupon_select",
+      "value": "Select"
+    },
+    {
+      "name": "coupon_discount",
+      "value": "Coupon Discount"
+    },
+    {
+      "name": "order_remark_title",
+      "value": "Order Remark"
+    },
+    {
+      "name": "order_remark_label",
+      "value": "Order Remark"
+    },
+    {
+      "name": "order_remark_placeholder",
+      "value": "Optional, visible to merchant after payment"
+    },
+    {
+      "name": "submit_order",
+      "value": "Submit Order"
+    },
+    {
+      "name": "go_to_pay",
+      "value": "Pay Now"
+    },
+    {
+      "name": "order_pay_button",
+      "value": "Pay Now"
+    },
+    {
+      "name": "order_pay_button_with_price",
+      "value": "Pay ¥%d"
+    },
+    {
+      "name": "pay_method_alipay",
+      "value": "Alipay"
+    },
+    {
+      "name": "wechat_pay_title",
+      "value": "WeChat Pay"
+    },
+    {
+      "name": "pay_method_wechat",
+      "value": "WeChat Pay"
+    },
+    {
+      "name": "pay_method_qq",
+      "value": "QQ Pay"
+    },
+    {
+      "name": "order_pay_tip",
+      "value": "Note: Actual payment amount is processed to 1 cent"
+    },
+    {
+      "name": "refund_info",
+      "value": "Refund Information"
+    },
+    {
+      "name": "logistics_info",
+      "value": "Logistics Information"
+    },
+    {
+      "name": "express_company",
+      "value": "Express Company"
+    },
+    {
+      "name": "unknown_express",
+      "value": "Unknown Express"
+    },
+    {
+      "name": "logistics_number",
+      "value": "Tracking Number"
+    },
+    {
+      "name": "courier",
+      "value": "Courier"
+    },
+    {
+      "name": "contact_phone",
+      "value": "Contact Phone"
+    },
+    {
+      "name": "call",
+      "value": "Call"
+    },
+    {
+      "name": "transport_time",
+      "value": "Transport Time"
+    },
+    {
+      "name": "logistics_track",
+      "value": "Logistics Track"
+    },
+    {
+      "name": "submit_comment",
+      "value": "Submit Review"
+    },
+    {
+      "name": "please_rate",
+      "value": "Please tap stars to rate"
+    },
+    {
+      "name": "rating_very_poor",
+      "value": "Very Poor"
+    },
+    {
+      "name": "rating_poor",
+      "value": "Poor"
+    },
+    {
+      "name": "rating_average",
+      "value": "Average"
+    },
+    {
+      "name": "rating_good",
+      "value": "Good"
+    },
+    {
+      "name": "rating_excellent",
+      "value": "Excellent"
+    },
+    {
+      "name": "comment_placeholder",
+      "value": "Please enter your comment..."
+    },
+    {
+      "name": "cancel_order",
+      "value": "Cancel Order"
+    },
+    {
+      "name": "pay_now",
+      "value": "Pay Now"
+    },
+    {
+      "name": "order_refund_button",
+      "value": "After Sales/Refund"
+    },
+    {
+      "name": "confirm_receive",
+      "value": "Confirm Receipt"
+    },
+    {
+      "name": "view_logistics",
+      "value": "View Logistics"
+    },
+    {
+      "name": "comment_now",
+      "value": "Review Now"
+    },
+    {
+      "name": "rebuy_now",
+      "value": "Buy Again"
+    },
+    {
+      "name": "please_fill_comment",
+      "value": "Please fill in review content and rating first"
+    },
+    {
+      "name": "comment_submit_success",
+      "value": "Review submitted successfully"
+    },
+    {
+      "name": "payment_success",
+      "value": "Payment successful"
+    },
+    {
+      "name": "payment_failed",
+      "value": "Payment failed"
+    },
+    {
+      "name": "payment_cancel",
+      "value": "Payment cancelled"
+    },
+    {
+      "name": "select_address",
+      "value": "Please select a shipping address"
+    },
+    {
+      "name": "profile_title",
+      "value": "Profile"
+    },
+    {
+      "name": "address_management",
+      "value": "Address Management"
+    },
+    {
+      "name": "address_list_title",
+      "value": "Shipping Address"
+    },
+    {
+      "name": "address_detail_title",
+      "value": "Address Details"
+    },
+    {
+      "name": "add_address",
+      "value": "Add Address"
+    },
+    {
+      "name": "edit_address",
+      "value": "Edit Address"
+    },
+    {
+      "name": "delete_address",
+      "value": "Delete Address"
+    },
+    {
+      "name": "ok",
+      "value": "OK"
+    },
+    {
+      "name": "delete_address_confirm",
+      "value": "Are you sure to delete this address?"
+    },
+    {
+      "name": "set_default_address",
+      "value": "Set as Default"
+    },
+    {
+      "name": "default_address",
+      "value": "Default Address"
+    },
+    {
+      "name": "default_address_tip",
+      "value": "This address will be used for orders first"
+    },
+    {
+      "name": "save_address",
+      "value": "Save"
+    },
+    {
+      "name": "address_add_new",
+      "value": "New Address"
+    },
+    {
+      "name": "contact_person",
+      "value": "Contact Person"
+    },
+    {
+      "name": "please_input_contact",
+      "value": "Please enter contact person"
+    },
+    {
+      "name": "please_input_phone",
+      "value": "Please enter phone number"
+    },
+    {
+      "name": "region",
+      "value": "Region"
+    },
+    {
+      "name": "please_select_region",
+      "value": "Please select region"
+    },
+    {
+      "name": "detail_address",
+      "value": "Detail Address"
+    },
+    {
+      "name": "street_number_etc",
+      "value": "Street, building number, etc."
+    },
+    {
+      "name": "footprint_title",
+      "value": "My Footprint"
+    },
+    {
+      "name": "footprint_empty",
+      "value": "No browsing history yet"
+    },
+    {
+      "name": "go_browse",
+      "value": "Go Browse"
+    },
+    {
+      "name": "clear_with_count",
+      "value": "Clear (%d)"
+    },
+    {
+      "name": "avatar",
+      "value": "Avatar"
+    },
+    {
+      "name": "nickname",
+      "value": "Nickname"
+    },
+    {
+      "name": "not_set",
+      "value": "Not Set"
+    },
+    {
+      "name": "account_info",
+      "value": "Account Info"
+    },
+    {
+      "name": "phone",
+      "value": "Phone"
+    },
+    {
+      "name": "not_bound",
+      "value": "Not Bound"
+    },
+    {
+      "name": "account",
+      "value": "Account"
+    },
+    {
+      "name": "social_account",
+      "value": "Social Account"
+    },
+    {
+      "name": "go_bind",
+      "value": "Go Bind"
+    },
+    {
+      "name": "bound",
+      "value": "Bound"
+    },
+    {
+      "name": "security",
+      "value": "Security"
+    },
+    {
+      "name": "change_password",
+      "value": "Change Password"
+    },
+    {
+      "name": "delete_account",
+      "value": "Delete Account"
+    },
+    {
+      "name": "logout",
+      "value": "Logout"
+    },
+    {
+      "name": "permission_reason_internet",
+      "value": "Used to access the network to load products, orders and other data"
+    },
+    {
+      "name": "permission_reason_network_info",
+      "value": "Used to read the network state to check whether the network is available"
+    },
+    {
+      "name": "user_phone_number",
+      "value": "Phone Number"
+    }
+  ]
+}

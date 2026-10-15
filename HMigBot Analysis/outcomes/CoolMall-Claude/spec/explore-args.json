@@ -1,0 +1,133 @@
+{
+ "goal": "CoolMall Android→HarmonyOS migration, stage 2b semantic extraction: produce one assertion card per area (page cards/domain cards), from which the ledger denominator is frozen",
+ "docDir": "/Users/ppp/Projects/migrate-core/output/CoolMallHM/spec/cards",
+ "instructionsFile": "/Users/ppp/Projects/migrate-core/output/CoolMallHM/spec/explore-instructions.md",
+ "context": "Read/write only input/CoolMallKotlin (read-only), output/CoolMallHM/spec/cards (write your own card). Strictly follow the card format in instructionsFile; the parser reads it mechanically.",
+ "areas": [
+  {
+   "name": "app-init-launch",
+   "doc": "launch.md",
+   "focus": "App startup and launch flow: Application.onCreate initialization (initToast/initLog/initMMKV/initQQ/appState.initialize), MainActivity (edge-to-edge, theme), AppNavHost, splash page LaunchRoutesSplash, guide page LaunchRoutesGuide, first-launch check, theme mode/theme color (core/common ThemePreferenceManager + designsystem theme), global AppState/login state. Also produce a separate INIT-related domain section. Assertion ID prefix: LAUNCH-A01… Card file name: launch.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/app/src/main/java/com/joker/coolmall",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/launch/src/main/java/com/joker/coolmall/feature/launch",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/navigation/src/main/java/com/joker/coolmall/core/navigation",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/common/src/main/java/com/joker/coolmall/core/common",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/designsystem/src/main/java/com/joker/coolmall/core/designsystem/theme"
+   ]
+  },
+  {
+   "name": "main-home",
+   "doc": "main_home.md",
+   "focus": "Home tab (MainRoutesMain hosts the bottom navigation Home/Category/Cart/Me): MainScreen bottom navigation behavior, HomeScreen/HomeViewModel/HomeSkeleton/FlashSaleItem, banner/categories/flash sale/recommended product list/load more/pull-to-refresh/search entry. Assertion ID prefix: HOME-A01… Card file name: main_home.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/view/MainScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/view/HomeScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/viewmodel/HomeViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/viewmodel/MainViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/component",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/state/HomeUiState.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/model"
+   ]
+  },
+  {
+   "name": "main-category-cart-me",
+   "doc": "main_tabs.md",
+   "focus": "Category tab, Cart tab (MainRoutesCart is also registered as a standalone route), Me tab: CategoryScreen/CartScreen/MeScreen and their ViewModels. Cart select/select all/quantity change/delete/checkout; Me page login state, order entry points, settings entry. Assertion ID prefix: MAIN-A01… Card file name: main_tabs.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/view/CategoryScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/view/CartScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/view/MeScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/viewmodel",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/main/src/main/java/com/joker/coolmall/feature/main/state/CategoryUiState.kt"
+   ]
+  },
+  {
+   "name": "goods",
+   "doc": "goods.md",
+   "focus": "Goods domain: GoodsRoutesDetail product detail (SKU spec selection/add to cart/buy now/favorite/comments preview), GoodsRoutesComment comment list, GoodsRoutesSearch search (search history/suggestions/results), GoodsRoutesCategory category product list (sort/filter FilterDialog/load more). Assertion ID prefix: GOODS-A01… Card file name: goods.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/goods/src/main/java/com/joker/coolmall/feature/goods"
+   ]
+  },
+  {
+   "name": "order-a",
+   "doc": "order_a.md",
+   "focus": "Order list OrderRoutesList (status tabs/pagination/order action buttons), order detail OrderRoutesDetail, logistics OrderRoutesLogistics. Assertion ID prefix: ORDA-A01… Card file name: order_a.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/view/OrderListScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/view/OrderDetailScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/view/OrderLogisticsScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/viewmodel/OrderListViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/viewmodel/OrderDetailViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/viewmodel/OrderLogisticsViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/component",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/model"
+   ]
+  },
+  {
+   "name": "order-b",
+   "doc": "order_b.md",
+   "focus": "Order confirm OrderRoutesConfirm (address/coupon/price calculation/submit), payment OrderRoutesPay (Alipay/WeChat/simulated payment, countdown), refund OrderRoutesRefund, comment OrderRoutesComment. Assertion ID prefix: ORDB-A01… Card file name: order_b.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/view/OrderConfirmScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/view/OrderPayScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/view/OrderRefundScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/view/OrderCommentScreen.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/viewmodel/OrderConfirmViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/viewmodel/OrderPayViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/viewmodel/OrderRefundViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/viewmodel/OrderCommentViewModel.kt",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/order/src/main/java/com/joker/coolmall/feature/order/model/Alipay.kt"
+   ]
+  },
+  {
+   "name": "auth",
+   "doc": "auth.md",
+   "focus": "Auth domain: AuthRoutesLogin (login method selection/QQ login), AuthRoutesAccountLogin, AuthRoutesSmsLogin (image captcha ImageCaptchaDialog/SMS countdown), AuthRoutesRegister, AuthRoutesResetPassword; input validation (core/util validation), storing the token after successful login. Assertion ID prefix: AUTH-A01… Card file name: auth.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/auth/src/main/java/com/joker/coolmall/feature/auth",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/util/src/main/java/com/joker/coolmall/core/util/validation"
+   ]
+  },
+  {
+   "name": "user-market-feedback",
+   "doc": "user_market_feedback.md",
+   "focus": "User domain: UserRoutesProfile profile (avatar/nickname edit/logout), UserRoutesAddressList/AddressDetail address CRUD (RegionPickerModal region selection), UserRoutesFootprint footprints (local database); MarketRoutesCoupon coupons (claim); FeedbackRoutesList/FeedbackRoutesSubmit feedback (image upload). Assertion ID prefix: USER-A01… Card file name: user_market_feedback.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/user/src/main/java/com/joker/coolmall/feature/user",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/market/src/main/java/com/joker/coolmall/feature/market",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/feedback/src/main/java/com/joker/coolmall/feature/feedback"
+   ]
+  },
+  {
+   "name": "cs-chat",
+   "doc": "cs_chat.md",
+   "focus": "Customer service chat CsRoutesChat: WebSocketManager connection/reconnect/connection state, message list/load history ChatLoadMore, ChatInputBar/emoji EmojiSelector/function selector FunctionSelector (images etc.), ChatSoundManager notification sound. Assertion ID prefix: CS-A01… Card file name: cs_chat.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/cs/src/main/java/com/joker/coolmall/feature/cs"
+   ]
+  },
+  {
+   "name": "common",
+   "doc": "common.md",
+   "focus": "Common pages: CommonRoutesSettings settings (theme mode ThemeModeModal/theme color ThemeColorModal/clear cache/language etc.), CommonRoutesAbout about (version/links/DependencyModal open-source dependencies), CommonRoutesWeb web page WebView, CommonRoutesUserAgreement/PrivacyPolicy, CommonRoutesContributors contributors. Assertion ID prefix: COM-A01… Card file name: common.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/feature/common/src/main/java/com/joker/coolmall/feature/common"
+   ]
+  },
+  {
+   "name": "data-domain",
+   "doc": "data_domain.md",
+   "focus": "Domain card (no page): network layer core/network (base URL, interceptors that inject token/handle 401, NetworkResponse wrapper, list of service APIs), core/data Repository + state (login state/cart count etc.), core/database Room (footprints/search history/cart? entities and DAOs), core/datastore (auth/user info persistence keys), core/util storage MMKVUtils/notification/permission/log, core/result. Output backend assertions: endpoints, persistence keys, token injection, logout clearing, cache strategy. Assertion ID prefix: DATA-A01… Card file name: data_domain.",
+   "sources": [
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/network/src/main/java/com/joker/coolmall/core/network",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/data/src/main/java/com/joker/coolmall/core/data",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/database/src/main/java/com/joker/coolmall/core/database",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/datastore/src/main/java/com/joker/coolmall/core/datastore",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/util/src/main/java/com/joker/coolmall/core/util",
+    "/Users/ppp/Projects/migrate-core/input/CoolMallKotlin/core/result"
+   ]
+  }
+ ]
+}

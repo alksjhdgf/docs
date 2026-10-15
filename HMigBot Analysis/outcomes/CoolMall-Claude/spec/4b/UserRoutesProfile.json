@@ -1,0 +1,45 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "UserRoutesProfile",
+  "kind": "skeleton",
+  "slice": "page-user-profile-footprint",
+  "route": "UserRoutesProfile",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "UserRoutesProfile"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "个人中心",
+        "头像",
+        "昵称",
+        "未设置",
+        "账号信息",
+        "手机号",
+        "未绑定",
+        "账号",
+        "社交账号",
+        "微信",
+        "去绑定",
+        "QQ",
+        "已绑定",
+        "安全",
+        "修改密码",
+        "注销账户",
+        "我的足迹",
+        "暂无数据",
+        "清空 \\(%d\\)"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "UserRoutesProfile"
+    }
+  ]
+}

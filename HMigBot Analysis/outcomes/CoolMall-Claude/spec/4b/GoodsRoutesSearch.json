@@ -1,0 +1,39 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "GoodsRoutesSearch",
+  "kind": "skeleton",
+  "slice": "page-goods-search-list",
+  "route": "GoodsRoutesSearch",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "GoodsRoutesSearch"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "输入内容进行搜索",
+        "搜索",
+        "搜索历史",
+        "推荐搜索",
+        "综合",
+        "销量",
+        "价格",
+        "筛选",
+        "价格区间",
+        "最低价",
+        "最高价",
+        "重置",
+        "确定"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "GoodsRoutesSearch"
+    }
+  ]
+}

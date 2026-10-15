@@ -1,0 +1,364 @@
+{
+  "src": "input/CoolMallKotlin",
+  "verdict": "yellow",
+  "profile": {
+    "activities": 3,
+    "uiParadigm": "compose",
+    "navSources": [
+      "manifest"
+    ],
+    "fragments": 0,
+    "archHints": [],
+    "sizeClass": "standard",
+    "sizeSignals": {
+      "lines": 61291,
+      "files": 451,
+      "pagesApprox": 37,
+      "deps": 49
+    },
+    "shape": {
+      "explore": "workflow",
+      "foundation": "wave",
+      "adversary": "derived"
+    }
+  },
+  "scale": {
+    "srcFiles": 451,
+    "lines": 61291,
+    "uiTech": "compose",
+    "layoutXml": 3,
+    "sampleTruncated": null
+  },
+  "deps": [
+    "androidx.activity:activity-compose",
+    "androidx.appcompat:appcompat",
+    "androidx.compose.material3:material3",
+    "androidx.compose.ui:ui",
+    "androidx.compose.ui:ui-graphics",
+    "androidx.compose.ui:ui-test-junit4",
+    "androidx.compose.ui:ui-test-manifest",
+    "androidx.compose.ui:ui-tooling",
+    "androidx.compose.ui:ui-tooling-preview",
+    "androidx.compose:compose-bom",
+    "androidx.core:core-ktx",
+    "androidx.core:core-splashscreen",
+    "androidx.hilt:hilt-lifecycle-viewmodel-compose",
+    "androidx.lifecycle:lifecycle-runtime-ktx",
+    "androidx.lifecycle:lifecycle-viewmodel-navigation3",
+    "androidx.navigation3:navigation3-runtime",
+    "androidx.navigation3:navigation3-ui",
+    "androidx.room:room-compiler",
+    "androidx.room:room-ktx",
+    "androidx.room:room-paging",
+    "androidx.room:room-runtime",
+    "androidx.room:room-testing",
+    "androidx.test.espresso:espresso-core",
+    "androidx.test.ext:junit",
+    "com.airbnb.android:lottie-compose",
+    "com.alipay.sdk:alipaysdk-android",
+    "com.android.tools.build:gradle-api",
+    "com.android.tools:desugar_jdk_libs",
+    "com.github.chuckerteam.chucker:library",
+    "com.github.chuckerteam.chucker:library-no-op",
+    "com.github.getActivity:Toaster",
+    "com.github.getActivity:XXPermissions",
+    "com.google.android.material:material",
+    "com.google.dagger:hilt-android",
+    "com.google.dagger:hilt-android-compiler",
+    "com.google.dagger:hilt-android-testing",
+    "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin",
+    "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter",
+    "com.jakewharton.timber:timber",
+    "com.squareup.leakcanary:leakcanary-android",
+    "com.squareup.okhttp3:logging-interceptor",
+    "com.squareup.okhttp3:okhttp",
+    "com.squareup.retrofit2:retrofit",
+    "com.tencent:mmkv",
+    "com.valentinilk.shimmer:compose-shimmer",
+    "io.coil-kt:coil-compose",
+    "junit:junit",
+    "org.jetbrains.kotlin:kotlin-gradle-plugin",
+    "org.jetbrains.kotlinx:kotlinx-serialization-json"
+  ],
+  "libFindings": [
+    {
+      "dep": "org.jetbrains.kotlinx:kotlinx-serialization-json",
+      "status": "equivalent",
+      "harmony": "JSON 内建 / class-transformer 模式",
+      "note": "",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.okhttp3:okhttp",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.retrofit2:retrofit",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "com.squareup.okhttp3:logging-interceptor",
+      "status": "equivalent",
+      "harmony": "@kit.NetworkKit http / RCP",
+      "note": "常规 REST 调用面映射清楚",
+      "source": "seed"
+    },
+    {
+      "dep": "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter",
+      "status": "equivalent",
+      "harmony": "`@ohos/axios` 或原生 http",
+      "note": "axios 提供更友好的 API",
+      "source": "official-map"
+    },
+    {
+      "dep": "com.jakewharton.timber:timber",
+      "status": "equivalent",
+      "harmony": "`hilog` (`@kit.PerformanceAnalysisKit`)",
+      "note": "系统级日志",
+      "source": "official-map"
+    },
+    {
+      "dep": "com.google.dagger:hilt-android",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.google.dagger:hilt-android-compiler",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.google.dagger:hilt-android-testing",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "io.coil-kt:coil-compose",
+      "status": "equivalent",
+      "harmony": "Image 组件 + ImageKnife(ohpm)",
+      "note": "图片加载",
+      "source": "seed"
+    },
+    {
+      "dep": "com.airbnb.android:lottie-compose",
+      "status": "equivalent",
+      "harmony": "`@ohos/lottie`",
+      "note": "Lottie 动画支持",
+      "source": "official-map"
+    },
+    {
+      "dep": "com.valentinilk.shimmer:compose-shimmer",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 3
+    },
+    {
+      "dep": "com.squareup.leakcanary:leakcanary-android",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.alipay.sdk:alipaysdk-android",
+      "status": "equivalent",
+      "harmony": "@cashier_alipay/cashiersdk (ohpm)",
+      "note": "支付+登录共用一包：登录传服务端签名 authInfo(apiname=com.alipay.account.auth)；订阅签约串 alipays:// 必走 canOpenLink+openLink，禁喂 Pay().pay（弹'交易订单处理失败'）；build-profile 必须 useNormalizedOHMUrl:true；querySchemes 声明 alipay/alipays；resultStatus=9000 还须 result_code=200 双校验",
+      "evidence": "生产项目实证",
+      "source": "adjudicated"
+    },
+    {
+      "dep": "com.github.getActivity:XXPermissions",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "androidx.activity:activity-compose",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "junit:junit",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "androidx.compose:compose-bom",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-graphics",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-tooling",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-tooling-preview",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-test-manifest",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.ui:ui-test-junit4",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.compose.material3:material3",
+      "status": "partial",
+      "harmony": "ArkUI 声明式（结构同构，逐组件映射）",
+      "note": "Compose 应用吃不到布局 XML 静态转译红利，走 fact-tree 骨架旁路",
+      "source": "seed"
+    },
+    {
+      "dep": "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.google.android.material:material",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.github.chuckerteam.chucker:library",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.github.chuckerteam.chucker:library-no-op",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.github.getActivity:Toaster",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 0
+    },
+    {
+      "dep": "com.tencent:mmkv",
+      "status": "unadjudicated",
+      "note": "缓存未命中——待裁决回写",
+      "callFace": 7
+    },
+    {
+      "dep": "androidx.room:room-runtime",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.room:room-compiler",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.room:room-ktx",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.room:room-testing",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    },
+    {
+      "dep": "androidx.room:room-paging",
+      "status": "equivalent",
+      "harmony": "@kit.ArkData relationalStore",
+      "note": "实证：DAO/预填充可 1:1",
+      "source": "seed"
+    }
+  ],
+  "capFindings": [
+    {
+      "cap": "常规能力",
+      "wall": "green",
+      "callFace": 3,
+      "where": "manifest",
+      "disposition": "直接映射"
+    }
+  ],
+  "crossPlatform": [],
+  "summary": {
+    "red": [],
+    "yellow": [
+      "androidx.activity:activity-compose（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose:compose-bom（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui-graphics（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui-tooling（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui-tooling-preview（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui-test-manifest（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.ui:ui-test-junit4（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+      "androidx.compose.material3:material3（partial）→ ArkUI 声明式（结构同构，逐组件映射）"
+    ],
+    "unadjudicated": [
+      "com.google.dagger:hilt-android（调用面 0）",
+      "com.google.dagger:hilt-android-compiler（调用面 0）",
+      "com.google.dagger:hilt-android-testing（调用面 0）",
+      "com.valentinilk.shimmer:compose-shimmer（调用面 3）",
+      "com.squareup.leakcanary:leakcanary-android（调用面 0）",
+      "com.github.getActivity:XXPermissions（调用面 0）",
+      "junit:junit（调用面 0）",
+      "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin（调用面 0）",
+      "com.google.android.material:material（调用面 0）",
+      "com.github.chuckerteam.chucker:library（调用面 0）",
+      "com.github.chuckerteam.chucker:library-no-op（调用面 0）",
+      "com.github.getActivity:Toaster（调用面 0）",
+      "com.tencent:mmkv（调用面 7）"
+    ]
+  }
+}

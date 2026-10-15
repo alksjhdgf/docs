@@ -1,0 +1,988 @@
+{
+  "version": "0.1.0",
+  "engine": "arkanalyzer+regex",
+  "arkVersion": "1.0.8",
+  "sources": [
+    "entry/src/main/ets/core"
+  ],
+  "fileCount": 96,
+  "symbolCount": 244,
+  "symbols": {
+    "NetWorkListUiState": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkListViewModel.ets"
+    },
+    "LOAD_MORE_APPEND_DELAY_MS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkListViewModel.ets"
+    },
+    "LOAD_MORE_THRESHOLD": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkListViewModel.ets"
+    },
+    "BaseNetWorkListViewModel": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkListViewModel.ets"
+    },
+    "LoadMoreState": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkListViewModel.ets"
+    },
+    "NetWorkUiState": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkViewModel.ets"
+    },
+    "MIN_LOADING_TIME_MS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkViewModel.ets"
+    },
+    "BaseNetWorkViewModel": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/common/BaseNetWorkViewModel.ets"
+    },
+    "AppState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/AppState.ets"
+    },
+    "AddressRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/AddressRepository.ets"
+    },
+    "AuthRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/AuthRepository.ets"
+    },
+    "AuthStoreRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/AuthStoreRepository.ets"
+    },
+    "BannerRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/BannerRepository.ets"
+    },
+    "CartRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/CartRepository.ets"
+    },
+    "CommonRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/CommonRepository.ets"
+    },
+    "CouponRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/CouponRepository.ets"
+    },
+    "CustomerServiceRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/CustomerServiceRepository.ets"
+    },
+    "FeedbackRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/FeedbackRepository.ets"
+    },
+    "FileUploadRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/FileUploadRepository.ets"
+    },
+    "FootprintRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/FootprintRepository.ets"
+    },
+    "GoodsRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/GoodsRepository.ets"
+    },
+    "OrderRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/OrderRepository.ets"
+    },
+    "PageRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/PageRepository.ets"
+    },
+    "QueryObserver": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/QueryObserver.ets"
+    },
+    "SearchHistoryRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/SearchHistoryRepository.ets"
+    },
+    "UserContributorRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/UserContributorRepository.ets"
+    },
+    "UserInfoRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/UserInfoRepository.ets"
+    },
+    "UserInfoUpdateValue": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/data/repository/UserInfoStoreRepository.ets"
+    },
+    "UserInfoStoreRepository": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/data/repository/UserInfoStoreRepository.ets"
+    },
+    "AppColors": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/designsystem/AppColors.ets"
+    },
+    "Dimens": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/designsystem/Dimens.ets"
+    },
+    "ThemeColorKey": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/designsystem/ThemeColorOption.ets"
+    },
+    "ThemeColorOption": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/designsystem/ThemeColorOption.ets"
+    },
+    "ThemeManager": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/designsystem/ThemeManager.ets"
+    },
+    "ThemeMode": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/designsystem/ThemePreference.ets"
+    },
+    "ThemePreference": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/designsystem/ThemePreference.ets"
+    },
+    "Auth": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Auth.ets"
+    },
+    "Id": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Common.ets"
+    },
+    "Ids": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Common.ets"
+    },
+    "CsConn": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Cs.ets"
+    },
+    "MessageContent": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Cs.ets"
+    },
+    "CsMsg": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Cs.ets"
+    },
+    "CsSession": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Cs.ets"
+    },
+    "GoodsSpec": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "Goods": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "Comment": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "GoodsDetail": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "GoodsSearchKeyword": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "Category": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "CategoryTree": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "Banner": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "Home": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "Condition": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Goods.ets"
+    },
+    "Coupon": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "DictItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "Feedback": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "UserContributor": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "Address": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "AddressBody": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "Captcha": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "TencentCredentials": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "OssUpload": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "Footprint": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "SearchHistory": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Market.ets"
+    },
+    "OrderDiscountInfo": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "OrderDiscountSource": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "OrderLogistics": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "OrderRefund": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "OrderGoods": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "Order": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "OrderCount": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "OrderCountJson": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "LogisticsItem": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "Logistics": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "ConfirmOrder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "SelectedGoods": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "CartGoodsSpec": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "Cart": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Order.ets"
+    },
+    "PageRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "CancelOrderRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "CreateOrder": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "CreateOrderRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "DictDataRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "FeedbackSubmitRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "GoodsCommentPageRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "GoodsCommentSubmitRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "GoodsSearchRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "MessagePageRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "OrderPageRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "QQLoginRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "ReadMessageRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "ReceiveCouponRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "RefundOrderRequest": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Request.ets"
+    },
+    "NetworkResponse": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Response.ets"
+    },
+    "NetworkPageMeta": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Response.ets"
+    },
+    "NetworkPageData": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Response.ets"
+    },
+    "DictDataResponse": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/Response.ets"
+    },
+    "User": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/model/User.ets"
+    },
+    "NavResultCallback": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/navigation/AppNavigator.ets"
+    },
+    "AppNavigator": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/AppNavigator.ets"
+    },
+    "GoodsDetailParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "GoodsCommentParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "GoodsCategoryParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "OrderListParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "OrderDetailParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "OrderPayParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "OrderRefundParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "OrderCommentParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "OrderLogisticsParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "AddressListParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "AddressDetailParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "CartParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "GuideParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "WebParam": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "RefreshResult": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "SelectAddressResult": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/navigation/RouteParams.ets"
+    },
+    "FileUploadService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/FileUploadService.ets"
+    },
+    "TokenProvider": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/network/HttpClient.ets"
+    },
+    "HttpClient": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/HttpClient.ets"
+    },
+    "ResultHandleOptions": {
+      "kind": "interface",
+      "file": "entry/src/main/ets/core/network/ResultHandler.ets"
+    },
+    "ResultHandler": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/ResultHandler.ets"
+    },
+    "AddressService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/AddressService.ets"
+    },
+    "AuthService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/AuthService.ets"
+    },
+    "BannerService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/BannerService.ets"
+    },
+    "CommonService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/CommonService.ets"
+    },
+    "CouponService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/CouponService.ets"
+    },
+    "CustomerServiceService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/CustomerServiceService.ets"
+    },
+    "FeedbackService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/FeedbackService.ets"
+    },
+    "GoodsService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/GoodsService.ets"
+    },
+    "OrderService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/OrderService.ets"
+    },
+    "PageService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/PageService.ets"
+    },
+    "UserContributorService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/UserContributorService.ets"
+    },
+    "UserInfoService": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/network/service/UserInfoService.ets"
+    },
+    "AppDatabase": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/storage/AppDatabase.ets"
+    },
+    "CartDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/storage/CartDao.ets"
+    },
+    "DaoChangeNotifier": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/storage/DaoChangeNotifier.ets"
+    },
+    "FootprintDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/storage/FootprintDao.ets"
+    },
+    "KvKeys": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/storage/KvStore.ets"
+    },
+    "KvStore": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/storage/KvStore.ets"
+    },
+    "SearchHistoryDao": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/storage/SearchHistoryDao.ets"
+    },
+    "AppScaffold": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/AppScaffold.ets"
+    },
+    "AvoidArea": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/base/AvoidArea.ets"
+    },
+    "RefreshList": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/RefreshList.ets"
+    },
+    "SKELETON_AVATAR_SIZE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SKELETON_IMAGE_SIZE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SKELETON_TEXT_LINE_HEIGHT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SKELETON_LINE_SPACING": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SKELETON_LINE_FRACTIONS": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "skeletonColor": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonBlock": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonCircle": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonTextLine": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonImage": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonParagraph": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonCard": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonList": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "SkeletonContent": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/Skeleton.ets"
+    },
+    "EmptyView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "EmptyData": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "EmptyNetwork": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "EmptyError": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "EmptyCart": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "WeLoading": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "MiLoadingMobile": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "PageLoading": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "LoadMoreFooter": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "NetWorkStateView": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/StateViews.ets"
+    },
+    "TOP_APP_BAR_HEIGHT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/TopAppBars.ets"
+    },
+    "LARGE_TOP_APP_BAR_EXPANDED_HEIGHT": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/TopAppBars.ets"
+    },
+    "LARGE_TOP_APP_BAR_COLLAPSE_RANGE": {
+      "kind": "const",
+      "file": "entry/src/main/ets/core/ui/base/TopAppBars.ets"
+    },
+    "isBlankTitle": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/ui/base/TopAppBars.ets"
+    },
+    "CenterTopAppBar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/TopAppBars.ets"
+    },
+    "LargeTopAppBar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/TopAppBars.ets"
+    },
+    "SearchTopAppBar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/base/TopAppBars.ets"
+    },
+    "AddressCard": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/AddressCard.ets"
+    },
+    "AddressActionButton": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/AddressCard.ets"
+    },
+    "AddressCardSkeleton": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/AddressCard.ets"
+    },
+    "CommerceSheet": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/commerce/CommerceSheet.ets"
+    },
+    "CouponCardMode": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/commerce/CouponCard.ets"
+    },
+    "isCouponExpired": {
+      "kind": "function",
+      "file": "entry/src/main/ets/core/ui/commerce/CouponCard.ets"
+    },
+    "CouponCard": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/CouponCard.ets"
+    },
+    "CouponModal": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/CouponSheets.ets"
+    },
+    "CouponReceiveModal": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/CouponSheets.ets"
+    },
+    "DictSelectSheet": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/DictSelectSheet.ets"
+    },
+    "GoodsGridItem": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/GoodsItems.ets"
+    },
+    "GoodsListItem": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/GoodsItems.ets"
+    },
+    "OrderGoodsItem": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/GoodsItems.ets"
+    },
+    "OrderGoodsCard": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/GoodsItems.ets"
+    },
+    "OrderGoodsSheet": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/OrderGoodsSheet.ets"
+    },
+    "SpecSelectState": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/commerce/SpecSelectSheet.ets"
+    },
+    "SpecSelectSheet": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/commerce/SpecSelectSheet.ets"
+    },
+    "WeDivider": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/AppCard.ets"
+    },
+    "TitleWithLine": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/AppCard.ets"
+    },
+    "AppCard": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/AppCard.ets"
+    },
+    "WeBadge": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Badge.ets"
+    },
+    "ModalType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/BottomSheet.ets"
+    },
+    "SheetDefaults": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/BottomSheet.ets"
+    },
+    "BottomModal": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/BottomSheet.ets"
+    },
+    "CenterModal": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/BottomSheet.ets"
+    },
+    "AppButtonType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppButtonStyle": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppButtonSize": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppButtonShape": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppButtonDefaults": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppButton": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppButtonFixed": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppButtonBordered": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "CheckButton": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "AppBottomButton": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Buttons.ets"
+    },
+    "WeDialog": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Dialog.ets"
+    },
+    "ConfirmDialogParams": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/Dialog.ets"
+    },
+    "DialogHelper": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/Dialog.ets"
+    },
+    "ImageGridPicker": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/ImageGridPicker.ets"
+    },
+    "NetWorkImage": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Images.ets"
+    },
+    "Avatar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Images.ets"
+    },
+    "SmallAvatar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Images.ets"
+    },
+    "MediumAvatar": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Images.ets"
+    },
+    "AppListItem": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/ListItem.ets"
+    },
+    "StaticAppListItem": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/ListItem.ets"
+    },
+    "QuantityStepper": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/QuantityStepper.ets"
+    },
+    "WeRate": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Rate.ets"
+    },
+    "WeSwiperIndicator": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Swiper.ets"
+    },
+    "WeSwiper": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Swiper.ets"
+    },
+    "BannerSwiper": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Swiper.ets"
+    },
+    "TagType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Tags.ets"
+    },
+    "TagStyle": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Tags.ets"
+    },
+    "TagSize": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Tags.ets"
+    },
+    "TagColorPair": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/Tags.ets"
+    },
+    "TagDefaults": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/Tags.ets"
+    },
+    "Tag": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Tags.ets"
+    },
+    "TagClosable": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Tags.ets"
+    },
+    "AppTextType": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Texts.ets"
+    },
+    "AppTextSize": {
+      "kind": "enum",
+      "file": "entry/src/main/ets/core/ui/widget/Texts.ets"
+    },
+    "AppTextStyles": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/Texts.ets"
+    },
+    "PriceText": {
+      "kind": "struct",
+      "file": "entry/src/main/ets/core/ui/widget/Texts.ets"
+    },
+    "WidgetColors": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/ui/widget/WidgetColors.ets"
+    },
+    "LogUtils": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/LogUtils.ets"
+    },
+    "NotificationUtil": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/NotificationUtil.ets"
+    },
+    "PackageUtils": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/PackageUtils.ets"
+    },
+    "PermissionCallback": {
+      "kind": "type",
+      "file": "entry/src/main/ets/core/util/PermissionUtils.ets"
+    },
+    "PermissionUtils": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/PermissionUtils.ets"
+    },
+    "TimeUtils": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/TimeUtils.ets"
+    },
+    "ToastUtils": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/ToastUtils.ets"
+    },
+    "ValidationUtil": {
+      "kind": "class",
+      "file": "entry/src/main/ets/core/util/ValidationUtil.ets"
+    }
+  }
+}

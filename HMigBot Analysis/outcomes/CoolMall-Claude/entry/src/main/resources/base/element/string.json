@@ -1,0 +1,1856 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "青商城"
+    },
+    {
+      "name": "app_name",
+      "value": "青商城"
+    },
+    {
+      "name": "empty_cart",
+      "value": "购物车是空的"
+    },
+    {
+      "name": "empty_cart_subtitle",
+      "value": "快去添加商品吧"
+    },
+    {
+      "name": "empty_cart_btn",
+      "value": "去逛逛"
+    },
+    {
+      "name": "empty_data",
+      "value": "暂无数据"
+    },
+    {
+      "name": "empty_data_subtitle",
+      "value": "暂时没有相关内容"
+    },
+    {
+      "name": "empty_error",
+      "value": "加载失败"
+    },
+    {
+      "name": "empty_error_subtitle",
+      "value": "页面加载出现了问题"
+    },
+    {
+      "name": "empty_network",
+      "value": "网络连接失败"
+    },
+    {
+      "name": "empty_network_subtitle",
+      "value": "请检查网络连接后重试"
+    },
+    {
+      "name": "click_retry",
+      "value": "重新加载"
+    },
+    {
+      "name": "loading",
+      "value": "加载中..."
+    },
+    {
+      "name": "load_more_pull",
+      "value": "上拉加载更多"
+    },
+    {
+      "name": "load_more_loading",
+      "value": "正在加载..."
+    },
+    {
+      "name": "load_more_success",
+      "value": "加载成功"
+    },
+    {
+      "name": "load_more_error",
+      "value": "加载失败"
+    },
+    {
+      "name": "load_more_error_retry",
+      "value": "加载失败，点击重试"
+    },
+    {
+      "name": "load_more_no_more",
+      "value": "没有更多了"
+    },
+    {
+      "name": "refresh_pull_down",
+      "value": "下拉刷新"
+    },
+    {
+      "name": "refresh_release",
+      "value": "松开刷新"
+    },
+    {
+      "name": "refresh_refreshing",
+      "value": "刷新中..."
+    },
+    {
+      "name": "refresh_complete",
+      "value": "刷新完成"
+    },
+    {
+      "name": "confirm",
+      "value": "确定"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "delete",
+      "value": "删除"
+    },
+    {
+      "name": "edit",
+      "value": "编辑"
+    },
+    {
+      "name": "save",
+      "value": "保存"
+    },
+    {
+      "name": "submit",
+      "value": "提交"
+    },
+    {
+      "name": "search",
+      "value": "搜索"
+    },
+    {
+      "name": "search_hint",
+      "value": "输入内容进行搜索"
+    },
+    {
+      "name": "retry",
+      "value": "重试"
+    },
+    {
+      "name": "selected",
+      "value": "已选择"
+    },
+    {
+      "name": "unselected",
+      "value": "未选择"
+    },
+    {
+      "name": "coupon_expired",
+      "value": "已过期"
+    },
+    {
+      "name": "coupon_used",
+      "value": "已使用"
+    },
+    {
+      "name": "coupon_available",
+      "value": "可使用"
+    },
+    {
+      "name": "coupon_conditions",
+      "value": "满%1$d元可用"
+    },
+    {
+      "name": "coupon_no_conditions",
+      "value": "无门槛"
+    },
+    {
+      "name": "coupon_valid_date",
+      "value": "有效期: %1$s - %2$s"
+    },
+    {
+      "name": "coupon_valid_until",
+      "value": "有效期至 %1$s"
+    },
+    {
+      "name": "coupon_receive",
+      "value": "立即领取"
+    },
+    {
+      "name": "coupon_received",
+      "value": "已领取"
+    },
+    {
+      "name": "coupon_use",
+      "value": "去使用"
+    },
+    {
+      "name": "coupon_insufficient",
+      "value": "不满足条件"
+    },
+    {
+      "name": "coupon_usage_instructions",
+      "value": "使用说明"
+    },
+    {
+      "name": "coupon_modal_title",
+      "value": "领取优惠券"
+    },
+    {
+      "name": "address_default",
+      "value": "默认"
+    },
+    {
+      "name": "address_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "address_delete",
+      "value": "删除"
+    },
+    {
+      "name": "address_not_selected",
+      "value": "您还没有选择收货地址"
+    },
+    {
+      "name": "address_add_hint",
+      "value": "点击添加收货地址"
+    },
+    {
+      "name": "goods_sold",
+      "value": "已售%d件"
+    },
+    {
+      "name": "goods_select",
+      "value": "选择"
+    },
+    {
+      "name": "goods_spec",
+      "value": "规格"
+    },
+    {
+      "name": "goods_quantity",
+      "value": "数量"
+    },
+    {
+      "name": "spec_category",
+      "value": "规格分类"
+    },
+    {
+      "name": "please_select",
+      "value": "请选择"
+    },
+    {
+      "name": "spec_selected",
+      "value": "已选"
+    },
+    {
+      "name": "spec_not_selected",
+      "value": "未选择"
+    },
+    {
+      "name": "spec_stock",
+      "value": "库存"
+    },
+    {
+      "name": "rate_star",
+      "value": "评分星星"
+    },
+    {
+      "name": "default_avatar",
+      "value": "默认头像"
+    },
+    {
+      "name": "image_load_error",
+      "value": "图片加载失败"
+    },
+    {
+      "name": "selected_image",
+      "value": "选择的图片"
+    },
+    {
+      "name": "add_image",
+      "value": "添加图片"
+    },
+    {
+      "name": "modal_close",
+      "value": "关闭"
+    },
+    {
+      "name": "modal_select_spec",
+      "value": "选择规格"
+    },
+    {
+      "name": "modal_add_to_cart",
+      "value": "加入购物车"
+    },
+    {
+      "name": "modal_buy_now",
+      "value": "立即购买"
+    },
+    {
+      "name": "total",
+      "value": "合计"
+    },
+    {
+      "name": "price",
+      "value": "价格"
+    },
+    {
+      "name": "quantity",
+      "value": "数量"
+    },
+    {
+      "name": "welcome_login",
+      "value": "你好，\n欢迎登录青商城"
+    },
+    {
+      "name": "welcome_register",
+      "value": "你好，\n欢迎注册青商城"
+    },
+    {
+      "name": "phone_hint",
+      "value": "请输入手机号"
+    },
+    {
+      "name": "phone_code",
+      "value": "+86"
+    },
+    {
+      "name": "verification_code",
+      "value": "验证码"
+    },
+    {
+      "name": "get_verification_code",
+      "value": "获取验证码"
+    },
+    {
+      "name": "login_agreement_prefix",
+      "value": "登录即代表您已阅读并同意"
+    },
+    {
+      "name": "register_agreement_prefix",
+      "value": "注册即代表您已阅读并同意"
+    },
+    {
+      "name": "user_agreement",
+      "value": "《用户协议》"
+    },
+    {
+      "name": "privacy_policy",
+      "value": "《隐私政策》"
+    },
+    {
+      "name": "and",
+      "value": "和"
+    },
+    {
+      "name": "login",
+      "value": "登录"
+    },
+    {
+      "name": "go_register",
+      "value": "去注册"
+    },
+    {
+      "name": "forgot_password",
+      "value": "忘记密码"
+    },
+    {
+      "name": "password_hint",
+      "value": "请输入密码"
+    },
+    {
+      "name": "sms_not_available",
+      "value": "短信不可用？"
+    },
+    {
+      "name": "use_third_party_login",
+      "value": "使用三方登录"
+    },
+    {
+      "name": "sms_login",
+      "value": "验证码登录"
+    },
+    {
+      "name": "account_login",
+      "value": "账号密码登录"
+    },
+    {
+      "name": "other_login_methods",
+      "value": "其他登录方式"
+    },
+    {
+      "name": "wechat",
+      "value": "微信"
+    },
+    {
+      "name": "qq",
+      "value": "QQ"
+    },
+    {
+      "name": "alipay",
+      "value": "支付宝"
+    },
+    {
+      "name": "register",
+      "value": "注册"
+    },
+    {
+      "name": "set_password",
+      "value": "请设置密码"
+    },
+    {
+      "name": "confirm_password",
+      "value": "请确认密码"
+    },
+    {
+      "name": "have_account",
+      "value": "已有账号？"
+    },
+    {
+      "name": "go_login",
+      "value": "去登录"
+    },
+    {
+      "name": "reset_password",
+      "value": "重置密码"
+    },
+    {
+      "name": "set_new_password",
+      "value": "请设置新密码"
+    },
+    {
+      "name": "confirm_new_password",
+      "value": "请确认新密码"
+    },
+    {
+      "name": "reset_password_button",
+      "value": "重置密码"
+    },
+    {
+      "name": "reset_password_tip",
+      "value": "重置密码后，请使用新密码登录"
+    },
+    {
+      "name": "password_mismatch",
+      "value": "两次输入的密码不一致"
+    },
+    {
+      "name": "hide_password",
+      "value": "隐藏密码"
+    },
+    {
+      "name": "show_password",
+      "value": "显示密码"
+    },
+    {
+      "name": "security_verification",
+      "value": "安全验证"
+    },
+    {
+      "name": "complete_verification",
+      "value": "完成验证"
+    },
+    {
+      "name": "image_captcha_hint",
+      "value": "请输入图形验证码"
+    },
+    {
+      "name": "image_captcha_description",
+      "value": "验证码图片"
+    },
+    {
+      "name": "refresh_captcha",
+      "value": "点击刷新"
+    },
+    {
+      "name": "invalid_phone_number",
+      "value": "请输入正确的手机号"
+    },
+    {
+      "name": "invalid_verification_code",
+      "value": "请输入4位验证码"
+    },
+    {
+      "name": "invalid_password",
+      "value": "请输入正确的密码"
+    },
+    {
+      "name": "login_success",
+      "value": "登录成功"
+    },
+    {
+      "name": "register_success",
+      "value": "注册成功"
+    },
+    {
+      "name": "login_failed",
+      "value": "登录失败: %s"
+    },
+    {
+      "name": "login_cancelled",
+      "value": "登录取消"
+    },
+    {
+      "name": "start_qq_login_failed",
+      "value": "启动QQ登录失败: %s"
+    },
+    {
+      "name": "third_party_login_only_qq",
+      "value": "三方登录暂时仅支持QQ登录"
+    },
+    {
+      "name": "notification_permission_required",
+      "value": "需要通知权限才能接收验证码"
+    },
+    {
+      "name": "settings_title",
+      "value": "设置"
+    },
+    {
+      "name": "contributors_title",
+      "value": "贡献者"
+    },
+    {
+      "name": "about_title",
+      "value": "关于我们"
+    },
+    {
+      "name": "privacy_policy_title",
+      "value": "隐私政策"
+    },
+    {
+      "name": "user_agreement_title",
+      "value": "用户协议"
+    },
+    {
+      "name": "web_title",
+      "value": "网页"
+    },
+    {
+      "name": "about_app_name",
+      "value": "应用名称"
+    },
+    {
+      "name": "about_version",
+      "value": "版本号"
+    },
+    {
+      "name": "about_version_code",
+      "value": "版本代码"
+    },
+    {
+      "name": "about_copyright",
+      "value": "© 2025 Joker.X & CoolMallKotlin Contributors"
+    },
+    {
+      "name": "about_developer",
+      "value": "开发者"
+    },
+    {
+      "name": "about_developer_email",
+      "value": "joker.x.dev@gmail.com"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "Joker.X"
+    },
+    {
+      "name": "about_section_project",
+      "value": "项目地址"
+    },
+    {
+      "name": "about_github",
+      "value": "GitHub"
+    },
+    {
+      "name": "about_github_url",
+      "value": "https://github.com/Joker-x-dev/CoolMallKotlin"
+    },
+    {
+      "name": "about_gitee",
+      "value": "Gitee"
+    },
+    {
+      "name": "about_gitee_url",
+      "value": "https://gitee.com/Joker-x-dev/CoolMallKotlin"
+    },
+    {
+      "name": "about_section_resources",
+      "value": "相关资源"
+    },
+    {
+      "name": "about_api_doc",
+      "value": "API 文档"
+    },
+    {
+      "name": "about_api_doc_desc",
+      "value": "查看项目后端接口的详细定义"
+    },
+    {
+      "name": "about_demo_download",
+      "value": "Demo 下载"
+    },
+    {
+      "name": "about_demo_download_desc",
+      "value": "不定时更新，可能不会同步最新代码变更"
+    },
+    {
+      "name": "about_icon_source",
+      "value": "图标来源"
+    },
+    {
+      "name": "about_icon_source_desc",
+      "value": "项目使用的图标库来自图鸟 Icon"
+    },
+    {
+      "name": "about_section_discussion",
+      "value": "讨论"
+    },
+    {
+      "name": "about_github_discussion",
+      "value": "GitHub 讨论区"
+    },
+    {
+      "name": "about_github_discussion_desc",
+      "value": "在 GitHub 上参与项目讨论"
+    },
+    {
+      "name": "about_qq_group",
+      "value": "QQ 交流群"
+    },
+    {
+      "name": "about_wechat_group",
+      "value": "微信交流群"
+    },
+    {
+      "name": "about_section_support",
+      "value": "支持与帮助"
+    },
+    {
+      "name": "about_translation",
+      "value": "翻译"
+    },
+    {
+      "name": "about_translation_desc",
+      "value": "帮助我将应用翻译为您的语言"
+    },
+    {
+      "name": "about_support",
+      "value": "支持"
+    },
+    {
+      "name": "about_support_desc",
+      "value": "您可以在此赞助以支持我"
+    },
+    {
+      "name": "about_help",
+      "value": "帮助"
+    },
+    {
+      "name": "about_help_desc",
+      "value": "有任何问题或建议，欢迎提交 Issue"
+    },
+    {
+      "name": "about_section_other",
+      "value": "其他"
+    },
+    {
+      "name": "about_citation",
+      "value": "引用"
+    },
+    {
+      "name": "about_citation_desc",
+      "value": "项目中使用的第三方库和资源致谢"
+    },
+    {
+      "name": "about_user_agreement",
+      "value": "用户协议"
+    },
+    {
+      "name": "about_privacy_policy",
+      "value": "隐私政策"
+    },
+    {
+      "name": "about_open_source_license",
+      "value": "开源许可"
+    },
+    {
+      "name": "settings_account_security",
+      "value": "账号与安全"
+    },
+    {
+      "name": "settings_section_appearance",
+      "value": "外观与语言"
+    },
+    {
+      "name": "settings_dark_mode",
+      "value": "夜间模式"
+    },
+    {
+      "name": "settings_dark_mode_follow_system",
+      "value": "跟随系统"
+    },
+    {
+      "name": "settings_dark_mode_light",
+      "value": "浅色模式"
+    },
+    {
+      "name": "settings_dark_mode_dark",
+      "value": "深色模式"
+    },
+    {
+      "name": "settings_theme_color",
+      "value": "主题颜色"
+    },
+    {
+      "name": "settings_theme_color_default",
+      "value": "木槿紫"
+    },
+    {
+      "name": "settings_theme_color_purple",
+      "value": "幻彩紫"
+    },
+    {
+      "name": "settings_theme_color_green",
+      "value": "清爽绿"
+    },
+    {
+      "name": "settings_theme_color_orange",
+      "value": "暖日橙"
+    },
+    {
+      "name": "settings_theme_color_red",
+      "value": "能量红"
+    },
+    {
+      "name": "settings_dynamic_color",
+      "value": "动态主题色"
+    },
+    {
+      "name": "settings_dynamic_color_desc",
+      "value": "开启后应用主题色会同步系统壁纸颜色"
+    },
+    {
+      "name": "settings_language",
+      "value": "语言切换"
+    },
+    {
+      "name": "settings_language_chinese",
+      "value": "中文"
+    },
+    {
+      "name": "settings_section_privacy",
+      "value": "隐私与协议"
+    },
+    {
+      "name": "settings_section_other",
+      "value": "其他"
+    },
+    {
+      "name": "settings_hide_splash",
+      "value": "不展示启动页"
+    },
+    {
+      "name": "settings_hide_splash_desc",
+      "value": "打开后进入应用将跳过启动页"
+    },
+    {
+      "name": "settings_app_guide",
+      "value": "应用引导"
+    },
+    {
+      "name": "settings_section_general",
+      "value": "通用"
+    },
+    {
+      "name": "settings_clear_cache",
+      "value": "清除缓存"
+    },
+    {
+      "name": "settings_cache_size",
+      "value": "13.24MB"
+    },
+    {
+      "name": "settings_feedback",
+      "value": "意见反馈"
+    },
+    {
+      "name": "settings_about_app",
+      "value": "关于应用"
+    },
+    {
+      "name": "web_menu_refresh",
+      "value": "刷新"
+    },
+    {
+      "name": "web_menu_open_browser",
+      "value": "用浏览器打开"
+    },
+    {
+      "name": "web_more_options",
+      "value": "更多选项"
+    },
+    {
+      "name": "dependency_modal_title",
+      "value": "引用致谢"
+    },
+    {
+      "name": "customer_service_chat",
+      "value": "客服聊天"
+    },
+    {
+      "name": "back_to_bottom",
+      "value": "回到底部"
+    },
+    {
+      "name": "input_message_hint",
+      "value": "发送消息..."
+    },
+    {
+      "name": "send",
+      "value": "发送"
+    },
+    {
+      "name": "emoji",
+      "value": "表情"
+    },
+    {
+      "name": "more_functions",
+      "value": "更多功能"
+    },
+    {
+      "name": "load_more_history",
+      "value": "加载更多历史消息"
+    },
+    {
+      "name": "loading_history",
+      "value": "正在加载历史消息..."
+    },
+    {
+      "name": "load_success",
+      "value": "加载成功"
+    },
+    {
+      "name": "load_failed_retry",
+      "value": "加载失败，点击重试"
+    },
+    {
+      "name": "load_failed",
+      "value": "加载失败"
+    },
+    {
+      "name": "no_more_messages",
+      "value": "没有更多消息了"
+    },
+    {
+      "name": "gallery",
+      "value": "相册"
+    },
+    {
+      "name": "camera",
+      "value": "拍摄"
+    },
+    {
+      "name": "connection_error",
+      "value": "连接错误"
+    },
+    {
+      "name": "create_session_failed",
+      "value": "创建会话失败"
+    },
+    {
+      "name": "send_message_failed",
+      "value": "消息发送失败"
+    },
+    {
+      "name": "normal_close",
+      "value": "正常关闭"
+    },
+    {
+      "name": "feedback_list",
+      "value": "反馈列表"
+    },
+    {
+      "name": "feedback_submit",
+      "value": "我要反馈"
+    },
+    {
+      "name": "feedback_type",
+      "value": "反馈类型"
+    },
+    {
+      "name": "feedback_content",
+      "value": "反馈内容"
+    },
+    {
+      "name": "contact_info_optional",
+      "value": "联系方式（选填）"
+    },
+    {
+      "name": "problem_screenshot_optional",
+      "value": "问题截图（选填）"
+    },
+    {
+      "name": "feedback_content_hint",
+      "value": "请尽量详细描述遇到的问题，操作步骤，并附上相关页面截图，以便更好定位问题"
+    },
+    {
+      "name": "contact_info_hint",
+      "value": "QQ/微信号，手机号，邮箱"
+    },
+    {
+      "name": "status_processed",
+      "value": "已处理"
+    },
+    {
+      "name": "status_unprocessed",
+      "value": "未处理"
+    },
+    {
+      "name": "customer_service_reply",
+      "value": "客服回复"
+    },
+    {
+      "name": "unknown_type",
+      "value": "未知类型"
+    },
+    {
+      "name": "please_select_type_and_fill_content",
+      "value": "请选择反馈类型并填写反馈内容"
+    },
+    {
+      "name": "submitting",
+      "value": "正在提交中..."
+    },
+    {
+      "name": "feedback_submit_success",
+      "value": "反馈提交成功，感谢您的反馈"
+    },
+    {
+      "name": "goods_detail",
+      "value": "商品详情"
+    },
+    {
+      "name": "goods_comment_title",
+      "value": "商品评论"
+    },
+    {
+      "name": "sold_count",
+      "value": "已售 %d"
+    },
+    {
+      "name": "coupon_text",
+      "value": "满%d减%d元"
+    },
+    {
+      "name": "spec",
+      "value": "规格"
+    },
+    {
+      "name": "selected_spec",
+      "value": "已选：%s"
+    },
+    {
+      "name": "select_spec",
+      "value": "选择规格"
+    },
+    {
+      "name": "shipping_and_service",
+      "value": "发货与服务"
+    },
+    {
+      "name": "shipping",
+      "value": "发货"
+    },
+    {
+      "name": "shipping_location",
+      "value": "云南省 昆明市"
+    },
+    {
+      "name": "service",
+      "value": "服务"
+    },
+    {
+      "name": "service_details",
+      "value": "7天无理由退货 · 运费险 · 48小时发货"
+    },
+    {
+      "name": "customer_service",
+      "value": "客服"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "购物车"
+    },
+    {
+      "name": "add_to_cart",
+      "value": "加入购物车"
+    },
+    {
+      "name": "buy_now",
+      "value": "立即购买"
+    },
+    {
+      "name": "view_all",
+      "value": "查看全部"
+    },
+    {
+      "name": "goods_reviews",
+      "value": "商品评价"
+    },
+    {
+      "name": "filter",
+      "value": "筛选"
+    },
+    {
+      "name": "comprehensive",
+      "value": "综合"
+    },
+    {
+      "name": "sales",
+      "value": "销量"
+    },
+    {
+      "name": "search_history",
+      "value": "搜索历史"
+    },
+    {
+      "name": "recommended_search",
+      "value": "推荐搜索"
+    },
+    {
+      "name": "price_range",
+      "value": "价格区间"
+    },
+    {
+      "name": "min_price",
+      "value": "最低价"
+    },
+    {
+      "name": "max_price",
+      "value": "最高价"
+    },
+    {
+      "name": "reset",
+      "value": "重置"
+    },
+    {
+      "name": "add_to_cart_failed",
+      "value": "添加购物车失败"
+    },
+    {
+      "name": "add_to_cart_success",
+      "value": "添加购物车成功"
+    },
+    {
+      "name": "anonymous_user",
+      "value": "匿名用户"
+    },
+    {
+      "name": "spec_colon",
+      "value": "规格：%s"
+    },
+    {
+      "name": "view_images",
+      "value": "查看图片"
+    },
+    {
+      "name": "guide_skip",
+      "value": "跳过"
+    },
+    {
+      "name": "guide_start_experience",
+      "value": "开始体验"
+    },
+    {
+      "name": "guide_continue",
+      "value": "继续"
+    },
+    {
+      "name": "guide_page_1_title",
+      "value": "青商城 - 开源电商学习项目"
+    },
+    {
+      "name": "guide_page_1_desc",
+      "value": "100% Kotlin 开发的现代化电商应用\n完全开源免费，助力开发者快速成长\n提供完整的代码参考和学习资源"
+    },
+    {
+      "name": "guide_page_2_title",
+      "value": "声明式 UI 新体验"
+    },
+    {
+      "name": "guide_page_2_desc",
+      "value": "基于 Jetpack Compose 构建流畅界面\n采用 MVVM + Clean Architecture 架构\nHilt、Coroutines、Flow 等主流技术全整合"
+    },
+    {
+      "name": "guide_page_3_title",
+      "value": "完整电商业务流程"
+    },
+    {
+      "name": "guide_page_3_desc",
+      "value": "用户认证、商品展示、搜索分类\n购物车管理、订单支付全流程实现\n贴近真实商业场景的学习案例"
+    },
+    {
+      "name": "guide_page_4_title",
+      "value": "模块化架构设计"
+    },
+    {
+      "name": "guide_page_4_desc",
+      "value": "参考 Google Now in Android 最佳实践\n高内聚低耦合，便于维护与扩展\n适合学习与二次开发的优质项目"
+    },
+    {
+      "name": "app_name_splash",
+      "value": "青商城"
+    },
+    {
+      "name": "app_copyright",
+      "value": "© 2025 Joker.X & CoolMallKotlin Contributors"
+    },
+    {
+      "name": "home",
+      "value": "主页"
+    },
+    {
+      "name": "category",
+      "value": "分类"
+    },
+    {
+      "name": "cart",
+      "value": "购物车"
+    },
+    {
+      "name": "me",
+      "value": "我的"
+    },
+    {
+      "name": "complete",
+      "value": "完成"
+    },
+    {
+      "name": "delete_count",
+      "value": "删除(%d)"
+    },
+    {
+      "name": "select_all",
+      "value": "全选"
+    },
+    {
+      "name": "price_format",
+      "value": "¥%.2f"
+    },
+    {
+      "name": "settle_account",
+      "value": "结算"
+    },
+    {
+      "name": "settle_account_count",
+      "value": "结算(%d)"
+    },
+    {
+      "name": "cart_empty",
+      "value": "购物车空空如也~"
+    },
+    {
+      "name": "go_shopping",
+      "value": "去逛逛"
+    },
+    {
+      "name": "search_goods",
+      "value": "搜索商品"
+    },
+    {
+      "name": "recommend_goods",
+      "value": "推荐商品"
+    },
+    {
+      "name": "all_goods",
+      "value": "全部商品"
+    },
+    {
+      "name": "flash_sale",
+      "value": "限时精选"
+    },
+    {
+      "name": "receive",
+      "value": "领取"
+    },
+    {
+      "name": "not_logged_in",
+      "value": "未登录"
+    },
+    {
+      "name": "click_to_login",
+      "value": "点击登录账号"
+    },
+    {
+      "name": "phone_number",
+      "value": "手机号"
+    },
+    {
+      "name": "member",
+      "value": "会员"
+    },
+    {
+      "name": "member_benefits",
+      "value": "会员立享5大权益!"
+    },
+    {
+      "name": "activate_now",
+      "value": "立即开通"
+    },
+    {
+      "name": "my_orders",
+      "value": "我的订单"
+    },
+    {
+      "name": "pending_payment",
+      "value": "待付款"
+    },
+    {
+      "name": "pending_shipment",
+      "value": "待发货"
+    },
+    {
+      "name": "pending_receipt",
+      "value": "待收货"
+    },
+    {
+      "name": "pending_review",
+      "value": "待评价"
+    },
+    {
+      "name": "refund_after_sale",
+      "value": "退款/售后"
+    },
+    {
+      "name": "my_footprint",
+      "value": "我的足迹"
+    },
+    {
+      "name": "coupons",
+      "value": "优惠券"
+    },
+    {
+      "name": "shipping_address",
+      "value": "收货地址"
+    },
+    {
+      "name": "online_customer_service",
+      "value": "在线客服"
+    },
+    {
+      "name": "feedback",
+      "value": "意见反馈"
+    },
+    {
+      "name": "about_us",
+      "value": "关于我们"
+    },
+    {
+      "name": "settings",
+      "value": "设置"
+    },
+    {
+      "name": "category_all",
+      "value": "全部分类"
+    },
+    {
+      "name": "category_empty",
+      "value": "暂无分类"
+    },
+    {
+      "name": "please_select_settlement_goods",
+      "value": "请选择要结算的商品"
+    },
+    {
+      "name": "get_selected_goods_failed",
+      "value": "获取选中商品失败"
+    },
+    {
+      "name": "coupon_title",
+      "value": "我的优惠券"
+    },
+    {
+      "name": "order_list",
+      "value": "订单列表"
+    },
+    {
+      "name": "order_detail",
+      "value": "订单详情"
+    },
+    {
+      "name": "order_confirm",
+      "value": "确认订单"
+    },
+    {
+      "name": "order_pay",
+      "value": "收银台"
+    },
+    {
+      "name": "order_logistics",
+      "value": "物流详情"
+    },
+    {
+      "name": "order_refund",
+      "value": "退款申请"
+    },
+    {
+      "name": "order_comment",
+      "value": "商品评价"
+    },
+    {
+      "name": "order_status_all",
+      "value": "全部"
+    },
+    {
+      "name": "order_status_unpaid",
+      "value": "待付款"
+    },
+    {
+      "name": "order_status_unshipped",
+      "value": "待发货"
+    },
+    {
+      "name": "order_status_unreceived",
+      "value": "待收货"
+    },
+    {
+      "name": "order_status_after_sale",
+      "value": "售后/退款"
+    },
+    {
+      "name": "order_status_unevaluated",
+      "value": "待评价"
+    },
+    {
+      "name": "order_status_completed_tab",
+      "value": "已完成"
+    },
+    {
+      "name": "order_status_pending_payment",
+      "value": "待付款"
+    },
+    {
+      "name": "order_status_pending_shipment",
+      "value": "待发货"
+    },
+    {
+      "name": "order_status_pending_receipt",
+      "value": "待收货"
+    },
+    {
+      "name": "order_status_pending_comment",
+      "value": "待评价"
+    },
+    {
+      "name": "order_status_completed",
+      "value": "交易完成"
+    },
+    {
+      "name": "order_status_refunding",
+      "value": "退款中"
+    },
+    {
+      "name": "order_status_refunded",
+      "value": "已退款"
+    },
+    {
+      "name": "order_status_closed",
+      "value": "已关闭"
+    },
+    {
+      "name": "order_status_unknown",
+      "value": "未知状态"
+    },
+    {
+      "name": "total_items",
+      "value": "共 %d 件"
+    },
+    {
+      "name": "select_cancel_reason",
+      "value": "选择取消原因"
+    },
+    {
+      "name": "confirm_receipt",
+      "value": "确认收货"
+    },
+    {
+      "name": "confirm_receipt_message",
+      "value": "确认收货后无法发起退款等售后申请，请谨慎操作"
+    },
+    {
+      "name": "select_goods_to_buy",
+      "value": "选择要购买的商品"
+    },
+    {
+      "name": "rebuy",
+      "value": "再次购买"
+    },
+    {
+      "name": "select_goods_to_comment",
+      "value": "选择要评价的商品"
+    },
+    {
+      "name": "go_to_comment",
+      "value": "去评价"
+    },
+    {
+      "name": "price_detail",
+      "value": "价格明细"
+    },
+    {
+      "name": "goods_total_price",
+      "value": "商品总价"
+    },
+    {
+      "name": "discount_amount",
+      "value": "优惠金额"
+    },
+    {
+      "name": "actual_payment",
+      "value": "实付金额"
+    },
+    {
+      "name": "refund_amount",
+      "value": "退款金额"
+    },
+    {
+      "name": "refund_status",
+      "value": "退款状态"
+    },
+    {
+      "name": "refund_status_applying",
+      "value": "申请中"
+    },
+    {
+      "name": "refund_status_refunded",
+      "value": "已退款"
+    },
+    {
+      "name": "refund_status_rejected",
+      "value": "拒绝退款"
+    },
+    {
+      "name": "refund_status_unknown",
+      "value": "未知状态"
+    },
+    {
+      "name": "refund_reason",
+      "value": "申请原因"
+    },
+    {
+      "name": "refund_reject_reason",
+      "value": "拒绝原因"
+    },
+    {
+      "name": "refund_apply_time",
+      "value": "申请时间"
+    },
+    {
+      "name": "none",
+      "value": "无"
+    },
+    {
+      "name": "order_info",
+      "value": "订单信息"
+    },
+    {
+      "name": "order_number",
+      "value": "订单编号"
+    },
+    {
+      "name": "copy",
+      "value": "复制"
+    },
+    {
+      "name": "payment_method",
+      "value": "支付方式"
+    },
+    {
+      "name": "wechat_pay",
+      "value": "微信"
+    },
+    {
+      "name": "payment_time",
+      "value": "支付时间"
+    },
+    {
+      "name": "unpaid",
+      "value": "未支付"
+    },
+    {
+      "name": "not_paid",
+      "value": "未支付"
+    },
+    {
+      "name": "order_time",
+      "value": "下单时间"
+    },
+    {
+      "name": "order_remark",
+      "value": "订单备注"
+    },
+    {
+      "name": "purchase_goods",
+      "value": "购买商品"
+    },
+    {
+      "name": "select_coupon",
+      "value": "选择优惠券"
+    },
+    {
+      "name": "coupon",
+      "value": "优惠券"
+    },
+    {
+      "name": "coupon_select",
+      "value": "选择"
+    },
+    {
+      "name": "coupon_discount",
+      "value": "优惠券折扣"
+    },
+    {
+      "name": "order_remark_title",
+      "value": "订单备注"
+    },
+    {
+      "name": "order_remark_label",
+      "value": "订单备注"
+    },
+    {
+      "name": "order_remark_placeholder",
+      "value": "选填，付款后商家可见"
+    },
+    {
+      "name": "submit_order",
+      "value": "提交订单"
+    },
+    {
+      "name": "go_to_pay",
+      "value": "去支付"
+    },
+    {
+      "name": "order_pay_button",
+      "value": "去支付"
+    },
+    {
+      "name": "order_pay_button_with_price",
+      "value": "去支付 ¥%d"
+    },
+    {
+      "name": "pay_method_alipay",
+      "value": "支付宝支付"
+    },
+    {
+      "name": "wechat_pay_title",
+      "value": "微信支付"
+    },
+    {
+      "name": "pay_method_wechat",
+      "value": "微信支付"
+    },
+    {
+      "name": "pay_method_qq",
+      "value": "QQ支付"
+    },
+    {
+      "name": "order_pay_tip",
+      "value": "提示：实际支付金额经过处理，都是一分钱"
+    },
+    {
+      "name": "refund_info",
+      "value": "退款信息"
+    },
+    {
+      "name": "logistics_info",
+      "value": "物流信息"
+    },
+    {
+      "name": "express_company",
+      "value": "快递公司"
+    },
+    {
+      "name": "unknown_express",
+      "value": "未知快递"
+    },
+    {
+      "name": "logistics_number",
+      "value": "物流编号"
+    },
+    {
+      "name": "courier",
+      "value": "快递员"
+    },
+    {
+      "name": "contact_phone",
+      "value": "联系电话"
+    },
+    {
+      "name": "call",
+      "value": "拨打"
+    },
+    {
+      "name": "transport_time",
+      "value": "运输耗时"
+    },
+    {
+      "name": "logistics_track",
+      "value": "物流轨迹"
+    },
+    {
+      "name": "submit_comment",
+      "value": "提交评价"
+    },
+    {
+      "name": "please_rate",
+      "value": "请点击星星进行评分"
+    },
+    {
+      "name": "rating_very_poor",
+      "value": "很差"
+    },
+    {
+      "name": "rating_poor",
+      "value": "较差"
+    },
+    {
+      "name": "rating_average",
+      "value": "一般"
+    },
+    {
+      "name": "rating_good",
+      "value": "满意"
+    },
+    {
+      "name": "rating_excellent",
+      "value": "非常满意"
+    },
+    {
+      "name": "comment_placeholder",
+      "value": "请输入您的评价内容..."
+    },
+    {
+      "name": "cancel_order",
+      "value": "取消订单"
+    },
+    {
+      "name": "pay_now",
+      "value": "去支付"
+    },
+    {
+      "name": "order_refund_button",
+      "value": "售后/退款"
+    },
+    {
+      "name": "confirm_receive",
+      "value": "确认收货"
+    },
+    {
+      "name": "view_logistics",
+      "value": "查看物流"
+    },
+    {
+      "name": "comment_now",
+      "value": "去评价"
+    },
+    {
+      "name": "rebuy_now",
+      "value": "再次购买"
+    },
+    {
+      "name": "please_fill_comment",
+      "value": "请先填写评价内容和评分"
+    },
+    {
+      "name": "comment_submit_success",
+      "value": "评价提交成功"
+    },
+    {
+      "name": "payment_success",
+      "value": "支付成功"
+    },
+    {
+      "name": "payment_failed",
+      "value": "支付失败"
+    },
+    {
+      "name": "payment_cancel",
+      "value": "支付已取消"
+    },
+    {
+      "name": "select_address",
+      "value": "请选择收货地址"
+    },
+    {
+      "name": "profile_title",
+      "value": "个人中心"
+    },
+    {
+      "name": "address_list_title",
+      "value": "收货地址"
+    },
+    {
+      "name": "address_detail_title",
+      "value": "地址详情"
+    },
+    {
+      "name": "address_management",
+      "value": "地址管理"
+    },
+    {
+      "name": "add_address",
+      "value": "添加地址"
+    },
+    {
+      "name": "edit_address",
+      "value": "编辑地址"
+    },
+    {
+      "name": "delete_address",
+      "value": "删除地址"
+    },
+    {
+      "name": "ok",
+      "value": "确认"
+    },
+    {
+      "name": "delete_address_confirm",
+      "value": "确认删除该地址吗？"
+    },
+    {
+      "name": "set_default_address",
+      "value": "设置默认地址"
+    },
+    {
+      "name": "default_address",
+      "value": "默认地址"
+    },
+    {
+      "name": "default_address_tip",
+      "value": "下单会优先使用该地址"
+    },
+    {
+      "name": "save_address",
+      "value": "保存"
+    },
+    {
+      "name": "address_add_new",
+      "value": "新增地址"
+    },
+    {
+      "name": "contact_person",
+      "value": "联系人"
+    },
+    {
+      "name": "please_input_contact",
+      "value": "请填写联系人"
+    },
+    {
+      "name": "please_input_phone",
+      "value": "请填写手机号码"
+    },
+    {
+      "name": "region",
+      "value": "省市区"
+    },
+    {
+      "name": "please_select_region",
+      "value": "请选择所在地区"
+    },
+    {
+      "name": "detail_address",
+      "value": "详细地址"
+    },
+    {
+      "name": "street_number_etc",
+      "value": "街道、楼牌号等"
+    },
+    {
+      "name": "footprint_title",
+      "value": "我的足迹"
+    },
+    {
+      "name": "footprint_empty",
+      "value": "还没有浏览记录哦"
+    },
+    {
+      "name": "go_browse",
+      "value": "去逛逛"
+    },
+    {
+      "name": "clear_with_count",
+      "value": "清空 (%d)"
+    },
+    {
+      "name": "avatar",
+      "value": "头像"
+    },
+    {
+      "name": "nickname",
+      "value": "昵称"
+    },
+    {
+      "name": "not_set",
+      "value": "未设置"
+    },
+    {
+      "name": "account_info",
+      "value": "账号信息"
+    },
+    {
+      "name": "phone",
+      "value": "手机号"
+    },
+    {
+      "name": "not_bound",
+      "value": "未绑定"
+    },
+    {
+      "name": "account",
+      "value": "账号"
+    },
+    {
+      "name": "social_account",
+      "value": "社交账号"
+    },
+    {
+      "name": "go_bind",
+      "value": "去绑定"
+    },
+    {
+      "name": "bound",
+      "value": "已绑定"
+    },
+    {
+      "name": "security",
+      "value": "安全"
+    },
+    {
+      "name": "change_password",
+      "value": "修改密码"
+    },
+    {
+      "name": "delete_account",
+      "value": "注销账户"
+    },
+    {
+      "name": "logout",
+      "value": "退出登录"
+    },
+    {
+      "name": "permission_reason_internet",
+      "value": "用于访问网络，加载商品、订单等数据"
+    },
+    {
+      "name": "permission_reason_network_info",
+      "value": "用于获取网络状态，判断网络是否可用"
+    },
+    {
+      "name": "user_phone_number",
+      "value": "手机号码"
+    }
+  ]
+}

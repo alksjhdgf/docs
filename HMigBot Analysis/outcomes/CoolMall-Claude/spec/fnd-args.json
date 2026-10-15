@@ -1,0 +1,90 @@
+{
+ "goal": "CoolMall Android→HarmonyOS migration, stage 3a foundation wave: core layer (model/util/network/storage/data/designsystem/app-init/ui). Read/write only input/CoolMallKotlin (read-only), output/CoolMallHM, .deveco/",
+ "instructionsFile": "output/CoolMallHM/spec/instructions.md",
+ "conventionsFile": "output/CoolMallHM/spec/conventions.md",
+ "sharedFiles": [
+  "output/CoolMallHM/entry/src/main/ets/common/Router.ets",
+  "output/CoolMallHM/entry/src/main/ets/pages/Index.ets",
+  "output/CoolMallHM/entry/src/main/resources/base/profile/route_map.json",
+  "output/CoolMallHM/entry/src/main/resources/base/profile/main_pages.json",
+  "output/CoolMallHM/entry/src/main/resources/base/element/string.json",
+  "output/CoolMallHM/entry/src/main/resources/en/element/string.json"
+ ],
+ "waveGate": "$ cd output/CoolMallHM && hvigorw assembleHap",
+ "gate": [
+  "$ cd output/CoolMallHM && hvigorw assembleHap",
+  "$ node scripts/closure/closure-suite.mjs --project output/CoolMallHM --stage slice"
+ ],
+ "units": [
+  {
+   "id": "fnd-model",
+   "title": "Data models",
+   "section": "fnd-model",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/model",
+   "wave": 0
+  },
+  {
+   "id": "fnd-util",
+   "title": "Utilities",
+   "section": "fnd-util",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/util",
+   "wave": 0
+  },
+  {
+   "id": "fnd-network",
+   "title": "Network layer",
+   "section": "fnd-network",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/network",
+   "wave": 1
+  },
+  {
+   "id": "fnd-storage",
+   "title": "Local storage",
+   "section": "fnd-storage",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/storage",
+   "wave": 1
+  },
+  {
+   "id": "fnd-data",
+   "title": "Global state/repositories/navigation",
+   "section": "fnd-data",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/data, output/CoolMallHM/entry/src/main/ets/core/common, output/CoolMallHM/entry/src/main/ets/core/navigation",
+   "wave": 2
+  },
+  {
+   "id": "fnd-designsystem",
+   "title": "Theme system",
+   "section": "fnd-designsystem",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/designsystem",
+   "wave": 2
+  },
+  {
+   "id": "fnd-app-init",
+   "title": "App init and window layer",
+   "section": "fnd-app-init",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/entryability/EntryAbility.ets, output/CoolMallHM/entry/src/main/ets/core/ui/base/AvoidArea.ets, output/CoolMallHM/entry/src/main/module.json5, output/CoolMallHM/AppScope",
+   "wave": 3
+  },
+  {
+   "id": "fnd-ui-base",
+   "title": "Page frame components",
+   "section": "fnd-ui-base",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/ui/base",
+   "wave": 4
+  },
+  {
+   "id": "fnd-ui-widgets",
+   "title": "Base widgets",
+   "section": "fnd-ui-widgets",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/ui/widget",
+   "wave": 4
+  },
+  {
+   "id": "fnd-ui-commerce",
+   "title": "Business components",
+   "section": "fnd-ui-commerce",
+   "targetPath": "output/CoolMallHM/entry/src/main/ets/core/ui/commerce",
+   "wave": 5
+  }
+ ]
+}

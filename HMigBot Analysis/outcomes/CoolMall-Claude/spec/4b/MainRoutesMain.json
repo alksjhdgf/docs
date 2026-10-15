@@ -1,0 +1,41 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "MainRoutesMain",
+  "kind": "skeleton",
+  "slice": "page-main-shell-home",
+  "route": "MainRoutesMain",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "MainRoutesMain"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "主页",
+        "分类",
+        "购物车",
+        "我的",
+        "搜索商品",
+        "GitHub",
+        "网络连接失败",
+        "请检查网络连接后重试",
+        "重新加载",
+        "领取",
+        "领取优惠券",
+        "限时精选",
+        "查看全部",
+        "推荐商品",
+        "全部商品"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "MainRoutesMain"
+    }
+  ]
+}

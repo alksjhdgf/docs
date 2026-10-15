@@ -1,0 +1,18 @@
+{
+  "project": "output/CoolMallHM",
+  "stage": "slice",
+  "violations": [],
+  "cases": [],
+  "results": [
+    {
+      "tool": "routes",
+      "violations": 0,
+      "cases": "(1 条软立案，本阶段不计)"
+    },
+    {
+      "tool": "resources",
+      "violations": 0,
+      "cases": "(0 条软立案，本阶段不计)"
+    }
+  ]
+}

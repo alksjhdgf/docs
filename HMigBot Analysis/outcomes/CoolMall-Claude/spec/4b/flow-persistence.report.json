@@ -1,0 +1,781 @@
+{
+  "plan": "output/CoolMallHM/spec/4b/flow-persistence.json",
+  "at": "2026-10-14T20:16:55.611Z",
+  "bundle": "com.joker.coolmall",
+  "name": "flow-persistence",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3948
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 993
+    },
+    {
+      "i": 2,
+      "op": "probe",
+      "ok": true,
+      "detail": "出现 0/2（页面 200 节点） 未见 [=跳过, =开始体验]",
+      "seen": [],
+      "unseen": [
+        "=跳过",
+        "=开始体验"
+      ],
+      "page": {
+        "texts": [
+          "搜索商品",
+          "【满减券】小米精选满 299 减 30 元",
+          "领取",
+          "手机",
+          "平板",
+          "穿戴",
+          "电脑办公",
+          "电视影音",
+          "生活家电",
+          "智能家居",
+          "出行箱包",
+          "清洁电器",
+          "厨房个护",
+          "限时精选",
+          "查看全部",
+          "主页",
+          "分类",
+          "购物车",
+          "我的",
+          "09, :, 15",
+          "09",
+          ":",
+          "15",
+          "80"
+        ],
+        "ids": [
+          "session23",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "PluginRootComponent_Stack_status_bar_notification_icon",
+          "__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon",
+          "__0_1018___1_StatusBarAppIcon",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ring_mode",
+          "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+          "StatusBarIconWrapper_status_bar_wifi",
+          "WifiComponent-WifiIcon_Image_wifi_signal_category",
+          "WifiComponent-WifiIcon_Image_wifi_signal_level",
+          "WifiComponent-WifiIcon_Image_wifi_data_flow",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView"
+        ],
+        "clickable": [
+          "领取",
+          "#StatusBarBridgeView"
+        ],
+        "geometry": {
+          "领取": {
+            "center": [
+              0.89,
+              0.4
+            ],
+            "bounds": "[923,918][1008,984]"
+          },
+          "#session23": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[42,26][1038,98]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[42,26][1080,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[42,36][96,89]"
+          },
+          "#PluginRootComponent_Stack_status_bar_notification_icon": {
+            "center": [
+              0.21,
+              0.03
+            ],
+            "bounds": "[175,26][283,98]"
+          },
+          "#__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon": {
+            "center": [
+              0.18,
+              0.03
+            ],
+            "bounds": "[175,41][217,83]"
+          },
+          "#__0_1018___1_StatusBarAppIcon": {
+            "center": [
+              0.23,
+              0.03
+            ],
+            "bounds": "[229,41][271,83]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,26][1038,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_ring_mode": {
+            "center": [
+              0.75,
+              0.03
+            ],
+            "bounds": "[784,26][833,98]"
+          },
+          "#ringmode-StatusBarIconItemRingModeComponent_Image_ringMode": {
+            "center": [
+              0.75,
+              0.03
+            ],
+            "bounds": "[790,38][833,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_wifi": {
+            "center": [
+              0.8,
+              0.03
+            ],
+            "bounds": "[833,26][902,98]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_category": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[839,38][902,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_level": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[840,38][902,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_data_flow": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[839,38][902,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.86,
+              0.03
+            ],
+            "bounds": "[902,26][948,98]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.86,
+              0.03
+            ],
+            "bounds": "[908,38][948,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[948,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,38][1038,86]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[972,43][1012,82]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          }
+        }
+      },
+      "ms": 1067
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"我的\" @945,2286（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 4465
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的足迹",
+      "ms": 1289
+    },
+    {
+      "i": 5,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 12/12",
+      "ms": 1062
+    },
+    {
+      "i": 6,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow2-me-footprint-after-restart.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow2-me-footprint-after-restart.png",
+      "ms": 507
+    },
+    {
+      "i": 7,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 1 次后出现 =设置",
+      "ms": 5406
+    },
+    {
+      "i": 8,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"设置\" @211,2043",
+      "changed": true,
+      "ms": 4377
+    },
+    {
+      "i": 9,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =夜间模式",
+      "ms": 1110
+    },
+    {
+      "i": 10,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"夜间模式\" @169,885",
+      "changed": true,
+      "ms": 4280
+    },
+    {
+      "i": 11,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =浅色模式",
+      "ms": 1131
+    },
+    {
+      "i": 12,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"深色模式\" @181,2274",
+      "changed": true,
+      "ms": 4380
+    },
+    {
+      "i": 13,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 809
+    },
+    {
+      "i": 14,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"主题颜色\" @169,1049",
+      "changed": true,
+      "ms": 4393
+    },
+    {
+      "i": 15,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =清爽绿",
+      "ms": 1132
+    },
+    {
+      "i": 16,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"清爽绿\" @160,1887",
+      "changed": true,
+      "ms": 4580
+    },
+    {
+      "i": 17,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 808
+    },
+    {
+      "i": 18,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 1098
+    },
+    {
+      "i": 19,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow2-settings-dark-green.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow2-settings-dark-green.png",
+      "ms": 537
+    },
+    {
+      "i": 20,
+      "op": "stop",
+      "ok": true,
+      "detail": "",
+      "ms": 278
+    },
+    {
+      "i": 21,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3820
+    },
+    {
+      "i": 22,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 976
+    },
+    {
+      "i": 23,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow2-home-dark-green-after-restart.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow2-home-dark-green-after-restart.png",
+      "ms": 542
+    },
+    {
+      "i": 24,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"购物车\" @676,2286（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 4585
+    },
+    {
+      "i": 25,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Xiaomi 15 Ultra",
+      "ms": 1326
+    },
+    {
+      "i": 26,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"我的\" @945,2286",
+      "changed": true,
+      "ms": 4320
+    },
+    {
+      "i": 27,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 1 次后出现 =设置",
+      "ms": 5464
+    },
+    {
+      "i": 28,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"设置\" @211,2043",
+      "changed": true,
+      "ms": 4391
+    },
+    {
+      "i": 29,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =夜间模式",
+      "ms": 1065
+    },
+    {
+      "i": 30,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 1160
+    },
+    {
+      "i": 31,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow2-settings-after-restart.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow2-settings-after-restart.png",
+      "ms": 503
+    },
+    {
+      "i": 32,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"应用引导\" @169,2206",
+      "changed": true,
+      "ms": 4140
+    },
+    {
+      "i": 33,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =跳过",
+      "ms": 1016
+    },
+    {
+      "i": 34,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"跳过\" @946,216",
+      "changed": true,
+      "ms": 4064
+    },
+    {
+      "i": 35,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =夜间模式",
+      "ms": 1075
+    },
+    {
+      "i": 36,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"夜间模式\" @169,885",
+      "changed": true,
+      "ms": 4282
+    },
+    {
+      "i": 37,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =浅色模式",
+      "ms": 1105
+    },
+    {
+      "i": 38,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"跟随系统\" @181,1887",
+      "changed": true,
+      "ms": 4426
+    },
+    {
+      "i": 39,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 810
+    },
+    {
+      "i": 40,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"主题颜色\" @169,1049",
+      "changed": true,
+      "ms": 4383
+    },
+    {
+      "i": 41,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =木槿紫",
+      "ms": 1134
+    },
+    {
+      "i": 42,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"木槿紫\" @160,1500",
+      "changed": true,
+      "ms": 4406
+    },
+    {
+      "i": 43,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 806
+    },
+    {
+      "i": 44,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 1102
+    },
+    {
+      "i": 45,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 940
+    },
+    {
+      "i": 46,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =主页",
+      "ms": 1153
+    },
+    {
+      "i": 47,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"主页\" @135,2286",
+      "changed": true,
+      "ms": 4966
+    },
+    {
+      "i": 48,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 1124
+    },
+    {
+      "i": 49,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 249
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "搜索商品",
+      "【满减券】小米精选满 299 减 30 元",
+      "领取",
+      "手机",
+      "平板",
+      "穿戴",
+      "电脑办公",
+      "电视影音",
+      "生活家电",
+      "智能家居",
+      "出行箱包",
+      "清洁电器",
+      "厨房个护",
+      "限时精选",
+      "查看全部",
+      "主页",
+      "分类",
+      "购物车",
+      "我的",
+      "09, :, 15",
+      "09",
+      ":",
+      "15",
+      "80",
+      "未登录",
+      "点击登录账号",
+      "会员立享5大权益!",
+      "立即开通",
+      "我的订单",
+      "待付款",
+      "待发货",
+      "待收货",
+      "待评价",
+      "退款/售后",
+      "我的足迹",
+      "优惠券",
+      "收货地址",
+      "在线客服",
+      "意见反馈",
+      "关于我们",
+      "设置",
+      "账号与安全",
+      "外观与语言",
+      "夜间模式",
+      "跟随系统",
+      "主题颜色",
+      "语言切换",
+      "中文",
+      "隐私与协议",
+      "隐私政策",
+      "用户协议",
+      "其他",
+      "不展示启动页",
+      "打开后进入应用将跳过启动页",
+      "应用引导",
+      "follow_system",
+      "浅色模式",
+      "light",
+      "深色模式",
+      "dark",
+      "木槿紫",
+      "default",
+      "幻彩紫",
+      "purple",
+      "清爽绿",
+      "green",
+      "暖日橙",
+      "orange",
+      "能量红",
+      "red",
+      "编辑",
+      "Xiaomi 15 Ultra",
+      "白色 12GB+256GB",
+      "¥4999.00",
+      "1",
+      "全选",
+      "合计:",
+      "¥0.00",
+      "结算",
+      "09, :, 16",
+      "16",
+      "青商城 - 开源电商学习项目",
+      "100% Kotlin 开发的现代化电商应用\n完全开源免费，助力开发者快速成长\n提供完整的代码参考和学习资源",
+      "继续",
+      "跳过"
+    ],
+    "ids": [
+      "session23",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "PluginRootComponent_Stack_status_bar_notification_icon",
+      "__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon",
+      "__0_1018___1_StatusBarAppIcon",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ring_mode",
+      "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+      "StatusBarIconWrapper_status_bar_wifi",
+      "WifiComponent-WifiIcon_Image_wifi_signal_category",
+      "WifiComponent-WifiIcon_Image_wifi_signal_level",
+      "WifiComponent-WifiIcon_Image_wifi_data_flow",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "ground_Background_Effect_left_group",
+      "left_Anchor_left_group",
+      "right_Anchor_left_group",
+      "backgroundEffect_left_group_0",
+      "ground_Background_Effect_right_group",
+      "left_Anchor_right_group",
+      "right_Anchor_right_group",
+      "backgroundEffect_right_group_0"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

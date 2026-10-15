@@ -1,0 +1,49 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "OrderRoutesConfirm",
+  "kind": "skeleton",
+  "slice": "page-order-confirm-pay",
+  "route": "OrderRoutesConfirm",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "OrderRoutesConfirm"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "确认订单",
+        "您还没有选择收货地址",
+        "点击添加收货地址",
+        "价格明细",
+        "商品总价",
+        "优惠券",
+        "选择",
+        "合计",
+        "优惠券折扣",
+        "选择优惠券",
+        "不满足条件",
+        "已使用",
+        "已过期",
+        "已选择",
+        "订单备注",
+        "选填，付款后商家可见",
+        "提交订单",
+        "收银台",
+        "支付宝支付",
+        "微信支付",
+        "QQ支付",
+        "提示：实际支付金额经过处理，都是一分钱",
+        "去支付"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "OrderRoutesConfirm"
+    }
+  ]
+}

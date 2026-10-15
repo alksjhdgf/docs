@@ -1,0 +1,56 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "CommonRoutesAbout",
+  "kind": "skeleton",
+  "slice": "page-about-web-contributors",
+  "route": "CommonRoutesAbout",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "CommonRoutesAbout"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "应用名称",
+        "版本号",
+        "版本代码",
+        "关于我们",
+        "开发者",
+        "Joker\\.X",
+        "joker\\.x\\.dev@gmail\\.com",
+        "贡献者",
+        "GitHub",
+        "Gitee",
+        "API 文档",
+        "Demo 下载",
+        "图标来源",
+        "GitHub 讨论区",
+        "翻译",
+        "支持",
+        "帮助",
+        "开源许可",
+        "QQ 交流群",
+        "微信交流群",
+        "其他",
+        "用户协议",
+        "隐私政策",
+        "© 2025 Joker\\.X & CoolMallKotlin Contributors",
+        "引用",
+        "引用致谢",
+        "网页",
+        "更多选项",
+        "刷新",
+        "用浏览器打开"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "CommonRoutesAbout"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "project": "output/CoolMallHM",
+  "stage": "final",
+  "violations": [],
+  "cases": [],
+  "results": [
+    {
+      "tool": "routes",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "resources",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "consumers",
+      "violations": 0,
+      "cases": 4
+    },
+    {
+      "tool": "stubs",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "permissions",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "api-guards",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "safearea",
+      "violations": 0,
+      "cases": 0
+    },
+    {
+      "tool": "anchors",
+      "violations": 0,
+      "cases": 0
+    }
+  ],
+  "waivers": {
+    "file": "output/CoolMallHM/spec/closure-waivers.json",
+    "valid": 6,
+    "invalid": [],
+    "absorbed": 4,
+    "byTicket": [
+      {
+        "ticket": "write_only:auth_info",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_path_unused:settings_theme_mode",
+        "absorbed": 0
+      },
+      {
+        "ticket": "read_path_unused:settings_theme_color",
+        "absorbed": 0
+      },
+      {
+        "ticket": "self_loop_consumer:user_info",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_path_unused:resultStatus",
+        "absorbed": 1
+      },
+      {
+        "ticket": "read_path_unused:memo",
+        "absorbed": 1
+      }
+    ]
+  }
+}

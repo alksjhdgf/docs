@@ -1,0 +1,174 @@
+{
+  "routerMap": [
+    {
+      "name": "UserRoutesProfile",
+      "pageSourceFile": "src/main/ets/pages/UserRoutesProfilePage.ets",
+      "buildFunction": "UserRoutesProfilePageBuilder"
+    },
+    {
+      "name": "UserRoutesAddressList",
+      "pageSourceFile": "src/main/ets/pages/UserRoutesAddressListPage.ets",
+      "buildFunction": "UserRoutesAddressListPageBuilder"
+    },
+    {
+      "name": "UserRoutesAddressDetail",
+      "pageSourceFile": "src/main/ets/pages/UserRoutesAddressDetailPage.ets",
+      "buildFunction": "UserRoutesAddressDetailPageBuilder"
+    },
+    {
+      "name": "UserRoutesFootprint",
+      "pageSourceFile": "src/main/ets/pages/UserRoutesFootprintPage.ets",
+      "buildFunction": "UserRoutesFootprintPageBuilder"
+    },
+    {
+      "name": "OrderRoutesList",
+      "pageSourceFile": "src/main/ets/pages/OrderRoutesListPage.ets",
+      "buildFunction": "OrderRoutesListPageBuilder"
+    },
+    {
+      "name": "OrderRoutesConfirm",
+      "pageSourceFile": "src/main/ets/pages/OrderRoutesConfirmPage.ets",
+      "buildFunction": "OrderRoutesConfirmPageBuilder"
+    },
+    {
+      "name": "OrderRoutesDetail",
+      "pageSourceFile": "src/main/ets/pages/OrderRoutesDetailPage.ets",
+      "buildFunction": "OrderRoutesDetailPageBuilder"
+    },
+    {
+      "name": "OrderRoutesPay",
+      "pageSourceFile": "src/main/ets/pages/OrderRoutesPayPage.ets",
+      "buildFunction": "OrderRoutesPayPageBuilder"
+    },
+    {
+      "name": "OrderRoutesLogistics",
+      "pageSourceFile": "src/main/ets/pages/OrderRoutesLogisticsPage.ets",
+      "buildFunction": "OrderRoutesLogisticsPageBuilder"
+    },
+    {
+      "name": "OrderRoutesRefund",
+      "pageSourceFile": "src/main/ets/pages/OrderRoutesRefundPage.ets",
+      "buildFunction": "OrderRoutesRefundPageBuilder"
+    },
+    {
+      "name": "OrderRoutesComment",
+      "pageSourceFile": "src/main/ets/pages/OrderRoutesCommentPage.ets",
+      "buildFunction": "OrderRoutesCommentPageBuilder"
+    },
+    {
+      "name": "MarketRoutesCoupon",
+      "pageSourceFile": "src/main/ets/pages/MarketRoutesCouponPage.ets",
+      "buildFunction": "MarketRoutesCouponPageBuilder"
+    },
+    {
+      "name": "MainRoutesMain",
+      "pageSourceFile": "src/main/ets/pages/MainRoutesMainPage.ets",
+      "buildFunction": "MainRoutesMainPageBuilder"
+    },
+    {
+      "name": "MainRoutesCart",
+      "pageSourceFile": "src/main/ets/pages/MainRoutesCartPage.ets",
+      "buildFunction": "MainRoutesCartPageBuilder"
+    },
+    {
+      "name": "LaunchRoutesSplash",
+      "pageSourceFile": "src/main/ets/pages/LaunchRoutesSplashPage.ets",
+      "buildFunction": "LaunchRoutesSplashPageBuilder"
+    },
+    {
+      "name": "LaunchRoutesGuide",
+      "pageSourceFile": "src/main/ets/pages/LaunchRoutesGuidePage.ets",
+      "buildFunction": "LaunchRoutesGuidePageBuilder"
+    },
+    {
+      "name": "GoodsRoutesDetail",
+      "pageSourceFile": "src/main/ets/pages/GoodsRoutesDetailPage.ets",
+      "buildFunction": "GoodsRoutesDetailPageBuilder"
+    },
+    {
+      "name": "GoodsRoutesSearch",
+      "pageSourceFile": "src/main/ets/pages/GoodsRoutesSearchPage.ets",
+      "buildFunction": "GoodsRoutesSearchPageBuilder"
+    },
+    {
+      "name": "GoodsRoutesComment",
+      "pageSourceFile": "src/main/ets/pages/GoodsRoutesCommentPage.ets",
+      "buildFunction": "GoodsRoutesCommentPageBuilder"
+    },
+    {
+      "name": "GoodsRoutesCategory",
+      "pageSourceFile": "src/main/ets/pages/GoodsRoutesCategoryPage.ets",
+      "buildFunction": "GoodsRoutesCategoryPageBuilder"
+    },
+    {
+      "name": "FeedbackRoutesList",
+      "pageSourceFile": "src/main/ets/pages/FeedbackRoutesListPage.ets",
+      "buildFunction": "FeedbackRoutesListPageBuilder"
+    },
+    {
+      "name": "FeedbackRoutesSubmit",
+      "pageSourceFile": "src/main/ets/pages/FeedbackRoutesSubmitPage.ets",
+      "buildFunction": "FeedbackRoutesSubmitPageBuilder"
+    },
+    {
+      "name": "CsRoutesChat",
+      "pageSourceFile": "src/main/ets/pages/CsRoutesChatPage.ets",
+      "buildFunction": "CsRoutesChatPageBuilder"
+    },
+    {
+      "name": "CommonRoutesAbout",
+      "pageSourceFile": "src/main/ets/pages/CommonRoutesAboutPage.ets",
+      "buildFunction": "CommonRoutesAboutPageBuilder"
+    },
+    {
+      "name": "CommonRoutesWeb",
+      "pageSourceFile": "src/main/ets/pages/CommonRoutesWebPage.ets",
+      "buildFunction": "CommonRoutesWebPageBuilder"
+    },
+    {
+      "name": "CommonRoutesSettings",
+      "pageSourceFile": "src/main/ets/pages/CommonRoutesSettingsPage.ets",
+      "buildFunction": "CommonRoutesSettingsPageBuilder"
+    },
+    {
+      "name": "CommonRoutesUserAgreement",
+      "pageSourceFile": "src/main/ets/pages/CommonRoutesUserAgreementPage.ets",
+      "buildFunction": "CommonRoutesUserAgreementPageBuilder"
+    },
+    {
+      "name": "CommonRoutesPrivacyPolicy",
+      "pageSourceFile": "src/main/ets/pages/CommonRoutesPrivacyPolicyPage.ets",
+      "buildFunction": "CommonRoutesPrivacyPolicyPageBuilder"
+    },
+    {
+      "name": "CommonRoutesContributors",
+      "pageSourceFile": "src/main/ets/pages/CommonRoutesContributorsPage.ets",
+      "buildFunction": "CommonRoutesContributorsPageBuilder"
+    },
+    {
+      "name": "AuthRoutesLogin",
+      "pageSourceFile": "src/main/ets/pages/AuthRoutesLoginPage.ets",
+      "buildFunction": "AuthRoutesLoginPageBuilder"
+    },
+    {
+      "name": "AuthRoutesAccountLogin",
+      "pageSourceFile": "src/main/ets/pages/AuthRoutesAccountLoginPage.ets",
+      "buildFunction": "AuthRoutesAccountLoginPageBuilder"
+    },
+    {
+      "name": "AuthRoutesSmsLogin",
+      "pageSourceFile": "src/main/ets/pages/AuthRoutesSmsLoginPage.ets",
+      "buildFunction": "AuthRoutesSmsLoginPageBuilder"
+    },
+    {
+      "name": "AuthRoutesRegister",
+      "pageSourceFile": "src/main/ets/pages/AuthRoutesRegisterPage.ets",
+      "buildFunction": "AuthRoutesRegisterPageBuilder"
+    },
+    {
+      "name": "AuthRoutesResetPassword",
+      "pageSourceFile": "src/main/ets/pages/AuthRoutesResetPasswordPage.ets",
+      "buildFunction": "AuthRoutesResetPasswordPageBuilder"
+    }
+  ]
+}

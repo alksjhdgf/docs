@@ -1,0 +1,37 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "AuthRoutesRegister",
+  "kind": "skeleton",
+  "slice": "page-auth-register-reset",
+  "route": "AuthRoutesRegister",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "AuthRoutesRegister"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "获取验证码",
+        "请设置密码",
+        "请确认密码",
+        "注册",
+        "已有账号？",
+        "去登录",
+        "请设置新密码",
+        "请确认新密码",
+        "重置密码后，请使用新密码登录",
+        "两次输入的密码不一致",
+        "重置密码"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "AuthRoutesRegister"
+    }
+  ]
+}

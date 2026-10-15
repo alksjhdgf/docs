@@ -1,0 +1,973 @@
+{
+  "plan": "output/CoolMallHM/spec/4b/flow-logged-in.json",
+  "at": "2026-10-15T09:42:32.404Z",
+  "bundle": "com.joker.coolmall",
+  "name": "flow-logged-in",
+  "steps": [
+    {
+      "i": 0,
+      "op": "stop",
+      "ok": true,
+      "detail": "",
+      "ms": 305
+    },
+    {
+      "i": 1,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3806
+    },
+    {
+      "i": 2,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 996
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"我的\" @945,2286",
+      "changed": true,
+      "ms": 4426
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的订单",
+      "ms": 1096
+    },
+    {
+      "i": 5,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 1043
+    },
+    {
+      "i": 6,
+      "op": "probe",
+      "ok": true,
+      "detail": "出现 0/2（页面 168 节点） 未见 [=未登录, =点击登录账号]",
+      "seen": [],
+      "unseen": [
+        "=未登录",
+        "=点击登录账号"
+      ],
+      "page": {
+        "texts": [
+          "<nickname>",
+          "手机号: 135****3901",
+          "会员立享5大权益!",
+          "立即开通",
+          "我的订单",
+          "查看全部",
+          "待付款",
+          "待发货",
+          "待收货",
+          "待评价",
+          "退款/售后",
+          "优惠券",
+          "收货地址",
+          "在线客服",
+          "意见反馈",
+          "关于我们",
+          "设置",
+          "主页",
+          "分类",
+          "购物车",
+          "我的",
+          "10, :, 41",
+          "10",
+          ":",
+          "41",
+          "81"
+        ],
+        "ids": [
+          "session23",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "PluginRootComponent_Stack_status_bar_notification_icon",
+          "__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon",
+          "__100_20020081_com.ohos.mms_notification_57_57_StatusBarAppIcon",
+          "__0_1018___1_StatusBarAppIcon",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ring_mode",
+          "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+          "StatusBarIconWrapper_status_bar_wifi",
+          "WifiComponent-WifiIcon_Image_wifi_signal_category",
+          "WifiComponent-WifiIcon_Image_wifi_signal_level",
+          "WifiComponent-WifiIcon_Image_wifi_data_flow",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellular",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "BatteryComponent-batteryIcon_Image_Battery_Beside",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView"
+        ],
+        "clickable": [
+          "#StatusBarBridgeView"
+        ],
+        "geometry": {
+          "#session23": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[42,26][1038,98]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[42,26][1080,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[42,36][96,89]"
+          },
+          "#PluginRootComponent_Stack_status_bar_notification_icon": {
+            "center": [
+              0.24,
+              0.03
+            ],
+            "bounds": "[175,26][337,98]"
+          },
+          "#__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon": {
+            "center": [
+              0.18,
+              0.03
+            ],
+            "bounds": "[175,41][217,83]"
+          },
+          "#__100_20020081_com.ohos.mms_notification_57_57_StatusBarAppIcon": {
+            "center": [
+              0.23,
+              0.03
+            ],
+            "bounds": "[229,41][271,83]"
+          },
+          "#__0_1018___1_StatusBarAppIcon": {
+            "center": [
+              0.28,
+              0.03
+            ],
+            "bounds": "[283,41][325,83]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,26][1038,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_ring_mode": {
+            "center": [
+              0.7,
+              0.03
+            ],
+            "bounds": "[734,26][783,98]"
+          },
+          "#ringmode-StatusBarIconItemRingModeComponent_Image_ringMode": {
+            "center": [
+              0.71,
+              0.03
+            ],
+            "bounds": "[740,38][783,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_wifi": {
+            "center": [
+              0.76,
+              0.03
+            ],
+            "bounds": "[783,26][852,98]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_category": {
+            "center": [
+              0.76,
+              0.03
+            ],
+            "bounds": "[789,38][852,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_level": {
+            "center": [
+              0.76,
+              0.03
+            ],
+            "bounds": "[790,38][852,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_data_flow": {
+            "center": [
+              0.76,
+              0.03
+            ],
+            "bounds": "[789,38][852,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.82,
+              0.03
+            ],
+            "bounds": "[852,26][926,98]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellular": {
+            "center": [
+              0.83,
+              0.03
+            ],
+            "bounds": "[858,38][926,86]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.83,
+              0.03
+            ],
+            "bounds": "[858,38][926,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.91,
+              0.03
+            ],
+            "bounds": "[926,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.91,
+              0.03
+            ],
+            "bounds": "[932,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.9,
+              0.03
+            ],
+            "bounds": "[932,38][1016,86]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.9,
+              0.03
+            ],
+            "bounds": "[950,43][990,82]"
+          },
+          "#BatteryComponent-batteryIcon_Image_Battery_Beside": {
+            "center": [
+              0.95,
+              0.03
+            ],
+            "bounds": "[1016,38][1038,86]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          }
+        }
+      },
+      "ms": 1137
+    },
+    {
+      "i": 7,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"查看全部\" @876,741",
+      "changed": true,
+      "ms": 4340
+    },
+    {
+      "i": 8,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =订单列表",
+      "ms": 989
+    },
+    {
+      "i": 9,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 5/5",
+      "ms": 1073
+    },
+    {
+      "i": 10,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Column \"待付款\" @293,372",
+      "changed": false,
+      "expectNoChange": true,
+      "ms": 4145
+    },
+    {
+      "i": 11,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1505
+    },
+    {
+      "i": 12,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow6-orders.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow6-orders.png",
+      "ms": 526
+    },
+    {
+      "i": 13,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 939
+    },
+    {
+      "i": 14,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的订单",
+      "ms": 1288
+    },
+    {
+      "i": 15,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"收货地址\" @253,1315（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 4285
+    },
+    {
+      "i": 16,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =新增地址",
+      "ms": 1012
+    },
+    {
+      "i": 17,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow6-address.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow6-address.png",
+      "ms": 500
+    },
+    {
+      "i": 18,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 959
+    },
+    {
+      "i": 19,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =优惠券",
+      "ms": 1065
+    },
+    {
+      "i": 20,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"优惠券\" @232,1151",
+      "changed": true,
+      "ms": 4232
+    },
+    {
+      "i": 21,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的优惠券",
+      "ms": 991
+    },
+    {
+      "i": 22,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1504
+    },
+    {
+      "i": 23,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow6-coupons.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow6-coupons.png",
+      "ms": 517
+    },
+    {
+      "i": 24,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 944
+    },
+    {
+      "i": 25,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =在线客服",
+      "ms": 1044
+    },
+    {
+      "i": 26,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"在线客服\" @253,1478",
+      "changed": true,
+      "ms": 4256
+    },
+    {
+      "i": 27,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =客服聊天",
+      "ms": 1058
+    },
+    {
+      "i": 28,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 3001
+    },
+    {
+      "i": 29,
+      "op": "probe",
+      "ok": true,
+      "detail": "出现 1/2（页面 91 节点） 未见 [发送消息...]",
+      "seen": [
+        "没有更多消息了"
+      ],
+      "unseen": [
+        "发送消息..."
+      ],
+      "page": {
+        "texts": [
+          "客服聊天",
+          "没有更多消息了",
+          "10, :, 42",
+          "10",
+          ":",
+          "42",
+          "82"
+        ],
+        "ids": [
+          "session23",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "PluginRootComponent_Stack_status_bar_notification_icon",
+          "__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon",
+          "__100_20020081_com.ohos.mms_notification_57_57_StatusBarAppIcon",
+          "__0_1018___1_StatusBarAppIcon",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ring_mode",
+          "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+          "StatusBarIconWrapper_status_bar_wifi",
+          "WifiComponent-WifiIcon_Image_wifi_signal_category",
+          "WifiComponent-WifiIcon_Image_wifi_signal_level",
+          "WifiComponent-WifiIcon_Image_wifi_data_flow",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellular",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView"
+        ],
+        "clickable": [
+          "#StatusBarBridgeView"
+        ],
+        "geometry": {
+          "#session23": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[42,26][1038,98]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[42,26][1080,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[42,36][96,89]"
+          },
+          "#PluginRootComponent_Stack_status_bar_notification_icon": {
+            "center": [
+              0.24,
+              0.03
+            ],
+            "bounds": "[175,26][337,98]"
+          },
+          "#__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon": {
+            "center": [
+              0.18,
+              0.03
+            ],
+            "bounds": "[175,41][217,83]"
+          },
+          "#__100_20020081_com.ohos.mms_notification_57_57_StatusBarAppIcon": {
+            "center": [
+              0.23,
+              0.03
+            ],
+            "bounds": "[229,41][271,83]"
+          },
+          "#__0_1018___1_StatusBarAppIcon": {
+            "center": [
+              0.28,
+              0.03
+            ],
+            "bounds": "[283,41][325,83]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,26][1038,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_ring_mode": {
+            "center": [
+              0.72,
+              0.03
+            ],
+            "bounds": "[756,26][805,98]"
+          },
+          "#ringmode-StatusBarIconItemRingModeComponent_Image_ringMode": {
+            "center": [
+              0.73,
+              0.03
+            ],
+            "bounds": "[762,38][805,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_wifi": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[805,26][874,98]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_category": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[811,38][874,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_level": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[812,38][874,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_data_flow": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[811,38][874,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.84,
+              0.03
+            ],
+            "bounds": "[874,26][948,98]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellular": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[880,38][948,86]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[880,38][948,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[948,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,38][1038,86]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[972,43][1012,82]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          }
+        }
+      },
+      "ms": 997
+    },
+    {
+      "i": 30,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow6-chat.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow6-chat.png",
+      "ms": 507
+    },
+    {
+      "i": 31,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 936
+    },
+    {
+      "i": 32,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的订单",
+      "ms": 1014
+    },
+    {
+      "i": 33,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"手机号: 135****3901\" @477,371",
+      "changed": true,
+      "ms": 4482
+    },
+    {
+      "i": 34,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =个人中心",
+      "ms": 1114
+    },
+    {
+      "i": 35,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 5/5",
+      "ms": 1027
+    },
+    {
+      "i": 36,
+      "op": "scrollUntil",
+      "ok": true,
+      "detail": "滑 1 次后出现 =退出登录",
+      "ms": 5643
+    },
+    {
+      "i": 37,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow6-profile.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow6-profile.png",
+      "ms": 506
+    },
+    {
+      "i": 38,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 925
+    },
+    {
+      "i": 39,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的订单",
+      "ms": 1011
+    },
+    {
+      "i": 40,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 235
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "搜索商品",
+      "【满减券】小米精选满 299 减 30 元",
+      "领取",
+      "手机",
+      "平板",
+      "穿戴",
+      "电脑办公",
+      "电视影音",
+      "生活家电",
+      "智能家居",
+      "出行箱包",
+      "清洁电器",
+      "厨房个护",
+      "限时精选",
+      "查看全部",
+      "主页",
+      "分类",
+      "购物车",
+      "我的",
+      "10, :, 41",
+      "10",
+      ":",
+      "41",
+      "81",
+      "<nickname>",
+      "手机号: 135****3901",
+      "会员立享5大权益!",
+      "立即开通",
+      "我的订单",
+      "待付款",
+      "待发货",
+      "待收货",
+      "待评价",
+      "退款/售后",
+      "优惠券",
+      "收货地址",
+      "在线客服",
+      "意见反馈",
+      "关于我们",
+      "设置",
+      "订单列表",
+      "暂无数据",
+      "暂时没有相关内容",
+      "重新加载",
+      "全部",
+      "售后/退款",
+      "82",
+      "新增地址",
+      "我的优惠券",
+      "10, :, 42",
+      "42",
+      "客服聊天",
+      "没有更多消息了",
+      "头像",
+      "昵称",
+      "账号信息",
+      "手机号",
+      "135****3901",
+      "账号",
+      "<userId>",
+      "社交账号",
+      "微信",
+      "去绑定",
+      "QQ",
+      "已绑定",
+      "安全",
+      "修改密码",
+      "注销账户",
+      "个人中心",
+      "退出登录"
+    ],
+    "ids": [
+      "session23",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "PluginRootComponent_Stack_status_bar_notification_icon",
+      "__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon",
+      "__100_20020081_com.ohos.mms_notification_57_57_StatusBarAppIcon",
+      "__0_1018___1_StatusBarAppIcon",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ring_mode",
+      "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+      "StatusBarIconWrapper_status_bar_wifi",
+      "WifiComponent-WifiIcon_Image_wifi_signal_category",
+      "WifiComponent-WifiIcon_Image_wifi_signal_level",
+      "WifiComponent-WifiIcon_Image_wifi_data_flow",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "BatteryComponent-batteryIcon_Image_Battery_Beside",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

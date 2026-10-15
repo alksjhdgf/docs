@@ -1,0 +1,37 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "CsRoutesChat",
+  "kind": "skeleton",
+  "slice": "page-cs-chat",
+  "route": "CsRoutesChat",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "CsRoutesChat"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "客服聊天",
+        "加载更多历史消息",
+        "加载成功",
+        "没有更多消息了",
+        "加载失败，点击重试",
+        "HH:mm",
+        "yyyy-MM-dd HH:",
+        "回到底部",
+        "发送",
+        "相册",
+        "拍摄"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "CsRoutesChat"
+    }
+  ]
+}

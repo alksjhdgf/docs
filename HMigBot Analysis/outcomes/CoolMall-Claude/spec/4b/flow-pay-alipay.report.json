@@ -1,0 +1,564 @@
+{
+  "plan": "output/CoolMallHM/spec/4b/flow-pay-alipay.json",
+  "at": "2026-10-15T09:53:37.593Z",
+  "bundle": "com.joker.coolmall",
+  "name": "flow-pay-alipay",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3937
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 976
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"我的\" @945,2286",
+      "changed": true,
+      "ms": 4292
+    },
+    {
+      "i": 3,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的订单",
+      "ms": 1028
+    },
+    {
+      "i": 4,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"待付款\" @137,971",
+      "changed": true,
+      "ms": 4572
+    },
+    {
+      "i": 5,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =订单列表",
+      "ms": 1108
+    },
+    {
+      "i": 6,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =去支付",
+      "ms": 1039
+    },
+    {
+      "i": 7,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 3/3",
+      "ms": 1079
+    },
+    {
+      "i": 8,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow8-order-list-pending.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow8-order-list-pending.png",
+      "ms": 521
+    },
+    {
+      "i": 9,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"去支付\" @908,1017",
+      "changed": true,
+      "ms": 4348
+    },
+    {
+      "i": 10,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =收银台",
+      "ms": 1081
+    },
+    {
+      "i": 11,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 2/2",
+      "ms": 1026
+    },
+    {
+      "i": 12,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"去支付 ¥4999\" @540,2215",
+      "changed": true,
+      "ms": 4237
+    },
+    {
+      "i": 13,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 下一步",
+      "ms": 3880
+    },
+    {
+      "i": 14,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 3/3",
+      "ms": 966
+    },
+    {
+      "i": 15,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 951
+    },
+    {
+      "i": 16,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 3006
+    },
+    {
+      "i": 17,
+      "op": "probe",
+      "ok": true,
+      "detail": "出现 1/4（页面 128 节点） 未见 [支付已取消, 支付失败, =收银台]",
+      "seen": [
+        "=订单列表"
+      ],
+      "unseen": [
+        "支付已取消",
+        "支付失败",
+        "=收银台"
+      ],
+      "page": {
+        "texts": [
+          "订单列表",
+          "U26102881751123456693",
+          "待付款",
+          "¥4999.00",
+          "共 1 件",
+          "取消订单",
+          "去支付",
+          "全部",
+          "待发货",
+          "待收货",
+          "售后/退款",
+          "10, :, 53",
+          "10",
+          ":",
+          "53",
+          "82"
+        ],
+        "ids": [
+          "session23",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "PluginRootComponent_Stack_status_bar_notification_icon",
+          "__100_20020081_com.ohos.mms_notification_58_58_StatusBarAppIcon",
+          "__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon",
+          "__0_1018___1_StatusBarAppIcon",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ring_mode",
+          "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+          "StatusBarIconWrapper_status_bar_wifi",
+          "WifiComponent-WifiIcon_Image_wifi_signal_category",
+          "WifiComponent-WifiIcon_Image_wifi_signal_level",
+          "WifiComponent-WifiIcon_Image_wifi_data_flow",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellular",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView"
+        ],
+        "clickable": [
+          "全部",
+          "待付款",
+          "待发货",
+          "待收货",
+          "售后/退款",
+          "#StatusBarBridgeView"
+        ],
+        "geometry": {
+          "全部": {
+            "center": [
+              0.08,
+              0.15
+            ],
+            "bounds": "[0,300][181,444]"
+          },
+          "待付款": {
+            "center": [
+              0.27,
+              0.15
+            ],
+            "bounds": "[181,300][404,444]"
+          },
+          "待发货": {
+            "center": [
+              0.48,
+              0.15
+            ],
+            "bounds": "[404,300][627,444]"
+          },
+          "待收货": {
+            "center": [
+              0.68,
+              0.15
+            ],
+            "bounds": "[627,300][850,444]"
+          },
+          "售后/退款": {
+            "center": [
+              0.89,
+              0.15
+            ],
+            "bounds": "[850,300][1080,444]"
+          },
+          "#session23": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[42,26][1038,98]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[42,26][1080,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[42,36][96,89]"
+          },
+          "#PluginRootComponent_Stack_status_bar_notification_icon": {
+            "center": [
+              0.24,
+              0.03
+            ],
+            "bounds": "[175,26][337,98]"
+          },
+          "#__100_20020081_com.ohos.mms_notification_58_58_StatusBarAppIcon": {
+            "center": [
+              0.18,
+              0.03
+            ],
+            "bounds": "[175,41][217,83]"
+          },
+          "#__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon": {
+            "center": [
+              0.23,
+              0.03
+            ],
+            "bounds": "[229,41][271,83]"
+          },
+          "#__0_1018___1_StatusBarAppIcon": {
+            "center": [
+              0.28,
+              0.03
+            ],
+            "bounds": "[283,41][325,83]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,26][1038,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_ring_mode": {
+            "center": [
+              0.72,
+              0.03
+            ],
+            "bounds": "[756,26][805,98]"
+          },
+          "#ringmode-StatusBarIconItemRingModeComponent_Image_ringMode": {
+            "center": [
+              0.73,
+              0.03
+            ],
+            "bounds": "[762,38][805,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_wifi": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[805,26][874,98]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_category": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[811,38][874,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_level": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[812,38][874,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_data_flow": {
+            "center": [
+              0.78,
+              0.03
+            ],
+            "bounds": "[811,38][874,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.84,
+              0.03
+            ],
+            "bounds": "[874,26][948,98]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellular": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[880,38][948,86]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.85,
+              0.03
+            ],
+            "bounds": "[880,38][948,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[948,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,38][1038,86]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[972,43][1012,82]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          }
+        }
+      },
+      "ms": 1030
+    },
+    {
+      "i": 18,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 235
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "搜索商品",
+      "【满减券】小米精选满 299 减 30 元",
+      "领取",
+      "手机",
+      "平板",
+      "穿戴",
+      "电脑办公",
+      "电视影音",
+      "生活家电",
+      "智能家居",
+      "出行箱包",
+      "清洁电器",
+      "厨房个护",
+      "限时精选",
+      "查看全部",
+      "主页",
+      "分类",
+      "购物车",
+      "我的",
+      "10, :, 53",
+      "10",
+      ":",
+      "53",
+      "82",
+      "<nickname>",
+      "手机号: 135****3901",
+      "会员立享5大权益!",
+      "立即开通",
+      "我的订单",
+      "1",
+      "待付款",
+      "待发货",
+      "待收货",
+      "待评价",
+      "退款/售后",
+      "我的足迹",
+      "优惠券",
+      "收货地址",
+      "在线客服",
+      "意见反馈",
+      "订单列表",
+      "U26102881751123456693",
+      "¥4999.00",
+      "共 1 件",
+      "取消订单",
+      "去支付",
+      "全部",
+      "售后/退款",
+      "支付宝支付",
+      "微信支付",
+      "QQ支付",
+      "提示：实际支付金额经过处理，都是一分钱",
+      "收银台",
+      "去支付 ¥4999",
+      "0.000000",
+      "去支付宝付款",
+      "https://mclient.alipay.com/cashierRoutePay.htm?route_pay_from=h5&init_from=SDKLite&session=RZZFB11H9SDNxV7dx2PMN17BjyXEUnmobilecashierRZZFB11&utdid=atCiFfS37xADACBH2krLYpcs&tid=0eb905e39cd35913c4f185efe82f00bfb49e3c4a819f83cfc516bd12893c8830&cc=y",
+      "alipay-logo",
+      "购买商品",
+      "¥0.01",
+      "请输入支付宝账号",
+      "下一步",
+      " 注册账号"
+    ],
+    "ids": [
+      "session23",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "PluginRootComponent_Stack_status_bar_notification_icon",
+      "__100_20020081_com.ohos.mms_notification_58_58_StatusBarAppIcon",
+      "__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon",
+      "__0_1018___1_StatusBarAppIcon",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ring_mode",
+      "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+      "StatusBarIconWrapper_status_bar_wifi",
+      "WifiComponent-WifiIcon_Image_wifi_signal_category",
+      "WifiComponent-WifiIcon_Image_wifi_signal_level",
+      "WifiComponent-WifiIcon_Image_wifi_data_flow",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

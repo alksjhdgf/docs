@@ -1,0 +1,185 @@
+{
+  "plan": "output/CoolMallHM/spec/4b/flow-chat-history.json",
+  "at": "2026-10-15T09:54:42.285Z",
+  "bundle": "com.joker.coolmall",
+  "name": "flow-chat-history",
+  "steps": [
+    {
+      "i": 0,
+      "op": "stop",
+      "ok": true,
+      "detail": "",
+      "ms": 231
+    },
+    {
+      "i": 1,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3816
+    },
+    {
+      "i": 2,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 1055
+    },
+    {
+      "i": 3,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"我的\" @945,2286（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 4412
+    },
+    {
+      "i": 4,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =在线客服",
+      "ms": 1092
+    },
+    {
+      "i": 5,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"在线客服\" @253,2025",
+      "changed": true,
+      "ms": 4273
+    },
+    {
+      "i": 6,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =客服聊天",
+      "ms": 1009
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 测试",
+      "ms": 1059
+    },
+    {
+      "i": 8,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 1056
+    },
+    {
+      "i": 9,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow9-chat-history.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow9-chat-history.png",
+      "ms": 527
+    },
+    {
+      "i": 10,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 955
+    },
+    {
+      "i": 11,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =我的订单",
+      "ms": 1379
+    },
+    {
+      "i": 12,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 238
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "搜索商品",
+      "【满减券】小米精选满 299 减 30 元",
+      "领取",
+      "手机",
+      "平板",
+      "穿戴",
+      "电脑办公",
+      "电视影音",
+      "生活家电",
+      "智能家居",
+      "出行箱包",
+      "清洁电器",
+      "厨房个护",
+      "限时精选",
+      "查看全部",
+      "主页",
+      "分类",
+      "购物车",
+      "我的",
+      "10, :, 54",
+      "10",
+      ":",
+      "54",
+      "82",
+      "<nickname>",
+      "手机号: 135****3901",
+      "会员立享5大权益!",
+      "立即开通",
+      "我的订单",
+      "1",
+      "待付款",
+      "待发货",
+      "待收货",
+      "待评价",
+      "退款/售后",
+      "我的足迹",
+      "优惠券",
+      "收货地址",
+      "在线客服",
+      "意见反馈",
+      "客服聊天",
+      "没有更多消息了",
+      " 测试"
+    ],
+    "ids": [
+      "session23",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "PluginRootComponent_Stack_status_bar_notification_icon",
+      "__100_20020081_com.ohos.mms_notification_58_58_StatusBarAppIcon",
+      "__100_20020198_com.joker.coolmall__1055613245_StatusBarAppIcon",
+      "__0_1018___1_StatusBarAppIcon",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ring_mode",
+      "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+      "StatusBarIconWrapper_status_bar_wifi",
+      "WifiComponent-WifiIcon_Image_wifi_signal_category",
+      "WifiComponent-WifiIcon_Image_wifi_signal_level",
+      "WifiComponent-WifiIcon_Image_wifi_data_flow",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellular",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

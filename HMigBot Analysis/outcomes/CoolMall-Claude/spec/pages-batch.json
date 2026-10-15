@@ -1,0 +1,274 @@
+[
+ {
+  "id": "UserRoutesProfile",
+  "route": "UserRoutesProfile",
+  "from": "compose:<UserRoutes.Profile>",
+  "file": "entry/src/main/ets/pages/UserRoutesProfilePage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "UserRoutesAddressList",
+  "route": "UserRoutesAddressList",
+  "from": "compose:<UserRoutes.AddressList>",
+  "file": "entry/src/main/ets/pages/UserRoutesAddressListPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "UserRoutesAddressDetail",
+  "route": "UserRoutesAddressDetail",
+  "from": "compose:<UserRoutes.AddressDetail>",
+  "file": "entry/src/main/ets/pages/UserRoutesAddressDetailPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "UserRoutesFootprint",
+  "route": "UserRoutesFootprint",
+  "from": "compose:<UserRoutes.Footprint>",
+  "file": "entry/src/main/ets/pages/UserRoutesFootprintPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "OrderRoutesList",
+  "route": "OrderRoutesList",
+  "from": "compose:<OrderRoutes.List>",
+  "file": "entry/src/main/ets/pages/OrderRoutesListPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "OrderRoutesConfirm",
+  "route": "OrderRoutesConfirm",
+  "from": "compose:<OrderRoutes.Confirm>",
+  "file": "entry/src/main/ets/pages/OrderRoutesConfirmPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "OrderRoutesDetail",
+  "route": "OrderRoutesDetail",
+  "from": "compose:<OrderRoutes.Detail>",
+  "file": "entry/src/main/ets/pages/OrderRoutesDetailPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "OrderRoutesPay",
+  "route": "OrderRoutesPay",
+  "from": "compose:<OrderRoutes.Pay>",
+  "file": "entry/src/main/ets/pages/OrderRoutesPayPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "OrderRoutesLogistics",
+  "route": "OrderRoutesLogistics",
+  "from": "compose:<OrderRoutes.Logistics>",
+  "file": "entry/src/main/ets/pages/OrderRoutesLogisticsPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "OrderRoutesRefund",
+  "route": "OrderRoutesRefund",
+  "from": "compose:<OrderRoutes.Refund>",
+  "file": "entry/src/main/ets/pages/OrderRoutesRefundPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "OrderRoutesComment",
+  "route": "OrderRoutesComment",
+  "from": "compose:<OrderRoutes.Comment>",
+  "file": "entry/src/main/ets/pages/OrderRoutesCommentPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "MarketRoutesCoupon",
+  "route": "MarketRoutesCoupon",
+  "from": "compose:<MarketRoutes.Coupon>",
+  "file": "entry/src/main/ets/pages/MarketRoutesCouponPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "MainRoutesMain",
+  "route": "MainRoutesMain",
+  "from": "compose:<MainRoutes.Main>",
+  "file": "entry/src/main/ets/pages/MainRoutesMainPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "MainRoutesCart",
+  "route": "MainRoutesCart",
+  "from": "compose:<MainRoutes.Cart>",
+  "file": "entry/src/main/ets/pages/MainRoutesCartPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "LaunchRoutesSplash",
+  "route": "LaunchRoutesSplash",
+  "from": "compose:<LaunchRoutes.Splash>",
+  "file": "entry/src/main/ets/pages/LaunchRoutesSplashPage.ets",
+  "launcher": true,
+  "status": "untested"
+ },
+ {
+  "id": "LaunchRoutesGuide",
+  "route": "LaunchRoutesGuide",
+  "from": "compose:<LaunchRoutes.Guide>",
+  "file": "entry/src/main/ets/pages/LaunchRoutesGuidePage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "GoodsRoutesDetail",
+  "route": "GoodsRoutesDetail",
+  "from": "compose:<GoodsRoutes.Detail>",
+  "file": "entry/src/main/ets/pages/GoodsRoutesDetailPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "GoodsRoutesSearch",
+  "route": "GoodsRoutesSearch",
+  "from": "compose:<GoodsRoutes.Search>",
+  "file": "entry/src/main/ets/pages/GoodsRoutesSearchPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "GoodsRoutesComment",
+  "route": "GoodsRoutesComment",
+  "from": "compose:<GoodsRoutes.Comment>",
+  "file": "entry/src/main/ets/pages/GoodsRoutesCommentPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "GoodsRoutesCategory",
+  "route": "GoodsRoutesCategory",
+  "from": "compose:<GoodsRoutes.Category>",
+  "file": "entry/src/main/ets/pages/GoodsRoutesCategoryPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "FeedbackRoutesList",
+  "route": "FeedbackRoutesList",
+  "from": "compose:<FeedbackRoutes.List>",
+  "file": "entry/src/main/ets/pages/FeedbackRoutesListPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "FeedbackRoutesSubmit",
+  "route": "FeedbackRoutesSubmit",
+  "from": "compose:<FeedbackRoutes.Submit>",
+  "file": "entry/src/main/ets/pages/FeedbackRoutesSubmitPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "CsRoutesChat",
+  "route": "CsRoutesChat",
+  "from": "compose:<CsRoutes.Chat>",
+  "file": "entry/src/main/ets/pages/CsRoutesChatPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "CommonRoutesAbout",
+  "route": "CommonRoutesAbout",
+  "from": "compose:<CommonRoutes.About>",
+  "file": "entry/src/main/ets/pages/CommonRoutesAboutPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "CommonRoutesWeb",
+  "route": "CommonRoutesWeb",
+  "from": "compose:<CommonRoutes.Web>",
+  "file": "entry/src/main/ets/pages/CommonRoutesWebPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "CommonRoutesSettings",
+  "route": "CommonRoutesSettings",
+  "from": "compose:<CommonRoutes.Settings>",
+  "file": "entry/src/main/ets/pages/CommonRoutesSettingsPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "CommonRoutesUserAgreement",
+  "route": "CommonRoutesUserAgreement",
+  "from": "compose:<CommonRoutes.UserAgreement>",
+  "file": "entry/src/main/ets/pages/CommonRoutesUserAgreementPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "CommonRoutesPrivacyPolicy",
+  "route": "CommonRoutesPrivacyPolicy",
+  "from": "compose:<CommonRoutes.PrivacyPolicy>",
+  "file": "entry/src/main/ets/pages/CommonRoutesPrivacyPolicyPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "CommonRoutesContributors",
+  "route": "CommonRoutesContributors",
+  "from": "compose:<CommonRoutes.Contributors>",
+  "file": "entry/src/main/ets/pages/CommonRoutesContributorsPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "AuthRoutesLogin",
+  "route": "AuthRoutesLogin",
+  "from": "compose:<AuthRoutes.Login>",
+  "file": "entry/src/main/ets/pages/AuthRoutesLoginPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "AuthRoutesAccountLogin",
+  "route": "AuthRoutesAccountLogin",
+  "from": "compose:<AuthRoutes.AccountLogin>",
+  "file": "entry/src/main/ets/pages/AuthRoutesAccountLoginPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "AuthRoutesSmsLogin",
+  "route": "AuthRoutesSmsLogin",
+  "from": "compose:<AuthRoutes.SmsLogin>",
+  "file": "entry/src/main/ets/pages/AuthRoutesSmsLoginPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "AuthRoutesRegister",
+  "route": "AuthRoutesRegister",
+  "from": "compose:<AuthRoutes.Register>",
+  "file": "entry/src/main/ets/pages/AuthRoutesRegisterPage.ets",
+  "launcher": false,
+  "status": "untested"
+ },
+ {
+  "id": "AuthRoutesResetPassword",
+  "route": "AuthRoutesResetPassword",
+  "from": "compose:<AuthRoutes.ResetPassword>",
+  "file": "entry/src/main/ets/pages/AuthRoutesResetPasswordPage.ets",
+  "launcher": false,
+  "status": "untested"
+ }
+]

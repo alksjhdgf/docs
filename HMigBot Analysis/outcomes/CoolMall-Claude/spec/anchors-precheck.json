@@ -1,0 +1,472 @@
+{
+  "project": "output/CoolMallHM",
+  "findings": [
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "AUTH-A34:网络请求失败",
+      "file": "",
+      "evidence": "断言 AUTH-A34（Auth domain (AuthRoutesLogin / AccountLogin / SmsLogin / Register / ResetPassword)）引用「网络请求失败」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "COM-A08:settings_theme_mode",
+      "file": "",
+      "evidence": "断言 COM-A08（Common pages (Settings / About / Web / UserAgreement / PrivacyPolicy / Contributors)）引用「settings_theme_mode」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "CS-A04:cs/session/create",
+      "file": "",
+      "evidence": "断言 CS-A04（Customer service chat page (CsRoutes.Chat)）引用「cs/session/create」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "CS-A05:cs/msg/page",
+      "file": "",
+      "evidence": "断言 CS-A05（Customer service chat page (CsRoutes.Chat)）引用「cs/msg/page」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "CS-A10:HH:mm",
+      "file": "",
+      "evidence": "断言 CS-A10（Customer service chat page (CsRoutes.Chat)）引用「HH:mm」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "CS-A10:yyyy-MM-dd HH:mm",
+      "file": "",
+      "evidence": "断言 CS-A10（Customer service chat page (CsRoutes.Chat)）引用「yyyy-MM-dd HH:mm」在工程源码/资源中未出现（探针 「yyyy-MM-dd HH:mm」 「yyyy-MM-dd HH:」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A03:Authorization",
+      "file": "",
+      "evidence": "断言 DATA-A03（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「Authorization」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A03:Bearer",
+      "file": "",
+      "evidence": "断言 DATA-A03（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「Bearer」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A04:code == 1000",
+      "file": "",
+      "evidence": "断言 DATA-A04（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「code == 1000」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A05:未知错误",
+      "file": "",
+      "evidence": "断言 DATA-A05（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「未知错误」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A05:网络请求失败",
+      "file": "",
+      "evidence": "断言 DATA-A05（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「网络请求失败」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A06:size*page < total",
+      "file": "",
+      "evidence": "断言 DATA-A06（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「size*page < total」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A07:auth_info",
+      "file": "",
+      "evidence": "断言 DATA-A07（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「auth_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A09:user_info",
+      "file": "",
+      "evidence": "断言 DATA-A09（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「user_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A12:auth_info",
+      "file": "",
+      "evidence": "断言 DATA-A12（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「auth_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A12:user_info",
+      "file": "",
+      "evidence": "断言 DATA-A12（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「user_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A14:carts",
+      "file": "",
+      "evidence": "断言 DATA-A14（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「carts」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A18:carts",
+      "file": "",
+      "evidence": "断言 DATA-A18（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「carts」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A18:selectedGoodsList",
+      "file": "",
+      "evidence": "断言 DATA-A18（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「selectedGoodsList」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A18:settings_theme_mode",
+      "file": "",
+      "evidence": "断言 DATA-A18（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「settings_theme_mode」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A18:guide_shown",
+      "file": "",
+      "evidence": "断言 DATA-A18（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「guide_shown」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A18:saved_phone",
+      "file": "",
+      "evidence": "断言 DATA-A18（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「saved_phone」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A18:saved_password",
+      "file": "",
+      "evidence": "断言 DATA-A18（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「saved_password」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A19:base/comm/upload",
+      "file": "",
+      "evidence": "断言 DATA-A19（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「base/comm/upload」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A20:批量上传失败",
+      "file": "",
+      "evidence": "断言 DATA-A20（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「批量上传失败」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A21:您的验证码是",
+      "file": "",
+      "evidence": "断言 DATA-A21（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「您的验证码是」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A21:验证码通知",
+      "file": "",
+      "evidence": "断言 DATA-A21（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「验证码通知」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A22:被永久拒绝，请手动授予",
+      "file": "",
+      "evidence": "断言 DATA-A22（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「被永久拒绝，请手动授予」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A22:获取失败",
+      "file": "",
+      "evidence": "断言 DATA-A22（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「获取失败」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A25:coolmall-database",
+      "file": "",
+      "evidence": "断言 DATA-A25（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「coolmall-database」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A25:carts",
+      "file": "",
+      "evidence": "断言 DATA-A25（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「carts」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "DATA-A25:footprints",
+      "file": "",
+      "evidence": "断言 DATA-A25（Data domain (network / repositories / AppState / Room / MMKV / util / result)）引用「footprints」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "GOODS-A11:selectedGoodsList",
+      "file": "",
+      "evidence": "断言 GOODS-A11（Goods domain (product detail / comment list / search / category product list)）引用「selectedGoodsList」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "GOODS-A14:+N",
+      "file": "",
+      "evidence": "断言 GOODS-A14（Goods domain (product detail / comment list / search / category product list)）引用「+N」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A03:#1B1B1B",
+      "file": "",
+      "evidence": "断言 LAUNCH-A03（Splash page (LaunchRoutes.Splash)）引用「#1B1B1B」在工程源码/资源中未出现（探针 「#1B1B1B」 「#1b1b1b」 「0x1b1b1b」 「0xff1b1b1b」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A06:guide_shown",
+      "file": "",
+      "evidence": "断言 LAUNCH-A06（Splash page (LaunchRoutes.Splash)）引用「guide_shown」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A08:app_logo",
+      "file": "",
+      "evidence": "断言 LAUNCH-A08（Splash page (LaunchRoutes.Splash)）引用「app_logo」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A14:guide_shown",
+      "file": "",
+      "evidence": "断言 LAUNCH-A14（Splash page (LaunchRoutes.Splash)）引用「guide_shown」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A16:guide_shown",
+      "file": "",
+      "evidence": "断言 LAUNCH-A16（Splash page (LaunchRoutes.Splash)）引用「guide_shown」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A19:auth_info",
+      "file": "",
+      "evidence": "断言 LAUNCH-A19（Splash page (LaunchRoutes.Splash)）引用「auth_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A19:user_info",
+      "file": "",
+      "evidence": "断言 LAUNCH-A19（Splash page (LaunchRoutes.Splash)）引用「user_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A21:auth_info",
+      "file": "",
+      "evidence": "断言 LAUNCH-A21（Splash page (LaunchRoutes.Splash)）引用「auth_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A21:user_info",
+      "file": "",
+      "evidence": "断言 LAUNCH-A21（Splash page (LaunchRoutes.Splash)）引用「user_info」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A25:settings_theme_mode",
+      "file": "",
+      "evidence": "断言 LAUNCH-A25（Splash page (LaunchRoutes.Splash)）引用「settings_theme_mode」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A26:#465CFF",
+      "file": "",
+      "evidence": "断言 LAUNCH-A26（Splash page (LaunchRoutes.Splash)）引用「#465CFF」在工程源码/资源中未出现（探针 「#465CFF」 「#465cff」 「0x465cff」 「0xff465cff」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A26:#6831FF",
+      "file": "",
+      "evidence": "断言 LAUNCH-A26（Splash page (LaunchRoutes.Splash)）引用「#6831FF」在工程源码/资源中未出现（探针 「#6831FF」 「#6831ff」 「0x6831ff」 「0xff6831ff」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A26:#09BE4F",
+      "file": "",
+      "evidence": "断言 LAUNCH-A26（Splash page (LaunchRoutes.Splash)）引用「#09BE4F」在工程源码/资源中未出现（探针 「#09BE4F」 「#09be4f」 「0x09be4f」 「0xff09be4f」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A26:#FFB703",
+      "file": "",
+      "evidence": "断言 LAUNCH-A26（Splash page (LaunchRoutes.Splash)）引用「#FFB703」在工程源码/资源中未出现（探针 「#FFB703」 「#ffb703」 「0xffb703」 「0xffffb703」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A26:#FF2B2B",
+      "file": "",
+      "evidence": "断言 LAUNCH-A26（Splash page (LaunchRoutes.Splash)）引用「#FF2B2B」在工程源码/资源中未出现（探针 「#FF2B2B」 「#ff2b2b」 「0xff2b2b」 「0xffff2b2b」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A28:#F1F4FA",
+      "file": "",
+      "evidence": "断言 LAUNCH-A28（Splash page (LaunchRoutes.Splash)）引用「#F1F4FA」在工程源码/资源中未出现（探针 「#F1F4FA」 「#f1f4fa」 「0xf1f4fa」 「0xfff1f4fa」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A28:#111111",
+      "file": "",
+      "evidence": "断言 LAUNCH-A28（Splash page (LaunchRoutes.Splash)）引用「#111111」在工程源码/资源中未出现（探针 「#111111」 「0x111111」 「0xff111111」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A28:#1B1B1B",
+      "file": "",
+      "evidence": "断言 LAUNCH-A28（Splash page (LaunchRoutes.Splash)）引用「#1B1B1B」在工程源码/资源中未出现（探针 「#1B1B1B」 「#1b1b1b」 「0x1b1b1b」 「0xff1b1b1b」）；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "LAUNCH-A34:102756675",
+      "file": "",
+      "evidence": "断言 LAUNCH-A34（Splash page (LaunchRoutes.Splash)）引用「102756675」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "MAIN-A18:合计:",
+      "file": "",
+      "evidence": "断言 MAIN-A18（Main tabs: Category / Cart / Me (MainRoutesMain tabs 1-3 + standalone MainRoutesCart)）引用「合计:」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "MAIN-A21:carts",
+      "file": "",
+      "evidence": "断言 MAIN-A21（Main tabs: Category / Cart / Me (MainRoutesMain tabs 1-3 + standalone MainRoutesCart)）引用「carts」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "MAIN-A21:selectedGoodsList",
+      "file": "",
+      "evidence": "断言 MAIN-A21（Main tabs: Category / Cart / Me (MainRoutesMain tabs 1-3 + standalone MainRoutesCart)）引用「selectedGoodsList」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ORDA-A13:.00",
+      "file": "",
+      "evidence": "断言 ORDA-A13（Order list / order detail / logistics (OrderRoutes.List · OrderRoutes.Detail · OrderRoutes.Logistics)）引用「.00」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ORDA-A13:共 N 件",
+      "file": "",
+      "evidence": "断言 ORDA-A13（Order list / order detail / logistics (OrderRoutes.List · OrderRoutes.Detail · OrderRoutes.Logistics)）引用「共 N 件」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "case",
+      "type": "literal_missing",
+      "name": "ORDA-A23:orderId",
+      "file": "",
+      "evidence": "断言 ORDA-A23（Order list / order detail / logistics (OrderRoutes.List · OrderRoutes.Detail · OrderRoutes.Logistics)）引用「orderId」在工程源码/资源中未出现"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ORDB-A05:carts",
+      "file": "",
+      "evidence": "断言 ORDB-A05（Order flow B (OrderRoutesConfirm / OrderRoutesPay / OrderRoutesRefund / OrderRoutesComment)）引用「carts」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ORDB-A05:selectedGoodsList",
+      "file": "",
+      "evidence": "断言 ORDB-A05（Order flow B (OrderRoutesConfirm / OrderRoutesPay / OrderRoutesRefund / OrderRoutesComment)）引用「selectedGoodsList」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ORDB-A19:9000",
+      "file": "",
+      "evidence": "断言 ORDB-A19（Order flow B (OrderRoutesConfirm / OrderRoutesPay / OrderRoutesRefund / OrderRoutesComment)）引用「9000」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "ORDB-A19:6001",
+      "file": "",
+      "evidence": "断言 ORDB-A19（Order flow B (OrderRoutesConfirm / OrderRoutesPay / OrderRoutesRefund / OrderRoutesComment)）引用「6001」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    },
+    {
+      "severity": "case",
+      "type": "literal_missing",
+      "name": "ORDB-A21:orderId",
+      "file": "",
+      "evidence": "断言 ORDB-A21（Order flow B (OrderRoutesConfirm / OrderRoutesPay / OrderRoutesRefund / OrderRoutesComment)）引用「orderId」在工程源码/资源中未出现"
+    },
+    {
+      "severity": "info",
+      "type": "literal_unmatched",
+      "name": "USER-A22:省 市 区",
+      "file": "",
+      "evidence": "断言 USER-A22（User / Market / Feedback pages (Profile, AddressList, AddressDetail+RegionPicker, Footprint, Coupon, FeedbackList, FeedbackSubmit)）引用「省 市 区」在工程源码/资源中未出现；锚点指向源码，字面量是描述不是契约，不立案"
+    }
+  ],
+  "stats": {
+    "corpusFiles": 51,
+    "ledger": "../../../../../../var/folders/9r/yjtsqdz93nvcfbb2j_pz_rjh0000gn/T/parse-cards-precheck-73374.json",
+    "literalsChecked": 536,
+    "literalMissing": 2,
+    "literalUnmatched": 63,
+    "prd": null,
+    "prdRequirementLines": 0,
+    "prdCovered": 0,
+    "prdUncovered": 0,
+    "prdStaleAnchors": 0
+  }
+}

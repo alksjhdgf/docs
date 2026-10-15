@@ -1,0 +1,187 @@
+{
+ "bundle": "com.joker.coolmall",
+ "name": "flow-logged-in",
+ "steps": [
+  {
+   "op": "stop"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "tap",
+   "match": "=我的"
+  },
+  {
+   "op": "wait",
+   "match": "=我的订单"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "^手机号: 1\\d{10}$"
+   ]
+  },
+  {
+   "op": "probe",
+   "match": [
+    "=未登录",
+    "=点击登录账号"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=查看全部",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=订单列表"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=全部",
+    "=待付款",
+    "=待发货",
+    "=待收货",
+    "=售后/退款"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=待付款",
+   "expectNoChange": true,
+   "note": "New account has no orders: tabs 全部/待付款 both show the identical 暂无数据; only the indicator moves"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow6-orders"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=我的订单"
+  },
+  {
+   "op": "tap",
+   "match": "=收货地址"
+  },
+  {
+   "op": "wait",
+   "match": "=新增地址"
+  },
+  {
+   "op": "shot",
+   "name": "flow6-address"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=优惠券"
+  },
+  {
+   "op": "tap",
+   "match": "=优惠券"
+  },
+  {
+   "op": "wait",
+   "match": "=我的优惠券"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow6-coupons"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=在线客服"
+  },
+  {
+   "op": "tap",
+   "match": "=在线客服"
+  },
+  {
+   "op": "wait",
+   "match": "=客服聊天"
+  },
+  {
+   "op": "sleep",
+   "ms": 3000
+  },
+  {
+   "op": "probe",
+   "match": [
+    "没有更多消息了",
+    "发送消息..."
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow6-chat"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=我的订单"
+  },
+  {
+   "op": "tap",
+   "match": "^手机号: "
+  },
+  {
+   "op": "wait",
+   "match": "=个人中心"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=头像",
+    "=昵称",
+    "=账号信息",
+    "=修改密码",
+    "=注销账户"
+   ]
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=退出登录",
+   "dir": "up",
+   "max": 3
+  },
+  {
+   "op": "shot",
+   "name": "flow6-profile"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=我的订单"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

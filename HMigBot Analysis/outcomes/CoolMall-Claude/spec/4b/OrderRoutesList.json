@@ -1,0 +1,54 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "OrderRoutesList",
+  "kind": "skeleton",
+  "slice": "page-order-list",
+  "route": "OrderRoutesList",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "OrderRoutesList"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "订单列表",
+        "全部",
+        "待付款",
+        "待发货",
+        "待收货",
+        "售后/退款",
+        "待评价",
+        "已完成",
+        "交易完成",
+        "退款中",
+        "已退款",
+        "已关闭",
+        "未知状态",
+        "¥",
+        "\\.00",
+        "共 N 件",
+        "取消订单",
+        "去支付",
+        "确认收货",
+        "查看物流",
+        "去评价",
+        "再次购买",
+        "选择取消原因",
+        "确认",
+        "确认收货后无法发起退款等售后申请，请谨慎操作",
+        "取消",
+        "选择要购买的商品",
+        "选择要评价的商品"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "OrderRoutesList"
+    }
+  ]
+}

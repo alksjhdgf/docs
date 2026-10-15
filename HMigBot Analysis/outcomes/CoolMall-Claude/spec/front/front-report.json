@@ -1,0 +1,103 @@
+{
+  "src": "input/CoolMallKotlin",
+  "dst": "output/CoolMallHM",
+  "module": "entry",
+  "exit": 0,
+  "feasibility": 4,
+  "wiring": {
+    "routes": 34,
+    "launcher": "LaunchRoutesSplash",
+    "sources": {
+      "manifest": 1,
+      "navgraph": 0,
+      "compose": 34,
+      "ledger": 0
+    }
+  },
+  "steps": [
+    {
+      "name": "feasibility",
+      "exit": 4,
+      "seconds": 0,
+      "tail": "  🟡 androidx.compose.ui:ui-test-junit4（partial）→ ArkUI 声明式（结构同构，逐组件映射） |   🟡 androidx.compose.material3:material3（partial）→ ArkUI 声明式（结构同构，逐组件映射） |   ？待裁决依赖 13 个（流程裁决步定夺后回写缓存）：com.google.dagger:hilt-android（调用面 0）; com.google.dagger:hilt-android-compiler（调用面 0）; com.google.dagger:hilt-android-test",
+      "lines": [
+        "  🟡 YELLOW · 源 451 文件/61291 行 · UI=compose(layout xml 3) · 依赖 49",
+        "  🟡 androidx.activity:activity-compose（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose:compose-bom（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose.ui:ui（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose.ui:ui-graphics（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose.ui:ui-tooling（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose.ui:ui-tooling-preview（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose.ui:ui-test-manifest（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose.ui:ui-test-junit4（partial）→ ArkUI 声明式（结构同构，逐组件映射）",
+        "  🟡 androidx.compose.material3:material3（partial）→ ArkUI 声明式（结构同构，逐组件映射）"
+      ]
+    },
+    {
+      "name": "setup-arkts-test",
+      "exit": 0,
+      "seconds": 4,
+      "tail": "[setup-arkts-test] 建 /Users/ppp/Projects/migrate-core/output/CoolMallHM/entry/src/test/List.test.ets | [setup-arkts-test] oh-package.json5 加 @ohos/hypium | [setup-arkts-test] 就绪 ✓"
+    },
+    {
+      "name": "convert-resources",
+      "exit": 0,
+      "seconds": 0,
+      "tail": "resDirs=14 strings(base)=457 locales=1 plurals=0 colors=9+0dark icons=68+3raster conflicts=9 skipped=3 warnings=1"
+    },
+    {
+      "name": "wire-routes",
+      "exit": 0,
+      "seconds": 0,
+      "tail": "  ⊘ entryability/EntryAbility.ets |   ⊘ ../resources/base/profile/route_map.json |   ⊘ ../module.json5"
+    },
+    {
+      "name": "transpile-layout",
+      "exit": 0,
+      "seconds": 0,
+      "tail": "[transpile-layout] 3 个布局 → output/CoolMallHM/spec/front/layouts |   节点转译率 9/9 (100%) · 属性转译率 51/54 (94%)"
+    },
+    {
+      "name": "align-sdk",
+      "exit": 0,
+      "seconds": 0,
+      "tail": "[align-sdk] 设备已在线 | [align-sdk] ✓ 版本对齐：设备 API 24（JDY-AL50 6.1.0.125(SP15C00E120R2P4)）≥ 工程 compatible 24"
+    },
+    {
+      "name": "ensure-sign",
+      "exit": 0,
+      "seconds": 33,
+      "tail": "[ensure-sign] ✓ 官签材料已生成（真机+verify_ui 可用）"
+    },
+    {
+      "name": "build",
+      "exit": 0,
+      "seconds": 15,
+      "tail": "at /Users/ppp/Projects/migrate-core/output/CoolMallHM/AppScope/resources/base/element/string.json | but declared again. | at /Users/ppp/Projects/migrate-core/output/CoolMallHM/entry/src/main/resources/base/element/string.json",
+      "lines": []
+    },
+    {
+      "name": "closure-suite",
+      "exit": 0,
+      "seconds": 0,
+      "tail": "  routes: 硬违规 0 · 立案 (1 条软立案，本阶段不计) |   resources: 硬违规 0 · 立案 (0 条软立案，本阶段不计) |   ✓ 本阶段闭合",
+      "lines": []
+    },
+    {
+      "name": "smoke",
+      "exit": 0,
+      "seconds": 9,
+      "tail": "[smoke] install entry-default-signed.hap (513KB, 2026-10-14T17:03:38.416Z) → com.joker.coolmall |   ✓ (cold-start): 着陆 LaunchRoutesSplash · 页面节点 4（窗口 57） · 骨架占位页（2a 预期） → output/CoolMallHM/spec/smoke/smoke-home.png | [smoke] 全绿（装机成功·前台·着陆核对·页面子树均过）",
+      "lines": [
+        "[smoke] install entry-default-signed.hap (513KB, 2026-10-14T17:03:38.416Z) → com.joker.coolmall",
+        "  ✓ (cold-start): 着陆 LaunchRoutesSplash · 页面节点 4（窗口 57） · 骨架占位页（2a 预期） → output/CoolMallHM/spec/smoke/smoke-home.png",
+        "[smoke] 全绿（装机成功·前台·着陆核对·页面子树均过）"
+      ]
+    }
+  ],
+  "toolchain": {
+    "hvigorw": "/Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw",
+    "buildCmd": "/Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --no-daemon"
+  },
+  "next": "前场绿：进 2b"
+}

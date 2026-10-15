@@ -1,0 +1,16 @@
+{ "bundle": "com.joker.coolmall", "name": "flow-chat-history",
+  "steps": [
+    {"op":"stop"},
+    {"op":"start"},
+    {"op":"wait","match":"搜索商品"},
+    {"op":"tap","match":"=我的"},
+    {"op":"wait","match":"=在线客服"},
+    {"op":"tap","match":"=在线客服"},
+    {"op":"wait","match":"=客服聊天"},
+    {"op":"wait","match":"测试","timeout":10000},
+    {"op":"expect","match":["没有更多消息了"]},
+    {"op":"shot","name":"flow9-chat-history"},
+    {"op":"back"},
+    {"op":"wait","match":"=我的订单"},
+    {"op":"alive"}
+  ] }

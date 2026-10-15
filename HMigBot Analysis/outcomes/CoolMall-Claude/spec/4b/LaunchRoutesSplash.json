@@ -1,0 +1,39 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "LaunchRoutesSplash",
+  "kind": "skeleton",
+  "slice": "page-launch",
+  "route": "LaunchRoutesSplash",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "LaunchRoutesSplash"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "青商城",
+        "© 2025 Joker\\.X & CoolMallKotlin Contributors",
+        "#1B1B1B",
+        "app_logo",
+        "青商城 - 开源电商学习项目",
+        "声明式 UI 新体验",
+        "完整电商业务流程",
+        "模块化架构设计",
+        "跳过",
+        "继续",
+        "开始体验",
+        "应用引导",
+        "guide_shown"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "LaunchRoutesSplash"
+    }
+  ]
+}

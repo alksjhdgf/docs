@@ -1,0 +1,371 @@
+{
+  "plan": "output/CoolMallHM/spec/4b/OrderRoutesDetail.json",
+  "at": "2026-10-14T20:03:49.628Z",
+  "bundle": "com.joker.coolmall",
+  "name": "OrderRoutesDetail",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "直达 OrderRoutesDetail",
+      "ms": 3887
+    },
+    {
+      "i": 1,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 204
+    },
+    {
+      "i": 2,
+      "op": "probe",
+      "ok": true,
+      "detail": "出现 1/42（页面 81 节点） 未见 [待付款, 待发货, 待收货, 待评价, 交易完成, 退款中, 已退款, 已关闭, 价格明细, 商品总价, 优惠金额, 实付金额, 退款信息, 退款金额, 退款状态, 申请中, 拒绝退款, 未知状态, 申请原因, 拒绝原因, 申请时间, 无, 订单信息, 订单编号, 复制, 支付方式, 微信, 支付时间, 未支付, 下单时间, 订单备注, 物流详情, 物流信息, 快递公司, 未知快递, 物流编号, 快递员, 联系电话, 拨打, 运输耗时, 物流轨迹]",
+      "seen": [
+        "订单详情"
+      ],
+      "unseen": [
+        "待付款",
+        "待发货",
+        "待收货",
+        "待评价",
+        "交易完成",
+        "退款中",
+        "已退款",
+        "已关闭",
+        "价格明细",
+        "商品总价",
+        "优惠金额",
+        "实付金额",
+        "退款信息",
+        "退款金额",
+        "退款状态",
+        "申请中",
+        "拒绝退款",
+        "未知状态",
+        "申请原因",
+        "拒绝原因",
+        "申请时间",
+        "无",
+        "订单信息",
+        "订单编号",
+        "复制",
+        "支付方式",
+        "微信",
+        "支付时间",
+        "未支付",
+        "下单时间",
+        "订单备注",
+        "物流详情",
+        "物流信息",
+        "快递公司",
+        "未知快递",
+        "物流编号",
+        "快递员",
+        "联系电话",
+        "拨打",
+        "运输耗时",
+        "物流轨迹"
+      ],
+      "page": {
+        "texts": [
+          "加载失败",
+          "页面加载出现了问题",
+          "订单详情",
+          "09, :, 03",
+          "09",
+          ":",
+          "03",
+          "80"
+        ],
+        "ids": [
+          "session23",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "PluginRootComponent_Stack_status_bar_notification_icon",
+          "__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon",
+          "__0_1018___1_StatusBarAppIcon",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ring_mode",
+          "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+          "StatusBarIconWrapper_status_bar_wifi",
+          "WifiComponent-WifiIcon_Image_wifi_signal_category",
+          "WifiComponent-WifiIcon_Image_wifi_signal_level",
+          "WifiComponent-WifiIcon_Image_wifi_data_flow",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView"
+        ],
+        "clickable": [
+          "#StatusBarBridgeView"
+        ],
+        "geometry": {
+          "#session23": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[42,26][1038,98]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[42,26][1080,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[42,36][96,89]"
+          },
+          "#PluginRootComponent_Stack_status_bar_notification_icon": {
+            "center": [
+              0.21,
+              0.03
+            ],
+            "bounds": "[175,26][283,98]"
+          },
+          "#__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon": {
+            "center": [
+              0.18,
+              0.03
+            ],
+            "bounds": "[175,41][217,83]"
+          },
+          "#__0_1018___1_StatusBarAppIcon": {
+            "center": [
+              0.23,
+              0.03
+            ],
+            "bounds": "[229,41][271,83]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,26][1038,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_ring_mode": {
+            "center": [
+              0.75,
+              0.03
+            ],
+            "bounds": "[784,26][833,98]"
+          },
+          "#ringmode-StatusBarIconItemRingModeComponent_Image_ringMode": {
+            "center": [
+              0.75,
+              0.03
+            ],
+            "bounds": "[790,38][833,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_wifi": {
+            "center": [
+              0.8,
+              0.03
+            ],
+            "bounds": "[833,26][902,98]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_category": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[839,38][902,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_level": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[840,38][902,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_data_flow": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[839,38][902,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.86,
+              0.03
+            ],
+            "bounds": "[902,26][948,98]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.86,
+              0.03
+            ],
+            "bounds": "[908,38][948,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[948,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,38][1038,86]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[972,43][1012,82]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          }
+        }
+      },
+      "ms": 880
+    },
+    {
+      "i": 3,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/OrderRoutesDetail.png",
+      "shot": "output/CoolMallHM/spec/screenshots/OrderRoutesDetail.png",
+      "ms": 548
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "加载失败",
+      "页面加载出现了问题",
+      "订单详情",
+      "09, :, 03",
+      "09",
+      ":",
+      "03",
+      "80"
+    ],
+    "ids": [
+      "session23",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "PluginRootComponent_Stack_status_bar_notification_icon",
+      "__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon",
+      "__0_1018___1_StatusBarAppIcon",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ring_mode",
+      "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+      "StatusBarIconWrapper_status_bar_wifi",
+      "WifiComponent-WifiIcon_Image_wifi_signal_category",
+      "WifiComponent-WifiIcon_Image_wifi_signal_level",
+      "WifiComponent-WifiIcon_Image_wifi_data_flow",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView"
+    ]
+  },
+  "failStreak": 0
+}

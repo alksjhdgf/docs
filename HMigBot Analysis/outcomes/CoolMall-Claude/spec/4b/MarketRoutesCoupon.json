@@ -1,0 +1,46 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "MarketRoutesCoupon",
+  "kind": "skeleton",
+  "slice": "page-market-feedback",
+  "route": "MarketRoutesCoupon",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "MarketRoutesCoupon"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "我的优惠券",
+        "满%1\\$d元可用",
+        "有效期至 %1\\$s",
+        "使用说明",
+        "已使用",
+        "已过期",
+        "去使用",
+        "反馈列表",
+        "已处理",
+        "未处理",
+        "客服回复",
+        "我要反馈",
+        "反馈类型",
+        "反馈内容",
+        "请尽量详细描述遇到的问题，操作步骤，并附上相关页面截图，以便更好定位问题",
+        "联系方式（选填）",
+        "QQ/微信号，手机号，邮箱",
+        "问题截图（选填）",
+        "提交",
+        "请选择反馈类型并填写反馈内容"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "MarketRoutesCoupon"
+    }
+  ]
+}

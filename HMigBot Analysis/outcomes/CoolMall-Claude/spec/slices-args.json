@@ -1,0 +1,917 @@
+{
+ "goal": "CoolMall Android→HarmonyOS migration, stage 3b slice pipeline. Read/write only input/CoolMallKotlin (read-only), output/CoolMallHM, .deveco/",
+ "dst": "output/CoolMallHM",
+ "build": "$ cd output/CoolMallHM && hvigorw assembleHap",
+ "closureSlice": "$ node scripts/closure/closure-suite.mjs --project output/CoolMallHM --stage slice --manifest output/CoolMallHM/spec/interface-manifest.json",
+ "closureIntegration": "$ node scripts/closure/closure-suite.mjs --project output/CoolMallHM --stage integration --manifest output/CoolMallHM/spec/interface-manifest.json",
+ "ledgerCmd": "node scripts/ledger/ledger.mjs --dir output/CoolMallHM/spec/ledger",
+ "instructionsFile": "output/CoolMallHM/spec/instructions.md",
+ "conventionsFile": "output/CoolMallHM/spec/conventions.md",
+ "contextFiles": [
+  "output/CoolMallHM/spec/interface-manifest.json (only import exported symbols listed here from core/*)",
+  "output/CoolMallHM/spec/cards/ (assertion cards)",
+  "output/CoolMallHM/spec/ui-layout-semantics.md"
+ ],
+ "smoke": "$ node scripts/smoke/smoke.mjs --project output/CoolMallHM --out output/CoolMallHM/spec/smoke --device 77UYD26331000973",
+ "slices": [
+  {
+   "id": "fnd-model",
+   "title": "Data models",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/model"
+   ],
+   "deps": [],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) Foundation unit: see the instructions.md SECTION; done when the exported symbols are complete and the build passes",
+   "featureIds": [],
+   "section": "fnd-model"
+  },
+  {
+   "id": "fnd-util",
+   "title": "Utilities",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/util"
+   ],
+   "deps": [],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) DATA-A21 After an SMS code is fetched successfully, the system notification bar shows a high-priority notification titled `验证码` with content `您的验证码是` plus the code (channel `验证码通知`)\nDATA-A22 SMS login/registration pages request notification permission first. Permanent denial toasts 通知权限被永久拒绝，请手动授予 (built from the `被永久拒绝，请手动授予` template), plain denial toasts 通知权限获取失败 (built from the `获取失败` template)\nDATA-A23 Input validation rules: phone matches 1[3-9] + 9 digits (11 digits), SMS code is 4 digits, image captcha is 4 letters/digits, password is at least 6 characters\nDATA-A24 Chat time formatting: today shows HH:mm, other days show yyyy-MM-dd HH:mm. A time divider appears only when two adjacent messages are more than 10 minutes apart",
+   "featureIds": [
+    "DATA-A21",
+    "DATA-A22",
+    "DATA-A23",
+    "DATA-A24"
+   ],
+   "section": "fnd-util"
+  },
+  {
+   "id": "fnd-network",
+   "title": "Network layer",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/network"
+   ],
+   "deps": [
+    "fnd-model"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) DATA-A01 All business requests go to base URL `https://mall.dusksnow.top/app/` (same for the dev and prod flavors) plus a relative path, sent as JSON with unknown response fields ignored\nDATA-A02 Main API client connect/read/write timeouts are 10 seconds each, and it retries on connection failure\nDATA-A03 When a token is stored locally, every business request carries header `Authorization` set to the raw token value (no `Bearer` prefix). Without a token the header is omitted\nDATA-A04 Every API response is parsed as an envelope { data, code, message }, and only `code == 1000` counts as success\nDATA-A05 On a business failure (code != 1000), the caller gets the server message (fallback `未知错误`), and with showToast on an error toast appears. Exceptions/network errors fall back to `网络请求失败`. There is no 401/token-expiry interception: no auto logout or redirect to login\nDATA-A06 Paged requests default to page=1, size=10, sort=`desc`. Responses are { list, pagination{ total, size, page } }, and there is a next page if `size*page < total`\nDATA-A19 Image upload works in two steps: first `base/comm/upload` returns temporary credentials and a url, then a multipart POST to that url (fields key=`app/base/{uuid}_image.{ext}`, tmpSecretId, tmpSecretKey, sessionToken, file). On success the image address is url + \"/\" + key\nDATA-A20 Batch image upload goes one by one; if any image fails, the whole batch fails with an error message prefixed `批量上传失败`. The upload client uses 30-second timeouts and sends no Authorization header\nAUTH-A32 After login, every request carries the stored token in the Authorization header (raw token, no Bearer prefix)",
+   "featureIds": [
+    "DATA-A01",
+    "DATA-A02",
+    "DATA-A03",
+    "DATA-A04",
+    "DATA-A05",
+    "DATA-A06",
+    "DATA-A19",
+    "DATA-A20",
+    "AUTH-A32"
+   ],
+   "section": "fnd-network"
+  },
+  {
+   "id": "fnd-storage",
+   "title": "Local storage",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/storage"
+   ],
+   "deps": [
+    "fnd-model"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) DATA-A14 The cart is purely local (database table `carts`, one row per goodsId, specs stored as a JSON list with count per spec). Adding the same product merges into its row, and the cart is not synced to the server\nDATA-A15 When changing a cart spec's quantity, the whole product row is deleted once every spec's quantity is ≤0. Deleting one spec deletes the row when no specs remain\nDATA-A16 Viewing a product detail writes a footprint (goodsId as primary key, overwrite, refreshing viewTime). Footprints are sorted by viewTime descending, the \"Me\" page shows the latest 8, and they can be cleared all at once\nDATA-A17 Search history is stored with the trimmed keyword as primary key (blank ignored, a repeated search refreshes its time). It is sorted by time descending and the search page shows the latest 10\nDATA-A18 Checkout data passes through persistence keys `carts` (cart items selected for checkout) and `selectedGoodsList` (selected goods), both cleared after an order is placed. Theme uses `settings_theme_mode`/`settings_theme_color`, the onboarding flag uses `guide_shown`, and remembered account uses `saved_phone`/`saved_password`\nDATA-A25 Local database name is `coolmall-database` (version 1), with the three tables `carts`, `footprints`, `search_history`. List queries are observable, and the UI refreshes automatically when data changes",
+   "featureIds": [
+    "DATA-A14",
+    "DATA-A15",
+    "DATA-A16",
+    "DATA-A17",
+    "DATA-A18",
+    "DATA-A25"
+   ],
+   "section": "fnd-storage"
+  },
+  {
+   "id": "fnd-data",
+   "title": "Global state/repositories/navigation",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/data",
+    "output/CoolMallHM/entry/src/main/ets/core/common",
+    "output/CoolMallHM/entry/src/main/ets/core/navigation"
+   ],
+   "deps": [
+    "fnd-network",
+    "fnd-storage"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) LAUNCH-A19 At startup, login state is restored from the local `auth_info` record: it counts as logged in only when the token is non-empty and not expired (createdAt + expire seconds); only when logged in is user info read from local `user_info` and userId set\nLAUNCH-A21 On logout, local `auth_info` and `user_info` are cleared and the in-memory login state is reset to not logged in (userId=0)\nLAUNCH-A22 Global route login wall: when not logged in, navigating to profile/address list/address detail/order list/confirm order/order detail/payment/refund/review/logistics/support chat/coupons/feedback list/submit feedback is redirected to the login page (AuthRoutes.Login)\nDATA-A07 Login credentials are stored as JSON (token/refreshToken/expire/refreshExpire/createdAt) under persistence key `auth_info`\nDATA-A08 Logged in = local auth exists, token is non-empty and not expired (createdAt + expire seconds). An expired token counts as not logged in\nDATA-A09 User info (User) is stored as JSON under persistence key `user_info`, and it is read only when logged in\nDATA-A10 On cold start the app restores login state and user info from local storage: after login, a restarted app is still logged in and the user's nickname/avatar show without logging in again\nDATA-A11 After a successful login, auth and user are written to local storage and memory together, login state becomes true, and then the person-info endpoint is called to refresh user info\nDATA-A12 Logging out removes only `auth_info` and `user_info` and resets in-memory login state/userId=0. It calls no server endpoint and does not clear the local cart, footprints, search history or remembered account\nDATA-A13 Opening a login-required page (Profile, address list/detail, order list/confirm/detail/pay/refund/comment/logistics, customer-service chat, coupons, feedback list/submit) while not logged in sends the user to the login page instead",
+   "featureIds": [
+    "LAUNCH-A19",
+    "LAUNCH-A21",
+    "LAUNCH-A22",
+    "DATA-A07",
+    "DATA-A08",
+    "DATA-A09",
+    "DATA-A10",
+    "DATA-A11",
+    "DATA-A12",
+    "DATA-A13"
+   ],
+   "section": "fnd-data"
+  },
+  {
+   "id": "fnd-designsystem",
+   "title": "Theme system",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/designsystem"
+   ],
+   "deps": [
+    "fnd-storage"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) LAUNCH-A24 Theme mode supports three modes: `follow_system`/`light`/`dark`; the default is follow system, and dark mode is applied according to the setting\nLAUNCH-A25 Theme mode and theme color are persisted to local keys `settings_theme_mode` and `settings_theme_color`; unknown or missing values fall back to follow system / default color\nLAUNCH-A26 The theme color offers 5 choices: default `#465CFF`, purple `#6831FF`, green `#09BE4F`, orange `#FFB703`, red `#FF2B2B`; the chosen color replaces the global primary color and takes effect right away, without a restart\nLAUNCH-A27 After changing the theme mode/theme color and cold-restarting, the last selection is kept\nLAUNCH-A28 Light/dark color tokens: light page background `#F1F4FA`, light card `#FFFFFF`; dark page background `#111111`, dark card `#1B1B1B`; dynamic color (Monet) is off",
+   "featureIds": [
+    "LAUNCH-A24",
+    "LAUNCH-A25",
+    "LAUNCH-A26",
+    "LAUNCH-A27",
+    "LAUNCH-A28"
+   ],
+   "section": "fnd-designsystem"
+  },
+  {
+   "id": "fnd-app-init",
+   "title": "App init and window layer",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/entryability/EntryAbility.ets",
+    "output/CoolMallHM/entry/src/main/ets/core/ui/base/AvoidArea.ets",
+    "output/CoolMallHM/entry/src/main/module.json5",
+    "output/CoolMallHM/AppScope"
+   ],
+   "deps": [
+    "fnd-data",
+    "fnd-designsystem",
+    "fnd-util"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) INIT-A01 应用级初始化：Application.onCreate（app/src/main/java/com/joker/coolmall/Application.kt:27-37，5 行）在安卓先于任何页面执行——其中每项初始化须接入 EntryAbility.onCreate 并在首页前完成，无鸿蒙等价的逐项记降级\nLAUNCH-A18 At app startup, initialization runs in order: Toast → Log → local KV storage (MMKV) → QQ SDK, and the global login state (AppState.initialize) is restored only after KV storage is ready\nLAUNCH-A20 After logging in and cold-restarting the app, the logged-in state and user info are kept (no need to log in again)\nLAUNCH-A23 The app is edge-to-edge: page content draws under the status bar and navigation bar, and each page handles safe-area insets itself\nLAUNCH-A29 Page transitions use horizontal slides: going forward the new page slides in from the right, going back it slides out to the right; predictive back uses the same back animation\nLAUNCH-A30 Navigation commands issued before the navigation host is ready are queued and run in order once the host is attached, so none are lost\nLAUNCH-A31 When the back stack has only one page, the in-app back action does not pop the last page (the root page is kept)\nLAUNCH-A32 The toast style follows the system dark mode: a light/white toast in dark mode and a black toast in light mode, switching when the system theme changes\nLAUNCH-A33 The app display name is `青商城`; the launcher shows the app icon\nLAUNCH-A34 At startup the QQ login SDK is initialized with AppId `102756675`, and the QQ login result callback is returned to the login flow through Activity results",
+   "featureIds": [
+    "INIT-A01",
+    "LAUNCH-A18",
+    "LAUNCH-A20",
+    "LAUNCH-A23",
+    "LAUNCH-A29",
+    "LAUNCH-A30",
+    "LAUNCH-A31",
+    "LAUNCH-A32",
+    "LAUNCH-A33",
+    "LAUNCH-A34"
+   ],
+   "section": "fnd-app-init"
+  },
+  {
+   "id": "fnd-ui-base",
+   "title": "Page frame components",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/ui/base"
+   ],
+   "deps": [
+    "fnd-data",
+    "fnd-designsystem",
+    "fnd-app-init"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) Foundation unit: see the instructions.md SECTION; done when the exported symbols are complete and the build passes",
+   "featureIds": [],
+   "section": "fnd-ui-base"
+  },
+  {
+   "id": "fnd-ui-widgets",
+   "title": "Base widgets",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/ui/widget"
+   ],
+   "deps": [
+    "fnd-designsystem",
+    "fnd-data"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) Foundation unit: see the instructions.md SECTION; done when the exported symbols are complete and the build passes",
+   "featureIds": [],
+   "section": "fnd-ui-widgets"
+  },
+  {
+   "id": "fnd-ui-commerce",
+   "title": "Business components",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/core/ui/commerce"
+   ],
+   "deps": [
+    "fnd-ui-widgets",
+    "fnd-ui-base"
+   ],
+   "expectation": "(Foundation slice, accepted in the foundation wave; not executed this round) Foundation unit: see the instructions.md SECTION; done when the exported symbols are complete and the build passes",
+   "featureIds": [],
+   "section": "fnd-ui-commerce"
+  },
+  {
+   "id": "page-launch",
+   "title": "Splash/guide",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/LaunchRoutesSplashPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/LaunchRoutesGuidePage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/launch"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "LAUNCH-A01 On cold start the first page on the app back stack is the splash page (not the home page)\nLAUNCH-A02 The splash page shows the app logo in the center, a large blurred logo as background, the app name `青商城` below it, and the copyright line `© 2025 Joker.X & CoolMallKotlin Contributors`\nLAUNCH-A03 The splash background uses the theme surface color and follows light/dark mode (white in light mode, `#1B1B1B` in dark mode)\nLAUNCH-A04 Top content avoids the status bar (the logo and text are laid out centered/at the bottom and are not covered by the status bar)\nLAUNCH-A05 After the splash page has shown for about 1.2 seconds it navigates away automatically, with no user action needed\nLAUNCH-A06 When the local storage key `guide_shown` is not true (first install), the splash page goes to the guide page; otherwise it goes straight to the main page (MainRoutes.Main)\nLAUNCH-A07 When the splash page navigates away it removes itself from the back stack; pressing back on the guide/main page does not return to the splash page\nLAUNCH-A08 When the splash page goes to the main page, the logo moves via a shared element (key `app_logo`) to the logo position at the top of the home page\nLAUNCH-A09 The guide page has 4 horizontally swipeable pages; each shows an illustration, a bold title, and a multi-line description (`青商城 - 开源电商学习项目`, `声明式 UI 新体验`, `完整电商业务流程`, `模块化架构设计`)\nLAUNCH-A10 Top content avoids the status bar (the top-right `跳过` button sits inside the Scaffold safe area and is not covered by the status bar)\nLAUNCH-A11 The bottom has a page indicator with 4 dots; the dot for the current page is shown highlighted, elongated and opaque, and it updates in sync as the user swipes\nLAUNCH-A12 On pages that are not the last one, the bottom button says `继续`; tapping it scrolls to the next page with animation\nLAUNCH-A13 On the last page the bottom button text becomes `开始体验` (and the button gets wider)\nLAUNCH-A14 In the normal flow (fromSettings=false), tapping `开始体验` or `跳过` writes local storage `guide_shown`=true and then goes to the main page, removing the guide page from the back stack\nLAUNCH-A15 After finishing the guide, the next cold start skips the guide page (splash → main page)\nLAUNCH-A16 When opened from the settings page's `应用引导` entry (fromSettings=true), tapping `开始体验` or `跳过` only goes back to the previous page (settings); it does not write `guide_shown` and does not go to the main page\nLAUNCH-A17 The guide page follows light/dark mode (surface background), and the indicator/button colors follow the current theme primary color",
+   "featureIds": [
+    "LAUNCH-A01",
+    "LAUNCH-A02",
+    "LAUNCH-A03",
+    "LAUNCH-A04",
+    "LAUNCH-A05",
+    "LAUNCH-A06",
+    "LAUNCH-A07",
+    "LAUNCH-A08",
+    "LAUNCH-A09",
+    "LAUNCH-A10",
+    "LAUNCH-A11",
+    "LAUNCH-A12",
+    "LAUNCH-A13",
+    "LAUNCH-A14",
+    "LAUNCH-A15",
+    "LAUNCH-A16",
+    "LAUNCH-A17"
+   ],
+   "section": "page-launch",
+   "route": "LaunchRoutesSplash"
+  },
+  {
+   "id": "page-tab-category",
+   "title": "Category tab",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/feature/main/category"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "(Checked in the home wave; not executed this round) MAIN-A01 Top content of the Category, Cart and Me tabs avoids the status bar (Scaffold content insets, navigation bar excluded only)\nMAIN-A02 The Category tab shows a centered title bar `分类` with no back button\nMAIN-A03 Opening the Category tab requests the category list once (POST goods/type/list) and builds a tree sorted by sortNum: items with null parentId are first-level categories, the rest attach under their parent by parentId\nMAIN-A04 While category data loads, the page shows the category skeleton (left/right two-column placeholders); loading lasts at least 320ms\nMAIN-A05 When category loading fails, the page shows the network error state `网络连接失败`/`请检查网络连接后重试` with a `重新加载` button; tapping it requests again\nMAIN-A06 After loading, the left column lists all first-level category names, with the first selected by default; the selected item is highlighted with a left indicator bar and cannot be tapped again\nMAIN-A07 The right column is one continuously scrolling list: each first-level category shows a lined title (category name) followed by a 3-column grid of its second-level categories (image + name); a category with no children shows only the title\nMAIN-A08 Tapping a first-level category on the left scrolls the right list to that category's section\nMAIN-A09 When the user scrolls the right list by hand, the left selection follows the category section currently in view (the two are linked, with no feedback loop)\nMAIN-A10 Tapping a second-level category goes to the goods category/list page (GoodsRoutes.Category) with that subcategory id as typeId",
+   "featureIds": [
+    "MAIN-A01",
+    "MAIN-A02",
+    "MAIN-A03",
+    "MAIN-A04",
+    "MAIN-A05",
+    "MAIN-A06",
+    "MAIN-A07",
+    "MAIN-A08",
+    "MAIN-A09",
+    "MAIN-A10"
+   ],
+   "section": "page-tab-category"
+  },
+  {
+   "id": "page-cart",
+   "title": "Cart",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/MainRoutesCartPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/main/cart"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "(Checked in the home wave; not executed this round) MAIN-A11 The Cart page title is `购物车`; the back arrow shows only when opened standalone with showBackIcon=true (e.g. from the goods detail page's cart entry), and tapping it goes back; on the tab page there is no back arrow\nMAIN-A12 Cart data comes from the local database (Room table carts, not tied to the account, no network) and is observed live; any add/remove/count change refreshes the list automatically\nMAIN-A13 When the cart is empty, it shows the empty state `购物车是空的`/`快去添加商品吧` (no button) and hides both the top-right edit button and the bottom checkout bar\nMAIN-A14 When the cart has items, each goods entry is a card grouped by goods (name/image) listing each spec row: select box, spec name, price (¥ + integer + .00), quantity stepper; tapping the goods card goes to that goods' detail page\nMAIN-A15 The select box on each spec row toggles that spec's selected state independently (selection is by goodsId+specId)\nMAIN-A16 The quantity stepper changes count by ±1 with a minimum of 1 (minus disabled at 1, no stock cap); the change is written to the local database right away\nMAIN-A17 The bottom bar has a `全选` select box: it shows checked when every spec is selected; tapping it when all are selected clears the selection, otherwise it selects every spec\nMAIN-A18 In normal mode the bottom bar shows `合计:` + the selected total (Σ price×count of selected specs) and a checkout button: `结算` when nothing is selected (disabled), `结算(%d)` (with the selected spec count) when specs are selected\nMAIN-A19 The top-right `编辑` button enters edit mode and changes to `完成`; entering or leaving edit mode clears the current selection; in edit mode the bottom bar replaces total/checkout with a red `删除`/`删除(%d)` button (disabled when nothing is selected)\nMAIN-A20 Tapping delete plays a slide-out animation and then deletes the selected specs: when all specs of a goods are selected the whole goods is deleted, otherwise only the selected specs; a goods whose last spec is removed is deleted too; after deletion the selection is cleared and edit mode ends\nMAIN-A21 On checkout, it toasts `请选择要结算的商品` when nothing is selected; otherwise it writes the selected cart items (selected specs only) to MMKV key `carts`, writes them converted into a SelectedGoods list to MMKV key `selectedGoodsList`, then goes to the confirm-order page (OrderRoutes.Confirm)\nMAIN-A22 When not logged in, tapping checkout goes to the login page instead of the confirm-order page (Confirm is a login-required route)",
+   "featureIds": [
+    "MAIN-A11",
+    "MAIN-A12",
+    "MAIN-A13",
+    "MAIN-A14",
+    "MAIN-A15",
+    "MAIN-A16",
+    "MAIN-A17",
+    "MAIN-A18",
+    "MAIN-A19",
+    "MAIN-A20",
+    "MAIN-A21",
+    "MAIN-A22"
+   ],
+   "section": "page-cart",
+   "route": "MainRoutesCart"
+  },
+  {
+   "id": "page-tab-me",
+   "title": "Me tab",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/feature/main/me"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "(Checked in the home wave; not executed this round) MAIN-A23 The Me page user area: when logged in it shows avatar, nickname and `手机号` + phone number; when not logged in it shows the default avatar, `未登录` and `点击登录账号`; tapping the area goes to the profile page (when not logged in, to the login page)\nMAIN-A24 On entering the Me page, if logged in but with no cached user info, it fetches user info; on every page resume (onResume) it requests order counts when logged in (GET order/info/userCount) and resets all counts to 0 when not logged in\nMAIN-A25 The Me page shows a member card `会员立享5大权益!` + `立即开通` (display only, no tap behavior)\nMAIN-A26 The order area title `我的订单` + `查看全部` goes to the all-orders list; the five entries `待付款`/`待发货`/`待收货`/`待评价`/`退款/售后` go to the order list with tab=1/2/3/5/4; each entry with count>0 shows a red badge (退款/售后 = 退款中 + 已退款); when not logged in, every order entry goes to the login page\nMAIN-A27 When local footprints exist, it shows the `我的足迹` area: `查看全部` goes to the footprint page, below it a horizontal list of up to 8 most recent footprint images (by browse time, newest first), tapping one goes to goods detail; when there are no footprints the area is hidden\nMAIN-A28 The function menu has, in order, `优惠券`→coupon page, `收货地址`→address list, `在线客服`→customer-service chat, `意见反馈`→feedback list, `关于我们`→about page; a separate card holds `设置`→settings page; coupon/address/chat/feedback go to the login page when not logged in",
+   "featureIds": [
+    "MAIN-A23",
+    "MAIN-A24",
+    "MAIN-A25",
+    "MAIN-A26",
+    "MAIN-A27",
+    "MAIN-A28"
+   ],
+   "section": "page-tab-me"
+  },
+  {
+   "id": "page-main-shell-home",
+   "title": "Main shell + home",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/MainRoutesMainPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/main/home",
+    "output/CoolMallHM/entry/src/main/ets/feature/main/MainShell.ets"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util",
+    "page-tab-category",
+    "page-cart",
+    "page-tab-me"
+   ],
+   "expectation": "(Checked in the home wave; not executed this round) HOME-A01 The main shell has a bottom navigation bar with 4 tabs in a fixed order: `主页`, `分类`, `购物车`, `我的`; the Home tab is selected by default at startup\nHOME-A02 Tapping a bottom tab switches to that tab's page, and the selected tab's label shows in the primary color while unselected labels are dimmed\nHOME-A03 The four tab pages can also be switched by swiping left or right (horizontal pager), and the selected bottom tab stays in sync with the page swiped to\nHOME-A04 The selected tab icon plays its animation once (Lottie: home/category/cart/me), and unselected icons stay on the first frame\nHOME-A05 The home top content avoids the status bar (TopAppBar handles the status bar inset; the bottom bar avoids the navigation bar)\nHOME-A06 The home top bar has the app logo on the left (tapping opens the About page), a search box in the middle with the placeholder `搜索商品` (tapping opens the goods search page), and a GitHub icon on the right (tapping opens a built-in web page with the title `GitHub` loading https://github.com/Joker-x-dev/CoolMallKotlin)\nHOME-A07 The home top bar collapses as the content scrolls up and reappears on scroll down (enterAlways)\nHOME-A08 During the first load the home page shows a dedicated skeleton screen (banner/coupon/category/flash sale/title/recommended placeholders) instead of a generic loader, and it stays at least 320ms\nHOME-A09 When the home page opens it requests the home aggregate API (GET page/home), and the response fills the banner, coupon, category, flash sale, recommended goods and first page of all goods all at once\nHOME-A10 When the home data fails to load, the page shows the network error state `网络连接失败`/`请检查网络连接后重试`, and tapping `重新加载` requests the home data again\nHOME-A11 The banner carousel shows the banner images at a 2:1 ratio, autoplays every 3 seconds in a loop with page indicators, and banners do not respond to taps\nHOME-A12 When there are coupons, the coupon bar shows coupon titles you can swipe through (no autoplay, no indicator), with a `领取` link on the right; tapping it opens the `领取优惠券` bottom sheet listing all home coupons\nHOME-A13 Tapping receive on a coupon in the sheet: when not logged in, the sheet closes and the app goes to the login page; when logged in, it calls POST market/coupon/user/receive (couponId), and on success shows the success toast message returned by the server\nHOME-A14 The category area shows categories in a grid of 5 per row (round image + name), with blank space filling any incomplete row\nHOME-A15 Tapping a home category goes to the goods category list page, passing as typeId the comma-joined IDs of all child categories in categoryAll whose parentId equals that category\nHOME-A16 The flash sale card has the title `限时精选` with a `查看全部` entry on the right (tapping opens the goods category list with featured=true), and below it a horizontally scrolling list of goods (image/one-line title/price); tapping a good opens its detail page\nHOME-A17 When home goods data exists, it shows a `推荐商品` section title followed by the recommended goods as a vertical list (horizontal list rows), and tapping one opens goods detail\nHOME-A18 Under the `全部商品` section title, all goods show as a two-column staggered grid, and tapping a good opens goods detail\nHOME-A19 Scrolling to within 3 items of the end of the grid triggers load more: it requests POST goods/info/page (page starting at 2, size=10) and appends the results to the all goods list; when there is no next page it shows `没有更多了`, and on failure it shows a tap-to-retry state and rolls back the page number\nHOME-A20 Pull-to-refresh resets the page number to 1 and requests page/home again, replacing all the home section data and the all goods list; refresh is ignored while a load is in progress\nHOME-A21 Home sections are shown conditionally: when banner/coupon/category/flashSale/goods in the home data is null, that section (or its section title) is not shown",
+   "featureIds": [
+    "HOME-A01",
+    "HOME-A02",
+    "HOME-A03",
+    "HOME-A04",
+    "HOME-A05",
+    "HOME-A06",
+    "HOME-A07",
+    "HOME-A08",
+    "HOME-A09",
+    "HOME-A10",
+    "HOME-A11",
+    "HOME-A12",
+    "HOME-A13",
+    "HOME-A14",
+    "HOME-A15",
+    "HOME-A16",
+    "HOME-A17",
+    "HOME-A18",
+    "HOME-A19",
+    "HOME-A20",
+    "HOME-A21"
+   ],
+   "section": "page-main-shell-home",
+   "route": "MainRoutesMain"
+  },
+  {
+   "id": "page-goods-detail",
+   "title": "Goods detail/comments",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/GoodsRoutesDetailPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/GoodsRoutesCommentPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/goods/detail"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "GOODS-A01 When the detail page opens, it requests the product detail by goodsId (goodsInfo + coupon list + comment list); while loading it shows the detail skeleton screen, and on failure it shows the network error state with a retry button that requests again\nGOODS-A02 When the detail loads successfully, it shows from top to bottom: the image carousel (no autoplay), the price (the selected spec's price if a spec is selected, otherwise the product price) with the sold tag `已售 %d`, the title, the subtitle, and the spec selection row\nGOODS-A03 When the detail returns a non-empty coupon list, coupon tags `满%d减%d元` are shown below the price; tapping any tag opens the coupon bottom sheet `领取优惠券`\nGOODS-A04 Tapping claim in the coupon sheet: when not logged in, it closes the sheet and goes to the login page; when logged in, it calls the claim-coupon API with couponId and shows a success toast with the returned text\nGOODS-A05 The spec row shows `选择规格` when no spec is selected and `已选：%s` (the spec name) when one is; tapping it opens the spec selection bottom sheet titled `选择规格`\nGOODS-A06 The spec list is requested by goodsId only after the spec sheet has fully expanded; once loaded successfully it is not requested again, and inside the sheet loading shows a loading indicator while failure shows the network error state with retry\nGOODS-A07 In the spec sheet, tapping a spec selects it and tapping the selected spec again deselects it; the header shows `¥` price, `已选`/`未选择`, and `库存`; the spec area can switch between grid and list views\nGOODS-A08 The `数量` stepper in the spec sheet appears only after a spec is selected; quantity defaults to 1 and cannot go below 1\nGOODS-A09 The sheet's `加入购物车` and `立即购买` buttons are enabled only when a spec is selected and its stock is > 0; otherwise they are disabled\nGOODS-A10 Add to cart writes to the local cart (no login check): if the same product and spec already exist, the quantity adds up; same product with a new spec appends that spec; otherwise a new cart entry is created; on success the sheet closes and `添加购物车成功` is shown, and invalid parameters show `添加购物车失败`\nGOODS-A11 Buy now writes [SelectedGoods(goodsId, goodsInfo, spec, count)] into local storage key `selectedGoodsList`, closes the spec sheet, and goes to the order confirm page\nGOODS-A12 Bottom action bar of the detail page: `客服` goes to the support chat page, `购物车` goes to the cart page (with a back button), and both `加入购物车` and `立即购买` open the spec selection sheet\nGOODS-A13 The detail page shows the `发货与服务` card: `发货` `云南省 昆明市`, `服务` `7天无理由退货 · 运费险 · 48小时发货`\nGOODS-A14 Only when the detail has comments does it show the `商品评价` card (right side `查看全部`); each comment shows the nickname (`匿名用户` when empty), star rating, content, and first image with a `+N` count badge; tapping the title or any comment goes to that product's comment page\nGOODS-A15 At the bottom of the detail page, the `商品详情` section shows all rich-text detail images in order\nGOODS-A16 The detail page has a floating top bar (back button returns to the previous page; the share button does nothing); the top bar background goes from transparent to opaque as the page scrolls (white in light mode, black in dark mode)\nGOODS-A17 Detail page: top content avoids the status bar (the carousel extends under the status bar, and the floating top bar buttons avoid it)\nGOODS-A18 After the detail loads successfully, a browsing footprint is written locally (goodsId as unique key, with name/subtitle/main image/price/sold count/browse time); a failed write does not affect the page\nGOODS-A19 The comment page title is `商品评论` with a back button; while loading it shows the comment skeleton screen, with no data it shows the empty state, and on failure it shows the network error state with retry\nGOODS-A20 The comment page requests comment pages by goodsId (10 per page) and supports pull-to-refresh and load-more near the bottom; when every page has loaded it shows no more data\nGOODS-A21 Each comment card shows the nickname (`匿名用户` when empty), comment time, 5-star rating, content (when non-empty), and an image grid (at most 9 images, 3 per row)\nGOODS-A22 Comment page: top content avoids the status bar",
+   "featureIds": [
+    "GOODS-A01",
+    "GOODS-A02",
+    "GOODS-A03",
+    "GOODS-A04",
+    "GOODS-A05",
+    "GOODS-A06",
+    "GOODS-A07",
+    "GOODS-A08",
+    "GOODS-A09",
+    "GOODS-A10",
+    "GOODS-A11",
+    "GOODS-A12",
+    "GOODS-A13",
+    "GOODS-A14",
+    "GOODS-A15",
+    "GOODS-A16",
+    "GOODS-A17",
+    "GOODS-A18",
+    "GOODS-A19",
+    "GOODS-A20",
+    "GOODS-A21",
+    "GOODS-A22"
+   ],
+   "section": "page-goods-detail",
+   "route": "GoodsRoutesDetail"
+  },
+  {
+   "id": "page-goods-search-list",
+   "title": "Search/goods list",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/GoodsRoutesSearchPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/GoodsRoutesCategoryPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/goods/list"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "GOODS-A23 When the search page opens, it requests the recommended search keyword list and also subscribes to the 10 most recent local search history entries (newest first; the list refreshes as soon as it changes)\nGOODS-A24 The search page top bar has a back button, an input box (placeholder `输入内容进行搜索`), and a `搜索` button (keyboard search also submits); below it, `搜索历史` is shown only when history exists (a delete icon on the right clears all history), followed by the `推荐搜索` tags\nGOODS-A25 Submitting a non-blank keyword (input box / history tag / recommended tag) first writes search history (trimmed, deduplicated by keyword with the time refreshed), then goes to the category product list carrying that keyword; a blank keyword does nothing\nGOODS-A26 Search page: top content avoids the status bar\nGOODS-A27 The category product list reads route parameters: typeId (comma-separated category ids, preselected as filters), featured, recommend, keyword (also pre-filled in the search box), and minPrice (pre-filled as the minimum price when arriving from a coupon)\nGOODS-A28 The product list requests by page (10 per page) with: category ids, min/max price, keyword, sort field (sold/price) and direction (asc/desc), recommend, featured; empty conditions are not sent\nGOODS-A29 The sort bar has `综合`, `销量`, and `价格`: tapping `综合` clears sorting; first tap on `销量`/`价格` sorts ascending, tapping again sorts descending, and a third tap goes back to `综合`; the up/down arrows highlight the current direction, and every sort change refreshes the list from page 1\nGOODS-A30 Tapping `筛选` opens the filter overlay; on first open only, the category list is requested and built into a parent-child tree (sorted by sortNum, nested by parentId); the overlay shows loading while the request is in progress and the network error state on failure\nGOODS-A31 The filter overlay has the title `筛选` and a close button, a `价格区间` row with numeric inputs `最低价`/`最高价`, and one card per top-level category whose child categories are multi-select chips (icon + name); `重置` clears the conditions and refreshes the list (the overlay stays open), `确定` applies the conditions, closes the overlay and refreshes the list, and tapping the mask closes it without applying\nGOODS-A32 The category page defaults to a two-column grid; the button at the right of the top bar toggles grid/list, and when the top bar collapses on scroll, the toggle button appears at the right end of the sort bar\nGOODS-A33 The category page shows a skeleton screen while loading, the empty state with no data, and the network error state with retry on failure; the list supports pull-to-refresh and load-more, and tapping a product goes to its detail page\nGOODS-A34 Submitting from the category page's own search box re-queries the list with the new keyword (no keyword condition when empty) and does not write search history\nGOODS-A35 Category product list page: top content avoids the status bar",
+   "featureIds": [
+    "GOODS-A23",
+    "GOODS-A24",
+    "GOODS-A25",
+    "GOODS-A26",
+    "GOODS-A27",
+    "GOODS-A28",
+    "GOODS-A29",
+    "GOODS-A30",
+    "GOODS-A31",
+    "GOODS-A32",
+    "GOODS-A33",
+    "GOODS-A34",
+    "GOODS-A35"
+   ],
+   "section": "page-goods-search-list",
+   "route": "GoodsRoutesSearch"
+  },
+  {
+   "id": "page-order-list",
+   "title": "Order list",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/OrderRoutesListPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/order/list",
+    "output/CoolMallHM/entry/src/main/ets/feature/order/common"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "ORDA-A01 On all three pages (order list, order detail, logistics), the top content avoids the status bar (edge-to-edge; the AppScaffold top bar takes the status bar inset)\nORDA-A02 Order list, order detail and logistics all require login: when not logged in, navigating to any of these three routes is redirected to the login page\nORDA-A03 The order list page title is `订单列表`, and the top bar has a back button that returns to the previous page\nORDA-A04 The order list has a horizontally scrollable status tab bar with 7 tabs in this order: `全部` `待付款` `待发货` `待收货` `售后/退款` `待评价` `已完成`; the selected tab is highlighted\nORDA-A05 Tapping a tab scrolls the pager to that page with animation; swiping the pager left or right also switches the selected tab, and the two stay in sync\nORDA-A06 Route parameter tab (string \"0\"–\"6\") picks the initial tab; out of range or not a number falls back to `全部` (index 0). The Me page entries pass 1=待付款, 2=待发货, 3=待收货, 4=售后, 5=待评价\nORDA-A07 Each tab requests order/info/page (POST, body page/size=10/status) with these status filters: 全部=no status, 待付款=[0], 待发货=[1], 待收货=[2], 售后/退款=[5,6], 待评价=[3], 已完成=[4]\nORDA-A08 Each tab has its own list, page number, loading state, refresh state and load-more state. A tab requests page 1 only on its first selection (lazy loading); switching back to a loaded tab does not request again\nORDA-A09 The first load of each tab shows the order list skeleton screen; an empty result shows the empty-data state; a failed first load (list still empty) shows the network-error state, and tapping retry requests page 1 again\nORDA-A10 Pull-to-refresh requests page 1 again and replaces that tab's list (skipped while a load is in progress); on refresh failure with an existing list, the old data is kept and the error state is not shown\nORDA-A11 Scrolling to within the last 3 items triggers load-more (page number +1) and appends the results to the end of the list. No next page (pagination.size*page >= total) shows \"no more\"; on load-more failure, the page number rolls back and an error state is shown so the user can trigger it again\nORDA-A12 Each order card shows the order number orderNum and, on the right, the status text (0 `待付款`, 1 `待发货`, 2 `待收货`, 3 `待评价`, 4 `交易完成`, 5 `退款中`, 6 `已退款`, 7 `已关闭`, other `未知状态`); tapping the card goes to that order's detail page\nORDA-A13 The order card scrolls the goods images horizontally (spec image first, then goods main image), with the order total price on the right (`¥` integer `.00`) and `共 N 件` (N = number of goodsList rows)\nORDA-A14 The order action buttons depend on status: 0 shows `取消订单` + `去支付`; 1/2 show `售后/退款`; 2 shows `确认收货`; 2/3/4/5/6 show `查看物流`; 3/4 show `去评价`; every status except 0 and 2 shows `再次购买` (status 7 shows only `再次购买`). List cards and the detail page bottom bar use the same rules\nORDA-A15 `去支付` goes to the cashier page OrderRoutes.Pay with the amount = price - discountPrice; `售后/退款` goes to the refund request page; `查看物流` goes to the logistics page\nORDA-A16 `取消订单` opens the `选择取消原因` bottom sheet: once fully expanded it loads the cancellation-reason dictionary (shows loading; on failure shows network error with retry; no reload after success). It is single-choice, and `确认` is disabled until a reason is selected\nORDA-A17 The cancellation reason comes from dict/info/data (POST types=[\"orderCancelReason\"]). Confirming calls order/info/cancel (POST orderId, remark=the selected reason's name) and closes the sheet; on success the list refreshes the `全部` `待付款` `待发货` tabs (the current tab reloads immediately; the others reload when next selected)\nORDA-A18 `确认收货` opens a dialog with title `确认收货`, content `确认收货后无法发起退款等售后申请，请谨慎操作`, and buttons `确认` / `取消`; cancel or tapping outside closes it\nORDA-A19 Confirm receipt calls order/info/confirm (GET orderId). On success the dialog closes and the list refreshes the `全部` `待收货` `待评价` tabs; on failure an error toast is shown\nORDA-A20 `再次购买`: when the order has more than one distinct goods item (grouped by goodsId), the `选择要购买的商品` bottom sheet opens and each row's `再次购买` button goes to that goods detail page; with one goods item it goes straight to goods detail\nORDA-A21 `去评价`: with more than one distinct goods item, the `选择要评价的商品` bottom sheet opens and each row's `去评价` button goes to OrderRoutes.Comment(orderId, goodsId); with one goods item it goes straight to the comment page\nORDA-A22 When the order list receives a RefreshResult(refresh=true) passed back from a child page (detail/pay/refund/comment), it resets all 7 tabs and reloads the current tab immediately",
+   "featureIds": [
+    "ORDA-A01",
+    "ORDA-A02",
+    "ORDA-A03",
+    "ORDA-A04",
+    "ORDA-A05",
+    "ORDA-A06",
+    "ORDA-A07",
+    "ORDA-A08",
+    "ORDA-A09",
+    "ORDA-A10",
+    "ORDA-A11",
+    "ORDA-A12",
+    "ORDA-A13",
+    "ORDA-A14",
+    "ORDA-A15",
+    "ORDA-A16",
+    "ORDA-A17",
+    "ORDA-A18",
+    "ORDA-A19",
+    "ORDA-A20",
+    "ORDA-A21",
+    "ORDA-A22"
+   ],
+   "section": "page-order-list",
+   "route": "OrderRoutesList"
+  },
+  {
+   "id": "page-order-detail-logistics",
+   "title": "Order detail/logistics",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/OrderRoutesDetailPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/OrderRoutesLogisticsPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/order/detail"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util",
+    "page-order-list"
+   ],
+   "expectation": "ORDA-A23 The order detail page requests order/info/info (GET id=orderId) on entry; the loading state shows the order detail skeleton screen (at least 320ms), and on failure shows network error with retry\nORDA-A24 The order detail large top bar title shows `订单详情` before loading, and after success switches by status to `待付款` `待发货` `待收货` `待评价` `交易完成` `退款中` `已退款` `已关闭`\nORDA-A25 The order detail page shows, from top to bottom: the shipping address card, the goods cards (grouped by goods, specs listed, no quantity stepper), and the `价格明细` card (`商品总价`=price, `优惠金额`=discountPrice with the coupon title as description, `实付金额`=price-discountPrice)\nORDA-A26 When the order has refund information, the detail page shows the `退款信息` card: `退款金额`, `退款状态` (0 `申请中` / 1 `已退款` / 2 `拒绝退款` / other `未知状态`), and `申请原因`; when the status is 2 it shows `拒绝原因`, otherwise `申请时间`, with empty values shown as `无`\nORDA-A27 The detail page `订单信息` card shows `订单编号` (orderNum + `复制` link), `支付方式` (always `微信`), `支付时间` (shows `未支付` when payTime is empty), `下单时间` and `订单备注` (shows `无` when empty)\nORDA-A28 After the order detail loads successfully, a bottom bar shows the action buttons by status (same rules as ORDA-A14); cancel order / confirm receipt / rebuy / comment use the same sheets and dialogs as the list page (the multi-goods sheet uses the current order's goods)\nORDA-A29 After cancelling the order or confirming receipt successfully on the detail page, the order detail is fetched again and the page is marked to refresh the list on back\nORDA-A30 The detail page listens for a RefreshResult passed back from child pages such as pay: when it arrives, the detail is fetched again and marked to refresh the list on back. Both the top bar back and the system back go through the same logic: when marked, it returns to the previous page with RefreshResult(refresh=true); otherwise it simply goes back\nORDA-A31 The logistics page large top bar title is `物流详情`. On entry it shows the logistics skeleton screen; on failure to fetch the order info it shows network error with retry\nORDA-A32 On entry the logistics page requests order/info/info (GET id) and order/info/logistics (GET orderId) in parallel; a failed logistics request shows only an error toast, and the logistics section shows defaults\nORDA-A33 The logistics page shows the shipping address card, then the `物流信息` card (express logo, `快递公司` shows `未知快递` when expName is empty, `物流编号` + `复制`, `快递员`, `联系电话` + `拨打`, `运输耗时`)\nORDA-A34 The logistics page `物流轨迹` card shows a vertical step timeline in list order. Each node shows the status text and time; the first node is highlighted (active color, larger dot, medium weight), and nodes are joined by lines except after the last one\nORDA-A35 All three pages support dark mode (preview AppTheme(darkTheme=true)), with colors following the theme",
+   "featureIds": [
+    "ORDA-A23",
+    "ORDA-A24",
+    "ORDA-A25",
+    "ORDA-A26",
+    "ORDA-A27",
+    "ORDA-A28",
+    "ORDA-A29",
+    "ORDA-A30",
+    "ORDA-A31",
+    "ORDA-A32",
+    "ORDA-A33",
+    "ORDA-A34",
+    "ORDA-A35"
+   ],
+   "section": "page-order-detail-logistics",
+   "route": "OrderRoutesDetail"
+  },
+  {
+   "id": "page-order-confirm-pay",
+   "title": "Confirm order/checkout",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/OrderRoutesConfirmPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/OrderRoutesPayPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/order/confirm"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "ORDB-A01 On all four pages (Confirm/Pay/Refund/Comment) the top content (large title bar) avoids the status bar\nORDB-A02 Confirm, Pay, Refund, and Comment are all login-required routes: when not logged in, navigating to them goes to the login page instead\nORDB-A03 The confirm order page title is `确认订单`; while loading it shows the confirm-order skeleton, and on load failure it shows the network-error empty state, where tapping retry requests again\nORDB-A04 On entry the confirm order page requests page/confirmOrder to get the default address (defaultAddress) and the user's coupons (userCoupon)\nORDB-A05 The confirm page's item list is read first from local cache key `carts` (from the cart), otherwise from `selectedGoodsList` (buy now from goods detail, grouped by goodsId and converted to an item card with multiple specs); both cache keys are deleted immediately after reading\nORDB-A06 The address card on the confirm page shows the default address (with none it shows `您还没有选择收货地址`/`点击添加收货地址`); tapping it opens the address list in select mode, and the address chosen there and passed back replaces the current page's address\nORDB-A07 The confirm page shows one goods card (spec/count, no quantity stepper) per item, plus a `价格明细` card: `商品总价`, `优惠券` (shows the selected coupon title, `选择` when none), `合计`; the `优惠券折扣` row (negative value) shows only when the discount is >0\nORDB-A08 Item total = sum over all specs of price×count; with a coupon selected, the discount equals the coupon amount only when the total ≥ the coupon's condition.fullAmount, otherwise 0 (also 0 when the coupon has no condition); total = total − discount, with a floor of 0\nORDB-A09 Tapping the `优惠券` row opens the `选择优惠券` bottom sheet listing userCoupon; a card whose threshold is not met by the current item total shows `不满足条件`, used/expired cards show `已使用`/`已过期`, the selected one shows `已选择`, and a selectable one shows a `选择` button; selecting closes the sheet and recalculates prices\nORDB-A10 The confirm page has an `订单备注` input (label `订单备注`, placeholder `选填，付款后商家可见`, multi-line), and its content is submitted as the order remark\nORDB-A11 Only after loading succeeds does the confirm page bottom bar show, with the total price and a `提交订单` button\nORDB-A12 When submitting the order with no address, toast error `请选择收货地址` and do not submit; otherwise call order/info/create (addressId, goodsList=selectedGoodsList, title=`购买商品`, remark, couponId), and on failure toast the error message\nORDB-A13 After the order is created successfully, if the items came from the cart, remove the ordered items from the local cart (delete the whole item when all its specs were ordered, otherwise delete per spec)\nORDB-A14 After the order is created successfully, the confirm page closes and goes to the payment page, carrying orderId, amount = price − discountPrice, and from=confirm\nORDB-A15 The payment page title is `收银台`; the middle shows the amount `¥<price>.00` in large text, the payment method list `支付宝支付` (fixed selected), `微信支付`, `QQ支付` (unselected, not switchable), and the tip `提示：实际支付金额经过处理，都是一分钱`\nORDB-A16 The payment page bottom button shows `去支付 ¥<price>` when price>0, otherwise `去支付`\nORDB-A17 Tapping the pay button calls order/pay/alipayAppPay({orderId}) to get the Alipay orderString, and on failure toasts the error\nORDB-A18 After getting the orderString, the Alipay App/H5 payment is actually launched (Android PayTask.payV2, run off the main thread), and when it returns the resultStatus is parsed\nORDB-A19 Payment result mapping: resultStatus `9000` → toast `支付成功`; `6001` → toast `支付已取消`; anything else → toast `支付失败`\nORDB-A20 After payment ends or on back (title-bar back and system back are both intercepted): if from=confirm, always return and open the order detail page for that order; otherwise on success return to the previous page with a refresh signal (RefreshResult refresh=true), and on failure/cancel/back just return",
+   "featureIds": [
+    "ORDB-A01",
+    "ORDB-A02",
+    "ORDB-A03",
+    "ORDB-A04",
+    "ORDB-A05",
+    "ORDB-A06",
+    "ORDB-A07",
+    "ORDB-A08",
+    "ORDB-A09",
+    "ORDB-A10",
+    "ORDB-A11",
+    "ORDB-A12",
+    "ORDB-A13",
+    "ORDB-A14",
+    "ORDB-A15",
+    "ORDB-A16",
+    "ORDB-A17",
+    "ORDB-A18",
+    "ORDB-A19",
+    "ORDB-A20"
+   ],
+   "section": "page-order-confirm-pay",
+   "route": "OrderRoutesConfirm"
+  },
+  {
+   "id": "page-order-refund-comment",
+   "title": "Refund/review",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/OrderRoutesRefundPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/OrderRoutesCommentPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/order/aftersale"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "ORDB-A21 The refund page title is `退款申请`; on entry it requests order/info/info?id=orderId, showing loading/error retry states; on success it shows the `退款信息` card (`申请原因` row shows the selected reason or `请选择`, `退款金额` shows the order realPrice) and the order's goods cards (grouped by goods)\nORDB-A22 Tapping `申请原因` opens a bottom sheet titled `选择取消原因`; after it expands it loads the dictionary dict/info/data (types=[orderRefundReason]) (not reloaded once loaded); during loading it shows loading, on failure the network-error empty state can retry, and after choosing a reason, tapping `确定` writes back the selected reason and closes the sheet\nORDB-A23 The refund page bottom `提交` button is shown only after the order loads successfully, and stays disabled until a reason is selected\nORDB-A24 Submitting the refund calls order/info/refund (orderId, reason=reason name); on success it returns to the previous page with a refresh signal\nORDB-A25 The comment page title is `商品评价`; it shows a 5-star rating (default 5 stars) with the rating text below `很差`/`较差`/`一般`/`满意`/`非常满意` (0 stars shows `请点击星星进行评分`), the content input (placeholder `请输入您的评价内容...`), and an image grid picker of at most 9 images\nORDB-A26 The comment page bottom `提交评价` button is disabled when the rating is 0 or the content is blank; while submitting it shows loading and is disabled; a repeat tap toasts `正在提交中...`, and failed validation toasts `请先填写评价内容和评分`\nORDB-A27 When submitting the comment with images, first get upload credentials and batch-upload them to Tencent Cloud COS to get a URL list, then call goods/comment/submit (orderId, data={orderId, goodsId, content, starCount, pics}; pics=null when there are no images); if the image upload fails, no comment is submitted and the submitting state ends\nORDB-A28 After the comment is submitted successfully it toasts `评价提交成功` and returns to the previous page with a refresh signal\nORDB-A29 Adding an image on the comment page launches the system photo picker (images only), and once selected the thumbnails show in the grid and can be removed\nORDB-A30 All four pages support dark mode (Light/Dark previews in the source; the theme follows the system/app setting)",
+   "featureIds": [
+    "ORDB-A21",
+    "ORDB-A22",
+    "ORDB-A23",
+    "ORDB-A24",
+    "ORDB-A25",
+    "ORDB-A26",
+    "ORDB-A27",
+    "ORDB-A28",
+    "ORDB-A29",
+    "ORDB-A30"
+   ],
+   "section": "page-order-refund-comment",
+   "route": "OrderRoutesRefund"
+  },
+  {
+   "id": "page-auth-login",
+   "title": "Login",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/AuthRoutesLoginPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/AuthRoutesAccountLoginPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/AuthRoutesSmsLoginPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/auth/login",
+    "output/CoolMallHM/entry/src/main/ets/feature/auth/common"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "AUTH-A01 On all five auth pages, top content (back button bar / title) avoids the status bar (edge-to-edge app; page uses AppScaffold with a back button that returns to the previous page)\nAUTH-A02 The login method selection page shows the app logo, primary button `验证码登录` (goes to SMS login) and outlined button `账号密码登录` (goes to account login)\nAUTH-A03 The login method selection page shows the `其他登录方式` heading and three third-party entries `微信`, `QQ`, `支付宝` (icon + name)\nAUTH-A04 Tapping `微信` or `支付宝` on the selection page only shows the warning toast `三方登录暂时仅支持QQ登录` and does not log in\nAUTH-A05 Tapping `QQ` starts the QQ SDK authorization; on success it calls the QQ login API with accessToken+openId, and when the user cancels it shows the warning toast `登录取消`; when it fails it shows an error toast starting with `登录失败`; when launching throws it shows `启动QQ登录失败`\nAUTH-A06 After QQ login succeeds, it shows the success toast `登录成功`, persists Auth, sets the logged-in state, refreshes user info, and pops back once (leaves the login selection page)\nAUTH-A07 The selection page, account login, and SMS login pages show the user agreement line `登录即代表您已阅读并同意` + `《用户协议》` + `和` + `《隐私政策》`; tapping either link opens the user agreement / privacy policy page respectively (register page prefix is `注册即代表您已阅读并同意`)\nAUTH-A08 Account login, SMS login, and register pages show the two-line title `你好，` + `欢迎登录青商城` / `欢迎注册青商城`; the reset password page title is `重置密码`\nAUTH-A09 The phone input field shows the `+86` prefix and the placeholder `请输入手机号`; the password field placeholder is `请输入密码` and it is masked by default; tapping the eye icon toggles show/hide password\nAUTH-A10 Phone validation rule: exactly 11 digits matching ^1[3-9]\\d{9}$; SMS code: exactly 4 digits; password: at least 6 characters (no other strength rules)\nAUTH-A11 The account login page `登录` button is disabled until the phone is valid and the password is at least 6 characters\nAUTH-A12 Account login submits phone+password to POST user/login/password; when the phone is invalid it shows the toast `请输入正确的手机号`, and when the password is invalid it shows `请输入正确的密码` without sending a request\nAUTH-A13 After account login succeeds, it saves the phone and password locally (MMKV keys saved_phone / saved_password), shows `登录成功`, persists Auth and sets the logged-in state, refreshes user info, then pops back twice (back past the selection page to the page before login)\nAUTH-A14 When the account login page opens, it prefills the phone number and password saved from the last successful login\nAUTH-A15 The account login page bottom has `去注册` | `忘记密码`; tapping them goes to the register page / reset password page respectively\nAUTH-A16 The SMS code input accepts digits only and at most 4 characters; the `获取验证码` text on its right is clickable only when the phone is valid (greyed and not clickable otherwise); there is no countdown after sending\nAUTH-A17 On the SMS login and register pages, tapping `获取验证码` first requests notification permission; when denied it shows the toast `需要通知权限才能接收验证码` and does not continue\nAUTH-A18 After permission is granted and the phone is valid, it calls GET user/login/captcha to fetch the image captcha (captchaId + base64 image) and then opens the image captcha dialog; when the phone is invalid it shows `请输入正确的手机号`\nAUTH-A19 The image captcha dialog (bottom sheet) has title `安全验证`, input placeholder `请输入图形验证码` (digits only, at most 4), the captcha image on the right, and button `完成验证` which is enabled only when 4 characters are entered\nAUTH-A20 Tapping the captcha image fetches a new captcha; when the image is empty or fails to decode, it shows a `点击刷新` placeholder that refreshes when tapped\nAUTH-A21 After tapping `完成验证`, the dialog closes and clears the image captcha input, and it calls POST user/login/smsCode with phone, captchaId, code (image captcha)\nAUTH-A22 After the SMS code API succeeds, the returned code is shown as a high-priority system notification titled `验证码` with content `您的验证码是: <code>` (the demo backend returns the code directly instead of sending a real SMS)\nAUTH-A23 The SMS login `登录` button is enabled only when the phone is valid and the code is 4 digits; tapping it calls POST user/login/phone (phone, smsCode); an invalid code shows the toast `请输入4位验证码`\nAUTH-A24 After SMS login succeeds, it saves the phone (saved_phone), shows `登录成功`, persists Auth/logged-in state, refreshes user info, and pops back twice; on next entry to SMS login the phone is prefilled\nAUTH-A25 The SMS login page bottom shows `短信不可用？` with `使用三方登录`; tapping the latter returns to the login method selection page\nAUTH-A31 All login/register success paths persist Auth{token, refreshToken, expire, refreshExpire, createdAt} as JSON under the local key auth_info and set isLoggedIn=true; logged-in means auth_info exists, token is non-empty, and it is not past createdAt+expire seconds\nAUTH-A33 After a successful login, the app is still logged in after a cold restart (state restored from auth_info at startup)\nAUTH-A34 When an auth API returns an unsuccessful business response or a network error, it shows the backend message (or `网络请求失败`) as an error toast and stays on the current page",
+   "featureIds": [
+    "AUTH-A01",
+    "AUTH-A02",
+    "AUTH-A03",
+    "AUTH-A04",
+    "AUTH-A05",
+    "AUTH-A06",
+    "AUTH-A07",
+    "AUTH-A08",
+    "AUTH-A09",
+    "AUTH-A10",
+    "AUTH-A11",
+    "AUTH-A12",
+    "AUTH-A13",
+    "AUTH-A14",
+    "AUTH-A15",
+    "AUTH-A16",
+    "AUTH-A17",
+    "AUTH-A18",
+    "AUTH-A19",
+    "AUTH-A20",
+    "AUTH-A21",
+    "AUTH-A22",
+    "AUTH-A23",
+    "AUTH-A24",
+    "AUTH-A25",
+    "AUTH-A31",
+    "AUTH-A33",
+    "AUTH-A34"
+   ],
+   "section": "page-auth-login",
+   "route": "AuthRoutesLogin"
+  },
+  {
+   "id": "page-auth-register-reset",
+   "title": "Register/reset password",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/AuthRoutesRegisterPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/AuthRoutesResetPasswordPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/auth/register"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util",
+    "page-auth-login"
+   ],
+   "expectation": "AUTH-A26 The register page has, in order: phone, code (with `获取验证码`), `请设置密码`, `请确认密码`, the register agreement line, and the `注册` button; the bottom has `已有账号？` `去登录` (tapping goes back)\nAUTH-A27 The `注册` button is enabled only when the phone is valid, the code is 4 digits, the password is at least 6 characters, and both passwords match; on submit it validates in order and shows `请输入正确的手机号`/`请输入4位验证码`/`请输入正确的密码`/`两次输入的密码不一致`, then calls POST user/login/register (phone, smsCode, password, confirmPassword)\nAUTH-A28 After registration succeeds, it shows the success toast `注册成功`, persists Auth and sets the logged-in state, refreshes user info, and pops back once (back to the account login page)\nAUTH-A29 The reset password page shows phone, code, `请设置新密码`, `请确认新密码`, and the hint `重置密码后，请使用新密码登录`; when both passwords are non-empty and differ it shows the red hint `两次输入的密码不一致`\nAUTH-A30 The reset password page `重置密码` button is always disabled, and its `获取验证码` makes no request (both are empty stub implementations in the source)",
+   "featureIds": [
+    "AUTH-A26",
+    "AUTH-A27",
+    "AUTH-A28",
+    "AUTH-A29",
+    "AUTH-A30"
+   ],
+   "section": "page-auth-register-reset",
+   "route": "AuthRoutesRegister"
+  },
+  {
+   "id": "page-user-profile-footprint",
+   "title": "Profile/footprints",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/UserRoutesProfilePage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/UserRoutesFootprintPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/user/profile"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "USER-A01 Profile, AddressList, AddressDetail, Coupon, FeedbackList and FeedbackSubmit all require login: when not logged in, navigating to them is intercepted and goes to the login page; Footprint is NOT in the login list and opens directly\nUSER-A02 Profile page (title `个人中心`) top content avoids the status bar\nUSER-A03 The Profile page shows the `头像` row (current user's avatar) and the `昵称` row (nickname, `未设置` when empty); both are read-only rows with no edit entry\nUSER-A04 Under `账号信息`, Profile shows `手机号` (`未绑定` when empty) and `账号` (user id, `未设置` when empty)\nUSER-A05 Under `社交账号`, Profile shows static rows `微信`→`去绑定` and `QQ`→`已绑定`; under `安全`, it shows arrowed rows `修改密码` and `注销账户` that have no click behavior\nUSER-A06 Tapping `退出登录` on Profile clears the local token and user info, sets the global login state to logged-out, and returns to the previous page (no server logout call)\nUSER-A07 When Profile opens logged in but with no cached user info, it refreshes the user info once\nUSER-A25 Footprint page (title `我的足迹`) top content avoids the status bar\nUSER-A26 Footprint shows browsed goods in a two-column staggered grid (image/title/price/sold count); tapping one opens goods detail; with no records it shows the empty state `暂无数据`\nUSER-A27 When there are footprints, the top bar shows `清空 (%d)` (total count); tapping it clears all footprints with no confirmation and the page switches to the empty state\nUSER-A28 Footprints are stored in the local database table footprints with goodsId as the primary key (REPLACE on revisit, refreshing viewTime), sorted by viewTime descending, and written each time goods detail opens\nUSER-A29 Footprint records are still there after a cold app restart and are not cleared on logout",
+   "featureIds": [
+    "USER-A01",
+    "USER-A02",
+    "USER-A03",
+    "USER-A04",
+    "USER-A05",
+    "USER-A06",
+    "USER-A07",
+    "USER-A25",
+    "USER-A26",
+    "USER-A27",
+    "USER-A28",
+    "USER-A29"
+   ],
+   "section": "page-user-profile-footprint",
+   "route": "UserRoutesProfile"
+  },
+  {
+   "id": "page-address",
+   "title": "Addresses",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/UserRoutesAddressListPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/UserRoutesAddressDetailPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/user/address"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "USER-A08 AddressList page (title `收货地址`) top content avoids the status bar\nUSER-A09 On first load AddressList shows a 3-card skeleton; on load failure it shows the error state with retry; with no data it shows the empty state `暂无数据`\nUSER-A10 AddressList calls user/address/page with paging (page/size=10), and supports pull-to-refresh and load-more (`没有更多了` when no more pages)\nUSER-A11 Each address card shows contact, phone, province+city+district, and the detailed address; the default address shows a `默认` tag, and the card has edit and delete icon buttons\nUSER-A12 The AddressList bottom `新增地址` button (hidden while loading/on error) opens AddressDetail in add mode; tapping a card or its edit button opens AddressDetail in edit mode with that address id\nUSER-A13 Tapping the delete button shows the confirm dialog `删除地址`/`确认删除该地址吗？` with buttons `确认`/`取消`; cancel closes the dialog\nUSER-A14 After confirming delete, user/address/delete is called with {ids:[id]}; on success the list refreshes and the dialog closes\nUSER-A15 When AddressList is opened in select mode (isSelectMode=true, from order confirmation), tapping a card returns that address to the previous page (SelectAddressResultKey) and closes the list\nUSER-A16 When returning from AddressDetail with a refresh signal (RefreshResultKey refresh=true), AddressList refreshes automatically\nUSER-A17 AddressDetail page top content avoids the status bar; its title is `编辑地址` in edit mode and `添加地址` in add mode\nUSER-A18 In edit mode (addressId>0), AddressDetail calls user/address/info?id= and fills the form; on failure it shows error + retry; in add mode it shows an empty form directly\nUSER-A19 The AddressDetail form has inputs `联系人` (`请填写联系人`), `手机号码` (`请填写手机号码`, phone keyboard), `省市区` (`请选择所在地区`, read-only, opens the region picker on tap), and `详细地址` (`街道、楼牌号等`, multi-line)\nUSER-A20 The AddressDetail `设置默认地址` row (description `下单会优先使用该地址`) has a switch that toggles the default flag\nUSER-A21 The bottom `保存` button (shown only after the form loads) calls user/address/update in edit mode and user/address/add in add mode (isDefault always serialized, no client validation); on success it returns to the list with a refresh signal\nUSER-A22 The region picker (title `请选择所在地区`) is a bottom sheet with three-level province/city/district tabs (unselected level shows `请选择`); picking a province auto-switches to city, then to district; picking a district closes it and fills `省 市 区`, and the selected item shows a check mark\nUSER-A23 Tapping the province tab in the region picker clears the selected city/district and goes back to the province list; when there is already a value, opening it restores the selection to the district level\nUSER-A24 Region data is a local static dataset of 13 provinces (Beijing/Tianjin/Hebei/Shanxi/Shanghai/Jiangsu/Zhejiang/Anhui/Guangdong/Guangxi/Sichuan/Guizhou/Shaanxi) → city → district, with no network request",
+   "featureIds": [
+    "USER-A08",
+    "USER-A09",
+    "USER-A10",
+    "USER-A11",
+    "USER-A12",
+    "USER-A13",
+    "USER-A14",
+    "USER-A15",
+    "USER-A16",
+    "USER-A17",
+    "USER-A18",
+    "USER-A19",
+    "USER-A20",
+    "USER-A21",
+    "USER-A22",
+    "USER-A23",
+    "USER-A24"
+   ],
+   "section": "page-address",
+   "route": "UserRoutesAddressList"
+  },
+  {
+   "id": "page-market-feedback",
+   "title": "Coupons/feedback",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/MarketRoutesCouponPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/FeedbackRoutesListPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/FeedbackRoutesSubmitPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/market",
+    "output/CoolMallHM/entry/src/main/ets/feature/feedback"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "USER-A30 Coupon page (title `我的优惠券`) top content avoids the status bar\nUSER-A31 Coupon calls market/coupon/user/page with paging, with a 3-card skeleton on first load, plus error retry, empty state, pull-to-refresh, and load-more\nUSER-A32 A coupon card shows amount, `满%1$d元可用` threshold, title, `有效期至 %1$s`, and an expandable `使用说明`; useStatus=1 shows `已使用`, while useStatus=2 or endTime earlier than today shows `已过期`, otherwise it shows a `去使用` button\nUSER-A33 Tapping `去使用` opens the goods category page with the coupon's fullAmount threshold as minPrice\nUSER-A34 Coupon claiming (market/coupon/user/receive, {couponId}) happens on Home/GoodsDetail, not on this page: when not logged in it goes to the login page, and on success it toasts the server's returned text\nUSER-A35 FeedbackList page (title `反馈列表`) top content avoids the status bar\nUSER-A36 FeedbackList calls app/feedback/page with paging (skeleton/error retry/empty/pull-to-refresh/load-more), loads the feedbackType dictionary via dict/info/data to map the type name (`未知类型` when missing), and refreshes automatically after a successful submit\nUSER-A37 A feedback card shows a type tag, a status tag (status=1 `已处理`, otherwise `未处理`), creation time, and content; when there are images it shows a 3-column grid (up to 9); when remark is non-empty it shows a `客服回复` block\nUSER-A38 FeedbackList's bottom `我要反馈` button (hidden while loading/on error) opens the feedback submit page\nUSER-A39 FeedbackSubmit page (title `我要反馈`) top content avoids the status bar; on entry it loads the feedbackType dictionary, and on failure it shows error + retry\nUSER-A40 The FeedbackSubmit form has sections `反馈类型` (single-select chips from the dictionary), `反馈内容` (placeholder `请尽量详细描述遇到的问题，操作步骤，并附上相关页面截图，以便更好定位问题`), `联系方式（选填）` (placeholder `QQ/微信号，手机号，邮箱`), and `问题截图（选填）`\nUSER-A41 The screenshot area is a 3-column grid with up to 9 images: tapping the add cell opens the system image picker to pick one image appended to the list, each image can be removed, and the add cell is hidden once there are 9\nUSER-A42 The bottom `提交` button is disabled until a type is selected and content is non-empty, and shows loading while submitting; if somehow tapped with an invalid form it toasts `请选择反馈类型并填写反馈内容`, and a repeat tap while submitting toasts `正在提交中...`\nUSER-A43 When there are images, submitting first fetches upload credentials from base/comm/upload, uploads each image to Tencent COS (key app/base/<uuid>_image.<ext>) to get URLs, then calls app/feedback/submit {contact,type,content,images}; with no images it submits directly with images=null; if upload fails it only resets the submitting state and does not submit\nUSER-A44 After a successful submit it toasts `反馈提交成功，感谢您的反馈` and returns to the feedback list with a refresh signal",
+   "featureIds": [
+    "USER-A30",
+    "USER-A31",
+    "USER-A32",
+    "USER-A33",
+    "USER-A34",
+    "USER-A35",
+    "USER-A36",
+    "USER-A37",
+    "USER-A38",
+    "USER-A39",
+    "USER-A40",
+    "USER-A41",
+    "USER-A42",
+    "USER-A43",
+    "USER-A44"
+   ],
+   "section": "page-market-feedback",
+   "route": "MarketRoutesCoupon"
+  },
+  {
+   "id": "page-cs-chat",
+   "title": "Customer service chat",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/CsRoutesChatPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/cs",
+    "output/CoolMallHM/entry/src/main/resources/rawfile"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "CS-A01 The chat page requires login: when not logged in, entering it from the goods-detail customer service button or the Me page entry goes to the login page instead\nCS-A02 The page has a centered top bar titled `客服聊天` with a back button that returns to the previous page; top content avoids the status bar\nCS-A03 During the first load, a chat skeleton screen is shown (day header + alternating left/right bubbles + input bar placeholder), and it stays for at least 320 ms\nCS-A04 On entry, the page first calls `cs/session/create` (POST) to create/get the session; on success it opens the WebSocket, loads page 1 of history, and marks unread messages as read; on failure it shows the shared network error view, and tapping retry recreates the session\nCS-A05 History is loaded through `cs/msg/page` (POST, body sessionId/page/size=10/order=createTime/sort=desc); a failed first-page load sets the page to the error state, and whether more pages exist is decided by pagination.size*page<total (or, without pagination, by whether this page has >=10 items)\nCS-A06 The message list shows newest at the bottom (descending data + reverse layout); scrolling up to the top automatically loads the next history page, which is appended with duplicates removed by id\nCS-A07 The history load-more item at the top of the list shows by state: `加载更多历史消息` / `正在加载历史消息...` (with a loading animation) / `加载成功` / `没有更多消息了`; on failure it shows `加载失败，点击重试`, which retries when tapped (a failure rolls back the page number)\nCS-A08 A message with type==0 (user) is right-aligned, uses the primary-color bubble, and has the user avatar on the right; type==1 (agent) is left-aligned, uses the gray bubble, and has the agent avatar on the left (adminUserHeadImg first, falling back to avatarUrl); above each bubble is a name (adminUserName first for the agent, falling back to nickName; nickName for the user)\nCS-A09 A message whose content.type is image (case-insensitive) shows as a network image (cropped square), and everything else shows as text content.data\nCS-A10 A time separator appears between two adjacent messages more than 10 minutes apart: same day shows `HH:mm`, otherwise `yyyy-MM-dd HH:mm`; the newest message has no time header at the bottom\nCS-A11 When the list scrolls up more than 3 items, a `回到底部` tag appears at the bottom; tapping it animates the scroll back to the newest message\nCS-A12 The WebSocket connects to wss://mall.dusksnow.top/socket.io/?EIO=4&transport=websocket (Socket.IO v4 protocol) and, once open, sends the auth frame 40/cs,{\"isAdmin\":false,\"token\":<token>}; it becomes connected on receiving a 40/cs, frame or 42/cs,[\"message\",\"连接成功\"]; it replies 3 to the heartbeat 2\nCS-A13 Received 42[\"msg\",{...}] or 42/cs,[\"msg\",{...}] frames are parsed as CsMsg and inserted at the newest position (ignored if the id already exists), and the list automatically scrolls to the newest message\nCS-A14 Sending a message: blank text is not sent; when not connected it only triggers a reconnect and does not send; when connected it sends 42/cs,[\"send\",{\"sessionId\":..,\"content\":{\"type\":\"text\",\"data\":..}}], and on success clears the input box; the sent message is not inserted locally, it appears only through the server's msg push\nCS-A15 After a successful send, the `send` sound plays; on receiving an agent reply (type==1) the `receive` sound plays (notification-type audio stream)\nCS-A16 Leaving the page (ViewModel destroyed) closes the WebSocket normally (code 1000) and releases the sound resources\nCS-A17 The bottom input bar: a single-line input box with placeholder `发送消息...`, an emoji button, and on the right, when there is input, a `发送` button, otherwise a more-functions plus button\nCS-A18 Tapping the emoji button hides the keyboard and expands the emoji panel (8-column grid, mutually exclusive with the function panel); tapping an emoji appends it to the end of the input; tapping it again collapses the panel; focusing the input box closes both panels\nCS-A19 Tapping the plus button expands the function panel with two items, `相册` and `拍摄`; tapping either only collapses the panel (the source has a TODO and does not implement picking/sending an image)\nCS-A20 When the keyboard opens, the input area rises with it and the message list stays visible above it; the bottom avoids the navigation bar\nCS-A21 The page supports dark mode: bubbles/input box/panels use theme colors and switch with the theme",
+   "featureIds": [
+    "CS-A01",
+    "CS-A02",
+    "CS-A03",
+    "CS-A04",
+    "CS-A05",
+    "CS-A06",
+    "CS-A07",
+    "CS-A08",
+    "CS-A09",
+    "CS-A10",
+    "CS-A11",
+    "CS-A12",
+    "CS-A13",
+    "CS-A14",
+    "CS-A15",
+    "CS-A16",
+    "CS-A17",
+    "CS-A18",
+    "CS-A19",
+    "CS-A20",
+    "CS-A21"
+   ],
+   "section": "page-cs-chat",
+   "route": "CsRoutesChat"
+  },
+  {
+   "id": "page-settings",
+   "title": "Settings/agreements",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/CommonRoutesSettingsPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/CommonRoutesUserAgreementPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/CommonRoutesPrivacyPolicyPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/common/settings"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "COM-A01 Settings, About, Web, User Agreement, Privacy Policy and Contributors pages: top content avoids the status bar (title bar / About toolbar is not covered by the status bar)\nCOM-A02 The settings page title is `设置` (large title bar with a back button) and shows groups top to bottom: `账号与安全` card, `外观与语言`, `隐私与协议`, `其他`, `通用`\nCOM-A03 Tapping `账号与安全` on the settings page navigates to the user profile page (UserRoutes Profile)\nCOM-A04 The `夜间模式` row on the settings page shows the current mode text on the right (`跟随系统`/`浅色模式`/`深色模式`); tapping it opens a bottom sheet titled `夜间模式` with three radio options\nCOM-A05 Choosing a theme mode in the bottom sheet immediately switches the whole app between light and dark (follow system / force light / force dark) and closes the sheet; reselecting the current mode changes nothing\nCOM-A06 The `主题颜色` row on the settings page shows a dot in the current theme color on the right; tapping it opens a bottom sheet titled `主题颜色` listing 5 options (`木槿紫`#465CFF, `幻彩紫`#6831FF, `清爽绿`#09BE4F, `暖日橙`#FFB703, `能量红`#FF2B2B), each with a color dot and a radio button\nCOM-A07 Choosing a theme color immediately replaces the app-wide primary color with that color and closes the sheet\nCOM-A08 The chosen theme mode and theme color are persisted (KV keys `settings_theme_mode`/`settings_theme_color`, values follow_system/light/dark and default/purple/green/orange/red) and still apply after a cold restart; a missing or invalid value falls back to follow system / `木槿紫`\nCOM-A09 The `语言切换` row on the settings page shows a fixed `中文` on the right, and tapping it does nothing (no language switching)\nCOM-A10 In the settings `隐私与协议` group, `隐私政策` opens the privacy policy page and `用户协议` opens the user agreement page\nCOM-A11 The settings `其他` group has a `不展示启动页` toggle (description `打开后进入应用将跳过启动页`, off by default, only page-local state, not persisted or wired to the launch flow) and `应用引导`, which opens the guide page with fromSettings=true\nCOM-A12 In the settings `通用` group, `清除缓存` shows a fixed `13.24MB` on the right and is not tappable, `意见反馈` opens the feedback list page, and `关于应用` opens the About page\nCOM-A23 On entry, the user agreement page requests GET base/comm/param?key=userAgreement and renders the returned HTML string in a WebView (JS disabled); the title is `用户协议`\nCOM-A24 On entry, the privacy policy page requests GET base/comm/param?key=privacyPolicy and renders the returned HTML; the title is `隐私政策`\nCOM-A25 The agreement/privacy pages show a document skeleton while loading (enforced minimum loading time) and a common error state with retry on failure that re-requests",
+   "featureIds": [
+    "COM-A01",
+    "COM-A02",
+    "COM-A03",
+    "COM-A04",
+    "COM-A05",
+    "COM-A06",
+    "COM-A07",
+    "COM-A08",
+    "COM-A09",
+    "COM-A10",
+    "COM-A11",
+    "COM-A12",
+    "COM-A23",
+    "COM-A24",
+    "COM-A25"
+   ],
+   "section": "page-settings",
+   "route": "CommonRoutesSettings"
+  },
+  {
+   "id": "page-about-web-contributors",
+   "title": "About/Web/contributors",
+   "targetPath": [
+    "output/CoolMallHM/entry/src/main/ets/pages/CommonRoutesAboutPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/CommonRoutesWebPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/pages/CommonRoutesContributorsPage.ets",
+    "output/CoolMallHM/entry/src/main/ets/feature/common/about"
+   ],
+   "deps": [
+    "fnd-ui-base",
+    "fnd-ui-widgets",
+    "fnd-ui-commerce",
+    "fnd-data",
+    "fnd-util"
+   ],
+   "expectation": "COM-A13 The About page header shows the app logo, the app name, and `Version <versionName>`; the info card lists `应用名称`, `版本号`, and `版本代码` (read from the package info)\nCOM-A14 The About page has a dynamic aurora background (dark/light variants, one light source in the theme color); as the page scrolls, the header fades and shrinks, and the `关于我们` title bar fades in; there is a back button\nCOM-A15 The About `开发者` group shows the avatar, `Joker.X`, and `joker.x.dev@gmail.com`; tapping it opens the Web page (https://github.com/Joker-x-dev, title Joker.X); the `贡献者` row opens the contributors page\nCOM-A16 About link rows each open the Web page with a fixed URL/title: `GitHub`, `Gitee`, `API 文档`(https://coolmall.apifox.cn), `Demo 下载`(pgyer), `图标来源`(github.com/tuniaoTech), `GitHub 讨论区`, `翻译`, `支持`, `帮助`, `开源许可`(LICENSE)\nCOM-A17 Tapping `QQ 交流群` and `微信交流群` on the About page does nothing (empty handler)\nCOM-A18 Under About `其他`, `用户协议`/`隐私政策` open the matching pages; the bottom shows `© 2025 Joker.X & CoolMallKotlin Contributors`\nCOM-A19 Tapping `引用` on the About page opens the `引用致谢` bottom sheet, which lists 21 local third-party dependencies (name, description up to 2 lines, category tag); tapping an item with a URL opens the Web page with the dependency name as title and closes the sheet\nCOM-A20 The Web page title bar first shows the route's title (default `网页` when none is given) and is then replaced by the page's real title; a linear progress bar shows below the top while loading progress is under 100\nCOM-A21 The Web page's top-right `更多选项` menu holds `刷新` (reload the current page) and `用浏览器打开` (open the route's initial URL in the system browser); the menu closes after either action\nCOM-A22 Inside the Web page, http/https links load in place, while non-http schemes (tel:/mailto:/geo:) are handed to system apps; JavaScript and DOM Storage are enabled\nCOM-A26 The contributors page (title `贡献者`) loads by page via POST user/contributor/page {page,size=10}, supporting pull-to-refresh and scroll-to-load-more, plus loading/empty/error-retry states\nCOM-A27 A contributor card shows the avatar, nickname, signature (when non-empty), and a tag row (when non-empty); tapping a card whose websiteUrl is non-empty opens the Web page with the nickname as title, otherwise nothing happens",
+   "featureIds": [
+    "COM-A13",
+    "COM-A14",
+    "COM-A15",
+    "COM-A16",
+    "COM-A17",
+    "COM-A18",
+    "COM-A19",
+    "COM-A20",
+    "COM-A21",
+    "COM-A22",
+    "COM-A26",
+    "COM-A27"
+   ],
+   "section": "page-about-web-contributors",
+   "route": "CommonRoutesAbout"
+  }
+ ],
+ "only": [
+  "page-launch",
+  "page-goods-detail",
+  "page-goods-search-list",
+  "page-order-list",
+  "page-order-detail-logistics",
+  "page-order-confirm-pay",
+  "page-order-refund-comment",
+  "page-auth-login",
+  "page-auth-register-reset",
+  "page-user-profile-footprint",
+  "page-address",
+  "page-market-feedback",
+  "page-cs-chat",
+  "page-settings",
+  "page-about-web-contributors"
+ ]
+}

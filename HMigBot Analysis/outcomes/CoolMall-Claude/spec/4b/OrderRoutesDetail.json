@@ -1,0 +1,68 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "OrderRoutesDetail",
+  "kind": "skeleton",
+  "slice": "page-order-detail-logistics",
+  "route": "OrderRoutesDetail",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "OrderRoutesDetail"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "订单详情",
+        "待付款",
+        "待发货",
+        "待收货",
+        "待评价",
+        "交易完成",
+        "退款中",
+        "已退款",
+        "已关闭",
+        "价格明细",
+        "商品总价",
+        "优惠金额",
+        "实付金额",
+        "退款信息",
+        "退款金额",
+        "退款状态",
+        "申请中",
+        "拒绝退款",
+        "未知状态",
+        "申请原因",
+        "拒绝原因",
+        "申请时间",
+        "无",
+        "订单信息",
+        "订单编号",
+        "复制",
+        "支付方式",
+        "微信",
+        "支付时间",
+        "未支付",
+        "下单时间",
+        "订单备注",
+        "物流详情",
+        "物流信息",
+        "快递公司",
+        "未知快递",
+        "物流编号",
+        "快递员",
+        "联系电话",
+        "拨打",
+        "运输耗时",
+        "物流轨迹"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "OrderRoutesDetail"
+    }
+  ]
+}

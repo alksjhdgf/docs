@@ -1,0 +1,53 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "CommonRoutesSettings",
+  "kind": "skeleton",
+  "slice": "page-settings",
+  "route": "CommonRoutesSettings",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "CommonRoutesSettings"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "设置",
+        "账号与安全",
+        "外观与语言",
+        "隐私与协议",
+        "其他",
+        "通用",
+        "夜间模式",
+        "跟随系统",
+        "浅色模式",
+        "深色模式",
+        "主题颜色",
+        "木槿紫",
+        "幻彩紫",
+        "清爽绿",
+        "暖日橙",
+        "能量红",
+        "语言切换",
+        "中文",
+        "隐私政策",
+        "用户协议",
+        "不展示启动页",
+        "打开后进入应用将跳过启动页",
+        "应用引导",
+        "清除缓存",
+        "13\\.24MB",
+        "意见反馈",
+        "关于应用"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "CommonRoutesSettings"
+    }
+  ]
+}

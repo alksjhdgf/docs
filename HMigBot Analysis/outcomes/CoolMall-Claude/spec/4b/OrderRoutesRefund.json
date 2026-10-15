@@ -1,0 +1,45 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "OrderRoutesRefund",
+  "kind": "skeleton",
+  "slice": "page-order-refund-comment",
+  "route": "OrderRoutesRefund",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "OrderRoutesRefund"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "退款申请",
+        "退款信息",
+        "申请原因",
+        "请选择",
+        "退款金额",
+        "orderId",
+        "选择取消原因",
+        "确定",
+        "提交",
+        "商品评价",
+        "很差",
+        "较差",
+        "一般",
+        "满意",
+        "非常满意",
+        "请点击星星进行评分",
+        "提交评价",
+        "请先填写评价内容和评分",
+        "评价提交成功"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "OrderRoutesRefund"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "GoodsRoutesDetail",
+  "kind": "skeleton",
+  "slice": "page-goods-detail",
+  "route": "GoodsRoutesDetail",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "GoodsRoutesDetail"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "已售 %d",
+        "满%d减%d元",
+        "领取优惠券",
+        "选择规格",
+        "已选：%s",
+        "¥",
+        "已选",
+        "未选择",
+        "库存",
+        "数量",
+        "加入购物车",
+        "立即购买",
+        "客服",
+        "购物车",
+        "发货与服务",
+        "发货",
+        "云南省 昆明市",
+        "服务",
+        "7天无理由退货 · 运费险 · 48小时发货",
+        "商品评价",
+        "查看全部",
+        "匿名用户",
+        "\\+N",
+        "商品详情",
+        "商品评论"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "GoodsRoutesDetail"
+    }
+  ]
+}

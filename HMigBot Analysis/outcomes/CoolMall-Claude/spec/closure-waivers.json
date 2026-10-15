@@ -1,0 +1,34 @@
+{
+  "waivers": [
+    {
+      "type": "write_only",
+      "name": "auth_info",
+      "reason": "误报：auth_info 经 KvStore.getObject 读取（getObject 不在 idioms prefs.readApis 内）。读取路径 AuthStoreRepository.getAuth/getToken/isLoggedIn ← AppState.initialize()（EntryAbility.onCreate 调用）与 AppState.registerTokenProvider（HttpClient 每请求取 token），与源码 AuthStoreDataSourceImpl 同构。"
+    },
+    {
+      "type": "read_path_unused",
+      "name": "settings_theme_mode",
+      "reason": "误报：ThemeManager.init() 在 entry/src/main/ets/entryability/EntryAbility.ets:74 以 ThemeManager.instance.init(this.context) 调用（单例 instance 一跳未被检查器识别），启动时读取持久化主题模式，与源码 ThemePreferenceManager 同构。"
+    },
+    {
+      "type": "read_path_unused",
+      "name": "settings_theme_color",
+      "reason": "误报：ThemeManager.init() 在 entry/src/main/ets/entryability/EntryAbility.ets:74 以 ThemeManager.instance.init(this.context) 调用（单例 instance 一跳未被检查器识别），启动时读取持久化主题色，与源码 ThemePreferenceManager 同构。"
+    },
+    {
+      "type": "self_loop_consumer",
+      "name": "user_info",
+      "reason": "与源码同构：AppState 是 user_info 的唯一持久化读写方（源 AppState.kt initializeState 同样只在 AppState 内读 UserInfoStore），功能消费经 @Trace AppState.instance.userInfo 跨文件发生，见 feature/main/me/MeViewModel.ets:40,52。"
+    },
+    {
+      "type": "read_path_unused",
+      "name": "resultStatus",
+      "reason": "False positive: resultStatus is a key of the Alipay SDK Pay().pay() result Map, not a persisted store key; it is read in Alipay.ets processAlipayResult (same structure as source Alipay.kt / OrderPayViewModel)"
+    },
+    {
+      "type": "read_path_unused",
+      "name": "memo",
+      "reason": "False positive: memo is a key of the Alipay SDK result Map (same structure as the source PayTask.payV2 return value), not a persisted store key; AlipayPayTask only logs it, as the source does"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "MainRoutesCart",
+  "kind": "skeleton",
+  "slice": "page-cart",
+  "route": "MainRoutesCart",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "MainRoutesCart"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "购物车",
+        "购物车是空的",
+        "快去添加商品吧",
+        "全选",
+        "合计:",
+        "结算",
+        "结算\\(%d\\)",
+        "编辑",
+        "完成",
+        "删除",
+        "删除\\(%d\\)"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "MainRoutesCart"
+    }
+  ]
+}

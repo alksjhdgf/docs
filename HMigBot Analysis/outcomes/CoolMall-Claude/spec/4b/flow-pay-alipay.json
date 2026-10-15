@@ -1,0 +1,96 @@
+{
+ "bundle": "com.joker.coolmall",
+ "name": "flow-pay-alipay",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "tap",
+   "match": "=我的"
+  },
+  {
+   "op": "wait",
+   "match": "=我的订单"
+  },
+  {
+   "op": "tap",
+   "match": "=待付款"
+  },
+  {
+   "op": "wait",
+   "match": "=订单列表"
+  },
+  {
+   "op": "wait",
+   "match": "=去支付"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=共 1 件",
+    "=取消订单",
+    "=¥4999.00"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow8-order-list-pending"
+  },
+  {
+   "op": "tap",
+   "match": "=去支付"
+  },
+  {
+   "op": "wait",
+   "match": "=收银台"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=支付宝支付",
+    "去支付 ¥4999"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "去支付 ¥4999"
+  },
+  {
+   "op": "wait",
+   "match": "下一步",
+   "timeout": 20000
+  },
+  {
+   "op": "expect",
+   "match": [
+    "请输入支付宝账号",
+    "¥0\\.01",
+    "alipay-logo"
+   ]
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "sleep",
+   "ms": 3000
+  },
+  {
+   "op": "probe",
+   "match": [
+    "支付已取消",
+    "支付失败",
+    "=订单列表",
+    "=收银台"
+   ]
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

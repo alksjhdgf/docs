@@ -1,0 +1,14 @@
+{
+  "entries": [
+    { "match": "com\\.google\\.dagger:hilt", "status": "ignore", "note": "DI framework (Hilt/KSP code generation); no runtime behavior. On HarmonyOS, singleton modules are constructed by hand; recorded as a DI degradation in the INIT assertion", "evidence": "0 call sites; @HiltAndroidApp/@Inject are annotations only" },
+    { "match": "com\\.google\\.devtools\\.ksp", "status": "ignore", "note": "Build-time annotation processor; no runtime equivalent needed", "evidence": "Gradle plugin" },
+    { "match": "com\\.squareup\\.leakcanary", "status": "ignore", "note": "Debug-only leak detection tool; not part of shipped behavior", "evidence": "debugImplementation; 0 call sites" },
+    { "match": "com\\.github\\.chuckerteam\\.chucker", "status": "ignore", "note": "Debug HTTP inspector (release uses no-op); not part of shipped behavior", "evidence": "debug/release split dependency" },
+    { "match": "junit:junit", "status": "ignore", "note": "Unit-test dependency; replaced by hypium", "evidence": "testImplementation" },
+    { "match": "com\\.google\\.android\\.material:material", "status": "ignore", "note": "Only used for the Activity theme parent; UI is fully Compose", "evidence": "0 call sites" },
+    { "match": "com\\.github\\.getActivity:XXPermissions", "status": "equivalent", "harmony": "abilityAccessCtrl.requestPermissionsFromUser", "note": "Runtime permission requests; native API", "evidence": "0 call sites (dependency declared only)" },
+    { "match": "com\\.github\\.getActivity:Toaster", "status": "equivalent", "harmony": "UIContext.getPromptAction().showToast", "note": "ToastUtils wrapper; light/dark styles map to the system toast", "evidence": "core/util/toast/ToastUtils.kt:40-84" },
+    { "match": "com\\.valentinilk\\.shimmer", "status": "partial", "harmony": "Skeleton blocks + animateTo/linearGradient shimmer animation", "note": "Skeleton screen shimmer effect; visual approximation", "evidence": "core/ui/component/skeleton/Skeleton.kt:34-36" },
+    { "match": "com\\.tencent:mmkv", "status": "equivalent", "harmony": "@ohos.data.preferences (or ohpm @tencent/mmkv)", "note": "Key-value storage (auth token, user info, theme, search history); synchronous read/write maps to Preferences getSync/putSync+flush", "evidence": "core/util/storage/MMKVUtils.kt; 7 call sites" }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+ "bundle": "com.joker.coolmall",
+ "name": "flow-about-misc",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "tap",
+   "match": "type:^Image$",
+   "nth": 0
+  },
+  {
+   "op": "wait",
+   "match": "=关于我们"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=青商城",
+    "Version 1\\.1\\.2",
+    "=应用名称",
+    "=版本号",
+    "=版本代码",
+    "=Joker.X",
+    "=贡献者",
+    "=GitHub"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow4-about"
+  },
+  {
+   "op": "tap",
+   "match": "=贡献者"
+  },
+  {
+   "op": "wait",
+   "match": "=贡献者"
+  },
+  {
+   "op": "sleep",
+   "ms": 2500
+  },
+  {
+   "op": "shot",
+   "name": "flow4-contributors"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=关于我们"
+  },
+  {
+   "op": "tap",
+   "match": "=GitHub"
+  },
+  {
+   "op": "sleep",
+   "ms": 4000
+  },
+  {
+   "op": "probe",
+   "match": [
+    "GitHub",
+    "更多选项"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow4-web-github"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=关于我们"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "tap",
+   "match": "=我的"
+  },
+  {
+   "op": "wait",
+   "match": "=优惠券"
+  },
+  {
+   "op": "tap",
+   "match": "=优惠券"
+  },
+  {
+   "op": "wait",
+   "match": "=验证码登录"
+  },
+  {
+   "op": "shot",
+   "name": "flow4-coupon-login-wall"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=优惠券"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=设置",
+   "dir": "up",
+   "max": 4
+  },
+  {
+   "op": "tap",
+   "match": "=设置"
+  },
+  {
+   "op": "wait",
+   "match": "=隐私政策"
+  },
+  {
+   "op": "tap",
+   "match": "=隐私政策"
+  },
+  {
+   "op": "sleep",
+   "ms": 4000
+  },
+  {
+   "op": "probe",
+   "match": [
+    "=隐私政策",
+    "网络连接失败",
+    "重新加载"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow4-privacy-content"
+  },
+  {
+   "op": "shot",
+   "name": "flow4-privacy"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=夜间模式"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

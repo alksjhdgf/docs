@@ -1,0 +1,17 @@
+{ "bundle": "com.joker.coolmall", "name": "flow-sms-permission",
+  "steps": [
+    {"op":"start","fresh":true,"route":"AuthRoutesSmsLogin"},
+    {"op":"wait","match":"=获取验证码"},
+    {"op":"expect","match":["=+86","=登录","=短信不可用？","=使用三方登录"]},
+    {"op":"type","match":"type:^TextInput$","nth":0,"text":"13800138000"},
+    {"op":"tap","match":"=获取验证码"},
+    {"op":"wait","match":"向你发送通知"},
+    {"op":"expect","match":["=允许","=不允许"]},
+    {"op":"shot","name":"flow5-notification-permission"},
+    {"op":"tap","match":"=允许"},
+    {"op":"wait","match":"=安全验证"},
+    {"op":"expect","match":["=完成验证"]},
+    {"op":"shot","name":"flow5-captcha-sheet"},
+    {"op":"back"},
+    {"op":"alive"}
+  ] }

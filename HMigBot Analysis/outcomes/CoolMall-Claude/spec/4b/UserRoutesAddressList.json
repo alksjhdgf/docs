@@ -1,0 +1,48 @@
+{
+  "bundle": "com.joker.coolmall",
+  "name": "UserRoutesAddressList",
+  "kind": "skeleton",
+  "slice": "page-address",
+  "route": "UserRoutesAddressList",
+  "generated": "walk.mjs plan（台账派生，勿手改；probe 只记出现率；跨页交互另写核心路径计划）",
+  "steps": [
+    {
+      "op": "start",
+      "route": "UserRoutesAddressList"
+    },
+    {
+      "op": "alive"
+    },
+    {
+      "op": "probe",
+      "match": [
+        "收货地址",
+        "暂无数据",
+        "默认",
+        "新增地址",
+        "删除地址",
+        "确认删除该地址吗？",
+        "确认",
+        "取消",
+        "编辑地址",
+        "添加地址",
+        "联系人",
+        "请填写联系人",
+        "手机号码",
+        "请填写手机号码",
+        "省市区",
+        "请选择所在地区",
+        "详细地址",
+        "街道、楼牌号等",
+        "设置默认地址",
+        "下单会优先使用该地址",
+        "请选择",
+        "省 市 区"
+      ]
+    },
+    {
+      "op": "shot",
+      "name": "UserRoutesAddressList"
+    }
+  ]
+}

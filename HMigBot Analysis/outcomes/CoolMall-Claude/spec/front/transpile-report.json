@@ -1,0 +1,34 @@
+{
+  "src": "input/CoolMallKotlin",
+  "out": "output/CoolMallHM/spec/front/layouts",
+  "totals": {
+    "files": 3,
+    "nodeCoverage": "9/9 (100%)",
+    "attrCoverage": "51/54 (94%)",
+    "unmappedTags": {},
+    "variantLayoutsSkipped": null
+  },
+  "perFile": [
+    {
+      "file": "toast_error.xml",
+      "nodes": 3,
+      "nodesMapped": 3,
+      "attrs": 18,
+      "attrsMapped": 17
+    },
+    {
+      "file": "toast_success.xml",
+      "nodes": 3,
+      "nodesMapped": 3,
+      "attrs": 18,
+      "attrsMapped": 17
+    },
+    {
+      "file": "toast_warn.xml",
+      "nodes": 3,
+      "nodesMapped": 3,
+      "attrs": 18,
+      "attrsMapped": 17
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "bundle": "com.joker.coolmall",
+  "hap": {
+    "file": "entry-default-signed.hap",
+    "size": 4795279,
+    "mtime": "2026-10-14T18:54:08.242Z"
+  },
+  "hooks": {
+    "passthrough": true,
+    "landingLog": true
+  },
+  "routes": [
+    {
+      "route": "(cold-start)",
+      "foreground": true,
+      "landed": "LaunchRoutesGuide",
+      "nodes": 24,
+      "windowNodes": 77,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-home.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "LaunchRoutesSplash",
+      "foreground": true,
+      "landed": "LaunchRoutesGuide",
+      "nodes": 24,
+      "windowNodes": 77,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-LaunchRoutesSplash.png",
+      "verdict": "forwarded",
+      "failing": true,
+      "forwarded": true,
+      "shown": [
+        "LaunchRoutesSplash",
+        "LaunchRoutesGuide"
+      ]
+    },
+    {
+      "route": "GoodsRoutesDetail",
+      "foreground": true,
+      "landed": "GoodsRoutesDetail",
+      "nodes": 9,
+      "windowNodes": 62,
+      "textCount": 2,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-GoodsRoutesDetail.png",
+      "verdict": "hollow",
+      "failing": true
+    },
+    {
+      "route": "GoodsRoutesSearch",
+      "foreground": true,
+      "landed": "GoodsRoutesSearch",
+      "nodes": 61,
+      "windowNodes": 114,
+      "textCount": 22,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-GoodsRoutesSearch.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "OrderRoutesList",
+      "foreground": true,
+      "landed": "OrderRoutesList",
+      "nodes": 41,
+      "windowNodes": 94,
+      "textCount": 14,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-OrderRoutesList.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "OrderRoutesConfirm",
+      "foreground": true,
+      "landed": "OrderRoutesConfirm",
+      "nodes": 30,
+      "windowNodes": 83,
+      "textCount": 5,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-OrderRoutesConfirm.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "OrderRoutesRefund",
+      "foreground": true,
+      "landed": "OrderRoutesRefund",
+      "nodes": 26,
+      "windowNodes": 79,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-OrderRoutesRefund.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "AuthRoutesLogin",
+      "foreground": true,
+      "landed": "AuthRoutesLogin",
+      "nodes": 45,
+      "windowNodes": 98,
+      "textCount": 10,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-AuthRoutesLogin.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "UserRoutesProfile",
+      "foreground": true,
+      "landed": "UserRoutesProfile",
+      "nodes": 90,
+      "windowNodes": 143,
+      "textCount": 18,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-UserRoutesProfile.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "UserRoutesAddressList",
+      "foreground": true,
+      "landed": "UserRoutesAddressList",
+      "nodes": 21,
+      "windowNodes": 74,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-UserRoutesAddressList.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "MarketRoutesCoupon",
+      "foreground": true,
+      "landed": "MarketRoutesCoupon",
+      "nodes": 22,
+      "windowNodes": 75,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-MarketRoutesCoupon.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "CsRoutesChat",
+      "foreground": true,
+      "landed": "CsRoutesChat",
+      "nodes": 21,
+      "windowNodes": 74,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-CsRoutesChat.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "CommonRoutesSettings",
+      "foreground": true,
+      "landed": "CommonRoutesSettings",
+      "nodes": 90,
+      "windowNodes": 143,
+      "textCount": 16,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-CommonRoutesSettings.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "CommonRoutesAbout",
+      "foreground": true,
+      "landed": "CommonRoutesAbout",
+      "nodes": 80,
+      "windowNodes": 133,
+      "textCount": 16,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-CommonRoutesAbout.png",
+      "verdict": "ok",
+      "failing": false
+    }
+  ],
+  "crash": null,
+  "launcher": "LaunchRoutesSplash"
+}

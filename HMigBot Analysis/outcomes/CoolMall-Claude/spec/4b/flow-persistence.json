@@ -1,0 +1,231 @@
+{
+ "bundle": "com.joker.coolmall",
+ "name": "flow-persistence",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "probe",
+   "match": [
+    "=跳过",
+    "=开始体验"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=我的"
+  },
+  {
+   "op": "wait",
+   "match": "=我的足迹"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=未登录",
+    "=点击登录账号",
+    "=我的订单",
+    "=待付款",
+    "=待发货",
+    "=待收货",
+    "=待评价",
+    "退款/售后",
+    "=优惠券",
+    "=收货地址",
+    "=在线客服",
+    "=意见反馈"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow2-me-footprint-after-restart"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=设置",
+   "dir": "up",
+   "max": 4
+  },
+  {
+   "op": "tap",
+   "match": "=设置"
+  },
+  {
+   "op": "wait",
+   "match": "=夜间模式"
+  },
+  {
+   "op": "tap",
+   "match": "=夜间模式"
+  },
+  {
+   "op": "wait",
+   "match": "=浅色模式"
+  },
+  {
+   "op": "tap",
+   "match": "=深色模式",
+   "within": "type:^SheetPage$"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "tap",
+   "match": "=主题颜色"
+  },
+  {
+   "op": "wait",
+   "match": "=清爽绿"
+  },
+  {
+   "op": "tap",
+   "match": "=清爽绿",
+   "within": "type:^SheetPage$"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=深色模式"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow2-settings-dark-green"
+  },
+  {
+   "op": "stop"
+  },
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "shot",
+   "name": "flow2-home-dark-green-after-restart"
+  },
+  {
+   "op": "tap",
+   "match": "=购物车"
+  },
+  {
+   "op": "wait",
+   "match": "=Xiaomi 15 Ultra"
+  },
+  {
+   "op": "tap",
+   "match": "=我的"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "=设置",
+   "dir": "up",
+   "max": 4
+  },
+  {
+   "op": "tap",
+   "match": "=设置"
+  },
+  {
+   "op": "wait",
+   "match": "=夜间模式"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=深色模式"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow2-settings-after-restart"
+  },
+  {
+   "op": "tap",
+   "match": "=应用引导"
+  },
+  {
+   "op": "wait",
+   "match": "=跳过"
+  },
+  {
+   "op": "tap",
+   "match": "=跳过"
+  },
+  {
+   "op": "wait",
+   "match": "=夜间模式"
+  },
+  {
+   "op": "tap",
+   "match": "=夜间模式"
+  },
+  {
+   "op": "wait",
+   "match": "=浅色模式"
+  },
+  {
+   "op": "tap",
+   "match": "=跟随系统",
+   "within": "type:^SheetPage$"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "tap",
+   "match": "=主题颜色"
+  },
+  {
+   "op": "wait",
+   "match": "=木槿紫"
+  },
+  {
+   "op": "tap",
+   "match": "=木槿紫",
+   "within": "type:^SheetPage$"
+  },
+  {
+   "op": "sleep",
+   "ms": 800
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=跟随系统"
+   ]
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=主页"
+  },
+  {
+   "op": "tap",
+   "match": "=主页"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

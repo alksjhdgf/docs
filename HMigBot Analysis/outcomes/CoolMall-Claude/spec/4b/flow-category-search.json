@@ -1,0 +1,162 @@
+{
+ "bundle": "com.joker.coolmall",
+ "name": "flow-category-search",
+ "steps": [
+  {
+   "op": "start"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "tap",
+   "match": "=分类"
+  },
+  {
+   "op": "wait",
+   "match": "=Xiaomi 数字旗舰"
+  },
+  {
+   "op": "tap",
+   "match": "=电脑办公"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=笔记本",
+    "=显示器",
+    "=办公配件"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=笔记本"
+  },
+  {
+   "op": "wait",
+   "match": "=筛选"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=综合",
+    "=销量",
+    "=价格",
+    "Xiaomi Book Pro 14",
+    "REDMI Book 14 2025"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow3-list-default"
+  },
+  {
+   "op": "tap",
+   "match": "=价格"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "shot",
+   "name": "flow3-list-price-asc"
+  },
+  {
+   "op": "tap",
+   "match": "=筛选"
+  },
+  {
+   "op": "wait",
+   "match": "=价格区间"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=重置",
+    "=确定",
+    "=智能手环"
+   ]
+  },
+  {
+   "op": "probe",
+   "match": [
+    "=最低价",
+    "=最高价"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow3-filter"
+  },
+  {
+   "op": "back",
+   "note": "Same as the source: the FilterDialog overlay has no BackHandler, so back pops the whole list page"
+  },
+  {
+   "op": "wait",
+   "match": "=办公配件"
+  },
+  {
+   "op": "tap",
+   "match": "=主页"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "tap",
+   "match": "搜索商品"
+  },
+  {
+   "op": "wait",
+   "match": "=搜索"
+  },
+  {
+   "op": "type",
+   "match": "type:^TextInput$",
+   "text": "Redmi"
+  },
+  {
+   "op": "tap",
+   "match": "=搜索"
+  },
+  {
+   "op": "wait",
+   "match": "=筛选"
+  },
+  {
+   "op": "shot",
+   "name": "flow3-search-result"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "=搜索历史"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Redmi"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow3-search-history"
+  },
+  {
+   "op": "back"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

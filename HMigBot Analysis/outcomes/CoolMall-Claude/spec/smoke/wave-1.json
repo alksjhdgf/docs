@@ -1,0 +1,52 @@
+{
+  "bundle": "com.joker.coolmall",
+  "hap": {
+    "file": "entry-default-signed.hap",
+    "size": 5075746,
+    "mtime": "2026-10-14T19:13:12.955Z"
+  },
+  "hooks": {
+    "passthrough": true,
+    "landingLog": true
+  },
+  "routes": [
+    {
+      "route": "(cold-start)",
+      "foreground": true,
+      "landed": "LaunchRoutesGuide",
+      "nodes": 24,
+      "windowNodes": 77,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-home.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "OrderRoutesDetail",
+      "foreground": true,
+      "landed": "OrderRoutesDetail",
+      "nodes": 28,
+      "windowNodes": 81,
+      "textCount": 4,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-OrderRoutesDetail.png",
+      "verdict": "ok",
+      "failing": false
+    },
+    {
+      "route": "AuthRoutesRegister",
+      "foreground": true,
+      "landed": "AuthRoutesRegister",
+      "nodes": 66,
+      "windowNodes": 119,
+      "textCount": 10,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-AuthRoutesRegister.png",
+      "verdict": "ok",
+      "failing": false
+    }
+  ],
+  "crash": null,
+  "launcher": "LaunchRoutesSplash"
+}

@@ -1,0 +1,144 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "purple_200",
+      "value": "#FFBB86FC"
+    },
+    {
+      "name": "purple_500",
+      "value": "#FF6200EE"
+    },
+    {
+      "name": "purple_700",
+      "value": "#FF3700B3"
+    },
+    {
+      "name": "teal_200",
+      "value": "#FF03DAC5"
+    },
+    {
+      "name": "teal_700",
+      "value": "#FF018786"
+    },
+    {
+      "name": "black",
+      "value": "#FF000000"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "splash_dark",
+      "value": "#FF111111"
+    },
+    {
+      "name": "ic_launcher_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "bg_page",
+      "value": "#F1F4FA"
+    },
+    {
+      "name": "bg_card",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "surface",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "bg_content",
+      "value": "#F8F8F8"
+    },
+    {
+      "name": "bg_red",
+      "value": "#FFEDED"
+    },
+    {
+      "name": "bg_yellow",
+      "value": "#FFF6E0"
+    },
+    {
+      "name": "bg_purple",
+      "value": "#F3EEFF"
+    },
+    {
+      "name": "bg_green",
+      "value": "#E8FBF0"
+    },
+    {
+      "name": "text_primary",
+      "value": "#181818"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#333333"
+    },
+    {
+      "name": "text_tertiary",
+      "value": "#B2B2B2"
+    },
+    {
+      "name": "text_quaternary",
+      "value": "#CCCCCC"
+    },
+    {
+      "name": "text_white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "divider",
+      "value": "#EEEEEE"
+    },
+    {
+      "name": "border",
+      "value": "#EEEEEE"
+    },
+    {
+      "name": "mask",
+      "value": "#99000000"
+    },
+    {
+      "name": "press",
+      "value": "#33000000"
+    },
+    {
+      "name": "danger",
+      "value": "#FF2B2B"
+    },
+    {
+      "name": "warning",
+      "value": "#FFB703"
+    },
+    {
+      "name": "purple",
+      "value": "#6831FF"
+    },
+    {
+      "name": "success",
+      "value": "#09BE4F"
+    },
+    {
+      "name": "primary_default",
+      "value": "#465CFF"
+    },
+    {
+      "name": "gradient_red_start",
+      "value": "#FD8C8C"
+    },
+    {
+      "name": "gradient_red_end",
+      "value": "#FF2B2B"
+    },
+    {
+      "name": "right_arrow_gray",
+      "value": "#A3A3A3"
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "plan": "output/CoolMallHM/spec/4b/flow-category-search.json",
+  "at": "2026-10-14T20:22:49.168Z",
+  "bundle": "com.joker.coolmall",
+  "name": "flow-category-search",
+  "steps": [
+    {
+      "i": 0,
+      "op": "start",
+      "ok": true,
+      "detail": "冷启",
+      "ms": 3968
+    },
+    {
+      "i": 1,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 987
+    },
+    {
+      "i": 2,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"分类\" @405,2286",
+      "changed": true,
+      "ms": 4324
+    },
+    {
+      "i": 3,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =Xiaomi 数字旗舰",
+      "ms": 1124
+    },
+    {
+      "i": 4,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"电脑办公\" @150,825",
+      "changed": true,
+      "ms": 4501
+    },
+    {
+      "i": 5,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 3/3",
+      "ms": 1094
+    },
+    {
+      "i": 6,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"笔记本\" @447,688（页面自变，无法判定点击效果）",
+      "changed": null,
+      "ms": 4632
+    },
+    {
+      "i": 7,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =筛选",
+      "ms": 1035
+    },
+    {
+      "i": 8,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 5/5",
+      "ms": 1117
+    },
+    {
+      "i": 9,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow3-list-default.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow3-list-default.png",
+      "ms": 564
+    },
+    {
+      "i": 10,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"价格\" @772,348",
+      "changed": true,
+      "ms": 4306
+    },
+    {
+      "i": 11,
+      "op": "sleep",
+      "ok": true,
+      "detail": "",
+      "ms": 1509
+    },
+    {
+      "i": 12,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow3-list-price-asc.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow3-list-price-asc.png",
+      "ms": 550
+    },
+    {
+      "i": 13,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"筛选\" @163,348",
+      "changed": true,
+      "ms": 4277
+    },
+    {
+      "i": 14,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =价格区间",
+      "ms": 1051
+    },
+    {
+      "i": 15,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 3/3",
+      "ms": 1155
+    },
+    {
+      "i": 16,
+      "op": "probe",
+      "ok": true,
+      "detail": "出现 0/2（页面 206 节点） 未见 [=最低价, =最高价]",
+      "seen": [],
+      "unseen": [
+        "=最低价",
+        "=最高价"
+      ],
+      "page": {
+        "texts": [
+          "搜索",
+          "综合",
+          "销量",
+          "价格",
+          "REDMI Book 14 2025",
+          "47W 满血性能 | 小米澎湃智联 | 旗舰硬核品质",
+          "¥3599.00",
+          "已售454件",
+          "Xiaomi Book Pro 14",
+          "第三代英特尔酷睿 Ultra 处理器 | 至高50W持久释放 | 1.08kg 超轻薄设计 | 3.1K高清高刷OLED屏",
+          "¥8499.00",
+          "已售177件",
+          "价格区间",
+          "手机",
+          "Xiaomi 数字旗舰",
+          "Xiaomi MIX系列",
+          "Xiaomi Civi",
+          "K系列",
+          "Note系列",
+          "Turbo系列",
+          "数字系列",
+          "平板",
+          "REDMI平板",
+          "Xiaomi平板",
+          "穿戴",
+          "智能手环",
+          "智能手表",
+          "智能耳机",
+          "其他穿戴",
+          "电脑办公",
+          "筛选",
+          "重置",
+          "确定",
+          "09, :, 22",
+          "09",
+          ":",
+          "22",
+          "80"
+        ],
+        "ids": [
+          "filter_scroll",
+          "filter_title",
+          "filter_bottom",
+          "session23",
+          "StatusBarBox",
+          "StatusBarBridgeView",
+          "status_bar_color_picker",
+          "StatusBarView",
+          "StatusBarBackground_Row_0",
+          "sbg_left",
+          "StatusBarIconWrapper_status_bar_clock",
+          "ClockStatusView",
+          "TimeView_Text_timeText",
+          "PluginRootComponent_Stack_status_bar_notification_icon",
+          "__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon",
+          "__0_1018___1_StatusBarAppIcon",
+          "sbg_right",
+          "StatusBarIconWrapper_status_bar_ring_mode",
+          "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+          "StatusBarIconWrapper_status_bar_wifi",
+          "WifiComponent-WifiIcon_Image_wifi_signal_category",
+          "WifiComponent-WifiIcon_Image_wifi_signal_level",
+          "WifiComponent-WifiIcon_Image_wifi_data_flow",
+          "StatusBarIconWrapper_status_bar_signal",
+          "SignalComponent-SignalIcon_Image_cellularImage",
+          "StatusBarIconWrapper_status_bar_battery",
+          "BatteryComponent-batteryIcon_Image_batteryIcon",
+          "BatteryComponent-batteryIcon_Image_batteryBorder",
+          "BatteryComponent-batteryIcon_Text_batterySoc",
+          "StatusBarView_LiveCapsuleListContainer",
+          "[Live]LiveCapsuleListView"
+        ],
+        "clickable": [
+          "#StatusBarBridgeView"
+        ],
+        "geometry": {
+          "#filter_scroll": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "bounds": "[48,183][1032,2223]"
+          },
+          "#filter_title": {
+            "center": [
+              0.5,
+              0.11
+            ],
+            "bounds": "[48,183][1032,351]"
+          },
+          "#filter_bottom": {
+            "center": [
+              0.5,
+              0.89
+            ],
+            "bounds": "[48,2073][1032,2223]"
+          },
+          "#session23": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBox": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBridgeView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#status_bar_color_picker": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[42,26][1038,98]"
+          },
+          "#StatusBarView": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#StatusBarBackground_Row_0": {
+            "center": [
+              0.5,
+              0.02
+            ],
+            "bounds": "[0,0][1080,108]"
+          },
+          "#sbg_left": {
+            "center": [
+              0.52,
+              0.03
+            ],
+            "bounds": "[42,26][1080,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_clock": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#ClockStatusView": {
+            "center": [
+              0.1,
+              0.03
+            ],
+            "bounds": "[42,26][163,98]"
+          },
+          "#TimeView_Text_timeText": {
+            "center": [
+              0.06,
+              0.03
+            ],
+            "bounds": "[42,36][96,89]"
+          },
+          "#PluginRootComponent_Stack_status_bar_notification_icon": {
+            "center": [
+              0.21,
+              0.03
+            ],
+            "bounds": "[175,26][283,98]"
+          },
+          "#__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon": {
+            "center": [
+              0.18,
+              0.03
+            ],
+            "bounds": "[175,41][217,83]"
+          },
+          "#__0_1018___1_StatusBarAppIcon": {
+            "center": [
+              0.23,
+              0.03
+            ],
+            "bounds": "[229,41][271,83]"
+          },
+          "#sbg_right": {
+            "center": [
+              0.48,
+              0.03
+            ],
+            "bounds": "[0,26][1038,98]"
+          },
+          "#StatusBarIconWrapper_status_bar_ring_mode": {
+            "center": [
+              0.75,
+              0.03
+            ],
+            "bounds": "[784,26][833,98]"
+          },
+          "#ringmode-StatusBarIconItemRingModeComponent_Image_ringMode": {
+            "center": [
+              0.75,
+              0.03
+            ],
+            "bounds": "[790,38][833,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_wifi": {
+            "center": [
+              0.8,
+              0.03
+            ],
+            "bounds": "[833,26][902,98]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_category": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[839,38][902,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_signal_level": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[840,38][902,86]"
+          },
+          "#WifiComponent-WifiIcon_Image_wifi_data_flow": {
+            "center": [
+              0.81,
+              0.03
+            ],
+            "bounds": "[839,38][902,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_signal": {
+            "center": [
+              0.86,
+              0.03
+            ],
+            "bounds": "[902,26][948,98]"
+          },
+          "#SignalComponent-SignalIcon_Image_cellularImage": {
+            "center": [
+              0.86,
+              0.03
+            ],
+            "bounds": "[908,38][948,86]"
+          },
+          "#StatusBarIconWrapper_status_bar_battery": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[948,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryIcon": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,26][1038,98]"
+          },
+          "#BatteryComponent-batteryIcon_Image_batteryBorder": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[954,38][1038,86]"
+          },
+          "#BatteryComponent-batteryIcon_Text_batterySoc": {
+            "center": [
+              0.92,
+              0.03
+            ],
+            "bounds": "[972,43][1012,82]"
+          },
+          "#StatusBarView_LiveCapsuleListContainer": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          },
+          "#[Live]LiveCapsuleListView": {
+            "center": [
+              0.5,
+              0.03
+            ],
+            "bounds": "[497,20][582,104]"
+          }
+        }
+      },
+      "ms": 1096
+    },
+    {
+      "i": 17,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow3-filter.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow3-filter.png",
+      "ms": 539
+    },
+    {
+      "i": 18,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 931
+    },
+    {
+      "i": 19,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =办公配件",
+      "ms": 1295
+    },
+    {
+      "i": 20,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"主页\" @135,2286",
+      "changed": true,
+      "ms": 4418
+    },
+    {
+      "i": 21,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 1161
+    },
+    {
+      "i": 22,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"搜索商品\" @590,204",
+      "changed": true,
+      "ms": 4734
+    },
+    {
+      "i": 23,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =搜索",
+      "ms": 1112
+    },
+    {
+      "i": 24,
+      "op": "type",
+      "ok": true,
+      "detail": "输入到 TextInput \"\" @528,204",
+      "ms": 3591
+    },
+    {
+      "i": 25,
+      "op": "tap",
+      "ok": true,
+      "detail": "点 Text \"搜索\" @907,205",
+      "occludedBy": "root [0,108][1080,2406]",
+      "changed": true,
+      "ms": 4493
+    },
+    {
+      "i": 26,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =筛选",
+      "ms": 1061
+    },
+    {
+      "i": 27,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow3-search-result.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow3-search-result.png",
+      "ms": 560
+    },
+    {
+      "i": 28,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 947
+    },
+    {
+      "i": 29,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 =搜索历史",
+      "ms": 1024
+    },
+    {
+      "i": 30,
+      "op": "expect",
+      "ok": true,
+      "detail": "命中 1/1",
+      "ms": 1152
+    },
+    {
+      "i": 31,
+      "op": "shot",
+      "ok": true,
+      "detail": "output/CoolMallHM/spec/screenshots/flow3-search-history.png",
+      "shot": "output/CoolMallHM/spec/screenshots/flow3-search-history.png",
+      "ms": 523
+    },
+    {
+      "i": 32,
+      "op": "back",
+      "ok": true,
+      "detail": "",
+      "ms": 942
+    },
+    {
+      "i": 33,
+      "op": "wait",
+      "ok": true,
+      "detail": "出现 搜索商品",
+      "ms": 1195
+    },
+    {
+      "i": 34,
+      "op": "alive",
+      "ok": true,
+      "detail": "进程在·前台",
+      "ms": 240
+    }
+  ],
+  "ok": true,
+  "crash": null,
+  "seen": {
+    "texts": [
+      "搜索商品",
+      "【满减券】小米精选满 299 减 30 元",
+      "领取",
+      "手机",
+      "平板",
+      "穿戴",
+      "电脑办公",
+      "电视影音",
+      "生活家电",
+      "智能家居",
+      "出行箱包",
+      "清洁电器",
+      "厨房个护",
+      "限时精选",
+      "查看全部",
+      "主页",
+      "分类",
+      "购物车",
+      "我的",
+      "09, :, 21",
+      "09",
+      ":",
+      "21",
+      "80",
+      "Xiaomi 数字旗舰",
+      "Xiaomi MIX系列",
+      "Xiaomi Civi",
+      "K系列",
+      "Note系列",
+      "Turbo系列",
+      "数字系列",
+      "REDMI平板",
+      "Xiaomi平板",
+      "笔记本",
+      "显示器",
+      "办公配件",
+      "旗舰系列",
+      "性价比爆款",
+      "巨幕影院",
+      "热销推荐",
+      "主推新品",
+      "波轮洗衣机",
+      "小爱音箱",
+      "路由器",
+      "智能安防",
+      "09, :, 22",
+      "22",
+      "搜索",
+      "筛选",
+      "综合",
+      "销量",
+      "价格",
+      "Xiaomi Book Pro 14",
+      "第三代英特尔酷睿 Ultra 处理器 | 至高50W持久释放 | 1.08kg 超轻薄设计 | 3.1K高清高刷OLED屏",
+      "¥8499.00",
+      "已售177件",
+      "REDMI Book 14 2025",
+      "47W 满血性能 | 小米澎湃智联 | 旗舰硬核品质",
+      "¥3599.00",
+      "已售454件",
+      "价格区间",
+      "智能手环",
+      "智能手表",
+      "智能耳机",
+      "其他穿戴",
+      "重置",
+      "确定",
+      "推荐搜索",
+      "Xiaomi 17",
+      "Xiaomi 17 Pro",
+      "Xiaomi 17 Ultra",
+      "Xiaomi 17T Pro",
+      "REDMI K90 Pro",
+      "REDMI Note 17 Pro",
+      "REDMI Turbo 5",
+      "Xiaomi Pad 8 Pro",
+      "REDMI Pad 2 Pro",
+      "REDMI Watch 6",
+      "小米手环 10",
+      "路由器 BE7000",
+      "米家洗衣机",
+      "米家扫拖机器人",
+      "智能摄像机",
+      "充电宝",
+      "蓝牙耳机",
+      "电视 S Mini LED",
+      "旅行热水杯",
+      "Redmi",
+      "REDMI K90 至尊版",
+      "狂暴双芯 | 风冷主动散热 | 165Hz 高刷屏",
+      "¥2999.00",
+      "已售139件",
+      "抗摔 防水 长续航",
+      "¥1599.00",
+      "已售4件",
+      "REDMI Turbo 5 Max",
+      "天玑 9500s | 9000mAh 最大小米电池 | 1.5K 超级阳光屏",
+      "¥2499.00",
+      "已售1753件",
+      "REDMI 17C",
+      "【质感影像】1300万高清主摄",
+      "¥799.00",
+      "已售1件",
+      "搜索历史"
+    ],
+    "ids": [
+      "session23",
+      "StatusBarBox",
+      "StatusBarBridgeView",
+      "status_bar_color_picker",
+      "StatusBarView",
+      "StatusBarBackground_Row_0",
+      "sbg_left",
+      "StatusBarIconWrapper_status_bar_clock",
+      "ClockStatusView",
+      "TimeView_Text_timeText",
+      "PluginRootComponent_Stack_status_bar_notification_icon",
+      "__100_20020091_com.huawei.hmos.ouc__10_StatusBarAppIcon",
+      "__0_1018___1_StatusBarAppIcon",
+      "sbg_right",
+      "StatusBarIconWrapper_status_bar_ring_mode",
+      "ringmode-StatusBarIconItemRingModeComponent_Image_ringMode",
+      "StatusBarIconWrapper_status_bar_wifi",
+      "WifiComponent-WifiIcon_Image_wifi_signal_category",
+      "WifiComponent-WifiIcon_Image_wifi_signal_level",
+      "WifiComponent-WifiIcon_Image_wifi_data_flow",
+      "StatusBarIconWrapper_status_bar_signal",
+      "SignalComponent-SignalIcon_Image_cellularImage",
+      "StatusBarIconWrapper_status_bar_battery",
+      "BatteryComponent-batteryIcon_Image_batteryIcon",
+      "BatteryComponent-batteryIcon_Image_batteryBorder",
+      "BatteryComponent-batteryIcon_Text_batterySoc",
+      "StatusBarView_LiveCapsuleListContainer",
+      "[Live]LiveCapsuleListView",
+      "filter_scroll",
+      "filter_title",
+      "filter_bottom",
+      "parentLayout",
+      "SkinBgContent",
+      "SkinBgContentStack",
+      "index_content",
+      "index_stack_container",
+      "index_outer",
+      "functionView",
+      "downMenu",
+      "downMenu_container",
+      "downMenu_flex",
+      "KeyMenu",
+      "kbd_toolbar_list_menu",
+      "KeyCustom_0",
+      "KeyCustom_1",
+      "KeyCustom_2",
+      "KeyHideKbd",
+      "downMenu_line",
+      "index_keyMenu_container",
+      "KeyboardCanvas",
+      "KeyCanvasKeyboard",
+      "shortPop",
+      "keyboardPanel4",
+      "keyboard167",
+      "inputMethodPanel",
+      "keyboardLeftButton",
+      "keyboardRightButton"
+    ]
+  },
+  "tapsNoChange": 0,
+  "failStreak": 0
+}

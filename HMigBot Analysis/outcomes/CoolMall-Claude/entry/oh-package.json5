@@ -1,0 +1,15 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@cashier_alipay/cashiersdk": "15.8.44"
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.25"
+  },
+  "dynamicDependencies": {}
+}

@@ -1,0 +1,209 @@
+{
+ "bundle": "com.joker.coolmall",
+ "name": "flow-browse-cart",
+ "steps": [
+  {
+   "op": "start",
+   "fresh": true
+  },
+  {
+   "op": "wait",
+   "match": "=跳过"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "青商城 - 开源电商学习项目",
+    "=继续"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=继续"
+  },
+  {
+   "op": "tap",
+   "match": "=继续"
+  },
+  {
+   "op": "tap",
+   "match": "=继续"
+  },
+  {
+   "op": "wait",
+   "match": "=开始体验"
+  },
+  {
+   "op": "tap",
+   "match": "=开始体验"
+  },
+  {
+   "op": "wait",
+   "match": "搜索商品"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=主页",
+    "=分类",
+    "=购物车",
+    "=我的",
+    "限时精选",
+    "查看全部"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow1-home"
+  },
+  {
+   "op": "scrollUntil",
+   "match": "推荐商品",
+   "dir": "up",
+   "max": 6
+  },
+  {
+   "op": "tap",
+   "match": "=Xiaomi 15 Ultra"
+  },
+  {
+   "op": "wait",
+   "match": "=加入购物车"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=选择规格",
+    "发货与服务",
+    "云南省 昆明市",
+    "7天无理由退货 · 运费险 · 48小时发货",
+    "满299减30元"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow1-detail"
+  },
+  {
+   "op": "tap",
+   "match": "=加入购物车"
+  },
+  {
+   "op": "wait",
+   "match": "=规格分类"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=未选择"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=白色 12GB+256GB"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "已选：白色 12GB\\+256GB",
+    "库存：297",
+    "=数量"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=加入购物车",
+   "within": "type:^SheetPage$"
+  },
+  {
+   "op": "probe",
+   "match": [
+    "添加购物车成功"
+   ]
+  },
+  {
+   "op": "expect",
+   "match": [
+    "已选：白色 12GB\\+256GB",
+    "=客服"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow1-added"
+  },
+  {
+   "op": "sleep",
+   "ms": 1500
+  },
+  {
+   "op": "tap",
+   "match": "=购物车"
+  },
+  {
+   "op": "wait",
+   "match": "=编辑"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=Xiaomi 15 Ultra",
+    "白色 12GB\\+256GB",
+    "¥0.00",
+    "=结算"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "type:^Image$",
+   "nth": 1
+  },
+  {
+   "op": "expect",
+   "match": [
+    "结算\\(1\\)"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow1-cart-selected"
+  },
+  {
+   "op": "tap",
+   "match": "结算\\(1\\)"
+  },
+  {
+   "op": "wait",
+   "match": "=验证码登录"
+  },
+  {
+   "op": "expect",
+   "match": [
+    "=账号密码登录",
+    "=其他登录方式",
+    "=QQ",
+    "=微信",
+    "=支付宝"
+   ]
+  },
+  {
+   "op": "tap",
+   "match": "=微信",
+   "expectNoChange": true,
+   "note": "Toast-only feedback (~2s) is shorter than the driver tap→dump latency (~4s), so the tree does not change; walk.mjs timing limit"
+  },
+  {
+   "op": "probe",
+   "match": [
+    "三方登录暂时仅支持QQ登录"
+   ]
+  },
+  {
+   "op": "shot",
+   "name": "flow1-login-wall"
+  },
+  {
+   "op": "alive"
+  }
+ ]
+}

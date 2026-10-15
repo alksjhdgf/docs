@@ -1,0 +1,28 @@
+{
+  "bundle": "com.joker.coolmall",
+  "hap": {
+    "file": "entry-default-signed.hap",
+    "size": 525445,
+    "mtime": "2026-10-14T17:03:38.416Z"
+  },
+  "hooks": {
+    "passthrough": true,
+    "landingLog": true
+  },
+  "routes": [
+    {
+      "route": "(cold-start)",
+      "foreground": true,
+      "landed": "LaunchRoutesSplash",
+      "nodes": 4,
+      "windowNodes": 57,
+      "textCount": 1,
+      "missing": [],
+      "shot": "output/CoolMallHM/spec/smoke/smoke-home.png",
+      "verdict": "scaffold",
+      "failing": false
+    }
+  ],
+  "crash": null,
+  "launcher": "LaunchRoutesSplash"
+}

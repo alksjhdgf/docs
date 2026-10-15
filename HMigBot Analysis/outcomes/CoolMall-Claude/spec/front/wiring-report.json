@@ -1,0 +1,447 @@
+{
+  "manifest": "input/CoolMallKotlin/app/src/main/AndroidManifest.xml",
+  "out": "output/CoolMallHM/entry/src/main/ets",
+  "launcher": "LaunchRoutesSplash",
+  "launcherResolved": true,
+  "sources": {
+    "manifest": 1,
+    "navgraph": 0,
+    "compose": 34,
+    "ledger": 0
+  },
+  "routes": [
+    {
+      "route": "UserRoutesProfile",
+      "from": "compose:<UserRoutes.Profile>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "UserRoutesAddressList",
+      "from": "compose:<UserRoutes.AddressList>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "UserRoutesAddressDetail",
+      "from": "compose:<UserRoutes.AddressDetail>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "UserRoutesFootprint",
+      "from": "compose:<UserRoutes.Footprint>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OrderRoutesList",
+      "from": "compose:<OrderRoutes.List>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OrderRoutesConfirm",
+      "from": "compose:<OrderRoutes.Confirm>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OrderRoutesDetail",
+      "from": "compose:<OrderRoutes.Detail>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OrderRoutesPay",
+      "from": "compose:<OrderRoutes.Pay>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OrderRoutesLogistics",
+      "from": "compose:<OrderRoutes.Logistics>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OrderRoutesRefund",
+      "from": "compose:<OrderRoutes.Refund>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "OrderRoutesComment",
+      "from": "compose:<OrderRoutes.Comment>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "MarketRoutesCoupon",
+      "from": "compose:<MarketRoutes.Coupon>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "MainRoutesMain",
+      "from": "compose:<MainRoutes.Main>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "MainRoutesCart",
+      "from": "compose:<MainRoutes.Cart>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "LaunchRoutesSplash",
+      "from": "compose:<LaunchRoutes.Splash>",
+      "source": "compose",
+      "launcher": true,
+      "enabled": true
+    },
+    {
+      "route": "LaunchRoutesGuide",
+      "from": "compose:<LaunchRoutes.Guide>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "GoodsRoutesDetail",
+      "from": "compose:<GoodsRoutes.Detail>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "GoodsRoutesSearch",
+      "from": "compose:<GoodsRoutes.Search>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "GoodsRoutesComment",
+      "from": "compose:<GoodsRoutes.Comment>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "GoodsRoutesCategory",
+      "from": "compose:<GoodsRoutes.Category>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "FeedbackRoutesList",
+      "from": "compose:<FeedbackRoutes.List>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "FeedbackRoutesSubmit",
+      "from": "compose:<FeedbackRoutes.Submit>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "CsRoutesChat",
+      "from": "compose:<CsRoutes.Chat>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "CommonRoutesAbout",
+      "from": "compose:<CommonRoutes.About>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "CommonRoutesWeb",
+      "from": "compose:<CommonRoutes.Web>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "CommonRoutesSettings",
+      "from": "compose:<CommonRoutes.Settings>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "CommonRoutesUserAgreement",
+      "from": "compose:<CommonRoutes.UserAgreement>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "CommonRoutesPrivacyPolicy",
+      "from": "compose:<CommonRoutes.PrivacyPolicy>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "CommonRoutesContributors",
+      "from": "compose:<CommonRoutes.Contributors>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "AuthRoutesLogin",
+      "from": "compose:<AuthRoutes.Login>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "AuthRoutesAccountLogin",
+      "from": "compose:<AuthRoutes.AccountLogin>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "AuthRoutesSmsLogin",
+      "from": "compose:<AuthRoutes.SmsLogin>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "AuthRoutesRegister",
+      "from": "compose:<AuthRoutes.Register>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    },
+    {
+      "route": "AuthRoutesResetPassword",
+      "from": "compose:<AuthRoutes.ResetPassword>",
+      "source": "compose",
+      "launcher": false,
+      "enabled": true
+    }
+  ],
+  "files": [
+    {
+      "file": "common/Router.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/UserRoutesProfilePage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/UserRoutesAddressListPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/UserRoutesAddressDetailPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/UserRoutesFootprintPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OrderRoutesListPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OrderRoutesConfirmPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OrderRoutesDetailPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OrderRoutesPayPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OrderRoutesLogisticsPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OrderRoutesRefundPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/OrderRoutesCommentPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/MarketRoutesCouponPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/MainRoutesMainPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/MainRoutesCartPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/LaunchRoutesSplashPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/LaunchRoutesGuidePage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/GoodsRoutesDetailPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/GoodsRoutesSearchPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/GoodsRoutesCommentPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/GoodsRoutesCategoryPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/FeedbackRoutesListPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/FeedbackRoutesSubmitPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/CsRoutesChatPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/CommonRoutesAboutPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/CommonRoutesWebPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/CommonRoutesSettingsPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/CommonRoutesUserAgreementPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/CommonRoutesPrivacyPolicyPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/CommonRoutesContributorsPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/AuthRoutesLoginPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/AuthRoutesAccountLoginPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/AuthRoutesSmsLoginPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/AuthRoutesRegisterPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/AuthRoutesResetPasswordPage.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "pages/Index.ets",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "main_pages.json.generated",
+      "action": "skip(已存在，绝不覆盖)"
+    },
+    {
+      "file": "entryability/EntryAbility.ets",
+      "action": "skip(透传已在)"
+    },
+    {
+      "file": "../resources/base/profile/route_map.json",
+      "action": "merge(无新增)"
+    }
+  ],
+  "appInitScanned": true,
+  "appInit": {
+    "applicationClass": ".Application",
+    "appManifest": "input/CoolMallKotlin/app/src/main/AndroidManifest.xml",
+    "applicationCandidates": [
+      {
+        "applicationClass": ".Application",
+        "manifest": "input/CoolMallKotlin/app/src/main/AndroidManifest.xml"
+      }
+    ],
+    "ambiguous": false,
+    "file": "app/src/main/java/com/joker/coolmall/Application.kt",
+    "classFound": true,
+    "superChain": [
+      "Application"
+    ],
+    "onCreateSites": [
+      {
+        "cls": "Application",
+        "file": "app/src/main/java/com/joker/coolmall/Application.kt",
+        "startLine": 27,
+        "endLine": 37,
+        "bodyLines": 5
+      }
+    ],
+    "callHints": [
+      "initToast",
+      "initLog",
+      "initMMKV",
+      "initQQ",
+      "appState.initialize"
+    ],
+    "providers": [],
+    "startupInitializers": [],
+    "workManagerProvider": false,
+    "di": "Hilt"
+  }
+}
